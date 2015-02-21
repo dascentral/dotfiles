@@ -18,20 +18,10 @@ If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read Zack's post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
-## install
-
-Run this:
+## Initial Configuration
 
 TBD
 
-## topical
-
-TBD
-
-## what's inside
-
-TBD
-
-## components
+## Install
 
 TBD
