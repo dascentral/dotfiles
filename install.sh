@@ -4,8 +4,7 @@
 # macOS Setup Script - macOS 10.11.3
 #
 # DESCRIPTION
-# A series of customizations that personalizes a macOS system and installs
-# various software packages that are frequently used.
+# Facilitates installation of various software packages that I frequently use.
 #
 # NOTES
 # - No notes of merit.
