@@ -20,22 +20,17 @@
 #
 #===================================================================================
 
+# Let it breathe
+printf "\n"
+
 # Install Homebrew
 ./install/homebrew.sh
 
-# COMMAND LINE UTILITIES
+# Command Line Utilities
+./install/cli/ssh-copy-id.sh
+./install/cli/ack.sh
 
-# Install SSH Copy ID
-if [ ! -e "/usr/local/bin/ssh-copy-id" ]; then
-    brew install ssh-copy-id
-fi
-
-# Install ack - Better tool than grep
-if [ ! -e "/usr/local/bin/ack" ]; then
-    brew install ack
-fi
-
-# WEB DEVELOPMENT
+# Web Development
 ./install/web/composer.sh
 ./install/web/nvm.sh
 ./install/web/rvm.sh
