@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#===================================================================================
+#
+# Since the new Outlook sucks and crashes all of the time, this script is
+# necessary to get it back up and running.
+#
+#===================================================================================
+
+defaults delete com.microsoft.Outlook
+killall cfprefsd
