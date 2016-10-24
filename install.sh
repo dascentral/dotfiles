@@ -21,7 +21,7 @@
 #
 #===================================================================================
 
-# Install Homebrew and Various 
+# Install Homebrew
 ./install/homebrew.sh
 
 # COMMAND LINE UTILITIES
@@ -37,18 +37,12 @@ if [ ! -e "/usr/local/bin/ack" ]; then
 fi
 
 # WEB DEVELOPMENT
-
-# PHP - Composer
-./install/composer.sh
+./install/web/composer.sh
+./install/web/nvm.sh
+./install/web/rvm.sh
 
 # PHP - Install PHP Coding Standards Fixer
 #composer global require friendsofphp/php-cs-fixer
-
-# Node
-./install/nvm.sh
-
-# Ruby
-./install/rvm.sh
 
 # Gulp
 #npm install -g gulp
