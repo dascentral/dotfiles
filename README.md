@@ -25,7 +25,8 @@ Installation can be accomplished via the script in the root of this repo:
 ./install.sh
 ```
 
-Installation only needs to be completed once after initial clone of this repo.
+The installation scripot can be safely run multiple times. Items that have
+already been installed will be skipped.
 
 ## Updates
 To update the local dotfiles, run the `update.sh` shell script. This will
