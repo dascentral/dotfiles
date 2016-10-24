@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+    <div class="form-group{{ \$errors->has('${1}') ? ' has-error' : '' }}">
+        {!! Form::label('${1}', '${2}', ['class' => 'control-label']) !!}
+        {!! Form::text('${1}', null, ['class' => 'form-control']) !!}
+        @if (\$errors->has('${1}'))
+        <p class="help-block">{{ \$errors->first('${1}') }}</p>
+        @endif
+    </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tif</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.php</scope> -->
+</snippet>
