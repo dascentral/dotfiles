@@ -16,7 +16,7 @@
 # - See comments below. Easier to define the actions there.
 # 
 # ASSUMPTIONS
-# - No assumptions. Run it!
+# - You're running macOS 10.11.3.
 #
 #===================================================================================
 
