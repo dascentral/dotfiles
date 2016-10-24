@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# Composer Install Script - macOS 10.11.3 - https://getcomposer.org/download/
+# Composer Install Script - https://getcomposer.org/download/
 #===================================================================================
 
 # setup

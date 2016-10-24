@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# NVM Install Script - macOS 10.11.3 - https://github.com/creationix/nvm/
+# NVM Install Script - https://github.com/creationix/nvm/
 #===================================================================================
 
 # setup
