@@ -34,6 +34,7 @@ printf "\n"
 ./install/web/composer.sh
 ./install/web/nvm.sh
 ./install/web/rvm.sh
+./install/web/yarn.sh
 
 # PHP - Install PHP Coding Standards Fixer
 #composer global require friendsofphp/php-cs-fixer
