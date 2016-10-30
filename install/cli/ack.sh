@@ -14,6 +14,7 @@ if [ -e $check ]; then
     printf "\033[1m already installed.\n\n\033[0m"
     exit 1;
 fi
+printf "\n"
 
 # Install
 brew install ack
