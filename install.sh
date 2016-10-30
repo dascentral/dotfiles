@@ -27,6 +27,7 @@ printf "\n"
 ./install/homebrew.sh
 
 # Command Line Utilities
+./install/cli/mas.sh
 ./install/cli/ssh-copy-id.sh
 ./install/cli/ack.sh
 
