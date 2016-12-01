@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# Homebrew Install Script - http://brew.sh/
+# Composer Global Require (cgr) - https://github.com/consolidation/cgr
 #===================================================================================
 
 # setup
