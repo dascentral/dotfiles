@@ -33,6 +33,7 @@ printf "\n"
 
 # Web Development
 ./install/web/composer.sh
+./install/web/cgr.sh
 ./install/web/nvm.sh
 ./install/web/rvm.sh
 ./install/web/yarn.sh
