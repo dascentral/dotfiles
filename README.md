@@ -37,20 +37,22 @@ Installation can be accomplished via the script in the root of this repo:
 The installation script can be safely run multiple times. Items that have
 already been installed will be skipped.
 
-## Updates
-I initially felt I should maintain separate installation and update scripts
-however I have decided that a single installation script that can safely
-be run multiple times is the best approach.
+Please note that the installation script will perform a hard reset before
+attempting to bring down the latest from the origin repository. Any local
+changes that have been made will be lost prior to installation.
 
-I will eventually move all functionlaity within the update script into
-the installation script. The repo is really incomplete until that happens.
 
-To update the local dotfiles, run the `update.sh` shell script. This will
-pull the latest from the `master` branch and put new items into place.
+## Resources & Inspiration
+The following articles and repositories may provide inspiration as you setup
+your own dotfiles repository.
 
-```bash
-./update.sh
-```
 
-## References
+### Articles
+* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) - Zack Holman, Aug 2010
+* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) - Dries Vints, April 2016
 
+
+## Repositories
+* [dotfiles.github.io](https://dotfiles.github.io/) - Your unofficial guide to dotfiles on GitHub.
+* [Zach Holman](https://github.com/holman/dotfiles)
+* [Dries Vints](https://github.com/driesvints/dotfiles)
