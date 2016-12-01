@@ -12,3 +12,4 @@ printf "\n"
 # Ensure we have the latest
 printf "\033[1mPulling latest from origin.\033[0m\n"
 git pull
+printf "\n"
