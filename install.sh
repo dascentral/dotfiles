@@ -25,7 +25,11 @@ clear
 # Let it breathe
 printf "\n"
 
-# Install Homebrew
+# Update Repository
+./install/update.sh
+
+# Global Elements
+./install/bin.sh
 ./install/homebrew.sh
 
 # Command Line Utilities
