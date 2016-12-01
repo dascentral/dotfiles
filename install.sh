@@ -7,7 +7,7 @@
 # Facilitates installation of various software packages that I frequently use.
 #
 # NOTES
-# - No notes of merit.
+# - This script is safe to run multiple times.
 # 
 # PARAMETERS
 # - No parameters required.
@@ -19,6 +19,8 @@
 # - You're running macOS 10.11.3.
 #
 #===================================================================================
+
+clear
 
 # Let it breathe
 printf "\n"
