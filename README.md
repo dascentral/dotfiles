@@ -52,7 +52,7 @@ your own dotfiles repository.
 * [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) - Dries Vints, April 2016
 
 
-## Repositories
+### Repositories
 * [dotfiles.github.io](https://dotfiles.github.io/) - Your unofficial guide to dotfiles on GitHub.
 * [Zach Holman](https://github.com/holman/dotfiles)
 * [Dries Vints](https://github.com/driesvints/dotfiles)
