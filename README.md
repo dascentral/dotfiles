@@ -25,7 +25,7 @@ Installation can be accomplished via the script in the root of this repo:
 ./install.sh
 ```
 
-The installation scripot can be safely run multiple times. Items that have
+The installation script can be safely run multiple times. Items that have
 already been installed will be skipped.
 
 ## Updates
