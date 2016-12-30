@@ -5,7 +5,7 @@
 #===================================================================================
 
 # setup
-name="cgr (composer global require)"
+name="Composer Global Require"
 check="/Users/$USER/.composer/vendor/bin/cgr"
 
 # Check if installed
