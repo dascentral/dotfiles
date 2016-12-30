@@ -6,7 +6,8 @@
 
 # setup
 name="NVM"
-check="/Users/$USER/.nvm"
+check="/usr/local/opt/nvm"
+#check="/Users/$USER/.nvm"
 
 # Check if installed
 printf "\033[1mInstalling $name...\033[0m"
