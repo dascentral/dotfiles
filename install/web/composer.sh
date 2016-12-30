@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# Composer Install Script - https://getcomposer.org/download/
+# Composer - https://getcomposer.org/download/
 #===================================================================================
 
 # setup

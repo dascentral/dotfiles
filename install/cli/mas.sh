@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# Mac App Store CLI Install Script - https://github.com/mas-cli/mas
+# Mac App Store CLI - https://github.com/mas-cli/mas
 #===================================================================================
 
 # setup

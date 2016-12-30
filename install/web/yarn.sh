@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===================================================================================
-# Composer Install Script - https://getcomposer.org/download/
+# Yarn - https://yarnpkg.com/en/docs/install
 #===================================================================================
 
 # setup

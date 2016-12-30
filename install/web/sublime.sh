@@ -1,10 +1,10 @@
 #!/bin/sh
 
 #===================================================================================
-# RVM Install Script - https://rvm.io/rvm/install
+# Sublime Text 3 Customizations - https://rvm.io/rvm/install
 #===================================================================================
 
-# setup# Install Sublime Text 3 items
+# Install Sublime Text 3 items
 printf "\033[1mUpdating Sublime Text 3 preferences, builds, and snippets...\033[0m"
 cp sublime/preferences/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 cp -R sublime/builds ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
