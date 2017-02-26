@@ -12,6 +12,7 @@ check="/usr/local/bin/composer"
 if [ -e $check ]; then
     printf "\033[1mUpdating $name...\033[0m\n"
     /usr/local/bin/composer self-update
+    printf "\n\n"
     exit 0;
 fi
 printf "\n"
