@@ -31,6 +31,7 @@ printf "\n"
 # Global Elements
 ./install/bin.sh
 ./install/homebrew.sh
+./install/sublime.sh
 
 # Command Line Utilities
 ./install/cli/ack.sh
