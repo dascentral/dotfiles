@@ -4,7 +4,7 @@
         {!! Form::label('${1}', '${2}', ['class' => 'control-label']) !!}
         {!! Form::email('${1}', null, ['class' => 'form-control', 'placeholder' => 'email@domain.com']) !!}
         @if (\$errors->has('${1}'))
-        <p class="help-block">{{ \$errors->first('${1}') }}</p>
+            <p class="help-block">{{ \$errors->first('${1}') }}</p>
         @endif
     </div>
 ]]></content>
