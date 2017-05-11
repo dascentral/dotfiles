@@ -18,7 +18,7 @@ fi
 printf "\n"
 
 # Install NVM v0.31.7
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 # The following lines SHOULD be added to ~/.zshrc
 #export NVM_DIR="/usr/local/opt/nvm"
