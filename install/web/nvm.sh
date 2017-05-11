@@ -6,8 +6,7 @@
 
 # setup
 name="NVM"
-check="/usr/local/opt/nvm"
-#check="/Users/$USER/.nvm"
+check="/Users/$USER/.nvm"
 
 # Check if installed
 printf "\033[1mInstalling $name...\033[0m"
@@ -17,7 +16,7 @@ if [ -e $check ]; then
 fi
 printf "\n"
 
-# Install NVM v0.31.7
+# Install
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 # The following lines SHOULD be added to ~/.zshrc
