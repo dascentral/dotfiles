@@ -15,4 +15,4 @@ cp sublime/snippets/* /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3
 
 # Wrap it up
 printf "\033[1m complete.\033[0m"
-printf "\n\n\n"
+printf "\n\n"

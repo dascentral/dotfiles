@@ -25,4 +25,4 @@ printf "\033[1mInstalling $name...\033[0m"
 brew update
 
 # Wrap it up
-printf "\n\n\n"
+printf "\n\n"
