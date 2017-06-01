@@ -10,4 +10,4 @@ cp bin/* /usr/local/bin
 printf "\033[1m complete.\033[0m"
 
 # Wrap it up
-printf "\n\n"
+printf "\n\n\n"
