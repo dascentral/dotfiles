@@ -11,9 +11,9 @@
         <tbody>
             @foreach (\$data as \$item)
                 <tr data-row-url="{{ route('ROUTE', \$item->id) }}">
-                    <td>{{ \$var1 }}</td>
-                    <td>{{ \$var2 }}</td>
-                    <td>{{ \$var3 }}</td>
+                    <td>{{ \$item->var1 }}</td>
+                    <td>{{ \$item->var2 }}</td>
+                    <td>{{ \$item->var3 }}</td>
                 </tr>
             @endforeach
         </tbody>
