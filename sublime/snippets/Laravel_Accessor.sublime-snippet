@@ -3,11 +3,11 @@
     /**
      * Create a "${1}" attribute.
      *
-     * @return TYPE
+     * @return ${2}
      */
-    public function get${2}Attribute()
+    public function get${3}Attribute()
     {
-        return ${3};
+        return ${4};
     }
 
 ]]></content>
