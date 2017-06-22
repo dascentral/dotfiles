@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
     /**
-     * Create a "field_name" attribute.
+     * Create a "${1}" attribute.
      *
      * @return TYPE
      */
-    public function getFieldNameAttribute()
+    public function get${2}Attribute()
     {
-        //return "value";
+        return ${3};
     }
 
 ]]></content>
