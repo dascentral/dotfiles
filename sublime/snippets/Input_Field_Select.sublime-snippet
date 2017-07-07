@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
     <div class="form-group{{ \$errors->has('${1}') ? ' has-error' : '' }}">
-        {!! Form::label('${1}', '${2}', ['class' => 'control-label']) !!}
-        {!! Form::select('${1}', $options, null, ['class' => 'form-control']) !!}
+        {{ Form::label('${1}', '${2}', ['class' => 'control-label']) }}
+        {{ Form::select('${1}', $options, null, ['class' => 'form-control']) }}
         @if (\$errors->has('${1}'))
             <p class="help-block">{{ \$errors->first('${1}') }}</p>
         @endif
