@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#===================================================================================
+#
+# Script that searches through a Laravel codebase with the "ack" command.
+# The "storage" and "node_modules" folders are ignored.
+#
+# Two Required Parameters
+# 1) Search String
+#
+#===================================================================================
+
+if [ $# != 1 ]; then
+    echo "Usage: lack [search]";
+else
+    ack --ignore-dir=storage --ignore-dir=node_modules $1
+fi
