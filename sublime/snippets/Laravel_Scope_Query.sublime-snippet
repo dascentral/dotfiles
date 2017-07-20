@@ -6,7 +6,7 @@
      * @param  $query
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scope${1}($query)
+    public function scope${2}($query)
     {
         return $query->where(${3});
     }
