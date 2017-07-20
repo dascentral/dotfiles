@@ -3,12 +3,12 @@
     /**
      * Filter only the ${1}
      *
-     * @param  $query
+     * @param  \$query
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scope${2}($query)
+    public function scope${2}(\$query)
     {
-        return $query->where(${3});
+        return \$query->where(${3});
     }
 
 ]]></content>
