@@ -13,5 +13,5 @@
 if [ $# != 1 ]; then
     echo "Usage: lack [search]";
 else
-    ack --ignore-dir=storage --ignore-dir=node_modules --ignore-dir=vendor $1
+    ack --ignore-dir=storage --ignore-dir=node_modules --ignore-dir=public --ignore-dir=vendor $1
 fi
