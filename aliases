@@ -28,7 +28,7 @@ alias vhosts='cd /etc/apache2/vhosts'
 alias cda='composer dump-autoload'
 alias routes='php artisan route:list'
 alias seed='php artisan migrate:refresh --seed && php artisan db:seed:dev'
-alias ti='tail -f storage/logs/laravel.log'
+alias tl='tail -f storage/logs/laravel.log'
 
 # Git
 alias nah='git reset HEAD --hard'
