@@ -41,6 +41,7 @@
     "remember_open_files": true,
     "save_on_focus_lost": false,
     "show_panel_on_build": false,
+    "scroll_past_end": true,
     "tab_size": 4,
     "theme": "Material-Theme.sublime-theme",
     "translate_tabs_to_spaces": true,
