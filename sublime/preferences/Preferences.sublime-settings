@@ -7,6 +7,7 @@
     "bold_folder_labels": true,
     "color_scheme": "Packages/User/SublimeLinter/Facebook (SL).tmTheme",
     "detect_indentation": false,
+    "ensure_newline_at_eof_on_save": true,
     "folder_exclude_patterns":
     [
         ".svn",
@@ -45,6 +46,7 @@
     "tab_size": 4,
     "theme": "Material-Theme.sublime-theme",
     "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
     "use_simple_full_screen": true,
     "word_wrap": "false"
 }
