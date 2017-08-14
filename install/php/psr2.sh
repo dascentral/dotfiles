@@ -10,7 +10,7 @@ check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
 
 # Check if installed
 if [ -e $check ]; then
-    printf "\033[1m$name already installed.\033[0m\n"
+    printf "\033[1m$name already installed.\033[0m\n\n"
     exit 0;
 fi
 
