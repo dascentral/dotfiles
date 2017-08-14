@@ -6,16 +6,13 @@
 
 # setup
 name="PSR-2 Code Formatting"
-#check="/usr/local/bin/composer"
+check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
 
 # Check if installed
-#if [ -e $check ]; then
-#    printf "\033[1mUpdating $name...\033[0m\n"
-#    /usr/local/bin/composer self-update
-#    printf "\n"
-#    exit 0;
-#fi
-#printf "\n"
+if [ -e $check ]; then
+    printf "\033[1m$name already installed.\033[0m\n"
+    exit 0;
+fi
 
 # Install
 printf "\033[1mInstalling $name...\033[0m\n"
