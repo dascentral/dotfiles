@@ -29,4 +29,4 @@ cp /Users/$USER/Workspace/dotfiles/sublime/preferences/SublimePhpCsFixer.sublime
 sed -i '.original' "s/USERNAME/$USER/g" /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimePhpCsFixer.sublime-settings
 
 # Wrap it up
-printf "\n\n"
+printf "\n"
