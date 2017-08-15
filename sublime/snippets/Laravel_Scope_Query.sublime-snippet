@@ -3,7 +3,7 @@
     /**
      * Filter only the ${1}
      *
-     * @param  \$query
+     * @param  \Illuminate\Database\Eloquent\Builder \$query
      * @return \Illuminate\Database\Eloquent\Builder
      */
     public function scope${2}(\$query)
