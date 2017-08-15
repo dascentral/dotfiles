@@ -10,13 +10,15 @@ check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
 
 # Check if installed
 if [ -e $check ]; then
-    printf "\033[1m$name already installed.\033[0m\n\n"
-    exit 0;
+    printf "\033[1m$name already installed.\033[0m\n"
+else
+    printf "\033[1mInstalling $name...\033[0m\n"
+    composer global require friendsofphp/php-cs-fixer
 fi
+printf "\n"
 
-# Install
-printf "\033[1mInstalling $name...\033[0m\n"
-composer global require friendsofphp/php-cs-fixer
+# Add PHP CS Fixer configuration
+printf "\033[1mConfiguring $name...\033[0m\n"
+cp /Users/$USER/Workspace/dotfiles/install/php/.phpcsfixer /Users/$USER
 
-# Wrap it up
 printf "\n"
