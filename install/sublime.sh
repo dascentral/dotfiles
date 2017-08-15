@@ -19,6 +19,10 @@ cp /Users/$USER/Workspace/dotfiles/sublime/snippets/* /Users/$USER/Library/Appli
 # PHP Companion
 cp /Users/$USER/Workspace/dotfiles/sublime/preferences/PHP\ Companion.sublime-settings /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
+# PHP CS Fixer
+cp /Users/$USER/Workspace/dotfiles/sublime/preferences/SublimePhpCsFixer.sublime-settings /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+sudo sed -i "s/USERNAME/$USER/g" /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimePhpCsFixer.sublime-settings
+
 # Wrap it up
 printf "\033[1m complete.\033[0m"
 printf "\n\n"
