@@ -5,7 +5,7 @@
 #===================================================================================
 
 # setup
-name="PSR-2 Code Formatting"
+name="PHP CS Fixer"
 check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
 
 # Check if installed
