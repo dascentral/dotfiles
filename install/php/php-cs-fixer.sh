@@ -18,7 +18,8 @@ fi
 printf "\n"
 
 # Add PHP CS Fixer configuration
-printf "\033[1mConfiguring $name...\033[0m\n"
+printf "\033[1mConfiguring $name...\033[0m"
 cp /Users/$USER/Workspace/dotfiles/install/php/.phpcsfixer /Users/$USER
 
-printf "\n"
+printf "\033[1m complete.\033[0m"
+printf "\n\n"
