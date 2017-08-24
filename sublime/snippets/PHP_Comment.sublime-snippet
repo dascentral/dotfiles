@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-    /**
-     * ${1}
-     */
-]]></content>
-    <tabTrigger>com</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

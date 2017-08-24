@@ -1,9 +1,0 @@
-[
-    // Origami
-    { "keys": ["super+k", "super+right"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
-
-    // PHP Companion
-    { "keys": ["alt+c"], "command": "insert_php_constructor_property" },
-    { "keys": ["alt+e"], "command": "expand_fqcn" },
-    { "keys": ["alt+u"], "command": "find_use" },
-]
