@@ -20,7 +20,6 @@ alias f644='find . -type f -exec chmod 644 {} \;'
 # Directory Switching
 alias dev='cd ~/Workspace'
 alias dot='cd ~/Workspace/dotfiles'
-alias vhosts='cd /etc/apache2/vhosts'
 
 # Updating Aliases
 alias ca='cat ~/.aliases'
