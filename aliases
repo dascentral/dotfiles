@@ -21,12 +21,12 @@ alias f644='find . -type f -exec chmod 644 {} \;'
 alias dev='cd ~/Workspace'
 alias dot='cd ~/Workspace/dotfiles'
 
-# Updating Aliases
+# Aliases
 alias ca='cat ~/.aliases'
 alias sa='source ~/.aliases'
 alias va='vi ~/.aliases-local'
 
-# Updating Z shell Config
+# Zsh Config
 alias vz='vi ~/.zshrc'
 alias sz='source ~/.zshrc'
 
