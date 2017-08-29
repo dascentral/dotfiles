@@ -14,8 +14,8 @@ alias size='du -hs ./'
 alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
 
 # Permissions
-alias fix_files='find . -type d -exec chmod 755 {} \;'
-alias fix_folders='find . -type f -exec chmod 644 {} \;'
+alias folders755='find . -type d -exec chmod 755 {} \;'
+alias files644='find . -type f -exec chmod 644 {} \;'
 
 # Directory Switching
 alias dev='cd ~/Workspace'
