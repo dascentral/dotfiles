@@ -20,6 +20,6 @@ fi
 if [ ! -e "/Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings" ]; then
     printf "\033[1mConfiguring SublimePhpCsFixer...\033[0m\n"
     cp /Users/${USER}/Workspace/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
-    sudo sed -i "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
+    sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
     printf "\033[1m complete.\033[0m\n\n"
 fi
