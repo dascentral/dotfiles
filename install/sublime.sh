@@ -23,6 +23,3 @@ if [ ! -e "/Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings" ]; then
     sudo sed -i "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
     printf "\033[1m complete.\033[0m\n\n"
 fi
-
-# Wrap it up
-printf "\n"
