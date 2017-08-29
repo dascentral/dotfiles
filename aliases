@@ -23,8 +23,9 @@ alias dot='cd ~/Workspace/dotfiles'
 alias vhosts='cd /etc/apache2/vhosts'
 
 # Updating Aliases
-alias va='vi ~/.aliases'
+alias ca='cat ~/.aliases'
 alias sa='source ~/.aliases'
+alias va='vi ~/.aliases-local'
 
 # Updating Z shell Config
 alias vz='vi ~/.zshrc'
