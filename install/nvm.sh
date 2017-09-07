@@ -9,12 +9,10 @@ name="NVM"
 check="/Users/$USER/.nvm"
 
 # Check if installed
-printf "\033[1mInstalling $name...\033[0m"
 if [ -e $check ]; then
-    printf "\033[1m already installed.\n\n\033[0m"
+    printf "\033[1;37m$name already installed.\n\n\033[0m"
     exit 0;
 fi
-printf "\n"
 
 # Install
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
