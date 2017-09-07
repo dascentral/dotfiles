@@ -15,7 +15,6 @@ else
     printf "\033[1mInstalling $name...\033[0m\n"
     composer global require friendsofphp/php-cs-fixer
 fi
-printf "\n"
 
 # Add PHP CS Fixer configuration
 printf "\033[1mConfiguring $name...\033[0m"
