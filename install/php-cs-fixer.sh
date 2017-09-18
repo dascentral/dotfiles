@@ -17,6 +17,10 @@ else
 fi
 
 # Add PHP CS Fixer configuration
+config="/usr/local/var/php-cs-fixer"
 printf "\033[1;33mConfiguring $name.\033[0m"
-cp /Users/$USER/Workspace/dotfiles/settings/php/.phpcsfixer /Users/$USER
+if [ ! -e $config]; then
+    mkdir $config
+fi
+cp /Users/$USER/Workspace/dotfiles/settings/php/.phpcsfixer $config
 printf "\n\n"
