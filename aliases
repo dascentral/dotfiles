@@ -4,7 +4,7 @@
 #------------------------------------------------------------------------------------------
 alias c='clear'
 alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
-alias flush_dns='dscacheutil -flushcache'
+alias flush_dns='sudo killall -HUP mDNSResponder'
 alias fn='find . -name'
 alias h='history'
 alias hg='history | grep'
