@@ -15,7 +15,7 @@ if [ -e $check ]; then
 fi
 
 # Install
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
 # The following lines SHOULD be added to ~/.zshrc
 #export NVM_DIR="/usr/local/opt/nvm"
