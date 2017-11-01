@@ -1,7 +1,6 @@
 # dotfiles
 
 ## Introduction
-
 dotfiles is a series of customizations that help me personalize my system.
 
 The notion of creating such a repo is not my own. Initially I forked a repo from
@@ -20,26 +19,11 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## Repository Contents
 Rather than exhaustively list the applications or software that is installed
-within this README, I have tried to add comments to each of the install
-scripts that live within the `install/` directory.
+within this README, I have tried to add comments to the scripts that live
+within this repository.
 
 It is likely easiest for you to browse contents of the repo to better
 understand what is accomplished via the installation script.
-
-
-## Install
-Installation can be accomplished via the script in the root of this repo:
-
-```bash
-./install.sh
-```
-
-The installation script can be safely run multiple times. Items that have
-already been installed will be skipped.
-
-Please note that the installation script will perform a hard reset before
-attempting to bring down the latest from the origin repository. Any local
-changes that have been made will be lost prior to installation.
 
 
 ## Resources & Inspiration
