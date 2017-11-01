@@ -13,8 +13,4 @@ if [ -e $check ]; then
     printf "\033[1mBrew update...\033[0m\n"
     brew update
     printf "\n"
-
-    printf "\033[1mBrew cleanup...\033[0m\n"
-    brew cleanup
-    printf "\n"
 fi
