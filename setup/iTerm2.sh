@@ -1,7 +1,22 @@
 #!/bin/sh
 
 #===================================================================================
-# Oh My Zsh
+# iTerm2 Setup Script - macOS
+#===================================================================================
+#
+# DESCRIPTION
+# Script that gets iTerm2 ready for use.
+#
+# PARAMETERS
+# - N/A
+#
+# ACTIONS PERFORMED
+# - Sets the Oh My Zsh theme
+# - Adds a reference to import aliases at the end of the ~/.zshrc file
+#
+# ASSUMPTIONS
+# - N/A
+#
 #===================================================================================
 
 path="/Users/$USER/.zshrc"
@@ -15,6 +30,7 @@ printf "# Source Aliases\n" >> $path
 printf "source ~/.aliases\n" >> $path
 printf "\n" >> $path
 
+#===================================================================================
 # Update the Path
 #export PATH="/bin:/usr/sbin:/usr/local/sbin:/sbin:/usr/local/bin:/usr/bin:/usr/local/mysql/bin:/usr/local/munki:/Users/douglas.smith/.composer/vendor/bin:/Users/douglas.smith/Library/Android/sdk/tools:/Users/douglas.smith/Library/Android/sdk/platform-tools:/Users/douglas.smith/Library/Android/sdk"
 
