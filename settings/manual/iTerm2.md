@@ -1,5 +1,14 @@
 # iTerm2
 
+## Overview
+As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
+within a local file. I have stored my preferences on Dropbox and have configured
+my latest iTerm2 installation to leverage that file.
+
+I am currently unsure if that settings file handles ALL options within the
+"Preferences" dialog. I'll keep the notes below around for a while until
+I am able to confirm.
+
 ## Preferences
 
 ### General
