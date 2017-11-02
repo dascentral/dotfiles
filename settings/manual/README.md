@@ -1,4 +1,4 @@
-# Manual Customizations
+# Manual Configurations
 
 ## Overview
 While I would love for all settings to be controlled programmatically, I just
