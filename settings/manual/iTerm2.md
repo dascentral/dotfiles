@@ -6,10 +6,13 @@
 * Preferences > General > Window > Deselect “Native full screen windows”
 * Preferences > General > Closing > Select “Quit when all windows are closed"
 
-### Profiles
+### Profiles:Window
 * Preferences > Profiles > Window > Set “Window Size” to 140 x 33
+
+### Profiles:Text
 * Preferences > Profiles > Text > Set “Font Size” to 14pt
-* Preferences > Profiles > Keys >
+
+### Profiles:Key
 * Preferences > Profiles > Keys > Left option key acts as: +Esc
 * Preferences > Profiles > Keys > "Opt+Left” becomes "Send Escape Sequence” with "Esc + b”
 * Preferences > Profiles > Keys > "Opt+Right” becomes "Send Escape Sequence” with "Esc + f"
