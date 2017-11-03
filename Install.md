@@ -7,7 +7,7 @@ of various software components that I use on a regular basis.
 ### Global Elements
 ```
 /Users/$USER/Workspace/dotfiles/install/oh-my-zsh.sh
-/Users/$USER/Workspace/dotfiles/install/homebrew-install.sh
+/Users/$USER/Workspace/dotfiles/install/homebrew.sh
 ```
 
 ### Command Line Utilities
@@ -23,14 +23,14 @@ of various software components that I use on a regular basis.
 ```
 /Users/$USER/Workspace/dotfiles/install/mysql.sh
 /Users/$USER/Workspace/dotfiles/install/nvm.sh
-/Users/$USER/Workspace/dotfiles/install/php.sh
 /Users/$USER/Workspace/dotfiles/install/redis.sh
 /Users/$USER/Workspace/dotfiles/install/rvm.sh
 ```
 
 ### PHP
 ```
-/Users/$USER/Workspace/dotfiles/install/composer-install.sh
+/Users/$USER/Workspace/dotfiles/install/php.sh
+/Users/$USER/Workspace/dotfiles/install/composer.sh
 /Users/$USER/Workspace/dotfiles/install/cgr.sh
 /Users/$USER/Workspace/dotfiles/install/php-codesniffer.sh
 /Users/$USER/Workspace/dotfiles/install/php-cs-fixer.sh
