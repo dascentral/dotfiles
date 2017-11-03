@@ -1,6 +1,6 @@
 # Software Installation
 
-## Software Installation - Scripted
+## Scripted Installations
 The following shell scripts will facilitate command line installation
 of various software components that I use on a regular basis.
 
@@ -58,8 +58,10 @@ of various software components that I use on a regular basis.
 /Users/$USER/Workspace/dotfiles/install/homebrew-cleanup.sh
 ```
 
-## Software Installation - Manual
-The remaining software items will all need to be installed manually:
+## Manual Installations
+I use the following software applications across home and work computers.
+They must be installed manually because they either do not have a
+scripted installation option or I simply haven't found it yet.
 
 * [Apache Directory Studio](http://directory.apache.org/studio/)
 * Aurora HDR 2018
@@ -84,5 +86,3 @@ The remaining software items will all need to be installed manually:
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [WhatsApp](https://www.whatsapp.com/download/)
-
-
