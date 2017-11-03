@@ -17,3 +17,7 @@
 
 ### AutoCorrect
 * Preferences > AutoCorrect > AutoFormat > Uncheck everything except "Internet and network paths with hyperlinks"
+
+### Calendar
+* Preferences > Calendar > Set work starts to "8:00am"
+* Preferences > Calendar > Set work ends to "7:00pm"
