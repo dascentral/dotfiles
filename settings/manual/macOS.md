@@ -4,6 +4,9 @@
 * Zoom > Check "Use scroll gesture with modifier keys to zoom"
 * Display > Check “Reduce motion.”
 
+## Desktop & Screen Saver
+* Screen Saver > Select "Flurry"
+
 ## Dock
 * "Minimize windows into the application icon"
 
