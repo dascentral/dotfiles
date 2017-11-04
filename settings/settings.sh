@@ -38,3 +38,32 @@ cp /Users/${USER}/Workspace/dotfiles/settings/iTerm2/custom/plugins/git/git.plug
 
 # Copy Theme modifications into place
 cp /Users/${USER}/Workspace/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Users/${USER}/.oh-my-zsh/custom/themes
+
+
+#===================================================================================
+# Sublime Text - SublimePhpCsFixer
+#===================================================================================
+
+# Setup folder for package settings
+if [ ! -e "/Users/${USER}/.sublime" ]; then
+    mkdir /Users/${USER}/.sublime
+fi
+
+# Copy settings into place
+cp /Users/${USER}/Workspace/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
+sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
+
+
+#===================================================================================
+# PHP-CS-Fixer
+#===================================================================================
+
+phpcsfixer_folder = "/usr/local/var/php-cs-fixer"
+
+# Setup folder for package settings
+if [ ! -e $phpcsfixer_folder ]; then
+    mkdir $phpcsfixer_folder
+fi
+
+# Copy settings into place
+cp /Users/$USER/Workspace/dotfiles/settings/php/.phpcsfixer $phpcsfixer_folder/
