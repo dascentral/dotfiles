@@ -58,7 +58,7 @@ sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFi
 # PHP-CS-Fixer
 #===================================================================================
 
-phpcsfixer_folder = "/usr/local/var/php-cs-fixer"
+phpcsfixer_folder="/usr/local/var/php-cs-fixer"
 
 # Setup folder for package settings
 if [ ! -e $phpcsfixer_folder ]; then
