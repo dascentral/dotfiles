@@ -67,6 +67,7 @@ scripted installation option or I simply haven't found it yet.
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+* [Google Drive](https://www.google.com/drive/download/)
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
 * [Evernote](http://www.evernote.com/)
 * [FireFox](http://www.mozilla.org/en-US/firefox/new/)
