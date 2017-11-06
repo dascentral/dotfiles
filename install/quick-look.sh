@@ -10,7 +10,7 @@ check="/Users/${USER}/Library/QuickLook/QuickLookJSON.qlgenerator"
 
 # Check if installed
 if [ -e $check ]; then
-    printf "\033[1;37m$name already installed.\n\n\033[0m"
+    printf "\033[1;33m$name already installed.\n\n\033[0m"
     exit 0;
 fi
 
