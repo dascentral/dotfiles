@@ -9,18 +9,19 @@ inventory of the manual customizations I make for various applications.
 ### Preferences
 
 #### General
-* Preferences > General > Uncheck “Show Evernote Helper in the menu bar"
+* General > Uncheck “Show Evernote Helper in the menu bar"
 
 #### Clipper
-* Preferences > Clipper > Uncheck “Bounce the dock icon once”
-* Preferences > Clipper > Uncheck “Play a sound"
+* Clipper > Uncheck “Bounce the dock icon once”
+* Clipper > Uncheck “Play a sound"
 
 #### Formatting
-* Preferences > Formatting > Change default font to Calibri 14pt
-* Preferences > Formatting > Enable “Simplify formatting of pasted content”
+* Formatting > Change default font to Calibri 14pt
+* Formatting > Enable “Simplify formatting of pasted content”
+* Formatting > Auto Format > Uncheck "Keyboard shortcuts automatically create lists, lines, and emojis"
 
 #### Context
-* Preferences > Context > Uncheck “Show Context"
+* Context > Uncheck “Show Context"
 
 ### Sidebar
 * Remove "Recent Notes"
