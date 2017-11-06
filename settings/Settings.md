@@ -75,6 +75,9 @@ I am able to confirm.*
 ### Dock
 * "Minimize windows into the application icon"
 
+### Finder
+* Advanced > When performing a search > Set to "Search the Current Folder"
+
 ### General
 * "Restore windows when quitting and re-opening apps" (This is the default setting in OS X Mavericks)
 
