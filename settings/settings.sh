@@ -55,7 +55,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Set the default wallpaper image - Primarily used on login screen
 #rm -rf ~/Library/Application Support/Dock/desktoppicture.db
 #sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
-#sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
+#sudo ln -s /Users/${USER}/Dropbox/Photos/Wallpaper/Iceland/iceland-08.jpg /System/Library/CoreServices/DefaultDesktop.jpg
 
 
 
