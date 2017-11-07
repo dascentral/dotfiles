@@ -23,7 +23,7 @@ osascript -e 'tell application "System Preferences" to quit'
 #===================================================================================
 
 # Always show scrollbars
-defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+defaults write NSGlobalDomain AppleShowScrollBars -string "Automatic"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
 
 # Expand save panel by default
