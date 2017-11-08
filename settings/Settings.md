@@ -27,6 +27,16 @@ inventory of the manual customizations I make for various applications.
 * Remove "Recent Notes"
 
 
+## Evernote Clipper
+
+### Options
+* Notebook selection > Always start in "Articles"
+* Default clip action > Always start in "Simplified article"
+* After clip > Automatically close Clipper
+* Related results > Uncheck
+* PDF page button > Uncheck
+
+
 ## iTerm2
 *As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
 within a local file. I have stored my preferences on Dropbox and have configured
