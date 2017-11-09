@@ -5,7 +5,7 @@
 # - https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 #===================================================================================
 
-printf "\033[1;37mSynchronizing Mac Settings.\033[0m\n\n"
+printf "\033[1;37mSynchronizing settings.\033[0m\n\n"
 
 
 
