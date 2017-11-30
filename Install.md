@@ -75,6 +75,7 @@ scripted installation option or I simply haven't found it yet.
 * [FunctionFlip](http://kevingessner.com/software/functionflip/)
 * [Handbrake](https://handbrake.fr/downloads.php)
 * [ImageOptim](https://imageoptim.com/mac)
+* [Java](https://java.com/en/download/mac_download.jsp)
 * MindNode Lite
 * [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [Postman](https://www.getpostman.com/)
