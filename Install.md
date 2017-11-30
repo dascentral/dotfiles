@@ -76,6 +76,7 @@ scripted installation option or I simply haven't found it yet.
 * [Handbrake](https://handbrake.fr/downloads.php)
 * [ImageOptim](https://imageoptim.com/mac)
 * [Java](https://java.com/en/download/mac_download.jsp)
+* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
 * MindNode Lite
 * [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [Postman](https://www.getpostman.com/)
