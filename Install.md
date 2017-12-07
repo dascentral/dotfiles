@@ -58,6 +58,14 @@ of various software components that I use on a regular basis.
 /Users/$USER/Workspace/dotfiles/install/homebrew-cleanup.sh
 ```
 
+## App Store Installations
+The following software applications can be installed via the Mac App Store.
+
+* Dash
+* Transmit
+* Tweetbot
+
+
 ## Manual Installations
 I use the following software applications across home and work computers.
 They must be installed manually because they either do not have a
