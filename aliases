@@ -34,6 +34,7 @@ alias sz='source ~/.zshrc'
 #------------------------------------------------------------------------------------------
 # Docker
 #------------------------------------------------------------------------------------------
+alias dc='docker-compose'
 alias dcu='docker-compose up -d'
 #alias dcd='docker-compose down'
 #alias dclogs='docker-compose logs -f'
