@@ -74,6 +74,7 @@ scripted installation option or I simply haven't found it yet.
 * [Apache Directory Studio](http://directory.apache.org/studio/)
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
+* [Dash](https://kapeli.com/dash)
 * [Docker](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [Google Drive](https://www.google.com/drive/download/)
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
