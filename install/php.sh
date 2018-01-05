@@ -16,8 +16,7 @@ fi
 
 # Install
 printf "\033[1;33mInstalling $name...\033[0m\n"
-brew tap homebrew/homebrew-php
-brew install php71
+brew install homebrew/php/php71
 brew services start homebrew/php/php71
 
 # Wrap it up
