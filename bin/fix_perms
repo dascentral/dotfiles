@@ -8,7 +8,7 @@
 
 # Change ownership to the current user on a number of paths
 sudo chown -R $(whoami) ~/.npm
-sudo chown -R $(whoami) /usr/local
+#sudo chown -R $(whoami) /usr/local
 
 # Local MySQL folder needs to be owned by "_mysql"
 # This should be removed once I move completely over to Vagrant
