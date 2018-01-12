@@ -23,7 +23,7 @@ osascript -e 'tell application "System Preferences" to quit'
 #===================================================================================
 
 # Turn on Keychain for SSH
-cp /Users/${USER}/Workspace/dotfiles/setup/macOS/config /Users/${USER}/.ssh
+cp /Users/${USER}/Workspace/dotfiles/settings/macOS/config /Users/${USER}/.ssh
 
 
 
