@@ -10,11 +10,12 @@ check="/usr/local/bin/composer"
 
 # Check if installed
 if [ -e $check ]; then
-    printf "\033[1;37m$name already installed.\n\n\033[0m"
-    exit 0;
+    printf "\033[1;37mComposer self-update.\033[0m\n"
+    /usr/local/bin/composer self-update
+else
+    printf "\033[1;37mInstalling $name...\033[0m\n"
+    php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
 fi
 
-# Install
-printf "\033[1;33mInstalling $name...\033[0m"
-php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
+# Wrap it up
 printf "\n\n"
