@@ -75,7 +75,6 @@ scripted installation option or I simply haven't found it yet.
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
 * [Evernote](http://www.evernote.com/)
 * [FireFox](http://www.mozilla.org/en-US/firefox/new/)
-* [FileZilla](https://filezilla-project.org/)
 * [FunctionFlip](http://kevingessner.com/software/functionflip/)
 * [Handbrake](https://handbrake.fr/downloads.php)
 * [ImageOptim](https://imageoptim.com/mac)
