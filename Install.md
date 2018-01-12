@@ -6,7 +6,6 @@ of various software components that I use on a regular basis.
 
 ### Global Elements
 ```
-/Users/$USER/Workspace/dotfiles/install/oh-my-zsh.sh
 /Users/$USER/Workspace/dotfiles/install/homebrew.sh
 ```
 
@@ -16,11 +15,12 @@ of various software components that I use on a regular basis.
 /Users/$USER/Workspace/dotfiles/install/ack.sh
 /Users/$USER/Workspace/dotfiles/install/mac-app-store-cli.sh
 /Users/$USER/Workspace/dotfiles/install/ssh-copy-id.sh
-/Users/$USER/Workspace/dotfiles/install/wordpress.sh
+/Users/$USER/Workspace/dotfiles/install/wp-cli.sh
 ```
 
 ### Web Development
 ```
+/Users/$USER/Workspace/dotfiles/install/hubflow.sh
 /Users/$USER/Workspace/dotfiles/install/mysql.sh
 /Users/$USER/Workspace/dotfiles/install/nvm.sh
 /Users/$USER/Workspace/dotfiles/install/redis.sh
@@ -36,27 +36,22 @@ of various software components that I use on a regular basis.
 /Users/$USER/Workspace/dotfiles/install/php-cs-fixer.sh
 ```
 
+### Composer
+```
+/Users/$USER/Workspace/dotfiles/install/composer.sh
+```
+
+### macOS
+```
+/Users/$USER/Workspace/dotfiles/install/quick-look-plugins.sh
+```
+
 ### Software Customizations
 ```
 /Users/$USER/Workspace/dotfiles/install/sublime.sh
 ```
 
-### Install Global Elements
-```
-/Users/$USER/Workspace/dotfiles-private/install/bin.sh
-/Users/$USER/Workspace/dotfiles-private/install/aliases.sh
-```
 
-### Composer
-```
-/Users/$USER/Workspace/dotfiles/install/composer-update.sh
-```
-
-### Homebrew
-```
-/Users/$USER/Workspace/dotfiles/install/homebrew-update.sh
-/Users/$USER/Workspace/dotfiles/install/homebrew-cleanup.sh
-```
 
 ## App Store Installations
 The following software applications can be installed via the Mac App Store.
