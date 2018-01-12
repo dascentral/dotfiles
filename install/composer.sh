@@ -18,4 +18,4 @@ else
 fi
 
 # Wrap it up
-printf "\n\n"
+printf "\n"
