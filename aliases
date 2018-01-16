@@ -19,7 +19,7 @@ alias f644='find . -type f -exec chmod 644 {} \;'
 
 # Directory Switching
 alias dev='cd ~/Workspace'
-alias dot='cd ~/Workspace/dotfiles'
+alias dot='cd ~/dotfiles'
 
 # Aliases
 alias ca='cat ~/.aliases'

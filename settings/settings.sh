@@ -23,7 +23,7 @@ osascript -e 'tell application "System Preferences" to quit'
 #===================================================================================
 
 # Turn on Keychain for SSH
-cp /Users/${USER}/Workspace/dotfiles/settings/macOS/config /Users/${USER}/.ssh
+cp /Users/${USER}/dotfiles/settings/macOS/config /Users/${USER}/.ssh
 
 
 
@@ -119,10 +119,10 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Dropbox/
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 # Copy Plugin modifications into place
-cp /Users/${USER}/Workspace/dotfiles/settings/iTerm2/custom/plugins/git/git.plugin.zsh /Users/${USER}/.oh-my-zsh/custom/plugins/git
+cp /Users/${USER}/dotfiles/settings/iTerm2/custom/plugins/git/git.plugin.zsh /Users/${USER}/.oh-my-zsh/custom/plugins/git
 
 # Copy Theme modifications into place
-cp /Users/${USER}/Workspace/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Users/${USER}/.oh-my-zsh/custom/themes
+cp /Users/${USER}/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Users/${USER}/.oh-my-zsh/custom/themes
 
 
 
@@ -136,7 +136,7 @@ if [ ! -e "/Users/${USER}/.sublime" ]; then
 fi
 
 # Copy settings into place
-cp /Users/${USER}/Workspace/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
+cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
 sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
 
 
@@ -153,4 +153,4 @@ if [ ! -e $phpcsfixer_folder ]; then
 fi
 
 # Copy settings into place
-cp /Users/$USER/Workspace/dotfiles/settings/php/.phpcsfixer $phpcsfixer_folder/
+cp /Users/${USER}/dotfiles/settings/php/.phpcsfixer $phpcsfixer_folder/

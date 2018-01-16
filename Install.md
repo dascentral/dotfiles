@@ -6,49 +6,49 @@ of various software components that I use on a regular basis.
 
 ### Global Elements
 ```
-/Users/$USER/Workspace/dotfiles/install/homebrew.sh
+/Users/$USER/dotfiles/install/homebrew.sh
 ```
 
 ### Command Line Utilities
 ```
-/Users/$USER/Workspace/dotfiles/install/gnupg.sh
-/Users/$USER/Workspace/dotfiles/install/ack.sh
-/Users/$USER/Workspace/dotfiles/install/mac-app-store-cli.sh
-/Users/$USER/Workspace/dotfiles/install/ssh-copy-id.sh
-/Users/$USER/Workspace/dotfiles/install/wp-cli.sh
+/Users/$USER/dotfiles/install/gnupg.sh
+/Users/$USER/dotfiles/install/ack.sh
+/Users/$USER/dotfiles/install/mac-app-store-cli.sh
+/Users/$USER/dotfiles/install/ssh-copy-id.sh
+/Users/$USER/dotfiles/install/wp-cli.sh
 ```
 
 ### Web Development
 ```
-/Users/$USER/Workspace/dotfiles/install/hubflow.sh
-/Users/$USER/Workspace/dotfiles/install/mysql.sh
-/Users/$USER/Workspace/dotfiles/install/nvm.sh
-/Users/$USER/Workspace/dotfiles/install/redis.sh
-/Users/$USER/Workspace/dotfiles/install/rvm.sh
+/Users/$USER/dotfiles/install/hubflow.sh
+/Users/$USER/dotfiles/install/mysql.sh
+/Users/$USER/dotfiles/install/nvm.sh
+/Users/$USER/dotfiles/install/redis.sh
+/Users/$USER/dotfiles/install/rvm.sh
 ```
 
 ### PHP
 ```
-/Users/$USER/Workspace/dotfiles/install/php.sh
-/Users/$USER/Workspace/dotfiles/install/composer.sh
-/Users/$USER/Workspace/dotfiles/install/cgr.sh
-/Users/$USER/Workspace/dotfiles/install/php-codesniffer.sh
-/Users/$USER/Workspace/dotfiles/install/php-cs-fixer.sh
+/Users/$USER/dotfiles/install/php.sh
+/Users/$USER/dotfiles/install/composer.sh
+/Users/$USER/dotfiles/install/cgr.sh
+/Users/$USER/dotfiles/install/php-codesniffer.sh
+/Users/$USER/dotfiles/install/php-cs-fixer.sh
 ```
 
 ### Composer
 ```
-/Users/$USER/Workspace/dotfiles/install/composer.sh
+/Users/$USER/dotfiles/install/composer.sh
 ```
 
 ### macOS
 ```
-/Users/$USER/Workspace/dotfiles/install/quick-look-plugins.sh
+/Users/$USER/dotfiles/install/quick-look-plugins.sh
 ```
 
 ### Software Customizations
 ```
-/Users/$USER/Workspace/dotfiles/install/sublime.sh
+/Users/$USER/dotfiles/install/sublime.sh
 ```
 
 
