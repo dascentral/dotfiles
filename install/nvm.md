@@ -11,7 +11,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | b
 
 
 ## Post-Installation
-The following lines SHOULD have been added to `~/.zshrc`
+The following lines _should_ have been added to `~/.zshrc`
 
 ```
 export NVM_DIR="/usr/local/opt/nvm"
