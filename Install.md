@@ -1,35 +1,45 @@
 # Software Installation
 
-## Installation Scripts
-The following installation scripts exist to automate installation of software via Homebrew and Composer.
+## Foundational Elements
+I keep my computers up-to-date via [Homebrew](https://brew.sh/) and [Composer](https://getcomposer.org/). I usually install those items first.
 
-You will need to make sure you have installed both Homebrew and Composer before executing these scripts.
+* [Homebrew](https://github.com/dascentral/dotfiles/blob/master/install/homebrew.md)
+* [Composer](https://github.com/dascentral/dotfiles/blob/master/install/composer.md)
+
+Once those two have been installed, a bevy of additional software can be installed automatically via the following scripts:
+
 ```
-/Users/$USER/dotfiles/install/composer/install.sh
-/Users/$USER/dotfiles/install/homebrew/install.sh
+/Users/${USER}/dotfiles/install/composer/install.sh
+/Users/${USER}/dotfiles/install/homebrew/install.sh
 ```
 
-## Manual Installation
-The following software applications can be installed via instructions found within Markdown files in the `install` folder. Note that steps for installation may have changed since these files were created.
+## Favorites
+Sublime Text and iTerm2 are two of my favorite and most frequently used software applications.
 
-* Composer
-* Homebrew
-* Hubflow
-* Node Version Manager (NVM)
-* Ruby Version Manager (RVM)
-* Sublime Text
-* WordPress CLI
+### Sublime Text
+_Details TBD_
 
 
-## App Store Installations
-The following software applications can be installed via the Mac App Store.
+### iTerm2
+_Details TBD_
+
+
+
+## Additional Items
+
+### Installation via CLI
+Some software applications require manual installation via the command line. I have duplicated instructions within the [install](https://github.com/dascentral/dotfiles/tree/master/install) folder of this repo. Note that steps for installation may have changed since these files were created.
+
+
+### Installation via App Store
+I install the following software applications via the Mac App Store.
 
 * Dash
 * Transmit
 * Tweetbot
 
 
-## Installation Packages
+### Installation via Package Download
 I use the following software applications across home and work computers. They must be installed via their installation packages because they either do not have a scripted installation option or I simply haven't found it yet.
 
 * [Apache Directory Studio](http://directory.apache.org/studio/)
