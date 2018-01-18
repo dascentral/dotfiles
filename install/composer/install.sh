@@ -10,6 +10,11 @@ if [ ! -e "/usr/local/bin/composer" ]; then
     exit 0;
 fi
 
+# Composer Update
+printf "\033[1;37mComposer self-update.\033[0m\n"
+/usr/local/bin/composer self-update
+printf "\n"
+
 # Installation
 /Users/${USER}/dotfiles/install/composer/cgr.sh
 /Users/${USER}/dotfiles/install/composer/php-codesniffer.sh
