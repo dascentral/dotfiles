@@ -1,7 +1,7 @@
 # Sublime Text
 
 ## Overview
-This "installation" file is more about configuring Sublime Text following installation.
+This "installation" file is more about configuring Sublime Text following installation. It will eventually move to the `settings` folder.
 
 
 ## Installation
