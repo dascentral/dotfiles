@@ -13,18 +13,13 @@ Once those two have been installed, a bevy of additional software can be install
 /Users/${USER}/dotfiles/install/homebrew/install.sh
 ```
 
+
+
 ## Favorites
 The following items represent my favorite and most frequently used software applications. I have some special setup instructions that help customize the applications to my liking.
 
 * [iTerm2](https://github.com/dascentral/dotfiles/blob/master/install/iTerm2.md)
 * [Sublime Text](https://github.com/dascentral/dotfiles/blob/master/install/sublime.md)
-
-### Sublime Text
-_Details TBD_
-
-
-### iTerm2
-_Details TBD_
 
 
 
