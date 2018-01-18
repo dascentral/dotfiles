@@ -8,15 +8,9 @@
 name="ack"
 check="/usr/local/bin/ack"
 
-# Check if installed
-if [ -e $check ]; then
-    printf "\033[1;33m$name already installed.\n\n\033[0m"
-    exit 0;
+# Installation
+if [ ! -e $check ]; then
+    printf "\033[1;37mInstalling $name...\033[0m\n"
+    brew install ack
+    printf "\n\n"
 fi
-
-# Install
-printf "\033[1;37mInstalling $name...\033[0m\n"
-brew install ack
-
-# Wrap it up
-printf "\n\n"
