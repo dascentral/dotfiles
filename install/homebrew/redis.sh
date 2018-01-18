@@ -13,7 +13,7 @@ check="/usr/local/bin/redis-cli"
 
 # Installation
 if [ ! -e $check ]; then
-    printf "\033[1;33mInstalling $name...\033[0m\n"
+    printf "\033[1;33mInstalling $name.\033[0m\n"
     brew install redis
     brew services start redis
     printf "\n\n"
