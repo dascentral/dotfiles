@@ -1,56 +1,24 @@
 # Software Installation
 
-## Scripted Installations
-The following shell scripts will facilitate command line installation
-of various software components that I use on a regular basis.
+## Installation Scripts
+The following installation scripts exist to automate installation of software via Homebrew and Composer.
 
-### Global Elements
+You will need to make sure you have installed both Homebrew and Composer before executing these scripts.
 ```
-/Users/$USER/dotfiles/install/homebrew.sh
-```
-
-### Command Line Utilities
-```
-/Users/$USER/dotfiles/install/gnupg.sh
-/Users/$USER/dotfiles/install/ack.sh
-/Users/$USER/dotfiles/install/mac-app-store-cli.sh
-/Users/$USER/dotfiles/install/ssh-copy-id.sh
-/Users/$USER/dotfiles/install/wp-cli.sh
+/Users/$USER/dotfiles/install/composer/install.sh
+/Users/$USER/dotfiles/install/homebrew/install.sh
 ```
 
-### Web Development
-```
-/Users/$USER/dotfiles/install/hubflow.sh
-/Users/$USER/dotfiles/install/mysql.sh
-/Users/$USER/dotfiles/install/nvm.sh
-/Users/$USER/dotfiles/install/redis.sh
-/Users/$USER/dotfiles/install/rvm.sh
-```
+## Manual Installation
+The following software applications can be installed via instructions found within Markdown files in the `install` folder. Note that steps for installation may have changed since these files were created.
 
-### PHP
-```
-/Users/$USER/dotfiles/install/php.sh
-/Users/$USER/dotfiles/install/composer.sh
-/Users/$USER/dotfiles/install/cgr.sh
-/Users/$USER/dotfiles/install/php-codesniffer.sh
-/Users/$USER/dotfiles/install/php-cs-fixer.sh
-```
-
-### Composer
-```
-/Users/$USER/dotfiles/install/composer.sh
-```
-
-### macOS
-```
-/Users/$USER/dotfiles/install/quick-look-plugins.sh
-```
-
-### Software Customizations
-```
-/Users/$USER/dotfiles/install/sublime.sh
-```
-
+* Composer
+* Homebrew
+* Hubflow
+* Node Version Manager (NVM)
+* Ruby Version Manager (RVM)
+* Sublime Text
+* WordPress CLI
 
 
 ## App Store Installations
@@ -61,10 +29,8 @@ The following software applications can be installed via the Mac App Store.
 * Tweetbot
 
 
-## Manual Installations
-I use the following software applications across home and work computers.
-They must be installed manually because they either do not have a
-scripted installation option or I simply haven't found it yet.
+## Installation Packages
+I use the following software applications across home and work computers. They must be installed via their installation packages because they either do not have a scripted installation option or I simply haven't found it yet.
 
 * [Apache Directory Studio](http://directory.apache.org/studio/)
 * Aurora HDR 2018
