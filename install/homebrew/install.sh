@@ -10,7 +10,7 @@ if [ ! -e "/usr/local/bin/brew" ]; then
     exit 0;
 fi
 
-# Install software via Homebrew
+# Installation
 /Users/${USER}/dotfiles/install/homebrew/ack.sh
 /Users/${USER}/dotfiles/install/homebrew/gnupg.sh
 /Users/${USER}/dotfiles/install/homebrew/mac-app-store-cli.sh
