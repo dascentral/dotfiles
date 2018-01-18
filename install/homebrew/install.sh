@@ -10,6 +10,15 @@ if [ ! -e "/usr/local/bin/brew" ]; then
     exit 0;
 fi
 
+# Homebrew Maintenance
+printf "\033[1;37mBrew update.\033[0m\n"
+brew update
+printf "\n"
+
+printf "\033[1;37mBrew cleanup.\033[0m\n"
+brew cleanup
+printf "\n"
+
 # Installation
 /Users/${USER}/dotfiles/install/homebrew/ack.sh
 /Users/${USER}/dotfiles/install/homebrew/gnupg.sh
