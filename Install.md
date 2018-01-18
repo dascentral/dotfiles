@@ -25,7 +25,7 @@ The following items represent my favorite and most frequently used software appl
 
 ## Additional Items
 
-### Installation via CLI
+### Installation via Terminal
 Some software applications require manual installation via the command line. I have duplicated instructions within the [install](https://github.com/dascentral/dotfiles/tree/master/install) folder of this repo. Note that steps for installation may have changed since these files were created.
 
 
