@@ -18,15 +18,15 @@ Once those two have been installed, a bevy of additional software can be install
 ## Favorites
 The following items represent my favorite and most frequently used software applications. I have some special setup instructions that help customize the applications to my liking.
 
-* [iTerm2](https://github.com/dascentral/dotfiles/blob/master/install/iTerm2.md)
-* [Sublime Text](https://github.com/dascentral/dotfiles/blob/master/install/sublime.md)
+* [iTerm2](https://github.com/dascentral/dotfiles/blob/master/install/favorites/iTerm2.md)
+* [Sublime Text](https://github.com/dascentral/dotfiles/blob/master/install/favorites/Sublime.md)
 
 
 
 ## Additional Items
 
 ### Installation via Terminal
-Some software applications require manual installation via the command line. I have duplicated instructions within the [install](https://github.com/dascentral/dotfiles/tree/master/install) folder of this repo. Note that steps for installation may have changed since these files were created.
+Some software applications require manual installation via the command line. I have duplicated instructions within the [install/terminal](https://github.com/dascentral/dotfiles/tree/master/install/terminal) folder of this repo. Note that steps for installation may have changed since these files were created.
 
 
 ### Installation via App Store
