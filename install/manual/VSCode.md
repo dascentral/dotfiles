@@ -10,13 +10,17 @@
 I like to store my settings in the cloud so that I can sync them across computers.
 
 ```
-cp ~/Library/Application\ Support/Code/User/settings.json ~/GDrive/Documents/Software/VSCode/settings
+cd ~/Library/Application\ Support/Code/User
+cp settings.json ~/GDrive/Documents/Software/VSCode/settings
+cp keybindings.json ~/GDrive/Documents/Software/VSCode/settings
 ```
 
 ### Leveraging Cloud Settings
 ```
 cd ~/Library/Application\ Support/Code/User
 rm settings.json
+rm keybindings.json
+ln -s ~/GDrive/Documents/Software/VSCode/settings/keybindings.json keybindings.json
 ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 ```
 
