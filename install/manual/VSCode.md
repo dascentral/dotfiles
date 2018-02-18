@@ -11,9 +11,9 @@ I store all settings and keyboard shortcuts in the cloud so that I can sync sett
 ```bash
 cd ~/Library/Application\ Support/Code/User
 rm settings.json
+ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 rm keybindings.json
 ln -s ~/GDrive/Documents/Software/VSCode/settings/keybindings.json keybindings.json
-ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 ```
 
 ### Storing Settings in the Cloud
