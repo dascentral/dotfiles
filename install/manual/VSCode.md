@@ -16,6 +16,8 @@ cp keybindings.json ~/GDrive/Documents/Software/VSCode/settings
 ```
 
 ### Leveraging Cloud Settings
+The following commands will replace local settings with those found in the cloud:
+
 ```
 cd ~/Library/Application\ Support/Code/User
 rm settings.json
