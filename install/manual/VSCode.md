@@ -29,6 +29,7 @@ I leverage the following extensions:
 * advanced-new-file
 * DotEnv
 * File Utils
+* Laravel Artisan
 * Material Theme
 * PHP Intelephense
 * Slime Theme
