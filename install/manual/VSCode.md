@@ -4,21 +4,9 @@
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-## Settings Synchronization
+## Application Customizations
 
-### Storing Settings in the Cloud
-
-I like to store my settings in the cloud so that I can sync them across computers.
-
-```bash
-cd ~/Library/Application\ Support/Code/User
-cp settings.json ~/GDrive/Documents/Software/VSCode/settings
-cp keybindings.json ~/GDrive/Documents/Software/VSCode/settings
-```
-
-### Leveraging Cloud Settings
-
-The following commands will replace local settings with those found in the cloud:
+I store all settings and keyboard shortcuts in the cloud so that I can sync settings across computers. To link an installation to those files, I execute the following commands:
 
 ```bash
 cd ~/Library/Application\ Support/Code/User
@@ -28,9 +16,17 @@ ln -s ~/GDrive/Documents/Software/VSCode/settings/keybindings.json keybindings.j
 ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 ```
 
-## Application Customizations
+### Storing Settings in the Cloud
 
-### Extensions
+If you want to mimic my approach, the following will put them in a folder of your choosing:
+
+```bash
+cd ~/Library/Application\ Support/Code/User
+cp settings.json ~/path/of/your/choosing
+cp keybindings.json ~/path/of/your/choosing
+```
+
+## Extensions
 
 I leverage the following extensions:
 
