@@ -35,6 +35,7 @@ With user preferences now linked, you are free to open the application. Package 
 I would exit Sublime and then re-open it. All should be golden at this point. (Fingers crossed.)
 
 ### Configure SublimePhpCsFixer
+
 I keep a copy of my preferred SublimePhpCsFixer settings within this repo. I copy it to a central location on any new machine.
 
 ```bash
