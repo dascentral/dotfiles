@@ -43,6 +43,7 @@ I leverage the following extensions:
 * Markdown All in One
 * Material Theme
 * PHP Intelephense
+* php-cs-fixer
 * Slime Theme
 * snippet-creator
 * Sublime Text Keymap
