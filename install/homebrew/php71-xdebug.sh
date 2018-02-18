@@ -1,17 +1,16 @@
 #!/bin/sh
 
 #===================================================================================
-# PHP
+# PHP 7.1 Xdebug
 #===================================================================================
 
 # setup
-name="PHP 7.1"
-check="/usr/bin/php"
+name="PHP 7.1 Xdebug"
+check="/usr/local/Cellar/php71-xdebug"
 
 # Installation
 if [ ! -e $check ]; then
     printf "\033[1;33mInstalling $name.\033[0m\n"
-    brew install homebrew/php/php71
-    brew services start homebrew/php/php71
+    brew install php71-xdebug
     printf "\n\n"
 fi
