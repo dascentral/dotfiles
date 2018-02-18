@@ -26,6 +26,12 @@ cp settings.json ~/path/of/your/choosing
 cp keybindings.json ~/path/of/your/choosing
 ```
 
+### Cloud vs. Git
+
+I wreslted with where to store my settings since instinctually, it makes most sense to store them in this repository. However, I am likely to make edits directly within Code *and* when working on a project/respository separate from this one. Keeping them in the cloud means I don't have to worry about going back to commit changes.
+
+If you want a look at my `settings.json` file, you can view it here: [https://drive.google.com/file/d/1Iy1KVKNW7x8fhzRNgwAA31pllxYtMd8o/view?usp=sharing](https://drive.google.com/file/d/1Iy1KVKNW7x8fhzRNgwAA31pllxYtMd8o/view?usp=sharing).
+
 ## Extensions
 
 I leverage the following extensions:
