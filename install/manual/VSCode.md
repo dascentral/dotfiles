@@ -5,11 +5,32 @@
 
 
 ## Settings Synchronization
+
+### Storing Settings in the Cloud
 I like to store my settings in the cloud so that I can sync them across computers.
 
 ```
-cd ~/Library/Application\ Support/Code/User
-cp settings.json ~/GDrive/Documents/Software/VSCode
-rm settings.json
-ln -s ~/GDrive/Documents/Software/VSCode/settings.json settings.json
+cp ~/Library/Application\ Support/Code/User/settings.json ~/GDrive/Documents/Software/VSCode/settings
 ```
+
+### Leveraging Cloud Settings
+```
+cd ~/Library/Application\ Support/Code/User
+rm settings.json
+ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
+```
+
+
+## Application Customizations
+
+### Extensions
+I leverage the following extensions:
+
+* advanced-new-file
+* DotEnv
+* File Utils
+* Material Theme
+* PHP Intelephense
+* Slime Theme
+* snippet-creator
+* Sublime Text Keymap
