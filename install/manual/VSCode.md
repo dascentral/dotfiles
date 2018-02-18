@@ -50,7 +50,5 @@ I leverage the following extensions:
 
 ## Resources
 
-I have found the following resources quite useful:
-
 * [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
 * [VS Code Tips & Tricks](https://github.com/Microsoft/vscode-tips-and-tricks) - by Microsoft
