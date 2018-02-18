@@ -27,6 +27,7 @@ ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 I leverage the following extensions:
 
 * advanced-new-file
+* Better PHPUnit
 * DotEnv
 * File Utils
 * Laravel Artisan
