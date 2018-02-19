@@ -1,3 +1,9 @@
-### Mac/PHPStorm
+### Folders
+/.idea
+/.sass-cache
+/.vagrant
+/.vscode
+
+### Files
 .DS_Store
-.idea/
+.env
