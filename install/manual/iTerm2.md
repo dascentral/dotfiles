@@ -41,5 +41,5 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 ## References
 
-* https://github.com/robbyrussell/oh-my-zsh
-* https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+* [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [https://github.com/robbyrussell/oh-my-zsh/wiki/themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
