@@ -44,6 +44,7 @@ I leverage the following extensions:
 * markdownlint
 * Markdown All in One
 * Material Theme
+* PHP Debug
 * PHP Intelephense
 * php-cs-fixer
 * Slime Theme
