@@ -39,7 +39,9 @@ I leverage the following extensions:
 * advanced-new-file
 * Better PHPUnit
 * DotEnv
+* ESLint
 * File Utils
+* Import Cost
 * Laravel Artisan
 * markdownlint
 * Markdown All in One
@@ -50,6 +52,7 @@ I leverage the following extensions:
 * Slime Theme
 * snippet-creator
 * Sublime Text Keymap
+* Vetur
 
 ## Resources
 
