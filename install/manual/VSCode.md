@@ -45,14 +45,19 @@ I leverage the following extensions:
 * Laravel Artisan
 * markdownlint
 * Markdown All in One
-* Material Theme
 * PHP Debug
 * PHP Intelephense
 * php-cs-fixer
-* Slime Theme
 * snippet-creator
 * Sublime Text Keymap
 * Vetur
+
+### Themes
+
+I haven't quite settled on what I feel is best in the realm of themes but the following two are worth a look:
+
+* Material Theme
+* Slime Theme
 
 ## Resources
 
