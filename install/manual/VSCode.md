@@ -59,6 +59,15 @@ I haven't quite settled on what I feel is best in the realm of themes but the fo
 * Material Theme
 * Slime Theme
 
+## ESLint
+
+ESLint will require installation of two Node.js modules:
+
+```bash
+npm install -g eslint
+npm install -g eslint-plugin-vue
+```
+
 ## Resources
 
 * [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
