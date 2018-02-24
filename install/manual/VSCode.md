@@ -48,7 +48,7 @@ I leverage the following extensions:
 * markdownlint
 * PHP Debug
 * PHP Intelephense
-* php-cs-fixer
+* php cs fixer
 * snippet-creator
 * Vetur
 
