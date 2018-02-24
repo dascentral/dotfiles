@@ -44,13 +44,12 @@ I leverage the following extensions:
 * GitLens
 * Import Cost
 * Laravel Artisan
-* markdownlint
 * Markdown All in One
+* markdownlint
 * PHP Debug
 * PHP Intelephense
 * php-cs-fixer
 * snippet-creator
-* Sublime Text Keymap
 * Vetur
 
 ### Themes
