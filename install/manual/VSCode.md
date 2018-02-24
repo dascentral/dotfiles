@@ -41,6 +41,7 @@ I leverage the following extensions:
 * DotEnv
 * ESLint
 * File Utils
+* GitLens
 * Import Cost
 * Laravel Artisan
 * markdownlint
