@@ -1,6 +1,7 @@
 # Software Installation
 
 ## Foundational Elements
+
 I keep my computers up-to-date via [Homebrew](https://brew.sh/) and [Composer](https://getcomposer.org/). I usually install those items first.
 
 * [Homebrew](https://github.com/dascentral/dotfiles/blob/master/install/homebrew.md)
@@ -8,36 +9,34 @@ I keep my computers up-to-date via [Homebrew](https://brew.sh/) and [Composer](h
 
 Once those two have been installed, a bevy of additional software can be installed automatically via the following scripts:
 
-```
+```bash
 /Users/${USER}/dotfiles/install/composer/install.sh
 /Users/${USER}/dotfiles/install/homebrew/install.sh
 ```
 
-
-
 ## Favorites
+
 The following items represent my favorite and most frequently used software applications. I have some special setup instructions that help customize the applications to my liking.
 
 * [iTerm2](https://github.com/dascentral/dotfiles/blob/master/install/favorites/iTerm2.md)
 * [Sublime Text](https://github.com/dascentral/dotfiles/blob/master/install/favorites/Sublime.md)
 
-
-
 ## Additional Items
 
 ### Installation via Terminal
+
 Some software applications require manual installation via the command line. I have duplicated instructions within the [install/terminal](https://github.com/dascentral/dotfiles/tree/master/install/terminal) folder of this repo. Note that steps for installation may have changed since these files were created.
 
-
 ### Installation via App Store
+
 I install the following software applications via the Mac App Store.
 
 * Dash
 * Transmit
 * Tweetbot
 
-
 ### Installation via Package Download
+
 I use the following software applications across home and work computers. They must be installed via their installation packages because they either do not have a scripted installation option or I simply haven't found it yet.
 
 * [Apache Directory Studio](http://directory.apache.org/studio/)

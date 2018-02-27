@@ -21,6 +21,7 @@ printf "\n"
 
 # Installation
 /Users/${USER}/dotfiles/install/homebrew/ack.sh
+/Users/${USER}/dotfiles/install/homebrew/aerial.sh
 /Users/${USER}/dotfiles/install/homebrew/gnupg.sh
 /Users/${USER}/dotfiles/install/homebrew/mac-app-store-cli.sh
 /Users/${USER}/dotfiles/install/homebrew/mysql.sh
