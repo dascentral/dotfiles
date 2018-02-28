@@ -38,6 +38,7 @@ I leverage the following extensions:
 
 * advanced-new-file
 * Better PHPUnit
+* Code Ace Jumper
 * DotEnv
 * ESLint
 * File Utils
