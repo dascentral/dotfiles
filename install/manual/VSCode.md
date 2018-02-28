@@ -44,6 +44,7 @@ I leverage the following extensions:
 * GitLens
 * Import Cost
 * Laravel Artisan
+* Laravel Blade Snippets
 * Markdown All in One
 * markdownlint
 * PHP Debug
