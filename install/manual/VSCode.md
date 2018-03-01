@@ -61,6 +61,12 @@ I haven't quite settled on what I feel is best in the realm of themes but the fo
 * Material Theme
 * Slime Theme
 
+### Others to Explore
+
+I haven't installed these yet but they're on my radar.
+
+* [Search Node Modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules) - Right now I've included `node_modules` within the Quick Open search scope. However, I may want to turn that back off.
+
 ## ESLint
 
 ESLint will require installation of two Node.js modules:
