@@ -13,9 +13,9 @@ cd ~/Library/Application\ Support/Code/User
 rm settings.json
 rm keybindings.json
 rm -rf snippets
-ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
-ln -s ~/GDrive/Documents/Software/VSCode/settings/keybindings.json keybindings.json
-ln -s ~/GDrive/Documents/Software/VSCode/settings/snippets snippets
+ln -s ~/GDrive/Documents/Software/VSCode/User/settings.json settings.json
+ln -s ~/GDrive/Documents/Software/VSCode/User/keybindings.json keybindings.json
+ln -s ~/GDrive/Documents/Software/VSCode/User/snippets snippets
 ```
 
 ### Storing Settings in the Cloud
