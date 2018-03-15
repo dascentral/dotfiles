@@ -11,9 +11,11 @@ I store all settings and keyboard shortcuts in the cloud so that I can easily sy
 ```bash
 cd ~/Library/Application\ Support/Code/User
 rm settings.json
-ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 rm keybindings.json
+rm -rf snippets
+ln -s ~/GDrive/Documents/Software/VSCode/settings/settings.json settings.json
 ln -s ~/GDrive/Documents/Software/VSCode/settings/keybindings.json keybindings.json
+ln -s ~/GDrive/Documents/Software/VSCode/settings/snippets snippets
 ```
 
 ### Storing Settings in the Cloud
@@ -24,6 +26,7 @@ If you want to mimic my approach, the following will put them in a folder of you
 cd ~/Library/Application\ Support/Code/User
 cp settings.json ~/path/of/your/choosing
 cp keybindings.json ~/path/of/your/choosing
+cp -r snippets ~/path/of/your/choosing
 ```
 
 ### Cloud vs. Git
