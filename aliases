@@ -84,6 +84,7 @@ alias fresh='php artisan migrate:fresh --seed'
 alias routes='php artisan route:list'
 alias refresh='php artisan migrate:refresh --seed'
 alias seed='php artisan migrate:fresh --seed && php artisan db:seed:test'
+alias sweet='phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
 alias watch='npm run watch'
 
