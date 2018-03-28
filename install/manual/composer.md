@@ -8,4 +8,5 @@
 
 ```bash
 php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
+sudo chown ${USER} ~/.composer
 ```
