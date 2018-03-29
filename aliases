@@ -70,6 +70,9 @@ alias mysql_restart='sudo /usr/local/mysql/support-files/mysql.server restart'
 # Nginx
 #------------------------------------------------------------------------------------------
 alias ng='cd /usr/local/etc/nginx'
+alias ngrestart='brew services restart nginx'
+alias ngstart='brew services start nginx'
+alias ngstop='brew services stop nginx'
 
 
 #------------------------------------------------------------------------------------------
