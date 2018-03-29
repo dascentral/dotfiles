@@ -70,6 +70,7 @@ alias mysql_restart='sudo /usr/local/mysql/support-files/mysql.server restart'
 # Nginx
 #------------------------------------------------------------------------------------------
 alias ng='cd /usr/local/etc/nginx'
+alias sites='cd /usr/local/etc/nginx/servers'
 
 
 #------------------------------------------------------------------------------------------
