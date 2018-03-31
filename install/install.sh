@@ -27,9 +27,9 @@ printf "\033[1;37mComposer self-update.\033[0m\n"
 printf "\n"
 
 # Installation
-/Users/${USER}/dotfiles/install/scripted/cgr.sh
-/Users/${USER}/dotfiles/install/scripted/php-codesniffer.sh
-/Users/${USER}/dotfiles/install/scripted/php-cs-fixer.sh
+/Users/${USER}/dotfiles/install/cgr.sh
+/Users/${USER}/dotfiles/install/php-codesniffer.sh
+/Users/${USER}/dotfiles/install/php-cs-fixer.sh
 
 
 #===================================================================================
@@ -46,13 +46,14 @@ brew cleanup
 printf "\n"
 
 # Installation
-/Users/${USER}/dotfiles/install/scripted/ack.sh
-/Users/${USER}/dotfiles/install/scripted/aerial.sh
-/Users/${USER}/dotfiles/install/scripted/gnupg.sh
-/Users/${USER}/dotfiles/install/scripted/mac-app-store-cli.sh
-/Users/${USER}/dotfiles/install/scripted/mysql.sh
-#/Users/${USER}/dotfiles/install/scripted/php71.sh
-#/Users/${USER}/dotfiles/install/scripted/php71-xdebug.sh
-/Users/${USER}/dotfiles/install/scripted/quick-look-plugins.sh
-/Users/${USER}/dotfiles/install/scripted/redis.sh
-/Users/${USER}/dotfiles/install/scripted/ssh-copy-id.sh
+/Users/${USER}/dotfiles/install/ack.sh
+/Users/${USER}/dotfiles/install/aerial.sh
+/Users/${USER}/dotfiles/install/gnupg.sh
+/Users/${USER}/dotfiles/install/mac-app-store-cli.sh
+/Users/${USER}/dotfiles/install/mysql.sh
+/Users/${USER}/dotfiles/install/quick-look-plugins.sh
+/Users/${USER}/dotfiles/install/redis.sh
+/Users/${USER}/dotfiles/install/ssh-copy-id.sh
+
+#/Users/${USER}/dotfiles/install/php71.sh
+#/Users/${USER}/dotfiles/install/php71-xdebug.sh
