@@ -50,10 +50,10 @@ printf "\n"
 /Users/${USER}/dotfiles/install/aerial.sh
 /Users/${USER}/dotfiles/install/gnupg.sh
 /Users/${USER}/dotfiles/install/mac-app-store-cli.sh
-/Users/${USER}/dotfiles/install/mysql.sh
 /Users/${USER}/dotfiles/install/quick-look-plugins.sh
 /Users/${USER}/dotfiles/install/redis.sh
 /Users/${USER}/dotfiles/install/ssh-copy-id.sh
 
+#/Users/${USER}/dotfiles/install/mysql.sh
 #/Users/${USER}/dotfiles/install/php71.sh
 #/Users/${USER}/dotfiles/install/php71-xdebug.sh
