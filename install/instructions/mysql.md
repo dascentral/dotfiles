@@ -8,5 +8,5 @@
 
 ```bash
 brew install mysql
-    brew services start mysql
+brew services start mysql
 ```
