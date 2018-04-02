@@ -26,7 +26,6 @@ The following articles and repositories may provide inspiration as you setup you
 * [Zach Holman](https://github.com/holman/dotfiles)
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 
-
 ## Software Installation
 
 The repository contains instructions for installation of all of the software packages and applications that I use on my local machine.
