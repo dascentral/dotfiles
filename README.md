@@ -26,7 +26,7 @@ The following articles and repositories may provide inspiration as you setup you
 * [Zach Holman](https://github.com/holman/dotfiles)
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 
-## Software Installation
+## Software
 
 The repository contains instructions for installation of all of the software packages and applications that I use on my local machine.
 
@@ -104,3 +104,17 @@ I use the following software applications across home and work computers. They m
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [WhatsApp](https://www.whatsapp.com/download/)
+
+## Aliases
+
+I lean heavily on aliases (probably too much) to remember commands and save keystrokes. Aliases as installed via the following command:
+
+```bash
+./aliases/install.sh
+```
+
+This installation script only copies aliases into place. The file will need to be sourced following installation.
+
+```bash
+source ~/.aliases
+```
