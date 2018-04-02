@@ -92,10 +92,8 @@ alias dusk='php artisan dusk'
 alias fresh='php artisan migrate:fresh --seed'
 alias routes='php artisan route:list'
 alias refresh='npm install && composer install && php artisan migrate:fresh --seed && npm run dev'
-alias seed='php artisan migrate:fresh --seed && php artisan db:seed:test'
 alias sweet='phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
-alias watch='npm run watch'
 
 
 #------------------------------------------------------------------------------------------
@@ -103,6 +101,7 @@ alias watch='npm run watch'
 #------------------------------------------------------------------------------------------
 alias nrd='npm run dev'
 alias nrp='npm run production'
+alias watch='npm run watch'
 
 
 #------------------------------------------------------------------------------------------
