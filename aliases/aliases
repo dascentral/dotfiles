@@ -69,11 +69,19 @@ alias mysql_restart='sudo /usr/local/mysql/support-files/mysql.server restart'
 #------------------------------------------------------------------------------------------
 # Nginx
 #------------------------------------------------------------------------------------------
+alias cnge='cat /usr/local/var/log/nginx/error.log'
 alias ng='cd /usr/local/etc/nginx'
+alias ngbrew='cd /usr/local/Cellar/nginx/1.13.10'
+alias nglogs='cd /var/log/nginx'
 alias ngrestart='brew services restart nginx'
 alias ngstart='brew services start nginx'
 alias ngstop='brew services stop nginx'
-alias sites='cd /usr/local/etc/nginx/servers'
+alias sites='cd /usr/local/etc/nginx/sites-available'
+alias tnge='tail -f /usr/local/var/log/nginx/error.log'
+
+# cat /usr/local/var/log/nginx/error.log
+# cd /var/log/nginx
+# cd /usr/local/Cellar/nginx/1.13.10
 
 
 #------------------------------------------------------------------------------------------
