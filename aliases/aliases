@@ -102,7 +102,7 @@ alias routes='php artisan route:list'
 alias refresh='npm install && composer install && php artisan migrate:fresh --seed && npm run dev'
 alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
-alias sweet='unit && php artisan dusk'
+alias unit='vendor/bin/phpunit'
 
 
 #------------------------------------------------------------------------------------------
