@@ -100,7 +100,7 @@ alias dusk='php artisan dusk'
 alias fresh='php artisan migrate:fresh --seed'
 alias routes='php artisan route:list'
 alias refresh='npm install && composer install && php artisan migrate:fresh --seed && npm run dev'
-alias sweet='phpunit && php artisan dusk'
+alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
 
 
@@ -117,4 +117,3 @@ alias watch='npm run watch'
 #------------------------------------------------------------------------------------------
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias nah='git reset HEAD --hard'
-
