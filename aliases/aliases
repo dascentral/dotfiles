@@ -118,3 +118,4 @@ alias watch='npm run watch'
 #------------------------------------------------------------------------------------------
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias nah='git reset HEAD --hard'
+alias hff='git hf release finish'
