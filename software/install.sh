@@ -36,13 +36,9 @@ printf "\n"
 # Homebrew Installation
 #===================================================================================
 
-# Homebrew Maintenance
+# Homebrew Update
 printf "\033[1;37mBrew update.\033[0m\n"
 brew update
-printf "\n"
-
-printf "\033[1;37mBrew cleanup.\033[0m\n"
-brew cleanup
 printf "\n"
 
 # Installation
@@ -57,3 +53,16 @@ printf "\n"
 #/Users/${USER}/dotfiles/software/mysql.sh
 #/Users/${USER}/dotfiles/software/php71.sh
 #/Users/${USER}/dotfiles/software/php71-xdebug.sh
+
+# Homebrew Maintenance
+printf "\033[1;37mBrew cleanup.\033[0m\n"
+brew cleanup
+printf "\n"
+
+printf "\033[1;37mBrew prune.\033[0m\n"
+brew prune
+printf "\n"
+
+printf "\033[1;37mBrew doctor.\033[0m\n"
+brew doctor
+printf "\n"
