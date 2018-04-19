@@ -8,7 +8,7 @@
 printf "\033[1;37mInstalling aliases.\033[0m"
 
 # Copy into place
-cp /Users/$USER/dotfiles/aliases /Users/$USER/.aliases
+cp /Users/$USER/dotfiles/aliases/aliases /Users/$USER/.aliases
 
 # Include any custom aliases stored locally
 if [ -e "/Users/$USER/.aliases-local" ]; then
