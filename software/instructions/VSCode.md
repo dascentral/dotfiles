@@ -54,6 +54,7 @@ I leverage the following extensions:
 * PHP Debug
 * PHP Intelephense
 * php cs fixer
+* [prettier-vscode](https://prettier.io/)
 * snippet-creator
 * Vetur
 
