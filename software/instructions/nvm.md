@@ -6,8 +6,10 @@
 
 ## Installation
 
+This version tends to change frequently so it may be worth checking GitHub for the latest.
+
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
 ```
 
 ## Post-Installation
