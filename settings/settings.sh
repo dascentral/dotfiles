@@ -151,19 +151,3 @@ fi
 # Copy settings into place
 cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
 sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
-
-
-
-#===================================================================================
-# PHP-CS-Fixer
-#===================================================================================
-
-phpcsfixer_folder="/usr/local/var/php-cs-fixer"
-
-# Setup folder for package settings
-if [ ! -e $phpcsfixer_folder ]; then
-    mkdir $phpcsfixer_folder
-fi
-
-# Copy settings into place
-cp /Users/${USER}/dotfiles/settings/php/.phpcsfixer $phpcsfixer_folder/
