@@ -80,7 +80,7 @@ I am able to confirm.*
 
 ### Resources
 
-"Next Word” Tip Source: https://coderwall.com/p/h6yfda
+"Next Word” Tip Source: [https://coderwall.com/p/h6yfda](https://coderwall.com/p/h6yfda)
 
 ## macOS
 
