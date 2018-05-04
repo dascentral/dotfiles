@@ -26,15 +26,16 @@ source ~/.zshrc
 
 ## Themes
 
-Oh My Zsh has a great number of [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) to help you customize your terminal session. These are a few that I like, with "af-magic" serving as my current favorite.
+Oh My Zsh has a great number of [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) to help you customize your terminal session. Below is a list of themes that I like. "af-magic" and "blinks" are my favorites.
 
 * af-magic
+* blinks
 * candy
 * frontcube
 * michelebologna
 * wezm+
 
-Enable af-magic via the following:
+Enable af-magic via the following command:
 
 ```bash
 sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
