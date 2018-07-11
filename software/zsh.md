@@ -17,10 +17,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 I have an aliases file that I use within this repo for a number of shortcuts. It is enabled via the following:
 
 ```bash
-printf "\n" >> $zshrc
-printf "# Source Aliases\n" >> /Users/${USER}/.zshrc
-printf "source ~/.aliases\n" >> /Users/${USER}/.zshrc
-printf "\n" >> $zshrc
+printf "\n" >> ~/.zshrc
+printf "# Source Aliases\n" >> ~/.zshrc
+printf "source ~/.aliases\n" >> ~/.zshrc
+printf "\n" >> ~/.zshrc
 source ~/.zshrc
 ```
 
