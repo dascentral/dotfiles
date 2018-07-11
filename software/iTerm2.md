@@ -4,6 +4,10 @@
 
 [Download](https://www.iterm2.com/downloads.html) and install iTerm2.
 
+## Enable Custom Settings
+
+I recommend running these commands from within the native Mac Terminal application. Best to keep iTerm closed while updating its settings.
+
 ### Specify the preferences directory
 
 ```bash
@@ -15,8 +19,3 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Dropbox/
 ```bash
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
-
-## References
-
-* [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* [https://github.com/robbyrussell/oh-my-zsh/wiki/themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
