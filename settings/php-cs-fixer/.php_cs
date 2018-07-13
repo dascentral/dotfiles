@@ -8,7 +8,6 @@ return PhpCsFixer\Config::create()
         'method_separation' => true,
         'no_multiline_whitespace_before_semicolons' => true,
         'single_quote' => true,
-
         'binary_operator_spaces' => array(
             'align_double_arrow' => false,
             'align_equals' => false,
