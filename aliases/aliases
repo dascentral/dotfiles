@@ -93,7 +93,7 @@ alias vp='sudo vi /usr/local/etc/php/7.1/php.ini'
 #------------------------------------------------------------------------------------------
 # Laravel
 #------------------------------------------------------------------------------------------
-alias art='php artisan'
+alias artisan='php artisan'
 alias cda='composer dump-autoload'
 alias cll='cat storage/logs/laravel.log'
 alias dusk='php artisan dusk'
