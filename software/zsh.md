@@ -40,3 +40,11 @@ Enable af-magic via the following command:
 ```bash
 sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
 ```
+
+## Plugins
+
+### zsh-autosuggestions
+
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is the lone plugin that I use at this time.
+
+Installation instructions can be found here: [https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md).
