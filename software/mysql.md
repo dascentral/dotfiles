@@ -33,6 +33,12 @@ On a few of my machines, I have accidentally upgraded to MySQL 8 via the `brew u
 ln -s /usr/local/opt/mysql@5.7/bin/mysql /usr/local/sbin/mysql
 ```
 
+Alternatively, you could also add the path to MySQL's `bin` folder to your system `PATH`.
+
+```bash
+/usr/local/opt/mysql@5.7/bin
+```
+
 ## Uninstall
 
 I compiled these uninstall notes using the following two sources:
