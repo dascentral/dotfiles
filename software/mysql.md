@@ -19,10 +19,18 @@ You can see available versions of MySQL via the following:
 brew search mysql
 ```
 
-Install MySQL 5.7 via the following:
+### MySQL 5.7
+
+MySQL 8.0 became prevelant in 2018. However, most of my projects are still using 5.7. If you want to install a specific version of MySQL, like 5.7, you can do so via the following:
 
 ```bash
 brew install mysql@5.7
+```
+
+On a few of my machines, I have accidentally upgraded to MySQL 8 via the `brew upgrade` command. After following the uninstall instructions below and then reinstalling MySQL 5.7, my system lost access to the `mysql` command via the command line. I was unable to find a great fix but creating a symbolic link seemed to take care of my immediate needs:
+
+```bash
+ln -s /usr/local/opt/mysql@5.7/bin/mysql /usr/local/sbin/mysql
 ```
 
 ## Uninstall
