@@ -27,13 +27,11 @@ MySQL 8.0 became prevelant in 2018. However, most of my projects are still using
 brew install mysql@5.7
 ```
 
-On a few of my machines, I have accidentally upgraded to MySQL 8 via the `brew upgrade` command. After following the uninstall instructions below and then reinstalling MySQL 5.7, my system lost access to the `mysql` command via the command line. I was unable to find a great fix but creating a symbolic link seemed to take care of my immediate needs:
+#### PATH issues with previous versions
 
-```bash
-ln -s /usr/local/opt/mysql@5.7/bin/mysql /usr/local/sbin/mysql
-```
+On a few of my machines, I have accidentally upgraded to MySQL 8 via the `brew upgrade` command. After following the uninstall instructions below and then reinstalling MySQL 5.7, my system lost access to the `mysql` command via the command line.
 
-Alternatively, you could also add the path to MySQL's `bin` folder to your system `PATH`.
+After taking a closer look, the symbolic links that previously lived in `/usr/local/bin` were not recreated following the 5.7 installation process. I believe the best fix is to add the MySQL 5.7 `bin` folder to the system path. Make sure to use `/usr/local/opt` as the base of the path since that will gracefully accept any patch updates to the MySQL software. (e.g. Upgrading 5.7.22 to 5.7.23)
 
 ```bash
 /usr/local/opt/mysql@5.7/bin
@@ -83,7 +81,7 @@ launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 
 ### File System
 
-For good measure, let's remove all references to MySQL from the file system:
+For good measure, let's remove all potential references to MySQL from the file system:
 
 ```bash
 sudo rm -rf /usr/local/mysql*
