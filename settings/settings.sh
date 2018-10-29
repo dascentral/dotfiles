@@ -9,7 +9,7 @@
 printf "\033[1;37mSynchronizing settings.\033[0m\n\n"
 
 # Ask for the administrator password upfront
-sudo -v
+#sudo -v
 
 
 #===================================================================================
