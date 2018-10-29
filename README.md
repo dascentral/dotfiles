@@ -19,6 +19,7 @@ The following articles and repositories may provide inspiration as you setup you
 
 * [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) - Zack Holman, Aug 2010
 * [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) - Dries Vints, April 2016
+* [Freek Van der Herten's repo](https://github.com/freekmurze/dotfiles)
 
 ### Repositories
 
