@@ -253,11 +253,11 @@ cp /Users/${USER}/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Use
 # Restart affected applications
 #===================================================================================
 
-for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
-	"Dock" "Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" \
-	"Terminal" "Transmission" "Twitter" "iCal"; do
-	killall "${app}" > /dev/null 2>&1
-done
+#for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
+#    "Dock" "Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" \
+#    "Terminal" "Transmission" "Twitter" "iCal"; do
+#    killall "${app}" > /dev/null 2>&1
+#done
 
 
 #===================================================================================
