@@ -149,8 +149,8 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Dock, Dashboard, and hot corners
 #===================================================================================
 
-# Set the icon size of Dock items to 72 pixels
-#defaults write com.apple.dock tilesize -int 72
+# Set the icon size of Dock items
+defaults write com.apple.dock tilesize -int 28
 
 # Hide indicator lights for open applications in the Dock
 #defaults write com.apple.dock show-process-indicators -bool false
