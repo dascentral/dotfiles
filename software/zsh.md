@@ -43,5 +43,5 @@ sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
 
 ## Plugins
 
-* [zsh-artisan](https://github.com/jessarcher/zsh-artisan)
+* [zsh-artisan](https://github.com/jessarcher/zsh-artisan) - Strong in concept. I have been unable to get it to work correctly.
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
