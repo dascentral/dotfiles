@@ -37,7 +37,7 @@ The repository contains instructions for installation of all of the software pac
 
 ### Scripted Installation
 
-Once [Homebrew](https://github.com/dascentral/dotfiles/blob/master/install/homebrew.md) and [Composer](https://github.com/dascentral/dotfiles/blob/master/install/composer.md) have been installed, the `install/install.sh` script will automatically install the following items:
+Once [Homebrew](https://github.com/dascentral/dotfiles/blob/master/software/homebrew.md) and [Composer](https://github.com/dascentral/dotfiles/blob/master/software/composer.md) have been installed, the `software/install.sh` script will automatically install the following items:
 
 * [ack](http://beyondgrep.com/install/)
 * [Aerial](https://github.com/JohnCoates/Aerial)
@@ -109,7 +109,7 @@ I use the following software applications across home and work computers. They m
 
 ## Aliases
 
-I lean heavily on aliases (probably too much) to remember commands and save keystrokes. Aliases as installed via the following command:
+I lean heavily on aliases (probably too much) to remember commands and save keystrokes. Aliases are installed via the following command:
 
 ```bash
 ./aliases/install.sh
