@@ -59,6 +59,7 @@ Some software applications require manual installation or customization via the 
 * [Bartender](https://www.macbartender.com/)
 * [HubFlow](https://datasift.github.io/gitflow/TheHubFlowTools.html)
 * [iTerm2](https://www.iterm2.com)
+* [Laravel Valet](https://laravel.com/docs/master/valet)
 * [MySQL](https://www.mysql.com/)
 * [NVM](https://github.com/creationix/nvm)
 * [PHP](http://www.php.net)
