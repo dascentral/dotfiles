@@ -250,6 +250,13 @@ cp /Users/${USER}/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Use
 
 
 #===================================================================================
+# Outlook
+#===================================================================================
+
+defaults write com.microsoft.Outlook NSRequiresAquaSystemAppearance -bool yes
+
+
+#===================================================================================
 # Restart affected applications
 #===================================================================================
 
