@@ -98,6 +98,7 @@ I use the following software applications across home and work computers. They m
 * MindNode Lite
 * [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [Postman](https://www.getpostman.com/)
+* [Rocket](https://matthewpalmer.net/rocket/)
 * [Sequel Pro](http://www.sequelpro.com/download/)
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
