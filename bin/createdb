@@ -12,5 +12,5 @@
 if [ $# != 1 ]; then
     echo "Usage: createdb [dbname]";
 else
-    mysql -u root -e 'CREATE DATABASE $1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci'
+    mysql -u root -e "CREATE DATABASE $1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
 fi
