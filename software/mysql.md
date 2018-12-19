@@ -51,7 +51,7 @@ Note that these instructions will remove any data stored within existing MySQL i
 You will first want to stop the MySQL service. If using Homebrew, this can be done via the following:
 
 ```bash
-brew services stop mysql
+brew services stop mysql@5.7
 ```
 
 Use the following command to confirm whether any MySQL processes remain:
@@ -67,7 +67,7 @@ Kill any processes that remain.
 If installed via Homebrew, this should remove the bulk of the application:
 
 ```bash
-brew remove mysql
+brew remove mysql@5.7
 brew cleanup
 ```
 
