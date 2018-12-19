@@ -41,11 +41,11 @@ alias dcu='docker-compose up -d'
 
 
 #------------------------------------------------------------------------------------------
-# Vagrant
+# Git
 #------------------------------------------------------------------------------------------
-alias vgs='vagrant global-status'
-alias vu='vagrant up'
-alias vh='vagrant halt'
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias nah='git reset HEAD --hard'
+alias hff='git hf release finish'
 
 
 #------------------------------------------------------------------------------------------
@@ -56,6 +56,20 @@ alias he='subl /Users/${USER}/Workspace/Homestead/Homestead.yaml'
 alias hu="cd '/Users/${USER}/Workspace/Homestead'; vagrant up; cd -"
 alias hh="cd '/Users/${USER}/Workspace/Homestead'; vagrant halt; cd -"
 alias hp="cd '/Users/${USER}/Workspace/Homestead'; vagrant provision; cd -"
+
+
+#------------------------------------------------------------------------------------------
+# Laravel
+#------------------------------------------------------------------------------------------
+alias artisan='php artisan'
+alias cda='composer dump-autoload'
+alias cll='cat storage/logs/laravel.log'
+alias dusk='php artisan dusk'
+alias mfs='php artisan migrate:fresh --seed'
+alias routes='php artisan route:list'
+alias sweet='vendor/bin/phpunit && php artisan dusk'
+alias tll='tail -f storage/logs/laravel.log'
+alias unit='vendor/bin/phpunit'
 
 
 #------------------------------------------------------------------------------------------
@@ -85,26 +99,6 @@ alias tnge='tail -f /usr/local/var/log/nginx/error.log'
 
 
 #------------------------------------------------------------------------------------------
-# PHP
-#------------------------------------------------------------------------------------------
-alias vp='sudo vi /usr/local/etc/php/7.1/php.ini'
-
-
-#------------------------------------------------------------------------------------------
-# Laravel
-#------------------------------------------------------------------------------------------
-alias artisan='php artisan'
-alias cda='composer dump-autoload'
-alias cll='cat storage/logs/laravel.log'
-alias dusk='php artisan dusk'
-alias mfs='php artisan migrate:fresh --seed'
-alias routes='php artisan route:list'
-alias sweet='vendor/bin/phpunit && php artisan dusk'
-alias tll='tail -f storage/logs/laravel.log'
-alias unit='vendor/bin/phpunit'
-
-
-#------------------------------------------------------------------------------------------
 # NPM
 #------------------------------------------------------------------------------------------
 alias nrd='npm run dev'
@@ -113,8 +107,14 @@ alias watch='npm run watch'
 
 
 #------------------------------------------------------------------------------------------
-# Git
+# PHP
 #------------------------------------------------------------------------------------------
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias nah='git reset HEAD --hard'
-alias hff='git hf release finish'
+alias vp='sudo vi /usr/local/etc/php/7.2/php.ini'
+
+
+#------------------------------------------------------------------------------------------
+# Vagrant
+#------------------------------------------------------------------------------------------
+alias vgs='vagrant global-status'
+alias vu='vagrant up'
+alias vh='vagrant halt'
