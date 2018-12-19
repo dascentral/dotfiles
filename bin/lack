@@ -5,7 +5,7 @@
 # Script that searches through a Laravel codebase with the "ack" command.
 # The "storage" and "node_modules" folders are ignored.
 #
-# Two Required Parameters
+# One Required Parameter
 # 1) Search String
 #
 #===================================================================================
