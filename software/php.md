@@ -12,9 +12,15 @@
 brew install php@7.2
 ```
 
-#### PATH issues on Mojave
+#### PATH Issues
 
-Following an upgrade to Mojave, it appears as though the PHP 7.2 path needs to be explicitly added to the global system path for the new version to take effect.
+Following an upgrade to Mojave, I had some challenges getting PHP 7.2 to work properly with [Laravel Valet](https://laravel.com/docs/master/valet). Homebrew was letting me know that PHP 7.2 is "keg-only" so you have two force creation of symlinks to get it working properly.
+
+```bash
+brew link php@7.2 --force
+```
+
+Alternatively, if you do not need the symlinks, you can simply add the `bin` and `sbin` folders to your system path:
 
 ```bash
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
