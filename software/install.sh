@@ -59,10 +59,6 @@ printf "\033[1;37mBrew cleanup.\033[0m\n"
 brew cleanup
 printf "\n"
 
-printf "\033[1;37mBrew prune.\033[0m\n"
-brew prune
-printf "\n"
-
 printf "\033[1;37mBrew doctor.\033[0m\n"
 brew doctor
 printf "\n"
