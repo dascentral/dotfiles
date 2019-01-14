@@ -47,6 +47,7 @@ I leverage the following extensions:
 * File Utils
 * GitLens
 * Import Cost
+* language-stylus
 * Laravel Artisan
 * Laravel Blade Snippets
 * Markdown All in One
