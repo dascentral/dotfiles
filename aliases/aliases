@@ -71,6 +71,7 @@ alias hp="cd '/Users/${USER}/Workspace/Homestead'; vagrant provision; cd -"
 alias artisan='php artisan'
 alias cda='composer dump-autoload'
 alias cll='cat storage/logs/laravel.log'
+alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
 alias mfs='php artisan migrate:fresh --seed'
 alias routes='php artisan route:list'
