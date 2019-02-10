@@ -58,6 +58,7 @@ I leverage the following extensions:
 * PHP Namespace Resolver
 * [prettier-vscode](https://prettier.io/)
 * snippet-creator
+* [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * Vetur
 
 ### Themes
