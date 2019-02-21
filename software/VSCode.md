@@ -50,8 +50,8 @@ I leverage the following extensions:
 * language-stylus
 * Laravel Artisan
 * Laravel Blade Snippets
-* Markdown All in One
-* markdownlint
+* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+* [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 * php cs fixer
 * PHP Debug
 * PHP Intelephense
