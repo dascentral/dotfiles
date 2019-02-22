@@ -1,8 +1,10 @@
 # iTerm2
 
-## Installation
+## Introduction
 
-[Download](https://www.iterm2.com/downloads.html) and install iTerm2.
+iTerm2 is a replacement for Terminal and the successor to iTerm.
+
+[https://www.iterm2.com/downloads.html](https://www.iterm2.com/downloads.html)
 
 ## Enable Custom Settings
 
