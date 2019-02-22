@@ -69,6 +69,8 @@ I haven't quite settled on what I feel is best in the realm of themes but the fo
 * Material Theme
 * Slime Theme
 
+I currently have the Slime theme enabled. `Command-K + Command-T` will pop the theme selection window.
+
 ### Others to Explore
 
 I haven't installed these yet but they're on my radar.
