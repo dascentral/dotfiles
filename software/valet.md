@@ -20,7 +20,7 @@ The default TLD for Valet websites is `.test` however, I prefer use of `.localho
 valet tld localhost
 ```
 
-### Workspace Parking
+### Parking the Workspace
 
 I keep all of my web projects within a `~/Workspace` folder. I like to park that folder for quick serving of my Laravel websites.
 
