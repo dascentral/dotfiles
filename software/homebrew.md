@@ -1,6 +1,8 @@
 # Homebrew
 
-## Documentation
+## Introduction
+
+Homebrew is the missing package manager for macOS.
 
 [http://brew.sh/](http://brew.sh/)
 
