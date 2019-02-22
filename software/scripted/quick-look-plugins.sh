@@ -11,6 +11,6 @@ check="/Users/${USER}/Library/QuickLook/QuickLookJSON.qlgenerator"
 # Installation
 if [ ! -e $check ]; then
     printf "\033[1;33mInstalling $name.\033[0m\n"
-    brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+    brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json webpquicklook suspicious-package quicklookase qlvideo
     printf "\n\n"
 fi
