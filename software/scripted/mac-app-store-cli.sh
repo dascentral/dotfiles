@@ -10,7 +10,7 @@ check="/usr/local/bin/mas"
 
 # Installation
 if [ ! -e $check ]; then
-    printf "\033[1;33mInstalling $name.\033[0m\n"
+    printf "\033[1;37mInstalling $name.\033[0m\n"
     brew install mas
     printf "\n\n"
 fi
