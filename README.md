@@ -33,7 +33,17 @@ The repository contains instructions for installation of all of the software pac
 
 ### Foundational Elements
 
-[Homebrew](software/homebrew.md) and [Composer](software/composer.md) facilitate scripted installation of many of my most frequently used software applications. They also help me keep my system up-to-date.
+The following software applications serve as the foundation for everything I do on my computer:
+
+* [Google Chrome](https://www.google.com/chrome)
+* [1Password](https://1password.com/)
+* [Alfred](https://www.alfredapp.com/)
+* [Spectacle](https://www.spectacleapp.com/)
+
+And these two support scripted installation of my most frequently used software applications and keep my system up-to-date:
+
+* [Homebrew](software/homebrew.md)
+* [Composer](software/composer.md)
 
 ### Scripted Installation
 
@@ -102,7 +112,6 @@ I use the following software applications across home and work computers. They m
 * [Sequel Pro](http://www.sequelpro.com/download/)
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
-* [Spectacle](https://www.spectacleapp.com/)
 * [Spotify](http://www.spotify.com/)
 * [Tower](https://www.git-tower.com/)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
