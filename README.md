@@ -57,7 +57,7 @@ The `install.sh` script also keeps Homebrew and Composer updated so I try to run
 Some software applications require manual installation or customization via the command line. Installation and setup instructions are available for the following items:
 
 * [Bartender](https://www.macbartender.com/)
-* [HubFlow](https://datasift.github.io/gitflow/TheHubFlowTools.html)
+* [HubFlow](software/hubflow.md)
 * [iTerm2](https://www.iterm2.com)
 * [Laravel Valet](https://laravel.com/docs/master/valet)
 * [MySQL](https://www.mysql.com/)
