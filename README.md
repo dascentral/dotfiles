@@ -74,6 +74,7 @@ Some software applications require manual installation or customization via the 
 I install the following software applications via the Mac App Store.
 
 * Dash
+* [Evernote](http://www.evernote.com/)
 * Transmit
 * Tweetbot
 
@@ -88,7 +89,6 @@ I use the following software applications across home and work computers. They m
 * [Docker](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [Google Backup and Sync](https://www.google.com/drive/download/)
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
-* [Evernote](http://www.evernote.com/)
 * [FireFox](http://www.mozilla.org/en-US/firefox/new/)
 * [FunctionFlip](http://kevingessner.com/software/functionflip/)
 * [Handbrake](https://handbrake.fr/downloads.php)
