@@ -58,16 +58,16 @@ Some software applications require manual installation or customization via the 
 
 * [Bartender](https://www.macbartender.com/)
 * [HubFlow](software/hubflow.md)
-* [iTerm2](https://www.iterm2.com)
-* [Laravel Valet](https://laravel.com/docs/master/valet)
-* [MySQL](https://www.mysql.com/)
-* [NVM](https://github.com/creationix/nvm)
-* [PHP](http://www.php.net)
-* [PHP Xdebug](https://xdebug.org/)
-* [RVM](https://rvm.io/rvm/install)
-* [Sublime Text](https://www.sublimetext.com)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [WordPress CLI](http://wp-cli.org)
+* [iTerm2](software/iTerm2.md)
+* [Laravel Valet](software/valet.md)
+* [MySQL](software/mysql.md)
+* [NVM](software/nvm.md)
+* [PHP](software/php.md)
+* [PHP Xdebug](software/php71-xdebug.md) - Currently only good for PHP 7.1
+* [RVM](software/rvm.md)
+* [Sublime Text](software/Sublime.md)
+* [Visual Studio Code](software/VSCode.md)
+* [WordPress CLI](software/wp-cli.md)
 
 ### Mac App Store
 
