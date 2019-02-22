@@ -8,7 +8,28 @@ Valet is a Laravel development environment for Mac minimalists. It configures yo
 
 ## Installation
 
-It's best to leave on the Laravel docs for installation instructions. Essentially, you want to install MySQL and PHP natively on your maching. The Valet installation process will take care of the rest.``
+It's best to leave on the Laravel docs for installation instructions. Essentially, you want to install MySQL and PHP natively on your maching. The Valet installation process will take care of the rest.
+
+## Configuration
+
+### Top-Level Domain
+
+The default TLD for Valet websites is `.test` however, I prefer use of `.localhost`. That can be quickly configured via the following command:
+
+```bash
+valet tld localhost
+```
+
+### Workspace Parking
+
+I keep all of my web projects within a `~/Workspace` folder. I like to park that folder for quick serving of my Laravel websites.
+
+```bash
+cd ~/Workspace
+valet park
+```
+
+That command will register the `~/Workspace` folder as a path that Valet should search for sites.
 
 ## Troubeshooting
 
