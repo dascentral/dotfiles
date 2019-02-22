@@ -86,7 +86,7 @@ I use the following software applications across home and work computers. They m
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Dash](https://kapeli.com/dash)
 * [Docker](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-* [Google Drive](https://www.google.com/drive/download/)
+* [Google Backup and Sync](https://www.google.com/drive/download/)
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
 * [Evernote](http://www.evernote.com/)
 * [FireFox](http://www.mozilla.org/en-US/firefox/new/)
