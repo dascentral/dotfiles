@@ -16,16 +16,10 @@ brew services start mysql
 You can see available versions of MySQL via the following:
 
 ```bash
-brew search mysql
+brew search mysql@5.7
 ```
 
-### MySQL 5.7
-
-MySQL 8.0 became prevelant in 2018. However, most of my projects are still using 5.7. If you want to install a specific version of MySQL, like 5.7, you can do so via the following:
-
-```bash
-brew install mysql@5.7
-```
+Note that MySQL 8.0 became prevelant in 2018. However, most of my projects are still using 5.7 which is why my default software installation specifies that version.
 
 #### PATH issues with previous versions
 
