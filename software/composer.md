@@ -13,7 +13,7 @@ php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-d
 sudo chown ${USER} ~/.composer
 ```
 
-## Path Modifications
+## Configuration
 
 You will likely want to make sure that Composer's `bin` directory is in your system's PATH.
 
