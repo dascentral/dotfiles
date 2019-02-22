@@ -39,28 +39,28 @@ If you want a look at my `settings.json` file, you can view it here: [https://dr
 
 I leverage the following extensions:
 
-* advanced-new-file
-* Better PHPUnit
-* Code Ace Jumper
-* DotEnv
-* ESLint
-* File Utils
-* GitLens
-* Import Cost
-* language-stylus
-* Laravel Artisan
-* Laravel Blade Snippets
+* [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
+* [Better PHPUnit](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
+* [Code Ace Jumper](https://marketplace.visualstudio.com/items?itemName=lucax88x.codeacejumper)
+* [DotEnv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+* [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
+* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+* [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 * [Laravel 5 Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 * [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-* php cs fixer
-* PHP Debug
-* PHP Intelephense
-* PHP Namespace Resolver
-* [prettier-vscode](https://prettier.io/)
-* snippet-creator
+* [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+* [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
+* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+* [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
+* [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitakunevich.snippet-creator)
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-* Vetur
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ### Themes
 
