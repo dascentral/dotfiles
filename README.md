@@ -33,11 +33,11 @@ The repository contains instructions for installation of all of the software pac
 
 ### Foundational Elements
 
-[Homebrew](https://brew.sh/) and [Composer](https://getcomposer.org/) facilitate scripted installation of many of my most frequently used software applications. They also help me keep my system up-to-date.
+[Homebrew](software/homebrew.md) and [Composer](software/composer.md) facilitate scripted installation of many of my most frequently used software applications. They also help me keep my system up-to-date.
 
 ### Scripted Installation
 
-Once [Homebrew](https://github.com/dascentral/dotfiles/blob/master/software/homebrew.md) and [Composer](https://github.com/dascentral/dotfiles/blob/master/software/composer.md) have been installed, the `software/install.sh` script will automatically install the following items:
+Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have been installed, the `software/install.sh` script will automatically install the following items:
 
 * [ack](http://beyondgrep.com/install/)
 * [Aerial](https://github.com/JohnCoates/Aerial)
