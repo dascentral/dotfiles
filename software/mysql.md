@@ -9,17 +9,19 @@
 These commands will install the latest version of MySQL.
 
 ```bash
-brew install mysql
-brew services start mysql
+brew install mysql@5.7
+brew services start mysql@5.7
 ```
+
+### Versioning
+
+Note that MySQL 8.0 became prevelant in 2018. However, most of my projects are still using 5.7 which is why my default software installation specifies that version.
 
 You can see available versions of MySQL via the following:
 
 ```bash
-brew search mysql@5.7
+brew search mysql
 ```
-
-Note that MySQL 8.0 became prevelant in 2018. However, most of my projects are still using 5.7 which is why my default software installation specifies that version.
 
 #### PATH issues with previous versions
 
