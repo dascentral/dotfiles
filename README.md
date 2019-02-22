@@ -58,7 +58,7 @@ Some software applications require manual installation or customization via the 
 
 * [Bartender](https://www.macbartender.com/)
 * [HubFlow](software/hubflow.md)
-* [iTerm2](software/iTerm2.md)
+* [iTerm2](software/iTerm2.md) + [Oh My Zsh](software/zsh.md)
 * [Laravel Valet](software/valet.md)
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
