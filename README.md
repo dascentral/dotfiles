@@ -40,7 +40,7 @@ The following software applications serve as the foundation for everything I do 
 * [Alfred](https://www.alfredapp.com/)
 * [Spectacle](https://www.spectacleapp.com/)
 
-These two applications support scripted installation of my most frequently used applications and keep my system up-to-date:
+The following two applications support scripted installation of my most frequently used applications and keep my system up-to-date:
 
 * [Homebrew](software/homebrew.md)
 * [Composer](software/composer.md)
