@@ -60,7 +60,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [Redis](https://redis.io/)
 * [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
 
-The `install.sh` script also keeps Homebrew and Composer updated so I try to run that script on a regular basis.
+The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is idempotent so I try to run it on a regular basis.
 
 ### Manual Installation
 
