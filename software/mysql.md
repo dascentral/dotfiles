@@ -23,11 +23,15 @@ You can see available versions of MySQL via the following:
 brew search mysql
 ```
 
-#### PATH issues with previous versions
+### PATH Issues
 
-On a few of my machines, I have accidentally upgraded to MySQL 8 via the `brew upgrade` command. After following the uninstall instructions below and then reinstalling MySQL 5.7, my system lost access to the `mysql` command via the command line.
+Recently, I noticed that symlinks were not being created automatically following new installs of MySQL 5.7. You can force creation of those symlinks via the following:
 
-After taking a closer look, the symbolic links that previously lived in `/usr/local/bin` were not recreated following the 5.7 installation process. I believe the best fix is to add the MySQL 5.7 `bin` folder to the system path. Make sure to use `/usr/local/opt` as the base of the path since that will gracefully accept any patch updates to the MySQL software. (e.g. Upgrading 5.7.22 to 5.7.23)
+```bash
+brew link mysql@5.7 --force
+```
+
+Alternatively, if you do not need the symlinks, you can add the following folder to your system path:
 
 ```bash
 /usr/local/opt/mysql@5.7/bin
