@@ -45,6 +45,7 @@ alias dcu='docker-compose up -d'
 # Git
 #------------------------------------------------------------------------------------------
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gs="git status"
 alias nah='git reset HEAD --hard'
 alias hff='git hf release finish'
 
