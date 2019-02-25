@@ -163,3 +163,11 @@ I am able to confirm.*
 
 * Preferences > Calendar > Set work starts to "8:00am"
 * Preferences > Calendar > Set work ends to "7:00pm"
+
+### Fonts
+
+I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its application fonts within the applications themselves. They are not available by default to other macOS applications and will need to be added manually to Font Book. You can find the font files within the application package.
+
+* Browse to `/Applications`
+* Right click on `Microsoft Word.app` and click "Show Package Contents"
+* Browse to `/Contents/Resources/DFonts`
