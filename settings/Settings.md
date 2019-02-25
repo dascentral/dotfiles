@@ -42,12 +42,12 @@ While I would love for all settings to be controlled programmatically, I just ha
 ## iTerm2
 
 *As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
-within a local file. I have stored my preferences on Dropbox and have configured
+within a local file. I have stored my preferences on Google Drive and have configured
 my latest iTerm2 installation to leverage that file.*
 
-*I am currently unsure if that settings file handles ALL options within the
-"Preferences" dialog. I'll keep the notes below around for a while until
-I am able to confirm.*
+*However, I am currently unsure if that settings file handles ALL options within the
+"Preferences" dialog so I am keeping these notes around for a while until I am
+able to confirm.*
 
 ### Preferences
 
