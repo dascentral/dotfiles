@@ -39,6 +39,22 @@ While I would love for all settings to be controlled programmatically, I just ha
 * Related results > Uncheck
 * PDF page button > Uncheck
 
+## Finder
+
+### Desktop
+
+Access Desktop settings via "View > Show View Options" and set the following:
+
+* **Sorty by:** Name
+* **Icon size:** 28 x 28
+* **Label position:** Right
+
+### Search
+
+From within Finder's preferences pane:
+
+* Advanced > When performing a search > Set to "Search the Current Folder"
+
 ## iTerm2
 
 *As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
@@ -84,7 +100,7 @@ able to confirm.*
 
 ## macOS
 
-### System Preferences
+The following settings can be modified via the macOS System Preferences.
 
 #### Accessibility
 
@@ -99,7 +115,7 @@ able to confirm.*
 
 * Check "Minimize windows into the application icon"
 
-### General
+#### General
 
 * Appearance > Select "Dark"
 
@@ -120,14 +136,22 @@ able to confirm.*
 
 * Enable "Secondary Click"
 
+#### Notifications
+
+##### Microsoft Outlook
+
+Turn off everything. I use the native Calendar app for all notifications.
+
+##### Calendar
+
+* Set alert style to "Banners"
+* Uncheck "Show notification on lock screen"
+* Uncheck "Show in Notification Center"
+
 #### Trackpad
 
 * Enable "Secondary Click"
 * Enable "Tap to click"
-
-### Finder
-
-* Advanced > When performing a search > Set to "Search the Current Folder"
 
 ## Messages
 
@@ -172,15 +196,3 @@ I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its 
 * Browse to `/Applications`
 * Right click on `Microsoft Word.app` and click "Show Package Contents"
 * Browse to `/Contents/Resources/DFonts`
-
-## Notifications
-
-### Microsoft Outlook
-
-Turn off everything. I use the native Calendar app for all notifications.
-
-### Calendar
-
-* Set alert style to "Banners"
-* Uncheck "Show notification on lock screen"
-* Uncheck "Show in Notification Center"
