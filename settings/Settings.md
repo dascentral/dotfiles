@@ -172,3 +172,15 @@ I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its 
 * Browse to `/Applications`
 * Right click on `Microsoft Word.app` and click "Show Package Contents"
 * Browse to `/Contents/Resources/DFonts`
+
+## Notifications
+
+### Microsoft Outlook
+
+Turn off everything. I use the native Calendar app for all notifications.
+
+### Calendar
+
+* Set alert style to "Banners"
+* Uncheck "Show notification on lock screen"
+* Uncheck "Show in Notification Center"
