@@ -84,45 +84,50 @@ able to confirm.*
 
 ## macOS
 
-### Accessibility
+### System Preferences
+
+#### Accessibility
 
 * Zoom > Check "Use scroll gesture with modifier keys to zoom"
 * Display > Check “Reduce motion.”
 
-### Desktop & Screen Saver
+#### Desktop & Screen Saver
 
-* Screen Saver > Select "Flurry"
+* Screen Saver > Select "Aerial" - Requires installation of the [Aerial](https://github.com/JohnCoates/Aerial) screen saver
 
-### Dock
+#### Dock
 
-* "Minimize windows into the application icon"
-
-### Finder
-
-* Advanced > When performing a search > Set to "Search the Current Folder"
+* Check "Minimize windows into the application icon"
 
 ### General
 
-* "Restore windows when quitting and re-opening apps" (This is the default setting in OS X Mavericks)
+* Appearance > Select "Dark"
 
-### Keyboard
+#### Keyboard
 
-* Shortcuts > "press Tab to move keyboard focus between: All controls"
 * Text > Uncheck "Correct spelling automatically"
 * Text > Uncheck "Capitalize words automatically"
 * Text > Uncheck "Add period with double-space"
 * Text > Uncheck "Use smart quotes and dashes"
+* Shortcuts > Full Keyboard Access > Select "All controls"
 
-### Mission Control
+#### Mission Control
 
-* Dashboard > Set "As Space"
 * Uncheck "Automatically rearrange Spaces based on most recent use"
-* Set "Show Dashboard" to F4
-* Hot Corners > Assign "Start Screen Saver" to lower left. Clear the rest.
+* Hot Corners > Assign "Start Screen Saver" to upper right. Clear the rest.
 
-### Mouse
+#### Mouse
 
 * Enable "Secondary Click"
+
+#### Trackpad
+
+* Enable "Secondary Click"
+* Enable "Tap to click"
+
+### Finder
+
+* Advanced > When performing a search > Set to "Search the Current Folder"
 
 ## Messages
 
@@ -143,10 +148,6 @@ able to confirm.*
 * Preferences > Notifications & Sounds > Turn off Desktop alert
 * Preferences > Notifications & Sounds > Turn off all sounds
 
-#### Categories
-
-* Preferences > Categories > Update categories & colors as you see fit
-
 #### Reading
 
 * Preferences > Reading > Mark items read after previewing for 1 second
@@ -164,7 +165,7 @@ able to confirm.*
 * Preferences > Calendar > Set work starts to "8:00am"
 * Preferences > Calendar > Set work ends to "7:00pm"
 
-### Fonts
+## Fonts
 
 I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its application fonts within the applications themselves. They are not available by default to other macOS applications and will need to be added manually to Font Book. You can find the font files within the application package.
 
