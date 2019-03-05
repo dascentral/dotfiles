@@ -28,4 +28,4 @@ composer global require laravel/installer
 
 #### Articles
 
-* **May 2018** - [Testing Laravel authentication flow](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth. Led me to the [auth-tests](https://github.com/dczajkowski/auth-tests) mentioned above.
+* **May 2018** - [Testing Laravel authentication flow](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth. Led me to the [auth-tests](https://github.com/dczajkowski/auth-tests) repository mentioned above.
