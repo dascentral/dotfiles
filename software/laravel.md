@@ -47,11 +47,11 @@ brew services start mysql@5.7
 
 Following installation of all of this wonderful software, you will want to add a few directories to your system path so that binaries can be executed from anywhere on your machine.
 
-I have added the following lines to the end of my `~/.zshrc` file. Make sure you replace `douglas.smith` with your own username.
+I have added the following lines to the end of my `~/.zshrc` file.
 
 ```bash
 export PATH="$PATH:/usr/local/sbin"
-export PATH="$PATH:/Users/douglas.smith/.composer/vendor/bin"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH="$PATH:/usr/local/opt/mysql@5.7/bin"
 ```
 
