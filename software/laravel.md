@@ -23,7 +23,7 @@ brew install php@7.2
 brew link php@7.2 --force
 ```
 
-The second command forces creation of symlinks for the PHP binaries within `/usr/local/bin`. This action ensures your Mac is using PHP 7.2 instead of the default version.
+The second command forces creation of symlinks for the PHP binaries within `/usr/local/bin`. This action ensures your Mac uses PHP 7.2 instead of the default version.
 
 ### Install Composer
 
