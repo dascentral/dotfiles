@@ -69,7 +69,7 @@ Following its installation, you will want to run its installer:
 valet install
 ```
 
-Valet's default TLD is `.test`. I prefer to use `localhost` which can be set via the following command:
+Valet's default TLD is `.test`. I prefer to use `.localhost` which can be set via the following command:
 
 ```bash
 valet tld localhost
