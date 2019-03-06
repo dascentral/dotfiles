@@ -81,6 +81,12 @@ Following installation, you can confirm Valet was installed correctly by pinging
 ping foobar.localhost
 ```
 
+### Serving Sites
+
+At this point, all software necessary to enable local development should be setup and configured properly. Once you are ready to start building your Laravel application, check out the Valet docs on serving sites.
+
+[https://laravel.com/docs/master/valet#serving-sites](https://laravel.com/docs/master/valet#serving-sites)
+
 ## Application Creation
 
 A new Laravel application can be created via the Laravel installer package which can be installed as a global Composer package:
