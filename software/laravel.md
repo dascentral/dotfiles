@@ -63,7 +63,7 @@ Valet has an installation package which can be installed via Composer:
 composer global require laravel/valet
 ```
 
-Following its installation, you will want to run its installer.
+Following its installation, you will want to run its installer:
 
 ```bash
 valet install
