@@ -118,4 +118,3 @@ Edit `/etc/hostconfig` and remove the following line:
 ```bash
 MYSQLCOM=-YES-
 ```
-
