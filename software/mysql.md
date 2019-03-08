@@ -46,6 +46,8 @@ I compiled these uninstall notes using the following two sources:
 
 Note that these instructions will remove any data stored within existing MySQL installations. Ensure you backup any data that you wish to keep before removing the application.
 
+These instructions also assume you'll be uninstalling MySQL 5.7.
+
 ### MySQL Services
 
 You will first want to stop the MySQL service. If using Homebrew, this can be done via the following:
@@ -71,38 +73,12 @@ brew remove mysql@5.7
 brew cleanup
 ```
 
-### Launch Agents
-
-This step may have already been handled via the Homebrew removal process however it doesn't hurt to run:
-
-```bash
-launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
-```
-
 ### File System
 
-For good measure, let's remove all potential references to MySQL from the file system:
+This command will remove all MySQL data from the file system:
 
 ```bash
-sudo rm -rf /usr/local/mysql*
 sudo rm -rf /usr/local/var/mysql
-sudo rm ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
-sudo rm -rf /Library/StartupItems/MySQLCOM
-sudo rm -rf /Library/PreferencePanes/My*
-sudo rm -rf ~/Library/PreferencePanes/My*
-sudo rm -rf /Library/Receipts/mysql*
-sudo rm -rf /Library/Receipts/MySQL*
-sudo rm -rf /private/var/db/receipts/*mysql*
-```
-
-### MySQL Configuration
-
-I've never actually had to execute this step but every reference I found online indicated it was necessary. I'm keeping it around in case I run across it in the future.
-
-Edit `/etc/hostconfig` and remove the following line:
-
-```bash
-MYSQLCOM=-YES-
 ```
 
 ### Wrap Up
@@ -116,3 +92,30 @@ brew services cleanup
 ### Reboot
 
 Hopefully the last step in the process.
+
+## Legacy Cleanup Commands
+
+I've moved on to macOS Mojave. Since then, the following commands seem irrelevant but I'll keep them around for posterity.
+
+```bash
+launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+sudo rm -rf /usr/local/mysql*
+sudo rm ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /Library/PreferencePanes/My*
+sudo rm -rf ~/Library/PreferencePanes/My*
+sudo rm -rf /Library/Receipts/mysql*
+sudo rm -rf /Library/Receipts/MySQL*
+sudo rm -rf /private/var/db/receipts/*mysql*
+```
+
+#### MySQL Configuration
+
+I have never had to execute this step but every reference I found online indicated it was necessary. I'm keeping it around in case I run across it in the future.
+
+Edit `/etc/hostconfig` and remove the following line:
+
+```bash
+MYSQLCOM=-YES-
+```
+
