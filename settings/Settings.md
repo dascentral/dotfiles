@@ -2,12 +2,17 @@
 
 While I would love for all settings to be controlled programmatically, I just haven't had time to find the necessary commands. This folder contains an inventory of the manual customizations I make for various applications.
 
+## 1Password
+
+* Advanced > Click "Enable 3rd party app integrations"
+
 ## Alfred
 
 * General > Set "Alfred Hotkey" to "Ctrl + Space"
 * Appearance > Select "Alfred macOS" theme
 * Features > Web Search > Replace "google" keyword to "g"
 * Features > Web Search > Replace "maps" keyword to "gm"
+* Features > 1Password > Click "Enabled 1Password Bookmarks"
 
 ## Evernote
 
