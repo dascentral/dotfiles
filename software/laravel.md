@@ -10,7 +10,7 @@ The PHP Framework For Web Artisans. First there was sliced bread. Then there was
 
 At the moment, I'm using [Laravel Valet](https://laravel.com/docs/master/valet) to power local development. Eventually I'll move to a Docker-based solution but I selfishly enjoy the performance gains of native software installation. Basic steps to get up and running are as follows.
 
-### Homebrew
+### Install Homebrew
 
 Install Homebrew. Installation instructions can be found on the Homebrew website: [https://brew.sh/](https://brew.sh/).
 
@@ -27,7 +27,7 @@ The second command forces creation of symlinks for the PHP binaries within `/usr
 
 ### Install Composer
 
-[Composer](https://getcomposer.org/) is PHP's dependency manager.
+[Composer](https://getcomposer.org/) is a dependency manager for PHP. Installation can be completed via the following two commands.
 
 ```bash
 php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
