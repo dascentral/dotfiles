@@ -43,3 +43,8 @@ mkdir /Users/${USER}/.sublime
 cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
 sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
 ```
+
+## Resources
+
+* [Laracasts: Sublime Text Mastery](https://laracasts.com/series/sublime-text-mastery)
+* [Minimalist Sublime Text 3 Setup for PHP](https://laravel-news.com/minimalist-sublime-text-3-setup-for-php)
