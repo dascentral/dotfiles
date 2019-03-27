@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The PHP Framework For Web Artisans. First there was sliced bread. Then there was Laravel.
+The PHP framework For Web Artisans. First there was sliced bread. Then there was Laravel.
 
 [https://laravel.com/](https://laravel.com/)
 
@@ -96,6 +96,15 @@ composer global require laravel/installer
 ```
 
 ## Resources
+
+### Packages
+
+The PHP communitiy has published a great number of packages that aid in the rapid development of software applications. As I find interesting ones that are directly relevant to work that I have underway or I could see using down the road, I plug them in here.
+
+Until I find the time to overthink my categorization strategy of these packages, I will list them alphabetically.
+
+* [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
+* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
 
 ### Testing
 
