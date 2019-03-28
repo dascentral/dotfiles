@@ -97,31 +97,41 @@ composer global require laravel/installer
 
 ## Resources
 
-### Articles
+Would you like some insight into the internal workings of my mind? Of course you do. Initially I was breaking up resources into categories of "Articles", "Packages", and, uh, "Testing."
 
-I have found the following articles useful or potentially relevant to my tinkerings with Laravel. Until I figure out how to overthink their categorization, I'll list them alphabetically.
+That didn't make much sense so I now (somewhat loosely) categorize resources by topic that I hope match up to sections of the official [Laravel documentation](https://laravel.com/docs/master).
 
-* [Laravel Middleware & Basic Auth Implementation](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c)
+### Authentication
 
-### Packages
-
-The PHP communitiy has published a great number of packages that aid in the rapid development of software applications. As I find interesting ones that are directly relevant to work that I have underway or I could see using down the road, I plug them in here.
-
-Until I find the time to overthink my categorization strategy of these packages, I will list them alphabetically.
-
-* [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
-* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
-
-### Testing
-
-#### Courses
-
-* [Test Driven Laravel](https://course.testdrivenlaravel.com/) - by Adam Wathan
-
-#### Repositories
-
-* [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Package that promotes validation of the full auth flows
+[Laravel Docs](https://laravel.com/docs/master/authentication)
 
 #### Articles
 
-* **May 2018** - [Testing Laravel authentication flow](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth. Led me to the [auth-tests](https://github.com/dczajkowski/auth-tests) repository mentioned above.0
+* [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - **Jan 2018**
+
+### Session: Flash Messaging
+
+Laravel provides an ability to store items in the session only for the next request. So this feature technically falls under Lararvel's "Session" component.
+
+[Laravel Docs](https://laravel.com/docs/master/session#flash-data)
+
+#### Packages
+
+* [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
+* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging.
+
+### Testing
+
+[Laravel Docs](https://laravel.com/docs/master/testing)
+
+#### Courses
+
+* [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
+
+#### Articles
+
+* [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - **May 2018** - Great walk through of the basics when testing auth.
+
+#### Packages
+
+* [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Package that promotes validation of the full auth flows
