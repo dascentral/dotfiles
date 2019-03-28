@@ -97,6 +97,12 @@ composer global require laravel/installer
 
 ## Resources
 
+### Articles
+
+I have found the following articles useful or potentially relevant to my tinkerings with Laravel. Until I figure out how to overthink their categorization, I'll list them alphabetically.
+
+* [Laravel Middleware & Basic Auth Implementation](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c)
+
 ### Packages
 
 The PHP communitiy has published a great number of packages that aid in the rapid development of software applications. As I find interesting ones that are directly relevant to work that I have underway or I could see using down the road, I plug them in here.
@@ -118,4 +124,4 @@ Until I find the time to overthink my categorization strategy of these packages,
 
 #### Articles
 
-* **May 2018** - [Testing Laravel authentication flow](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth. Led me to the [auth-tests](https://github.com/dczajkowski/auth-tests) repository mentioned above.
+* **May 2018** - [Testing Laravel authentication flow](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth. Led me to the [auth-tests](https://github.com/dczajkowski/auth-tests) repository mentioned above.0
