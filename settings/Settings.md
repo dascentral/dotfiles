@@ -133,11 +133,16 @@ The following settings can be modified via the macOS System Preferences.
 
 #### Keyboard
 
+* Keyboard > Touch Bar shows "Expanded Control Strip"
+* Keyboard > Press Fn key to "Show App Controls"
 * Text > Uncheck "Correct spelling automatically"
 * Text > Uncheck "Capitalize words automatically"
 * Text > Uncheck "Add period with double-space"
 * Text > Uncheck "Use smart quotes and dashes"
 * Shortcuts > Full Keyboard Access > Select "All controls"
+* Shortcuts > Launchpad & Dock > Uncheck "Turn Dock Hiding On/Off"
+* Shortcuts > Mission Control > Enable "Show Notification Center" with "Ctrl+N"
+* Shortcuts > Mission Control > Enable "Turn Do Not Disturb On/Off" with "Ctrl+D"
 
 #### Mission Control
 
