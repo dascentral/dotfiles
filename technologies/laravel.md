@@ -30,6 +30,10 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
 
+## Routing
+
+* **Article:** April 2018 - [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
+
 ## Testing
 
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
