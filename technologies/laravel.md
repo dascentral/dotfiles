@@ -30,6 +30,7 @@ Laravel provides an ability to store items in the session only for the next requ
 ## GraphQL
 
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
+* **Article:** Oct 2018 - [Lighthouse GraphQL Server for Laravel](https://laravel-news.com/lighthouse-graphql-server-for-laravel)
 
 ## Horizon
 
