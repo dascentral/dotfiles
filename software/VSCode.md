@@ -43,6 +43,7 @@ I leverage the following extensions:
 * [Better PHPUnit](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
 * [Code Ace Jumper](https://marketplace.visualstudio.com/items?itemName=lucax88x.codeacejumper)
 * [DotEnv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+* [EditorConfig for VS COde](https://github.com/editorconfig/editorconfig-vscode)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
 * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
