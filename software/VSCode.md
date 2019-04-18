@@ -72,20 +72,67 @@ I haven't quite settled on what I feel is best in the realm of themes but the fo
 
 I currently have the Slime theme enabled. `Command-K + Command-T` will pop the theme selection window.
 
-### Others to Explore
+## Code Formatting
 
-I haven't installed these yet but they're on my radar.
+> The ratio of time spent reading (code) versus writing is well over 10 to 1 … (therefore) making it easy to read makes it easier to write.
+> 
+> -Bob Martin, Clean Code
 
-* [Search Node Modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules) - Right now I've included `node_modules` within the Quick Open search scope. However, I may want to turn that back off.
+Promoting consistency in code formatting has gotten much easier as development environments has evolved. I 
 
-## ESLint
+* CSS: `.css`
+* HTML: `.html`
+* JavaScript: `.js`
+* JSON: `.json`
+* PHP: `.php`
+* Sass: `.scss`
+* Vue.js: `.vue`
+* YAML: `.yaml`
 
-ESLint will require installation of two Node.js modules:
+VS Code provides a number of tools to ensure code is formatted properly and adheres to modern style guides. However, as far as I can tell, the community has not yet settled on a best practice that facilitates setup within VS Code. Many options seem to overlap or conflict with others. After reading several blog posts and watching a few YouTube videos, I have settled on the approach outlined below.
+
+### Node.js Modules
+
+The following Node.js modules enable my desired formatting and linting:
+
+* babel-eslint
+* eslint
+* eslint-config-airbnb
+* eslint-config-prettier
+* eslint-plugin-import
+* eslint-plugin-prettier
+* eslint-plugin-vue
+* prettier
+
+While I have not yet thoroughly explored the world of React, nor do I write React code with any frequency, I am leveraging the Airbnb style guide to support the linting activities. Their style guide seems to be held in high regard within the community.
+
+I install the required modules per project via the following commands:
 
 ```bash
-npm install -g eslint
-npm install -g eslint-plugin-vue
+npm install -D eslint prettier
+npm audit fix
+npx install-peerdeps --dev eslint-config-airbnb
+npm install -D babel-eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue
 ```
+
+### VS Code Extensions
+
+Now we must install the extensions that allow us to leverage the power of the modules within the editor. Install the following:
+
+* [EditorConfig for VS Code](https://marketplace.visualstudio.com/itemdetails?itemName=EditorConfig.EditorConfig)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+
+### Configurations
+
+Now comes the hard parth - configuring all of this new software. My current approach configures the following:
+
+* **Prettier** - Formats all files *except* PHP and Vue.js. (At the time of this writing, it technically cannot natively format PHP.)
+* **ESLint** - Lints all JavaScript. Code formatting is disabled due to use of `eslint-config-prettier`.
+* **Vetur** - Lints all Vue.js and formats code *using Prettier's engine*
+
+That's right - Prettier is a first-party player when formatting most files and then its engine is used ESLint and Veture.
 
 ## Resources
 
