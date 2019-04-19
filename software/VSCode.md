@@ -58,12 +58,12 @@ I leverage the following extensions:
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
-* [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitakunevich.snippet-creator)
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-### Themes
+## Themes
 
 I haven't quite settled on what I feel is best in the realm of themes but the following two are worth a look:
 
@@ -74,65 +74,61 @@ I currently have the Slime theme enabled. `Command-K + Command-T` will pop the t
 
 ## Code Formatting
 
-> The ratio of time spent reading (code) versus writing is well over 10 to 1 … (therefore) making it easy to read makes it easier to write.
+### Philosophy
+
+> The ratio of time spent reading (code) versus writing is well over 10 to 1... (therefore) making it easy to read makes it easier to write.
 > 
 > -Bob Martin, Clean Code
 
-Promoting consistency in code formatting has gotten much easier as development environments has evolved. I 
+### Extensions
 
-* CSS: `.css`
-* HTML: `.html`
-* JavaScript: `.js`
-* JSON: `.json`
-* PHP: `.php`
-* Sass: `.scss`
-* Vue.js: `.vue`
-* YAML: `.yaml`
+From the list above, the following items promote formatting of code:
 
-VS Code provides a number of tools to ensure code is formatted properly and adheres to modern style guides. However, as far as I can tell, the community has not yet settled on a best practice that facilitates setup within VS Code. Many options seem to overlap or conflict with others. After reading several blog posts and watching a few YouTube videos, I have settled on the approach outlined below.
+* [EditorConfig for VS Code](https://marketplace.visualstudio.com/itemdetails?itemName=EditorConfig.EditorConfig)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### Node.js Modules
+More to come on how I format my code. However, see resources below for many articles on how to set this up.
 
-The following Node.js modules enable my desired formatting and linting:
+## Linting
+
+Linting is enabled via a number of Node.js modules. The modules you want to install vary based upon the framework in use.
+
+**Vue.js Projects**
 
 * babel-eslint
 * eslint
-* eslint-config-airbnb
+* eslint-config-airbnb-base
 * eslint-config-prettier
+* eslint-plugin-html
 * eslint-plugin-import
 * eslint-plugin-prettier
 * eslint-plugin-vue
 * prettier
 
-While I have not yet thoroughly explored the world of React, nor do I write React code with any frequency, I am leveraging the Airbnb style guide to support the linting activities. Their style guide seems to be held in high regard within the community.
+**React Projects**
 
-I install the required modules per project via the following commands:
+* babel-eslint
+* eslint
+* eslint-config-airbnb
+* eslint-config-prettier
+* eslint-plugin-html
+* eslint-plugin-import
+* eslint-plugin-jsx-a11y
+* eslint-plugin-prettier
+* eslint-plugin-react
+* eslint-plugin-react-hooks
+* prettier
 
-```bash
-npm install -D eslint prettier
-npm audit fix
-npx install-peerdeps --dev eslint-config-airbnb
-npm install -D babel-eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue
-```
+**Other Projects**
 
-### VS Code Extensions
-
-Now we must install the extensions that allow us to leverage the power of the modules within the editor. Install the following:
-
-* [EditorConfig for VS Code](https://marketplace.visualstudio.com/itemdetails?itemName=EditorConfig.EditorConfig)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-
-### Configurations
-
-Now comes the hard parth - configuring all of this new software. My current approach configures the following:
-
-* **Prettier** - Formats all files *except* PHP and Vue.js. (At the time of this writing, it technically cannot natively format PHP.)
-* **ESLint** - Lints all JavaScript. Code formatting is disabled due to use of `eslint-config-prettier`.
-* **Vetur** - Lints all Vue.js and formats code *using Prettier's engine*
-
-That's right - Prettier is a first-party player when formatting most files and then its engine is used ESLint and Veture.
+* babel-eslint
+* eslint
+* eslint-config-airbnb-base
+* eslint-config-prettier
+* eslint-plugin-html
+* eslint-plugin-import
+* eslint-plugin-prettier
+* prettier
 
 ## Resources
 
@@ -141,12 +137,15 @@ That's right - Prettier is a first-party player when formatting most files and t
 * [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
 * [VS Code Tips & Tricks](https://github.com/Microsoft/vscode-tips-and-tricks) - by Microsoft
 
-### Code Formatting
+### Code Formatting + Linting
 
+This topic seems to be wildly complex. The following articles outline a number of different approaches.
+
+* March 2019 - [ESLint + Prettier + VS Code - The Perfect Setup](https://www.youtube.com/watch?v=lHAeK8t94as) - YouTube video by Wes Bos
+* March 2019 - [Write beautiful and consistent JavaScript code using ESLint, Prettier and VSCode](https://hackernoon.com/write-beautiful-and-consistent-javascript-code-using-eslint-prettier-and-vscode-760837fdef89)
 * Dec 2018 - [How to properly set up Nuxt with ESLint and Prettier in VSCode](https://medium.com/@gogl.alex/how-to-properly-set-up-eslint-with-prettier-for-vue-or-nuxt-in-vscode-e42532099a9c)
 * Oct 2018 - [Setting up Prettier on VS Code](https://travishorn.com/setting-up-prettier-on-vs-code-1fd5e5a43523)
 * June 2018 - [Integrating Prettier + ESLint + Airbnb Style Guide in VSCode](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
-* Feb 2018 - [How to Setup VS Code + Prettier + ESLint](https://www.youtube.com/watch?v=YIvjKId9m2c) - YouTube video by Web Bos
 
 ### JavaScript Linting
 
