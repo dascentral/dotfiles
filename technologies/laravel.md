@@ -29,6 +29,10 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Article:** April 2019 - [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
 
+### Passport
+
+* **Article:** Aug 2016 - [Learn about Grant Types in Laravel Passport](https://laravel-news.com/passport-grant-types/) - Great overview of Oauth grant types
+
 ### Routing
 
 * **Article:** April 2018 - [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
