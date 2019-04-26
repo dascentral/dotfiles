@@ -42,15 +42,6 @@ pm2 save
 server {
     server_name site.com;
     
-    access_log /var/log/nginx/site.com-access.log combined;
-    error_log  /var/log/nginx/site.com-error.log error;
-
-    location /_next/ {
-        alias /usr/share/nginx/html/path/to/app/.next/;
-        expires 30d;
-        access_log on;
-    }
-
     location / {
         # reverse proxy for next server
         proxy_pass http://localhost:3000;
@@ -64,6 +55,15 @@ server {
         # because next's _next folder and own handling
         # try_files $uri $uri/ =404;
     }
+
+    location /_next/ {
+        alias /usr/share/nginx/html/path/to/app/.next/;
+        expires 30d;
+        access_log on;
+    }
+
+    access_log /var/log/nginx/site.com-access.log combined;
+    error_log  /var/log/nginx/site.com-error.log error;
 
     location = /favicon.ico { access_log off; log_not_found off; }
     location = /robots.txt  { access_log off; log_not_found off; }
