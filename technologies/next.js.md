@@ -2,7 +2,11 @@
 
 ## Deploying Applications to Ubuntu
 
+Information below came from a well written and simple article by the folks at Will & Skill Developers: [Setup a Next.js project with PM2, Nginx and Yarn on Ubuntu 18.04](https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/).
+
 ### Process Management
+
+
 Recommend use of PM2 - [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)
 
 ```bash
@@ -29,7 +33,8 @@ The following command is used to save the active list of processes such that the
 pm2 save
 ```
 
-### Resources
+## Resources
+
 * [https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/](https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/)
 * [https://www.nginx.com/blog/nginx-nodejs-websockets-socketio/](https://www.nginx.com/blog/nginx-nodejs-websockets-socketio/)
 * [https://www.digitalocean.com/community/questions/serving-nextjs-along-with-python-api-on-nginx](https://www.digitalocean.com/community/questions/serving-nextjs-along-with-python-api-on-nginx)
