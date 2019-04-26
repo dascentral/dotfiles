@@ -33,6 +33,51 @@ The following command is used to save the active list of processes such that the
 pm2 save
 ```
 
+### Nginx Config
+
+```bash
+##
+### Development
+##
+server {
+    server_name site.com;
+    
+    access_log /var/log/nginx/site.com-access.log combined;
+    error_log  /var/log/nginx/site.com-error.log error;
+
+    location /_next/ {
+        alias /usr/share/nginx/html/path/to/app/.next/;
+        expires 30d;
+        access_log on;
+    }
+
+    location / {
+        # reverse proxy for next server
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        
+        # we need to remove this 404 handling
+        # because next's _next folder and own handling
+        # try_files $uri $uri/ =404;
+    }
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+
+    location ~ /\.git {
+        deny all;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+```
+
 ## Resources
 
 * [https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/](https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/)
