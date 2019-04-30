@@ -28,6 +28,7 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Laravel Docs:** [https://laravel.com/docs/master/session#flash-data](https://laravel.com/docs/master/session#flash-data)
 * **Package:** [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
 * **Package:** [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging.
+* **Tutorial:** [Building a flash message component with Vue.js and Tailwind CSS](https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css)
 
 ### Horizon
 
