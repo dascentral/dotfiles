@@ -66,6 +66,12 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Tutorial:** [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
 
+### Continuous Integration
+
+* **Article:** [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
+* **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI
+](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+
 ### GraphQL
 
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
