@@ -35,10 +35,10 @@ alias sz='source ~/.zshrc'
 #------------------------------------------------------------------------------------------
 # Docker
 #------------------------------------------------------------------------------------------
+alias d='docker'
 alias dc='docker-compose'
-alias dcu='docker-compose up -d'
-#alias dcd='docker-compose down'
-#alias dclogs='docker-compose logs -f'
+alias dm='docker-machine'
+alias dmnative='echo "Switching to native docker" && eval $(docker-machine env -u)'
 
 
 #------------------------------------------------------------------------------------------
