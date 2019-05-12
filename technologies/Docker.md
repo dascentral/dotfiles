@@ -59,3 +59,9 @@ Stops and removes all containers defined in the `docker-composer.yml` file:
 ```bash
 docker-composer down
 ```
+
+Start a bash session within the provided service:
+
+```bash
+docker-compose exec [service] bash
+```
