@@ -77,6 +77,10 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
 * **Article:** Oct 2018 - [Lighthouse GraphQL Server for Laravel](https://laravel-news.com/lighthouse-graphql-server-for-laravel)
 
+### Security
+
+* **Article:** May 2019 - [The Laravel Security Checklist](https://laravel-news.com/the-laravel-security-checklist-sponsor)
+
 ### Settings
 
 At the moment, "Settings" is my general term for the notion of persisting perferences for an individual application user.
