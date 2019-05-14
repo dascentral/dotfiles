@@ -6,6 +6,8 @@ Docker is a computer program that performs operating-system-level virtualization
 
 ## Command Cheat Sheet
 
+The [Docker documentation](https://docs.docker.com/engine/reference/commandline/docker/) is quite comprehensive and well designed, however I have attempted to inventory my most requently used commands below for quick reference.
+
 ### Docker
 
 Show running containers:
@@ -18,6 +20,42 @@ Show all containers:
 
 ```bash
 docker ps -a
+```
+
+### Docker: Run
+
+*Note that the `run` command facilitates execution of a command within a NEW container.*
+
+Run a command within a *new* container:
+
+```bash
+docker run [IMAGE] [COMMAND]
+```
+
+```bash
+docker run php:7.2-apache-stretch php -v
+```
+
+Run a command within a *new*, named container:
+
+```bash
+docker run --name=[NAME] [IMAGE] [COMMAND]
+```
+
+```bash
+docker run --name=PHP72 php:7.2-apache-stretch php -v
+```
+
+### Docker: Exec
+
+Execute a command within a running container:
+
+```bash
+docker exec -it [ID_or_NAME] [COMMAND]
+```
+
+```bash
+docker exec -it b2ae1fa197fd php -v
 ```
 
 ### Docker: Images
