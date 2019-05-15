@@ -80,19 +80,19 @@ docker rmi [ID]
 
 ### Docker Compose
 
-Starts a container based upon the custom image defined in the local `Dockerfile`:
+Start containers outlined within the `docker-composer.yml` and run them in the background:
 
 ```bash
-docker-composer up --build
+docker-composer up --build -d
 ```
 
-Stops the containers defined in the `docker-composer.yml` file:
+Stop the containers defined in the `docker-composer.yml` file:
 
 ```bash
 docker-composer stop
 ```
 
-Stops and removes all containers defined in the `docker-composer.yml` file:
+Stop and *remove* all containers defined in the `docker-composer.yml` file:
 
 ```bash
 docker-composer down
