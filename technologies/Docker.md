@@ -6,7 +6,7 @@ Docker is a computer program that performs operating-system-level virtualization
 
 ## Command Cheat Sheet
 
-The [Docker documentation](https://docs.docker.com/engine/reference/commandline/docker/) is quite comprehensive and well designed, however I have attempted to inventory my most requently used commands below for quick reference.
+The [Docker documentation](https://docs.docker.com/engine/reference/commandline/docker/) is comprehensive, searchable, and well designed. The commands listed below serve as my quick reference.
 
 ### Docker
 
@@ -26,7 +26,7 @@ docker ps -a
 
 *Note that the `run` command facilitates execution of a command within a NEW container.*
 
-Run a command within a *new* container:
+Run a command within a new container:
 
 ```bash
 docker run [IMAGE] [COMMAND]
@@ -36,7 +36,7 @@ docker run [IMAGE] [COMMAND]
 docker run php:7.2-apache-stretch php -v
 ```
 
-Run a command within a *new*, named container:
+Run a command within a new, named container:
 
 ```bash
 docker run --name=[NAME] [IMAGE] [COMMAND]
@@ -44,6 +44,14 @@ docker run --name=[NAME] [IMAGE] [COMMAND]
 
 ```bash
 docker run --name=PHP72 php:7.2-apache-stretch php -v
+```
+
+### Docker: Build
+
+Build an image from a Dockerfile:
+
+```bash
+docker build
 ```
 
 ### Docker: Exec
@@ -78,12 +86,32 @@ Remove an image:
 docker rmi [ID]
 ```
 
+### Docker: Volumes
+
+View all volumes within your system:
+
+```bash
+docker volume ls
+```
+
+Remove local volumes that are not in use by at least one container:
+
+```bash
+docker volume prune
+```
+
 ### Docker Compose
 
 Start containers outlined within the `docker-composer.yml` and run them in the background:
 
 ```bash
-docker-composer up --build -d
+docker-composer up -d
+```
+
+Build images, start containers outlined within the `docker-composer.yml`, and run them in the background:
+
+```bash
+docker-composer up -d --build
 ```
 
 Stop the containers defined in the `docker-composer.yml` file:
@@ -96,6 +124,12 @@ Stop and *remove* all containers defined in the `docker-composer.yml` file:
 
 ```bash
 docker-composer down
+```
+
+Stop and *remove* all containers, including connected volumes, defined in the `docker-composer.yml` file:
+
+```bash
+docker-composer down -v
 ```
 
 Start a bash session within the provided service:
