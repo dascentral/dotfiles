@@ -86,3 +86,7 @@ Laravel provides an ability to store items in the session only for the next requ
 At the moment, "Settings" is my general term for the notion of persisting perferences for an individual application user.
 
 * **Laracasts:** May 2015 - [Managing Mass User Settings](https://laracasts.com/lessons/managing-mass-user-settings) + [Part 2](https://laracasts.com/lessons/managing-mass-user-settings-part-2) - I found these videos in April 2019 and found the approach to still be quite elegant. The code for the lessons can be found on [GitHub](https://github.com/laracasts/Mass-User-Settings/blob/master/app/Settings.php).
+
+### UUID
+
+* **Package:** [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
