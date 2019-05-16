@@ -4,20 +4,29 @@
 
 The instructions below have not been thoroughly tested. I think they're right but my last setup was a bit clunky. It is also possible the setup process has changed since my last installation.
 
+### Setup Resources
+
+* [Laracasts: Sublime Text Mastery](https://laracasts.com/series/sublime-text-mastery)
+* [Minimalist Sublime Text 3 Setup for PHP](https://laravel-news.com/minimalist-sublime-text-3-setup-for-php)
+
 ## Installation
 
-[Download](https://www.sublimetext.com/), install, **but do NOT open** the latest version.
+[Download](https://www.sublimetext.com/) & install.
+
+If you have your Sublime user preferences already stored in the cloud, **do NOT open** the app just yet. Link your preferences and then open the app.
+
+Instructions are below on how to properly link those preferences.
 
 ## Customize the Installation
 
 ### Link Preferences
 
-In order to ensure a consistent experience across computers, I store my settings in the cloud. If you are pursuing a similar approach, you'll want to customize the location in the command below.
+In order to ensure a consistent experience across computers, I store my settings within iCloud. If you are pursuing a similar approach, you'll want to customize the location in the command below.
 
 ```bash
 cd /Users/${USER}/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 rm -rf User
-ln -s /Users/${USER}/GDrive/Documents/Software/Sublime/settings/User
+ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/Software/Sublime/User
 ```
 
 ### Create Application Shortcut
@@ -43,8 +52,3 @@ mkdir /Users/${USER}/.sublime
 cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
 sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
 ```
-
-## Resources
-
-* [Laracasts: Sublime Text Mastery](https://laracasts.com/series/sublime-text-mastery)
-* [Minimalist Sublime Text 3 Setup for PHP](https://laravel-news.com/minimalist-sublime-text-3-setup-for-php)
