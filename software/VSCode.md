@@ -54,6 +54,7 @@ I leverage the following extensions:
 * [Laravel 5 Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 * [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+* [NGINX Configure](https://marketplace.visualstudio.com/items?itemName=william-voyek.vscode-nginx)
 * [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
