@@ -10,13 +10,13 @@ The [Docker documentation](https://docs.docker.com/engine/reference/commandline/
 
 ### Docker
 
-Show running containers:
+#### Show running containers
 
 ```bash
 docker ps
 ```
 
-Show all containers:
+#### Show all containers
 
 ```bash
 docker ps -a
@@ -24,19 +24,31 @@ docker ps -a
 
 ### Docker: Run
 
-*Note that the `run` command facilitates execution of a command within a NEW container.*
+*Note that the `run` command facilitates execution of a command within a NEW container. The `--rm` flag tells Docker to remove the conatiner after it exits.*
 
-Run a command within a new container:
+#### Start an interactive bash session within a new container
 
 ```bash
-docker run [IMAGE] [COMMAND]
+docker run --rm -it [IMAGE] bash
 ```
 
 ```bash
-docker run php:7.2-apache-stretch php -v
+docker run --rm -it ubuntu:18.04 bash
 ```
 
-Run a command within a new, named container:
+#### Run a command within a new container
+
+```bash
+docker run --rm [IMAGE] [COMMAND]
+```
+
+```bash
+docker run --rm php:7.2-apache-stretch php -v
+```
+
+#### Run a command within a new, named container
+
+It does not make much sense to immediately remove a named container so note that this container will stick around after it exits.
 
 ```bash
 docker run --name=[NAME] [IMAGE] [COMMAND]
@@ -48,7 +60,7 @@ docker run --name=PHP72 php:7.2-apache-stretch php -v
 
 ### Docker: Build
 
-Build an image from a Dockerfile:
+#### Build an image from a Dockerfile
 
 ```bash
 docker build
@@ -56,7 +68,7 @@ docker build
 
 ### Docker: Exec
 
-Execute a command within a running container:
+#### Execute a command within a running container
 
 ```bash
 docker exec -it [ID_or_NAME] [COMMAND]
@@ -68,19 +80,19 @@ docker exec -it b2ae1fa197fd php -v
 
 ### Docker: Images
 
-List all images:
+#### List all images
 
 ```bash
 docker images
 ```
 
-Search through images:
+#### Search through images
 
 ```bash
 docker images | grep php
 ```
 
-Remove an image:
+#### Remove an image
 
 ```bash
 docker rmi [ID]
@@ -88,13 +100,13 @@ docker rmi [ID]
 
 ### Docker: Volumes
 
-View all volumes within your system:
+#### View all volumes
 
 ```bash
 docker volume ls
 ```
 
-Remove local volumes that are not in use by at least one container:
+#### Remove local volumes that are not in use by at least one container
 
 ```bash
 docker volume prune
