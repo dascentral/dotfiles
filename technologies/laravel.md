@@ -12,6 +12,7 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 * **Laravel Docs:** [https://laravel.com/docs/master/authentication](https://laravel.com/docs/master/authentication)
 * **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - I needed this for work. I'd avoid Basic Auth if at all possible.
+* **Tutorial:** [Logout Other Devices after Login](https://www.youtube.com/watch?v=mnModJ3GsbU) - Video
 
 ### Authorization
 
