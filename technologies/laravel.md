@@ -59,6 +59,10 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Article:** May 2019 - [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
 
+### AWS + Email
+
+* **Tutorial:** - [Configure Amazon SES on Laravel 5.8 in 5 minutes](https://medium.com/@martin.riedweg/configure-amazon-ses-on-laravel-5-8-in-5-minutes-764c30df6399)
+
 ### Cloud Deployments
 
 [Laravel Forge](https://forge.laravel.com/) is a service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." While I appreciate the utility and simplicity of that service, my deployments require a more complex cloud hosting setup.
