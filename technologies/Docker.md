@@ -149,3 +149,9 @@ Start a bash session within the provided service:
 ```bash
 docker-compose exec [service] bash
 ```
+
+Following logs within a running container:
+
+```bash
+docker-compose logs -f [service]
+```
