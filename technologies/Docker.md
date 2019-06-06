@@ -58,6 +58,14 @@ docker run --name=[NAME] [IMAGE] [COMMAND]
 docker run --name=PHP72 php:7.2-apache-stretch php -v
 ```
 
+### Docker: Stop
+
+Stop one or more running containers.
+
+```bash
+docker stop [ID_or_NAME]
+```
+
 ### Docker: Build
 
 #### Build an image from a Dockerfile
