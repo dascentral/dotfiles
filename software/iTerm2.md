@@ -23,3 +23,10 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/GDrive/D
 ```bash
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
+
+### Troubleshooting
+
+I moved my settings from Google Drive to iCloud recently and have been getting an error every time I load the application for reasons that I have not yet been able to fully understand. A few links that I'll come back to:
+
+* [failed to load preferences from custom directory](https://gitlab.com/gnachman/iterm2/issues/2879)
+* [Missing or malformed file at ""](https://gitlab.com/gnachman/iterm2/issues/4170)
