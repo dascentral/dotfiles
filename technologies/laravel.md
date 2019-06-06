@@ -48,11 +48,12 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
 * **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
 * **Package:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Package that promotes validation of the full auth flows
-* **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of the basics when testing auth.
+* **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
 
 ### Validation
 
-* **Article:** [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
+* **Article:** April 2019 - [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
+* **Article:** Nov 2015 - [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
 ## Extending Laravel
 
