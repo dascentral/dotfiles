@@ -122,13 +122,13 @@ docker volume prune
 
 ### Docker Compose
 
-Start containers outlined within the `docker-composer.yml` and run them in the background:
+Build images, start containers outlined within the `docker-compose.yml`, and run them in the background:
 
 ```bash
-docker-composer up -d
+docker-compose up --build -d
 ```
 
-Build images, start containers outlined within the `docker-composer.yml`, and run them in the background:
+Start containers outlined within the `docker-compose.yml` and run them in the background:
 
 ```bash
 docker-compose up -d
