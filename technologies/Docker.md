@@ -131,25 +131,25 @@ docker-composer up -d
 Build images, start containers outlined within the `docker-composer.yml`, and run them in the background:
 
 ```bash
-docker-composer up -d --build
+docker-compose up -d
 ```
 
-Stop the containers defined in the `docker-composer.yml` file:
+Stop the containers defined in the `docker-compose.yml` file:
 
 ```bash
-docker-composer stop
+docker-compose stop
 ```
 
-Stop and *remove* all containers defined in the `docker-composer.yml` file:
+Stop and *remove* all containers defined in the `docker-compose.yml` file:
 
 ```bash
-docker-composer down
+docker-compose down
 ```
 
-Stop and *remove* all containers, including connected volumes, defined in the `docker-composer.yml` file:
+Stop and *remove* all containers, including connected volumes, defined in the `docker-compose.yml` file:
 
 ```bash
-docker-composer down -v
+docker-compose down -v
 ```
 
 Start a bash session within the provided service:
