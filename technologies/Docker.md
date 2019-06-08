@@ -106,6 +106,14 @@ docker images | grep php
 docker rmi [ID]
 ```
 
+#### Prune images
+
+Remove unused images.
+
+```bash
+q
+```
+
 ### Docker: Volumes
 
 #### View all volumes
@@ -163,3 +171,9 @@ Following logs within a running container:
 ```bash
 docker-compose logs -f [service]
 ```
+
+## Resources
+
+### Volumes
+
+* **Article:** July 2018 - [How To Share Data between Docker Containers](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers)
