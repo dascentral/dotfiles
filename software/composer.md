@@ -8,7 +8,7 @@ Composer is a tool for dependency management in PHP. It allows you to declare th
 
 ## Installation
 
-Assuming [PHP](software/php.md) has already been installed, install via the following:
+Assuming [PHP](../software/php.md) has already been installed, install via the following:
 
 ```bash
 php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
