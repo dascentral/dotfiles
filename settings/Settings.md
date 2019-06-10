@@ -29,7 +29,7 @@ While I would love for all settings to be controlled programmatically, I just ha
 
 #### Formatting
 
-* Formatting > Change default font to Calibri 14pt
+* Formatting > Change default font to Calibri 14pt - see below for details on enabling the Calibri font
 * Formatting > Enable “Simplify formatting of pasted content”
 * Formatting > Auto Format > Uncheck "Keyboard shortcuts automatically create lists, lines, and emojis"
 
@@ -70,7 +70,7 @@ From within Finder's preferences pane:
 ## iTerm2
 
 *As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
-within a local file. I have stored my preferences on Google Drive and have configured
+within a local file. I have moved my preferences to cloud storage and have configured
 my latest iTerm2 installation to leverage that file.*
 
 *However, I am currently unsure if that settings file handles ALL options within the
@@ -106,70 +106,6 @@ able to confirm.*
 
 * Preferences > Keys > Select “Show/hide iTerm2 with a system-wide hotkey”
 
-### Resources
-
-"Next Word” Tip Source: [https://coderwall.com/p/h6yfda](https://coderwall.com/p/h6yfda)
-
-## macOS
-
-The following settings can be modified via the macOS System Preferences.
-
-#### Accessibility
-
-* Zoom > Check "Use scroll gesture with modifier keys to zoom"
-* Display > Check “Reduce motion.”
-
-#### Desktop & Screen Saver
-
-* Screen Saver > Select "Aerial" - Requires installation of the [Aerial](https://github.com/JohnCoates/Aerial) screen saver
-
-#### Dock
-
-* Check "Minimize windows into the application icon"
-
-#### General
-
-* Appearance > Select "Dark"
-
-#### Keyboard
-
-* Keyboard > Touch Bar shows "Expanded Control Strip"
-* Keyboard > Press Fn key to "Show App Controls"
-* Text > Uncheck "Correct spelling automatically"
-* Text > Uncheck "Capitalize words automatically"
-* Text > Uncheck "Add period with double-space"
-* Text > Uncheck "Use smart quotes and dashes"
-* Shortcuts > Full Keyboard Access > Select "All controls"
-* Shortcuts > Launchpad & Dock > Uncheck "Turn Dock Hiding On/Off"
-* Shortcuts > Mission Control > Enable "Show Notification Center" with "Ctrl+N"
-* Shortcuts > Mission Control > Enable "Turn Do Not Disturb On/Off" with "Ctrl+D"
-
-#### Mission Control
-
-* Uncheck "Automatically rearrange Spaces based on most recent use"
-* Hot Corners > Assign "Start Screen Saver" to upper right. Clear the rest.
-
-#### Mouse
-
-* Enable "Secondary Click"
-
-#### Notifications
-
-##### Microsoft Outlook
-
-Turn off everything. I use the native Calendar app for all notifications.
-
-##### Calendar
-
-* Set alert style to "Banners"
-* Uncheck "Show notification on lock screen"
-* Uncheck "Show in Notification Center"
-
-#### Trackpad
-
-* Enable "Secondary Click"
-* Enable "Tap to click"
-
 ## Messages
 
 ### General
@@ -182,34 +118,90 @@ Turn off everything. I use the native Calendar app for all notifications.
 
 ## Outlook
 
-### Preferences
-
-#### Notifications & Sounds
+### Notifications & Sounds
 
 * Preferences > Notifications & Sounds > Turn off Desktop alert
 * Preferences > Notifications & Sounds > Turn off all sounds
 
-#### Reading
+### Reading
 
 * Preferences > Reading > Mark items read after previewing for 1 second
 
-#### Signatures
+### Signatures
 
 * Preferences > Signatures > Add the signatures
 
-#### AutoCorrect
+### AutoCorrect
 
 * Preferences > AutoCorrect > AutoFormat > Uncheck everything except "Internet and network paths with hyperlinks"
 
-#### Calendar
+### Calendar
 
 * Preferences > Calendar > Set work starts to "8:00am"
 * Preferences > Calendar > Set work ends to "7:00pm"
 
-## Fonts
+## System Fonts
 
-I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its application fonts within the applications themselves. They are not available by default to other macOS applications and will need to be added manually to Font Book. You can find the font files within the application package.
+I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its application fonts within the app bundle. They are not available by default to other macOS applications and will need to be added manually to Font Book. You can add the font files from within the app bundle.
 
 * Browse to `/Applications`
 * Right click on `Microsoft Word.app` and click "Show Package Contents"
 * Browse to `/Contents/Resources/DFonts`
+
+## System Preferences
+
+### Accessibility
+
+* Zoom > Check "Use scroll gesture with modifier keys to zoom"
+* Display > Check “Reduce motion.”
+
+### Desktop & Screen Saver
+
+* Screen Saver > Select "Aerial" - Requires installation of the [Aerial](https://github.com/JohnCoates/Aerial) screen saver
+
+### Dock
+
+* Check "Minimize windows into the application icon"
+
+### General
+
+* Appearance > Select "Dark"
+
+### Keyboard
+
+* Keyboard > Touch Bar shows "Expanded Control Strip"
+* Keyboard > Press Fn key to "Show App Controls"
+* Text > Uncheck "Correct spelling automatically"
+* Text > Uncheck "Capitalize words automatically"
+* Text > Uncheck "Add period with double-space"
+* Text > Uncheck "Use smart quotes and dashes"
+* Shortcuts > Full Keyboard Access > Select "All controls"
+* Shortcuts > Launchpad & Dock > Uncheck "Turn Dock Hiding On/Off"
+* Shortcuts > Mission Control > Enable "Show Notification Center" with "Ctrl+N"
+* Shortcuts > Mission Control > Enable "Turn Do Not Disturb On/Off" with "Ctrl+D"
+
+### Mission Control
+
+* Uncheck "Automatically rearrange Spaces based on most recent use"
+* Hot Corners > Assign "Start Screen Saver" to upper right. Clear the rest.
+
+### Mouse
+
+* Enable "Secondary Click"
+
+### Notifications
+
+#### Microsoft Outlook
+
+Turn off everything. I use the native Calendar app for all notifications.
+
+#### Calendar
+
+* Set alert style to "Banners"
+* Uncheck "Show notification on lock screen"
+* Uncheck "Show in Notification Center"
+
+### Trackpad
+
+* Enable "Secondary Click"
+* Enable "Tap to click"
