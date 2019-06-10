@@ -8,13 +8,11 @@ The [Z shell](https://en.wikipedia.org/wiki/Z_shell) (Zsh) is a Unix shell that 
 
 Installation is accomplished via setup of the [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) package.
 
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+[https://github.com/robbyrussell/oh-my-zsh#basic-installation](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
 
-### Aliases
+## Aliases
 
-I have an aliases file that I use within this repo for a number of shortcuts. It is enabled via the following:
+Following installation, I include an aliases file found within this repo for a number of shortcuts. It is enabled via the following:
 
 ```bash
 printf "\n" >> ~/.zshrc
