@@ -9,10 +9,10 @@ While I would love for all settings to be controlled programmatically, I just ha
 ## Alfred
 
 * General > Set "Alfred Hotkey" to "Ctrl + Space"
-* Appearance > Select "Alfred macOS" theme
 * Features > Web Search > Replace "google" keyword to "g"
 * Features > Web Search > Replace "maps" keyword to "gm"
 * Features > 1Password > Click "Enabled 1Password Bookmarks"
+* Appearance > Select "Alfred macOS" theme
 
 ## Evernote
 
