@@ -40,8 +40,9 @@ The following software applications serve as the foundation for everything I do 
 * [Alfred](https://www.alfredapp.com/)
 * [Spectacle](https://www.spectacleapp.com/)
 
-The following two applications support scripted installation of my most frequently used applications and keep my system up-to-date:
+The following applications support scripted installation of my most frequently used applications and keep my system up-to-date:
 
+* [PHP](software/php.md)
 * [Homebrew](software/homebrew.md)
 * [Composer](software/composer.md)
 
@@ -73,11 +74,8 @@ Some software applications require manual installation or customization via the 
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
 * [PHP](software/php.md)
-* [PHP Xdebug](software/php71-xdebug.md) - Currently only good for PHP 7.1
-* [RVM](software/rvm.md)
 * [Sublime Text](software/Sublime.md)
 * [Visual Studio Code](software/VSCode.md)
-* [WordPress CLI](software/wp-cli.md)
 
 ### Mac App Store
 
@@ -132,3 +130,11 @@ This installation script only copies aliases into place. The file will need to b
 ```bash
 source ~/.aliases
 ```
+
+## Legacy Software
+
+I removed the following items during a computer setup in June 2019:
+
+* [PHP Xdebug](software/php71-xdebug.md) - Currently only good for PHP 7.1
+* [RVM](software/rvm.md)
+* [WordPress CLI](software/wp-cli.md)
