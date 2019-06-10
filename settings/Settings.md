@@ -67,29 +67,6 @@ From within Finder's preferences pane:
 
 * Advanced > When performing a search > Set to "Search the Current Folder"
 
-## iTerm2
-
-*As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
-within a local file. I have moved my preferences to cloud storage and have configured
-my latest iTerm2 installation to leverage that file.*
-
-*However, I am currently unsure if that settings file handles ALL options within the
-"Preferences" dialog so I am keeping these notes around for a while until I am
-able to confirm.*
-
-* General > Window > Deselect “Native full screen windows”
-* General > Closing > Select “Quit when all windows are closed"
-* Profiles > Window > Set “Window Size” to 140 x 33
-* Profiles > Text > Set “Font Size” to 14pt
-* Profiles > Keys > Left option key acts as: +Esc
-* Profiles > Keys > "Opt+Left” becomes "Send Escape Sequence” with "Esc + b”
-* Profiles > Keys > "Opt+Right” becomes "Send Escape Sequence” with "Esc + f"
-* Profiles > Keys > "Cmd+Left" becomes "Send Hex Codes" with "0x01"
-* Profiles > Keys > "Cmd+Right" becomes "Send Hex Codes" with "0x05"
-* Profiles > Keys > "Cmd+Delete" becomes "Send Hex Codes" with "0x15"
-* Profiles > Keys > "Opt+Delete" becomes "Send Hex Codes" with "0x17"
-* Keys > Select “Show/hide iTerm2 with a system-wide hotkey”
-
 ## Messages
 
 ### General
