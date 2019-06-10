@@ -54,7 +54,6 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [Aerial](https://github.com/JohnCoates/Aerial)
 * [Composer Global Require](https://github.com/consolidation/cgr)
 * [GnuPG](https://www.gnupg.org/)
-* [Mac App Store CLI](https://github.com/mas-cli/mas)
 * [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
@@ -73,7 +72,6 @@ Some software applications require manual installation or customization via the 
 * [Laravel Valet](software/laravel-valet.md)
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
-* [PHP](software/php.md)
 * [Sublime Text](software/Sublime.md)
 * [Visual Studio Code](software/VSCode.md)
 
@@ -98,12 +96,7 @@ I use the following software applications across home and work computers. They m
 * [Docker](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [Google Backup and Sync](https://www.google.com/drive/download/)
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
-* [FireFox](http://www.mozilla.org/en-US/firefox/new/)
-* [FunctionFlip](http://kevingessner.com/software/functionflip/)
-* [Handbrake](https://handbrake.fr/downloads.php)
 * [ImageOptim](https://imageoptim.com/mac)
-* [Java](https://java.com/en/download/mac_download.jsp)
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
 * MindNode Lite
 * [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [Postman](https://www.getpostman.com/)
@@ -113,7 +106,6 @@ I use the following software applications across home and work computers. They m
 * [Sonos](http://www.sonos.com/en-us/controller-app)
 * [Spotify](http://www.spotify.com/)
 * [Tower](https://www.git-tower.com/)
-* [Vagrant](http://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [WhatsApp](https://www.whatsapp.com/download/)
 
@@ -133,8 +125,15 @@ source ~/.aliases
 
 ## Legacy Software
 
-I removed the following items during a computer setup in June 2019:
+I removed the following items from the standard setup in June 2019:
 
+* [FunctionFlip](http://kevingessner.com/software/functionflip/)
+* [Handbrake](https://handbrake.fr/downloads.php)
+* [FireFox](http://www.mozilla.org/en-US/firefox/new/)
+* [Java](https://java.com/en/download/mac_download.jsp)
+* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
+* [Mac App Store CLI](https://github.com/mas-cli/mas)
 * [PHP Xdebug](software/php71-xdebug.md) - Currently only good for PHP 7.1
 * [RVM](software/rvm.md)
+* [Vagrant](http://www.vagrantup.com/downloads.html)
 * [WordPress CLI](software/wp-cli.md)
