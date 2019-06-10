@@ -43,11 +43,12 @@ While I would love for all settings to be controlled programmatically, I just ha
 
 ## Evernote Clipper
 
-* Notebook selection > Always start in "Articles"
-* Default clip action > Always start in "Simplified article"
-* After clip > Automatically close Clipper
-* Related results > Uncheck
-* PDF page button > Uncheck
+* General > Notebook selection > Always start in "Articles"
+* General > Default clip action > Always start in "Simplified article"
+* General > After clip > Automatically close Clipper
+* General > Related results > Uncheck
+* General > PDF page button > Uncheck
+* Shortcuts > Uncheck "Enable keyboard shortcuts"
 
 ## Finder
 
