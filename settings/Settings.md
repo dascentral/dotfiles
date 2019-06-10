@@ -137,15 +137,15 @@ I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its 
 
 ### Notifications
 
-#### Microsoft Outlook
-
-Turn off everything. I use the native Calendar app for all notifications.
-
 #### Calendar
 
 * Set alert style to "Banners"
 * Uncheck "Show notification on lock screen"
 * Uncheck "Show in Notification Center"
+
+#### Microsoft Outlook
+
+Turn off everything. I use the native Calendar app for all notifications.
 
 ### Trackpad
 
