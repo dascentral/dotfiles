@@ -43,8 +43,6 @@ While I would love for all settings to be controlled programmatically, I just ha
 
 ## Evernote Clipper
 
-### Options
-
 * Notebook selection > Always start in "Articles"
 * Default clip action > Always start in "Simplified article"
 * After clip > Automatically close Clipper
@@ -79,27 +77,13 @@ From within Finder's preferences pane:
 
 ## Outlook
 
-### Notifications & Sounds
-
-* Preferences > Notifications & Sounds > Turn off Desktop alert
-* Preferences > Notifications & Sounds > Turn off all sounds
-
-### Reading
-
-* Preferences > Reading > Mark items read after previewing for 1 second
-
-### Signatures
-
-* Preferences > Signatures > Add the signatures
-
-### AutoCorrect
-
-* Preferences > AutoCorrect > AutoFormat > Uncheck everything except "Internet and network paths with hyperlinks"
-
-### Calendar
-
-* Preferences > Calendar > Set work starts to "8:00am"
-* Preferences > Calendar > Set work ends to "7:00pm"
+* Notifications & Sounds > Turn off Desktop alert
+* Notifications & Sounds > Turn off all sounds
+* Reading > Mark items read after previewing for 1 second
+* Signatures > Add the signatures
+* AutoCorrect > AutoFormat > Uncheck everything except "Internet and network paths with hyperlinks"
+* Calendar > Set work starts to "8:00am"
+* Calendar > Set work ends to "7:00pm"
 
 ## System Fonts
 
