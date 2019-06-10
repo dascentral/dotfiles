@@ -31,6 +31,6 @@ I moved my settings from Google Drive to iCloud recently and have been getting a
 * [failed to load preferences from custom directory](https://gitlab.com/gnachman/iterm2/issues/2879)
 * [Missing or malformed file at ""](https://gitlab.com/gnachman/iterm2/issues/4170)
 
-### Resources
+## Resources
 
 "Next Word” Tip Source: [https://coderwall.com/p/h6yfda](https://coderwall.com/p/h6yfda)
