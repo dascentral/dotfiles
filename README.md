@@ -60,6 +60,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 * [Redis](https://redis.io/)
 * [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
+* [Sublime Text](software/Sublime.md)
 * [TablePlus](https://www.tableplus.io)
 
 The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is idempotent so I try to run it on a regular basis.
@@ -74,7 +75,6 @@ Some software applications require manual installation or customization via the 
 * [Laravel Valet](software/laravel-valet.md)
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
-* [Sublime Text](software/Sublime.md)
 * [Visual Studio Code](software/VSCode.md)
 
 ### Mac App Store

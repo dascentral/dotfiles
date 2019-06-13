@@ -1,25 +1,25 @@
 # Sublime Text
 
-## Overview
+## Introduction
 
-The instructions below have not been thoroughly tested. I think they're right but my last setup was a bit clunky. It is also possible the setup process has changed since my last installation.
-
-### Setup Resources
-
-* [Laracasts: Sublime Text Mastery](https://laracasts.com/series/sublime-text-mastery)
-* [Minimalist Sublime Text 3 Setup for PHP](https://laravel-news.com/minimalist-sublime-text-3-setup-for-php)
+Sublime Text is a proprietary cross-platform source code editor with a Python application programming interface. It natively supports many programming languages and markup languages, and functions can be added by users with plugins, typically community-built and maintained under free-software licenses. [Wikipedia](https://en.wikipedia.org/wiki/Sublime_Text)
 
 ## Installation
 
-[Download](https://www.sublimetext.com/) & install.
+You have the following installation options:
 
-If you have your Sublime user preferences already stored in the cloud, **do NOT open** the app just yet. Link your preferences and then open the app.
+1. Direct from the software developer: [https://www.sublimetext.com/](https://www.sublimetext.com/)
+1. Via [Homebrew](https://brew.sh):
 
-Instructions are below on how to properly link those preferences.
+```bash
+brew cask install sublime-text
+```
 
-## Customize the Installation
+If you have your Sublime preferences already stored in the cloud, **link your preferences before opening the app**.
 
-### Link Preferences
+## Configuration
+
+### Cloud Preferences
 
 In order to ensure a consistent experience across computers, I store my settings within iCloud. If you are pursuing a similar approach, you'll want to customize the location in the command below.
 
@@ -52,3 +52,8 @@ mkdir /Users/${USER}/.sublime
 cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
 sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
 ```
+
+## Resources
+
+* [Laracasts: Sublime Text Mastery](https://laracasts.com/series/sublime-text-mastery)
+* [Minimalist Sublime Text 3 Setup for PHP](https://laravel-news.com/minimalist-sublime-text-3-setup-for-php)
