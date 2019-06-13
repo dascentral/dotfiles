@@ -53,6 +53,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [ack](http://beyondgrep.com/install/)
 * [Aerial](https://github.com/JohnCoates/Aerial)
 * [Composer Global Require](https://github.com/consolidation/cgr)
+* [Docker](https://www.docker.com/products/docker-desktop)
 * [GnuPG](https://www.gnupg.org/)
 * [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
