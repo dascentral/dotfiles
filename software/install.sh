@@ -50,6 +50,7 @@ printf "\n"
 /Users/${USER}/dotfiles/software/scripted/quick-look-plugins.sh
 /Users/${USER}/dotfiles/software/scripted/redis.sh
 /Users/${USER}/dotfiles/software/scripted/ssh-copy-id.sh
+/Users/${USER}/dotfiles/software/scripted/tableplus.sh
 
 # Homebrew Maintenance
 printf "\033[1;37mBrew cleanup.\033[0m\n"
