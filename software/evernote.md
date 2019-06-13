@@ -6,7 +6,14 @@ Evernote is application software designed for note taking, organizing, task list
 
 ## Installation
 
-[https://evernote.com/download](https://evernote.com/download)
+You have the following installation options:
+
+1. Direct from the software developer: [https://evernote.com/download](https://evernote.com/download)
+1. Via [Homebrew](https://brew.sh):
+
+```bash
+brew cask install evernote
+```
 
 ## Personal Settings
 
