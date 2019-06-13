@@ -44,15 +44,12 @@ printf "\n"
 # Installation
 /Users/${USER}/dotfiles/software/scripted/ack.sh
 /Users/${USER}/dotfiles/software/scripted/aerial.sh
+/Users/${USER}/dotfiles/software/scripted/docker.sh
 /Users/${USER}/dotfiles/software/scripted/gnupg.sh
 /Users/${USER}/dotfiles/software/scripted/mac-app-store-cli.sh
 /Users/${USER}/dotfiles/software/scripted/quick-look-plugins.sh
 /Users/${USER}/dotfiles/software/scripted/redis.sh
 /Users/${USER}/dotfiles/software/scripted/ssh-copy-id.sh
-
-#/Users/${USER}/dotfiles/software/scripted/mysql.sh
-#/Users/${USER}/dotfiles/software/scripted/php71.sh
-#/Users/${USER}/dotfiles/software/scripted/php71-xdebug.sh
 
 # Homebrew Maintenance
 printf "\033[1;37mBrew cleanup.\033[0m\n"
