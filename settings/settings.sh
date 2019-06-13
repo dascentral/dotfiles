@@ -230,26 +230,6 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 
 
 #===================================================================================
-# iTerm2
-#===================================================================================
-
-# Specify the preferences directory
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Dropbox/DAS/Software/iTerm2"
-
-# Tell iTerm2 to use the custom preferences in the directory
-defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
-
-# Don’t display the annoying prompt when quitting iTerm
-#defaults write com.googlecode.iterm2 PromptOnQuit -bool false
-
-# Copy Plugin modifications into place
-cp /Users/${USER}/dotfiles/settings/iTerm2/custom/plugins/git/git.plugin.zsh /Users/${USER}/.oh-my-zsh/custom/plugins/git
-
-# Copy Theme modifications into place
-cp /Users/${USER}/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Users/${USER}/.oh-my-zsh/custom/themes
-
-
-#===================================================================================
 # Outlook
 #===================================================================================
 
