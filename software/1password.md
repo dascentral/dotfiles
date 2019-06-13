@@ -6,9 +6,15 @@
 
 ## Installation
 
-Direct from the software developer: [https://1password.com/downloads/mac/](https://1password.com/downloads/mac/).
+You have three installation options:
 
-Also available within the Mac App Store.
+1. Direct from the software developer: [https://1password.com/downloads/mac/](https://1password.com/downloads/mac/)
+2. Via the Mac App Store
+3. Via [Homebrew](https://brew.sh):
+
+```bash
+brew cask install 1password
+```
 
 ## Settings
 
