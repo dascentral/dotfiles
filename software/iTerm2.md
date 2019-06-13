@@ -4,7 +4,16 @@
 
 iTerm2 is a replacement for Terminal and the successor to iTerm.
 
-[https://www.iterm2.com/downloads.html](https://www.iterm2.com/downloads.html)
+## Installation
+
+You have the following installation options:
+
+1. Direct from the software developer: [https://www.iterm2.com/downloads.html](https://www.iterm2.com/downloads.html)
+1. Via [Homebrew](https://brew.sh):
+
+```bash
+brew cask install iterm2
+```
 
 ## Enable Custom Settings
 
