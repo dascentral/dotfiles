@@ -5,7 +5,7 @@
 #===================================================================================
 
 # Start it up
-printf "\033[1;37mInstalling aliases.\033[0m"
+printf "\033[1;37mCopying aliases into place.\033[0m"
 
 # Copy into place
 cp /Users/$USER/dotfiles/aliases/aliases /Users/$USER/.aliases
