@@ -8,7 +8,7 @@ Valet is a Laravel development environment for Mac minimalists. It configures yo
 
 ## Installation
 
-Assuming [Homebrew](homebrew.md), [PHP](php.md), and [Composer](composer.md) have been installed, you run the following:
+Assuming [Homebrew](homebrew.md), [PHP](php.md), and [Composer](composer.md) have been installed, you can run the following:
 
 ```bash
 brew update
