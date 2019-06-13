@@ -33,7 +33,7 @@ I make a few additions to the system path that support execution of [Homebrew](h
 ```bash
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/opt/mysql@5.7/bin
-export PATH=~/.composer/vendor/bin
+export PATH=$PATH:~/.composer/vendor/bin
 ```
 
 ### Themes
