@@ -33,8 +33,9 @@ I make the following customizations to the application settings:
 
 ## System Fonts
 
-I like using Microsoft's "Calibri" font within Evernote. Microsoft packages its application fonts within the app bundle. They are not available by default to other macOS applications and will need to be added manually to Font Book. You can add the font files from within the app bundle.
+I like using Microsoft's "Calibri" font within Evernote however, since Microsoft packages its application fonts within the app bundle, they are not available by default to other macOS applications. I manually add them to Font Book:
 
 * Browse to `/Applications`
 * Right click on `Microsoft Word.app` and click "Show Package Contents"
 * Browse to `/Contents/Resources/DFonts`
+* Drag relevant items into Font Book
