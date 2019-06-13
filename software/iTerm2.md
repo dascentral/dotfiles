@@ -17,17 +17,13 @@ brew cask install iterm2
 
 ## Enable Custom Settings
 
-I recommend running these commands from within the native Mac Terminal application. Best to keep iTerm closed while updating its settings.
-
-### Specify the preferences directory
-
-I store my iTerm2 settings with a cloud provide so that I can easily sync settings across computers. This command provides iTerm2 with the location of the customer folder.
+I store my iTerm2 settings with a cloud provider so that I can easily sync settings across computers. This command provides iTerm2 with the location of the customer folder.
 
 ```bash
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Path/To/Settings/Folder"
 ```
 
-### Tell iTerm2 to use the custom preferences in the directory
+And this command tells iTerm2 to use the preferences within the custom folder:
 
 ```bash
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
