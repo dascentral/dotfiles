@@ -24,17 +24,11 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Path/To/
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
 
-
-
 ## Settings
 
-*As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings
-within a local file. I have moved my preferences to cloud storage and have configured
-my latest iTerm2 installation to leverage that file.*
+*As I was setting up a new Mac, I realized iTerm2 offers the ability to save settings within a local file. I have moved my preferences to cloud storage and have configured my latest iTerm2 installation to leverage that file.*
 
-*However, I am currently unsure if that settings file handles ALL options within the
-"Preferences" dialog so I am keeping these notes around for a while until I am
-able to confirm.*
+*However, I am currently unsure if that settings file handles ALL options within the "Preferences" dialog so I am keeping these notes around for a while until I am able to confirm.*
 
 * General > Window > Deselect “Native full screen windows”
 * General > Closing > Select “Quit when all windows are closed"
