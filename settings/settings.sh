@@ -161,13 +161,13 @@ defaults write com.apple.dock tilesize -int 28
 #defaults write com.apple.dock persistent-apps -array ""
 
 # Disable Dashboard
-#defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Don’t show Dashboard as a Space
-#defaults write com.apple.dock dashboard-in-overlay -bool true
+defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # Don’t automatically rearrange Spaces based on most recent use
-#defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock mru-spaces -bool false
 
 # Make Dock icons of hidden applications translucent
 #defaults write com.apple.dock showhidden -bool true
@@ -272,10 +272,10 @@ defaults write com.microsoft.Outlook NSRequiresAquaSystemAppearance -bool yes
 #===================================================================================
 
 # Setup folder for package settings
-if [ ! -e "/Users/${USER}/.sublime" ]; then
-    mkdir /Users/${USER}/.sublime
-fi
+#if [ ! -e "/Users/${USER}/.sublime" ]; then
+#    mkdir /Users/${USER}/.sublime
+#fi
 
 # Copy settings into place
-cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
-sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
+#cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
+#sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
