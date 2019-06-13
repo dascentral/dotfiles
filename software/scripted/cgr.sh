@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #===================================================================================
 # Composer Global Require (cgr) - https://github.com/consolidation/cgr

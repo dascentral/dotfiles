@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #===================================================================================
 # Quick Look - https://github.com/sindresorhus/quick-look-plugins

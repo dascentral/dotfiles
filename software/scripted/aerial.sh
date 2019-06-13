@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #===================================================================================
 # Aerial Screen Saver - https://github.com/JohnCoates/Aerial

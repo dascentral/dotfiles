@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #===================================================================================
 # Mac App Store CLI - https://github.com/mas-cli/mas
