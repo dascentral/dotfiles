@@ -22,6 +22,10 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 * **Package:** [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 
+### Controllers
+
+* **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
+
 ### Flash Messaging
 
 Laravel provides an ability to store items in the session only for the next request. So this feature technically falls under Lararvel's "Session" component.
@@ -56,6 +60,11 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Article:** Nov 2015 - [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
 ## Extending Laravel
+
+### Actions
+
+* **Article:** June 2019 - [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
+* **Article:** May 2019 - [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
 
 ### API Authentication
 
