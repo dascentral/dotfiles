@@ -18,22 +18,12 @@ fi
 
 
 #===================================================================================
-# Composer Installation
+# Composer
 #===================================================================================
-
-# Composer Update
-printf "\033[1;37mComposer self-update.\033[0m\n"
-/usr/local/bin/composer self-update
-printf "\n"
-
-# Installation
-/Users/${USER}/dotfiles/software/scripted/cgr.sh
-/Users/${USER}/dotfiles/software/scripted/php-codesniffer.sh
-/Users/${USER}/dotfiles/software/scripted/php-cs-fixer.sh
+/Users/${USER}/dotfiles/software/scripted/composer.sh
 
 
 #===================================================================================
 # Homebrew
 #===================================================================================
-
 /Users/${USER}/dotfiles/software/scripted/homebrew.sh
