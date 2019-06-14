@@ -52,6 +52,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 
 * [ack](http://beyondgrep.com/install/)
 * [Aerial](https://github.com/JohnCoates/Aerial)
+* [Bartender](https://www.macbartender.com/)
 * [Composer Global Require](https://github.com/consolidation/cgr)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [GnuPG](https://www.gnupg.org/)
@@ -62,14 +63,15 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
 * [Sublime Text](software/Sublime.md)
 * [TablePlus](https://www.tableplus.io)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [WhatsApp](https://www.whatsapp.com/download/)
 
-The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is idempotent so I try to run it on a regular basis.
+The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I try to run it on a regular basis.
 
 ### Manual Installation
 
 Some software applications require manual installation or customization via the command line. Installation and setup instructions are available for the following items:
 
-* [Bartender](https://www.macbartender.com/)
 * [HubFlow](software/hubflow.md)
 * [iTerm2](software/iTerm2.md) + [Oh My Zsh](software/zsh.md)
 * [Laravel Valet](software/laravel-valet.md)
@@ -108,8 +110,6 @@ I use the following software applications across home and work computers. They m
 * [Sonos](http://www.sonos.com/en-us/controller-app)
 * [Spotify](http://www.spotify.com/)
 * [Tower](https://www.git-tower.com/)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [WhatsApp](https://www.whatsapp.com/download/)
 
 ## Aliases
 
