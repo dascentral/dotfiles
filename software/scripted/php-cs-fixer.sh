@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-#===================================================================================
-# PHP-CS-Fixer
-#===================================================================================
-
 # setup
 name="PHP CS Fixer"
 check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"

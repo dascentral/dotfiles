@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 
-#===================================================================================
-# ack - http://beyondgrep.com/install/
-#===================================================================================
-
 # setup
 name="ack"
 check="/usr/local/bin/ack"
+url="http://beyondgrep.com/install/"
 
 # Installation
 if [ ! -e $check ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
+    printf "\033[1;37mInstalling $name - $url.\033[0m\n"
     brew install ack
     printf "\n\n"
 fi

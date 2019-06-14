@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-#===================================================================================
-# PHP CodeSniffer
-#===================================================================================
-
 # setup
 name="PHP Code Sniffer"
 check="/Users/$USER/.composer/vendor/squizlabs/php_codesniffer"
