@@ -33,30 +33,7 @@ printf "\n"
 
 
 #===================================================================================
-# Homebrew Installation
+# Homebrew
 #===================================================================================
 
-# Homebrew Update
-printf "\033[1;37mBrew update.\033[0m\n"
-brew update
-printf "\n"
-
-# Installation
-/Users/${USER}/dotfiles/software/scripted/ack.sh
-/Users/${USER}/dotfiles/software/scripted/aerial.sh
-/Users/${USER}/dotfiles/software/scripted/docker.sh
-/Users/${USER}/dotfiles/software/scripted/gnupg.sh
-/Users/${USER}/dotfiles/software/scripted/mac-app-store-cli.sh
-/Users/${USER}/dotfiles/software/scripted/quick-look-plugins.sh
-/Users/${USER}/dotfiles/software/scripted/redis.sh
-/Users/${USER}/dotfiles/software/scripted/ssh-copy-id.sh
-/Users/${USER}/dotfiles/software/scripted/tableplus.sh
-
-# Homebrew Maintenance
-printf "\033[1;37mBrew cleanup.\033[0m\n"
-brew cleanup
-printf "\n"
-
-printf "\033[1;37mBrew doctor.\033[0m\n"
-brew doctor
-printf "\n"
+/Users/${USER}/dotfiles/software/homebrew.sh
