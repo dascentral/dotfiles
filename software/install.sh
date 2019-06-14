@@ -36,4 +36,4 @@ printf "\n"
 # Homebrew
 #===================================================================================
 
-/Users/${USER}/dotfiles/software/homebrew.sh
+/Users/${USER}/dotfiles/software/scripted/homebrew.sh
