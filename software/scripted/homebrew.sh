@@ -124,6 +124,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Sublime Text
+name="Sublime Text"
+check="/Applications/Sublime Text.app"
+url="https://www.sublimetext.com/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install sublime-text
+    printf "\n\n"
+fi
+
+
 # TablePlus
 app="tableplus"
 name="TablePlus"
@@ -142,6 +153,30 @@ name="Tower"
 check="/Applications/Tower.app"
 url="https://www.git-tower.com/mac"
 if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
+# WhatsApp
+app="whatsapp"
+name="WhatsApp"
+check="/Applications/WhatsApp.app"
+url="https://www.whatsapp.com"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
+# VirtualBox
+app="virtualbox"
+name="VirtualBox"
+check="/Applications/VirtualBox.app"
+url="https://www.virtualbox.org"
+if [ ! -e $check ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
     printf "\n\n"
