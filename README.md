@@ -63,6 +63,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
 * [Sublime Text](software/Sublime.md)
 * [TablePlus](https://www.tableplus.io)
+* [Tower](https://www.git-tower.com/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [WhatsApp](https://www.whatsapp.com/download/)
 
@@ -102,14 +103,12 @@ I use the following software applications across home and work computers. They m
 * [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
 * [ImageOptim](https://imageoptim.com/mac)
 * MindNode Lite
-* [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [Postman](https://www.getpostman.com/)
 * [Rocket](https://matthewpalmer.net/rocket/)
 * [Sequel Pro](http://www.sequelpro.com/download/)
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
 * [Spotify](http://www.spotify.com/)
-* [Tower](https://www.git-tower.com/)
 
 ## Aliases
 
@@ -135,7 +134,8 @@ I removed the following items from the standard setup in June 2019:
 * [Java](https://java.com/en/download/mac_download.jsp)
 * [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
 * [Mac App Store CLI](https://github.com/mas-cli/mas)
-* [PHP Xdebug](software/php71-xdebug.md) - Currently only good for PHP 7.1
+* [PHP Xdebug](software/php71-xdebug.md)
+* [PHPStorm](http://www.jetbrains.com/phpstorm/)
 * [RVM](software/rvm.md)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [WordPress CLI](software/wp-cli.md)
