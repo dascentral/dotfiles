@@ -139,3 +139,40 @@ I removed the following items from the standard setup in June 2019:
 * [RVM](software/rvm.md)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [WordPress CLI](software/wp-cli.md)
+
+## Command-Line Configurations
+
+While some system settings are configured automatically via the `settings/settings.sh` script, I still have a number of manual modifications that I make. I have published most of those changes within the markdown file associated with each application beneath the `software` folder.
+
+However, my goal is always to limit the amount of manual work. This article helped me understand how to do so:
+
+[https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
+
+### Key Commands
+
+**Print all domains**
+
+```bash
+defaults domains | tr ',' '\n'
+```
+
+**Print settings for a specific app**
+
+```bash
+defaults read [domain]
+defaults read com.googlecode.iterm2
+```
+
+**Print specific key**
+
+```bash
+defaults read [domain] [key]
+defaults read com.googlecode.iterm2 PrefsCustomFolder
+```
+
+**Write new settingss**
+
+```bash
+defaults read [domain] [key] [type] [value]
+defaults write com.apple.Notes NotesContinuousSpellCheckingEnabled -bool true
+```
