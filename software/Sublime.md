@@ -21,7 +21,7 @@ If you have your Sublime preferences already stored in the cloud, **link your pr
 
 ### Cloud Preferences
 
-In order to ensure a consistent experience across computers, I store my settings within iCloud. If you are pursuing a similar approach, you'll want to customize the location in the command below.
+In order to ensure a consistent experience across computers, I store my settings with a cloud provider. If you are pursuing a similar approach, you'll want to customize the location in the command below.
 
 ```bash
 cd /Users/${USER}/Library/Application\ Support/Sublime\ Text\ 3/Packages/
