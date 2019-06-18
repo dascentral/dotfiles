@@ -35,6 +35,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Laravel Installer
+name="Laravel Installer"
+check="/Users/$USER/.composer/vendor/bin/laravel"
+url="https://laravel.com/docs/master"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    composer global require laravel/installer
+    printf "\n"
+fi
+
+
 # PHP Code Sniffer
 name="PHP Code Sniffer"
 check="/Users/$USER/.composer/vendor/squizlabs/php_codesniffer"
