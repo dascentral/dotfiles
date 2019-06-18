@@ -114,6 +114,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Redis
+name="Rocket"
+check="/Applications/Rocket.app"
+url="https://matthewpalmer.net/rocket/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install rocket
+    printf "\n\n"
+fi
+
+
 # SSH Copy ID
 name="SSH Copy ID"
 check="/usr/local/bin/ssh-copy-id"
