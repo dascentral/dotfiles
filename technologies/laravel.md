@@ -66,6 +66,10 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Article:** June 2019 - [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
 * **Article:** May 2019 - [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
 
+### APIs
+
+* **Package:** [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
+
 ### API Authentication
 
 * **Article:** May 2019 - [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
