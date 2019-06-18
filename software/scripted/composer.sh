@@ -35,8 +35,19 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# Laravel Installer
-name="Laravel Installer"
+# dascentral/hubflow-release
+name="dascentral/hubflow-release"
+check="/Users/$USER/.composer/vendor/bin/hf"
+url="https://packagist.org/packages/dascentral/hubflow-release"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    composer global require dascentral/hubflow-release
+    printf "\n"
+fi
+
+
+# laravel/installer
+name="laravel/installer"
 check="/Users/$USER/.composer/vendor/bin/laravel"
 url="https://laravel.com/docs/master"
 if [ ! -e "$check" ]; then
