@@ -116,6 +116,9 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+# Open folders in a new window, instead of a tab
+defaults write com.apple.finder FinderSpawnTab -bool false
+
 # Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
