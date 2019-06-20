@@ -46,18 +46,6 @@ docker run --rm [IMAGE] [COMMAND]
 docker run --rm php:7.2-apache-stretch php -v
 ```
 
-#### Run a command within a new, named container
-
-It does not make much sense to immediately remove a named container so note that this container will stick around after it exits.
-
-```bash
-docker run --name=[NAME] [IMAGE] [COMMAND]
-```
-
-```bash
-docker run --name=PHP72 php:7.2-apache-stretch php -v
-```
-
 ### Docker: Stop
 
 Stop one or more running containers.
@@ -158,7 +146,7 @@ Start a bash session within the provided service:
 docker-compose exec [service] bash
 ```
 
-Following logs within a running container:
+Follow logs within a running container:
 
 ```bash
 docker-compose logs -f [service]
