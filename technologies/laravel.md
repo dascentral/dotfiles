@@ -18,6 +18,10 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 * **Article:** April 2019 - [Junges Laravel ACL](https://laravel-news.com/junges-laravel-acl)
 
+### Blade
+
+* **Article:** June 2019 - [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
+
 ### Cache
 
 * **Package:** [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
