@@ -10,10 +10,8 @@ Alfred is a productivity application for macOS, which boosts your efficiency wit
 
 ## Settings
 
-I make the following customizations to the application settings:
+I use Alfred's [sync](https://www.alfredapp.com/help/advanced/sync/) functionality to sync settings across computers. However, some settings are not synced between computers. As a result, I make the following manual customizations:
 
 * General > Set "Alfred Hotkey" to "Ctrl + Space"
-* Features > Web Search > Replace "google" keyword to "g"
-* Features > Web Search > Replace "maps" keyword to "gm"
 * Features > 1Password > Click "Enabled 1Password Bookmarks"
 * Appearance > Select "Alfred macOS" theme
