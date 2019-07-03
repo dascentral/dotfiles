@@ -91,6 +91,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Postman
+name="Postman"
+check="/Applications/Postman.app"
+url="https://www.getpostman.com"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install postman
+    printf "\n\n"
+fi
+
+
 # Quick Look Plugins
 name="Quick Look Plugins"
 check="/Users/${USER}/Library/QuickLook/QuickLookJSON.qlgenerator"
@@ -114,7 +125,7 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# Redis
+# Rocket
 name="Rocket"
 check="/Applications/Rocket.app"
 url="https://matthewpalmer.net/rocket/"
