@@ -154,6 +154,10 @@ docker-compose logs -f [service]
 
 ## Resoures
 
+### Dockerfile
+
+* **Article:** July 2019 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+
 ### Building Node.js Apps
 
 * **Tutorial:** [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) - Nodejs.org
