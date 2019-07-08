@@ -94,7 +94,7 @@ I install the following software applications via the Mac App Store.
 
 I use the following software applications across home and work computers. They must be installed via their installation packages because they either do not have a scripted installation option or I simply haven't found it yet.
 
-* [Apache Directory Studio](http://directory.apache.org/studio/)
+* [Apache Directory Studio](http://directory.apache.org/studio/) - Requires [JDK8](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Dash](https://kapeli.com/dash)
