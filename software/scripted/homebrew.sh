@@ -147,6 +147,17 @@ fi
 
 
 # Sublime Text
+name="Spotify"
+check="/Applications/Spotify.app"
+url="https://www.spotify.com/us/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install spotify
+    printf "\n\n"
+fi
+
+
+# Sublime Text
 name="Sublime Text"
 check="/Applications/Sublime Text.app"
 url="https://www.sublimetext.com/"
