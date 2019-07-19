@@ -8,13 +8,15 @@ The [Z shell](https://en.wikipedia.org/wiki/Z_shell) (Zsh) is a Unix shell that 
 
 Installation is accomplished via setup of the [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) package.
 
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+[https://github.com/robbyrussell/oh-my-zsh#basic-installation](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
+
+## Configuration
+
+I typically make a few tweaks to the default `~/.zshrc`.
 
 ### Aliases
 
-I have an aliases file that I use within this repo for a number of shortcuts. It is enabled via the following:
+I include an aliases file found within this repo for a number of shortcuts. It is enabled via the following:
 
 ```bash
 printf "\n" >> ~/.zshrc
@@ -24,7 +26,17 @@ printf "\n" >> ~/.zshrc
 source ~/.zshrc
 ```
 
-## Themes
+### Path
+
+I make a few additions to the system path that support execution of [Homebrew](homebrew.md), [MySQL](mysql.md), and [Composer](composer.md).
+
+```bash
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/opt/mysql@5.7/bin
+export PATH=$PATH:~/.composer/vendor/bin
+```
+
+### Themes
 
 Oh My Zsh has a great number of [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) to help you customize your terminal session. Below is a list of themes that I like. "af-magic" and "blinks" are my favorites.
 

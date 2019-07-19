@@ -4,36 +4,9 @@
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-## Application Customizations
+## Settings Sync
 
-I store all settings and keyboard shortcuts in the cloud so that I can easily sync settings across computers. To link a new installation to those files, I execute the following commands:
-
-```bash
-cd ~/Library/Application\ Support/Code/User
-rm settings.json
-rm keybindings.json
-rm -rf snippets
-ln -s ~/GDrive/Documents/Software/VSCode/User/settings.json settings.json
-ln -s ~/GDrive/Documents/Software/VSCode/User/keybindings.json keybindings.json
-ln -s ~/GDrive/Documents/Software/VSCode/User/snippets snippets
-```
-
-### Storing Settings in the Cloud
-
-If you want to mimic my approach, the following will put them in a folder of your choosing:
-
-```bash
-cd ~/Library/Application\ Support/Code/User
-cp settings.json ~/path/of/your/choosing
-cp keybindings.json ~/path/of/your/choosing
-cp -r snippets ~/path/of/your/choosing
-```
-
-### Cloud vs. Git
-
-I wrestled with where to store my settings since instinctually, it makes most sense to store them in this repository. However, I am likely to make edits directly within Code and when working on a project/respository separate from this one. Keeping them in the cloud means I don't have to worry about going back to commit changes.
-
-If you want a look at my `settings.json` file, you can view it here: [https://drive.google.com/file/d/1Iy1KVKNW7x8fhzRNgwAA31pllxYtMd8o/view?usp=sharing](https://drive.google.com/file/d/1Iy1KVKNW7x8fhzRNgwAA31pllxYtMd8o/view?usp=sharing).
+I used to store my settings within Google Drive but upon setting up a new computer recently, I found the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension. I use that now to sync settings, key bindings, and extensions across machines.
 
 ## Extensions
 
@@ -60,6 +33,7 @@ I leverage the following extensions:
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 * [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitakunevich.snippet-creator)
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)

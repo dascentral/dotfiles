@@ -18,9 +18,17 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 * **Article:** April 2019 - [Junges Laravel ACL](https://laravel-news.com/junges-laravel-acl)
 
+### Blade
+
+* **Article:** June 2019 - [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
+
 ### Cache
 
 * **Package:** [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
+
+### Controllers
+
+* **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
 ### Flash Messaging
 
@@ -48,6 +56,7 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
 * **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
 * **Package:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Package that promotes validation of the full auth flows
+* **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
 * **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
 
 ### Validation
@@ -56,6 +65,15 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Article:** Nov 2015 - [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
 ## Extending Laravel
+
+### Actions
+
+* **Article:** June 2019 - [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
+* **Article:** May 2019 - [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
+
+### APIs
+
+* **Package:** [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
 
 ### API Authentication
 
@@ -75,6 +93,7 @@ Laravel provides an ability to store items in the session only for the next requ
 
 [Laravel Forge](https://forge.laravel.com/) is a service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." While I appreciate the utility and simplicity of that service, my deployments require a more complex cloud hosting setup.
 
+* **Article:** May 2019 - [Deploy a Laravel Application to Kubernetes using Gitlab CI](https://itnext.io/deploy-a-laravel-application-to-kubernetes-using-gitlab-ci-2538a6bbd373)
 * **Article:** March 2019 - [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
 * **Article**: Sept 2018 - [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
 

@@ -116,6 +116,9 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+# Open folders in a new window, instead of a tab
+defaults write com.apple.finder FinderSpawnTab -bool false
+
 # Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
@@ -161,13 +164,13 @@ defaults write com.apple.dock tilesize -int 28
 #defaults write com.apple.dock persistent-apps -array ""
 
 # Disable Dashboard
-#defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Don’t show Dashboard as a Space
-#defaults write com.apple.dock dashboard-in-overlay -bool true
+defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # Don’t automatically rearrange Spaces based on most recent use
-#defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock mru-spaces -bool false
 
 # Make Dock icons of hidden applications translucent
 #defaults write com.apple.dock showhidden -bool true
@@ -227,26 +230,6 @@ defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -boo
 # Disable the all too sensitive backswipe on Magic Mouse
 defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
 defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
-
-
-#===================================================================================
-# iTerm2
-#===================================================================================
-
-# Specify the preferences directory
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Dropbox/DAS/Software/iTerm2"
-
-# Tell iTerm2 to use the custom preferences in the directory
-defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
-
-# Don’t display the annoying prompt when quitting iTerm
-#defaults write com.googlecode.iterm2 PromptOnQuit -bool false
-
-# Copy Plugin modifications into place
-cp /Users/${USER}/dotfiles/settings/iTerm2/custom/plugins/git/git.plugin.zsh /Users/${USER}/.oh-my-zsh/custom/plugins/git
-
-# Copy Theme modifications into place
-cp /Users/${USER}/dotfiles/settings/iTerm2/custom/themes/af-magic.zsh-theme /Users/${USER}/.oh-my-zsh/custom/themes
 
 
 #===================================================================================

@@ -8,7 +8,15 @@ Valet is a Laravel development environment for Mac minimalists. It configures yo
 
 ## Installation
 
-It's best to leave on the Laravel docs for installation instructions. Essentially, you want to install MySQL and PHP natively on your maching. The Valet installation process will take care of the rest.
+Assuming [Homebrew](homebrew.md), [PHP](php.md), and [Composer](composer.md) have been installed, you can run the following:
+
+```bash
+brew update
+composer global require laravel/valet
+valet install
+```
+
+The [Laravel docs](https://laravel.com/docs/master/valet#installation) will give you much more detail on the installation process.
 
 ## Configuration
 

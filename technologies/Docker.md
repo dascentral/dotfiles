@@ -46,18 +46,6 @@ docker run --rm [IMAGE] [COMMAND]
 docker run --rm php:7.2-apache-stretch php -v
 ```
 
-#### Run a command within a new, named container
-
-It does not make much sense to immediately remove a named container so note that this container will stick around after it exits.
-
-```bash
-docker run --name=[NAME] [IMAGE] [COMMAND]
-```
-
-```bash
-docker run --name=PHP72 php:7.2-apache-stretch php -v
-```
-
 ### Docker: Stop
 
 Stop one or more running containers.
@@ -104,14 +92,6 @@ docker images | grep php
 
 ```bash
 docker rmi [ID]
-```
-
-#### Prune images
-
-Remove unused images.
-
-```bash
-q
 ```
 
 ### Docker: Volumes
@@ -166,14 +146,20 @@ Start a bash session within the provided service:
 docker-compose exec [service] bash
 ```
 
-Following logs within a running container:
+Follow logs within a running container:
 
 ```bash
 docker-compose logs -f [service]
 ```
 
-## Resources
+## Resoures
 
-### Volumes
+### Dockerfile
 
-* **Article:** July 2018 - [How To Share Data between Docker Containers](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers)
+* **Article:** July 2019 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+
+### Building Node.js Apps
+
+* **Tutorial:** [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) - Nodejs.org
+* **Tutorial:** [How To Build a Node.js Application with Docker](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) - Digital Ocean, Nov 2018
+* **Tutorial:** [Using Docker for Node.js in Development and Production](https://dev.to/alex_barashkov/using-docker-for-nodejs-in-development-and-production-3cgp) - Jan 2019
