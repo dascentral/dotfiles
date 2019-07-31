@@ -31,8 +31,8 @@ I make the following customizations to the application settings:
 
 ### Evernote Clipper
 
-* General > Notebook selection > Always start in "Articles"
-* General > Default clip action > Always start in "Simplified article"
+* General > Notebook destination > Use "Articles"
+* General > Default clip action > Use "Simplified article"
 * General > After clip > Automatically close Clipper
 * General > Related results > Uncheck
 * General > PDF page button > Uncheck
