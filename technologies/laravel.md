@@ -14,6 +14,10 @@ Below I have attempted to inventory the various resources that I find relevent t
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing
 * [Laravel Secrets](https://laravelsecrets.com/) - Coming in 2020
 
+## Design Patterns
+
+* [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
+
 ## First-Party Features
 
 ### Authentication
