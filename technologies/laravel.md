@@ -8,11 +8,20 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 ## Training Resources
 
+### Recommended
+
 * [Laracasts](https://laracasts.com) - Basically, everything on this site
 * [Test Driven Laravel](https://course.testdrivenlaravel.com/) - by [Adam Wathan](https://twitter.com/adamwathan)
+
+### Others
+
+I have not personally explored these but they seem well regarded within the community.
+
+* [Laravel Core Adventures](https://laravelcoreadventures.com)
 * [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing
 * [Laravel Secrets](https://laravelsecrets.com/) - Coming in 2020
+* [Eloquent by Example](https://eloquentbyexample.com)
 
 ## Design Patterns
 
