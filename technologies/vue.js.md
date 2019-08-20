@@ -5,6 +5,14 @@
 [Vue.js](https://vuejs.org/) - The Progressive
 JavaScript Framework
 
+## Resources
+
+* [Learn Vue 2: Step by Step](https://laracasts.com/series/learn-vue-2-step-by-step)
+* [Testing Vue](https://laracasts.com/series/testing-vue)
+* [Laravel, Vue and SPA](https://laracasts.com/series/laravel-vue-and-spas)
+* [Practical Vue Components](https://laracasts.com/series/practical-vue-components)
+* [Advanced Vue Component Design](https://learn.adamwathan.com/advanced-vue/building-controlled-components)
+
 ## Components
 
 Third-party components.
