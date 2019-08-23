@@ -51,6 +51,11 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
+### Facades
+
+* **Laravel Docs:** [https://laravel.com/docs/master/facades](https://laravel.com/docs/master/facades)
+* **Article:** [Real-time (automatic) Facades in Laravel 5.4](https://mattstauffer.com/blog/real-time-automatic-facades-in-laravel-5-4/) - This is a feature that I did not discover until Laravel 5.8 but proves very helpful and relevant when pursuing a test strategy that employes [class-based model factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories).
+
 ### Flash Messaging
 
 Laravel provides an ability to store items in the session only for the next request. So this feature technically falls under Lararvel's "Session" component.
