@@ -124,15 +124,17 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Article:** March 2019 - [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
 * **Article**: Sept 2018 - [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
 
-### Containers
-
-* **Tutorial:** [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
-
 ### Continuous Integration
 
 * **Article:** [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
 * **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI
 ](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+
+### Docker
+
+* **Tutorial:** [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
+* **Article:** Aug 2018 - [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
+* **Course** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
 ### GraphQL
 
