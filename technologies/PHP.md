@@ -6,6 +6,8 @@
 
 If you are wondering about whether or not to give it a try, give this article a read: [https://stitcher.io/blog/php-in-2019](https://stitcher.io/blog/php-in-2019).
 
+Are you a beginning who's ready to get started? Check out [https://omgphp.com](https://omgphp.com) for an index of resources.
+
 ## Resources
 
 ### Exception Handling
