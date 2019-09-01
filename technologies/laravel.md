@@ -104,6 +104,7 @@ Laravel provides an ability to store items in the session only for the next requ
 
 ### API Authentication
 
+* **Article:** Aug 2019 - [JSON APIs with Laravel: Part 5 - Authentication and Permissions](https://sarfas.codes/blog/json-apis-with-laravel-part-5-authentication-and-permissions?ref=laravelnews) - JWT approach
 * **Article:** May 2019 - [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
 
 ### AWS
