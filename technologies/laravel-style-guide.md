@@ -4,6 +4,10 @@
 
 It's a style guide!
 
+## Artisan Console
+
+Ensure console commands focus exclusively on triggering business logic or functionality that lives elsewhere within the app codebase. Doing so allows that logic to be leveraged throughout all facets of the application.
+
 ## Databases
 
 ### Factories
