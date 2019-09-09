@@ -6,6 +6,18 @@
 
 ## Useful Commands
 
+### Checkout remote branch
+
+Two ways to do this:
+
+```bash
+git checkout --track origin/[branch]
+```
+
+```bash
+git checkout -b [branch] origin/[branch]
+```
+
 ### Tags
 
 I never remember how to checkout a specific tag. It's actually quite simple:
