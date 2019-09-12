@@ -26,7 +26,7 @@ alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 # Aliases
 alias ca='cat ~/.aliases'
 alias sa='source ~/.aliases'
-alias va='vi ~/.aliases-local'
+alias va='vi ~/.aliases'
 
 # Zsh Config
 alias vz='vi ~/.zshrc'
