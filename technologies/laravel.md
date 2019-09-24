@@ -71,7 +71,8 @@ Laravel provides an ability to store items in the session only for the next requ
 
 ### Passport
 
-* **Article:** Aug 2016 - [Learn about Grant Types in Laravel Passport](https://laravel-news.com/passport-grant-types/) - Great overview of Oauth grant types
+* **Article:** May 2019 - [Testing Passport Authenticated Controllers and Routes in Laravel](https://clubstudio.co.uk/journal/testing-passport-authenticated-controllers-and-routes-in-laravel)
+* **Article:** Aug 2016 - [Learn about Grant Types in Laravel Passport](https://laravel-news.com/passport-grant-types/)
 
 ### Routing
 
