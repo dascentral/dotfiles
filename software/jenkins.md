@@ -22,6 +22,70 @@ sudo service jenkins stop
 sudo service jenkins start
 ```
 
+## JIRA Integration
+
+The JIRA plugin affords Jenkins the ability to automatically progress issues through workflow upon successful completion of a build. Enabling this functionality is relatively straightforward.
+
+* Configure the job of your choosing
+* Under the "Build" section, click "Add build step", and select "Conditional step (single)"
+* Add the "Run?" and "Builder" content as you see fit.
+
+The relevant JQL:
+
+```sql
+project = PROJECTNAME AND issueType NOT IN (Risk, Question) AND status = Resolved
+```
+
+## Slack Integration
+
+### Store Integration Token
+
+First up, we'll want to make sure we have securely stored the Slack integration token within the Jenkins installation. This token enables notifications from Jenkins into Slack. You will likely need to have a Slack admin grab this value for you. You can pull it from the specific Jenkins integration here: https://akqa.slack.com/services/B8RJ6M1BP. One you have that value...
+
+* Click "Credentials" in the main navigation
+* Access the "global" domain. The UX here is abysmal. Click anywhere you see "(global)" on the page.
+* Click "Add Credentials" in the left nav
+* Set "Kind" to "Secret text"
+* You can leave the "Scope" set to "Global"
+* Set the "Secret" equal to the Slack integration token
+* Set the "ID" as "slack-notifications-token"
+
+You may leave the "Description" field blank.
+
+### Install & Configure Plugin
+
+* If not yet installed, add the "Slack Notification" module within the Jenkins "Plugin Manager"
+* Head on over to "Manage Jenkins" > "Configure System"  and look for "Global Slack Notifier Settings"
+* Set "Base URL" to "https://akqa.slack.com/services/hooks/jenkins-ci/"
+* Set "Team Subdomain" to "akqa"
+* Set "Integration Token Credential ID" to "slack-notifications-token"
+
+The remaining fields are optional and can be skipped. If you're feeling it, click "Test Connection" to see if that worked correctly
+
+### Configure Job
+
+* Edit the configuration of the job you are trying to integrate with Slack
+* Under "Post-build Actions", select "Slack Notifications"
+* Check the notifications that you desire. I typically go with "Notify Failure" and "Notify Success"
+* Click "Advanced" and enter the channel for your project. If none is specified, notifications will go to "#slack-integrations".
+* Save your job configuration and you should be all set
+
+## Parameterized Builds
+
+Parameterized builds allow you to modify execution of a job during each run. Within your job, navigate to the "General" section and check "This project is parameterized." From there you, add the type of parameter that you wish to make available. You may optionally specify a default value.
+
+### Example Use - Building from a Tag
+
+Based upon our current code management practices, it's usually a good idea to build to a UAT environment from a tag rather than a branch.
+
+* Configure your job
+* Within the "General" section, check "This project is parameterized"
+* Add a "string parameter"
+* Name your parameter "version". You may leave the default value blank.
+* Within the "Source Code Management" section, set the "Branch Specifier" to "tags/${version}"
+
+Whenever your run the build, you will now be prompted for a tag or version number prior to execution.
+
 ## Security
 
 ### Disabling Security
