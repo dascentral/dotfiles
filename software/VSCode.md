@@ -6,7 +6,19 @@
 
 ## Settings Sync
 
-I used to store my settings within Google Drive but upon setting up a new computer recently, I found the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension. I use that now to sync settings, key bindings, and extensions across machines.
+I use Visual Studio Code across both work and personal computers. I store my settings in iCloud so that I can easily sync them across systems.
+
+When setting up a new system, the following essentially remove the local settings and link my Visual Studio Code installation to the iCloud version.
+
+```bash
+cd ~/Library/Application\ Support/Code/User
+rm settings.json
+rm keybindings.json
+rm -rf snippets
+ln -s ~/Documents/Software/VSCode/User/settings.json settings.json
+ln -s ~/Documents/Software/VSCode/User/keybindings.json keybindings.json
+ln -s ~/Documents/Software/VSCode/User/snippets snippets
+```
 
 ## Extensions
 
