@@ -43,10 +43,6 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Article:** June 2019 - [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
 
-### Cache
-
-* **Package:** [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
-
 ### Controllers
 
 * **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
@@ -61,8 +57,6 @@ I have not personally explored these but they seem well regarded within the comm
 Laravel provides an ability to store items in the session only for the next request. So this feature technically falls under Lararvel's "Session" component.
 
 * **Laravel Docs:** [https://laravel.com/docs/master/session#flash-data](https://laravel.com/docs/master/session#flash-data)
-* **Package:** [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
-* **Package:** [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging.
 * **Tutorial:** [Building a flash message component with Vue.js and Tailwind CSS](https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css)
 
 ### Horizon
@@ -82,7 +76,6 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
 * **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
-* **Package:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Package that promotes validation of the full auth flows
 * **Article:** Aug 2019 - [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
 * **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
 * **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
@@ -98,10 +91,6 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Article:** June 2019 - [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
 * **Article:** May 2019 - [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
-
-### APIs
-
-* **Package:** [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
 
 ### API Authentication
 
@@ -134,9 +123,11 @@ Laravel provides an ability to store items in the session only for the next requ
 
 ### Docker
 
-* **Tutorial:** [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
+* **Article:** May 2019 - [The beauty of Docker for local Laravel development](https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0)
+* **Article:** Nov 2018 - [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
 * **Article:** Aug 2018 - [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
-* **Course** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
+* **Article:** Mar 2018 - [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
+* **Course:** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
 ### GraphQL
 
@@ -153,6 +144,17 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 * **Laracasts:** May 2015 - [Managing Mass User Settings](https://laracasts.com/lessons/managing-mass-user-settings) + [Part 2](https://laracasts.com/lessons/managing-mass-user-settings-part-2) - I found these videos in April 2019 and found the approach to still be quite elegant. The code for the lessons can be found on [GitHub](https://github.com/laracasts/Mass-User-Settings/blob/master/app/Settings.php).
 
-### UUID
+## Packages
 
-* **Package:** [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
+### Recommended
+
+### Want to explore
+
+* [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
+* [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
+* [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
+* [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
+* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
+* [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
+* [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
+
