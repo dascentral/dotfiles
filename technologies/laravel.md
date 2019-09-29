@@ -61,6 +61,7 @@ Laravel provides an ability to store items in the session only for the next requ
 
 ### Horizon
 
+* **Article:** Sept 2019 - [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
 * **Article:** April 2019 - [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
 
 ### Passport
