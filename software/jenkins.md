@@ -28,9 +28,12 @@ The JIRA plugin affords Jenkins the ability to automatically progress issues thr
 
 * Configure the job of your choosing
 * Under the "Build" section, click "Add build step", and select "Conditional step (single)"
-* Add the "Run?" and "Builder" content as you see fit.
+* Set "Worst/Best Status" as you see fit. Most often I set both values to "Success".
+* Select "JIRA: Progress issues by workflow action"
+* Enter the JQL to select the appropriate issues
+* Enter the appropriate workflow action - e.g. "Needs Validation"
 
-The relevant JQL:
+Sample JQL for most projects:
 
 ```sql
 project = PROJECTNAME AND status = Resolved
