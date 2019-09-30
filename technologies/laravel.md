@@ -149,7 +149,31 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 ### Recommended
 
+#### First-Party
+
+Laravel provides a number of first party packages that are of significant quality. I apply these to nearly every Laravel project that I create.
+
+* [Laravel Dusk](https://laravel.com/docs/master/dusk) - Browser automation testing made easy
+* [Laravel Horizon](https://laravel.com/docs/master/horizon) - Dashboard and code-driven configuration for your Laravel-powered Redis queues
+* [Laravel Nova](https://nova.laravel.com) - Laravel administration panel
+* [Laravel Passport](https://laravel.com/docs/master/passport) - Protect your APIs with this full OAuth2 server implementation
+* [Laravel Telescope](https://laravel.com/docs/master/telescope) - Debug assistant for the Laravel framework
+
+#### require
+
+* [graham-campbell/markdown](https://github.com/GrahamCampbell/Laravel-Markdown) - A CommonMark wrapper for Laravel 5
+* [spatie/laravel-html](https://github.com/spatie/laravel-html) - HTML generator I use for form/model binding
+* [predis/predis](https://github.com/nrk/predis) - A Redis client for PHP however, word on the street is that this package has been abandoned
+
+#### require-dev
+
+* [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Integrates [PHP Debug Bar](http://phpdebugbar.com/) with Laravel
+* [beyondcode/laravel-query-detector](https://github.com/beyondcode/laravel-query-detector) - An N+1 query detector for Laravel
+* [codedungeon/phpunit-result-printer](https://github.com/mikeerickson/phpunit-pretty-result-printer) - Makes your PHPUnit output more visually appealing
+
 ### Want to explore
+
+I have seen these items referenced across various tweets, posts, etc. Worth exploring altough I have not yet checked them out.
 
 * [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
 * [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
