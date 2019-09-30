@@ -33,7 +33,7 @@ The JIRA plugin affords Jenkins the ability to automatically progress issues thr
 The relevant JQL:
 
 ```sql
-project = PROJECTNAME AND issueType NOT IN (Risk, Question) AND status = Resolved
+project = PROJECTNAME AND status = Resolved
 ```
 
 ## Slack Integration
