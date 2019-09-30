@@ -53,7 +53,14 @@ alias ghu="git hf update"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gs="git status"
 alias nah='git reset HEAD --hard'
+
+
+#------------------------------------------------------------------------------------------
+# HubFlow
+#------------------------------------------------------------------------------------------
 alias hff='git hf release finish'
+alias hffs='git hf feature start'
+alias hfff='git hf feature finish'
 
 
 #------------------------------------------------------------------------------------------
