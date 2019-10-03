@@ -8,6 +8,10 @@
 
 ## Resources
 
-### Samples
+### Tailwind Toolbox
 
-* **Workcation:** [https://workcation.netlify.com/](https://workcation.netlify.com/) - Demo site by Adam Wathan
+Open source starter templates and components, a plugins directory and useful tools/utilities to kick start your Tailwind CSS project. [https://www.tailwindtoolbox.com/components/modal](https://www.tailwindtoolbox.com/components/modal)
+
+### Workcation
+
+Demo site created entirely with TailwindCSS by one of the framework's creators, Adam Wathan. [https://workcation.netlify.com/](https://workcation.netlify.com/)
