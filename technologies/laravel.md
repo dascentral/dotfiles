@@ -182,6 +182,7 @@ Laravel provides a number of first party packages that are of significant qualit
 I have seen these items referenced across various tweets, posts, etc. Worth exploring altough I have not yet checked them out.
 
 * [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
+* [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
 * [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
