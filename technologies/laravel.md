@@ -4,7 +4,7 @@
 
 [Laravel](http://laravel.com/) is a free, open-source PHP web framework, created by [Taylor Otwell](https://twitter.com/taylorotwell) and intended for the development of web applications following the model–view–controller (MVC) architectural pattern. I first discovered the framework in 2014 and immediately fell in love with its power and simplicity. It quickly became a key component within my preferred tech stack for any web development project.
 
-Below I have attempted to inventory the various resources that I find relevent to my professional or personal work related to Laravel.
+Below I have attempted to inventory the various resources that I find relevent to my professional or personal work with the framework.
 
 ## Training Resources
 
@@ -32,7 +32,7 @@ I have not personally explored these but they seem well regarded within the comm
 ### Authentication
 
 * **Laravel Docs:** [https://laravel.com/docs/master/authentication](https://laravel.com/docs/master/authentication)
-* **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - I needed this for work. I'd avoid Basic Auth if at all possible.
+* **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - I needed this for work. You should avoid Basic Auth at all costs.
 * **Tutorial:** [Logout Other Devices after Login](https://www.youtube.com/watch?v=mnModJ3GsbU) - Video
 
 ### Authorization
