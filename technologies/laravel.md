@@ -118,9 +118,9 @@ Laravel provides an ability to store items in the session only for the next requ
 
 ### Continuous Integration
 
-* **Article:** [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
-* **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI
-](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+* **Article:** Oct 2019 - [A github CI workflow tailored to modern PHP applications](https://ma.ttias.be/a-github-ci-workflow-tailored-to-laravel-applications/)
+* **Article:** Dec 2018 - [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
+* **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
 
 ### Docker
 
@@ -134,6 +134,12 @@ Laravel provides an ability to store items in the session only for the next requ
 
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
 * **Article:** Oct 2018 - [Lighthouse GraphQL Server for Laravel](https://laravel-news.com/lighthouse-graphql-server-for-laravel)
+
+### HATEOAS
+
+Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the authorization logic of your REST API. This package makes it easy to add HATEOAS links to your Laravel API resources. Source: [Wikipedia](https://en.wikipedia.org/wiki/HATEOAS)
+
+* **Article:** Aug 2019 - [Laravel HATEOAS Package](https://laravel-news.com/laravel-hateoas-package)
 
 ### Security
 
