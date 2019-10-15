@@ -56,6 +56,7 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [Composer Global Require](https://github.com/consolidation/cgr)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [GnuPG](https://www.gnupg.org/)
+* [MacDown](https://macdown.uranusjr.com)
 * [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
