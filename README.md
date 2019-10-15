@@ -99,9 +99,8 @@ I use the following software applications across home and work computers. They m
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Dash](https://kapeli.com/dash)
-* [Docker](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [Google Backup and Sync](https://www.google.com/drive/download/)
-* [Egnyte](https://akqa.egnyte.com/SimpleUI/appsPage.do)
+* [Egnyte Connect Desktop App](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
 * [ImageOptim](https://imageoptim.com/mac)
 * MindNode Lite
 * [Postman](https://www.getpostman.com/)
