@@ -85,7 +85,7 @@ Some software applications require manual installation or customization via the 
 I install the following software applications via the Mac App Store.
 
 * Dash
-* [Evernote](http://www.evernote.com/)
+* [Evernote](https://evernote.com/download)
 * [Slack](https://itunes.apple.com/app/slack/id803453959?ls=1&mt=12)
 * Transmit
 * Tweetbot
