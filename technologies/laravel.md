@@ -59,6 +59,13 @@ Laravel provides an ability to store items in the session only for the next requ
 * **Laravel Docs:** [https://laravel.com/docs/master/session#flash-data](https://laravel.com/docs/master/session#flash-data)
 * **Tutorial:** [Building a flash message component with Vue.js and Tailwind CSS](https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css)
 
+### Form Requests
+
+Form requests are custom request classes that contain validation logic.
+
+* **Laravel Docs:** [https://laravel.com/docs/master/validation#form-request-validation](https://laravel.com/docs/master/validation#form-request-validation)
+* **Article:** Nov 2019 - [Laravel Form Requests - more than validation](https://pociot.dev/22-laravel-form-requests-more-than-validation)
+
 ### Horizon
 
 * **Article:** Sept 2019 - [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
