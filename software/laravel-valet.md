@@ -43,11 +43,11 @@ That command will register the `~/Workspace` folder as a path that Valet should 
 
 Assuming PHP Has been installed via [Homebrew](https://brew.sh/), there may be challenges when upgrading PHP. The following steps, courtesy of [Jeffrey Way](https://twitter.com/jeffrey_way), should help resolve any issues.
 
-1. Update global Composer dependencies. (composer global update)
-2. Reinstall Valet (valet install)
-3. Make sure Valet is using PHP 7.4 (valet use php@7.4)
-4. If still failing, upgrade nginx/dnsmasq (brew upgrade nginx && brew upgrade dnsmasq)
-5. Make sure Brew isn't linked to an older version of PHP (brew unlink php@7.2)
+1. Update global Composer dependencies - `composer global update`
+2. Reinstall Valet - `valet install`
+3. Make sure Valet is using PHP 7.4 - `valet use php@7.4`
+4. If still failing, upgrade nginx/dnsmasq - `brew upgrade nginx && brew upgrade dnsmasq`
+5. Make sure Brew isn't linked to an older version of PHP - `brew unlink php@7.2`
 
 ## Troubeshooting
 
