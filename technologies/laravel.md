@@ -26,6 +26,7 @@ I have not personally explored these but they seem well regarded within the comm
 ## Design Patterns
 
 * [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
+* [View Models](https://stitcher.io/blog/laravel-beyond-crud-08-view-models)
 
 ## First-Party Features
 
