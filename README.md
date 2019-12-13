@@ -24,7 +24,7 @@ The following articles and repositories may provide inspiration as you setup you
 
 * [dotfiles.github.io](https://dotfiles.github.io/) - Your unofficial guide to dotfiles on GitHub.
 * [Dries Vints](https://github.com/driesvints/dotfiles)
-* [Freek Van der Herten's repo](https://github.com/freekmurze/dotfiles)
+* [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
 ## Software
