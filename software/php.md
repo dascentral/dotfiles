@@ -30,6 +30,7 @@ export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 ## Uninstall
 
 ```bash
+brew services stop php
 brew unlink php@7.4
 brew uninstall php@7.4
 ```
