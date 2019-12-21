@@ -48,6 +48,10 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
+### Eloquent
+
+* **Article:** Dec 2019 - [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
+
 ### Facades
 
 * **Laravel Docs:** [https://laravel.com/docs/master/facades](https://laravel.com/docs/master/facades)
@@ -148,6 +152,10 @@ Form requests are custom request classes that contain validation logic.
 Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the authorization logic of your REST API. This package makes it easy to add HATEOAS links to your Laravel API resources. Source: [Wikipedia](https://en.wikipedia.org/wiki/HATEOAS)
 
 * **Article:** Aug 2019 - [Laravel HATEOAS Package](https://laravel-news.com/laravel-hateoas-package)
+
+### Helpers
+
+* **Article:** [Creating Your Own PHP Helpers in a Laravel Project](https://laravel-news.com/creating-helpers)
 
 ### Security
 
