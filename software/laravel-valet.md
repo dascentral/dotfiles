@@ -39,7 +39,7 @@ valet park
 
 That command will register the `~/Workspace` folder as a path that Valet should search for sites.
 
-## Upgrade PHP
+## Upgrading PHP
 
 Assuming PHP Has been installed via [Homebrew](https://brew.sh/), there may be challenges when upgrading PHP. The following steps, courtesy of [Jeffrey Way](https://twitter.com/jeffrey_way), should help resolve any issues.
 
