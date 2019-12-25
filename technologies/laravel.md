@@ -22,6 +22,7 @@ I have not personally explored these but they seem well regarded within the comm
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing
 * [Laravel Secrets](https://laravelsecrets.com/) - Coming in 2020
 * [Eloquent by Example](https://eloquentbyexample.com)
+* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - Coming in 2020
 
 ## Design Patterns
 
