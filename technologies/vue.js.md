@@ -2,8 +2,7 @@
 
 ## Introduction
 
-[Vue.js](https://vuejs.org/) - The Progressive
-JavaScript Framework
+[Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
 
 ## Resources
 
@@ -12,6 +11,10 @@ JavaScript Framework
 * [Laravel, Vue and SPA](https://laracasts.com/series/laravel-vue-and-spas)
 * [Practical Vue Components](https://laracasts.com/series/practical-vue-components)
 * [Advanced Vue Component Design](https://learn.adamwathan.com/advanced-vue/building-controlled-components)
+
+### Linting
+
+* **Article:** Dec 2018 - [Lint Your Vue Code with the Vue ESLint Plugin](https://laravel-news.com/eslint-plugin-vue)
 
 ## Components
 
