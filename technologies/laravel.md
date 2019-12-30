@@ -49,6 +49,10 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
+### Dusk
+
+* **Article:** Dec 2018 - [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
+
 ### Eloquent
 
 * **Article:** Dec 2019 - [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
