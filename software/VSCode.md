@@ -49,6 +49,12 @@ I leverage the following extensions:
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
+### Exploratory
+
+I have not yet installed these but feel they are worth tracking:
+
+* [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
+
 ## Themes
 
 I haven't quite settled on what I feel is best in the realm of themes but the following two are worth a look:
