@@ -16,7 +16,7 @@
 		],
 		"description": "Constructor"
 	},
-	"laravel-accessor": {
+	"Laravel Accessor": {
 		"prefix": "accessor",
 		"body": [
 			"/**",
@@ -32,7 +32,7 @@
 		],
 		"description": "Laravel accessor"
 	},
-	"laravel-gate": {
+	"Laravel Gate": {
 		"prefix": "gate",
 		"body": [
 			"Gate::define('$1', function (\\$user) {",
@@ -41,7 +41,7 @@
 		],
 		"description": "Laravel Gate"
 	},
-	"laravel-mutator": {
+	"Laravel Mutator": {
 		"prefix": "mutator",
 		"body": [
 			"/**",
@@ -57,7 +57,7 @@
 		],
 		"description": "Laravel mutator"
 	},
-	"laravel-scope-query": {
+	"Laravel Scope Query": {
 		"prefix": "scope",
 		"body": [
 			"/**",
@@ -74,7 +74,7 @@
 		],
 		"description": "Laravel scope query"
 	},
-	"php-protected-method": {
+	"PHP Protected Method": {
 		"prefix": "pmet",
 		"body": [
 			"/**",
@@ -91,6 +91,23 @@
 		],
 		"description": "PHP protected method"
 	},
+    "PHP Public Method": {
+        "prefix": "met",
+        "body": [
+            "/**",
+            " * $2",
+            " *",
+            " * @param  $4",
+            " * @return $3",
+            " */",
+            "public function $1($5)",
+            "{",
+            "    $6",
+            "}",
+            ""
+        ],
+        "description": "PHP protected method"
+    },
 	"PHP Protected Member Variable": {
 		"prefix": "pvar",
 		"body": [
@@ -104,7 +121,7 @@
 		],
 		"description": "PHP private member variable"
 	},
-	"laravel-belongsTo-relationship": {
+	"Laravel BelongsTo Relationship": {
 		"prefix": "belongsto",
 		"body": [
 			"/**",
@@ -118,7 +135,7 @@
 		],
 		"description": "Laravel \"hasOne\" Relationship"
 	},
-	"laravel-hasMany-relationship": {
+	"Laravel HasMany Relationship": {
 		"prefix": "hasmany",
 		"body": [
 			"/**",
@@ -132,7 +149,7 @@
 		],
 		"description": "Laravel \"hasMany\" Relationship"
 	},
-	"laravel-hasOne-relationship": {
+	"Laravel HasOne Relationship": {
 		"prefix": "hasone",
 		"body": [
 			"/**",
@@ -146,7 +163,7 @@
 		],
 		"description": "Laravel \"hasOne\" Relationship"
 	},
-	"phpunit-test": {
+	"PHPUnit Test": {
 		"prefix": "test",
 		"body": [
 			"/** @test */",
@@ -170,7 +187,7 @@
 		],
 		"description": "DocBlock"
 	},
-	"laravel-model": {
+	"Laravel Model": {
 		"prefix": "model",
 		"body": [
 			"    /**",
@@ -213,14 +230,14 @@
 		],
 		"description": "Typical configuration for a Laravel model"
 	},
-	"laravel-foreign-key": {
+	"Laravel Foreign Key": {
 		"prefix": "fk",
 		"body": [
 			"\\$table->foreign('$1')->references('id')->on('$2')->onDelete('cascade')->onUpdate('cascade');"
 		],
 		"description": "Foreign key constraint"
 	},
-	"laravel-model-casts": {
+	"Laravel Model Casts": {
 		"prefix": "casts",
 		"body": [
 			"/**",
@@ -233,7 +250,7 @@
 		],
 		"description": "Laravel model $casts array"
 	},
-	"laravel-model-cache-key": {
+	"Laravel Model Cache Key": {
 		"prefix": "cachekey",
 		"body": [
 			"/**",
@@ -248,64 +265,7 @@
 		],
 		"description": "Laravel Model Cache Key"
 	},
-	"laravel-feature-test": {
-		"prefix": "testclass",
-		"body": [
-			"",
-			"namespace Tests\\Feature;",
-			"",
-			"use Illuminate\\Foundation\\Testing\\RefreshDatabase;",
-			"use Tests\\TestCase;",
-			"",
-			"class $1Test extends TestCase",
-			"{",
-			"    use RefreshDatabase;",
-			"",
-			"    /**",
-			"     * Setup the testing environment.",
-			"     *",
-			"     * @return void",
-			"     */",
-			"    public function setUp()",
-			"    {",
-			"        parent::setUp();",
-			"    }",
-			"",
-			"    /*",
-			"    |--------------------------------------------------------------------------",
-			"    | Resource:Index",
-			"    |--------------------------------------------------------------------------",
-			"    */",
-			"",
-			"    /** @test */",
-			"    public function it_shows_the_resource_index_to_authenticated_users()",
-			"    {",
-			"        // arrange",
-			"        \\$user = factory(\\App\\Models\\User::class)->create();",
-			"",
-			"        // act & assert",
-			"        \\$response = \\$this->actingAs(\\$user)->get(route('resource.index'));",
-			"        \\$response->assertStatus(200);",
-			"    }",
-			"",
-			"    /*",
-			"    |--------------------------------------------------------------------------",
-			"    | Guests",
-			"    |--------------------------------------------------------------------------",
-			"    */",
-			"",
-			"    /** @test */",
-			"    public function it_redirects_guests_to_the_login_page()",
-			"    {",
-			"        \\$response = \\$this->get(route('resource.index'));",
-			"        \\$response->assertRedirect(route('login'));",
-			"    }",
-			"}",
-			""
-		],
-		"description": "Laravel feature test"
-	},
-	"laravel-index-method": {
+	"Laravel Index Method": {
 		"prefix": "index",
 		"body": [
 			"    /**",
@@ -321,13 +281,6 @@
 		],
 		"description": "index() method for a Laravel controller"
 	},
-	"laravel-eloquent-dates-array": {
-		"prefix": "dates",
-		"body": [
-			"protected \\$dates = ['date_created', 'last_updated'];"
-		],
-		"description": "Laravel Eloquent dates array"
-	},
 	"Laravel Factory State": {
 		"prefix": "factorystate",
 		"body": [
@@ -339,53 +292,5 @@
 			""
 		],
 		"description": "Laravel Factory State"
-	},
-	"undefined": {
-		"body": [
-			"    /**",
-			"     * The custom name for the \"created_at\" column.",
-			"     *",
-			"     * @var string",
-			"     */",
-			"    const CREATED_AT = 'date_created';",
-			"",
-			"    /**",
-			"     * The custom name for the \"updated_at\" column.",
-			"     *",
-			"     * @var string",
-			"     */",
-			"    const UPDATED_AT = 'last_updated';",
-			"",
-			"    /**",
-			"     * The table associated with the model.",
-			"     *",
-			"     * @var string",
-			"     */",
-			"    protected $table = 'tech_radar_categories';",
-			"",
-			"    /**",
-			"     * The attributes that are not mass assignable.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected $guarded = ['id', 'date_created', 'last_updated'];",
-			"",
-			"    /**",
-			"     * The attributes that should be mutated to dates.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected $dates = ['date_created', 'last_updated'];",
-			"",
-			"    /**",
-			"     * The attributes that should be cast to native types.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected $casts = [",
-			"        'id' => 'integer',",
-			"        'display_order' => 'integer',",
-			"    ];"
-		]
 	}
 }
