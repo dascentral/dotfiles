@@ -145,7 +145,7 @@ Linting is enabled via a number of Node.js modules. The modules you want to inst
 ### Setup, Tips & Tricks
 
 * [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
-* [VS Code Tips & Tricks](https://github.com/Microsoft/vscode-tips-and-tricks) - by Microsoft
+* [VS Code Tips & Tricks](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md) - by Microsoft
 
 ### Code Formatting + Linting
 
