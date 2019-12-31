@@ -39,7 +39,6 @@ I leverage the extensions below.
 
 ### Laravel
 
-* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
 * [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 * [Laravel 5 Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 
@@ -52,7 +51,6 @@ I leverage the extensions below.
 
 * [Better PHPUnit](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
 * [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
-* [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
 
@@ -67,10 +65,12 @@ I leverage the extensions below.
 
 ### Exploratory
 
-I have not yet installed these but feel they are worth tracking:
+I have not yet installed these extensions (or they are disabled) but I feel they are worth tracking:
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/itemdetails?itemName=EditorConfig.EditorConfig)
+* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
 * [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
+* [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Themes
