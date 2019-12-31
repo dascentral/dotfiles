@@ -96,6 +96,7 @@ From the list above, the following items promote formatting of code:
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/itemdetails?itemName=EditorConfig.EditorConfig)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 
 More to come on how I format my code. However, see resources below for many articles on how to set this up.
 
