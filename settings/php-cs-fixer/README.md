@@ -12,5 +12,4 @@ The `.php_cs` file within this folder represents the configuration file that I u
 
 In an effort to keep settings consistent across computers, I maintain a copy of this file within cloud-based storage and configure my IDE to reference the cloud location.
 
-
 However, the file here still serves as a representation of the ruleset that I prefer to use.
