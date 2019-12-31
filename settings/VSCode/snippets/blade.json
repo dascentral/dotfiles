@@ -1,0 +1,153 @@
+{
+	"New Master Page": {
+		"prefix": "master",
+		"body": [
+			"@extends('layouts.master')",
+			"",
+			"@section('title', '$1')",
+			"",
+			"@section('page-header')",
+			"    <h1>$2</h1>",
+			"@endsection",
+			"",
+			"@section('content')",
+			"    $3",
+			"@endsection",
+			""
+		],
+		"description": "New page leveraging the \"master\" layout"
+	},
+	"Submit button": {
+		"prefix": "submit",
+		"body": [
+			"<div class=\"form-group\">",
+			"    {{ Form::submit('$1', ['class' => 'btn btn-primary']) }}",
+			"</div>"
+		],
+		"description": "Form submit button"
+	},
+	"Bootstrap Hover Table": {
+		"prefix": "hover",
+		"body": [
+			"<table class=\"table table-hover\">",
+			"    <thead>",
+			"        <tr>",
+			"            <th>$1</th>",
+			"            <th>$2</th>",
+			"            <th>$3</th>",
+			"        </tr>",
+			"    </thead>",
+			"    <tbody>",
+			"        @foreach($4 as \\$item)",
+			"            <tr>",
+			"                <td>{{ \\$item->$1 }}</td>",
+			"                <td>{{ \\$item->$2 }}</td>",
+			"                <td>{{ \\$item->$3 }}</td>",
+			"            </tr>",
+			"        @endforeach",
+			"    </tbody>",
+			"</table>"
+		],
+		"description": "Table with highlight on hover for table rows"
+	},
+	"Bootstrap Striped Table": {
+		"prefix": "striped",
+		"body": [
+			"<table class=\"table table-striped\">",
+			"    <thead>",
+			"        <tr>",
+			"            <th>$1</th>",
+			"            <th>$2</th>",
+			"            <th>$3</th>",
+			"        </tr>",
+			"    </thead>",
+			"    <tbody>",
+			"        @foreach($4 as \\$item)",
+			"            <tr>",
+			"                <td>{{ \\$item->$1 }}</td>",
+			"                <td>{{ \\$item->$2 }}</td>",
+			"                <td>{{ \\$item->$3 }}</td>",
+			"            </tr>",
+			"        @endforeach",
+			"    </tbody>",
+			"</table>"
+		],
+		"description": "Table with striped rows"
+	},
+	"Bootstrap Clickable Table": {
+		"prefix": "clickable",
+		"body": [
+			"<table class=\"table table-hover clickable\">",
+			"    <thead>",
+			"        <tr>",
+			"            <th>Name</th>",
+			"        </tr>",
+			"    </thead>",
+			"    <tbody>",
+			"        @foreach ($array as \\$item)",
+			"            <tr data-row-url=\"{{ route('ROUTE.show', \\$item->id) }}\">",
+			"                <td>{{ \\$item->name }}</td>",
+			"            </tr>",
+			"        @endforeach",
+			"    </tbody>",
+			"</table>"
+		],
+		"description": "Clickable table with links to detail page for resources"
+	},
+	"HTML Module": {
+		"prefix": "mod",
+		"body": [
+			"<section>",
+			"    <h2>$1</h2>",
+			"</section>"
+		],
+		"description": "A section with a placeholder H2"
+	},
+	"Bootstrap 8/4 Split": {
+		"prefix": "split",
+		"body": [
+			"<div class=\"row\">",
+			"    <div class=\"col-md-8\">",
+			"        $1",
+			"    </div>",
+			"    <div class=\"col-md-4\">",
+			"        ",
+			"    </div>",
+			"</div>",
+			""
+		],
+		"description": "Two column Bootstrap layout (8/4 split)"
+	},
+	"spatie/laravel-html:form": {
+		"prefix": "spf",
+		"body": [
+			"{{ html()->form('$1', route('$2'))->open() }}",
+			"    <div class=\"form-control\">",
+			"        <input type=\"submit\" value=\"$3\" class=\"btn btn-primary\" />",
+			"    </div>",
+			"{{ html()->form()->close() }}"
+		],
+		"description": "Base form via spatie/laravel-html"
+	},
+	"spatie/laravel-html:input": {
+		"prefix": "spinput",
+		"body": [
+			"{{ html()->input('$1', '$2')->class(['form-control'])->attributes(['placeholder' => '$3']) }}"
+		],
+		"description": "Text input for spatie/laravel-html"
+	},
+	"spatie/laravel-html:password": {
+		"prefix": "sppassword",
+		"body": [
+			"{{ html()->password('$1')->class(['form-control'])->attributes(['placeholder' => 'password']) }}"
+		],
+		"description": "Password input for spatie/laravel-html"
+	},
+	"spatie/laravel-html:submit": {
+		"prefix": "spsubmit",
+		"body": [
+			"{{ html()->submit('$1')->class(['btn', 'btn-primary']) }}"
+		],
+		"description": "Submit button for spatie/laravel-html"
+	}
+}

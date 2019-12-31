@@ -1,0 +1,73 @@
+{
+  "advancedNewFile.convenienceOptions": [
+    "current",
+    "last",
+    "root"
+  ],
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
+  "editor.lineHeight": 25,
+  "editor.renderFinalNewline": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabCompletion": "on",
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.codeLens.enabled": false,
+  "importCost.typescriptExtensions": [
+    "\\.vue$"
+  ],
+  "markdown.extension.orderedList.autoRenumber": false,
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "namespaceResolver.sortAlphabetically": true,
+  "php.suggest.basic": false,
+  "php-cs-fixer.config": "~/dotfiles/settings/php-cs-fixer/.php_cs",
+  "php-cs-fixer.formatHtml": true,
+  "php-cs-fixer.lastDownload": 1577364139038,
+  "php-cs-fixer.onsave": true,
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact",
+    "php",
+    "vue"
+  ],
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.rendererType": "dom",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "window.zoomLevel": 0,
+  "window.restoreWindows": "all",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Slime",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  }
+}
