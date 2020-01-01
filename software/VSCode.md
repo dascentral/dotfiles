@@ -39,11 +39,11 @@ This topic seems to be wildly complex. The following articles outline a number o
 
 ## Settings Synchronization
 
-I use Visual Studio Code across multiple computers but I want to make sure the setup is consistent across each one.
+I use Visual Studio Code across multiple computers, and I want to make sure the setup is consistent across each one.
 
 I store user settings, key bindings, and code snippets within this repository and then modify each installation to reference the cloned repository location.
 
-When setting up a new system, the following will essentially remove the default, local settings and link my Visual Studio Code installation to the version within this repository.
+When setting up a new system, the following will remove the default, local settings and link my Visual Studio Code installation to the settings within this repository.
 
 ```bash
 cd ~/Library/Application\ Support/Code/User
