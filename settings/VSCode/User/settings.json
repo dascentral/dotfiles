@@ -17,7 +17,6 @@
   "editor.snippetSuggestions": "bottom",
   "editor.tabCompletion": "on",
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
