@@ -55,6 +55,7 @@
   "search.useIgnoreFiles": false,
   "terminal.integrated.rendererType": "dom",
   "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.validation.template": false,
   "window.openFilesInNewWindow": "on",
   "window.restoreWindows": "all",
   "window.zoomLevel": 0,
