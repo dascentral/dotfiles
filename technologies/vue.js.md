@@ -22,6 +22,14 @@ Third-party components.
 
 * [vue-select](https://vue-select.org/) - Everything you wish the HTML `<select>` element could do, wrapped up into a lightweight, extensible Vue component.
 
+## Form Validation
+
+### Vuelidate
+
+[Vuelidate](https://github.com/vuelidate/vuelidate) is a simple, lightweight model-based validation for Vue.js. [https://vuelidate.netlify.com](https://vuelidate.netlify.com)
+
+* **Article:** Jan 2018 - [Vue.js Form Validation with Vuelidate](https://markus.oberlehner.net/blog/vue-form-validation-with-vuelidate/)
+
 ## Modals
 
 * **Tutorial:** [Building a Modal with Vue and Tailwind](https://laravel-news.com/building-a-modal-with-vue-and-tailwind)
