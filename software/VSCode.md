@@ -132,3 +132,31 @@ From the list above, the following items promote formatting of code:
 * [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 
 More to come on how I format my code. However, see resources below for many articles on how to set this up.
+
+## Troubleshooting
+
+### Terminal + Node.js + NVM
+
+I use [NVM](https://github.com/creationix/nvm/) to manage local versions of Node.js. As a resultl, I was (until just recently) receiving the following error message within my VS Code terminal whenever it would boot up.
+
+```bash
+nvm is not compatible with the npm config "prefix" option: currently set to "/usr/local"
+Run `npm config delete prefix` or `nvm use --delete-prefix vX.X.X --silent` to unset it
+```
+
+Microsoft's [documentation for the integrated terminal](https://github.com/Microsoft/vscode-docs/blob/master/docs/editor/integrated-terminal.md#why-is-nvm-complaining-about-a-prefix-option-when-the-integrated-terminal-is-launched) provided the fix. Feel free to read the full details there but the shorthand is here.
+
+From within the VS Code terminal, identify the current location of `npm` by issuing a `which npm` command. Since I likely installed `npm` globally before installing NVM, mine was found within `/usr/local/bin`.
+
+Use that path to identify the path to the old `node_modules` folder.
+
+```bash
+ls -la /usr/local/bin | grep "np[mx]"
+```
+
+From there, removing the files and relaunching the VS Code terminal should fix the issue:
+
+```bash
+rm -R /usr/local/bin/npm /usr/local/lib/node_modules/npm/bin/npm-cli.js
+rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js
+```
