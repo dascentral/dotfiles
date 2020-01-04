@@ -293,7 +293,7 @@
 		],
 		"description": "Laravel Factory State"
 	},
-	"Eloquent guarded attribute": {
+	"Laravel Eloquent guarded attribute": {
 		"prefix": "guarded",
 		"body": [
 			"protected \\$guarded = ['id', 'date_created', 'last_updated'];"
