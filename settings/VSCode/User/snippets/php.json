@@ -301,7 +301,8 @@
 			" *",
 			" * @var array",
 			" */",
-			"protected \\$guarded = ['id', 'date_created', 'last_updated'];"
+			"protected \\$guarded = ['id', 'date_created', 'last_updated'];",
+			""
 		],
 		"description": "Eloquent guarded attribute"
 	}
