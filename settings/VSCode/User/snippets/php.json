@@ -296,6 +296,11 @@
 	"Laravel Eloquent guarded attribute": {
 		"prefix": "guarded",
 		"body": [
+			"/**",
+			" * The attributes that are mass assignable.",
+			" *",
+			" * @var array",
+			" */",
 			"protected \\$guarded = ['id', 'date_created', 'last_updated'];"
 		],
 		"description": "Eloquent guarded attribute"
