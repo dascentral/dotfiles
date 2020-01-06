@@ -91,23 +91,23 @@
 		],
 		"description": "PHP protected method"
 	},
-    "PHP Public Method": {
-        "prefix": "met",
-        "body": [
-            "/**",
-            " * $2",
-            " *",
-            " * @param  $4",
-            " * @return $3",
-            " */",
-            "public function $1($5)",
-            "{",
-            "    $6",
-            "}",
-            ""
-        ],
-        "description": "PHP protected method"
-    },
+	"PHP Public Method": {
+		"prefix": "met",
+		"body": [
+			"/**",
+			" * $2",
+			" *",
+			" * @param  $4",
+			" * @return $3",
+			" */",
+			"public function $1($5)",
+			"{",
+			"    $6",
+			"}",
+			""
+		],
+		"description": "PHP protected method"
+	},
 	"PHP Protected Member Variable": {
 		"prefix": "pvar",
 		"body": [
