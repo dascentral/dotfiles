@@ -284,7 +284,7 @@
 	"Laravel Factory State": {
 		"prefix": "factorystate",
 		"body": [
-			"\\$factory->state(App\\Models\\ $1::class, '$2', function (\\$faker) {",
+			"\\$factory->state(App\\Models\\$1::class, '$2', function (\\$faker) {",
 			"    return [",
 			"        $3",
 			"    ];",
@@ -292,5 +292,18 @@
 			""
 		],
 		"description": "Laravel Factory State"
+	},
+	"Laravel Eloquent guarded attribute": {
+		"prefix": "guarded",
+		"body": [
+			"/**",
+			" * The attributes that are NOT mass assignable.",
+			" *",
+			" * @var array",
+			" */",
+			"protected \\$guarded = ['id', 'date_created', 'last_updated'];",
+			""
+		],
+		"description": "Eloquent guarded attribute"
 	}
 }
