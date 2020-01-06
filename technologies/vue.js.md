@@ -33,3 +33,12 @@ Third-party components.
 ## Modals
 
 * **Tutorial:** [Building a Modal with Vue and Tailwind](https://laravel-news.com/building-a-modal-with-vue-and-tailwind)
+
+## Loaders
+
+I have yet to identify a strategy for implementing loaders that I find scalable and maintainable. Here are a few links worth reviewing:
+
+* **Article:** April 2018 - [Add Loading Indicators to Your Vue.js Application](https://scotch.io/tutorials/add-loading-indicators-to-your-vuejs-application)
+* **Resource:** [Loading Animations made with Vue.js](https://madewithvuejs.com/c/loading-animations)
+* **JS Fiddle:** [Vue loading overlay demo](https://jsfiddle.net/ankurk91/w8y8k5wo/)
+* **NPM Package:** [vue-loading-overlay](https://www.npmjs.com/package/vue-loading-overlay)
