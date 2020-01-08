@@ -4,6 +4,7 @@
     "last",
     "root"
   ],
+  "blade.format.enable": true,
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   "editor.codeActionsOnSave": {
