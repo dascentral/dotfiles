@@ -282,7 +282,7 @@
 		"description": "index() method for a Laravel controller"
 	},
 	"Laravel Factory State": {
-		"prefix": "factorystate",
+		"prefix": "state",
 		"body": [
 			"\\$factory->state(App\\Models\\$1::class, '$2', function (\\$faker) {",
 			"    return [",
