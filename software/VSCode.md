@@ -106,6 +106,11 @@ I have not yet installed these extensions (or they are disabled) but I feel they
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
+### Themes
+
+* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+* [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
+
 ## Themes
 
 I haven't quite settled on what I feel is best in the realm of themes but the following two are worth a look:
