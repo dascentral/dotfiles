@@ -96,6 +96,11 @@ ln -s ~/dotfiles/settings/VSCode/User/snippets snippets
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
+### Themes
+
+* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+* [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
+
 ### Exploratory
 
 I have not yet installed these extensions (or they are disabled) but I feel they are worth tracking:
@@ -105,11 +110,7 @@ I have not yet installed these extensions (or they are disabled) but I feel they
 * [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-### Themes
-
-* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
-* [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
+* [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 
 ## Themes
 
