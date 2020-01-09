@@ -27,6 +27,14 @@ The following articles and repositories may provide inspiration as you setup you
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
+### Uses
+
+The "uses" notion is new but and not quite the same as "dotfiles" but here are a few I'm jotting down briefly to come back later and explore.
+
+* [Wes Bos](https://wesbos.com/uses)
+* [Jeffrey Way](https://laracasts.com/blog/laracasts-uses)
+* [Nuno Maduro](https://nunomaduro.com/uses/)
+
 ## Software
 
 The repository contains instructions for installation of all of the software packages and applications that I use on my local machine.
