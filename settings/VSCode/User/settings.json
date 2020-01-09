@@ -61,7 +61,7 @@
   "window.restoreWindows": "all",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Slime",
+  "workbench.colorTheme": "Nord",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
