@@ -94,7 +94,7 @@ alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
 alias t='vendor/bin/phpunit --stop-on-failure tests/Feature'
 alias tu='vendor/bin/phpunit --stop-on-failure tests/Unit'
-alias tf='vendor/bin/phpunit --stop-on-failure'
+alias unit='vendor/bin/phpunit'
 
 
 #------------------------------------------------------------------------------------------
