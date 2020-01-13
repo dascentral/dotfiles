@@ -92,7 +92,9 @@ alias mfs='php artisan migrate:fresh --seed'
 alias build='composer install && npm install && npm run dev'
 alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
-alias unit='vendor/bin/phpunit'
+alias t='vendor/bin/phpunit'
+alias tu='vendor/bin/phpunit tests/Unit'
+alias tf='vendor/bin/phpunit tests/Unit'
 
 
 #------------------------------------------------------------------------------------------
