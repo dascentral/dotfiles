@@ -98,8 +98,11 @@ ln -s ~/dotfiles/settings/VSCode/User/snippets snippets
 
 ### Themes
 
-* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+* [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) - My current favorite
 * [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
+
+`Command-K + Command-T` will pop the theme selection window.
 
 ### Exploratory
 
@@ -111,15 +114,6 @@ I have not yet installed these extensions (or they are disabled) but I feel they
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
-
-## Themes
-
-I haven't quite settled on what I feel is best in the realm of themes but the following two are worth a look:
-
-* Material Theme
-* Slime Theme
-
-I currently have the Slime theme enabled. `Command-K + Command-T` will pop the theme selection window.
 
 ## Code Formatting
 
