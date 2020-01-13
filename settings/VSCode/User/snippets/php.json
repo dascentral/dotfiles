@@ -268,15 +268,15 @@
 	"Laravel Index Method": {
 		"prefix": "index",
 		"body": [
-			"    /**",
-			"     * Display a listing of the resource.",
-			"     *",
-			"     * @return \\Illuminate\\Http\\Response",
-			"     */",
-			"    public function index()",
-			"    {",
-			"        //",
-			"    }",
+			"/**",
+			" * Display a listing of the resource.",
+			" *",
+			" * @return \\Illuminate\\Http\\Response",
+			" */",
+			"public function index()",
+			"{",
+			"    //",
+			"}",
 			""
 		],
 		"description": "index() method for a Laravel controller"
