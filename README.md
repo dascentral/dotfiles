@@ -2,11 +2,9 @@
 
 ## Introduction
 
-dotfiles is a series of customizations that help me personalize my system.
+dotfiles is a series of customizations that help me personalize and maintain my system.
 
-The notion of creating such a repo is not my own. Initially I forked a repo from [Zack Holman](https://github.com/holman/dotfiles) but quickly realized I did not understand much of what was going on. So instead of simply copying his work, I decided to start from scratch and slowly add functionality so that I could better understand what Zack or others have done.
-
-No doubt many of the conventions leveraged were inspired by or copied directly from Zack's repo. Credit where credit is due.
+I was introduced to the concept by [Zack Holman](https://github.com/holman/dotfiles). Initially I forked his repo for my own use but quickly realized I did not understand much of what was going on. So, instead of simply copying his work, I decided to start from scratch and slowly add functionality so that I could better understand what Zack or others have done.
 
 If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
@@ -25,11 +23,12 @@ The following articles and repositories may provide inspiration as you setup you
 * [dotfiles.github.io](https://dotfiles.github.io/) - Your unofficial guide to dotfiles on GitHub.
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) - Great for mac
 * [Zach Holman](https://github.com/holman/dotfiles)
 
 ### Uses
 
-The "uses" notion is new but and not quite the same as "dotfiles" but here are a few I'm jotting down briefly to come back later and explore.
+The "uses" notion is new (to me) and not quite the same as "dotfiles" but here are a few I'm jotting down briefly to come back later and explore.
 
 * [Wes Bos](https://wesbos.com/uses)
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses)
