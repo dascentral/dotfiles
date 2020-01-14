@@ -89,13 +89,13 @@ alias cda='composer dump-autoload'
 alias cll='cat storage/logs/laravel.log'
 alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
+alias ft='vendor/bin/phpunit --stop-on-failure tests/Feature'
 alias mfs='php artisan migrate:fresh --seed'
 alias build='composer install && npm install && npm run dev'
 alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
-alias t='vendor/bin/phpunit --stop-on-failure tests/Feature'
-alias tu='vendor/bin/phpunit --stop-on-failure tests/Unit'
 alias unit='vendor/bin/phpunit'
+alias ut='vendor/bin/phpunit --stop-on-failure tests/Unit'
 
 
 #------------------------------------------------------------------------------------------
