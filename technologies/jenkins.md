@@ -6,7 +6,7 @@
 
 ## Ubuntu
 
-I personally run Jenkins exclusively on Ubuntu-based Linux servers. All information below is for that platform.
+I typically run Jenkins on Ubuntu-based Linux servers. All information below is for that platform.
 
 ## Starting/Stopping/Restarting via CLI
 
@@ -43,7 +43,11 @@ project = PROJECTNAME AND status = Resolved
 
 ### Store Integration Token
 
-First up, we'll want to make sure we have securely stored the Slack integration token within the Jenkins installation. This token enables notifications from Jenkins into Slack. You will likely need to have a Slack admin grab this value for you. You can pull it from the specific Jenkins integration here: https://akqa.slack.com/services/B8RJ6M1BP. One you have that value...
+First up, we need to securely stored the Slack integration token within the Jenkins installation. This token enables notifications from Jenkins into Slack. A Slack administrator will need to grab this value for you from the specific Jenkins integration that you would like to leverage.
+
+Within your Slack admin area, click "Browse Apps" and search for "Jenkins CI". Create a new configuration (if necessary) or edit the relevant configuration to grab the relevant `Token` value.
+
+Once you have that value:
 
 * Click "Credentials" in the main navigation
 * Access the "global" domain. The UX here is abysmal. Click anywhere you see "(global)" on the page.
@@ -59,8 +63,8 @@ You may leave the "Description" field blank.
 
 * If not yet installed, add the "Slack Notification" module within the Jenkins "Plugin Manager"
 * Head on over to "Manage Jenkins" > "Configure System"  and look for "Global Slack Notifier Settings"
-* Set "Base URL" to "https://akqa.slack.com/services/hooks/jenkins-ci/"
-* Set "Team Subdomain" to "akqa"
+* Set "Base URL" to [https://ORG.slack.com/services/hooks/jenkins-ci/](https://ORG.slack.com/services/hooks/jenkins-ci/) where `ORG` is your organization prefix
+* Set "Team Subdomain" to your organization's prefix
 * Set "Integration Token Credential ID" to "slack-notifications-token"
 
 The remaining fields are optional and can be skipped. If you're feeling it, click "Test Connection" to see if that worked correctly
