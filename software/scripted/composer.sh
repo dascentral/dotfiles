@@ -60,6 +60,7 @@ fi
 # PHP Code Sniffer
 name="PHP Code Sniffer"
 check="/Users/$USER/.composer/vendor/squizlabs/php_codesniffer"
+url="https://github.com/squizlabs/PHP_CodeSniffer"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name.\033[0m\n"
     composer global require "squizlabs/php_codesniffer=*"
@@ -70,6 +71,7 @@ fi
 # PHP CS Fixer
 name="PHP CS Fixer"
 check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
+url="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name.\033[0m\n"
     composer global require friendsofphp/php-cs-fixer
