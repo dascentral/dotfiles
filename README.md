@@ -9,7 +9,7 @@ I was introduced to the concept by [Zack Holman](https://github.com/holman/dotfi
 If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
-## Resources & Inspiration
+## Inspiration & Resources
 
 The following articles and repositories may provide inspiration as you setup your own dotfiles repository.
 
@@ -28,7 +28,7 @@ The following articles and repositories may provide inspiration as you setup you
 
 ### Uses
 
-The "uses" notion is new (to me) and not quite the same as "dotfiles" but here are a few I'm jotting down briefly to come back later and explore.
+The "uses" notion is new (to me) and not quite the same as "dotfiles" but here are a few I'm jotting down briefly so that I can come back later and explore in more detail.
 
 * [Wes Bos](https://wesbos.com/uses)
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses)
@@ -58,21 +58,25 @@ The following applications support scripted installation of my most frequently u
 Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have been installed, the `software/install.sh` script will automatically install the following items:
 
 * [ack](http://beyondgrep.com/install/)
-* [Aerial](https://github.com/JohnCoates/Aerial)
+* [Aerial Screen Saver](https://github.com/JohnCoates/Aerial)
 * [Bartender](https://www.macbartender.com/)
 * [Composer Global Require](https://github.com/consolidation/cgr)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [GnuPG](https://www.gnupg.org/)
+* [Laravel Installer](https://laravel.com/docs/master)
+* [Mac App Store CLI](https://github.com/mas-cli/mas)
 * [MacDown](https://macdown.uranusjr.com)
 * [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+* [Postman](https://www.getpostman.com)
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 * [Redis](https://redis.io/)
+* [Rocket](https://matthewpalmer.net/rocket/)
+* [Spotify](https://www.spotify.com/us/)
 * [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
 * [Sublime Text](software/Sublime.md)
 * [TablePlus](https://www.tableplus.io)
 * [Tower](https://www.git-tower.com/)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [WhatsApp](https://www.whatsapp.com/download/)
 
 The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I try to run it on a regular basis.
