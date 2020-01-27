@@ -23,6 +23,7 @@ I have not personally explored these but they seem well regarded within the comm
 * [Laravel Secrets](https://laravelsecrets.com/) - Coming in 2020
 * [Eloquent by Example](https://eloquentbyexample.com)
 * [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - Coming in 2020
+* [Single-Page Laravel](https://singlepagelaravel.com/)
 
 ## Design Patterns
 
