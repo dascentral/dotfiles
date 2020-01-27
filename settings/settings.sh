@@ -255,10 +255,10 @@ defaults write com.microsoft.Outlook NSRequiresAquaSystemAppearance -bool yes
 #===================================================================================
 
 # Setup folder for package settings
-if [ ! -e "/Users/${USER}/.sublime" ]; then
-    mkdir /Users/${USER}/.sublime
-fi
+#if [ ! -e "/Users/${USER}/.sublime" ]; then
+#    mkdir /Users/${USER}/.sublime
+#fi
 
 # Copy settings into place
-cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
-sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
+#cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
+#sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
