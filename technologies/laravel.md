@@ -215,4 +215,5 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
 * [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
 * [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
+* [Laravel Mailbox](https://laravel-news.com/laravel-mailbox) - Easily handle incoming email
 
