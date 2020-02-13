@@ -102,6 +102,8 @@ Form requests are custom request classes that contain validation logic.
 * **Article:** Aug 2019 - [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
 * **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
 * **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
+* **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
+* **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) - A split of the spatie/laravel-mailcoach tests
 
 ### Validation
 
@@ -209,7 +211,6 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 
 * [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
 * [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
-* [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
