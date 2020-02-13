@@ -148,6 +148,7 @@ Form requests are custom request classes that contain validation logic.
 
 ### Docker
 
+* **Tutorial:** Feb 2020 - [How To Containerize a Laravel Application for Development with Docker Compose on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-containerize-a-laravel-application-for-development-with-docker-compose-on-ubuntu-18-04)
 * **Article:** May 2019 - [The beauty of Docker for local Laravel development](https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0)
 * **Article:** Nov 2018 - [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
 * **Article:** Aug 2018 - [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
