@@ -11,7 +11,6 @@
   },
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 5000,
   "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
   "editor.snippetSuggestions": "bottom",
