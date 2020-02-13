@@ -43,12 +43,6 @@
   "php-cs-fixer.formatHtml": true,
   "php-cs-fixer.lastDownload": 1577364139038,
   "php-cs-fixer.onsave": true,
-  "prettier.disableLanguages": [
-    "javascript",
-    "javascriptreact",
-    "php",
-    "vue"
-  ],
   "search.exclude": {
     "**/node_modules": false
   },
