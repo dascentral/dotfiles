@@ -11,6 +11,7 @@
   },
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
   "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
   "editor.snippetSuggestions": "bottom",
@@ -41,7 +42,7 @@
   "php-cs-fixer.config": "~/dotfiles/settings/php-cs-fixer/.php_cs",
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.formatHtml": true,
-  "php-cs-fixer.lastDownload": 1581721781954,
+  "php-cs-fixer.lastDownload": 1582641291343,
   "php-cs-fixer.onsave": true,
   "search.exclude": {
     "**/node_modules": false
@@ -70,6 +71,5 @@
   },
   "[vue]": {
     "editor.formatOnSave": false
-  },
-  "editor.formatOnSaveTimeout": 5000
+  }
 }
