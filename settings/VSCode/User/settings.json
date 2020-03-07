@@ -42,7 +42,7 @@
   "php-cs-fixer.config": "~/dotfiles/settings/php-cs-fixer/.php_cs",
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.formatHtml": true,
-  "php-cs-fixer.lastDownload": 1582641291343,
+  "php-cs-fixer.lastDownload": 1583511304036,
   "php-cs-fixer.onsave": true,
   "search.exclude": {
     "**/node_modules": false
