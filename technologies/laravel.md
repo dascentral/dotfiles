@@ -102,6 +102,7 @@ Form requests are custom request classes that contain validation logic.
 * **Article:** Aug 2019 - [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
 * **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
 * **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
+* **Tweet:** Mar 2020 - [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) - Discusses how to improve test performance related to database operations.
 * **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
 * **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) - A split of the spatie/laravel-mailcoach tests
 
