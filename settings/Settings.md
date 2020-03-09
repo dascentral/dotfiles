@@ -58,7 +58,7 @@ From within Finder's preferences pane:
 ### Mission Control
 
 * Uncheck "Automatically rearrange Spaces based on most recent use"
-* Hot Corners > Assign "Start Screen Saver" to upper right. Clear the rest.
+* Hot Corners > Assign "Start Screen Saver" to upper right and upper left. Clear the rest.
 
 ### Mouse
 
