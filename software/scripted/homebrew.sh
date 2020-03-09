@@ -99,17 +99,6 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# MacDown
-name="MacDown"
-check="/Applications/MacDown.app"
-url="https://macdown.uranusjr.com/"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    brew cask install macdown
-    printf "\n\n"
-fi
-
-
 # Postman
 name="Postman"
 check="/Applications/Postman.app"
