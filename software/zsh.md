@@ -19,10 +19,7 @@ I typically make a few tweaks to the default `~/.zshrc`.
 I include an aliases file found within this repo for a number of shortcuts. It is enabled via the following:
 
 ```bash
-printf "\n" >> ~/.zshrc
-printf "# Source Aliases\n" >> ~/.zshrc
-printf "source ~/.aliases\n" >> ~/.zshrc
-printf "\n" >> ~/.zshrc
+printf "\n# Source Aliases\nsource ~/.aliases\n\n" >> ~/.zshrc
 source ~/.zshrc
 ```
 
