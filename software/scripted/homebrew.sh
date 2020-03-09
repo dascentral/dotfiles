@@ -165,7 +165,7 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# Sublime Text
+# Spotify
 name="Spotify"
 check="/Applications/Spotify.app"
 url="https://www.spotify.com/us/"
