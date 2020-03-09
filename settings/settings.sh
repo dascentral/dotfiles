@@ -92,6 +92,9 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Enable Mouse Secondary click
+# Source: https://apple.stackexchange.com/questions/118585/is-it-possible-to-enable-mouse-right-click-via-terminal
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
 
 #===================================================================================
 # Screen
