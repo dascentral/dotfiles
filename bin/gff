@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#======================================================================================
+# gff - GitLab Feature Finish
+#======================================================================================
+#
+# DESCRIPTION
+# Uses the HubFlow tools to complete a feature named after the relevant GitLab issue.
+#
+#======================================================================================
+
+if [ $# != 1 ]; then
+    printf "\033[1;37mUsage: gfs [ISSUE_ID]\033[0m\n"
+else
+    git hf feature finish issue-$1
+fi
