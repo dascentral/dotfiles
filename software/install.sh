@@ -391,3 +391,18 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Visual Studio Code
+app="visual-studio-code"
+if [ ! -e /Applications/Visual\ Studio\ Code.app ]; then
+    printf "\033[1;37mInstalling Visual Studio Code.\033[0m\n"
+    brew cask install $app
+	#rm ~/Library/Application\ Support/Code/User/settings.json
+	#rm ~/Library/Application\ Support/Code/User/keybindings.json
+	#rm -rf ~/Library/Application\ Support/Code/User/snippets
+	#ln -s ~/dotfiles/settings/VSCode/User/settings.json ~/Library/Application\ Support/Code/User/settings.json
+	#ln -s ~/dotfiles/settings/VSCode/User/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+	#ln -s ~/dotfiles/settings/VSCode/User/snippets ~/Library/Application\ Support/Code/User/snippets
+    printf "\n\n"
+fi
+
+
