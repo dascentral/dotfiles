@@ -115,7 +115,7 @@ printf "\n"
 app="ack"
 name="ack"
 check="/usr/local/bin/ack"
-url="http://beyondgrep.com/install/"
+url="https://beyondgrep.com/install"
 if [ ! -e $check ]; then
     printf "\033[1;37mInstalling $name - $url.\033[0m\n"
     brew install $app
@@ -127,7 +127,7 @@ fi
 app="alfred"
 name="Alfred 4"
 check="/Applications/Alfred 4.app"
-url="https://www.alfredapp.com/"
+url="https://www.alfredapp.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url.\033[0m\n"
     brew cask install $app
@@ -175,7 +175,7 @@ fi
 app="firefox"
 name="Firefox"
 check="/Applications/Firefox.app"
-url="https://www.mozilla.org/en-US/exp/firefox/new/"
+url="https://www.mozilla.org/en-US/exp/firefox/new"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -186,7 +186,7 @@ fi
 # GnuPG
 name="GnuPG"
 check="/usr/local/bin/gpg"
-url="https://gnupg.org/"
+url="https://gnupg.org"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url.\033[0m\n"
     brew install gnupg gnupg2
@@ -198,7 +198,7 @@ fi
 app="google-backup-and-sync"
 name="Google Backup and Sync"
 check="/Applications/Backup and Sync.app"
-url="https://www.google.com/drive/download/backup-and-sync/"
+url="https://www.google.com/drive/download/backup-and-sync"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -222,7 +222,7 @@ fi
 app="iterm2"
 name="iTerm2"
 check="/Applications/iTerm.app"
-url="https://www.iterm2.com/"
+url="https://www.iterm2.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
 
@@ -258,7 +258,7 @@ fi
 app="macdown"
 name="MacDown"
 check="/Applications/MacDown.app"
-url="https://macdown.uranusjr.com/"
+url="https://macdown.uranusjr.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -306,7 +306,7 @@ fi
 app="rocket"
 name="Rocket"
 check="/Applications/Rocket.app"
-url="https://matthewpalmer.net/rocket/"
+url="https://matthewpalmer.net/rocket"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -330,7 +330,7 @@ fi
 app="spectacle"
 name="Spectacle"
 check="/Applications/Spectacle.app"
-url="https://www.spectacleapp.com/"
+url="https://www.spectacleapp.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -342,7 +342,7 @@ fi
 app="spotify"
 name="Spotify"
 check="/Applications/Spotify.app"
-url="https://www.spotify.com/us/"
+url="https://www.spotify.com/us"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -354,7 +354,7 @@ fi
 app="sublime-text"
 name="Sublime Text"
 check="/Applications/Sublime Text.app"
-url="https://www.sublimetext.com/"
+url="https://www.sublimetext.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
@@ -402,7 +402,7 @@ fi
 app="visual-studio-code"
 name="Visual Studio Code"
 check="/Applications/Visual Studio Code.app"
-url="https://code.visualstudio.com/"
+url="https://code.visualstudio.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
