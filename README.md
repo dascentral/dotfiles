@@ -48,27 +48,42 @@ Scripted installation of those applications is available via the setup script:
 
 Once [Composer](software/composer.md) and [Homebrew](software/homebrew.md) have been installed, the `software/install.sh` script will automate installation of the following items:
 
+#### Composer
+
+* [consolidation/cgr](https://github.com/consolidation/cgr)
+* [dascentral/hubflow-release](https://packagist.org/packages/dascentral/hubflow-release)
+* [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+* [laravel/installer](https://laravel.com/docs/master)
+* [squizlabs/php_codesniffer=*](https://github.com/squizlabs/PHP_CodeSniffer)
+
+#### Homebrew
+
 * [ack](http://beyondgrep.com/install/)
-* [Aerial Screen Saver](https://github.com/JohnCoates/Aerial)
-* [Bartender](https://www.macbartender.com/)
-* [Composer Global Require](https://github.com/consolidation/cgr)
+* [Alfred 4](https://www.alfredapp.com/)
+* [Aerial Screen Saver](com/JohnCoates/Aerial)
+* [Bartender](www.macbartender.com)
 * [Docker](https://www.docker.com/products/docker-desktop)
-* [GnuPG](https://www.gnupg.org/)
-* [Laravel Installer](https://laravel.com/docs/master)
-* [Mac App Store CLI](https://github.com/mas-cli/mas)
-* [MacDown](https://macdown.uranusjr.com)
-* [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-* [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+* [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
+* [GnuPG](https://gnupg.org)
+* [Google Backup and Sync](com/drive/download/backup-and-sync/)
+* [Google Chrome](google.com/chrome)
+* [iTerm2](https://www.iterm2.com/)
+* [Mac App Store CLI](com/mas-cli/mas)
+* [MacDown](https://macdown.uranusjr.com/)
 * [Postman](https://www.getpostman.com)
-* [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
+* [Quick Look Plugins](com/sindresorhus/quick-look-plugins)
 * [Redis](https://redis.io/)
 * [Rocket](https://matthewpalmer.net/rocket/)
+* [SSH Copy ID](www.ssh.com/ssh/copy-id)
+* [Spectacle](www.spectacleapp.com/)
 * [Spotify](https://www.spotify.com/us/)
-* [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
-* [Sublime Text](software/Sublime.md)
-* [TablePlus](https://www.tableplus.io)
-* [Tower](https://www.git-tower.com/)
-* [WhatsApp](https://www.whatsapp.com/download/)
+* [Sublime Text](www.sublimetext.com/)
+* [TablePlus](tableplus.io)
+* [Tower](https://www.git-tower.com/mac)
+* [WhatsApp](https://www.whatsapp.com)
+* [Visual Studio Code](visualstudio.com/)
+
+#### Idempotence
 
 The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I run it on a regular basis.
 
