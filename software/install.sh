@@ -236,3 +236,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Mac App Store CLI
+app="mas"
+name="Mac App Store CLI"
+check="/usr/local/bin/mas"
+url="https://github.com/mas-cli/mas"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew install $app
+    printf "\n\n"
+fi
+
+
