@@ -106,3 +106,15 @@ brew update
 printf "\n"
 
 
+# ack
+app="ack"
+name="ack"
+check="/usr/local/bin/ack"
+url="http://beyondgrep.com/install/"
+if [ ! -e $check ]; then
+    printf "\033[1;37mInstalling $name - $url.\033[0m\n"
+    brew install $app
+    printf "\n\n"
+fi
+
+
