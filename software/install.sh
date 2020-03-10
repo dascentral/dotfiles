@@ -418,3 +418,12 @@ fi
 #fi
 
 
+# Homebrew cleanup
+printf "\033[1;37mBrew cleanup.\033[0m\n"
+brew cleanup
+printf "\n"
+
+# Homebrew doctor
+printf "\033[1;37mBrew doctor.\033[0m\n"
+brew doctor
+printf "\n"
