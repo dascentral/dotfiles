@@ -70,6 +70,18 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# laravel/valet
+app="laravel/valet"
+name="laravel/valet"
+check="/Users/$USER/.composer/vendor/bin/valet"
+url="https://laravel.com/docs/master"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    composer global require $app
+    printf "\n"
+fi
+
+
 # PHP Code Sniffer
 app="squizlabs/php_codesniffer=*"
 name="PHP Code Sniffer"
