@@ -54,7 +54,7 @@ Once [Composer](software/composer.md) and [Homebrew](software/homebrew.md) have 
 * [dascentral/hubflow-release](https://packagist.org/packages/dascentral/hubflow-release)
 * [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [laravel/installer](https://laravel.com/docs/master)
-* [squizlabs/php_codesniffer=*](https://github.com/squizlabs/PHP_CodeSniffer)
+* [squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 
 #### Homebrew
 
