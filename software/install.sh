@@ -200,3 +200,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Google Chrome
+app="google-chrome"
+name="Google Chrome"
+check="/Applications/Google Chrome.app"
+url="https://www.google.com/chrome"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
