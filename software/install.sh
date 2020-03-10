@@ -367,3 +367,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Tower
+app="tower"
+name="Tower"
+check="/Applications/Tower.app"
+url="https://www.git-tower.com/mac"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
