@@ -170,3 +170,13 @@ defaults read com.googlecode.iterm2 PrefsCustomFolder
 defaults read [domain] [key] [type] [value]
 defaults write com.apple.Notes NotesContinuousSpellCheckingEnabled -bool true
 ```
+
+## Disable Gatekeeper
+
+Some of the software that is automatically installed is published by what Apple considers "unidentified developers." The following command will disable the gatekeeper functionality:
+
+```bash
+sudo spctl --master-disable
+```
+
+If you run this command, be sure to only open software from sources that you trust.
