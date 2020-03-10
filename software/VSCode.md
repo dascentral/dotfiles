@@ -57,6 +57,12 @@ ln -s ~/dotfiles/settings/VSCode/User/snippets snippets
 
 ## Extensions
 
+Note that any extension below can be installed via the command line:
+
+```bash
+code --install-extension [publisher.extension]
+```
+
 ### All purpose
 
 * [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
