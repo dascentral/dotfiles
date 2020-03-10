@@ -18,6 +18,7 @@ ln -s /Users/${USER}/dotfiles/settings/VSCode/User/settings.json settings.json
 ln -s /Users/${USER}/dotfiles/settings/VSCode/User/keybindings.json keybindings.json
 ln -s /Users/${USER}/dotfiles/settings/VSCode/User/snippets snippets
 
+
 # Install extensions
 extension="patbenatar.advanced-new-file"
 code --install-extension $extension
