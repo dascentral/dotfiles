@@ -186,8 +186,9 @@ fi
 # GnuPG
 name="GnuPG"
 check="/usr/local/bin/gpg"
+url="https://gnupg.org/"
 if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
+    printf "\033[1;37mInstalling $name - $url.\033[0m\n"
     brew install gnupg gnupg2
     printf "\n\n"
 fi
