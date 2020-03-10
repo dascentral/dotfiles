@@ -317,8 +317,9 @@ fi
 app="ssh-copy-id"
 name="SSH Copy ID"
 check="/usr/local/bin/ssh-copy-id"
+url="https://www.ssh.com/ssh/copy-id"
 if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew install $app
     printf "\n\n"
 fi
