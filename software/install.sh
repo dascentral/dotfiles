@@ -260,3 +260,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Postman
+app="postman"
+name="Postman"
+check="/Applications/Postman.app"
+url="https://www.getpostman.com"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
