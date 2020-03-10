@@ -188,3 +188,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Google Backup & Sync
+app="google-backup-and-sync"
+name="Google Backup and Sync"
+check="/Applications/Backup and Sync.app"
+url="https://www.google.com/drive/download/backup-and-sync/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
