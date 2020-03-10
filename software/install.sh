@@ -166,3 +166,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Firefox
+app="firefox"
+name="Firefox"
+check="/Applications/Firefox.app"
+url="https://www.mozilla.org/en-US/exp/firefox/new/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
