@@ -102,11 +102,10 @@ I install the following software applications via the Mac App Store.
 Some software applications require manual installation or customization via the command line. Installation and setup instructions are available for the following items:
 
 * [HubFlow](software/hubflow.md)
-* [iTerm2](software/iTerm2.md) + [Oh My Zsh](software/zsh.md)
+* [Oh My Zsh](software/zsh.md)
 * [Laravel Valet](software/laravel-valet.md)
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
-* [Visual Studio Code](software/VSCode.md)
 
 ### Package Download
 
