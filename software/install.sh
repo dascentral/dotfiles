@@ -87,3 +87,22 @@ if [ ! -e "$check" ]; then
     composer global require friendsofphp/php-cs-fixer
     printf "\n"
 fi
+
+
+
+#===================================================================================
+# Homebrew installations
+#===================================================================================
+
+# Homebrew Upgrade
+printf "\033[1;37mBrew upgrade.\033[0m\n"
+brew upgrade
+printf "\n"
+
+
+# Homebrew Update
+printf "\033[1;37mBrew update.\033[0m\n"
+brew update
+printf "\n"
+
+
