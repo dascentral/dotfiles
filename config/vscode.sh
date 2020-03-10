@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 
-# Ensure we have a user folder
-if [ ! -e /Users/${USER}/Library/Application\ Support/Code/User ]; then
-    mkdir /Users/${USER}/Library/Application\ Support/Code/User
+# at this time, this script is NOT idempotent
+if [ -e /Users/${USER}/Library/Application\ Support/Code/User ]; then
+    printf "\n\033[1;37mVisual Studio code has already been configured.\033[0m\n\n"
+    exit 0;
 fi
+
+# Ensure we have a user folder
+mkdir /Users/${USER}/Library/Application\ Support/Code/User
+
 
 # Configure for use of cloud-stored settings
 rm /Users/${USER}/Library/Application\ Support/Code/User/settings.json
