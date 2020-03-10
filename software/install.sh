@@ -118,3 +118,15 @@ if [ ! -e $check ]; then
 fi
 
 
+# Alfred
+app="alfred"
+name="Alfred 4"
+check="/Applications/Alfred 4.app"
+url="https://www.alfredapp.com/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url.\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
