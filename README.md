@@ -140,22 +140,6 @@ This installation script only copies aliases into place. The file will need to b
 source ~/.aliases
 ```
 
-## Legacy Software
-
-I removed the following items from the standard setup in June 2019:
-
-* [FunctionFlip](http://kevingessner.com/software/functionflip/)
-* [Handbrake](https://handbrake.fr/downloads.php)
-* [FireFox](http://www.mozilla.org/en-US/firefox/new/)
-* [Java](https://java.com/en/download/mac_download.jsp)
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
-* [Mac App Store CLI](https://github.com/mas-cli/mas)
-* [PHP Xdebug](software/php71-xdebug.md)
-* [PHPStorm](http://www.jetbrains.com/phpstorm/)
-* [RVM](software/rvm.md)
-* [Vagrant](http://www.vagrantup.com/downloads.html)
-* [WordPress CLI](software/wp-cli.md)
-
 ## Command-Line Configurations
 
 While some system settings are configured automatically via the `settings/settings.sh` script, I still have a number of manual modifications that I make. I have published most of those changes within the markdown file associated with each application beneath the `software` folder.
