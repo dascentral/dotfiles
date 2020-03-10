@@ -53,7 +53,8 @@ Once [Composer](software/composer.md) and [Homebrew](software/homebrew.md) have 
 * [consolidation/cgr](https://github.com/consolidation/cgr)
 * [dascentral/hubflow-release](https://packagist.org/packages/dascentral/hubflow-release)
 * [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-* [laravel/installer](https://laravel.com/docs/master)
+* [laravel/installer](https://laravel.com/docs/master/installation#installing-laravel)
+* [laravel/valet](https://laravel.com/docs/master/valet)
 * [squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 
 #### Homebrew
