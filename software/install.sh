@@ -319,3 +319,15 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Spectacle
+app="spectacle"
+name="Spectacle"
+check="/Applications/Spectacle.app"
+url="https://www.spectacleapp.com/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
