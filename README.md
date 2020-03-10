@@ -91,11 +91,11 @@ The `install.sh` script also keeps Homebrew and Composer up-to-date. The script 
 
 I install the following software applications via the Mac App Store.
 
-* Dash
+* [Dash](https://kapeli.com/dash)
 * [Evernote](https://evernote.com/download)
-* [Slack](https://itunes.apple.com/app/slack/id803453959?ls=1&mt=12)
-* Transmit
-* Tweetbot
+* [Slack](https://slack.com/)
+* [Transmit](https://panic.com/transmit/)
+* [Tweetbot](https://tapbots.com/tweetbot/mac/)
 
 ### Manual
 
