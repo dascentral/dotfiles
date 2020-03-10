@@ -7,7 +7,7 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 rm -rf User
 
 # add a symbolic link to the cloud location
-ln -s ~/GDrive/Documents/Software/Sublime/User
+ln -s ~/Documents/Software/Sublime/User
 
 # create a symbolic link to the Sublime executable that can be executed globally
 if [ ! -e /usr/local/bin/subl ]; then
