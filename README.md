@@ -26,36 +26,27 @@ The following articles and repositories may provide inspiration as you setup you
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) - Great for mac
 * [Zach Holman](https://github.com/holman/dotfiles)
 
-### Uses
-
-The "uses" notion is new (to me) and not quite the same as "dotfiles" but here are a few I'm jotting down briefly so that I can come back later and explore in more detail.
-
-* [Wes Bos](https://wesbos.com/uses)
-* [Jeffrey Way](https://laracasts.com/blog/laracasts-uses)
-* [Nuno Maduro](https://nunomaduro.com/uses/)
-
-## Software
+## Software Installation
 
 The repository contains instructions for installation of all of the software packages and applications that I use on my local machine.
 
-### Foundational Elements
+### Initial Setup
 
-The following software applications serve as the foundation for everything I do on my computer:
+The following software applications serve as the foundation for everything else that happens within this repository:
 
-* [Google Chrome](https://www.google.com/chrome)
-* [1Password](https://1password.com/)
-* [Alfred](https://www.alfredapp.com/)
-* [Spectacle](https://www.spectacleapp.com/)
+* [PHP](https://www.php.net/) - Because I'm a PHP developer
+* [Composer](https://getcomposer.org/) - A Dependency Manager for PHP
+* [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
 
-The following applications support scripted installation of my most frequently used applications and keep my system up-to-date:
+Scripted installation of those applications is available via the setup script:
 
-* [PHP](software/php.md)
-* [Homebrew](software/homebrew.md)
-* [Composer](software/composer.md)
+```bash
+./setup.sh
+```
 
-### Scripted Installation
+### Scripted
 
-Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have been installed, the `software/install.sh` script will automatically install the following items:
+Once [Composer](software/composer.md) and [Homebrew](software/homebrew.md) have been installed, the `software/install.sh` script will automate installation of the following items:
 
 * [ack](http://beyondgrep.com/install/)
 * [Aerial Screen Saver](https://github.com/JohnCoates/Aerial)
@@ -79,9 +70,19 @@ Once [Homebrew](software/homebrew.md) and [Composer](software/composer.md) have 
 * [Tower](https://www.git-tower.com/)
 * [WhatsApp](https://www.whatsapp.com/download/)
 
-The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I try to run it on a regular basis.
+The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I run it on a regular basis.
 
-### Manual Installation
+### App Store
+
+I install the following software applications via the Mac App Store.
+
+* Dash
+* [Evernote](https://evernote.com/download)
+* [Slack](https://itunes.apple.com/app/slack/id803453959?ls=1&mt=12)
+* Transmit
+* Tweetbot
+
+### Manual
 
 Some software applications require manual installation or customization via the command line. Installation and setup instructions are available for the following items:
 
@@ -91,16 +92,6 @@ Some software applications require manual installation or customization via the 
 * [MySQL](software/mysql.md)
 * [NVM](software/nvm.md)
 * [Visual Studio Code](software/VSCode.md)
-
-### Mac App Store
-
-I install the following software applications via the Mac App Store.
-
-* Dash
-* [Evernote](https://evernote.com/download)
-* [Slack](https://itunes.apple.com/app/slack/id803453959?ls=1&mt=12)
-* Transmit
-* Tweetbot
 
 ### Package Download
 
