@@ -10,4 +10,6 @@ rm -rf User
 ln -s ~/GDrive/Documents/Software/Sublime/User
 
 # create a symbolic link to the Sublime executable that can be executed globally
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+if [ ! -e /usr/local/bin/subl ]; then
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+fi
