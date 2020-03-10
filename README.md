@@ -115,16 +115,11 @@ I use the following software applications across home and work computers. They m
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Dash](https://kapeli.com/dash)
-* [Google Backup and Sync](https://www.google.com/drive/download/)
 * [Egnyte Connect Desktop App](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
 * [ImageOptim](https://imageoptim.com/mac)
 * MindNode Lite
-* [Postman](https://www.getpostman.com/)
-* [Rocket](https://matthewpalmer.net/rocket/)
-* [Sequel Pro](http://www.sequelpro.com/download/)
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
-* [Spotify](http://www.spotify.com/)
 
 ## Aliases
 
