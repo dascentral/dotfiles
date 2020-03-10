@@ -142,9 +142,7 @@ source ~/.aliases
 
 ## Command-Line Configurations
 
-While some system settings are configured automatically via the `settings/settings.sh` script, I still have a number of manual modifications that I make. I have published most of those changes within the markdown file associated with each application beneath the `software` folder.
-
-However, my goal is always to limit the amount of manual work. This article helped me understand how to do so:
+While some system settings are configured automatically via the `settings/settings.sh` script, I still have a number of manual modifications that I make. My goal is always to limit the amount of manual work. This article helped me understand how to do so:
 
 [https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
 
