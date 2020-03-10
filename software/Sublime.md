@@ -26,7 +26,7 @@ In order to ensure a consistent experience across computers, I store my settings
 ```bash
 cd /Users/${USER}/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 rm -rf User
-ln -s ~/Documents/Software/Sublime/User
+ln -s ~/GDrive/Documents/Software/Sublime/User
 ```
 
 ### Create Application Shortcut
