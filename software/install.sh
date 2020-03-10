@@ -399,8 +399,11 @@ fi
 
 # Visual Studio Code
 app="visual-studio-code"
-if [ ! -e /Applications/Visual\ Studio\ Code.app ]; then
-    printf "\033[1;37mInstalling Visual Studio Code.\033[0m\n"
+name="Visual Studio Code"
+check="/Applications/Visual Studio Code.app"
+url="https://code.visualstudio.com/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
 	#rm ~/Library/Application\ Support/Code/User/settings.json
 	#rm ~/Library/Application\ Support/Code/User/keybindings.json
