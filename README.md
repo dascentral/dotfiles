@@ -91,8 +91,9 @@ The `install.sh` script also keeps Homebrew and Composer up-to-date. The script 
 
 I install the following software applications via the Mac App Store.
 
-* [Dash](https://kapeli.com/dash)
+* [1Password](https://1password.com/)
 * [Evernote](https://evernote.com/download)
+* [MindNode](https://mindnode.com/)
 * [Slack](https://slack.com/)
 * [Transmit](https://panic.com/transmit/)
 * [Tweetbot](https://tapbots.com/tweetbot/mac/)
@@ -117,7 +118,6 @@ I use the following software applications across home and work computers. They m
 * [Dash](https://kapeli.com/dash)
 * [Egnyte Connect Desktop App](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
 * [ImageOptim](https://imageoptim.com/mac)
-* MindNode Lite
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
 
