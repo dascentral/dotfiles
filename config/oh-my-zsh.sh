@@ -9,7 +9,7 @@ if [ ! -e ~/.oh-my-zsh ]; then
     printf "\033[1;37mInstalling Oh My Zsh\033[0m\n"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
-    printf "\n\033[1;33mOh My Zsh has been installed and likely configured. Aborting installation.\n\n\033[0m"
+    printf "\n\033[1;37mOh My Zsh has already been installed and likely configured.\033[0m\n\n"
     exit 0;
 fi
 
