@@ -29,6 +29,7 @@ alias sa='source ~/.aliases'
 alias va='vi ~/.aliases'
 
 # Zsh Config
+alias cz='cat ~/.zshrc'
 alias vz='vi ~/.zshrc'
 alias sz='source ~/.zshrc'
 
