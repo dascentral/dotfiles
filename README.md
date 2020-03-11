@@ -28,17 +28,15 @@ The following articles and repositories may provide inspiration as you setup you
 
 ## Software Installation
 
-The repository contains instructions for installation of all of the software packages and applications that I use on my local machine.
-
 ### Initial Setup
 
-The following software applications serve as the foundation for everything else that happens within this repository:
+The following software serves as the foundation for everything that goes into setting up a new machine:
 
 * [PHP](https://www.php.net/) - Because I'm a PHP developer
 * [Composer](https://getcomposer.org/) - A Dependency Manager for PHP
 * [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
 
-Scripted installation of those applications is available via the setup script:
+Scripted installation of this software is available via the setup script:
 
 ```bash
 ./setup.sh
@@ -117,7 +115,7 @@ I use the following software applications across home and work computers. They m
 * Aurora HDR 2018
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Dash](https://kapeli.com/dash)
-* [Egnyte Connect Desktop App](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
+* [Egnyte Connect](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
 * [ImageOptim](https://imageoptim.com/mac)
 * [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
@@ -130,7 +128,7 @@ I lean heavily on aliases (probably too much) to remember commands and save keys
 ./aliases/install.sh
 ```
 
-This installation script only copies aliases into place. The file will need to be sourced following installation.
+This installation script only copies aliases into place. The file will need to be sourced following installation:
 
 ```bash
 source ~/.aliases
