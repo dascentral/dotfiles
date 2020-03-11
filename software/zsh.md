@@ -6,9 +6,9 @@ The [Z shell](https://en.wikipedia.org/wiki/Z_shell) (Zsh) is a Unix shell that 
 
 ## Installation
 
-Installation is accomplished via setup of the [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) package.
+Installation is accomplished via setup of the [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) package.
 
-[https://github.com/robbyrussell/oh-my-zsh#basic-installation](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
+[https://github.com/ohmyzsh/ohmyzsh#basic-installation](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
 ## Configuration
 
