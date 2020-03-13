@@ -422,18 +422,6 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# VirtualBox
-#app="virtualbox"
-#name="VirtualBox"
-#check="/Applications/VirtualBox.app"
-#url="https://www.virtualbox.org"
-#if [ ! -e $check ]; then
-#    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-#    brew cask install $app
-#    printf "\n\n"
-#fi
-
-
 # Homebrew cleanup
 printf "\033[1;37mBrew cleanup.\033[0m\n"
 brew cleanup
