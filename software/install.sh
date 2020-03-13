@@ -374,6 +374,18 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# TeamViewer
+app="teamviewer"
+name="TeamViewer"
+check="/Applications/TeamViewer.app"
+url="https://www.teamviewer.com/en-us/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
 # Tower
 app="tower"
 name="Tower"
