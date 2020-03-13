@@ -16,12 +16,6 @@ if [ ! -e "/usr/local/bin/composer" ]; then
     exit 0;
 fi
 
-# PHP
-if [ ! -e "/usr/local/bin/php" ]; then
-    printf "\n\033[1;33mPHP has not been installed. Aborting installation.\n\n\033[0m"
-    exit 0;
-fi
-
 
 
 #============================================================================
