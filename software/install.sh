@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #============================================================================
 # Confirm necessary software is installed
