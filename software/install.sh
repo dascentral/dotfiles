@@ -418,12 +418,6 @@ url="https://code.visualstudio.com"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
-	#rm ~/Library/Application\ Support/Code/User/settings.json
-	#rm ~/Library/Application\ Support/Code/User/keybindings.json
-	#rm -rf ~/Library/Application\ Support/Code/User/snippets
-	#ln -s ~/dotfiles/settings/VSCode/User/settings.json ~/Library/Application\ Support/Code/User/settings.json
-	#ln -s ~/dotfiles/settings/VSCode/User/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-	#ln -s ~/dotfiles/settings/VSCode/User/snippets ~/Library/Application\ Support/Code/User/snippets
     printf "\n\n"
 fi
 
