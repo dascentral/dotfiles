@@ -4,6 +4,7 @@
     "last",
     "root"
   ],
+  "blade.format.enable": true,
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   "editor.codeActionsOnSave": {
@@ -11,7 +12,6 @@
   },
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 5000,
   "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
   "editor.snippetSuggestions": "bottom",
