@@ -17,13 +17,14 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 I have not personally explored these but they seem well regarded within the community.
 
-* [Laravel Core Adventures](https://laravelcoreadventures.com)
-* [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing
-* [Laravel Secrets](https://laravelsecrets.com/) - Coming in 2020
+* [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies
 * [Eloquent by Example](https://eloquentbyexample.com)
 * [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - Coming in 2020
-* [Single-Page Laravel](https://singlepagelaravel.com/)
+* [Laravel Core Adventures](https://laravelcoreadventures.com)
+* [Laravel Daily](https://laraveldaily.teachable.com/courses)
+* [Laravel Secrets](https://laravelsecrets.com/)
+* [Single-Page Laravel](https://singlepagelaravel.com)
 
 ## Design Patterns
 
