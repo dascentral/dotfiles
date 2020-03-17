@@ -24,6 +24,7 @@ I have not personally explored these but they seem well regarded within the comm
 * [Laravel Core Adventures](https://laravelcoreadventures.com)
 * [Laravel Daily](https://laraveldaily.teachable.com/courses)
 * [Laravel Secrets](https://laravelsecrets.com/)
+* [Mailcoach](https://mailcoach.app/video-course)
 * [Single-Page Laravel](https://singlepagelaravel.com)
 
 ## Design Patterns
