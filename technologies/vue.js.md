@@ -39,7 +39,7 @@ Third-party components.
 I have yet to identify a strategy for implementing loaders that I find scalable and maintainable. Here are a few links worth reviewing:
 
 * **Article:** April 2018 - [Add Loading Indicators to Your Vue.js Application](https://scotch.io/tutorials/add-loading-indicators-to-your-vuejs-application)
-* **Tutorial** Dec 2019 - [How To Add Loading Indicators to Your Vue.js Application](https://www.digitalocean.com/community/tutorials/add-loading-indicators-to-your-vuejs-application)
+* **Resource:** [Useful CSS utilities for Vue.js cloaking](https://gist.github.com/adamwathan/3584d1904e4f4c36096f) - Gist by [Adam Wathan](https://gist.github.com/adamwathan)
 * **Resource:** [Loading Animations made with Vue.js](https://madewithvuejs.com/c/loading-animations)
 * **JS Fiddle:** [Vue loading overlay demo](https://jsfiddle.net/ankurk91/w8y8k5wo/)
 * **NPM Package:** [vue-loading-overlay](https://www.npmjs.com/package/vue-loading-overlay)
