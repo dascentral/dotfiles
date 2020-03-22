@@ -42,6 +42,7 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Laravel Docs:** [https://laravel.com/docs/master/authentication](https://laravel.com/docs/master/authentication)
 * **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - I needed this for work. You should avoid Basic Auth at all costs.
+* **Article:** Sept 2017 - [Laravel Reauthenticate](https://medium.com/@browner12/laravel-reauthenticate-274c48f2b642) - Implement a password confirmation within your application.
 * **Tutorial:** [Logout Other Devices after Login](https://www.youtube.com/watch?v=mnModJ3GsbU) - Video
 
 ### Authorization
@@ -63,6 +64,7 @@ I have not personally explored these but they seem well regarded within the comm
 ### Eloquent
 
 * **Article:** Dec 2019 - [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
+* **Article:** Oct 2018 - [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
 
 ### Facades
 
@@ -103,8 +105,12 @@ Form requests are custom request classes that contain validation logic.
 * **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
 * **Article:** Aug 2019 - [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
 * **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
+* **Article:** June 2018 - [Going Deeper with Factories Through Factory States
+](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
 * **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
-* **Tweet:** Mar 2020 - [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) - Discusses how to improve test performance related to database operations.
+* **Article:** Oct 2017 - [Continuous Testing Dashboard for Laravel](https://laravel-news.com/testing-dashboard)
+* **Article:** Sept 2017 - [A Roundup of Laravel Testing Resources and Packages](https://laravel-news.com/laravel-testing-resources)
+* **Tweet:** Mar 2020 - [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) - Discusses how to improve test performance related to database operations
 * **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
 * **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) - A split of the spatie/laravel-mailcoach tests
 
