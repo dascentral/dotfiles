@@ -6,17 +6,54 @@ Valet is a Laravel development environment for Mac minimalists. It configures yo
 
 [https://laravel.com/docs/master/valet](https://laravel.com/docs/master/valet)
 
-## Installation
+## Dependencies
 
-Assuming [Homebrew](homebrew.md), [PHP](php.md), and [Composer](composer.md) have been installed, you can run the following:
+Before you can install Laravel Valet, you must have the following software available:
+
+* [Homebrew](https://brew.sh/)
+* [PHP](https://www.php.net/)
+* [Composer](https://getcomposer.org/)
+
+For assistance installing this software on your Mac, check my [setup script](https://github.com/dascentral/dotfiles/blob/master/setup.sh).
+
+### System Path
+
+Following installation of all of this wonderful software, I like to add a few directories to my system path so that binaries can be executed from anywhere on my machine.
+
+I have added the following lines to the end of my `~/.zshrc` file.
 
 ```bash
-brew update
+export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+```
+
+## Installation
+
+Valet has an installation package which can be installed via Composer:
+
+```bash
 composer global require laravel/valet
+```
+
+Following its installation, you will want to run its installer:
+
+```bash
 valet install
 ```
 
-The [Laravel docs](https://laravel.com/docs/master/valet#installation) will give you much more detail on the installation process.
+Valet's default TLD is `.test`. I prefer to use `.localhost` which can be set via the following command:
+
+```bash
+valet tld localhost
+```
+
+Following installation, you can confirm Valet was installed correctly by pinging a local URL.
+
+```bash
+ping foobar.localhost
+```
+
+The [Laravel docs](https://laravel.com/docs/master/valet#installation) will give you much more detail on the installation process. These are definitely the cliff notes.
 
 ## Configuration
 
@@ -38,6 +75,21 @@ valet park
 ```
 
 That command will register the `~/Workspace` folder as a path that Valet should search for sites.
+
+## MySQL Installation
+
+MySQL is not dependent upon Laravel Valet and vice versa, but it is a popular database engine for Laravel applications. If you're setting up a new machine, you likely want MySQL installed as well.
+
+```bash
+brew install mysql@5.7
+brew services start mysql@5.7
+```
+
+I like to add the path to the MySQL binaries to my system path. I have added the following to the end of my `~/.zshrc` file.
+
+```bash
+export PATH="$PATH:/usr/local/opt/mysql@5.7/bin"
+```
 
 ## Upgrading PHP
 
