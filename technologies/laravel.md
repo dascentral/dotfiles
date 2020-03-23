@@ -20,7 +20,7 @@ I have not personally explored these but they seem well regarded within the comm
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing
 * [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies
 * [Eloquent by Example](https://eloquentbyexample.com)
-* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - Coming in 2020
+* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/)
 * [Laravel Core Adventures](https://laravelcoreadventures.com)
 * [Laravel Daily](https://laraveldaily.teachable.com/courses)
 * [Laravel Secrets](https://laravelsecrets.com/)
@@ -29,8 +29,16 @@ I have not personally explored these but they seem well regarded within the comm
 
 ## Design Patterns
 
+### Refactoring to Actions
+
 * [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
-* [View Models](https://stitcher.io/blog/laravel-beyond-crud-08-view-models)
+
+### View Models
+
+A view model class is designed to house the complex logic of your views and clean up view-related logic from controllers.
+
+* [Laravel Beyond CRUD](https://stitcher.io/blog/laravel-beyond-crud-08-view-models) - Chapter 8 - View models
+* **Article:** Sept 2018 - [Laravel View Models](https://laravel-news.com/laravel-view-models) - via Laravel News
 
 ### Caching Strategies
 
@@ -65,6 +73,7 @@ I have not personally explored these but they seem well regarded within the comm
 
 * **Article:** Dec 2019 - [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
 * **Article:** Oct 2018 - [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
+* **Article:** May 2018 - [Leverage Eloquent To Prepare Your URLs](https://laravel-news.com/leverage-eloquent-to-prepare-your-urls)
 
 ### Facades
 
@@ -90,6 +99,10 @@ Form requests are custom request classes that contain validation logic.
 * **Article:** Sept 2019 - [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
 * **Article:** April 2019 - [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
 
+### Markdown Mailables
+
+* [MarkdownMail](https://markdownmail.com/) - Create Laravel markdown email themes without a Hassle
+
 ### Passport
 
 * **Article:** May 2019 - [Testing Passport Authenticated Controllers and Routes in Laravel](https://clubstudio.co.uk/journal/testing-passport-authenticated-controllers-and-routes-in-laravel)
@@ -107,7 +120,8 @@ Form requests are custom request classes that contain validation logic.
 * **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
 * **Article:** June 2018 - [Going Deeper with Factories Through Factory States
 ](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
-* **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics.
+* **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics
+* **Article:** March 2018 - [Testing Vue components with Laravel Dusk](https://laravel-news.com/testing-vue-components-with-laravel-dusk)
 * **Article:** Oct 2017 - [Continuous Testing Dashboard for Laravel](https://laravel-news.com/testing-dashboard)
 * **Article:** Sept 2017 - [A Roundup of Laravel Testing Resources and Packages](https://laravel-news.com/laravel-testing-resources)
 * **Tweet:** Mar 2020 - [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) - Discusses how to improve test performance related to database operations
@@ -187,7 +201,16 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 At the moment, "Settings" is my general term for the notion of persisting perferences for an individual application user.
 
+* **Article:** Dec 2018 - [Global Application Settings](https://laravel-news.com/global-application-settings)
 * **Laracasts:** May 2015 - [Managing Mass User Settings](https://laracasts.com/lessons/managing-mass-user-settings) + [Part 2](https://laracasts.com/lessons/managing-mass-user-settings-part-2) - I found these videos in April 2019 and found the approach to still be quite elegant. The code for the lessons can be found on [GitHub](https://github.com/laracasts/Mass-User-Settings/blob/master/app/Settings.php).
+
+## Performance
+
+I am not sure I will wind up with enough resources to warrant maintaining "Performance" as it's only first-party section within this document but performance is an incredibly important aspect of well-written application.
+
+* **Article:** Oct 2018 - [Measure Anything in Laravel with StatsD](https://laravel-news.com/measure-anything-laravel-statsd)
+* **Article:** July 2018 - [Laravel Query Detector](https://laravel-news.com/laravel-query-detector)
+* **Article:** Sept 2018 - [Laravel Health Panel](https://laravel-news.com/laravel-health-panel) - "Health" isn't necessarily performance but it warrants a mention here.
 
 ## Packages
 
@@ -219,8 +242,11 @@ Laravel provides a number of first party packages that are of significant qualit
 
 I have seen these items referenced across various tweets, posts, etc. Worth exploring altough I have not yet checked them out.
 
+* [antonioribeiro/countries](https://github.com/antonioribeiro/countries) - Database of countries and host of information beyond that
 * [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
 * [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
+* [davejamesmiller/laravel-breadcrumbs](https://laravel-news.com/laravel-breadcrumbs-package/)
+* [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) - Find exactly where a query is being called in your app
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
