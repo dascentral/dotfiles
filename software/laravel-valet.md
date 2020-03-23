@@ -18,9 +18,9 @@ For assistance installing this software on your Mac, check my [setup script](htt
 
 ### System Path
 
-Following installation of all of this wonderful software, I like to add a few directories to my system path so that binaries can be executed from anywhere on my machine.
+Following installation of all of this wonderful software, I add a few directories to my system path so that binaries can be executed from anywhere on my machine.
 
-I have added the following lines to the end of my `~/.zshrc` file.
+The following lines live at the end of my `~/.zshrc` file.
 
 ```bash
 export PATH="$PATH:/usr/local/sbin"
@@ -67,7 +67,7 @@ valet tld localhost
 
 ### Parking the Workspace
 
-I keep all of my web projects within a `~/Workspace` folder. I like to park that folder for quick serving of my Laravel websites.
+I keep all of my web projects within a `~/Workspace` folder. I like to park that folder for quick serving of my Laravel projects.
 
 ```bash
 cd ~/Workspace
@@ -85,7 +85,7 @@ brew install mysql@5.7
 brew services start mysql@5.7
 ```
 
-I like to add the path to the MySQL binaries to my system path. I have added the following to the end of my `~/.zshrc` file.
+I like to add the path to the MySQL binaries to my system path. The following line lives at the end of my `~/.zshrc` file.
 
 ```bash
 export PATH="$PATH:/usr/local/opt/mysql@5.7/bin"
