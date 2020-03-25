@@ -70,6 +70,7 @@ A view model class is designed to house the complex logic of your views and clea
 ### Dusk
 
 * **Article:** Dec 2018 - [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
+* **Article:** Feb 2017 - [Automatically Making Monthly Payments with Dusk](https://laravel-news.com/automatically-making-monthly-payments-with-dusk)
 
 ### Eloquent
 
