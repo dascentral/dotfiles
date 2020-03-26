@@ -15,6 +15,7 @@
   "editor.renderFinalNewline": true,
   "editor.snippetSuggestions": "bottom",
   "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
   "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
