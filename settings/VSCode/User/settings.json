@@ -65,8 +65,12 @@
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
+  "[json]": {
+    "editor.tabSize": 4
+  },
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.tabSize": 4
   },
   "[vue]": {
     "editor.formatOnSave": false
