@@ -86,6 +86,9 @@ code --install-extension $extension
 extension="sysoev.language-stylus"
 code --install-extension $extension
 
+extension="vscode-icons-team.vscode-icons"
+code --install-extension $extension
+
 extension="william-voyek.vscode-nginx"
 code --install-extension $extension
 
