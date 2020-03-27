@@ -55,6 +55,7 @@
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
@@ -69,6 +70,5 @@
   },
   "[vue]": {
     "editor.formatOnSave": false
-  },
-  "workbench.iconTheme": "eq-material-theme-icons"
+  }
 }
