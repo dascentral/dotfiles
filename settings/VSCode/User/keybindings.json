@@ -77,6 +77,10 @@
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
+  {
+    "key": "cmd+k cmd+k",
+    "command": "workbench.action.toggleZenMode"
+  },
   /**
    * workbench.view - Activity Bar
    */
