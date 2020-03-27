@@ -20,58 +20,67 @@ ln -s /Users/${USER}/dotfiles/settings/VSCode/User/snippets snippets
 
 
 # Install extensions
-extension="patbenatar.advanced-new-file"
-code --install-extension $extension
-
-extension="lucax88x.codeacejumper"
-code --install-extension $extension
-
-extension="mikestead.dotenv"
-code --install-extension $extension
-
-extension="neilbrayfield.php-docblocker"
-code --install-extension $extension
-
-extension="sleistner.vscode-fileutils"
-code --install-extension $extension
-
-extension="eamodio.gitlens"
-code --install-extension $extension
-
-extension="nikitakunevich.snippet-creator"
-code --install-extension $extension
-
-extension="ms-azuretools.vscode-docker"
-code --install-extension $extension
-
-extension="ryannaddy.laravel-artisan"
-code --install-extension $extension
-
-extension="onecentlin.laravel-blade"
-code --install-extension $extension
-
-extension="yzhang.markdown-all-in-one"
-code --install-extension $extension
-
-extension="DavidAnson.vscode-markdownlint"
-code --install-extension $extension
-
-extension="calebporzio.better-phpunit"
-code --install-extension $extension
-
-extension="junstyle.php-cs-fixer"
+extension="arcticicestudio.nord-visual-studio-code"
 code --install-extension $extension
 
 extension="bmewburn.vscode-intelephense-client"
 code --install-extension $extension
 
-extension="mehedidracula.php-namespace-resolver"
+extension="bradlc.vscode-tailwindcss"
+code --install-extension $extension
+
+extension="calebporzio.better-phpunit"
+code --install-extension $extension
+
+extension="DavidAnson.vscode-markdownlint"
 code --install-extension $extension
 
 extension="dbaeumer.vscode-eslint"
 code --install-extension $extension
 
-extension="wix.vscode-import-cost"
+extension="eamodio.gitlens"
+code --install-extension $extension
+
+extension="Equinusocio.vsc-material-theme"
+code --install-extension $extension
+
+extension="junstyle.php-cs-fixer"
+code --install-extension $extension
+
+extension="lucax88x.codeacejumper"
+code --install-extension $extension
+
+extension="mehedidracula.php-namespace-resolver"
+code --install-extension $extension
+
+extension="mikestead.dotenv"
+code --install-extension $extension
+
+extension="ms-azuretools.vscode-docker"
+code --install-extension $extension
+
+extension="neilbrayfield.php-docblocker"
+code --install-extension $extension
+
+extension="nikitakunevich.snippet-creator"
+code --install-extension $extension
+
+extension="octref.vetur"
+code --install-extension $extension
+
+extension="onecentlin.laravel-blade"
+code --install-extension $extension
+
+extension="patbenatar.advanced-new-file"
+code --install-extension $extension
+
+extension="ryannaddy.laravel-artisan"
+code --install-extension $extension
+
+extension="sleistner.vscode-fileutils"
+code --install-extension $extension
+
+extension="smlombardi.slime"
 code --install-extension $extension
 
 extension="sysoev.language-stylus"
@@ -80,17 +89,8 @@ code --install-extension $extension
 extension="william-voyek.vscode-nginx"
 code --install-extension $extension
 
-extension="bradlc.vscode-tailwindcss"
+extension="wix.vscode-import-cost"
 code --install-extension $extension
 
-extension="octref.vetur"
-code --install-extension $extension
-
-extension="Equinusocio.vsc-material-theme"
-code --install-extension $extension
-
-extension="arcticicestudio.nord-visual-studio-code"
-code --install-extension $extension
-
-extension="smlombardi.slime"
+extension="yzhang.markdown-all-in-one"
 code --install-extension $extension
