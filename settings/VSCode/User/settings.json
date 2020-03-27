@@ -10,6 +10,7 @@
     "source.fixAll.eslint": true
   },
   "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
@@ -66,6 +67,7 @@
   "workbench.colorTheme": "Nord",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": false,
+  "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
