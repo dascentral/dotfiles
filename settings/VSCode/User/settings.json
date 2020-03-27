@@ -69,5 +69,6 @@
   },
   "[vue]": {
     "editor.formatOnSave": false
-  }
+  },
+  "workbench.iconTheme": "eq-material-theme-icons"
 }
