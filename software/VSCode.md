@@ -48,10 +48,11 @@ code --install-extension [publisher.extension]
 
 ### PHP
 
-* [Better PHPUnit](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
-* [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
-* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-* [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
+* [Better PHPUnit](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit) - PHPUnit runner for VS Code
+* [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer) - Automatically fix PHP Coding Standards issues
+* [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) - A simple, dependency free PHP specific DocBlocking package
+* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) - The best PHP IntelliSense package for VS Code
+* [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver) - Import and expand PHP namespaces
 
 ### Web essentials
 
