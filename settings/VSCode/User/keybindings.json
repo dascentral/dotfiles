@@ -5,10 +5,6 @@
     "command": "workbench.action.gotoSymbol"
   },
   {
-    "key": "shift+cmd+o",
-    "command": "-workbench.action.gotoSymbol"
-  },
-  {
     "key": "shift+cmd+c",
     "command": "workbench.view.scm"
   },
@@ -18,24 +14,12 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "ctrl+shift+g",
-    "command": "-workbench.view.scm"
-  },
-  {
     "key": "cmd+t",
     "command": "better-phpunit.run"
   },
   {
-    "key": "cmd+k cmd+r",
-    "command": "-better-phpunit.run"
-  },
-  {
     "key": "shift+cmd+t",
     "command": "better-phpunit.run-previous"
-  },
-  {
-    "key": "cmd+k cmd+p",
-    "command": "-better-phpunit.run-previous"
   },
   {
     "key": "shift+cmd+o",
@@ -47,18 +31,8 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+f10",
-    "command": "-editor.action.showContextMenu",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "cmd+l",
     "command": "expandLineSelection",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-expandLineSelection",
     "when": "editorTextFocus"
   },
   {
@@ -99,21 +73,12 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+alt+i",
-    "command": "-namespaceResolver.import",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "ctrl+c",
     "command": "markdown.extension.editing.toggleCodeSpan"
   },
   {
     "key": "cmd+,",
     "command": "workbench.action.openSettingsJson"
-  },
-  {
-    "key": "cmd+,",
-    "command": "-workbench.action.openSettings"
   },
   {
     "key": "cmd+k i",
