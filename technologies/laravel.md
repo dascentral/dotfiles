@@ -31,6 +31,16 @@ I have not personally explored these but they seem well regarded within the comm
 
 ## Design Patterns
 
+### Decorator Pattern
+
+Wikipedia defines the [decorator pattern]((https://en.wikipedia.org/wiki/Decorator_pattern)) as follows:
+
+> In object-oriented programming, the decorator pattern is a design pattern that allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
+
+I primarily use this pattern to facilitate caching within my Laravel applications.
+
+* **Article:** Feb 2020 - [Design Patterns in PHP: Decorator (with Laravel)](https://dev.to/ahmedash95/design-patterns-in-php-decorator-with-laravel-5hk6)
+
 ### Refactoring to Actions
 
 * [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
