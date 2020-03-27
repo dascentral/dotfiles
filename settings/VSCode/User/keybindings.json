@@ -53,6 +53,10 @@
    * workbench.action
    */
   {
+    "key": "cmd+e cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
     "key": "cmd+r",
     "command": "workbench.action.gotoSymbol"
   },
