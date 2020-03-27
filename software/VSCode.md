@@ -31,6 +31,7 @@ code --install-extension [publisher.extension]
 * [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
 * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitakunevich.snippet-creator)
+* [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - Icons for Visual Studio Code
 
 ### Docker
 
