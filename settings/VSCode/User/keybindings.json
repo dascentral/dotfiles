@@ -1,19 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
-    "key": "cmd+r",
-    "command": "workbench.action.gotoSymbol"
-  },
-  {
-    "key": "shift+cmd+c",
-    "command": "workbench.view.scm"
-  },
-  {
-    "key": "shift+cmd+c",
-    "command": "-workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
-  {
     "key": "cmd+t",
     "command": "better-phpunit.run"
   },
@@ -22,8 +9,9 @@
     "command": "better-phpunit.run-previous"
   },
   {
-    "key": "shift+cmd+o",
-    "command": "workbench.action.openWorkspace"
+    "key": "ctrl+cmd+g",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
   },
   {
     "key": "alt+enter",
@@ -36,26 +24,20 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+r",
-    "command": "workbench.action.showAllSymbols"
-  },
-  {
-    "key": "cmd+t",
-    "command": "-workbench.action.showAllSymbols"
-  },
-  {
-    "key": "ctrl+cmd+g",
-    "command": "editor.action.selectHighlights",
-    "when": "editorFocus"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "-editor.action.selectHighlights",
-    "when": "editorFocus"
-  },
-  {
     "key": "shift+cmd+;",
     "command": "extension.aceJump"
+  },
+  {
+    "key": "cmd+k i",
+    "command": "intelephense.index.workspace"
+  },
+  {
+    "key": "cmd+k i",
+    "command": "intelephense.index.workspace"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "markdown.extension.editing.toggleCodeSpan"
   },
   {
     "key": "alt+cmd+e",
@@ -63,25 +45,46 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+alt+e",
-    "command": "-namespaceResolver.expand",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "alt+cmd+i",
     "command": "namespaceResolver.import",
     "when": "editorTextFocus"
   },
+  /**
+   * workbench.action
+   */
   {
-    "key": "ctrl+c",
-    "command": "markdown.extension.editing.toggleCodeSpan"
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol"
   },
   {
     "key": "cmd+,",
     "command": "workbench.action.openSettingsJson"
   },
   {
-    "key": "cmd+k i",
-    "command": "intelephense.index.workspace"
+    "key": "shift+cmd+o",
+    "command": "workbench.action.openWorkspace"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.showAllSymbols"
+  },
+  /**
+   * workbench.view - Activity Bar
+   */
+  {
+    "key": "cmd+k cmd+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "cmd+k cmd+v",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "workbench.extensions.action.showInstalledExtensions"
   }
 ]
