@@ -16,6 +16,10 @@
   "editor.snippetSuggestions": "bottom",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "blade.php": "html",
+    "vue": "html"
+  },
   "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
@@ -27,6 +31,12 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "*.php": "php" // this is super important, otherwise intelephense will not auto-index your project.
+  },
+  "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
