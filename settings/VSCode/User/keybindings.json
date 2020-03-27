@@ -68,6 +68,15 @@
     "key": "shift+cmd+r",
     "command": "workbench.action.showAllSymbols"
   },
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
   /**
    * workbench.view - Activity Bar
    */
