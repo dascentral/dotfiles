@@ -29,6 +29,9 @@ code --install-extension $extension
 extension="mikestead.dotenv"
 code --install-extension $extension
 
+extension="neilbrayfield.php-docblocker"
+code --install-extension $extension
+
 extension="sleistner.vscode-fileutils"
 code --install-extension $extension
 
