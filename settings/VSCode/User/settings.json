@@ -69,6 +69,7 @@
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
+  "zenMode.fullScreen": false,
   "[javascript]": {
     "editor.formatOnSave": false
   },
