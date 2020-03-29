@@ -79,7 +79,7 @@ alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
 alias ft='vendor/bin/phpunit tests/Feature'
 alias mfs='php artisan migrate:fresh --seed'
-alias pat='php artisan test'
+alias test='php artisan test'
 alias tll='tail -f storage/logs/laravel.log'
 alias ut='vendor/bin/phpunit tests/Unit'
 
