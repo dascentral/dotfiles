@@ -61,8 +61,6 @@ alias repush='git pull --rebase && git push'
 # HubFlow
 #------------------------------------------------------------------------------------------
 alias hff='git hf release finish'
-alias hffs='git hf feature start'
-alias hfff='git hf feature finish'
 
 
 #------------------------------------------------------------------------------------------
@@ -70,16 +68,6 @@ alias hfff='git hf feature finish'
 #------------------------------------------------------------------------------------------
 alias bsl='brew services list'
 alias bsr='brew services restart'
-
-
-#------------------------------------------------------------------------------------------
-# Homestead
-#------------------------------------------------------------------------------------------
-#alias hs='cd /Users/${USER}/Workspace/Homestead'
-#alias he='subl /Users/${USER}/Workspace/Homestead/Homestead.yaml'
-#alias hu="cd '/Users/${USER}/Workspace/Homestead'; vagrant up; cd -"
-#alias hh="cd '/Users/${USER}/Workspace/Homestead'; vagrant halt; cd -"
-#alias hp="cd '/Users/${USER}/Workspace/Homestead'; vagrant provision; cd -"
 
 
 #------------------------------------------------------------------------------------------
@@ -92,9 +80,7 @@ alias dusk='php artisan dusk'
 alias ft='vendor/bin/phpunit tests/Feature'
 alias mfs='php artisan migrate:fresh --seed'
 alias pat='php artisan test'
-alias sweet='vendor/bin/phpunit && php artisan dusk'
 alias tll='tail -f storage/logs/laravel.log'
-alias unit='vendor/bin/phpunit'
 alias ut='vendor/bin/phpunit tests/Unit'
 
 
@@ -139,8 +125,4 @@ alias vp='sudo vi /usr/local/etc/php/7.2/php.ini'
 
 
 #------------------------------------------------------------------------------------------
-# Vagrant
 #------------------------------------------------------------------------------------------
-#alias vgs='vagrant global-status'
-#alias vu='vagrant up'
-#alias vh='vagrant halt'
