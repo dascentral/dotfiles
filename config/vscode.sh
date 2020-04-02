@@ -59,6 +59,9 @@ code --install-extension $extension
 extension="ms-azuretools.vscode-docker"
 code --install-extension $extension
 
+extension-"ms-vscode.sublime-keybindings"
+code --install-extension $extension
+
 extension="neilbrayfield.php-docblocker"
 code --install-extension $extension
 
