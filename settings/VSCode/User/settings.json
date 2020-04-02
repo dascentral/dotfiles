@@ -13,7 +13,7 @@
   "editor.formatOnSave": true,
   "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
-  "editor.snippetSuggestions": "bottom",
+  "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
