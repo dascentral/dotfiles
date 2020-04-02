@@ -71,6 +71,7 @@ A view model class is designed to house the complex logic of your views and clea
 
 ### Blade
 
+* **Article:** April 2020 - [Some cool Laravel 7 Blade components ](https://freek.dev/1612-some-cool-laravel-7-blade-components)
 * **Article:** June 2019 - [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
 
 ### Controllers
