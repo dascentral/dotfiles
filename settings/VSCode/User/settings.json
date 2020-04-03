@@ -40,7 +40,7 @@
   "files.associations": {
     ".php_cs": "php",
     ".php_cs.dist": "php",
-    // "*.php": "php" // this is super important, otherwise intelephense will not auto-index your project.
+    // "*.php": "php"
   },
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
