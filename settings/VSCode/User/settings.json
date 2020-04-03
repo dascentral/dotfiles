@@ -17,10 +17,8 @@
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
   "editor.lineHeight": 25,
-  "editor.wordWrap": "off",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderFinalNewline": true,
-  "editor.scrollBeyondLastLine": true,
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
@@ -44,7 +42,6 @@
     ".php_cs.dist": "php",
     // "*.php": "php" // this is super important, otherwise intelephense will not auto-index your project.
   },
-  "files.autoSave": "off",
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
