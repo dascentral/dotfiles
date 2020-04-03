@@ -1,4 +1,13 @@
+// Recommended Sublime Settings
+// "editor.fontFamily": "Fira Code",
+// "editor.multiCursorModifier": "ctrlCmd",
 {
+  //----------------------------------------------
+  // exploratory
+  "editor.detectIndentation": false,
+  "files.hotExit": "off",
+  "files.insertFinalNewline": true,
+  //----------------------------------------------
   "advancedNewFile.convenienceOptions": [
     "current",
     "last",
@@ -9,15 +18,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  // Disabled Sublime Settings - Not sure I want/need these right now
-  // "editor.fontFamily": "Fira Code",
-  // "editor.formatOnPaste": true, // I have experienced issues with this within PHP class files
-  // "editor.lineNumbers": "off",
-  "editor.detectIndentation": false,
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
   "editor.lineHeight": 25,
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderFinalNewline": true,
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
@@ -40,10 +43,8 @@
   "files.associations": {
     ".php_cs": "php",
     ".php_cs.dist": "php",
-    // "*.php": "php"
+    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
   },
-  "files.hotExit": "off",
-  "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "gitlens.advanced.messages": {
