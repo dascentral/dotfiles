@@ -94,6 +94,9 @@
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.tabSize": 4
   },
+  "[shellscript]": {
+    "editor.tabSize": 4
+  },
   "[vue]": {
     "editor.formatOnSave": false
   }
