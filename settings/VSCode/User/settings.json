@@ -1,86 +1,45 @@
-// Recommended Sublime Settings
-// "editor.fontFamily": "Fira Code",
-// "editor.multiCursorModifier": "ctrlCmd",
 {
-  //----------------------------------------------
-  // exploratory
+  /**
+   * Sublime Settings - Added by the "Sublime Text Keymap and Settings Importer" extension
+   */
+  // "editor.fontFamily": "Fira Code",
+  // "editor.multiCursorModifier": "ctrlCmd",
+  /**/
+  /**/
+  /**
+   * Exploratory - Settings I'm trying out but not sure yet that I want to keep
+   */
   "editor.detectIndentation": false,
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
-  //----------------------------------------------
-  "advancedNewFile.convenienceOptions": [
-    "current",
-    "last",
-    "root"
-  ],
-  "breadcrumbs.enabled": false,
-  "diffEditor.renderSideBySide": false,
+  /**/
+  /**/
+  /**
+   * Code Formatting
+   */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.fontSize": 15,
   "editor.formatOnSave": true,
-  "editor.lineHeight": 25,
   "editor.renderFinalNewline": true,
-  "editor.snippetSuggestions": "top",
-  "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "blade.php": "html",
     "vue": "html"
   },
-  "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "vue",
     "vue-html"
   ],
-  "explorer.autoReveal": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
-  },
   "files.trimTrailingWhitespace": true,
-  "git.autofetch": true,
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  "gitlens.codeLens.enabled": false,
-  "importCost.typescriptExtensions": [
-    "\\.vue$"
-  ],
-  "markdown.extension.orderedList.autoRenumber": false,
-  "markdown.extension.toc.unorderedList.marker": "*",
   "namespaceResolver.sortAlphabetically": true,
-  "php.suggest.basic": false,
   "php-cs-fixer.formatHtml": true,
   "php-cs-fixer.lastDownload": 1584549411260,
   "php-cs-fixer.onsave": true,
-  "search.exclude": {
-    "**/node_modules": false
-  },
-  "search.useIgnoreFiles": false,
-  "terminal.integrated.rendererType": "dom",
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.validation.template": false,
-  "window.openFilesInNewWindow": "on",
-  "window.restoreWindows": "all",
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Nord",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.showTabs": false,
-  "workbench.fontAliasing": "antialiased",
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": true,
-  "zenMode.fullScreen": false,
   "[javascript]": {
     "editor.formatOnSave": false
   },
@@ -99,5 +58,60 @@
   },
   "[vue]": {
     "editor.formatOnSave": false
-  }
+  },
+  /**/
+  /**/
+  /**
+   * Editor Configuration
+   */
+  "advancedNewFile.convenienceOptions": [
+    "current",
+    "last",
+    "root"
+  ],
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 25,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "eslint.alwaysShowStatus": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
+  },
+  "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.codeLens.enabled": false,
+  "importCost.typescriptExtensions": [
+    "\\.vue$"
+  ],
+  "markdown.extension.orderedList.autoRenumber": false,
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "php.suggest.basic": false,
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.rendererType": "dom",
+  "window.openFilesInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Nord",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.showTabs": false,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "zenMode.fullScreen": false
 }
