@@ -33,6 +33,11 @@
     "vue",
     "vue-html"
   ],
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
+  },
   "files.trimTrailingWhitespace": true,
   "namespaceResolver.sortAlphabetically": true,
   "php-cs-fixer.formatHtml": true,
@@ -80,11 +85,6 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
-  },
   "git.autofetch": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
