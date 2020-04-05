@@ -86,6 +86,9 @@ code --install-extension $extension
 extension="smlombardi.slime"
 code --install-extension $extension
 
+extension="stylelint.vscode-stylelint"
+code --install-extension $extension
+
 extension="sysoev.language-stylus"
 code --install-extension $extension
 
