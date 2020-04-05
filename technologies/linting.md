@@ -10,10 +10,31 @@ For a very long time, I struggled to find a formatting and linting setup that I 
 
 ## Stylelint
 
-[Stylelint](https://stylelint.io/) is "a mighty, modern linter that helps you avoid errors and enforce conventions in your styles." I use Stylelint to ensure that the CSS that I write is clean. A couple of additional notes about use of stylelint:
+[Stylelint](https://stylelint.io/) is "a mighty, modern linter that helps you avoid errors and enforce conventions in your styles."
 
-* Stylelint does not fix any of the errors that it finds. We need to rely on other tools to facilitate the fix.
-* I use [Tailwind CSS](https://tailwindcss.com/) as my primary CSS framework. It brings custom directives into play that need to be accounted for within the linting config.
+I use Stylelint to ensure that the CSS that I write is clean. Installation requires little more than an `npm install`. Their [getting started](https://stylelint.io/user-guide/get-started) guide will provide the remaining details.
+
+I use [Tailwind CSS](https://tailwindcss.com/) as my primary CSS framework. It brings custom directives into play that need to be accounted for within the linting config. My `stylelint.config.js` file typically looks something like this:
+
+```bash
+module.exports = {
+  extends: ['stylelint-config-recommended'],
+  rules: {
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+        ],
+      },
+    ]
+  },
+};
+```
 
 ### Resources
 
