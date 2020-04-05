@@ -12,7 +12,7 @@ For a very long time, I struggled to find a formatting and linting setup that I 
 
 [Stylelint](https://stylelint.io/) is "a mighty, modern linter that helps you avoid errors and enforce conventions in your styles."
 
-I use Stylelint to ensure that the CSS that I write is clean. Installation requires little more than an `npm install`. Their [getting started](https://stylelint.io/user-guide/get-started) guide will provide the remaining details.
+I use Stylelint to ensure that the CSS that I write is clean. Installation requires little more than an `npm install`. See their [getting started](https://stylelint.io/user-guide/get-started) guide for details regarding installation and setup.
 
 I use [Tailwind CSS](https://tailwindcss.com/) as my primary CSS framework. It brings custom directives into play that need to be accounted for within the linting config. My `stylelint.config.js` file typically looks something like this:
 
