@@ -32,6 +32,9 @@ code --install-extension $extension
 extension="calebporzio.better-phpunit"
 code --install-extension $extension
 
+extension="christian-kohler.npm-intellisense"
+code --install-extension $extension
+
 extension="DavidAnson.vscode-markdownlint"
 code --install-extension $extension
 
