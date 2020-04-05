@@ -40,8 +40,5 @@ module.exports = {
 
 ### Resources
 
+* **Article:** June 2019 - [Visual Studio Code CSS linting with Tailwind](https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/)
 * **Article:** April 2017 - [Lint your CSS with stylelint](https://css-tricks.com/stylelint/)
-
-## IDE
-
-* [Visual Studio Code CSS linting with Tailwind](https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/)
