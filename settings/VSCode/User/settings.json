@@ -17,6 +17,7 @@
   /**
    * Code Formatting & Linting
    */
+  "css.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -39,10 +40,12 @@
     // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
   },
   "files.trimTrailingWhitespace": true,
+  "less.validate": false,
   "namespaceResolver.sortAlphabetically": true,
   "php-cs-fixer.formatHtml": true,
   "php-cs-fixer.lastDownload": 1584549411260,
   "php-cs-fixer.onsave": true,
+  "scss.validate": false,
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.validation.template": false,
   "[javascript]": {
