@@ -43,7 +43,7 @@
    */
   "css.validate": false,
   /**
-   * Enabling ESLint and Styleline extensions to fix issues during save.
+   * Enable ESLint and Styleline extensions to fix issues during save.
    */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -78,7 +78,7 @@
     "vue-html"
   ],
   /**
-   * Adding PHP support for PHP CS Fixer configuration files.
+   * Add PHP support for PHP CS Fixer configuration files.
    */
   "files.associations": {
     ".php_cs": "php",
