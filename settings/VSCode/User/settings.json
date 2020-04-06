@@ -1,22 +1,43 @@
 {
-  /**
-   * Sublime Settings - Added by the "Sublime Text Keymap and Settings Importer" extension
-   */
+  /*
+  |--------------------------------------------------------------------------
+  | Sublime Settings
+  |--------------------------------------------------------------------------
+  |
+  | The following settings were added by the "Sublime Text Keymap and
+  | Settings Importer" extension and are currently disabled. I am
+  | not yet sure I wish to adopt them.
+  |
+  */
   // "editor.fontFamily": "Fira Code",
   // "editor.multiCursorModifier": "ctrlCmd",
   /**/
   /**/
-  /**
-   * Exploratory - Settings I'm trying out but not sure yet that I want to keep
-   */
+  /**/
+  /*
+  |--------------------------------------------------------------------------
+  | Exploratory
+  |--------------------------------------------------------------------------
+  |
+  | The following settings were also added by the "Sublime Text Keymap and
+  | Settings Importer" extension. I have them enabled and are making sure
+  | that I want to keep them in place before confirming adoption.
+  |
+  */
   "editor.detectIndentation": false,
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
   /**/
   /**/
-  /**
-   * Code Formatting & Linting
-   */
+  /**/
+  /*
+  |--------------------------------------------------------------------------
+  | Code Formatting & Linting
+  |--------------------------------------------------------------------------
+  |
+  | The following settings govern how files will be formatted and linted.
+  |
+  */
   "css.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -70,9 +91,17 @@
   },
   /**/
   /**/
-  /**
-   * Editor Configuration
-   */
+  /**/
+  /*
+  |--------------------------------------------------------------------------
+  | Editor Configuration
+  |--------------------------------------------------------------------------
+  |
+  | The following settings govern how VS Code operates. While the code
+  | formatting and linting settings above may be shared with project
+  | teams, the settings below are entirely personal preference.
+  |
+  */
   "advancedNewFile.convenienceOptions": [
     "current",
     "last",
