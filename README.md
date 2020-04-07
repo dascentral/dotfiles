@@ -179,3 +179,9 @@ sudo spctl --master-disable
 ```
 
 If you run this command, be sure to only open software from sources that you trust.
+
+## Printers
+
+Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
+
+[https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
