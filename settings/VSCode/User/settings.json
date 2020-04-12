@@ -43,7 +43,7 @@
    */
   "css.validate": false,
   /**
-   * Enable ESLint and Styleline extensions to fix issues during save.
+   * Enable ESLint and Stylelint extensions to fix issues during save.
    */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
