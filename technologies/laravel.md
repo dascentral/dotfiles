@@ -261,6 +261,7 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 * [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
 * [davejamesmiller/laravel-breadcrumbs](https://laravel-news.com/laravel-breadcrumbs-package/)
 * [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) - Find exactly where a query is being called in your app
+* [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
