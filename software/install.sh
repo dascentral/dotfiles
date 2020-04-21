@@ -246,6 +246,18 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# ImageOptim
+app="imageoptim"
+name="ImageOptim"
+check="/Applications/ImageOptim.app"
+url="https://imageoptim.com/mac"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
 # iTerm2
 app="iterm2"
 name="iTerm2"
