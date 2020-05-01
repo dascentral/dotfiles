@@ -180,6 +180,7 @@ Form requests are custom request classes that contain validation logic.
 ### Continuous Integration
 
 * **Article:** Oct 2019 - [A github CI workflow tailored to modern PHP applications](https://ma.ttias.be/a-github-ci-workflow-tailored-to-laravel-applications/)
+* **Article:** March 2019 - [Test and deploy Laravel applications with GitLab CI/CD and Envoy](https://docs.gitlab.com/ee/ci/examples/laravel_with_gitlab_and_envoy/)
 * **Article:** Dec 2018 - [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
 * **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
 
