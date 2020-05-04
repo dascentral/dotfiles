@@ -15,6 +15,7 @@ You have an infinite number of ways to customize VS Code. My setup was heavily i
 * [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
 * [My VS Code Setup](https://calebporzio.com/my-vs-code-setup-2) - by Caleb Porzio - Dec 2017
 * [The best setting.json for PHP development with Visual Studio Code](https://dev.to/ryanmccullagh/the-best-setting-json-for-php-development-with-visual-studio-code-4agc) - Dec 2019
+* [20 VS Code Shortcuts for Faster Coding](https://medium.com/better-programming/20-vs-code-shortcuts-for-fast-coding-cheatsheet-10b0e72fd5d) - Nov 2019
 
 ## Extensions
 
