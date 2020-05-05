@@ -1,317 +1,317 @@
 {
-	"Constructor": {
-		"prefix": "const",
-		"body": [
-			"/**",
-			" * Create a new instance of this class.",
-			" *",
-			" * @param  $1",
-			" * @return void",
-			" */",
-			"public function __construct($1)",
-			"{",
-			"    $2",
-			"}",
-			""
-		],
-		"description": "Constructor"
-	},
-	"Laravel Accessor": {
-		"prefix": "accessor",
-		"body": [
-			"/**",
-			" * Create a \"$1\" attribute.",
-			" *",
-			" * @return $2",
-			" */",
-			"public function get$3Attribute()",
-			"{",
-			"    return $4",
-			"}",
-			""
-		],
-		"description": "Laravel accessor"
-	},
-	"Laravel Gate": {
-		"prefix": "gate",
-		"body": [
-			"Gate::define('$1', function (\\$user) {",
-			"    return in_array(\\$user->username, [$2]);",
-			"});"
-		],
-		"description": "Laravel Gate"
-	},
-	"Laravel Mutator": {
-		"prefix": "mutator",
-		"body": [
-			"/**",
-			" * Set the \"$1\" attribute.",
-			" *",
-			" * @return void",
-			" */",
-			"public function set$2Attribute($value)",
-			"{",
-			"    \\$this->attributes['$1'] = $3",
-			"}",
-			""
-		],
-		"description": "Laravel mutator"
-	},
-	"Laravel Scope Query": {
-		"prefix": "scope",
-		"body": [
-			"/**",
-			" * Filter only the items that $1",
-			" *",
-			" * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
-			" * @return \\Illuminate\\Database\\Eloquent\\Builder",
-			" */",
-			"public function scope$2(\\$query)",
-			"{",
-			"    return \\$query->where($3);",
-			"}",
-			""
-		],
-		"description": "Laravel scope query"
-	},
-	"PHP Protected Method": {
-		"prefix": "pmet",
-		"body": [
-			"/**",
-			" * $2",
-			" *",
-			" * @param  $4",
-			" * @return $3",
-			" */",
-			"protected function $1($5)",
-			"{",
-			"    $6",
-			"}",
-			""
-		],
-		"description": "PHP protected method"
-	},
-	"PHP Public Method": {
-		"prefix": "met",
-		"body": [
-			"/**",
-			" * $2",
-			" *",
-			" * @param  $4",
-			" * @return $3",
-			" */",
-			"public function $1($5)",
-			"{",
-			"    $6",
-			"}",
-			""
-		],
-		"description": "PHP protected method"
-	},
-	"PHP Protected Member Variable": {
-		"prefix": "pvar",
-		"body": [
-			"/**",
-			" * $3",
-			" *",
-			" * @var $1",
-			" */",
-			"protected $2;",
-			""
-		],
-		"description": "PHP private member variable"
-	},
-	"Laravel BelongsTo Relationship": {
-		"prefix": "belongsto",
-		"body": [
-			"/**",
-			" * A $1 belongs to a $2.",
-			" */",
-			"public function $3()",
-			"{",
-			"    return \\$this->belongsTo(\\App\\Models\\\\$4::class);",
-			"}",
-			""
-		],
-		"description": "Laravel \"hasOne\" Relationship"
-	},
-	"Laravel HasMany Relationship": {
-		"prefix": "hasmany",
-		"body": [
-			"/**",
-			" * A $1 has many $2.",
-			" */",
-			"public function $3()",
-			"{",
-			"    return \\$this->hasMany(\\App\\Models\\\\$4::class);",
-			"}",
-			""
-		],
-		"description": "Laravel \"hasMany\" Relationship"
-	},
-	"Laravel HasOne Relationship": {
-		"prefix": "hasone",
-		"body": [
-			"/**",
-			" * A $1 has one $2.",
-			" */",
-			"public function $3()",
-			"{",
-			"    return \\$this->hasOne(\\App\\Models\\\\$4::class);",
-			"}",
-			""
-		],
-		"description": "Laravel \"hasOne\" Relationship"
-	},
-	"PHPUnit Test": {
-		"prefix": "test",
-		"body": [
-			"/** @test */",
-			"public function it_$1()",
-			"{",
-			"    $2",
-			"}",
-			""
-		],
-		"description": "PHPUnit Test"
-	},
-	"docblock": {
-		"prefix": "docblock",
-		"body": [
-			"/**",
-			" * $1",
-			" *",
-			" * @param  $3",
-			" * @return $2",
-			" */"
-		],
-		"description": "DocBlock"
-	},
-	"Laravel Model": {
-		"prefix": "model",
-		"body": [
-			"    /**",
-			"     * The custom name for the \"created_at\" column.",
-			"     *",
-			"     * @var string",
-			"     */",
-			"    const CREATED_AT = 'date_created';",
-			"",
-			"    /**",
-			"     * The custom name for the \"updated_at\" column.",
-			"     *",
-			"     * @var string",
-			"     */",
-			"    const UPDATED_AT = 'last_updated';",
-			"",
-			"    /**",
-			"     * The attributes that are not mass assignable.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected \\$guarded = ['id', 'date_created', 'last_updated'];",
-			"",
-			"    /**",
-			"     * The attributes that should be mutated to dates.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected \\$dates = ['date_created', 'last_updated'];",
-			"",
-			"    /**",
-			"     * The attributes that should be cast to native types.",
-			"     *",
-			"     * @var array",
-			"     */",
-			"    protected \\$casts = [",
-			"        'id' => 'integer',",
-			"    ];",
-			""
-		],
-		"description": "Typical configuration for a Laravel model"
-	},
-	"Laravel Foreign Key": {
-		"prefix": "fk",
-		"body": [
-			"\\$table->foreign('$1')->references('id')->on('$2')->onDelete('cascade')->onUpdate('cascade');"
-		],
-		"description": "Foreign key constraint"
-	},
-	"Laravel Model Casts": {
-		"prefix": "casts",
-		"body": [
-			"/**",
-			" * Model Casts",
-			" */",
-			"protected \\$casts = [",
-			"    $1",
-			"];",
-			""
-		],
-		"description": "Laravel model $casts array"
-	},
-	"Laravel Model Cache Key": {
-		"prefix": "cachekey",
-		"body": [
-			"/**",
-			" * Gerneate a custom cache key for this model.",
-			" *",
-			" * @return string",
-			" */",
-			"public function cacheKey()",
-			"{",
-			"    return sprintf('%s:%s:%s', \\$this->getTable(), \\$this->getKey(), \\$this->updated_at->timestamp);",
-			"}"
-		],
-		"description": "Laravel Model Cache Key"
-	},
-	"Laravel Index Method": {
-		"prefix": "index",
-		"body": [
-			"/**",
-			" * Display a listing of the resource.",
-			" *",
-			" * @return \\Illuminate\\Http\\Response",
-			" */",
-			"public function index()",
-			"{",
-			"    $1",
-			"}",
-			""
-		],
-		"description": "index() method for a Laravel controller"
-	},
-	"Laravel Factory State": {
-		"prefix": "state",
-		"body": [
-			"\\$factory->state(App\\Models\\$1::class, '$2', function (\\$faker) {",
-			"    return [",
-			"        $3",
-			"    ];",
-			"});",
-			""
-		],
-		"description": "Laravel Factory State"
-	},
-	"Laravel Eloquent guarded attribute": {
-		"prefix": "guarded",
-		"body": [
-			"/**",
-			" * The attributes that are NOT mass assignable.",
-			" *",
-			" * @var array",
-			" */",
-			"protected \\$guarded = ['id', 'date_created', 'last_updated'];",
-			""
-		],
-		"description": "Eloquent guarded attribute"
-	},
-	"Laravel Timestamp Replacements": {
-		"prefix": "timestamps",
-		"body": [
-			"\\$table->timestamp('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));",
-			"\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
-		],
-		"description": "Replaces Laravel default timestamp fields with my preferred columns."
-	}
+    "Constructor": {
+        "prefix": "const",
+        "body": [
+            "/**",
+            " * Create a new instance of this class.",
+            " *",
+            " * @param  $1",
+            " * @return void",
+            " */",
+            "public function __construct($1)",
+            "{",
+            "    $2",
+            "}",
+            ""
+        ],
+        "description": "Constructor"
+    },
+    "Laravel Accessor": {
+        "prefix": "accessor",
+        "body": [
+            "/**",
+            " * Create a \"$1\" attribute.",
+            " *",
+            " * @return $2",
+            " */",
+            "public function get$3Attribute()",
+            "{",
+            "    return $4",
+            "}",
+            ""
+        ],
+        "description": "Laravel accessor"
+    },
+    "Laravel Gate": {
+        "prefix": "gate",
+        "body": [
+            "Gate::define('$1', function (\\$user) {",
+            "    return in_array(\\$user->username, [$2]);",
+            "});"
+        ],
+        "description": "Laravel Gate"
+    },
+    "Laravel Mutator": {
+        "prefix": "mutator",
+        "body": [
+            "/**",
+            " * Set the \"$1\" attribute.",
+            " *",
+            " * @return void",
+            " */",
+            "public function set$2Attribute($value)",
+            "{",
+            "    \\$this->attributes['$1'] = $3",
+            "}",
+            ""
+        ],
+        "description": "Laravel mutator"
+    },
+    "Laravel Scope Query": {
+        "prefix": "scope",
+        "body": [
+            "/**",
+            " * Filter only the items that $1",
+            " *",
+            " * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
+            " * @return \\Illuminate\\Database\\Eloquent\\Builder",
+            " */",
+            "public function scope$2(\\$query)",
+            "{",
+            "    return \\$query->where($3);",
+            "}",
+            ""
+        ],
+        "description": "Laravel scope query"
+    },
+    "PHP Protected Method": {
+        "prefix": "pmet",
+        "body": [
+            "/**",
+            " * $2",
+            " *",
+            " * @param  $4",
+            " * @return $3",
+            " */",
+            "protected function $1($5)",
+            "{",
+            "    $6",
+            "}",
+            ""
+        ],
+        "description": "PHP protected method"
+    },
+    "PHP Public Method": {
+        "prefix": "met",
+        "body": [
+            "/**",
+            " * $2",
+            " *",
+            " * @param  $4",
+            " * @return $3",
+            " */",
+            "public function $1($5)",
+            "{",
+            "    $6",
+            "}",
+            ""
+        ],
+        "description": "PHP public method"
+    },
+    "PHP Protected Member Variable": {
+        "prefix": "pvar",
+        "body": [
+            "/**",
+            " * $3",
+            " *",
+            " * @var $1",
+            " */",
+            "protected $2;",
+            ""
+        ],
+        "description": "PHP private member variable"
+    },
+    "Laravel BelongsTo Relationship": {
+        "prefix": "belongsto",
+        "body": [
+            "/**",
+            " * A $1 belongs to a $2.",
+            " */",
+            "public function $3()",
+            "{",
+            "    return \\$this->belongsTo(\\App\\Models\\\\$4::class);",
+            "}",
+            ""
+        ],
+        "description": "Laravel \"hasOne\" Relationship"
+    },
+    "Laravel HasMany Relationship": {
+        "prefix": "hasmany",
+        "body": [
+            "/**",
+            " * A $1 has many $2.",
+            " */",
+            "public function $3()",
+            "{",
+            "    return \\$this->hasMany(\\App\\Models\\\\$4::class);",
+            "}",
+            ""
+        ],
+        "description": "Laravel \"hasMany\" Relationship"
+    },
+    "Laravel HasOne Relationship": {
+        "prefix": "hasone",
+        "body": [
+            "/**",
+            " * A $1 has one $2.",
+            " */",
+            "public function $3()",
+            "{",
+            "    return \\$this->hasOne(\\App\\Models\\\\$4::class);",
+            "}",
+            ""
+        ],
+        "description": "Laravel \"hasOne\" Relationship"
+    },
+    "PHPUnit Test": {
+        "prefix": "test",
+        "body": [
+            "/** @test */",
+            "public function it_$1()",
+            "{",
+            "    $2",
+            "}",
+            ""
+        ],
+        "description": "PHPUnit Test"
+    },
+    "docblock": {
+        "prefix": "docblock",
+        "body": [
+            "/**",
+            " * $1",
+            " *",
+            " * @param  $3",
+            " * @return $2",
+            " */"
+        ],
+        "description": "DocBlock"
+    },
+    "Laravel Model": {
+        "prefix": "model",
+        "body": [
+            "    /**",
+            "     * The custom name for the \"created_at\" column.",
+            "     *",
+            "     * @var string",
+            "     */",
+            "    const CREATED_AT = 'date_created';",
+            "",
+            "    /**",
+            "     * The custom name for the \"updated_at\" column.",
+            "     *",
+            "     * @var string",
+            "     */",
+            "    const UPDATED_AT = 'last_updated';",
+            "",
+            "    /**",
+            "     * The attributes that are not mass assignable.",
+            "     *",
+            "     * @var array",
+            "     */",
+            "    protected \\$guarded = ['id', 'date_created', 'last_updated'];",
+            "",
+            "    /**",
+            "     * The attributes that should be mutated to dates.",
+            "     *",
+            "     * @var array",
+            "     */",
+            "    protected \\$dates = ['date_created', 'last_updated'];",
+            "",
+            "    /**",
+            "     * The attributes that should be cast to native types.",
+            "     *",
+            "     * @var array",
+            "     */",
+            "    protected \\$casts = [",
+            "        'id' => 'integer',",
+            "    ];",
+            ""
+        ],
+        "description": "Typical configuration for a Laravel model"
+    },
+    "Laravel Foreign Key": {
+        "prefix": "fk",
+        "body": [
+            "\\$table->foreign('$1')->references('id')->on('$2')->onDelete('cascade')->onUpdate('cascade');"
+        ],
+        "description": "Foreign key constraint"
+    },
+    "Laravel Model Casts": {
+        "prefix": "casts",
+        "body": [
+            "/**",
+            " * Model Casts",
+            " */",
+            "protected \\$casts = [",
+            "    $1",
+            "];",
+            ""
+        ],
+        "description": "Laravel model $casts array"
+    },
+    "Laravel Model Cache Key": {
+        "prefix": "cachekey",
+        "body": [
+            "/**",
+            " * Gerneate a custom cache key for this model.",
+            " *",
+            " * @return string",
+            " */",
+            "public function cacheKey()",
+            "{",
+            "    return sprintf('%s:%s:%s', \\$this->getTable(), \\$this->getKey(), \\$this->updated_at->timestamp);",
+            "}"
+        ],
+        "description": "Laravel Model Cache Key"
+    },
+    "Laravel Index Method": {
+        "prefix": "index",
+        "body": [
+            "/**",
+            " * Display a listing of the resource.",
+            " *",
+            " * @return \\Illuminate\\Http\\Response",
+            " */",
+            "public function index()",
+            "{",
+            "    $1",
+            "}",
+            ""
+        ],
+        "description": "index() method for a Laravel controller"
+    },
+    "Laravel Factory State": {
+        "prefix": "state",
+        "body": [
+            "\\$factory->state(App\\Models\\$1::class, '$2', function (\\$faker) {",
+            "    return [",
+            "        $3",
+            "    ];",
+            "});",
+            ""
+        ],
+        "description": "Laravel Factory State"
+    },
+    "Laravel Eloquent guarded attribute": {
+        "prefix": "guarded",
+        "body": [
+            "/**",
+            " * The attributes that are NOT mass assignable.",
+            " *",
+            " * @var array",
+            " */",
+            "protected \\$guarded = ['id', 'date_created', 'last_updated'];",
+            ""
+        ],
+        "description": "Eloquent guarded attribute"
+    },
+    "Laravel Timestamp Replacements": {
+        "prefix": "timestamps",
+        "body": [
+            "\\$table->timestamp('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));",
+            "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
+        ],
+        "description": "Replaces Laravel default timestamp fields with my preferred columns."
+    }
 }
