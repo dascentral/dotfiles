@@ -113,7 +113,6 @@ alias tnge='tail -f /usr/local/var/log/nginx/error.log'
 #------------------------------------------------------------------------------------------
 alias nrd='npm run dev'
 alias nrp='npm run production'
-alias watch='npm run watch'
 
 
 #------------------------------------------------------------------------------------------
