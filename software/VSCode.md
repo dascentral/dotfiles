@@ -72,8 +72,6 @@ code --install-extension [publisher.extension]
 * [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) - My current favorite
 * [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
 
-`Command-K + Command-T` will pop the theme selection window.
-
 ### Exploratory
 
 I have not yet installed these extensions (or they are disabled) but I feel they are worth tracking:
