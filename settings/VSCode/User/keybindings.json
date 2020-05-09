@@ -7,6 +7,11 @@
     "key": "shift+cmd+t",
     "command": "better-phpunit.run-file"
   },
+  // Used for code folding
+  {
+    "key": "cmd+k cmd+f",
+    "command": "-better-phpunit.run-file"
+  },
   {
     "key": "ctrl+cmd+g",
     "command": "editor.action.selectHighlights",
@@ -16,6 +21,11 @@
     "key": "alt+enter",
     "command": "editor.action.showContextMenu",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
   },
   {
     "key": "cmd+l",
