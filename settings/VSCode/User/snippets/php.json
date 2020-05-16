@@ -298,7 +298,7 @@
     "Laravel Factory State": {
         "prefix": "state",
         "body": [
-            "\\$factory->state(App\\Models\\$1::class, '$2', function (\\$faker) {",
+            "\\$factory->state($1::class, '$2', function (\\$faker) {",
             "    return [",
             "        $3",
             "    ];",
