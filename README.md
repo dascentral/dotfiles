@@ -24,6 +24,7 @@ The following articles and repositories may provide inspiration as you setup you
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) - Great for mac
+* [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
 ## Software Installation
