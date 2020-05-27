@@ -74,6 +74,7 @@ alias bsr='brew services restart'
 # Laravel
 #------------------------------------------------------------------------------------------
 alias artisan='php artisan'
+alias cda='composer dump-autoload'
 alias cll='cat storage/logs/laravel.log'
 alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
