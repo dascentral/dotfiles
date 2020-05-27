@@ -10,23 +10,31 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 ## Training Resources
 
-### Recommended
+### Highly Recommended
+
+I have completed these courses and feel you should definitely check them out.
 
 * [Laracasts](https://laracasts.com) - Basically, everything on this site
 * [Test Driven Laravel](https://course.testdrivenlaravel.com/) - by [Adam Wathan](https://twitter.com/adamwathan)
 
+### Also Recommended
+
+While I have not personally explored these courses, they are produced by highly reputable sources or seem well regarded within the community.
+
+* [Confident Laravel](https://confidentlaravel.com/) - More on testing by [Jason McCreary](https://twitter.com/gonedark)
+* [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
+* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - by [Jonathan Reinink](https://twitter.com/reinink)
+* [Laravel Core Adventures](https://laravelcoreadventures.com) - by [Christoph Rumpel](https://twitter.com/christophrumpel)
+* [Laravel Daily](https://laraveldaily.teachable.com/courses) - by [Povilas Korop](https://twitter.com/PovilasKorop)
+* [Laravel Package Training](https://laravelpackage.training/) - by [Spatie](https://spatie.be/)
+* [Laravel Secrets](https://laravelsecrets.com/) - by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
+* [Mailcoach](https://mailcoach.app/video-course) - by [Spatie](https://spatie.be/)
+
 ### Others
 
-I have not personally explored these but they seem well regarded within the community.
+I have not yet audited these courses and they are published by people that I am not familiar with. They may or may not be any good.
 
-* [Confident Laravel](https://confidentlaravel.com/) - More on testing
-* [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies
 * [Eloquent by Example](https://eloquentbyexample.com)
-* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/)
-* [Laravel Core Adventures](https://laravelcoreadventures.com)
-* [Laravel Daily](https://laraveldaily.teachable.com/courses)
-* [Laravel Secrets](https://laravelsecrets.com/)
-* [Mailcoach](https://mailcoach.app/video-course)
 * [Single-Page Laravel](https://singlepagelaravel.com)
 
 ## Design Patterns
