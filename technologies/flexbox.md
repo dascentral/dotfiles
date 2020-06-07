@@ -10,7 +10,11 @@
 
 ### flex
 
-The **flex** shorthand property consists of **flex-grow**, **flex-shrink**, and **flex-basis**. The following code would set the **flex-grow** property to `2`, **flex-shrink** to `1` and **flex-basis** to `auto`.
+The **flex** shorthand property consists of **flex-grow**, **flex-shrink**, and **flex-basis**. The following code would set:
+
+* **flex-grow** to `2`
+* **flex-shrink** to `1`
+* **flex-basis** to `auto`
 
 ```css
 .item {
