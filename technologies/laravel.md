@@ -51,13 +51,15 @@ I primarily use this pattern to facilitate caching within my Laravel application
 
 ### Refactoring to Actions
 
-* [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
+Refactoring to Actions is an pattern introduced by our friends at [Spatie](https://spatie.be) that helps you keep your controllers and models skinny. Read their blog post for an in-depth introduction.
+
+* **Article:** June 2019 - [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
 
 ### View Models
 
-A view model class is designed to house the complex logic of your views and clean up view-related logic from controllers.
+A view model class is designed to house the complex logic of your views and reduce view-related logic within controllers.
 
-* [Laravel Beyond CRUD](https://stitcher.io/blog/laravel-beyond-crud-08-view-models) - Chapter 8 - View models
+* **Article:** Dec 2019 - [Laravel Beyond CRUD](https://stitcher.io/blog/laravel-beyond-crud-08-view-models) - Chapter 8 - View models
 * **Article:** Sept 2018 - [Laravel View Models](https://laravel-news.com/laravel-view-models) - via Laravel News
 
 ### Caching Strategies
