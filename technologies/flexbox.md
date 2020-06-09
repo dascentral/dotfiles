@@ -36,9 +36,9 @@ The **flex** shorthand property consists of **flex-grow**, **flex-shrink**, and 
 
 "Positive free space" exists when the combined width of the flex items is *less* than the width of the flex container.
 
+* **flex-grow** has a default value of `0` which means the item will NOT grow
 * If all items have the same **flex-grow** value, the space will be distributed evenly. You typically use a value of `1` for all items in this scenario.
 * The value is a ratio so it can be `88`, `100`, `1.2`, etc.
-* Setting a value of `0` will prevent the item from growing
 
 ### flex-shrink
 
@@ -46,6 +46,7 @@ As you might expect, **flex-shrink** specifies the *flex shrink factor* which de
 
 "Negative free space" exists when the combined width of the flex items is *more* than the width of the flex container and the items would extend beyond the bounds of the container.
 
+* **flex-shrink** has a default value of `1` which means items will shrink by default
 * If all items have the same **flex-shrink** value, the space will shrink by the same amount. You typically use a value of `1` for all items in this scenario.
 * The value is a ratio so it can be `88`, `100`, `1.2`, etc.
 
