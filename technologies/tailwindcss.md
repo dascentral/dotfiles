@@ -10,7 +10,7 @@
 
 The Tailwind CSS website lists a [series of screencasts](https://tailwindcss.com/screencasts/) that will show you a lot of what you need to know about how to use Tailwind CSS.
 
-## Templates
+## Components & Templates
 
 ### TailwindUI
 
@@ -23,6 +23,10 @@ Open source starter templates and components, a plugins directory and useful too
 ### Workcation
 
 Demo site created entirely with TailwindCSS by one of the framework's creators, Adam Wathan. [https://workcation.netlify.com/](https://workcation.netlify.com/)
+
+### Alptail
+
+Tailwind UI will be updated later this year to add interactivity via JavaScript. Until that happens, [Alptail](https://www.alptail.com/) serves as a collection of open source UI components, using [Tailwind CSS](https://tailwindcss.com/) and [Alpine.js](https://github.com/alpinejs/alpine).
 
 ## Linting
 
