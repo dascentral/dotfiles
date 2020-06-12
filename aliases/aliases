@@ -61,7 +61,8 @@ alias repush='git pull --rebase && git push'
 # HubFlow
 #------------------------------------------------------------------------------------------
 alias hff='git hf release finish'
-alias hfs='git hf release start'
+alias ff='git hf feature finish'
+alias fs='git hf feature start'
 
 
 #------------------------------------------------------------------------------------------
