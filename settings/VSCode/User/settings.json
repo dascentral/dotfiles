@@ -196,6 +196,8 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.codeLens.enabled": false,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
   "importCost.typescriptExtensions": [
     "\\.vue$"
   ],
