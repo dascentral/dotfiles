@@ -17,16 +17,21 @@ I have completed these courses and feel you should definitely check them out.
 * [Laracasts](https://laracasts.com) - Basically, everything on this site
 * [Test Driven Laravel](https://course.testdrivenlaravel.com/) - by [Adam Wathan](https://twitter.com/adamwathan)
 
+### Can't Wait to Try
+
+I am completely backlogged on content. Once I get caught up, I am anxious to try out the following:
+
+* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - by [Jonathan Reinink](https://twitter.com/reinink)
+* [Laravel Package Training](https://laravelpackage.training/) - by [Spatie](https://spatie.be/)
+
 ### Also Recommended
 
 While I have not personally explored these courses, they are produced by highly reputable sources or seem well regarded within the community.
 
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing by [Jason McCreary](https://twitter.com/gonedark)
 * [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
-* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - by [Jonathan Reinink](https://twitter.com/reinink)
 * [Laravel Core Adventures](https://laravelcoreadventures.com) - by [Christoph Rumpel](https://twitter.com/christophrumpel)
 * [Laravel Daily](https://laraveldaily.teachable.com/courses) - by [Povilas Korop](https://twitter.com/PovilasKorop)
-* [Laravel Package Training](https://laravelpackage.training/) - by [Spatie](https://spatie.be/)
 * [Laravel Secrets](https://laravelsecrets.com/) - by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
 * [Mailcoach](https://mailcoach.app/video-course) - by [Spatie](https://spatie.be/)
 
@@ -272,7 +277,7 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 * [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
 * [davejamesmiller/laravel-breadcrumbs](https://laravel-news.com/laravel-breadcrumbs-package/)
 * [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) - Find exactly where a query is being called in your app
-* [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application
+* [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application. Brief article available on [Laravel News](https://laravel-news.com/laravel-timezone).
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
