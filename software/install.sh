@@ -283,15 +283,15 @@ fi
 
 
 # MacDown
-app="macdown"
-name="MacDown"
-check="/Applications/MacDown.app"
-url="https://macdown.uranusjr.com"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    brew cask install $app
-    printf "\n\n"
-fi
+#app="macdown"
+#name="MacDown"
+#check="/Applications/MacDown.app"
+#url="https://macdown.uranusjr.com"
+#if [ ! -e "$check" ]; then
+#    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+#    brew cask install $app
+#    printf "\n\n"
+#fi
 
 
 # Postman
@@ -419,6 +419,18 @@ app="tower"
 name="Tower"
 check="/Applications/Tower.app"
 url="https://www.git-tower.com/mac"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
+# Tower
+app="typora"
+name="Typora"
+check="/Applications/Typora.app"
+url="https://typora.io"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name - $url\033[0m\n"
     brew cask install $app
