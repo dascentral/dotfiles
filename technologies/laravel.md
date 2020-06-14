@@ -275,6 +275,7 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 * [antonioribeiro/countries](https://github.com/antonioribeiro/countries) - Database of countries and host of information beyond that
 * [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
 * [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
+* [beyondcode/laravel-credentials](https://github.com/beyondcode/laravel-credentials) - Add encrypted credentials to your Laravel production environment. Expanded introduction available on [Laravel News](https://laravel-news.com/laravel-encrypted-credentials).
 * [davejamesmiller/laravel-breadcrumbs](https://laravel-news.com/laravel-breadcrumbs-package/)
 * [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) - Find exactly where a query is being called in your app
 * [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application. Brief article available on [Laravel News](https://laravel-news.com/laravel-timezone).
