@@ -59,6 +59,9 @@ code --install-extension $extension
 extension="mikestead.dotenv"
 code --install-extension $extension
 
+extension="mohamedbenhida.laravel-intellisense"
+code --install-extension $extension
+
 extension="ms-azuretools.vscode-docker"
 code --install-extension $extension
 
