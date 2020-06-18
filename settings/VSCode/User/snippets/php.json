@@ -20,7 +20,7 @@
         "prefix": "accessor",
         "body": [
             "/**",
-            " * Create a \"$1\" attribute.",
+            " * Create the \"$1\" attribute.",
             " *",
             " * @return $2",
             " */",
@@ -329,5 +329,12 @@
             "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
         ],
         "description": "Replaces Laravel default timestamp fields with my preferred columns."
+    },
+    "Laravel Collection": {
+        "prefix": "isc",
+        "body": [
+            "\\Illuminate\\Support\\Collection"
+        ],
+        "description": "Outputs namespace for the Laravel Collection"
     }
 }
