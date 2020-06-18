@@ -246,6 +246,18 @@ if [ ! -e "$check" ]; then
 fi
 
 
+# Grammarly
+app="grammarly"
+name="Grammarly"
+check="/Applications/Grammarly.app"
+url="https://www.grammarly.com/"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name - $url\033[0m\n"
+    brew cask install $app
+    printf "\n\n"
+fi
+
+
 # ImageOptim
 app="imageoptim"
 name="ImageOptim"
