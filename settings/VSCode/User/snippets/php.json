@@ -49,7 +49,7 @@
             " *",
             " * @return void",
             " */",
-            "public function set$2Attribute($value)",
+            "public function set$2Attribute(\\$value)",
             "{",
             "    \\$this->attributes['$1'] = $3",
             "}",
