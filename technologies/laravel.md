@@ -183,6 +183,7 @@ Form requests are custom request classes that contain validation logic.
 #### SNS - Simple Notification Service - Events
 
 * **Article:** June 2019 - [Laravel SNS Events Package](https://laravel-news.com/laravel-sns-events-package)
+* **Tutorial:** June 2020 - [Send SMS With Amazon SNS using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php) - This is really a PHP article but LBH.
 
 ### Cloud Deployments
 
