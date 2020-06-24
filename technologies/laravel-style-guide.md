@@ -29,3 +29,24 @@ In my early Laravel days, I would occasionally populate factory models by queryi
 ```php
 'user_id' => App\Models\User::inRandomOrder()->first()->id,
 ```
+
+## Localization
+
+All system text that may be presented to the user, which might include model accessors that return `string` values, should be passed through the localization engine.
+
+**Good**
+
+```php
+public function getStatusAttribute() {
+    return __('In Progress');
+}
+```
+
+**Bad**
+
+```php
+public function getStatusAttribute() {
+    return 'In Progress';
+}
+```
+
