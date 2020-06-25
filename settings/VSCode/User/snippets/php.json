@@ -336,5 +336,18 @@
             "\\Illuminate\\Support\\Collection"
         ],
         "description": "Outputs namespace for the Laravel Collection"
+    },
+    "Laravel Model dates attributes": {
+        "prefix": "dates",
+        "body": [
+            "/**",
+            " * The attributes that should be mutated to dates.",
+            " *",
+            " * @var array",
+            " */",
+            "protected \\$dates = ['date_created', 'last_updated'];",
+            ""
+        ],
+        "description": "Creates an array to hold the attributes that should be mutated to dates."
     }
 }
