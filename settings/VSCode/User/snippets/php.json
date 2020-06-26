@@ -349,5 +349,31 @@
             ""
         ],
         "description": "Creates an array to hold the attributes that should be mutated to dates."
+    },
+    "Scope query for provided User": {
+        "prefix": "scopeOfUser",
+        "body": [
+            "/**",
+            " * Filter only the items that belong to the provided User.",
+            " *",
+            " * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
+            " * @param  int|\\App\\Models\\User \\$user",
+            " * @return \\Illuminate\\Database\\Eloquent\\Builder \\$query",
+            " */",
+            "public function scopeOfUser(Builder \\$query, \\$user): Builder",
+            "{",
+            "    if (\\$user instanceof User) {",
+            "        return \\$query->where('user_id', \\$user->id);",
+            "    }",
+            "",
+            "    if (is_int(\\$user)) {",
+            "        return \\$query->where('user_id', \\$user);",
+            "    }",
+            "",
+            "    return \\$query;",
+            "}",
+            ""
+        ],
+        "description": "Create a Laravel scope query for items that belong to the provided User"
     }
 }
