@@ -8,7 +8,7 @@ If you are wondering about whether or not to give it a try, give this article a 
 
 Are you a beginning who's ready to get started? Check out [https://omgphp.com](https://omgphp.com) for an index of resources.
 
-## Resources
+## First-Party Resources
 
 ### Exception Handling
 
@@ -17,3 +17,10 @@ Are you a beginning who's ready to get started? Check out [https://omgphp.com](h
 ### Terminal
 
 * **Article:** March 2020 - [Terminal: An Elegant Wrapper around the Symfony Process Component](https://laravel-news.com/terminal-an-elegant-wrapper-around-the-symfony-process-component)
+
+## Extending PHP
+
+### AWS
+
+* **Tutorial:** June 2020 - [Send SMS With Amazon SNS Using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php?ref=laravelnews)
+
