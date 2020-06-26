@@ -80,6 +80,9 @@ code --install-extension $extension
 extension="patbenatar.advanced-new-file"
 code --install-extension $extension
 
+extension="redhat.vscode-yaml"
+code --install-extension $extension
+
 extension="ryannaddy.laravel-artisan"
 code --install-extension $extension
 
