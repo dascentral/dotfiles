@@ -183,6 +183,7 @@ Form requests are custom request classes that contain validation logic.
 #### SNS - Simple Notification Service - Events
 
 * **Article:** June 2019 - [Laravel SNS Events Package](https://laravel-news.com/laravel-sns-events-package)
+* **Tutorial:** June 2020 - [Send SMS With Amazon SNS using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php) - This is really a PHP article but LBH.
 
 ### Cloud Deployments
 
@@ -281,6 +282,7 @@ I have seen these items referenced across various tweets, posts, etc. Worth expl
 * [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application. Brief article available on [Laravel News](https://laravel-news.com/laravel-timezone).
 * [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
 * [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
+* [nunomaduro/larastan](https://github.com/nunomaduro/larastan) - Adds static analysis to Laravel improving developer productivity and code quality
 * [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
 * [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
 * [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
