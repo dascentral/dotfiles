@@ -235,11 +235,15 @@ What I learned from the article above is that the TIMESTAMP field will (behind t
 
 Query the current timezone setting via the following:
 
+```sql
 SELECT @@global.time_zone;
+```
 
 However, that is likely to show you "SYSTEM" which (I think) means it is pulling timezone information from the server. This command will show you the real value:
 
+```sql
 SELECT TIMEDIFF( now(), utc_timestamp() );
+```
 
 When you insert data into a timestamp field, it uses the timezone setting to convert to UTC for storage. So if you insert data in EDT and then change the server timezone, the value returned via query is in the NEW timezone.
 
