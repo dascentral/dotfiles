@@ -14,3 +14,12 @@ function commit() {
     git add .
     eval "git commit -a -m '${commitMessage}'"
 }
+
+# Finish the current HubFlow feature
+#function xff() {
+#  IFS='/' read -r array <<< $(git symbolic-ref -q HEAD)
+#  for element in "${array[@]}"
+#  do
+#    echo "$element"
+#  done
+#}
