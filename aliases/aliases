@@ -49,11 +49,12 @@ alias dv='docker volume ls'
 #------------------------------------------------------------------------------------------
 # Git
 #------------------------------------------------------------------------------------------
-alias ghp="git hf push"
 alias ghu="git hf update"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gs="git status"
 alias nah='git reset HEAD --hard'
+alias pull="git hf pull"
+alias push="git hf push"
 alias repush='git pull --rebase && git push'
 
 
