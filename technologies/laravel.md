@@ -56,7 +56,7 @@ I primarily use this pattern to facilitate caching within my Laravel application
 
 ### Refactoring to Actions
 
-Refactoring to Actions is an pattern introduced by our friends at [Spatie](https://spatie.be) that helps you keep your controllers and models skinny. Read their blog post for an in-depth introduction.
+Refactoring to Actions is a pattern introduced by our friends at [Spatie](https://spatie.be) that helps you keep your controllers and models skinny. Read their blog post for an in-depth introduction.
 
 * **Article:** June 2019 - [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
 
@@ -184,20 +184,19 @@ Form requests are custom request classes that contain validation logic.
 * **Article:** June 2019 - [Laravel SNS Events Package](https://laravel-news.com/laravel-sns-events-package)
 * **Tutorial:** June 2020 - [Send SMS With Amazon SNS using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php) - This is really a PHP article but LBH.
 
-### Cloud Deployments
+### CI/CD
 
-[Laravel Forge](https://forge.laravel.com/) is a service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." While I appreciate the utility and simplicity of that service, my deployments require a more complex cloud hosting setup.
+[Laravel Forge](https://forge.laravel.com/) is a first-party service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." Given the relevance of CI/CD to my day job, my goal has been to understand how to set this up on my own.
 
+* **Article:** March 2020 - [In depth Gitlab CI/CD with Laravel Apps](https://www.talvbansal.me/blog/in-depth-gitlab-ci-cd-with-laravel-apps/)
 * **Article:** May 2019 - [Deploy a Laravel Application to Kubernetes using Gitlab CI](https://itnext.io/deploy-a-laravel-application-to-kubernetes-using-gitlab-ci-2538a6bbd373)
 * **Article:** March 2019 - [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
-* **Article**: Sept 2018 - [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
-
-### Continuous Integration
-
 * **Article:** Oct 2019 - [A github CI workflow tailored to modern PHP applications](https://ma.ttias.be/a-github-ci-workflow-tailored-to-laravel-applications/)
 * **Article:** March 2019 - [Test and deploy Laravel applications with GitLab CI/CD and Envoy](https://docs.gitlab.com/ee/ci/examples/laravel_with_gitlab_and_envoy/)
-* **Article:** Dec 2018 - [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications)
-* **Tutorial:** [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+* **Article:** Dec 2018 - [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications) - from the OhDear blog
+* **Tutorial:** Oct 2018 - [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+* **Article**: Sept 2018 - [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
+* **Article:** June 2018 - [Laravel deployment using GitLab's pipelines](https://lorisleiva.com/laravel-deployment-using-gitlab-pipelines/)
 
 ### Docker
 
