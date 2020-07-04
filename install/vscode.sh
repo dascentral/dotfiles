@@ -10,6 +10,7 @@ declare -a extensions=(
     "dbaeumer.vscode-eslint"
     "eamodio.gitlens"
     "Equinusocio.vsc-material-theme"
+    "Equinusocio.vsc-material-theme-icons"
     "junstyle.php-cs-fixer"
     "lucax88x.codeacejumper"
     "mehedidracula.php-namespace-resolver"
