@@ -127,7 +127,7 @@ I use the following software applications across home and work computers. They m
 I lean heavily on aliases (probably too much) to remember commands and save keystrokes. Aliases are installed via the following command:
 
 ```bash
-./aliases/install.sh
+./install/aliases.sh
 ```
 
 This installation script only copies aliases into place. The file will need to be sourced following installation:
