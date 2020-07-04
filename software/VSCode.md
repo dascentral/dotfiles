@@ -86,7 +86,6 @@ I have not yet installed these extensions (or they are disabled) but I feel they
 * [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
 * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 
 ## Settings Synchronization
 
