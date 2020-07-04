@@ -259,7 +259,6 @@ Laravel provides a number of first party packages that are of significant qualit
 #### require
 
 * [graham-campbell/markdown](https://github.com/GrahamCampbell/Laravel-Markdown) - A CommonMark wrapper for Laravel 5
-* [spatie/laravel-html](https://github.com/spatie/laravel-html) - HTML generator I use for form/model binding
 * [predis/predis](https://github.com/nrk/predis) - A Redis client for PHP however, word on the street is that this package has been abandoned
 
 #### require-dev
