@@ -24,6 +24,20 @@ function mkd() {
     mkdir -p "$@" && cd "$@"
 }
 
+# Output Laravel routes in an abbreviated format
+function routes() {
+    if [ ! -e "artisan" ]; then
+        printf "\033[1;33mYou are not in the root of a Laravel application.\033[0m\n"
+        exit 0;
+    fi
+
+    if [ $# != 1 ]; then
+        php artisan route:list --columns=method,uri,name
+    else
+        php artisan route:list --columns=method,uri,name --name=$1
+    fi
+}
+
 # Finish the current HubFlow feature
 #function xff() {
 #  IFS='/' read -r array <<< $(git symbolic-ref -q HEAD)
