@@ -1,8 +1,3 @@
-# Create a new directory and enter it
-function mkd() {
-    mkdir -p "$@" && cd "$@"
-}
-
 # Commit everything
 function commit() {
     commitMessage="$1"
@@ -13,6 +8,20 @@ function commit() {
 
     git add .
     eval "git commit -a -m '${commitMessage}'"
+}
+
+# Create a new MySQL database
+function createdb() {
+    if [ $# != 1 ]; then
+        echo "Usage: createdb [dbname]";
+    else
+        mysql -u root -e "CREATE DATABASE $1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
+    fi
+}
+
+# Create a new directory and enter it
+function mkd() {
+    mkdir -p "$@" && cd "$@"
 }
 
 # Finish the current HubFlow feature
