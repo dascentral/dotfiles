@@ -6,6 +6,7 @@ if [ -e /Users/${USER}/Library/Application\ Support/Code/User ]; then
     exit 0;
 fi
 
+
 # Ensure we have a user folder
 mkdir /Users/${USER}/Library/Application\ Support/Code/User
 
