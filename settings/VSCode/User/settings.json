@@ -92,6 +92,10 @@
    */
   // "vetur.validation.template": false,
   /**
+   * Use single quotes within YAML documents.
+   */
+  "yaml.format.singleQuote": true,
+  /**
    * Blade files have a tab size of 4.
    */
   "[blade]": {
