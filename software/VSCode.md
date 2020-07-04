@@ -43,6 +43,7 @@ code --install-extension [publisher.extension]
 
 * [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
 * [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+* [laravel intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense)
 
 ### Markdown
 
@@ -63,12 +64,16 @@ code --install-extension [publisher.extension]
 * [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 * [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
 * [NGINX Configure](https://marketplace.visualstudio.com/items?itemName=william-voyek.vscode-nginx)
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+* [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ### Themes
 
 * [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+* [Matrial Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons)
 * [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) - My current favorite
 * [Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
 
