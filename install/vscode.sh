@@ -6,7 +6,7 @@ declare -a extensions=(
     "bradlc.vscode-tailwindcss"
     "calebporzio.better-phpunit"
     "christian-kohler.npm-intellisense"
-    "davidAnson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint"
     "dbaeumer.vscode-eslint"
     "eamodio.gitlens"
     "equinusocio.vsc-material-theme"
