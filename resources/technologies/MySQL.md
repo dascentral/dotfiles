@@ -50,20 +50,13 @@ All of the commands below should be run against the `mysql` database. You should
 
 ### Application Users
 
-```sql
-USE mysql;
-
-GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, REFERENCES, TRIGGER, LOCK TABLES ON `DATABASE`.* TO 'USER'@'localhost' IDENTIFIED BY 'PASSWORD';
-
-FLUSH PRIVILEGES;
-```
-
-### Read-Only Users
-
-To create a user that is just performing a database dump, execute the following:
+I recently began using MySQL 8.0 which has me using a new syntax for application users.
 
 ```sql
-GRANT SELECT, TRIGGER, LOCK TABLES ON *.* TO 'USER'@'localhost' IDENTIFIED BY 'PASSWORD';
+use mysql;
+create user 'user'@'127.0.0.1' identified with mysql_native_password by 'password';
+grant all privileges on `table`.* TO 'use'@'127.0.0.1';
+flush privileges;
 ```
 
 ### Administrative Users
