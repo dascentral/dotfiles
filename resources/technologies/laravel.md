@@ -132,6 +132,10 @@ Form requests are custom request classes that contain validation logic.
 
 * [MarkdownMail](https://markdownmail.com/) - Create Laravel markdown email themes without a Hassle
 
+### Nova
+
+* **Article:** June 2020 - [Abstract resources in Laravel Nova](https://stitcher.io/blog/abstract-resources-in-laravel-nova)
+
 ### Passport
 
 * **Article:** May 2019 - [Testing Passport Authenticated Controllers and Routes in Laravel](https://clubstudio.co.uk/journal/testing-passport-authenticated-controllers-and-routes-in-laravel)
