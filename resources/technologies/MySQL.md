@@ -70,16 +70,26 @@ GRANT ALL PRIVILEGES ON *.* TO '[user]'@'%' IDENTIFIED BY '[pass]' WITH GRANT OP
 
 ## Password Policy
 
-### Show Policy
+**Show Policy**
 
 ```sql
 SHOW VARIABLES LIKE 'validate_password%';
 ```
 
-### Change Policy
+**Change Policy**
 
 ```sql
 SET GLOBAL validate_password_policy=LOW;
+```
+
+## Table Modifications
+
+**Alter column order**
+
+Let's say you want to move a column to a different spot because you feel column order is really important (which it is). You essentially redefine the column and add an `after` clause.
+
+```sql
+ALTER TABLE payments MODIFY transaction_date date NOT NULL AFTER id;
 ```
 
 ## Legacy Content
