@@ -64,8 +64,10 @@ flush privileges;
 These statements will create a user that can do anything from anywhere. Be careful with these.
 
 ```sql
-GRANT ALL PRIVILEGES ON *.* TO '[user]'@'localhost' IDENTIFIED BY '[pass]' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON *.* TO '[user]'@'%' IDENTIFIED BY '[pass]' WITH GRANT OPTION;
+use mysql;
+create user 'user'@'%' identified with mysql_native_password by 'password';
+grant all privileges on *.* TO 'user'@'%';
+flush privileges;
 ```
 
 ## Password Policy
