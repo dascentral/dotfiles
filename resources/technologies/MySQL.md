@@ -4,46 +4,6 @@
 
 MySQL is an open-source relational database management system. [https://www.mysql.com/](https://www.mysql.com/).
 
-## Data Management
-
-### mysqldump
-
-The following script will dump the provided database but it excludes the `CREATE DATABASE` statement.
-
-```bash
-mysqldump -u root databasename > databasename_dump.sql
-```
-
-## Constraints
-
-### Adding FK Constraints
-
-```sql
-ALTER TABLE table1
-ADD CONSTRAINT table1_column1 FOREIGN KEY (column1)
-REFERENCES table2 (column2) ON UPDATE CASCADE ON DELETE CASCADE;
-```
-
-### Unique Constraints
-
-```sql
-ALTER TABLE table1 ADD UNIQUE (column1);
-```
-
-## Triggers
-
-### Set date on insert
-
-```sql
-CREATE TRIGGER table_date_created BEFORE INSERT ON table FOR EACH ROW set NEW.date_created = NOW();
-```
-
-### Update date on update
-
-```sql
-CREATE TRIGGER table_last_updated BEFORE UPDATE ON table FOR EACH ROW set NEW.last_updated = NOW();
-```
-
 ## User Administration
 
 All of the commands below should be run against the `mysql` database. You should execute a `FLUSH PRIVILEGES;` for changes to take affect.
@@ -70,7 +30,7 @@ grant all privileges on *.* TO 'user'@'%';
 flush privileges;
 ```
 
-## Password Policy
+### Password Policy
 
 **Show Policy**
 
@@ -86,12 +46,101 @@ SET GLOBAL validate_password_policy=LOW;
 
 ## Table Modifications
 
+**Adding Columns**
+
+```sql
+ALTER TABLE table_name ADD new_column INT(11) AFTER existing_column;
+ALTER TABLE table_name ADD new_column VARCHAR(255) AFTER existing_column;
+```
+
 **Alter column order**
 
 Let's say you want to move a column to a different spot because you feel column order is really important (which it is). You essentially redefine the column and add an `after` clause.
 
 ```sql
-ALTER TABLE payments MODIFY transaction_date date NOT NULL AFTER id;
+ALTER TABLE table_name MODIFY column date not null AFTER id;
+```
+
+**Create UTF8 Database**
+
+```sql
+CREATE DATABASE name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+**Change Auto_Increment**
+
+```sql
+ALTER TABLE table_name AUTO_INCREMENT = xxx;
+```
+
+## mysqldump
+
+The following script will dump the provided database but it excludes the `CREATE DATABASE` statement.
+
+```bash
+sudo mysqldump databasename > databasename_dump.sql
+```
+
+The following command will export a full database and will **include** the statements necessary to create the database. (CREATE DATABASE / USE dbname) This is the optimal command when backing up and restoring to the same database.
+
+```bash
+sudo mysqldump --databases databasename > databasename_dump.sql
+```
+
+Or, maybe you want to dump the entire contents of your database server:
+
+```bash
+sudo mysqldump --all-databases > full.sql
+```
+
+## Constraints
+
+### Adding FK Constraints
+
+```sql
+ALTER TABLE table1
+ADD CONSTRAINT table1_column1 FOREIGN KEY (column1)
+REFERENCES table2 (column2) ON UPDATE CASCADE ON DELETE CASCADE;
+```
+
+### Unique Constraints
+
+```sql
+ALTER TABLE table1 ADD UNIQUE (column1);
+```
+
+## Triggers
+
+### Definition
+
+**Set timestamp on insert**
+
+```sql
+CREATE TRIGGER table_date_created BEFORE INSERT ON table FOR EACH ROW set NEW.date_created = NOW();
+```
+
+**Set timestamp on update**
+
+```sql
+CREATE TRIGGER table_last_updated BEFORE UPDATE ON table FOR EACH ROW set NEW.last_updated = NOW();
+```
+
+### Importing/Exporting
+
+**Dump trigger definitions into a file**
+
+```bash
+sudo mysqldump --triggers --add-drop-trigger --no-create-info --no-data --no-create-db --skip-opt test > ~/triggers.sql
+```
+
+If you are migrating triggers, you may need to manually edit the `triggers.sql` file and set the `DEFINER` to a user that is appropriate for the server that you are moving to.
+
+**Importing triggers**
+
+This command is the same as most MySQL operations:
+
+```bash
+sudo mysql < ~/triggers.sql
 ```
 
 ## Legacy Content
@@ -99,36 +148,6 @@ ALTER TABLE payments MODIFY transaction_date date NOT NULL AFTER id;
 I need to clean all of this up.
 
 
-
-**Triggers**
-
-**Mass Trigger Update**
-
-1) Dump trigger definitions into a file
-
-mysqldump -u root -p --triggers --add-drop-trigger --no-create-info --no-data --no-create-db --skip-opt test > ~/triggers.sql
-
-2) Open triggers.sql file in your favorite editor and use Find and Replace feature to change DEFINERs. Save updated file.
-
-3) Recreate triggers from the file
-
-mysql < ~/triggers.sql
-
-**Data Administration**
-
-**Dump Full Database**
-
-The following command will export a full database and will include the statements necessary to create the database. (CREATE DATABASE / USE dbname) This is the optimal command when backing up and restoring to the same database.
-
-mysqldump -u [username] -p --databases databasename > databasename_dump.sql
-
- 
-
-**Dump Full Database - without CREATE DATABASE**
-
-The following command will exclude those database creation directives. This is ideal when copying one database into another. (e.g. DEV to STAGE)
-
-mysqldump -u [username] -p databasename > databasename_dump.sql
 
 **Dump All Data**
 
@@ -144,77 +163,13 @@ mysqldump -u root --no-create-info --skip-triggers --no-create-db [database] > ~
 
 mysqldump -u root --no-create-info --skip-triggers --no-create-db [database] [table] > ~/dump.sql
 
-**Restoring From a Data Dump**
-
-Most mysqldump files contain the necessary DROP & CREATE DATABASE statements to start from scratch. The restore syntax from your backup file is as follows:
-
-mysql --user=USER -p < ~/backup.sql
-
-I am currently unclear if DB users previously created can access the new database created by this backup. If you maintain the database, the following syntax will restore to the appropriate database assuming you take out the DROP & CREATE statements...
-
-mysql --user=USER -p DATABASE < ~/backup.sql
-
 **Creating Table Structure Dump**
 
 mysqldump -d -u username -p --databases databasename > ~/databasename_dump.sql
 
-**sqlbackup**
 
-sqlbackup is the backup utility I brought from Mindshare. It's nothing more than an abstraction for the mysqldump command. A cron entry would look like this...
 
-**Backup Syntax**
 
-5 2 * * * /sqlbackup/sqlbackup db user 'pwd' -d /sqlbackup/pools/ -z
-
-**Restore Syntax**
-
-mysql --user=[user] -p --database=[database] < [backup_file]
-
-**Table Manipulation**
-
-**Converting from utf8 to utf8mb4**
-
-https://mathiasbynens.be/notes/mysql-utf8mb4
-
-*# For each database:*
-
-ALTER DATABASE database_name CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
-
-*# For each table:*
-
-ALTER TABLE table_name CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-*# For each column:*
-
-*# (Don’t blindly copy-paste this! The exact statement depends on the column type, maximum length, and other properties. The above line is just an example for a `VARCHAR` column.)*
-
-ALTER TABLE table_name CHANGE column_name column_name VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-**Create UTF8 Database**
-
-CREATE DATABASE dbname CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-**Adding Columns**
-
-ALTER TABLE table_name ADD column_name INT(11) AFTER game_date;
-
-ALTER TABLE table_name ADD date_created DATETIME NOT NULL DEFAULT '0000-00-00';
-
-ALTER TABLE table_name ADD enabled TINYINT(1) UNSIGNED NOT NULL default '1';
-
-ALTER TABLE table_name ADD column_name VARCHAR(255) AFTER column_name;
-
-**Modify a Column**
-
-ALTER TABLE contacts CHANGE name name VARCHAR(80) NOT NULL;
-
-**Change Auto_Increment**
-
-ALTER TABLE table AUTO_INCREMENT = xxx;
-
-**Upgrading**
-
-Prepping for 5.7 - https://www.digitalocean.com/community/tutorials/how-to-prepare-for-your-mysql-5-7-upgrade
 
 **Timezones**
 
