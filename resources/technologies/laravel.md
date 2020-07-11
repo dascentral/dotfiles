@@ -31,6 +31,7 @@ While I have not personally explored these courses, they are produced by highly 
 * [Confident Laravel](https://confidentlaravel.com/) - More on testing by [Jason McCreary](https://twitter.com/gonedark)
 * [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
 * [Laravel Core Adventures](https://laravelcoreadventures.com) - by [Christoph Rumpel](https://twitter.com/christophrumpel)
+* [Laravel Beyond CRUD](https://laravel-beyond-crud.com/) - by [Spatie](https://spatie.be/)
 * [Laravel Daily](https://laraveldaily.teachable.com/courses) - by [Povilas Korop](https://twitter.com/PovilasKorop)
 * [Laravel Secrets](https://laravelsecrets.com/) - by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
 * [Mailcoach](https://mailcoach.app/video-course) - by [Spatie](https://spatie.be/)
