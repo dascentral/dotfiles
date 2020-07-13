@@ -10,6 +10,19 @@ function commit() {
     eval "git commit -a -m '${commitMessage}'"
 }
 
+# Commit everything and push
+function commitp() {
+    commitMessage="$1"
+
+    if [ "$commitMessage" = "" ]; then
+        commitMessage="WIP"
+    fi
+
+    git add .
+    eval "git commit -a -m '${commitMessage}'"
+    git hf push
+}
+
 # Create a new MySQL database
 function createdb() {
     if [ $# != 1 ]; then
