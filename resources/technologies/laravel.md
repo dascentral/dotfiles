@@ -161,6 +161,13 @@ Form requests are custom request classes that contain validation logic.
 * **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
 * **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) - A split of the spatie/laravel-mailcoach tests
 
+### URL Generation
+
+Laravel provides several helpers to assist you in generating URLs for  your application. These are mainly helpful when building links in your templates and API responses, or when generating redirect responses to  another part of your application.
+
+* **Laravel Docs:** [https://laravel.com/docs/master/urls](https://laravel.com/docs/master/urls)
+* **Article:** July 2020 - [Using Laravel's signed URLs to add action links to emails](https://freek.dev/1713-adding-action-links-to-oh-dear-email-notifications)
+
 ### Validation
 
 * **Article:** April 2019 - [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
