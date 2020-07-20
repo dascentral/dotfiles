@@ -135,6 +135,46 @@ cd /Users/${USER} && rm -rf .valet
 cd /Users/${USER}/.config && rm -rf valet
 ```
 
+### Log Craziness
+
+At one point on both my work and local machines, I randomly ran out of hard disk space. I identified the culprit as a 35 GB PHP FPM log file located here:
+
+```bash
+/usr/local/var/log/php-fpm.log
+```
+
+Within that file, I was seeing the following errors repeated:
+
+```bash
+NOTICE: [pool valet] 'user' directive is ignored when FPM is not running as root
+NOTICE: [pool valet] 'user' directive is ignored when FPM is not running as root
+NOTICE: [pool valet] 'group' directive is ignored when FPM is not running as root
+NOTICE: [pool valet] 'group' directive is ignored when FPM is not running as root
+NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+ERROR: Another FPM instance seems to already listen on /Users/user/.config/valet/valet.sock
+ERROR: Another FPM instance seems to already listen on /Users/user/.config/valet/valet.sock
+ERROR: FPM initialization failed
+ERROR: FPM initialization failed
+```
+
+Thanks to Google, I found two fixes.
+
+The first was solved by reading through [this issue](https://github.com/laravel/valet/issues/305) in the Laravel Valet GitHub repository and then ensuring that the `root` user owns the Nginx plist.
+
+```bash
+sudo chown root /usr/local/Cellar/nginx/1.19.1/homebrew.mxcl.nginx.plist
+valet restart
+```
+
+You'll want to replace `1.19.1` with your current version of Nginx. That fix resolved all NOTICE entries.
+
+
+
+
+
 ## Resources
 
 * [Adam Watham Troubleshooting Guide](https://gist.github.com/adamwathan/6ea40e90a804ea2b3f9f24146d86ad7f)
