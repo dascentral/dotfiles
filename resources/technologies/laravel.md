@@ -146,20 +146,25 @@ Form requests are custom request classes that contain validation logic.
 
 * **Article:** April 2018 - [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
 
+### Task Scheduling
+
+* **Laravel Docs:** https://laravel.com/docs/master/scheduling
+* **Article:** July 2020 — [Introducing Laravel Schedule Monitor](https://freek.dev/1711-introducing-laravel-schedule-monitor)
+
 ### Testing
 
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
-* **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) - Online course by Adam Wathan
-* **Article:** Aug 2019 - [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
-* **Article:** July 2019 - [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
-* **Article:** June 2018 - [Going Deeper with Factories Through Factory States](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
-* **Article:** May 2018 - [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) - Great walk through of auth testing basics
-* **Article:** March 2018 - [Testing Vue components with Laravel Dusk](https://laravel-news.com/testing-vue-components-with-laravel-dusk)
-* **Article:** Oct 2017 - [Continuous Testing Dashboard for Laravel](https://laravel-news.com/testing-dashboard)
-* **Article:** Sept 2017 - [A Roundup of Laravel Testing Resources and Packages](https://laravel-news.com/laravel-testing-resources)
-* **Tweet:** Mar 2020 - [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) - Discusses how to improve test performance related to database operations
-* **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) - Promotes validation of the full auth flows
-* **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) - A split of the spatie/laravel-mailcoach tests
+* **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) — Online course by Adam Wathan
+* **Article:** Aug 2019 — [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
+* **Article:** July 2019 — [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
+* **Article:** June 2018 — [Going Deeper with Factories Through Factory States](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
+* **Article:** May 2018 — [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) — Great walk through of auth testing basics
+* **Article:** March 2018 — [Testing Vue components with Laravel Dusk](https://laravel-news.com/testing-vue-components-with-laravel-dusk)
+* **Article:** Oct 2017 — [Continuous Testing Dashboard for Laravel](https://laravel-news.com/testing-dashboard)
+* **Article:** Sept 2017 — [A Roundup of Laravel Testing Resources and Packages](https://laravel-news.com/laravel-testing-resources)
+* **Tweet:** Mar 2020 — [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) — Discusses how to improve test performance related to database operations
+* **Repository:** [dczajkowski/auth-tests](https://github.com/dczajkowski/auth-tests) — Promotes validation of the full auth flows
+* **Repository:** [spatie/laravel-mailcoach-tests](https://github.com/spatie/laravel-mailcoach-tests/blob/master/TestCase.php) — A split of the spatie/laravel-mailcoach tests
 
 ### URL Generation
 
