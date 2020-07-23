@@ -171,10 +171,6 @@ valet restart
 
 You'll want to replace `1.19.1` with your current version of Nginx. That fix resolved all NOTICE entries.
 
-
-
-
-
 ## Resources
 
 * [Adam Watham Troubleshooting Guide](https://gist.github.com/adamwathan/6ea40e90a804ea2b3f9f24146d86ad7f)
