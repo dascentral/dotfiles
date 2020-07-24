@@ -2,7 +2,7 @@
     "Merge Attributes": {
         "prefix": "merge",
         "body": [
-            "{{ \\$attributes->merge(['class' => '$1']) }}>"
+            "{{ \\$attributes->merge(['class' => '$1']) }}"
         ],
         "description": "Merge attributes within a Laravel 7 blade component"
     }
