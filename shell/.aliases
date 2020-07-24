@@ -33,6 +33,9 @@ alias cz='cat ~/.zshrc'
 alias vz='vi ~/.zshrc'
 alias sz='source ~/.zshrc'
 
+# Open the README
+alias or='open README.md'
+
 
 #------------------------------------------------------------------------------------------
 # Docker
