@@ -112,11 +112,9 @@
         "prefix": "pvar",
         "body": [
             "/**",
-            " * $3",
-            " *",
-            " * @var $1",
+            " * $2",
             " */",
-            "protected $2;",
+            "protected $1;",
             ""
         ],
         "description": "PHP private member variable"
@@ -375,5 +373,18 @@
             ""
         ],
         "description": "Create a Laravel scope query for items that belong to the provided User"
+    },
+    "Invoke method": {
+        "prefix": "invoke",
+        "body": [
+            "/**",
+            " * Handle the incoming request.",
+            " */",
+            "public function __invoke(Request \\$request)",
+            "{",
+            "    $1",
+            "}"
+        ],
+        "description": "Creates a stub for an invoke method"
     }
 }
