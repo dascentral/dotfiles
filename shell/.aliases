@@ -81,12 +81,10 @@ alias bsr='brew services restart'
 #------------------------------------------------------------------------------------------
 alias artisan='php artisan'
 alias cda='composer dump-autoload'
-alias cll='cat storage/logs/laravel.log'
 alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
 alias mfs='php artisan migrate:fresh --seed'
 alias test='php artisan test'
-alias tll='tail -f storage/logs/laravel.log'
 
 
 #------------------------------------------------------------------------------------------
