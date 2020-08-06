@@ -21,10 +21,8 @@
         "body": [
             "/**",
             " * Create the \"$1\" attribute.",
-            " *",
-            " * @return $2",
             " */",
-            "public function get$3Attribute()",
+            "public function get$2Attribute(): $3",
             "{",
             "    return $4",
             "}",
