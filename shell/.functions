@@ -85,7 +85,7 @@ function tll() {
       printf "\033[1;33mYou are not in the root of a Laravel application.\033[0m\n"
   fi
 
-  if [ -e "artisan" ] && [ ! -e "storage/logs2" ]; then
+  if [ -e "artisan" ] && [ ! -e "storage/logs" ]; then
       printf "\033[1;33mThere is no "storage/logs" folder.\033[0m\n"
   fi
 
