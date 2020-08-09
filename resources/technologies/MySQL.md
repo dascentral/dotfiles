@@ -14,8 +14,8 @@ I recently began using MySQL 8.0 which has me using a new syntax for application
 
 ```sql
 use mysql;
-create user 'user'@'127.0.0.1' identified with mysql_native_password by 'password';
-grant all privileges on `database`.* TO 'user'@'127.0.0.1';
+create user '[USER]'@'127.0.0.1' identified with mysql_native_password by 'password';
+grant all privileges on `[DATABASE]`.* TO '[USER]'@'127.0.0.1';
 flush privileges;
 ```
 
