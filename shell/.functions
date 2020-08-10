@@ -64,7 +64,7 @@ function ff() {
 }
 
 # cat the latest Laravel log
-function tll() {
+function cll() {
   if [ ! -e "artisan" ]; then
       printf "\033[1;33mYou are not in the root of a Laravel application.\033[0m\n"
   fi
