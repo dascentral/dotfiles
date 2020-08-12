@@ -35,3 +35,7 @@ When it comes to formatting and linting code, I strive to always identify the co
 That being said, I haven't nailed my command-line setup for Tailwind CSS. :innocent: In the meantime, here are a few articles:
 
 * [Visual Studio Code CSS linting with Tailwind](https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/)
+
+## Resources
+
+* **Article:** Aug 2020 — [Tailwind CSS Tips and Tricks](https://laravel-news.com/tailwind-css-tips-and-tricks) — A few nuggets related to positioning
