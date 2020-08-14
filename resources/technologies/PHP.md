@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[PHP](https://vuejs.org/) - The much maligned programming language.
+PHP: Hypertext Preprocessor is a general-purpose programming language originally designed for web development. It was originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group. Source: [Wikipedia](https://en.wikipedia.org/wiki/PHP)
 
 If you are wondering about whether or not to give it a try, give this article a read: [https://stitcher.io/blog/php-in-2019](https://stitcher.io/blog/php-in-2019).
 
