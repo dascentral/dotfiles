@@ -59,6 +59,7 @@ alias nah='git reset HEAD --hard'
 alias pull="git hf pull"
 alias push="git hf push"
 alias repush='git pull --rebase && git push'
+alias undo='git undo'
 
 
 #------------------------------------------------------------------------------------------
