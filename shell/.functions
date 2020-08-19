@@ -94,3 +94,31 @@ function tll() {
     tail -f storage/logs/$file
   fi
 }
+
+
+# check if this repo has been inited for hubflow
+#hubflow_has_master_configured() {
+#        local master=$(git config --get hubflow.branch.master)
+#        [ "$master" != "" ] && git_local_branch_exists "$master"
+#}
+#
+#hubflow_has_develop_configured() {
+#        local develop=$(git config --get hubflow.branch.develop)
+#        [ "$develop" != "" ] && git_local_branch_exists "$develop"
+#}
+#
+#hubflow_has_prefixes_configured() {
+#        git config --get hubflow.prefix.feature >/dev/null 2>&1     && \
+#        git config --get hubflow.prefix.release >/dev/null 2>&1     && \
+#        git config --get hubflow.prefix.hotfix >/dev/null 2>&1      && \
+#        git config --get hubflow.prefix.support >/dev/null 2>&1     && \
+#        git config --get hubflow.prefix.versiontag >/dev/null 2>&1
+#}
+#
+#hubflow_is_initialized() {
+#        hubflow_has_master_configured                    && \
+#        hubflow_has_develop_configured                   && \
+#        [ "$(git config --get hubflow.branch.master)" !=    \
+#          "$(git config --get hubflow.branch.develop)" ] && \
+#        hubflow_has_prefixes_configured
+#}
