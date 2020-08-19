@@ -1,5 +1,9 @@
 # APIs
 
+## Specifications
+
+* [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) — The OpenAPI Specification (OAS) defines a standard, programming  language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional  documentation, or inspection of network traffic.
+
 ## Security
 
 * [Building and Securing APIs](https://developer.okta.com/books/api-security/api-keys/) - from the developer team at Okta
