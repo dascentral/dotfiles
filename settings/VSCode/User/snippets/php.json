@@ -237,7 +237,7 @@
     "Laravel Foreign Key": {
         "prefix": "fk",
         "body": [
-            "\\$table->foreign('$1')->references('id')->on('$2')->onDelete('cascade')->onUpdate('cascade');"
+            "\\$table->foreignId('$1')->constrained()->cascadeOnDelete();"
         ],
         "description": "Foreign key constraint"
     },
