@@ -103,10 +103,8 @@
     "PHP Protected Member Variable": {
         "prefix": "pvar",
         "body": [
-            "/**",
-            " * $2",
-            " */",
-            "protected $1;",
+            "/** @var $1 */",
+            "protected $2;",
             ""
         ],
         "description": "PHP private member variable"
