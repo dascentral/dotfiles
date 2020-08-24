@@ -122,12 +122,13 @@ Laravel provides an ability to store items in the session only for the next requ
 Form requests are custom request classes that contain validation logic.
 
 * **Laravel Docs:** [https://laravel.com/docs/master/validation#form-request-validation](https://laravel.com/docs/master/validation#form-request-validation)
-* **Article:** Nov 2019 - [Laravel Form Requests - more than validation](https://pociot.dev/22-laravel-form-requests-more-than-validation)
+* **Video:** July 2020 — [Customising and extending Laravel Form Requests](https://freek.dev/1721-customising-and-extending-laravel-form-requests)
+* **Article:** Nov 2019 — [Laravel Form Requests - more than validation](https://pociot.dev/22-laravel-form-requests-more-than-validation)
 
 ### Horizon
 
-* **Article:** Sept 2019 - [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
-* **Article:** April 2019 - [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
+* **Article:** Sept 2019 — [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
+* **Article:** April 2019 — [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
 
 ### Markdown Mailables
 
