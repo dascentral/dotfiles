@@ -376,5 +376,19 @@
             "}"
         ],
         "description": "Creates a stub for an invoke method"
+    },
+    "Setup method": {
+        "prefix": "setup",
+        "body": [
+            "    /**",
+            "     * Setup the tests for this class.",
+            "     */",
+            "    public function setUp(): void",
+            "    {",
+            "        parent::setUp();",
+            "    }",
+            "",
+            ""
+        ]
     }
 }
