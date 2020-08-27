@@ -14,27 +14,28 @@ Below I have attempted to inventory the various resources that I find relevent t
 
 I have completed these courses and feel you should definitely check them out.
 
-* [Laracasts](https://laracasts.com) - Basically, everything on this site
-* [Test Driven Laravel](https://course.testdrivenlaravel.com/) - by [Adam Wathan](https://twitter.com/adamwathan)
+* [Laracasts](https://laracasts.com) — Basically, everything on this site
+* [Test Driven Laravel](https://course.testdrivenlaravel.com/) — by [Adam Wathan](https://twitter.com/adamwathan)
 
 ### Can't Wait to Try
 
 I am completely backlogged on content. Once I get caught up, I am anxious to try out the following:
 
-* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) - by [Jonathan Reinink](https://twitter.com/reinink)
-* [Laravel Package Training](https://laravelpackage.training/) - by [Spatie](https://spatie.be/)
+* [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) — by [Jonathan Reinink](https://twitter.com/reinink)
+* [Laravel Package Training](https://laravelpackage.training/) — by [Spatie](https://spatie.be/)
 
 ### Also Recommended
 
 While I have not personally explored these courses, they are produced by highly reputable sources or seem well regarded within the community.
 
-* [Confident Laravel](https://confidentlaravel.com/) - More on testing by [Jason McCreary](https://twitter.com/gonedark)
-* [Diving Laravel](https://divinglaravel.com) - A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
-* [Laravel Core Adventures](https://laravelcoreadventures.com) - by [Christoph Rumpel](https://twitter.com/christophrumpel)
-* [Laravel Beyond CRUD](https://laravel-beyond-crud.com/) - by [Spatie](https://spatie.be/)
-* [Laravel Daily](https://laraveldaily.teachable.com/courses) - by [Povilas Korop](https://twitter.com/PovilasKorop)
-* [Laravel Secrets](https://laravelsecrets.com/) - by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
-* [Mailcoach](https://mailcoach.app/video-course) - by [Spatie](https://spatie.be/)
+* [Confident Laravel](https://confidentlaravel.com/) — More on testing by [Jason McCreary](https://twitter.com/gonedark)
+* [Diving Laravel](https://divinglaravel.com) — A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
+* [Laravel Core Adventures](https://laravelcoreadventures.com) — by [Christoph Rumpel](https://twitter.com/christophrumpel)
+* [Laravel Beyond CRUD](https://laravel-beyond-crud.com/) — by [Spatie](https://spatie.be/)
+* [Laravel Daily](https://laraveldaily.teachable.com/courses) — by [Povilas Korop](https://twitter.com/PovilasKorop)
+* [Laravel Queues in Action](https://learn-laravel-queues.com/) — by [Mohammed Said](https://twitter.com/themsaid)
+* [Laravel Secrets](https://laravelsecrets.com/) — by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
+* [Mailcoach](https://mailcoach.app/video-course) — by [Spatie](https://spatie.be/)
 
 ### Others
 
