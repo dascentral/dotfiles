@@ -80,6 +80,7 @@ alias bsr='brew services restart'
 #------------------------------------------------------------------------------------------
 # Laravel
 #------------------------------------------------------------------------------------------
+alias a='php artisan'
 alias artisan='php artisan'
 alias cda='composer dump-autoload'
 alias dump='php artisan dump-server'
