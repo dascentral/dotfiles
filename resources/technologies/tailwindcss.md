@@ -38,4 +38,10 @@ That being said, I haven't nailed my command-line setup for Tailwind CSS. :innoc
 
 ## Resources
 
-* **Article:** Aug 2020 — [Tailwind CSS Tips and Tricks](https://laravel-news.com/tailwind-css-tips-and-tricks) — A few nuggets related to positioning
+### Articles
+
+* Aug 2020 — [Tailwind CSS Tips and Tricks](https://laravel-news.com/tailwind-css-tips-and-tricks) — A few nuggets related to positioning
+
+### Repositories & Packages
+
+* [lukeraymonddowning/alpinimations](https://github.com/lukeraymonddowning/alpinimations) — Provides Laravel Blade directives that help apply the Alpine.js-based animations that live within Tailwind UI sample components.
