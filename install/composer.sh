@@ -29,7 +29,6 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# dascentral/hubflow-release
 app="dascentral/hubflow-release"
 name="dascentral/hubflow-release"
 check="/Users/$USER/.composer/vendor/bin/hf"
@@ -41,7 +40,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# laravel/installer
+app="friendsofphp/php-cs-fixer"
+name="PHP CS Fixer"
+check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
+url="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
+if [ ! -e "$check" ]; then
+    printf "\033[1;37mInstalling $name.\033[0m\n"
+    composer global require $app
+    printf "\n"
+fi
+
+
 app="laravel/installer"
 name="laravel/installer"
 check="/Users/$USER/.composer/vendor/bin/laravel"
@@ -53,7 +62,6 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# laravel/valet
 app="laravel/valet"
 name="laravel/valet"
 check="/Users/$USER/.composer/vendor/bin/valet"
@@ -65,7 +73,6 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# PHP Code Sniffer
 app="squizlabs/php_codesniffer=*"
 name="PHP Code Sniffer"
 check="/Users/$USER/.composer/vendor/squizlabs/php_codesniffer"
@@ -77,11 +84,10 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# PHP CS Fixer
-app="friendsofphp/php-cs-fixer"
-name="PHP CS Fixer"
-check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
-url="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
+app="tightenco/takeout"
+name="Takeout"
+check="/Users/$USER/.composer/vendor/tightenco/takeout"
+url="https://github.com/tightenco/takeout"
 if [ ! -e "$check" ]; then
     printf "\033[1;37mInstalling $name.\033[0m\n"
     composer global require $app
