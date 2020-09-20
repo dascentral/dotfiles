@@ -29,6 +29,7 @@ I am completely backlogged on content. Once I get caught up, I am anxious to try
 While I have not personally explored these courses, they are produced by highly reputable sources or seem well regarded within the community.
 
 * [Confident Laravel](https://confidentlaravel.com/) — More on testing by [Jason McCreary](https://twitter.com/gonedark)
+* [Base Laravel](https://baselaravel.com) — A field guide for streamlining Laravel applications by [Jason McCreary](https://twitter.com/gonedark)
 * [Diving Laravel](https://divinglaravel.com) — A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
 * [Laravel Core Adventures](https://laravelcoreadventures.com) — by [Christoph Rumpel](https://twitter.com/christophrumpel)
 * [Laravel Beyond CRUD](https://laravel-beyond-crud.com/) — by [Spatie](https://spatie.be/)
