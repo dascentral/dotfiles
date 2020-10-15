@@ -79,18 +79,18 @@ A view model class is designed to house the complex logic of your views and redu
 ### Authentication
 
 * **Laravel Docs:** [https://laravel.com/docs/master/authentication](https://laravel.com/docs/master/authentication)
-* **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) - I needed this for work. You should avoid Basic Auth at all costs.
-* **Article:** Sept 2017 - [Laravel Reauthenticate](https://medium.com/@browner12/laravel-reauthenticate-274c48f2b642) - Implement a password confirmation within your application.
-* **Tutorial:** [Logout Other Devices after Login](https://www.youtube.com/watch?v=mnModJ3GsbU) - Video
+* **Article:** Jan 2018 - [Laravel Middleware & Basic Auth](https://medium.com/oceanize-geeks/laravel-middleware-basic-auth-implementation-88b777361b5c) — I needed this for work. You should avoid Basic Auth at all costs.
+* **Article:** Sept 2017 - [Laravel Reauthenticate](https://medium.com/@browner12/laravel-reauthenticate-274c48f2b642) — Implement a password confirmation within your application.
+* **Tutorial:** [Logout Other Devices after Login](https://www.youtube.com/watch?v=mnModJ3GsbU) — Video
 
 ### Authorization
 
-* **Article:** April 2019 - [Junges Laravel ACL](https://laravel-news.com/junges-laravel-acl)
+* **Article:** April 2019 — [Junges Laravel ACL](https://laravel-news.com/junges-laravel-acl)
 
 ### Blade
 
-* **Article:** April 2020 - [Some cool Laravel 7 Blade components ](https://freek.dev/1612-some-cool-laravel-7-blade-components)
-* **Article:** June 2019 - [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
+* **Article:** April 2020 — [Some cool Laravel 7 Blade components ](https://freek.dev/1612-some-cool-laravel-7-blade-components)
+* **Article:** June 2019 — [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
 
 ### Collections
 
@@ -98,23 +98,23 @@ A view model class is designed to house the complex logic of your views and redu
 
 ### Controllers
 
-* **Article:** April 2019 - [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
+* **Article:** April 2019 — [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
 ### Dusk
 
-* **Article:** Dec 2018 - [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
-* **Article:** Feb 2017 - [Automatically Making Monthly Payments with Dusk](https://laravel-news.com/automatically-making-monthly-payments-with-dusk)
+* **Article:** Dec 2018 — [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
+* **Article:** Feb 2017 — [Automatically Making Monthly Payments with Dusk](https://laravel-news.com/automatically-making-monthly-payments-with-dusk)
 
 ### Eloquent
 
-* **Article:** Dec 2019 - [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
-* **Article:** Oct 2018 - [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
-* **Article:** May 2018 - [Leverage Eloquent To Prepare Your URLs](https://laravel-news.com/leverage-eloquent-to-prepare-your-urls)
+* **Article:** Dec 2019 — [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
+* **Article:** Oct 2018 — [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
+* **Article:** May 2018 — [Leverage Eloquent To Prepare Your URLs](https://laravel-news.com/leverage-eloquent-to-prepare-your-urls)
 
 ### Facades
 
 * **Laravel Docs:** [https://laravel.com/docs/master/facades](https://laravel.com/docs/master/facades)
-* **Article:** [Real-time (automatic) Facades in Laravel 5.4](https://mattstauffer.com/blog/real-time-automatic-facades-in-laravel-5-4/) - This is a feature that I did not discover until Laravel 5.8 but proves very helpful and relevant when pursuing a test strategy that employes [class-based model factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories).
+* **Article:** [Real-time (automatic) Facades in Laravel 5.4](https://mattstauffer.com/blog/real-time-automatic-facades-in-laravel-5-4/) — This is a feature that I did not discover until Laravel 5.8 but proves very helpful and relevant when pursuing a test strategy that employes [class-based model factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories).
 
 ### Flash Messaging
 
@@ -138,20 +138,20 @@ Form requests are custom request classes that contain validation logic.
 
 ### Markdown Mailables
 
-* [MarkdownMail](https://markdownmail.com/) - Create Laravel markdown email themes without a Hassle
+* [MarkdownMail](https://markdownmail.com/) — Create Laravel markdown email themes without a Hassle
 
 ### Nova
 
-* **Article:** June 2020 - [Abstract resources in Laravel Nova](https://stitcher.io/blog/abstract-resources-in-laravel-nova)
+* **Article:** June 2020 — [Abstract resources in Laravel Nova](https://stitcher.io/blog/abstract-resources-in-laravel-nova)
 
 ### Passport
 
-* **Article:** May 2019 - [Testing Passport Authenticated Controllers and Routes in Laravel](https://clubstudio.co.uk/journal/testing-passport-authenticated-controllers-and-routes-in-laravel)
-* **Article:** Aug 2016 - [Learn about Grant Types in Laravel Passport](https://laravel-news.com/passport-grant-types/)
+* **Article:** May 2019 — [Testing Passport Authenticated Controllers and Routes in Laravel](https://clubstudio.co.uk/journal/testing-passport-authenticated-controllers-and-routes-in-laravel)
+* **Article:** Aug 2016 — [Learn about Grant Types in Laravel Passport](https://laravel-news.com/passport-grant-types/)
 
 ### Routing
 
-* **Article:** April 2018 - [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
+* **Article:** April 2018 — [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
 
 ### Task Scheduling
 
@@ -178,58 +178,58 @@ Form requests are custom request classes that contain validation logic.
 Laravel provides several helpers to assist you in generating URLs for  your application. These are mainly helpful when building links in your templates and API responses, or when generating redirect responses to  another part of your application.
 
 * **Laravel Docs:** [https://laravel.com/docs/master/urls](https://laravel.com/docs/master/urls)
-* **Article:** July 2020 - [Using Laravel's signed URLs to add action links to emails](https://freek.dev/1713-adding-action-links-to-oh-dear-email-notifications)
+* **Article:** July 2020 — [Using Laravel's signed URLs to add action links to emails](https://freek.dev/1713-adding-action-links-to-oh-dear-email-notifications)
 
 ### Validation
 
-* **Article:** April 2019 - [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
-* **Article:** Nov 2015 - [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
+* **Article:** April 2019 — [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
+* **Article:** Nov 2015 — [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
 ## Extending Laravel
 
 ### Actions
 
-* **Article:** June 2019 - [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
-* **Article:** May 2019 - [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
+* **Article:** June 2019 — [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
+* **Article:** May 2019 — [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
 
 ### API Authentication
 
-* **Article:** Aug 2019 - [JSON APIs with Laravel: Part 5 - Authentication and Permissions](https://sarfas.codes/blog/json-apis-with-laravel-part-5-authentication-and-permissions?ref=laravelnews) - JWT approach
-* **Article:** May 2019 - [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
+* **Article:** Aug 2019 — [JSON APIs with Laravel: Part 5 - Authentication and Permissions](https://sarfas.codes/blog/json-apis-with-laravel-part-5-authentication-and-permissions?ref=laravelnews) - JWT approach
+* **Article:** May 2019 — [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
 
 ### AWS
 
 #### SES - Simple Email Service
 
-* **Tutorial:** - [Configure Amazon SES on Laravel 5.8 in 5 minutes](https://medium.com/@martin.riedweg/configure-amazon-ses-on-laravel-5-8-in-5-minutes-764c30df6399)
+* **Tutorial:** [Configure Amazon SES on Laravel 5.8 in 5 minutes](https://medium.com/@martin.riedweg/configure-amazon-ses-on-laravel-5-8-in-5-minutes-764c30df6399)
 
 #### SNS - Simple Notification Service - Events
 
-* **Article:** June 2019 - [Laravel SNS Events Package](https://laravel-news.com/laravel-sns-events-package)
-* **Tutorial:** June 2020 - [Send SMS With Amazon SNS using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php) - This is really a PHP article but LBH.
+* **Article:** June 2019 — [Laravel SNS Events Package](https://laravel-news.com/laravel-sns-events-package)
+* **Tutorial:** June 2020 — [Send SMS With Amazon SNS using PHP](https://stackcoder.in/posts/send-sms-with-amazon-sns-simple-notification-service-using-php) - This is really a PHP article but LBH.
 
 ### CI/CD
 
 [Laravel Forge](https://forge.laravel.com/) is a first-party service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." Given the relevance of CI/CD to my day job, my goal has been to understand how to set this up on my own.
 
-* **Article:** March 2020 - [In depth Gitlab CI/CD with Laravel Apps](https://www.talvbansal.me/blog/in-depth-gitlab-ci-cd-with-laravel-apps/)
-* **Article:** May 2019 - [Deploy a Laravel Application to Kubernetes using Gitlab CI](https://itnext.io/deploy-a-laravel-application-to-kubernetes-using-gitlab-ci-2538a6bbd373)
-* **Article:** March 2019 - [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
-* **Article:** Oct 2019 - [A github CI workflow tailored to modern PHP applications](https://ma.ttias.be/a-github-ci-workflow-tailored-to-laravel-applications/)
-* **Article:** March 2019 - [Test and deploy Laravel applications with GitLab CI/CD and Envoy](https://docs.gitlab.com/ee/ci/examples/laravel_with_gitlab_and_envoy/)
-* **Article:** Dec 2018 - [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications) - from the OhDear blog
-* **Tutorial:** Oct 2018 - [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
-* **Article**: Sept 2018 - [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
-* **Article:** June 2018 - [Laravel deployment using GitLab's pipelines](https://lorisleiva.com/laravel-deployment-using-gitlab-pipelines/)
+* **Article:** March 2020 — [In depth Gitlab CI/CD with Laravel Apps](https://www.talvbansal.me/blog/in-depth-gitlab-ci-cd-with-laravel-apps/)
+* **Article:** May 2019 — [Deploy a Laravel Application to Kubernetes using Gitlab CI](https://itnext.io/deploy-a-laravel-application-to-kubernetes-using-gitlab-ci-2538a6bbd373)
+* **Article:** March 2019 — [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
+* **Article:** Oct 2019 — [A github CI workflow tailored to modern PHP applications](https://ma.ttias.be/a-github-ci-workflow-tailored-to-laravel-applications/)
+* **Article:** March 2019 — [Test and deploy Laravel applications with GitLab CI/CD and Envoy](https://docs.gitlab.com/ee/ci/examples/laravel_with_gitlab_and_envoy/)
+* **Article:** Dec 2018 — [Our Gitlab CI pipeline for Laravel applications](https://ohdear.app/blog/our-gitlab-ci-pipeline-for-laravel-applications) - from the OhDear blog
+* **Tutorial:** Oct 2018 — [Continuous Integration for your Laravel Application with GitLab CI](https://www.phpjobs.app/blog/continuous-integration-for-your-laravel-application-with-gitlab-ci?ref=laravelnews)
+* **Article**: Sept 2018 — [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
+* **Article:** June 2018 — [Laravel deployment using GitLab's pipelines](https://lorisleiva.com/laravel-deployment-using-gitlab-pipelines/)
 
 ### Docker
 
-* **Tutorial:** Feb 2020 - [How To Containerize a Laravel Application for Development with Docker Compose on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-containerize-a-laravel-application-for-development-with-docker-compose-on-ubuntu-18-04)
-* **Article:** May 2019 - [The beauty of Docker for local Laravel development](https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0)
-* **Article:** Nov 2018 - [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
-* **Article:** Aug 2018 - [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
-* **Article:** Mar 2018 - [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
 * **Tutorial:** March 2020 — [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
+* **Tutorial:** Feb 2020 — [How To Containerize a Laravel Application for Development with Docker Compose on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-containerize-a-laravel-application-for-development-with-docker-compose-on-ubuntu-18-04)
+* **Article:** May 2019 — [The beauty of Docker for local Laravel development](https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0)
+* **Article:** Nov 2018 — [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
+* **Article:** Aug 2018 — [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
+* **Article:** Mar 2018 — [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
 * **Course:** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
 ### GraphQL
