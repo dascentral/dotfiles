@@ -229,6 +229,7 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article:** Nov 2018 - [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
 * **Article:** Aug 2018 - [Creating Multi-Stage Docker Builds for Laravel](https://laravel-news.com/multi-stage-docker-builds-for-laravel)
 * **Article:** Mar 2018 - [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
+* **Tutorial:** March 2020 — [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
 * **Course:** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
 ### GraphQL
