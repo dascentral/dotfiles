@@ -86,7 +86,7 @@ alias cda='composer dump-autoload'
 alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
 alias mfs='php artisan migrate:fresh --seed'
-alias test='php artisan test'
+alias t='php artisan test'
 
 
 #------------------------------------------------------------------------------------------
