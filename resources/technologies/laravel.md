@@ -192,10 +192,16 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article:** June 2019 — [Refactoring to actions](https://freek.dev/1371-refactoring-to-actions)
 * **Article:** May 2019 — [Laravel Actions Package](https://laravel-news.com/laravel-actions-package)
 
-### API Authentication
+### APIs
+
+#### Authentication
 
 * **Article:** Aug 2019 — [JSON APIs with Laravel: Part 5 - Authentication and Permissions](https://sarfas.codes/blog/json-apis-with-laravel-part-5-authentication-and-permissions?ref=laravelnews) - JWT approach
 * **Article:** May 2019 — [Add API Keys to Your Laravel Models with Laravel Keyable](https://laravel-news.com/add-api-keys-to-your-laravel-models-with-laravel-keyable)
+
+#### Documentation
+
+* **Package:** [StydeNet/enlighten](https://github.com/StydeNet/enlighten)
 
 ### AWS
 
