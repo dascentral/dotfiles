@@ -238,6 +238,10 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article:** Mar 2018 — [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
 * **Course:** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
+### Encryption
+
+* **Article:** Oct 2020 — [Eloquent Encrypted Casting](https://laravel-news.com/eloquent-encrypted-casting)
+
 ### GraphQL
 
 * **Article:** March 2019 - [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
