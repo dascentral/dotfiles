@@ -293,7 +293,7 @@ Laravel provides a number of first party packages that are of significant qualit
 #### require
 
 * [graham-campbell/markdown](https://github.com/GrahamCampbell/Laravel-Markdown) - A CommonMark wrapper for Laravel 5
-* [predis/predis](https://github.com/nrk/predis) - A Redis client for PHP however, word on the street is that this package has been abandoned
+* [predis/predis](https://github.com/nrk/predis) - A Redis client for PHP
 
 #### require-dev
 
@@ -305,17 +305,18 @@ Laravel provides a number of first party packages that are of significant qualit
 
 I have seen these items referenced across various tweets, posts, etc. Worth exploring altough I have not yet checked them out.
 
-* [antonioribeiro/countries](https://github.com/antonioribeiro/countries) - Database of countries and host of information beyond that
-* [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) - Checks if the application’s resources are running as expected
-* [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) - Enables debugging of API logs
-* [beyondcode/laravel-credentials](https://github.com/beyondcode/laravel-credentials) - Add encrypted credentials to your Laravel production environment. Expanded introduction available on [Laravel News](https://laravel-news.com/laravel-encrypted-credentials).
+* [antonioribeiro/countries](https://github.com/antonioribeiro/countries) — Database of countries and host of information beyond that
+* [antonioribeiro/health](https://laravel-news.com/laravel-health-panel) — Checks if the application’s resources are running as expected
+* [aungwinthant/apilogger](https://laravel-news.com/api-logger-package) — Enables debugging of API logs
+* [beyondcode/laravel-credentials](https://github.com/beyondcode/laravel-credentials) — Add encrypted credentials to your Laravel production environment. Expanded introduction available on [Laravel News](https://laravel-news.com/laravel-encrypted-credentials).
 * [davejamesmiller/laravel-breadcrumbs](https://laravel-news.com/laravel-breadcrumbs-package/)
-* [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) - Find exactly where a query is being called in your app
-* [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) - Gracefully handle timezones in your application. Brief article available on [Laravel News](https://laravel-news.com/laravel-timezone).
-* [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) - Adds static page caching
-* [laracasts/flash](https://github.com/laracasts/flash) - The OG flash messaging package for Laravel applications
-* [nunomaduro/larastan](https://github.com/nunomaduro/larastan) - Adds static analysis to Laravel improving developer productivity and code quality
-* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) - Lightweight package for flash messaging
-* [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) - Easily build Eloquent queries from API requests
+* [fitztrev/query-tracer](https://laravel-news.com/query-tracer-package) — Find exactly where a query is being called in your app
+* [jamesmills/laravel-timezone](https://laravel-news.com/laravel-timezone) — Gracefully handle timezones in your application. Brief article available on [Laravel News](https://laravel-news.com/laravel-timezone).
+* [JosephSilber/page-cache](https://github.com/JosephSilber/page-cache) — Adds static page caching
+* [laracasts/flash](https://github.com/laracasts/flash) — The OG flash messaging package for Laravel applications
+* [nunomaduro/larastan](https://github.com/nunomaduro/larastan) — Adds static analysis to Laravel improving developer productivity and code quality
+* [spatie/laravel-flash](https://murze.be/a-laravel-package-to-flash-messages) — Lightweight package for flash messaging
+* [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) — Easily build Eloquent queries from API requests
+* [spatie/laravel-settings](https://github.com/spatie/laravel-settings/) — This package allows you to store settings in a repository (database,  Redis, etc) and use them through an application without hassle.
 * [webpatser/laravel-uuid](https://packagist.org/packages/webpatser/laravel-uuid)
-* [Laravel Mailbox](https://laravel-news.com/laravel-mailbox) - Easily handle incoming email
+* [Laravel Mailbox](https://laravel-news.com/laravel-mailbox) — Easily handle incoming email
