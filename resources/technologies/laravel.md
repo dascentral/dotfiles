@@ -162,8 +162,8 @@ Form requests are custom request classes that contain validation logic.
 
 * **Laravel Docs:** [https://laravel.com/docs/master/testing](https://laravel.com/docs/master/testing)
 * **Course:** [Test Driven Laravel](https://course.testdrivenlaravel.com/) — Online course by Adam Wathan
-* **Article:** Aug 2019 — [Class-based Model Factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
 * **Article:** July 2019 — [Start testing your Laravel applications](https://jasonmccreary.me/articles/start-testing-laravel/)
+* **Article:** Jan 2019 — [Tips to Speed up Your Phpunit Tests](https://laravel-news.com/tips-to-speed-up-phpunit-tests)
 * **Article:** June 2018 — [Going Deeper with Factories Through Factory States](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
 * **Article:** May 2018 — [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) — Great walk through of auth testing basics
 * **Article:** March 2018 — [Testing Vue components with Laravel Dusk](https://laravel-news.com/testing-vue-components-with-laravel-dusk)
