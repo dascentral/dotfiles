@@ -390,5 +390,18 @@
             "",
             ""
         ]
+    },
+    "Invokable controller method": {
+        "prefix": "invoke",
+        "body": [
+            "/**",
+            " * Handle the incoming request.",
+            " */",
+            "public function __invoke(Request $request): View",
+            "{",
+            "    $1",
+            "}"
+        ],
+        "description": "Invokable controller method"
     }
 }
