@@ -186,7 +186,8 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 
 ### Validation
 
-* **Article:** April 2019 — [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) - Supporting worldwide postal code validation
+* **Article:** Nov 2020 — [The 6 Stages of Spam Protection](https://laracasts.com/blog/the-6-stages-of-spam) — More spam protection than it is validating requests but this felt like the most appropriate category for the resource.
+* **Article:** April 2019 — [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) — Supporting worldwide postal code validation
 * **Article:** Nov 2015 — [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
 ## Extending Laravel
