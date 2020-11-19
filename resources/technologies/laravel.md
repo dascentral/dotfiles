@@ -245,6 +245,7 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 
 ### Encryption
 
+* **Article:** Nov 2020 — [Encrypt and Decrypt Data Using Keys](https://laravel-news.com/encrypt-and-decrypt-data-using-keys)
 * **Article:** Oct 2020 — [Eloquent Encrypted Casting](https://laravel-news.com/eloquent-encrypted-casting)
 
 ### GraphQL
