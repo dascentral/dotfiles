@@ -61,7 +61,8 @@ I primarily use this pattern to facilitate caching within my Laravel application
 
 Refactoring to Actions is a pattern introduced by our friends at [Spatie](https://spatie.be) that helps you keep your controllers and models skinny. Read their blog post for an in-depth introduction.
 
-* **Article:** June 2019 - [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
+* **Article:** June 2019 — [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
+* **Article:** March 2019 — [Queueable actions in Laravel](https://stitcher.io/blog/laravel-queueable-actions)
 
 ### View Models
 
