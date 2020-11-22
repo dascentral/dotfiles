@@ -63,6 +63,7 @@ Refactoring to Actions is a pattern introduced by our friends at [Spatie](https:
 
 * **Article:** June 2019 — [Refactoring to Actions](https://freek.dev/1371-refactoring-to-actions)
 * **Article:** March 2019 — [Queueable actions in Laravel](https://stitcher.io/blog/laravel-queueable-actions)
+* Package: [lorisleiva/laravel-actions](https://laravelactions.com/)
 
 ### View Models
 
