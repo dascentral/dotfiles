@@ -110,6 +110,7 @@ A view model class is designed to house the complex logic of your views and redu
 ### Eloquent
 
 * **Article:** Dec 2019 — [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
+* **Article:** April 2019 — [Dedicated query builders for Eloquent models](https://timacdonald.me/dedicated-eloquent-model-query-builders/)
 * **Article:** Oct 2018 — [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
 * **Article:** May 2018 — [Leverage Eloquent To Prepare Your URLs](https://laravel-news.com/leverage-eloquent-to-prepare-your-urls)
 
