@@ -212,6 +212,7 @@
     "**/node_modules": false
   },
   "search.useIgnoreFiles": false,
+  "tailwindCSS.colorDecorators": "off",
   "terminal.integrated.rendererType": "dom",
   "window.openFilesInNewWindow": "on",
   "window.restoreWindows": "all",
