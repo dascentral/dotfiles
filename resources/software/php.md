@@ -27,6 +27,10 @@ export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 ```
 
+## Upgrading
+
+* [PHP 8 Upgrade on Mac](https://stitcher.io/blog/php-8-upgrade-mac) — Includes how to handle Laravel Valet
+
 ## Uninstall
 
 ```bash
