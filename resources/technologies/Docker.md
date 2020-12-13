@@ -22,6 +22,12 @@ docker ps
 docker ps -a
 ```
 
+### Remove all containers
+
+```bash
+docker rm $(docker ps -a -q)
+```
+
 ### Docker: Run
 
 *Note that the `run` command facilitates execution of a command within a NEW container. The `--rm` flag tells Docker to remove the conatiner after it exits.*
@@ -151,6 +157,23 @@ Follow logs within a running container:
 ```bash
 docker-compose logs -f [service]
 ```
+
+## Cleaning House
+
+Want to remove all containers and images?
+
+```bash
+# Remove all containers
+docker rm $(docker ps -a -q)
+
+# Remove all images
+docker rmi $(docker images -q)
+
+# Remove unused volumes
+docker volume prune
+```
+
+
 
 ## Resoures
 
