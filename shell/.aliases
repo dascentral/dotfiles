@@ -92,6 +92,7 @@ alias t='php artisan test'
 #------------------------------------------------------------------------------------------
 alias sa='bash vendor/bin/sail artisan'
 alias sail='bash vendor/bin/sail'
+alias smfs='php artisan migrate:fresh --seed'
 
 
 #------------------------------------------------------------------------------------------
