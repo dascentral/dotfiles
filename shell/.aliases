@@ -80,7 +80,6 @@ alias bsr='brew services restart'
 #------------------------------------------------------------------------------------------
 alias a='php artisan'
 alias artisan='php artisan'
-alias dump='php artisan dump-server'
 alias dusk='php artisan dusk'
 alias mfs='php artisan migrate:fresh --seed'
 alias t='php artisan test'
@@ -89,8 +88,9 @@ alias t='php artisan test'
 #------------------------------------------------------------------------------------------
 # Laravel Sail
 #------------------------------------------------------------------------------------------
-alias sa='bash vendor/bin/sail artisan'
 alias sail='bash vendor/bin/sail'
+alias sa='sail artisan'
+alias sd='sail dusk'
 alias smfs='sail artisan migrate:fresh --seed'
 alias st='sail test'
 
