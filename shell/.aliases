@@ -79,7 +79,6 @@ alias bsr='brew services restart'
 # Laravel
 #------------------------------------------------------------------------------------------
 alias a='php artisan'
-alias artisan='php artisan'
 alias dusk='php artisan dusk'
 alias mfs='php artisan migrate:fresh --seed'
 alias t='php artisan test'
