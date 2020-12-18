@@ -4,8 +4,11 @@
 
 Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been distributed widely as the default login shell for most Linux distributions and Apple's macOS. A version is also available for Windows 10. [Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
-## Scripting
+## Education
 
+I've been writing bash scripts for years (decades?) but my scripts are usually cobbled together from samples I've seen elsewhere. I'm writing virtually nothing from scratch. These links attempt to conslidate resources I've found that facilitate learning to write bash scripts.
+
+* [Writing Shell Scripts](http://linuxcommand.org/lc3_writing_shell_scripts.php)
 * [Scripting Cheatsheet](https://devhints.io/bash)
 
 ## Color Output
