@@ -213,17 +213,17 @@ if [ ! -e "$check" ]; then
 fi
 
 
-# Redis
-app="redis"
-name="Redis"
-check="/usr/local/bin/redis-cli"
-url="https://redis.io/"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    brew install $app
-    brew services start $app
-    printf "\n\n"
-fi
+# Redis - Disabled in December 2020 as I move more fully towards Docker
+# app="redis"
+# name="Redis"
+# check="/usr/local/bin/redis-cli"
+# url="https://redis.io/"
+# if [ ! -e "$check" ]; then
+#     printf "\033[1;37mInstalling $name - $url\033[0m\n"
+#     brew install $app
+#     brew services start $app
+#     printf "\n\n"
+# fi
 
 
 # Rocket
