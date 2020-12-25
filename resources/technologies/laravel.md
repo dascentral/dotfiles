@@ -160,6 +160,10 @@ Form requests are custom request classes that contain validation logic.
 
 * **Article:** April 2018 — [Laravel Route Tips to Improve Your Routing](https://laravel-news.com/laravel-route-tips-to-improve-your-routing)
 
+### Sail
+
+* **Article:** Dec 2020 — [How to Use Takeout to Add New Services to Laravel Sail and Save RAM](https://mattstauffer.com/blog/how-to-use-takeout-to-add-new-services-to-laravel-sail-and-save-ram/)
+
 ### Task Scheduling
 
 * **Laravel Docs:** https://laravel.com/docs/master/scheduling
