@@ -97,3 +97,9 @@ The PHP configuration file should include an `extension_dir` setting that enable
 ```bash
 extension_dir = "/usr/local/lib/php/pecl/<version>"
 ```
+
+## Additional Resources
+
+### Liftoff by Tighten
+
+[Liftoff](https://github.com/tighten/liftoff) is a simple tool for setting up an ideal Laravel development environment on any machine. It will install PHP, Composer, the Laravel installer, and Takeout (for other dependencies like databases).
