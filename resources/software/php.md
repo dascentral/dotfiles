@@ -39,7 +39,7 @@ brew uninstall php@7.4
 
 ## PHP & Redis
 
-The default database configuration within a [Laravel](https://laravel.com) application calls for use of the native Redis client within PHP. However, the default Homebrew version of PHP on a Mac does not enable the Redis client by default. Installation of this software seems to be a bit of a chore.
+The default database configuration within a [Laravel](https://laravel.com) application calls for use of the native Redis client within PHP. However, the default Homebrew version of PHP on a Mac does not enable the Redis client by default.
 
 Instructions here are written for PHP 7.4 installed via Homebrew and derived from the following two resources:
 
