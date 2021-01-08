@@ -76,22 +76,24 @@ alias bsr='brew services restart'
 
 
 #------------------------------------------------------------------------------------------
-# Laravel
+# Laravel — Most disabled given use of Laravel Sail
 #------------------------------------------------------------------------------------------
 alias a='php artisan'
-alias dusk='php artisan dusk'
-alias mfs='php artisan migrate:fresh --seed'
-alias t='php artisan test'
+#alias dusk='php artisan dusk'
+#alias mfs='php artisan migrate:fresh --seed'
+#alias t='php artisan test'
 
 
 #------------------------------------------------------------------------------------------
 # Laravel Sail
 #------------------------------------------------------------------------------------------
 alias sail='bash vendor/bin/sail'
-alias sa='sail artisan'
-alias sd='sail dusk'
-alias smfs='sail artisan migrate:fresh --seed'
-alias st='sail test'
+alias ci='sail composer install'
+alias cu='sail composer update'
+alias a='sail artisan'
+alias dusk='sail dusk'
+alias mfs='sail artisan migrate:fresh --seed'
+alias t='sail test'
 
 
 #------------------------------------------------------------------------------------------
