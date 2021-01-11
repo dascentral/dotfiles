@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
+NC='\033[0m'
+
+# prepare commit message
+commitMessage="$1"
+if [ "$commitMessage" = "" ]; then
+    commitMessage="WIP"
+fi
+
+# add and commit all items
+git add .
+eval "git commit -a -m '${commitMessage}'"
+
+# push accordingly
+# if hubflow enabled
+#git hf push
+# else
+#git push
+#fi

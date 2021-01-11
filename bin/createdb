@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
+NC='\033[0m'
+
+if [ $# != 1 ]; then
+    echo -e "${YELLOW}Usage: createdb [dbname]${NC}"
+
+    exit 1
+fi
+
+# Create a new MySQL database
+mysql -u root -e "CREATE DATABASE $1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
