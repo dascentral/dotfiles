@@ -24,6 +24,7 @@ function commitp() {
 }
 
 # Create a new MySQL database
+# DEPRECATED — Switching to bash script
 function createdb() {
     if [ $# != 1 ]; then
         echo "Usage: createdb [dbname]";
@@ -38,6 +39,7 @@ function mkd() {
 }
 
 # Output Laravel routes in an abbreviated format
+# DEPRECATED — Switching to bash script
 function routes() {
     if [ ! -e "artisan" ]; then
         printf "\033[1;33mYou are not in the root of a Laravel application.\033[0m\n"
