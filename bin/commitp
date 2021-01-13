@@ -5,7 +5,31 @@ YELLOW='\033[1;33m'
 WHITE='\033[1;37m'
 NC='\033[0m'
 
-# check if this repo has been inited for hubflow
+warn() {
+    echo "$@" >&2;
+}
+
+die() {
+    warn "$@"; exit 1;
+}
+
+escape() {
+    echo "$1" | sed 's/\([\.\$\*]\)/\\\1/g'
+}
+
+has() {
+    local item=$1; shift
+    echo " $@ " | grep -q " $(escape $item) "
+}
+
+git_local_branches() {
+    git branch --no-color | sed 's/^[* ] //';
+}
+
+git_local_branch_exists() {
+    has $1 $(git_local_branches)
+}
+
 hubflow_has_master_configured() {
     local master=$(git config --get hubflow.branch.master)
     [ "$master" != "" ] && git_local_branch_exists "$master"
@@ -28,16 +52,26 @@ hubflow_is_initialized() {
     hubflow_has_master_configured                    && \
     hubflow_has_develop_configured                   && \
     [ "$(git config --get hubflow.branch.master)" !=    \
-        "$(git config --get hubflow.branch.develop)" ] && \
+      "$(git config --get hubflow.branch.develop)" ] && \
     hubflow_has_prefixes_configured
 }
 
 # Validation is complete. Processing may commence.
 ###############################################################################
 
-echo hubflow_has_master_configured;
+if ! hubflow_is_initialized; then
+    die "Not a hubflow-enabled repo yet. Please run \"git hf init\" first."
+else
+    echo 'initialized'
+fi
 
-exit 0;
+# if [ hubflow_is_initialized ]; then
+#     echo 'enabled'
+# else
+#     echo 'no hubflow'
+# fi
+
+exit 0
 
 # prepare commit message
 commitMessage="$1"
