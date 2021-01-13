@@ -10,49 +10,10 @@ function commit() {
     eval "git commit -a -m '${commitMessage}'"
 }
 
-# Commit everything and push
-function commitp() {
-    commitMessage="$1"
-
-    if [ "$commitMessage" = "" ]; then
-        commitMessage="WIP"
-    fi
-
-    git add .
-    eval "git commit -a -m '${commitMessage}'"
-    git hf push
-}
-
-# Create a new MySQL database
-# DEPRECATED — Switching to bash script
-#function createdb() {
-#    if [ $# != 1 ]; then
-#        echo "Usage: createdb [dbname]";
-#    else
-#        mysql -u root -e "CREATE DATABASE $1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
-#    fi
-#}
-
 # Create a new directory and enter it
 function mkd() {
     mkdir -p "$@" && cd "$@"
 }
-
-# Output Laravel routes in an abbreviated format
-# DEPRECATED — Switching to bash script
-#function routes() {
-#    if [ ! -e "artisan" ]; then
-#        printf "\033[1;33mYou are not in the root of a Laravel application.\033[0m\n"
-#    fi
-#
-#    if [ -e "artisan" ]; then
-#      if [ $# != 1 ]; then
-#          php artisan route:list --columns=method,uri,name
-#      else
-#          php artisan route:list --columns=method,uri,name --name=$1
-#      fi
-#    fi
-#}
 
 # Finish the current HubFlow feature
 function ff() {
