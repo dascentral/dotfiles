@@ -67,26 +67,12 @@ hubflow_is_initialized() {
 # Validation is complete. Processing may commence.
 ###############################################################################
 
-
+# confirm we are operating within a Git repository
 if ! git_is_initialized; then
     echo -e "${YELLOW}You are not currently within a Git repository.${NC}"
 
     exit 1
 fi
-
-# if ! hubflow_is_initialized; then
-#     die "Not a hubflow-enabled repo yet. Please run \"git hf init\" first."
-# else
-#     echo 'initialized'
-# fi
-
-if [ hubflow_is_initialized ]; then
-    echo 'HubFlow enabled'
-else
-    echo 'normal repo'
-fi
-
-exit 0
 
 # prepare commit message
 commitMessage="$1"
@@ -99,8 +85,8 @@ git add .
 eval "git commit -a -m '${commitMessage}'"
 
 # push accordingly
-# if hubflow enabled
-#git hf push
-# else
-#git push
-#fi
+if hubflow_is_initialized; then
+    git hf push
+else
+    git push
+fi
