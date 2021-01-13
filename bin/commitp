@@ -46,8 +46,8 @@ if [ "$commitMessage" = "" ]; then
 fi
 
 # add and commit all items
-git add .
-eval "git commit -a -m '${commitMessage}'"
+# git add .
+# eval "git commit -a -m '${commitMessage}'"
 
 # push accordingly
 # if hubflow enabled
