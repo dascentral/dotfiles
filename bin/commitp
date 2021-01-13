@@ -22,6 +22,10 @@ has() {
     echo " $@ " | grep -q " $(escape $item) "
 }
 
+git_is_initialized() {
+    git rev-parse --git-dir > /dev/null 2>&1;
+}
+
 git_local_branches() {
     git branch --no-color | sed 's/^[* ] //';
 }
@@ -63,17 +67,24 @@ hubflow_is_initialized() {
 # Validation is complete. Processing may commence.
 ###############################################################################
 
-if ! hubflow_is_initialized; then
-    die "Not a hubflow-enabled repo yet. Please run \"git hf init\" first."
-else
-    echo 'initialized'
+
+if ! git_is_initialized; then
+    echo -e "${YELLOW}You are not currently within a Git repository.${NC}"
+
+    exit 1
 fi
 
-# if [ hubflow_is_initialized ]; then
-#     echo 'enabled'
+# if ! hubflow_is_initialized; then
+#     die "Not a hubflow-enabled repo yet. Please run \"git hf init\" first."
 # else
-#     echo 'no hubflow'
+#     echo 'initialized'
 # fi
+
+if [ hubflow_is_initialized ]; then
+    echo 'HubFlow enabled'
+else
+    echo 'normal repo'
+fi
 
 exit 0
 
@@ -84,8 +95,8 @@ if [ "$commitMessage" = "" ]; then
 fi
 
 # add and commit all items
-# git add .
-# eval "git commit -a -m '${commitMessage}'"
+git add .
+eval "git commit -a -m '${commitMessage}'"
 
 # push accordingly
 # if hubflow enabled
