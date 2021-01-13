@@ -35,7 +35,7 @@ hubflow_is_initialized() {
 # Validation is complete. Processing may commence.
 ###############################################################################
 
-echo hubflow_is_initialized;
+echo hubflow_has_master_configured;
 
 exit 0;
 
