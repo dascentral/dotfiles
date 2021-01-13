@@ -6,7 +6,7 @@ WHITE='\033[1;37m'
 NC='\033[0m'
 
 if [ $# != 1 ]; then
-    echo -e "${YELLOW}Usage: createdb [dbname]${NC}"
+    echo -e "${WHITE}Usage: createdb [dbname]${NC}"
 
     exit 1
 fi
