@@ -273,6 +273,7 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 ### Security
 
+* **Package:** [Enlightn](https://www.laravel-enlightn.com/)
 * **Article:** May 2019 - [The Laravel Security Checklist](https://laravel-news.com/the-laravel-security-checklist-sponsor)
 
 ### Settings
