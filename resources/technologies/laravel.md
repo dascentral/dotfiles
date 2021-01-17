@@ -258,6 +258,7 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 ### GraphQL
 
 * **Framework:** [Lighthouse](https://lighthouse-php.com)
+* **Repository:** Jan 2021 — [driesvints/graphql-shop](https://github.com/driesvints/graphql-shop) — Laracon EU 2021talk, "Building a GraphQL API with Laravel." This talk leverages the Lighthouse framework.
 * **Article:** March 2019 — [Developing and Securing GraphQL APIs with Laravel](https://auth0.com/blog/developing-and-securing-graphql-apis-with-laravel)
 * **Article:** Oct 2018 — [Lighthouse GraphQL Server for Laravel](https://laravel-news.com/lighthouse-graphql-server-for-laravel)
 
