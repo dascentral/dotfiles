@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
+NC='\033[0m'
+
+###############################################################################
+
+if [ ! -e "artisan" ]; then
+    echo -e "${YELLOW}You are not in the root of a Laravel application.${NC}"
+
+    exit 0
+fi
+
+if [ ! -e "storage/logs" ]; then
+    echo -e "${YELLOW}There is no "storage/logs" folder.${NC}"
+
+    exit 0
+fi
+
+# cat the most recent log file
+file=(`ls -Art storage/logs | tail -n 1`)
+tail -f storage/logs/$file
