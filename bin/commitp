@@ -7,8 +7,6 @@ source /Users/${USER}/dotfiles/bin/.functions
 # WHITE='\033[1;37m'
 # NC='\033[0m'
 
-# TODO: Move prep functions into ".functions" and source here
-
 # warn() {
 #     echo "$@" >&2;
 # }
@@ -68,7 +66,6 @@ source /Users/${USER}/dotfiles/bin/.functions
 #     hubflow_has_prefixes_configured
 # }
 
-# Validation is complete. Processing may commence.
 ###############################################################################
 
 # confirm we are operating within a Git repository
