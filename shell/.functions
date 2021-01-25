@@ -4,15 +4,15 @@ function mkd() {
 }
 
 # Finish the current HubFlow feature
-function ff() {
-  parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
-
-  if [ $parts[3] != 'feature' ]; then
-    printf "\033[1;33mYou do not appear to be within a feature branch.\033[0m\n"
-  else
-    git hf feature finish ${parts[4]}
-  fi
-}
+#function ff() {
+#  parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
+#
+#  if [ $parts[3] != 'feature' ]; then
+#    printf "\033[1;33mYou do not appear to be within a feature branch.\033[0m\n"
+#  else
+#    git hf feature finish ${parts[4]}
+#  fi
+#}
 
 # cat the latest Laravel log
 function cll() {
@@ -48,12 +48,12 @@ function tll() {
 
 # switch PHP versions
 # Credit: https://freek.dev/1185-easily-switch-php-versions-in-laravel-valet
-phpv() {
-  valet stop
-  brew unlink php@7.3 php@7.4
-  brew link --force --overwrite $1
-  brew services start $1
-  composer global update
-  rm -f ~/.config/valet/valet.sock
-  valet install
-}
+#phpv() {
+#  valet stop
+#  brew unlink php@7.3 php@7.4
+#  brew link --force --overwrite $1
+#  brew services start $1
+#  composer global update
+#  rm -f ~/.config/valet/valet.sock
+#  valet install
+#}
