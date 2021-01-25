@@ -1,7 +1,7 @@
 # Create a new directory and enter it
-function mkd() {
-    mkdir -p "$@" && cd "$@"
-}
+#function mkd() {
+#    mkdir -p "$@" && cd "$@"
+#}
 
 # Finish the current HubFlow feature
 function ff() {
