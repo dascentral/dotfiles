@@ -71,3 +71,6 @@ hubflow_is_initialized() {
     hubflow_has_prefixes_configured
 }
 
+laravel_application_root() {
+    [ -e "artisan" ]
+}

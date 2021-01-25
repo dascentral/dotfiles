@@ -2,7 +2,7 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-if [ ! -e "artisan" ]; then
+if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
