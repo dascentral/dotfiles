@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
 
-GREEN='\033[1;32m'
-YELLOW='\033[1;33m'
-WHITE='\033[1;37m'
-NC='\033[0m'
-
-###############################################################################
+source /Users/${USER}/dotfiles/bin/.functions
 
 if [ ! -e "artisan" ]; then
-    echo -e "${YELLOW}You are not in the root of a Laravel application.${NC}"
-
-    exit 1
+    abort "You are not in the root of a Laravel application."
 fi
 
 # Output Laravel routes in an abbreviated format

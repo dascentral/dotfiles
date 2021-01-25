@@ -1,0 +1,73 @@
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
+NC='\033[0m'
+
+
+abort() {
+    echo -e "${YELLOW}$@${NC}"; exit 1;
+}
+
+usage() {
+    echo -e "${WHITE}$@${NC}"; exit 1;
+}
+
+warn() {
+    echo "$@" >&2;
+}
+
+die() {
+    warn "$@"; exit 1;
+}
+
+escape() {
+    echo "$1" | sed 's/\([\.\$\*]\)/\\\1/g'
+}
+
+has() {
+    local item=$1; shift
+    echo " $@ " | grep -q " $(escape $item) "
+}
+
+git_is_initialized() {
+    git rev-parse --git-dir > /dev/null 2>&1;
+}
+
+git_local_branches() {
+    git branch --no-color | sed 's/^[* ] //';
+}
+
+git_local_branch_exists() {
+    has $1 $(git_local_branches)
+}
+
+git_current_branch() {
+	git branch --no-color | grep '^\* ' | grep -v 'no branch' | sed 's/^* //g'
+}
+
+hubflow_has_master_configured() {
+    local master=$(git config --get hubflow.branch.master)
+    [ "$master" != "" ] && git_local_branch_exists "$master"
+}
+
+hubflow_has_develop_configured() {
+    local develop=$(git config --get hubflow.branch.develop)
+    [ "$develop" != "" ] && git_local_branch_exists "$develop"
+}
+
+hubflow_has_prefixes_configured() {
+    git config --get hubflow.prefix.feature >/dev/null 2>&1     && \
+    git config --get hubflow.prefix.release >/dev/null 2>&1     && \
+    git config --get hubflow.prefix.hotfix >/dev/null 2>&1      && \
+    git config --get hubflow.prefix.support >/dev/null 2>&1     && \
+    git config --get hubflow.prefix.versiontag >/dev/null 2>&1
+}
+
+hubflow_is_initialized() {
+    hubflow_has_master_configured                    && \
+    hubflow_has_develop_configured                   && \
+    [ "$(git config --get hubflow.branch.master)" !=    \
+      "$(git config --get hubflow.branch.develop)" ] && \
+    hubflow_has_prefixes_configured
+}
+

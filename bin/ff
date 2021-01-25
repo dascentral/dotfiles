@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-GREEN='\033[1;32m'
-YELLOW='\033[1;33m'
-WHITE='\033[1;37m'
-NC='\033[0m'
-
-###############################################################################
+source /Users/${USER}/dotfiles/bin/.functions
 
 parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
 
