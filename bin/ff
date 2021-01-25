@@ -10,7 +10,7 @@ NC='\033[0m'
 parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
 
 if [ $parts[3] != 'feature' ]; then
-    printf "\033[1;33mYou do not appear to be within a feature branch.\033[0m\n"
+    echo -e "${YELLOW}You do not appear to be within a feature branch.${NC}"
 else
     git hf feature finish ${parts[4]}
 fi
