@@ -75,7 +75,7 @@ alias bsr='brew services restart'
 #------------------------------------------------------------------------------------------
 # Laravel — Most disabled given use of Laravel Sail
 #------------------------------------------------------------------------------------------
-alias a='php artisan'
+#alias a='php artisan'
 #alias dusk='php artisan dusk'
 #alias mfs='php artisan migrate:fresh --seed'
 #alias t='php artisan test'
