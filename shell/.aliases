@@ -91,7 +91,7 @@ alias a='sail artisan'
 alias dusk='sail dusk'
 alias mfs='sail artisan migrate:fresh --seed'
 alias up='sail up'
-alias t='sail test'
+alias t='sail test --parallel'
 
 
 #------------------------------------------------------------------------------------------
@@ -125,8 +125,7 @@ alias t='sail test'
 #------------------------------------------------------------------------------------------
 alias mix='npx mix'
 alias nrd='npm run dev'
-alias nrp='npm run production'
-alias nrw='npm run watch'
+alias nrp='npm run prod'
 alias watch='npx mix watch'
 
 
