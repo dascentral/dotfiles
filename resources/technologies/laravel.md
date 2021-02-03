@@ -197,6 +197,10 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article:** April 2019 — [Laravel Postal Code Validation](https://laravel-news.com/laravel-postal-code-validation) — Supporting worldwide postal code validation
 * **Article:** Nov 2015 — [Validate (almost) anything in Laravel](https://freek.dev/315-validate-almost-anything-in-laravel)
 
+### Vapor
+
+* **Videos:** Feb 2021 — [Learn Laravel Vapor](https://www.youtube.com/playlist?list=PLcjapmjyX17gqhjUz8mgTaWzSv1FPgePD)
+
 ## Extending Laravel
 
 ### Actions
