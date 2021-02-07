@@ -92,6 +92,7 @@ alias dusk='sail dusk'
 alias mfs='sail artisan migrate:fresh --seed'
 alias up='sail up'
 alias t='sail test --parallel'
+alias td='sail test --parallel && sail dusk'
 
 
 #------------------------------------------------------------------------------------------
