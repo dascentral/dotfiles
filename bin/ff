@@ -2,10 +2,10 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
+parts=`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`
 
 if [ $parts[3] != 'feature' ]; then
-    echo -e "${YELLOW}You do not appear to be within a feature branch.${NC}"
+    abort "You do not appear to be within a feature branch."
 else
     git hf feature finish ${parts[4]}
 fi
