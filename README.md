@@ -15,15 +15,15 @@ The following articles and repositories may provide inspiration as you setup you
 
 ### Articles
 
-* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) - Zack Holman, Aug 2010
-* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) - Dries Vints, April 2016
+* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) — Zack Holman, Aug 2010
+* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) — Dries Vints, April 2016
 
 ### Repositories
 
-* [dotfiles.github.io](https://dotfiles.github.io/) - Your unofficial guide to dotfiles on GitHub.
+* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub.
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
-* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) - Great for mac
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) — Great for mac
 * [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
@@ -186,3 +186,9 @@ If you run this command, be sure to only open software from sources that you tru
 Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
 
 [https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
+
+## Resources
+
+### Alfred
+
+* **Article:** Feb 2021 — [My Alfred Setup](https://stefanzweifel.io/posts/2021/02/03/my-alfred-setup/), by Stefan Zweifel
