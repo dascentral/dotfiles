@@ -46,5 +46,5 @@ fi
 if [ -e ~/.aliases ]; then
     info "Aliases have already been installed."
 else
-    /Users/${USER}/dotfiles-private/install/aliases.sh
+    /Users/${USER}/dotfiles/install/aliases.sh
 fi
