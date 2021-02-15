@@ -12,6 +12,10 @@ usage() {
     echo -e "${WHITE}$@${NC}"; exit 1;
 }
 
+info() {
+    echo -e "${WHITE}$@${NC}"
+}
+
 warn() {
     echo "$@" >&2;
 }
