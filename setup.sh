@@ -38,3 +38,13 @@ else
     sudo chown ${USER} ~/.composer
     printf "\n\n"
 fi
+
+
+#===================================================================================
+# Aliases
+#===================================================================================
+if [ -e ~/.aliases ]; then
+    info "Aliases have already been installed."
+else
+    /Users/${USER}/dotfiles-private/install/aliases.sh
+fi
