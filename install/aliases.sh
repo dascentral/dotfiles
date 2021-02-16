@@ -15,9 +15,9 @@ if [ -e "/Users/$USER/.aliases-local" ]; then
     cat /Users/$USER/.aliases-local >> /Users/$USER/.aliases
 fi
 
-# Include any private aliases
-if [ -e "/Users/$USER/.aliases-private" ]; then
-    cat /Users/$USER/.aliases-private >> /Users/$USER/.aliases
+# Include aliases from my private dotfiles repository
+if [ -e "/Users/$USER/dotfiles-private/shell/.aliases" ]; then
+    cat /Users/$USER/dotfiles-private/shell/.aliases >> /Users/$USER/.aliases
 fi
 
 # Wrap it up
