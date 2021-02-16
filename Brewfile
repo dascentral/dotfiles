@@ -8,8 +8,6 @@ tap 'homebrew/bundle'
 # brew 'ack'
 # brew 'awscli'
 # brew 'bash'
-# brew 'grep'
-# brew 'stripe/stripe-cli/stripe'
 # brew 'svn'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
