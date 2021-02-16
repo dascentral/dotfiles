@@ -1,0 +1,38 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "ff8696463f89c5b89d60c3d46ed83e32e5ffeca1"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "bfb4b05bd313a84ccfe61b67b256730763e082a9"
+      },
+      "homebrew/cask-versions": {
+        "revision": "9d8fa3dc15fc0c8d551bdfa0285f5f7362c77e83"
+      },
+      "homebrew/bundle": {
+        "revision": "d5eac7eaed3ab50c71af9bb5cb4838c8a651991f"
+      }
+    },
+    "cask": {
+      "bettertouchtool": {
+        "version": "3.553,1693",
+        "options": {
+          "full_name": "bettertouchtool"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.0.1",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "eb7c8d21b87d23cdd08626d2c80c8c63b1846762",
+        "CLT": "12.0.32.29",
+        "Xcode": "12.0",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}
