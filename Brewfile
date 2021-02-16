@@ -36,7 +36,7 @@ brew 'zlib'
 # Development
 # brew 'php'
 # brew 'php@7.3'
-# brew 'composer'
+brew 'composer'
 # brew 'libmemcached'
 # brew 'memcached'
 # brew 'mysql'
