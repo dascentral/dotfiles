@@ -116,6 +116,12 @@
         "options": {
           "full_name": "appcleaner"
         }
+      },
+      "tweetbot": {
+        "version": "3.5.200,4",
+        "options": {
+          "full_name": "tweetbot"
+        }
       }
     },
     "brew": {

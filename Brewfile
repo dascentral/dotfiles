@@ -92,7 +92,6 @@ cask 'grammarly'
 cask 'imageoptim'
 cask 'sublime-text'
 cask 'tableplus'
-# cask 'tweetbot'
 cask 'visual-studio-code'
 cask 'vlc'
 
@@ -125,5 +124,5 @@ cask 'font-source-sans-pro'
 # mas 'Spark', id: 1176895641
 # mas 'Speedtest', id: 1153157709
 # mas 'Things', id: 904280696
-# mas 'Tweetbot', id: 1384080005
 mas 'Evernote', id: 406056744
+mas 'Tweetbot', id: 1384080005
