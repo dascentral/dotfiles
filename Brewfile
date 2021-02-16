@@ -107,10 +107,6 @@ cask 'suspicious-package'
 cask 'webpquicklook'
 
 # Fonts
-# cask 'font-open-sans'
-# cask 'font-roboto'
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-serif-pro'
 cask 'font-lato'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
