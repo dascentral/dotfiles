@@ -68,6 +68,7 @@ alias fs='git hf feature start'
 #------------------------------------------------------------------------------------------
 # Homebrew
 #------------------------------------------------------------------------------------------
+alias bb='brew bundle'
 alias bsl='brew services list'
 alias bsr='brew services restart'
 
