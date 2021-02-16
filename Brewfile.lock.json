@@ -110,6 +110,12 @@
         "options": {
           "full_name": "grammarly"
         }
+      },
+      "appcleaner": {
+        "version": "3.6.0,4070",
+        "options": {
+          "full_name": "appcleaner"
+        }
       }
     },
     "brew": {
@@ -650,6 +656,12 @@
             }
           }
         }
+      }
+    },
+    "mas": {
+      "Evernote": {
+        "id": "406056744",
+        "version": "10.7.6"
       }
     }
   },
