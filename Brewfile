@@ -116,13 +116,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 
 # Mac App Store
-# mas 'Byword', id: 420212497
-# mas 'Giphy Capture', id: 668208984
-# mas 'Keynote', id: 409183694
-# mas 'MindNode – Mind Map & Outline', id: 1289197285
-# mas 'Numbers', id: 409203825
-# mas 'Spark', id: 1176895641
-# mas 'Speedtest', id: 1153157709
-# mas 'Things', id: 904280696
+# mas 'MindNode', id: 1289197285
 mas 'Evernote', id: 406056744
+# mas 'Spark', id: 1176895641
 mas 'Tweetbot', id: 1384080005
