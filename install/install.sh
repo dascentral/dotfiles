@@ -15,9 +15,6 @@ fi
 # Ash for password before we begin
 #sudo -v
 
-# Package Installations
-/Users/${USER}/dotfiles/install/packages.sh
-
 # Composer installations
 /Users/${USER}/dotfiles/install/composer.sh
 
