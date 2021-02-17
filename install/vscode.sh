@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+source /Users/${USER}/dotfiles/bin/.functions
+
+if [ ! -e "/usr/local/bin/code" ]; then
+    abort "VS Code command line utility is not available."
+fi
+
 declare -a extensions=(
     "arcticicestudio.nord-visual-studio-code"
     "bmewburn.vscode-intelephense-client"
