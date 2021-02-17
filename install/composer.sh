@@ -2,7 +2,6 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-
 # Confirm necessary software is installed
 if [ ! -e "/usr/local/bin/composer" ]; then
     abort "Composer has not been installed. Aborting installation."
@@ -13,7 +12,7 @@ printf "\033[1;37mComposer self-update.\033[0m\n"
 /usr/local/bin/composer self-update
 printf "\n"
 
-# Loop through desired packages
+# Install desired packages
 # "squizlabs/php_codesniffer=*"
 declare -a extensions=(
     "dascentral/hubflow-release"
