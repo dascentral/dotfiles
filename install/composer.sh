@@ -1,95 +1,33 @@
 #!/usr/bin/env bash
 
+source /Users/${USER}/dotfiles/bin/.functions
+
+
 # Confirm necessary software is installed
 if [ ! -e "/usr/local/bin/composer" ]; then
-    printf "\n\033[1;33mComposer has not been installed. Aborting installation.\n\n\033[0m"
-    exit 0;
+    abort "Composer has not been installed. Aborting installation."
 fi
-
-
-#============================================================================
-# Software installations
-#============================================================================
 
 # Composer Update
 printf "\033[1;37mComposer self-update.\033[0m\n"
 /usr/local/bin/composer self-update
 printf "\n"
 
+# Loop through desired packages
+# "squizlabs/php_codesniffer=*"
+declare -a extensions=(
+    "dascentral/hubflow-release"
+    "consolidation/cgr"
+    "friendsofphp/php-cs-fixer"
+    "laravel/installer"
+    "laravel/valet"
+    "tightenco/takeout"
+)
 
-# Composer Global Require
-app="consolidation/cgr"
-name="Composer Global Require"
-check="/Users/$USER/.composer/vendor/bin/cgr"
-url="https://github.com/consolidation/cgr"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="dascentral/hubflow-release"
-name="dascentral/hubflow-release"
-check="/Users/$USER/.composer/vendor/bin/hf"
-url="https://packagist.org/packages/dascentral/hubflow-release"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="friendsofphp/php-cs-fixer"
-name="PHP CS Fixer"
-check="/Users/$USER/.composer/vendor/friendsofphp/php-cs-fixer"
-url="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="laravel/installer"
-name="laravel/installer"
-check="/Users/$USER/.composer/vendor/bin/laravel"
-url="https://laravel.com/docs/master"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="laravel/valet"
-name="laravel/valet"
-check="/Users/$USER/.composer/vendor/bin/valet"
-url="https://laravel.com/docs/master"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name - $url\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="squizlabs/php_codesniffer=*"
-name="PHP Code Sniffer"
-check="/Users/$USER/.composer/vendor/squizlabs/php_codesniffer"
-url="https://github.com/squizlabs/PHP_CodeSniffer"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
-
-
-app="tightenco/takeout"
-name="Takeout"
-check="/Users/$USER/.composer/vendor/tightenco/takeout"
-url="https://github.com/tightenco/takeout"
-if [ ! -e "$check" ]; then
-    printf "\033[1;37mInstalling $name.\033[0m\n"
-    composer global require $app
-    printf "\n"
-fi
+for extension in ${extensions[@]}; do
+    parts=(`echo $extension | tr '/' ' '`)
+    if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
+        info "\nInstalling $extension"
+        composer global require $extension
+    fi
+done
