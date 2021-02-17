@@ -2,7 +2,6 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-# Confirm necessary software is installed
 if [ ! -e "/usr/local/bin/brew" ]; then
     abort "Homebrew has not been installed. Aborting installation."
 fi

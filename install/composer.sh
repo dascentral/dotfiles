@@ -2,7 +2,6 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-# Confirm necessary software is installed
 if [ ! -e "/usr/local/bin/composer" ]; then
     abort "Composer has not been installed. Aborting installation."
 fi
