@@ -6,5 +6,4 @@ if [ ! -e "Brewfile" ]; then
     abort "There is no Brewfile within this folder."
 fi
 
-# cat the most recent log file
 brew bundle
