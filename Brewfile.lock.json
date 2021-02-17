@@ -176,6 +176,78 @@
         "options": {
           "full_name": "webpquicklook"
         }
+      },
+      "tower": {
+        "version": "6.3,273:53291173",
+        "options": {
+          "full_name": "tower"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2104.10",
+        "options": {
+          "full_name": "whatsapp"
+        }
+      },
+      "teamviewer": {
+        "version": "15.14.5",
+        "options": {
+          "full_name": "teamviewer"
+        }
+      },
+      "spotify": {
+        "version": "1.1.52.687.gf5565fe5,1.1.52.687.gf5565fe5-30",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "spectacle": {
+        "version": "1.2,672",
+        "options": {
+          "full_name": "spectacle"
+        }
+      },
+      "rocket": {
+        "version": "1.8.2,79",
+        "options": {
+          "full_name": "rocket"
+        }
+      },
+      "bartender": {
+        "version": "3.1.25,31125",
+        "options": {
+          "full_name": "bartender"
+        }
+      },
+      "postman": {
+        "version": "8.0.5",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "the-unarchiver": {
+        "version": "4.2.4,131:1605625663",
+        "options": {
+          "full_name": "the-unarchiver"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.4",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "insomnia": {
+        "version": "2020.5.2",
+        "options": {
+          "full_name": "insomnia"
+        }
+      },
+      "gpg-suite": {
+        "version": "2020.2",
+        "options": {
+          "full_name": "gpg-suite"
+        }
       }
     },
     "brew": {
