@@ -8,7 +8,7 @@ if [ ! -e "/usr/local/bin/composer" ]; then
 fi
 
 # Composer Update
-into "Composer self-update"
+info "Composer self-update"
 /usr/local/bin/composer self-update
 printf "\n"
 
