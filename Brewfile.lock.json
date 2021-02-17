@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "ef71515c77a08bfb1d400af038bed5776d465dcf"
+        "revision": "e93ed60a5502ab258bae7cfdcdd1304446070a2d"
       },
       "homebrew/cask-fonts": {
-        "revision": "bfb4b05bd313a84ccfe61b67b256730763e082a9"
+        "revision": "0215b76788c19f2ed634048c941b567cdaaa250c"
       },
       "homebrew/cask-versions": {
-        "revision": "9d8fa3dc15fc0c8d551bdfa0285f5f7362c77e83"
+        "revision": "f0755e6954a3027174b4c46d2097b81a1488c5a1"
       },
       "homebrew/bundle": {
         "revision": "d5eac7eaed3ab50c71af9bb5cb4838c8a651991f"
@@ -34,7 +34,7 @@
         }
       },
       "alfred": {
-        "version": "4.3.1,1214",
+        "version": "4.3.2,1221",
         "options": {
           "full_name": "alfred"
         }
@@ -716,12 +716,39 @@
             }
           }
         }
+      },
+      "svn": {
+        "version": "1.14.1",
+        "bottle": {
+          "rebuild": 0,
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "root_url": "https://homebrew.bintray.com/bottles",
+          "files": {
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/subversion-1.14.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ca05380632bac6c53ae282050a0ce9a3034ffbb5719684f2d96cc43fbfe1e130"
+            },
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/subversion-1.14.1.big_sur.bottle.tar.gz",
+              "sha256": "b98befd5c5b05ab4381e055a967cb6df55a59174cca11ce6ff9cbe4a3bd35e59"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/subversion-1.14.1.catalina.bottle.tar.gz",
+              "sha256": "3cfd3fc3886817d9accd3f118083b95e1c6832eee4f20fa1b73b28a2e2262600"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/subversion-1.14.1.mojave.bottle.tar.gz",
+              "sha256": "5de933ae5c71c09e2aae3607dfc84a47c85a67532e2e35b1b09c06e27046e0ba"
+            }
+          }
+        }
       }
     },
     "mas": {
       "Evernote": {
         "id": "406056744",
-        "version": "10.7.6"
+        "version": "10.8.4"
       },
       "Tweetbot": {
         "id": "1384080005",
@@ -738,7 +765,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.0.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "013cdc995bb91eec68e32751170cb6d28959ec1d",
+        "Homebrew/homebrew-core": "336a3a62fffe8f5d55d3d606fa2d7c494ded1e74",
         "CLT": "12.0.32.29",
         "Xcode": "12.0",
         "macOS": "10.15.7"
