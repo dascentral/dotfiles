@@ -6,8 +6,8 @@ tap 'homebrew/bundle'
 
 # Binaries
 # brew 'ack'
-# brew 'awscli'
 # brew 'bash'
+brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'

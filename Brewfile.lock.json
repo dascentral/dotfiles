@@ -5,7 +5,7 @@
         "revision": "e93ed60a5502ab258bae7cfdcdd1304446070a2d"
       },
       "homebrew/cask-fonts": {
-        "revision": "0215b76788c19f2ed634048c941b567cdaaa250c"
+        "revision": "255dd4f8893f29b9f1a1f075965c0ca7cbb5cbf9"
       },
       "homebrew/cask-versions": {
         "revision": "f0755e6954a3027174b4c46d2097b81a1488c5a1"
@@ -740,6 +740,33 @@
             "mojave": {
               "url": "https://homebrew.bintray.com/bottles/subversion-1.14.1.mojave.bottle.tar.gz",
               "sha256": "5de933ae5c71c09e2aae3607dfc84a47c85a67532e2e35b1b09c06e27046e0ba"
+            }
+          }
+        }
+      },
+      "awscli": {
+        "version": "2.1.27",
+        "bottle": {
+          "rebuild": 0,
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "root_url": "https://homebrew.bintray.com/bottles",
+          "files": {
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.arm64_big_sur.bottle.tar.gz",
+              "sha256": "57adb5a4659356b494f81d6777d8f6963e5b2698511b22e435bd5782e1902a7c"
+            },
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.big_sur.bottle.tar.gz",
+              "sha256": "0b43e62be61207646f83987ee743e127b81cc211c9de7529053c0265aff830fe"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.catalina.bottle.tar.gz",
+              "sha256": "a1919a0c4572b8f65bb018ab8fcc255e9fa2e4c331f8de396aa46b97c49558e6"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.mojave.bottle.tar.gz",
+              "sha256": "6cc49a8bdf8b0822753c67cf93175d964e2d0282716193d05da275b48aed4798"
             }
           }
         }
