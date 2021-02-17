@@ -8,7 +8,7 @@ if [ ! -e "/usr/local/bin/composer" ]; then
 fi
 
 # Composer Update
-printf "\033[1;37mComposer self-update.\033[0m\n"
+into "Composer self-update"
 /usr/local/bin/composer self-update
 printf "\n"
 
@@ -26,7 +26,8 @@ declare -a extensions=(
 for extension in ${extensions[@]}; do
     parts=(`echo $extension | tr '/' ' '`)
     if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
-        info "\nInstalling $extension"
+        info "Installing $extension"
         composer global require $extension
+        printf "\n"
     fi
 done
