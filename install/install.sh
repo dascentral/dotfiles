@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 
-# Confirm Homebrew is installed
+source /Users/${USER}/dotfiles/bin/.functions
+
 if [ ! -e "/usr/local/bin/brew" ]; then
-    printf "\n\033[1;33mHomebrew has not been installed. Aborting installation.\n\n\033[0m"
-    exit 0;
+    abort "Homebrew has not been installed. Aborting installation."
 fi
 
 # Confirm Composer is installed
 if [ ! -e "/usr/local/bin/composer" ]; then
-    printf "\n\033[1;33mComposer has not been installed. Aborting installation.\n\n\033[0m"
-    exit 0;
+    abort "Composer has not been installed. Aborting installation."
 fi
 
 # Ash for password before we begin
