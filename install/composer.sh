@@ -12,8 +12,7 @@ info "Composer self-update"
 /usr/local/bin/composer self-update
 printf "\n"
 
-# Install desired packages
-# "squizlabs/php_codesniffer=*"
+# Define packages to install
 declare -a extensions=(
     "dascentral/hubflow-release"
     "consolidation/cgr"
@@ -23,6 +22,7 @@ declare -a extensions=(
     "tightenco/takeout"
 )
 
+# Install desired packages
 for extension in ${extensions[@]}; do
     parts=(`echo $extension | tr '/' ' '`)
     if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
@@ -31,3 +31,10 @@ for extension in ${extensions[@]}; do
         printf "\n"
     fi
 done
+
+# One-off package installation
+if [ ! -e "/Users/${USER}/.composer/vendor/squizlabs/php_codesniffer" ]; then
+    info "Installing squizlabs/php_codesniffer"
+    composer global require "squizlabs/php_codesniffer=*"
+    printf "\n"
+fi
