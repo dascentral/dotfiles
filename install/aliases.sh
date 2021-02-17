@@ -19,4 +19,4 @@ if [ -e "/Users/${USER}/dotfiles-private/shell/.aliases" ]; then
 fi
 
 # Wrap it up
-printf "\n\n"
+printf "\n"
