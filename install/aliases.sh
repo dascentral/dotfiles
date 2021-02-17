@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
-#===================================================================================
-# Alias Installlation
-#===================================================================================
+source /Users/${USER}/dotfiles/bin/.functions
 
 # Start it up
-printf "\033[1;37mCopying aliases into place.\033[0m"
+info "Copying aliases into place."
 
 # Copy into place
 cp /Users/${USER}/dotfiles/shell/.aliases /Users/${USER}/.aliases
