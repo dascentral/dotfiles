@@ -10,6 +10,6 @@ if [ ! -e "storage/logs" ]; then
     abort "There is no "storage/logs" folder."
 fi
 
-# cat the most recent log file
+# tail the most recent log file
 file=(`ls -Art storage/logs | tail -n 1`)
 tail -f storage/logs/$file
