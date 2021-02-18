@@ -292,9 +292,10 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 I am not sure I will wind up with enough resources to warrant maintaining "Performance" as it's only first-party section within this document but performance is an incredibly important aspect of well-written application.
 
-* **Article:** Oct 2018 - [Measure Anything in Laravel with StatsD](https://laravel-news.com/measure-anything-laravel-statsd)
-* **Article:** July 2018 - [Laravel Query Detector](https://laravel-news.com/laravel-query-detector)
-* **Article:** Sept 2018 - [Laravel Health Panel](https://laravel-news.com/laravel-health-panel) - "Health" isn't necessarily performance but it warrants a mention here.
+* **Tutorial:** Feb 2020 — [The Ultimate Performance Checklist For Laravel Apps](https://laravel-news.com/performance-checklist)
+* **Article:** Oct 2018 — [Measure Anything in Laravel with StatsD](https://laravel-news.com/measure-anything-laravel-statsd)
+* **Article:** July 2018 — [Laravel Query Detector](https://laravel-news.com/laravel-query-detector)
+* **Article:** Sept 2018 — [Laravel Health Panel](https://laravel-news.com/laravel-health-panel) - "Health" isn't necessarily performance but it warrants a mention here.
 
 ## Packages
 
