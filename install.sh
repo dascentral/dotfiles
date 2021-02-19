@@ -11,9 +11,6 @@ source /Users/${USER}/dotfiles/bin/.functions
 # Homebrew Installation
 /Users/${USER}/dotfiles/install/homebrew.sh
 
-# PHP Installation
-#/Users/${USER}/dotfiles/install/php.sh
-
 # Brew bundle
 /Users/${USER}/dotfiles/install/bundle.sh
 
