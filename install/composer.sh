@@ -6,11 +6,6 @@ if [ ! -e "/usr/local/bin/composer" ]; then
     abort "Composer has not been installed. Aborting installation."
 fi
 
-# Composer Update
-info "Composer self-update"
-/usr/local/bin/composer self-update
-printf "\n"
-
 # Define packages to install
 declare -a extensions=(
     "dascentral/hubflow-release"
