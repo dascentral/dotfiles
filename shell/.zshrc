@@ -69,7 +69,9 @@ DISABLE_UPDATE_PROMPT="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+plugins+=(osx)
 plugins+=(zsh-autosuggestions)
+plugins+=(zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,7 +104,9 @@ source $ZSH/oh-my-zsh.sh
 ############
 
 # Source Aliases
-source ~/.aliases
+source ~/dotfiles/shell/.aliases
+source ~/dotfiles-private/shell/.aliases
+[ -s "$HOME/.aliases-local" ] && source $HOME/.aliases-local
 
 # Source Functions
 source ~/dotfiles/shell/.functions
