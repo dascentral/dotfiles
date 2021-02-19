@@ -1,0 +1,99 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/bin/.functions
+
+abort "WIP"
+
+#-----------------------------------------------------------------------------------
+# Repo Check - dotfiles
+#-----------------------------------------------------------------------------------
+if [ ! -e "/Users/${USER}/dotfiles" ]; then
+    abort "The dotfiles repo does not exist in the expected location."
+fi
+cd ~/dotfiles
+if ! git diff-index --quiet HEAD --; then
+    abort "The dotfiles repo has pending changes."
+fi
+
+
+#-----------------------------------------------------------------------------------
+# Repo Check - dotfiles-private
+#-----------------------------------------------------------------------------------
+if [ ! -e "/Users/${USER}/dotfiles-private" ]; then
+    abort "The private dotfiles repo does not exist in the expected location."
+fi
+cd ~/dotfiles-private
+if ! git diff-index --quiet HEAD --; then
+    abort "The private dotfiles repo has pending changes."
+fi
+
+
+#-----------------------------------------------------------------------------------
+# Clear the screen
+#-----------------------------------------------------------------------------------
+clear
+
+
+#-----------------------------------------------------------------------------------
+# Git Repository Update
+#-----------------------------------------------------------------------------------
+
+# Pull the latest from Git - dotfiles-private
+info "Pulling latest from Git: dotfiles-private"
+cd ~/dotfiles-private
+git reset HEAD --hard
+git pull
+printf "\n"
+
+# Pull the latest from Git - dotfiles
+info "Pulling latest from Git: dotfiles"
+cd ~/dotfiles
+git reset HEAD --hard
+git pull
+printf "\n"
+
+
+#-----------------------------------------------------------------------------------
+# Homebrew Maintenance
+#-----------------------------------------------------------------------------------
+# Homebrew Upgrade
+info "Brew upgrade."
+brew upgrade
+printf "\n"
+
+# Homebrew Update
+info "Brew update."
+brew update
+printf "\n"
+
+# Homebrew cleanup
+info "Brew cleanup."
+brew cleanup
+printf "\n"
+
+# Homebrew doctor
+info "Brew doctor."
+brew doctor
+printf "\n"
+
+
+#-----------------------------------------------------------------------------------
+# Composer Maintenance
+#-----------------------------------------------------------------------------------
+info "Composer self-update"
+/usr/local/bin/composer self-update
+printf "\n"
+
+
+#-----------------------------------------------------------------------------------
+# Settings
+#-----------------------------------------------------------------------------------
+# source .macos?
+
+
+#-----------------------------------------------------------------------------------
+# Local hack
+#-----------------------------------------------------------------------------------
+if [ -e /usr/local/var/log/php-fpm.log ]; then
+    echo '' > /usr/local/var/log/php-fpm.log
+fi
