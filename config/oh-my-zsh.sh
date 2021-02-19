@@ -3,6 +3,8 @@
 printf "\n\033[1;33mScript has not been tested. Run commands manually to confirm it works as expected.\n\n\033[0m"
 exit 0;
 
+# TODO - need to add installation of https://github.com/zsh-users/zsh-syntax-highlighting
+
 # Ensure Oh My Zsh has been installed
 if [ ! -e ~/.oh-my-zsh ]; then
     exit 0;
