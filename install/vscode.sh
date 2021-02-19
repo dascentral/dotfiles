@@ -43,7 +43,7 @@ declare -a extensions=(
 
 for extension in ${extensions[@]}; do
     if ! ls ~/.vscode/extensions/${extension}* 1> /dev/null 2>&1; then
-        info "Installing VS Code Extension - $extension\n"
+        info "Installing VS Code Extension - $extension"
         code --install-extension $extension
         printf "\n"
     fi
