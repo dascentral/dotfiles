@@ -32,14 +32,15 @@ fi
 #============================================================================
 # Composer
 #============================================================================
-if [ -e /usr/local/bin/composer ]; then
-    info "Composer has already been installed."
-else
-    info "Installing Composer."
-    php -r "readfile('https://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
-    sudo chown ${USER} ~/.composer
-    printf "\n\n"
-fi
+# Composer is now installed via the Brewfile
+#if [ -e /usr/local/bin/composer ]; then
+#    info "Composer has already been installed."
+#else
+#    info "Installing Composer."
+#    php -r "readfile('https://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
+#    sudo chown ${USER} ~/.composer
+#    printf "\n\n"
+#fi
 
 
 #===================================================================================
