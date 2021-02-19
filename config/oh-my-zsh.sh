@@ -16,6 +16,7 @@ else
 fi
 
 # We can replace these prinf & sed commands by adding a symbolic link to the .zshrc file in this repo
+#ln -s ~/dotfiles/shell/.zshrc ~/.zshrc
 #
 # aliases
 #printf "\n# Source Aliases\nsource ~/.aliases\n\n" >> ~/.zshrc
