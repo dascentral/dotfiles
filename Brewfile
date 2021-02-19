@@ -24,6 +24,7 @@ brew 'the_silver_searcher'
 brew 'trash'
 brew 'tree'
 brew 'zlib'
+brew 'zsh-syntax-highlighting'
 
 # Spatie Medialibrary
 # brew 'jpegoptim'
