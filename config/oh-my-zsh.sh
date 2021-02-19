@@ -15,17 +15,19 @@ else
     exit 0;
 fi
 
+# We can replace these prinf & sed commands by adding a symbolic link to the .zshrc file in this repo
+#
 # aliases
-printf "\n# Source Aliases\nsource ~/.aliases\n\n" >> ~/.zshrc
+#printf "\n# Source Aliases\nsource ~/.aliases\n\n" >> ~/.zshrc
 
 # path
-printf "# Path additions\n" >> ~/.zshrc
-printf "export PATH=\$PATH:/usr/local/sbin\n" >> ~/.zshrc
-printf "export PATH=\$PATH:/usr/local/opt/mysql@5.7/bin\n" >> ~/.zshrc
-printf "export PATH=\$PATH:~/.composer/vendor/bin\n\n" >> ~/.zshrc
+#printf "# Path additions\n" >> ~/.zshrc
+#printf "export PATH=\$PATH:/usr/local/sbin\n" >> ~/.zshrc
+#printf "export PATH=\$PATH:/usr/local/opt/mysql@5.7/bin\n" >> ~/.zshrc
+#printf "export PATH=\$PATH:~/.composer/vendor/bin\n\n" >> ~/.zshrc
 
 # theme
-sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
+#sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
 
 # plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
