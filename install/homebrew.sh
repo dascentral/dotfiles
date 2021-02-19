@@ -2,26 +2,8 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-if [ ! -e "/usr/local/bin/brew" ]; then
-    abort "Homebrew has not been installed. Aborting installation."
+if [ ! -e /usr/local/bin/brew ]; then
+    info "Installing Homebrew."
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    printf "\n\n"
 fi
-
-# Homebrew Upgrade
-info "Brew upgrade."
-brew upgrade
-printf "\n"
-
-# Homebrew Update
-info "Brew update."
-brew update
-printf "\n"
-
-# Homebrew cleanup
-info "Brew cleanup."
-brew cleanup
-printf "\n"
-
-# Homebrew doctor
-info "Brew doctor."
-brew doctor
-printf "\n"
