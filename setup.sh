@@ -2,6 +2,8 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
+abort "Need to refactor following the inclusion of the Brewfile. Logic has changed."
+
 #============================================================================
 # Homebrew
 #============================================================================
