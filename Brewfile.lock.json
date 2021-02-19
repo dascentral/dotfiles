@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "d8c70d9ff2701e89c15f9b32968475bced73d4e1"
+        "revision": "c170c4ea354c3d52744a79bc93e45c164f38c5ea"
       },
       "homebrew/cask-fonts": {
-        "revision": "255dd4f8893f29b9f1a1f075965c0ca7cbb5cbf9"
+        "revision": "7dfbc2e0cf5b9cb303a73ca166b8e394f8f1840f"
       },
       "homebrew/cask-versions": {
-        "revision": "63caa10606deaa4b9c5a8bb75964b71a6a0547cd"
+        "revision": "6e5ff92a3ddd56de83e140c805bf918760c7a30c"
       },
       "homebrew/bundle": {
         "revision": "1528860218da1b1a9c8c84f56a47393854f52b96"
@@ -472,7 +472,7 @@
         }
       },
       "gh": {
-        "version": "1.6.0",
+        "version": "1.6.1",
         "bottle": {
           "rebuild": 0,
           "cellar": ":any_skip_relocation",
@@ -480,20 +480,20 @@
           "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.6.0.arm64_big_sur.bottle.tar.gz",
-              "sha256": "5a0c6e8ab02ac8f8a520738e670353f1d61d972b89bc96e23f2371765b4c9c67"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.6.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "f19f7f06fc412ebd238dcda222bb35252c7f73e12287a1b5b5fc19ee1856d6d7"
             },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.6.0.big_sur.bottle.tar.gz",
-              "sha256": "f91ab9482d48171d150ebca0b52f82e01aaafe4a543c7a77900d4481ad1d9e61"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.6.1.big_sur.bottle.tar.gz",
+              "sha256": "fd7378de70e3ca310179e9a81b80767902f35bd610d060010bf2a604d2e18598"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.6.0.catalina.bottle.tar.gz",
-              "sha256": "a8353f58bcc3e84863432713a60840fc44f014d4af6e623cb3247e6fbae4a709"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.6.1.catalina.bottle.tar.gz",
+              "sha256": "28c1db589fe531a296f95918122a4fe89fb3724386148fd96104a9423c3abedb"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.6.0.mojave.bottle.tar.gz",
-              "sha256": "9d453f1df91ec5f72193e0f65e9131e6f0f3e5a7d5b37a1200e70e172641561f"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.6.1.mojave.bottle.tar.gz",
+              "sha256": "0d72614c0db518bc16fb02e1165ac454501e7b576a7029ef383854ec9aa44931"
             }
           }
         }
@@ -895,7 +895,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.0.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8217f68575981b7adab7bb91c19ecc6a4e9de675",
+        "Homebrew/homebrew-core": "7e4690bd781c6468e0ddc5b42d6df3b14fe03869",
         "CLT": "12.0.32.29",
         "Xcode": "12.0",
         "macOS": "10.15.7"
