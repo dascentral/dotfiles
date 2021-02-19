@@ -1,40 +1,18 @@
 
 #------------------------------------------------------------------------------------------
-# General / Utility
+# Aliases - Managing this file
 #------------------------------------------------------------------------------------------
-alias c='clear'
-alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
-alias flush_dns='sudo killall -HUP mDNSResponder'
-alias fn='find . -name'
-alias h='history'
-alias hg='history | grep'
-alias hosts='sudo vi /etc/hosts'
-alias l='ls -al'
-alias mc='mc -a -c'
-alias size='du -hs ./'
-alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
+alias ca='cat ~/.aliases'
+alias sa='source ~/.aliases'
+alias va='vim ~/.aliases'
 
-# Permissions
-alias d755='find . -type d -exec chmod 755 {} \;'
-alias f644='find . -type f -exec chmod 644 {} \;'
 
+#------------------------------------------------------------------------------------------
 # Directory Switching
+#------------------------------------------------------------------------------------------
 alias dev='cd ~/Workspace'
 alias dot='cd ~/dotfiles'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
-
-# Aliases
-alias ca='cat ~/.aliases'
-alias sa='source ~/.aliases'
-alias va='vi ~/.aliases'
-
-# Zsh Config
-alias cz='cat ~/.zshrc'
-alias vz='vi ~/.zshrc'
-alias sz='source ~/.zshrc'
-
-# Open the README
-alias or='open README.md'
 
 
 #------------------------------------------------------------------------------------------
@@ -50,7 +28,6 @@ alias dv='docker volume ls'
 #------------------------------------------------------------------------------------------
 # Git
 #------------------------------------------------------------------------------------------
-alias ghu="git hf update"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gs="git status"
 alias nah='git reset HEAD --hard'
@@ -61,6 +38,7 @@ alias undo='git undo'
 #------------------------------------------------------------------------------------------
 # HubFlow
 #------------------------------------------------------------------------------------------
+alias ghu="git hf update"
 alias hff='git hf release finish'
 alias fs='git hf feature start'
 
@@ -70,15 +48,6 @@ alias fs='git hf feature start'
 #------------------------------------------------------------------------------------------
 alias bsl='brew services list'
 alias bsr='brew services restart'
-
-
-#------------------------------------------------------------------------------------------
-# Laravel — Most disabled given use of Laravel Sail
-#------------------------------------------------------------------------------------------
-#alias a='php artisan'
-#alias dusk='php artisan dusk'
-#alias mfs='php artisan migrate:fresh --seed'
-#alias t='php artisan test'
 
 
 #------------------------------------------------------------------------------------------
@@ -96,13 +65,85 @@ alias td='sail test --parallel && sail dusk'
 
 
 #------------------------------------------------------------------------------------------
+# NPM/NPX
+#------------------------------------------------------------------------------------------
+alias mix='npx mix'
+alias nrd='npm run dev'
+alias nrp='npm run prod'
+alias watch='npx mix watch'
+
+
+#------------------------------------------------------------------------------------------
+# Opening files and folders
+#------------------------------------------------------------------------------------------
+alias o='open .'
+alias oc='code .'
+alias s='subl .'
+
+
+#------------------------------------------------------------------------------------------
+# Permissions
+#------------------------------------------------------------------------------------------
+alias d755='find . -type d -exec chmod 755 {} \;'
+alias f644='find . -type f -exec chmod 644 {} \;'
+
+
+#------------------------------------------------------------------------------------------
+# PHP
+#------------------------------------------------------------------------------------------
+#alias php73="phpv php@7.3"
+#alias php74="phpv php@7.4"
+
+
+#------------------------------------------------------------------------------------------
+# Utilities
+#------------------------------------------------------------------------------------------
+alias c='clear'
+alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
+alias flush_dns='sudo killall -HUP mDNSResponder'
+alias fn='find . -name'
+alias h='history'
+alias hg='history | grep'
+alias hosts='sudo vim /etc/hosts'
+alias l='ls -al'
+alias mc='mc -a -c'
+alias size='du -hs ./'
+alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
+
+
+#------------------------------------------------------------------------------------------
+# Zsh Config
+#------------------------------------------------------------------------------------------
+alias cz='cat ~/.zshrc'
+alias vz='vim ~/.zshrc'
+alias sz='source ~/.zshrc'
+
+
+
+
+###########################################################################################
+# DISABLED
+###########################################################################################
+# All aliases listed below are disabled due to use of Docker and Laravel Sail.
+#
+#
+#------------------------------------------------------------------------------------------
+# Laravel
+#------------------------------------------------------------------------------------------
+#alias a='php artisan'
+#alias dusk='php artisan dusk'
+#alias mfs='php artisan migrate:fresh --seed'
+#alias t='php artisan test'
+#
+#
+#------------------------------------------------------------------------------------------
 # MySQL
 #------------------------------------------------------------------------------------------
 #alias mysql_start='sudo /usr/local/mysql/support-files/mysql.server start'
 #alias mysql_stop='sudo /usr/local/mysql/support-files/mysql.server stop'
 #alias mysql_restart='sudo /usr/local/mysql/support-files/mysql.server restart'
-
-
+#
+#
 #------------------------------------------------------------------------------------------
 # Nginx
 #------------------------------------------------------------------------------------------
@@ -115,29 +156,7 @@ alias td='sail test --parallel && sail dusk'
 #alias ngstop='brew services stop nginx'
 #alias sites='cd /usr/local/etc/nginx/sites-available'
 #alias tnge='tail -f /usr/local/var/log/nginx/error.log'
-
+#
 # cat /usr/local/var/log/nginx/error.log
 # cd /var/log/nginx
 # cd /usr/local/Cellar/nginx/1.13.10
-
-
-#------------------------------------------------------------------------------------------
-# NPM/NPX
-#------------------------------------------------------------------------------------------
-alias mix='npx mix'
-alias nrd='npm run dev'
-alias nrp='npm run prod'
-alias watch='npx mix watch'
-
-
-#------------------------------------------------------------------------------------------
-# PHP
-#------------------------------------------------------------------------------------------
-alias php73="phpv php@7.3"
-alias php74="phpv php@7.4"
-
-
-#------------------------------------------------------------------------------------------
-# VS Code
-#------------------------------------------------------------------------------------------
-alias oc='code .'
