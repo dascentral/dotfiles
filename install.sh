@@ -24,7 +24,5 @@ brew link php@7.4 --force
 # Composer Installations
 /Users/${USER}/dotfiles/install/composer.sh
 
-abort "I believe this next step will fail because VS Code has not been configured."
-
 # VS Code installations
 /Users/${USER}/dotfiles/install/vscode.sh
