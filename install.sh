@@ -2,26 +2,29 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-if [ ! -e "/usr/local/bin/brew" ]; then
-    abort "Homebrew has not been installed. Aborting installation."
-fi
-
-# Confirm Composer is installed
-if [ ! -e "/usr/local/bin/composer" ]; then
-    abort "Composer has not been installed. Aborting installation."
-fi
-
 # Ash for password before we begin
 #sudo -v
 
-# Composer installations
+# Keep-alive: update existing `sudo` time stamp until script has finished
+#while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# Homebrew Installation
+/Users/${USER}/dotfiles/install/homebrew.sh
+
+# PHP Installation
+#/Users/${USER}/dotfiles/install/php.sh
+
+# Brew bundle
+/Users/${USER}/dotfiles/install/bundle.sh
+
+# Link PHP binaries
+info "\nLinking PHP 7.4 binaries."
+brew link php@7.4 --force
+
+# Composer Installations
 /Users/${USER}/dotfiles/install/composer.sh
 
-# Homebrew installations
-/Users/${USER}/dotfiles/install/homebrew.sh
+abort "I believe this next step will fail because VS Code has not been configured."
 
 # VS Code installations
 /Users/${USER}/dotfiles/install/vscode.sh
-
-# Aliases
-/Users/${USER}/dotfiles/install/aliases.sh
