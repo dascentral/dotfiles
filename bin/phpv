@@ -3,11 +3,11 @@
 source /Users/${USER}/dotfiles/bin/.functions
 
 if [ $# != 1 ]; then
-    usage "Usage: phpv [php@7.3|php@7.4]"
+    usage "Usage: phpv [php|php@7.4|php@7.3]"
 fi
 
 # Credit: https://freek.dev/1185-easily-switch-php-versions-in-laravel-valet
-brew unlink php@7.3 php@7.4
+brew unlink php php@7.3 php@7.4
 brew link --force --overwrite $1
 brew services start $1
 composer global update
