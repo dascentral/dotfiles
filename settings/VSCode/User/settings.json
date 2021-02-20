@@ -31,6 +31,7 @@
    */
   "emmet.includeLanguages": {
     "blade.php": "html",
+    "vue-html": "html",
     "vue": "html"
   },
   /**
