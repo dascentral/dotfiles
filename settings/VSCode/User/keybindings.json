@@ -73,6 +73,7 @@
     "key": "shift+cmd+r",
     "command": "workbench.action.showAllSymbols"
   },
+  // Currently conflicts with my iTerm global shortcut
   {
     "key": "ctrl+`",
     "command": "workbench.action.terminal.toggleTerminal"
@@ -104,7 +105,7 @@
   },
   /**
    * Emmet
-   **/
+   */
   {
     "key": "cmd+m cmd+i",
     "command": "editor.emmet.action.balanceIn",
