@@ -70,10 +70,6 @@
     "command": "workbench.action.openSettingsJson"
   },
   {
-    "key": "shift+cmd+o",
-    "command": "workbench.action.openWorkspace"
-  },
-  {
     "key": "shift+cmd+r",
     "command": "workbench.action.showAllSymbols"
   },
