@@ -15,6 +15,7 @@ declare -a extensions=(
     "davidanson.vscode-markdownlint"
     "dbaeumer.vscode-eslint"
     "eamodio.gitlens"
+    "editorconfig.editorconfig"
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
     "junstyle.php-cs-fixer"
