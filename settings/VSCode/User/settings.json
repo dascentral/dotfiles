@@ -196,9 +196,6 @@
    */
   "files.hotExit": "onExitAndWindowClose",
   "git.autofetch": true,
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
   "gitlens.codeLens.enabled": false,
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
@@ -213,6 +210,7 @@
   },
   "search.useIgnoreFiles": false,
   "tailwindCSS.colorDecorators": "off",
+  "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.rendererType": "dom",
   "window.openFilesInNewWindow": "on",
   "window.restoreWindows": "all",
