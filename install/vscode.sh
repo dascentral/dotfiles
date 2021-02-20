@@ -18,6 +18,7 @@ declare -a extensions=(
     "editorconfig.editorconfig"
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
+    "irongeek.vscode-env"
     "junstyle.php-cs-fixer"
     "lucax88x.codeacejumper"
     "mehedidracula.php-namespace-resolver"
