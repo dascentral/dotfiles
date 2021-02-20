@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/bin/.functions
+
+if [ $# != 1 ]; then
+    usage "Usage: mkd [name]"
+fi
+
+mkdir -p "$@" && cd "$@"
