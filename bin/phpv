@@ -3,7 +3,7 @@
 source /Users/${USER}/dotfiles/bin/.functions
 
 if [ $# != 1 ]; then
-    usage "Usage: phpv [7.3|7.4]"
+    usage "Usage: phpv [php@7.3|php@7.4]"
 fi
 
 # Credit: https://freek.dev/1185-easily-switch-php-versions-in-laravel-valet
