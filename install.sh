@@ -15,8 +15,7 @@ source /Users/${USER}/dotfiles/bin/.functions
 /Users/${USER}/dotfiles/install/bundle.sh
 
 # Link PHP binaries
-info "\nLinking PHP 7.4 binaries."
-brew link php@7.4 --force
+/Users/${USER}/dotfiles/bin/phpv php@7.4
 
 # Composer Installations
 /Users/${USER}/dotfiles/install/composer.sh
