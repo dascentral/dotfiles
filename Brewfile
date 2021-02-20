@@ -34,9 +34,9 @@ brew 'zlib'
 
 # Development
 # brew 'php'
-# brew 'php@7.3'
 # brew 'redis'
 brew 'composer'
+brew 'php@7.3'
 brew 'php@7.4'
 brew 'imagemagick'
 brew 'yarn'
