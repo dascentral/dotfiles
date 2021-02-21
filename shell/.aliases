@@ -78,6 +78,7 @@ alias watch='npx mix watch'
 #------------------------------------------------------------------------------------------
 alias o='open .'
 alias oc='code .'
+alias or='open README.md'
 alias s='subl .'
 
 
