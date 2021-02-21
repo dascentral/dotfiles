@@ -200,6 +200,6 @@ I need to find a new location for detailing my Alfred setup but for now, a few l
 * [https://github.com/vinkla/alfred-packagist](https://github.com/vinkla/alfred-packagist)
 * [https://github.com/billrobclark/alfred-phpdoc-search](https://github.com/billrobclark/alfred-phpdoc-search)
 * [https://github.com/clnt/alfred-tailwindcss-docs](https://github.com/clnt/alfred-tailwindcss-docs)
-* [https://github.com/jaroslawhartman/TimeZones-Alfred](https://github.com/clnt/alfred-tailwindcss-docs)
+* [https://github.com/jaroslawhartman/TimeZones-Alfred](https://github.com/jaroslawhartman/TimeZones-Alfred)
 * [https://github.com/vmitchell85/alfred-vuejs-docs](https://github.com/vmitchell85/alfred-vuejs-docs)
 
