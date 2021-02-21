@@ -2,39 +2,14 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-#-----------------------------------------------------------------------------------
-# Repo Check - dotfiles
-#-----------------------------------------------------------------------------------
-if [ ! -e "/Users/${USER}/dotfiles" ]; then
-    abort "The dotfiles repo does not exist in the expected location."
-fi
-cd ~/dotfiles
-if ! git diff-index --quiet HEAD --; then
-    abort "The dotfiles repo has pending changes."
-fi
+# Confirm repos are in the correct spot
+dotfiles_live_where_expected
 
+# Confirm they're clean because we're about to reset hard
+dotfiles_confirm_stable
 
-#-----------------------------------------------------------------------------------
-# Repo Check - dotfiles-private
-#-----------------------------------------------------------------------------------
-if [ ! -e "/Users/${USER}/dotfiles-private" ]; then
-    abort "The private dotfiles repo does not exist in the expected location."
-fi
-cd ~/dotfiles-private
-if ! git diff-index --quiet HEAD --; then
-    abort "The private dotfiles repo has pending changes."
-fi
-
-
-#-----------------------------------------------------------------------------------
 # Clear the screen
-#-----------------------------------------------------------------------------------
 clear
-
-
-#-----------------------------------------------------------------------------------
-# Git Repository Update
-#-----------------------------------------------------------------------------------
 
 # Pull the latest from Git - dotfiles-private
 info "Pulling latest from Git: dotfiles-private"
@@ -50,10 +25,6 @@ git reset HEAD --hard
 git pull
 printf "\n"
 
-
-#-----------------------------------------------------------------------------------
-# Homebrew Maintenance
-#-----------------------------------------------------------------------------------
 # Homebrew Upgrade
 info "Brew upgrade."
 brew upgrade
@@ -74,24 +45,15 @@ info "Brew doctor."
 brew doctor
 printf "\n"
 
-
-#-----------------------------------------------------------------------------------
-# Composer Maintenance
-#-----------------------------------------------------------------------------------
+# Composer self-update
 info "Composer self-update"
 /usr/local/bin/composer self-update
 printf "\n"
 
-
-#-----------------------------------------------------------------------------------
-# Settings
-#-----------------------------------------------------------------------------------
+# macOS settings
 # source .macos?
 
-
-#-----------------------------------------------------------------------------------
-# Local hack
-#-----------------------------------------------------------------------------------
+# Local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
     echo '' > /usr/local/var/log/php-fpm.log
 fi
