@@ -108,8 +108,8 @@ source ~/dotfiles/shell/.aliases
 source ~/dotfiles-private/shell/.aliases
 [ -s "$HOME/.aliases-local" ] && source $HOME/.aliases-local
 
-# Source Functions
-source ~/dotfiles/shell/.functions
+# Source Helpers
+source ~/dotfiles/shell/.helpers
 
 # Path additions
 export PATH=$PATH:/usr/local/sbin
