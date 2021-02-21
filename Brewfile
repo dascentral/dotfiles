@@ -95,6 +95,7 @@ cask 'font-source-sans-pro'
 
 # Mac App Store
 # mas 'MindNode', id: 1289197285
+mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
 mas 'Spark', id: 1176895641
 mas 'Tweetbot', id: 1384080005
