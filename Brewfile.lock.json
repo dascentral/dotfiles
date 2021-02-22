@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "c170c4ea354c3d52744a79bc93e45c164f38c5ea"
+        "revision": "a1ad8192634fb3c296d5fbeb960f0987b91ca41b"
       },
       "homebrew/cask-fonts": {
-        "revision": "7dfbc2e0cf5b9cb303a73ca166b8e394f8f1840f"
+        "revision": "8030e59f3b5c66f77af004ee2ea34375d00e50ed"
       },
       "homebrew/cask-versions": {
-        "revision": "6e5ff92a3ddd56de83e140c805bf918760c7a30c"
+        "revision": "e8372c10af6e475d4616abd23b318039ac717d3b"
       },
       "homebrew/bundle": {
-        "revision": "1528860218da1b1a9c8c84f56a47393854f52b96"
+        "revision": "05ad77b2c2633684508624fe773586778ab01ffc"
       }
     },
     "cask": {
@@ -70,7 +70,7 @@
         }
       },
       "tableplus": {
-        "version": "3.12.2,358",
+        "version": "3.12.4,360",
         "options": {
           "full_name": "tableplus"
         }
@@ -247,6 +247,12 @@
         "version": "2020.2",
         "options": {
           "full_name": "gpg-suite"
+        }
+      },
+      "telegram-desktop": {
+        "version": "2.5.9",
+        "options": {
+          "full_name": "telegram-desktop"
         }
       }
     },
@@ -445,28 +451,28 @@
         }
       },
       "ffmpeg": {
-        "version": "4.3.1_9",
+        "version": "4.3.2",
         "bottle": {
-          "rebuild": 1,
+          "rebuild": 0,
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.arm64_big_sur.bottle.1.tar.gz",
-              "sha256": "9fc274673b6c8d8876ae6992b5bb829081c26c7e9f2e9e017a504ea409193064"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "0515c9f60fc6d3975f0ce707414426a62484e6974cd1fd121e5e55457556afc7"
             },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.big_sur.bottle.1.tar.gz",
-              "sha256": "9f5b9ad22c353816dd7555c91fb9e27187c929bdab4df8d038cca1d85f5583be"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.big_sur.bottle.tar.gz",
+              "sha256": "c749fddc306f2bce4d15ca20cc8e1f7b28082dd381af57486c72a641e71f0ccf"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.catalina.bottle.1.tar.gz",
-              "sha256": "faa2f5f16ef1aff82a488d110a48c382e4d51e4dddbdce5eb2dc19ee64668788"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.catalina.bottle.tar.gz",
+              "sha256": "ed0fc90c66b35c84a904ba01ab3e37c31a0c63a64889b2ab99718288d52404e4"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.mojave.bottle.1.tar.gz",
-              "sha256": "a1deeb25c7edab098c2c0377fe49dd8b0c98e65f82ff22ce81676971d445ffa4"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.mojave.bottle.tar.gz",
+              "sha256": "33cc1c8ede50ab0b7f38a37c1a85c9060165334200f59d735dd8bd8627508f0d"
             }
           }
         }
@@ -897,9 +903,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.0.1",
+        "HOMEBREW_VERSION": "3.0.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7e4690bd781c6468e0ddc5b42d6df3b14fe03869",
+        "Homebrew/homebrew-core": "f0cb2f9e1f1eec79e30c811dde8071a64db68ea0",
         "CLT": "12.0.32.29",
         "Xcode": "12.0",
         "macOS": "10.15.7"
