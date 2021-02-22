@@ -105,8 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Source Aliases
 source ~/dotfiles/shell/.aliases
-source ~/dotfiles-private/shell/.aliases
-[ -s "$HOME/.aliases-local" ] && source $HOME/.aliases-local
+[ -s "~/.aliases-local" ] && source ~/.aliases-local
+[ -s "~/.private/shell/.aliases" ] && source ~/.private/shell/.aliases
 
 # Source Helpers
 source ~/dotfiles/shell/.helpers
