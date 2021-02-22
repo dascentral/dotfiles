@@ -13,26 +13,18 @@ I have separate files for Tailwind CSS and Laravel. This document will cover Alp
 
 In addition to everything listed below, I recommend that you check out [Awesome TALL Stack](https://github.com/blade-ui-kit/awesome-tall-stack).
 
-## Training Resources
+## Resources
 
-### Series
+### Learning Livewire
 
-* [Livewire Screencasts](https://laravel-livewire.com/screencasts) — by framework author, [Caleb Porzio](https://twitter.com/calebporzio). Some videos require sponsorship.
-* [Livewire Basics](https://laracasts.com/series/livewire-basics) — by [Laracasts](https://laracasts.com)
-
-### Videos
+* **Webinar:** [Livewire Screencasts](https://laravel-livewire.com/screencasts) — by framework author, [Caleb Porzio](https://twitter.com/calebporzio). Some videos require sponsorship.
+* **Webinar:** [Livewire Basics](https://laracasts.com/series/livewire-basics) — by [Laracasts](https://laracasts.com)
 
 * **Video:** March 2020 - [Learning Livewire](https://www.youtube.com/playlist?list=PLgJIx0-UaB9QYjno8U4Sw_u_NrSCanQYB) - YouTube playlist by Matt Staufer
 
-### Tutorials
+* **Tutorial:** Oct 2020 — [Building an Autocomplete/Typeahead Component with AlpineJS and Livewire](https://chrisdicarlo.ca/blog/-alpinejs-and-livewire-autocomplete)
 
-* **Article:** Oct 2020 — [Building an Autocomplete/Typeahead Component with AlpineJS and Livewire](https://chrisdicarlo.ca/blog/-alpinejs-and-livewire-autocomplete)
-
-* **Video:** Feb 2020 — [How to build a contact form with Laravel Livewire Tutorial](https://www.youtube.com/watch?v=Qljh8w5YX44&feature=youtu.be) - by Stefan Bauer
-
-### Resources
-
-* **Repository:** 
+* **Tutorial:** Feb 2020 — [How to build a contact form with Laravel Livewire Tutorial](https://www.youtube.com/watch?v=Qljh8w5YX44&feature=youtu.be) - by Stefan Bauer
 
 ### Polling
 
@@ -40,7 +32,6 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 
 ### Extending Livewire
 
-#### Alerts
-
 * [jantinnerezo/livewire-alert](https://github.com/jantinnerezo/livewire-alert) — A very simple alerts utility based upon SweetAlert2
+* [Laravel Livewire Components](https://livewirekit.com/) — 22 ready-made Laravel Livewire components
 
