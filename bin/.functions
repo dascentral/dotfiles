@@ -40,20 +40,20 @@ has() {
 
 
 dotfiles_live_where_expected() {
-    if [ ! -e "/Users/${USER}/dotfiles" ]; then
+    if [ ! -e "${DOTFILES}" ]; then
         abort "The dotfiles repo does not exist in the expected location."
     fi
 }
 
 dotfiles_confirm_stable() {
-    if [ ! -e "/Users/${USER}/.private" ]; then
-      cd /Users/${USER}/.private
+    if [ ! -e "${PRIVATE}" ]; then
+      cd ${PRIVATE}
       if ! git diff-index --quiet HEAD --; then
           abort "The private dotfiles repo has pending changes."
       fi
     fi
 
-    cd /Users/${USER}/dotfiles
+    cd ${DOTFILES}
     if ! git diff-index --quiet HEAD --; then
         abort "The dotfiles repo has pending changes."
     fi
