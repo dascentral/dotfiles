@@ -12,11 +12,13 @@ dotfiles_confirm_stable
 clear
 
 # Pull the latest from Git - dotfiles-private
-info "Pulling latest from Git: dotfiles-private"
-cd ~/dotfiles-private
-git reset HEAD --hard
-git pull
-printf "\n"
+if [ ! -e "~/.private" ]; then
+    info "Pulling latest from Git: dotfiles-private"
+    cd ~/dotfiles-private
+    git reset HEAD --hard
+    git pull
+    printf "\n"
+fi
 
 # Pull the latest from Git - dotfiles
 info "Pulling latest from Git: dotfiles"
