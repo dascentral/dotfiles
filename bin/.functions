@@ -33,6 +33,30 @@ has() {
     echo " $@ " | grep -q " $(escape $item) "
 }
 
+
+################################################################
+
+
+dotfiles_live_where_expected() {
+    if [ ! -e "/Users/${USER}/dotfiles" ]; then
+        abort "The dotfiles repo does not exist in the expected location."
+    fi
+}
+
+dotfiles_confirm_stable() {
+    if [ ! -e "/Users/${USER}/.private" ]; then
+      cd /Users/${USER}/.private
+      if ! git diff-index --quiet HEAD --; then
+          abort "The private dotfiles repo has pending changes."
+      fi
+    fi
+
+    cd /Users/${USER}/dotfiles
+    if ! git diff-index --quiet HEAD --; then
+        abort "The dotfiles repo has pending changes."
+    fi
+}
+
 git_is_initialized() {
     git rev-parse --git-dir > /dev/null 2>&1;
 }
@@ -77,24 +101,4 @@ hubflow_is_initialized() {
 
 laravel_application_root() {
     [ -e "artisan" ]
-}
-
-dotfiles_live_where_expected() {
-    if [ ! -e "/Users/${USER}/dotfiles" ]; then
-        abort "The dotfiles repo does not exist in the expected location."
-    fi
-}
-
-dotfiles_confirm_stable() {
-    if [ ! -e "/Users/${USER}/.private" ]; then
-      cd /Users/${USER}/.private
-      if ! git diff-index --quiet HEAD --; then
-          abort "The private dotfiles repo has pending changes."
-      fi
-    fi
-
-    cd /Users/${USER}/dotfiles
-    if ! git diff-index --quiet HEAD --; then
-        abort "The dotfiles repo has pending changes."
-    fi
 }
