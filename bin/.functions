@@ -83,18 +83,17 @@ dotfiles_live_where_expected() {
     if [ ! -e "/Users/${USER}/dotfiles" ]; then
         abort "The dotfiles repo does not exist in the expected location."
     fi
-    if [ ! -e "/Users/${USER}/dotfiles-private" ]; then
-        abort "The private dotfiles repo does not exist in the expected location."
-    fi
 }
 
 dotfiles_confirm_stable() {
-    cd ~/dotfiles-private
-    if ! git diff-index --quiet HEAD --; then
-        abort "The private dotfiles repo has pending changes."
+    if [ ! -e "/Users/${USER}/.private" ]; then
+      cd /Users/${USER}/.private
+      if ! git diff-index --quiet HEAD --; then
+          abort "The private dotfiles repo has pending changes."
+      fi
     fi
 
-    cd ~/dotfiles
+    cd /Users/${USER}/dotfiles
     if ! git diff-index --quiet HEAD --; then
         abort "The dotfiles repo has pending changes."
     fi
