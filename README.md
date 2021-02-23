@@ -6,8 +6,7 @@ dotfiles is a series of customizations that help me personalize and maintain my 
 
 I was introduced to the concept by [Zack Holman](https://github.com/holman/dotfiles). Initially I forked his repo for my own use but quickly realized I did not understand much of what was going on. So, instead of simply copying his work, I decided to start from scratch and slowly add functionality so that I could better understand what Zack or others have done.
 
-If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the
-subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## Inspiration & Resources
 
@@ -20,93 +19,107 @@ The following articles and repositories may provide inspiration as you setup you
 
 ### Repositories
 
-* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub.
+* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
 * [Dries Vints](https://github.com/driesvints/dotfiles)
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
-* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) — Great for mac
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 * [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
-## Software Installation
+## New Machine Setup
 
-### Initial Setup
+I switched to use of a `Brewfile` in February 2021 and completely overhauled how I would setup a new computer, inclusive of all software installations and configurations.
 
-The following software serves as the foundation for everything that goes into setting up a new machine:
+All information below will be prone to error until I have an opportunity to try it out on a new machine.
 
-* [PHP](https://www.php.net/) - Because I'm a PHP developer
-* [Composer](https://getcomposer.org/) - A Dependency Manager for PHP
-* [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
+### Clone the Repository
 
-Scripted installation of this software is available via the setup script:
+First and foremost, we'll need to clone this repository. All scripts assume it is cloned to `~/dotfiles`.
 
 ```bash
-./setup.sh
+git clone git@github.com:dascentral/dotfiles.git ~/dotfiles
 ```
 
-### Scripted
+### Software Installation
 
-Once [Composer](software/composer.md) and [Homebrew](software/homebrew.md) have been installed, the `software/install.sh` script will automate installation of the following items:
+I have a new installation script that *should* install all software that I use on a new machine. If you dig into that installation file, you'll note that it does a few things:
 
-#### Composer
+1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
+2. Executes `brew bundle` which installs the bulk of the software
+3. Links the PHP binaries for 7.4. I have not yet moved my local machine up to PHP 8.
+4. Installs all global [Composer](https://getcomposer.org/) packages
 
-* [consolidation/cgr](https://github.com/consolidation/cgr)
+### Application Configuration
+
+WIP. I have not yet refactored the process by which I configure various elements of software.
+
+The following will need special care and attention:
+
+* iTerm2 + Oh My Zsh
+* Sublime Text
+* Visual Studio Code
+
+### macOS Settings
+
+WIP. It might be as simple as executing the following from the root of the repository:
+
+```bash
+source .macos
+```
+
+### Disable Gatekeeper
+
+Some of the software installed via the `Brewfile` is published by what Apple considers "unidentified developers." The following command will disable the gatekeeper functionality:
+
+```bash
+sudo spctl --master-disable
+```
+
+If you run this command, be sure to only open software from sources that you trust.
+
+### Printers
+
+Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
+
+[https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
+
+## Application Inventory
+
+Below I've attempted to inventory the software that I install on each machine.
+
+### Composer
+
 * [dascentral/hubflow-release](https://packagist.org/packages/dascentral/hubflow-release)
 * [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [laravel/installer](https://laravel.com/docs/master/installation#installing-laravel)
 * [laravel/valet](https://laravel.com/docs/master/valet)
 * [squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 
-#### Homebrew
+### Desktop Apps
 
-* [ack](https://beyondgrep.com/install/)
+* [1Password](https://1password.com/)
 * [Alfred 4](https://www.alfredapp.com/)
 * [Aerial Screen Saver](https://github.com/JohnCoates/Aerial)
 * [Bartender](https://www.macbartender.com)
 * [Docker](https://www.docker.com/products/docker-desktop)
+* [Evernote](https://evernote.com/download)
 * [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
-* [GnuPG](https://gnupg.org)
 * [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
 * [Google Chrome](https://www.google.com/chrome)
 * [iTerm2](https://www.iterm2.com/)
-* [Mac App Store CLI](https://github.com/mas-cli/mas)
-* [MacDown](https://macdown.uranusjr.com/)
+* [MindNode](https://mindnode.com/)
 * [Postman](https://www.getpostman.com)
-* [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
-* [Redis](https://redis.io/)
 * [Rocket](https://matthewpalmer.net/rocket/)
-* [SSH Copy ID](https://www.ssh.com/ssh/copy-id)
+* [Slack](https://slack.com/)
 * [Spectacle](https://www.spectacleapp.com/)
 * [Spotify](https://www.spotify.com/us/)
 * [Sublime Text](www.sublimetext.com/)
 * [TablePlus](https://tableplus.io)
 * [Tower](https://www.git-tower.com/mac)
-* [WhatsApp](https://www.whatsapp.com)
-* [Visual Studio Code](https://code.visualstudio.com)
-
-#### Idempotence
-
-The `install.sh` script also keeps Homebrew and Composer up-to-date. The script is [idempotent](https://en.wikipedia.org/wiki/Idempotence) so I run it on a regular basis.
-
-### App Store
-
-I install the following software applications via the Mac App Store.
-
-* [1Password](https://1password.com/)
-* [Evernote](https://evernote.com/download)
-* [MindNode](https://mindnode.com/)
-* [Slack](https://slack.com/)
 * [Transmit](https://panic.com/transmit/)
 * [Tweetbot](https://tapbots.com/tweetbot/mac/)
-
-### Manual
-
-Some software applications require manual installation or customization via the command line. Installation and setup instructions are available for the following items:
-
-* [HubFlow](software/hubflow.md)
-* [Oh My Zsh](software/zsh.md)
-* [Laravel Valet](software/laravel-valet.md)
-* [MySQL](software/mysql.md)
-* [NVM](software/nvm.md)
+* [WhatsApp](https://www.whatsapp.com)
+* [Visual Studio Code](https://code.visualstudio.com)
 
 ### Package Download
 
@@ -119,26 +132,11 @@ I use the following software applications across home and work computers. They m
 * [Dash](https://kapeli.com/dash)
 * [Egnyte Connect](https://akqa.egnyte.com/app/index.do#appstore/addons-integrations/)
 * [ImageOptim](https://imageoptim.com/mac)
-* [Sketch](https://www.sketchapp.com/)
 * [Sonos](http://www.sonos.com/en-us/controller-app)
-
-## Aliases
-
-I lean heavily on aliases (probably too much) to remember commands and save keystrokes. Aliases are installed via the following command:
-
-```bash
-./install/aliases.sh
-```
-
-This installation script only copies aliases into place. The file will need to be sourced following installation:
-
-```bash
-source ~/.aliases
-```
 
 ## Command-Line Configurations
 
-While some system settings are configured automatically via the `settings/settings.sh` script, I still have a number of manual modifications that I make. My goal is always to limit the amount of manual work. This article helped me understand how to do so:
+I have automated many of my macOS system configurations however, I still have a number of manual modifications that I make following setup of a new machine. My goal is always to limit the amount of manual work. This article helped me understand how to do so:
 
 [https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
 
@@ -170,36 +168,3 @@ defaults read com.googlecode.iterm2 PrefsCustomFolder
 defaults read [domain] [key] [type] [value]
 defaults write com.apple.Notes NotesContinuousSpellCheckingEnabled -bool true
 ```
-
-## Disable Gatekeeper
-
-Some of the software that is automatically installed is published by what Apple considers "unidentified developers." The following command will disable the gatekeeper functionality:
-
-```bash
-sudo spctl --master-disable
-```
-
-If you run this command, be sure to only open software from sources that you trust.
-
-## Printers
-
-Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
-
-[https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
-
-## Alfred
-
-I need to find a new location for detailing my Alfred setup but for now, a few links:
-
-* **Article:** Feb 2021 — [My Alfred Setup](https://stefanzweifel.io/posts/2021/02/03/my-alfred-setup/), by Stefan Zweifel
-* **Repository:** [Awesome Alfred Workflow](https://github.com/alfred-workflows/awesome-alfred-workflows)
-
-### Workflows
-
-* [https://github.com/tillkruss/alfred-laravel-docs](https://github.com/tillkruss/alfred-laravel-docs)
-* [https://github.com/vinkla/alfred-packagist](https://github.com/vinkla/alfred-packagist)
-* [https://github.com/billrobclark/alfred-phpdoc-search](https://github.com/billrobclark/alfred-phpdoc-search)
-* [https://github.com/clnt/alfred-tailwindcss-docs](https://github.com/clnt/alfred-tailwindcss-docs)
-* [https://github.com/jaroslawhartman/TimeZones-Alfred](https://github.com/jaroslawhartman/TimeZones-Alfred)
-* [https://github.com/vmitchell85/alfred-vuejs-docs](https://github.com/vmitchell85/alfred-vuejs-docs)
-
