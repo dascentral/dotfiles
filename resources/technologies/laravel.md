@@ -210,6 +210,8 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 
 ### APIs
 
+**Repository:** [phpsa/laravel-api-controller](https://github.com/phpsa/laravel-api-controller)
+
 #### Authentication
 
 * **Article:** Aug 2019 — [JSON APIs with Laravel: Part 5 - Authentication and Permissions](https://sarfas.codes/blog/json-apis-with-laravel-part-5-authentication-and-permissions?ref=laravelnews) - JWT approach
