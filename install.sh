@@ -21,4 +21,4 @@ source /Users/${USER}/dotfiles/bin/.functions
 /Users/${USER}/dotfiles/install/composer.sh
 
 # VS Code installations
-/Users/${USER}/dotfiles/install/vscode.sh
+#/Users/${USER}/dotfiles/install/vscode.sh
