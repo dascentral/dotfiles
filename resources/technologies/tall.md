@@ -19,11 +19,9 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 
 * **Webinar:** [Livewire Screencasts](https://laravel-livewire.com/screencasts) — by framework author, [Caleb Porzio](https://twitter.com/calebporzio). Some videos require sponsorship.
 * **Webinar:** [Livewire Basics](https://laracasts.com/series/livewire-basics) — by [Laracasts](https://laracasts.com)
-
-* **Video:** March 2020 - [Learning Livewire](https://www.youtube.com/playlist?list=PLgJIx0-UaB9QYjno8U4Sw_u_NrSCanQYB) - YouTube playlist by Matt Staufer
-
+* **Article:** Feb 2020 — [Flashing Banner Messages in Your Laravel Jetstream and Livewire Applications](https://ryangjchandler.co.uk/articles/flashing-banner-messages-in-your-laravel-jetstream-and-livewire-applications)
+* **Video:** March 2020 — [Learning Livewire](https://www.youtube.com/playlist?list=PLgJIx0-UaB9QYjno8U4Sw_u_NrSCanQYB) - YouTube playlist by Matt Staufer
 * **Tutorial:** Oct 2020 — [Building an Autocomplete/Typeahead Component with AlpineJS and Livewire](https://chrisdicarlo.ca/blog/-alpinejs-and-livewire-autocomplete)
-
 * **Tutorial:** Feb 2020 — [How to build a contact form with Laravel Livewire Tutorial](https://www.youtube.com/watch?v=Qljh8w5YX44&feature=youtu.be) - by Stefan Bauer
 
 ### Polling
