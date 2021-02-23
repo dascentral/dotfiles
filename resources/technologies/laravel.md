@@ -210,7 +210,7 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 
 ### APIs
 
-**Repository:** [phpsa/laravel-api-controller](https://github.com/phpsa/laravel-api-controller)
+**Package:** [phpsa/laravel-api-controller](https://github.com/phpsa/laravel-api-controller)
 
 #### Authentication
 
