@@ -31,5 +31,5 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 ### Extending Livewire
 
 * [jantinnerezo/livewire-alert](https://github.com/jantinnerezo/livewire-alert) — A very simple alerts utility based upon SweetAlert2
-* [Laravel Livewire Components](https://livewirekit.com/) — 22 ready-made Laravel Livewire components
+* [Livewire Kit](https://livewirekit.com/) — 22 ready-made Laravel Livewire components
 
