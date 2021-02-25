@@ -16,3 +16,10 @@ source /Users/${USER}/dotfiles/bin/.functions
 
 # Composer Installations
 /Users/${USER}/dotfiles/install/composer.sh
+
+# END installations
+###########################################################################################
+# BEGIN configurations
+
+# Configure Visual Studio Code
+/Users/${USER}/dotfiles/config/vscode.sh
