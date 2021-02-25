@@ -20,17 +20,16 @@ fi
 # create the local User folder
 mkdir -pv "${localPath}"
 
-# link settings to those in this repository
-rm -rf "${localPath}/settings.json"
-ln -s "${dotfilesPath}/settings.json" "${localPath}/settings.json"
-
-# link key bindings to those in this repository
-rm -rf "${localPath}/keybindings.json"
-ln -s "${dotfilesPath}/keybindings.json" "${localPath}/keybindings.json"
-
-# link snippets to those in this repository
-rm -rf "${localPath}/snippets"
-ln -s "${dotfilesPath}/snippets" "${localPath}/snippets"
+# create symbolic links for settings stored within this repository
+declare -a links=(
+    "settings.json"
+    "keybindings.json"
+    "snippets"
+)
+for item in ${links[@]}; do
+    rm -rf "${localPath}/${item}"
+    ln -s "${dotfilesPath}/${item}" "${localPath}/${item}"
+done
 
 # install VS Code extensions
 declare -a extensions=(
