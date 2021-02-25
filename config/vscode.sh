@@ -17,7 +17,7 @@ if [ ! -e "/usr/local/bin/code" ]; then
     abort "VS Code command line utility is not available."
 fi
 
-# create the User folder
+# create the local User folder
 mkdir -pv "${localPath}"
 
 # link settings to those in this repository
