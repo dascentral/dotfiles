@@ -11,14 +11,8 @@ source /Users/${USER}/dotfiles/bin/.functions
 # Homebrew Installation
 /Users/${USER}/dotfiles/install/homebrew.sh
 
-# Brew bundle
-/Users/${USER}/dotfiles/install/bundle.sh
-
 # Link PHP binaries
 /Users/${USER}/dotfiles/bin/phpv php@7.4
 
 # Composer Installations
 /Users/${USER}/dotfiles/install/composer.sh
-
-# VS Code installations
-#/Users/${USER}/dotfiles/install/vscode.sh
