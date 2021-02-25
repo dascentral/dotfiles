@@ -285,18 +285,6 @@
         ],
         "description": "index() method for a Laravel controller"
     },
-    "Laravel Factory State": {
-        "prefix": "state",
-        "body": [
-            "\\$factory->state($1::class, '$2', function (\\$faker) {",
-            "    return [",
-            "        $3",
-            "    ];",
-            "});",
-            ""
-        ],
-        "description": "Laravel Factory State"
-    },
     "Laravel Eloquent guarded attribute": {
         "prefix": "guarded",
         "body": [
@@ -317,13 +305,6 @@
             "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
         ],
         "description": "Replaces Laravel default timestamp fields with my preferred columns."
-    },
-    "Laravel Collection": {
-        "prefix": "isc",
-        "body": [
-            "\\Illuminate\\Support\\Collection"
-        ],
-        "description": "Outputs namespace for the Laravel Collection"
     },
     "Laravel Model dates attributes": {
         "prefix": "dates",
@@ -389,18 +370,5 @@
             "}",
             ""
         ]
-    },
-    "Invokable controller method": {
-        "prefix": "invoke",
-        "body": [
-            "/**",
-            " * Handle the incoming request.",
-            " */",
-            "public function __invoke(Request $request): View",
-            "{",
-            "    $1",
-            "}"
-        ],
-        "description": "Invokable controller method"
     }
 }
