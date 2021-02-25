@@ -170,12 +170,12 @@
   /**
    * Enable use of a custom font size.
    */
-  "editor.fontSize": 15,
+  "editor.fontSize": 18,
   /**
    * Format files during save.
    */
   "editor.formatOnSave": true,
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 32,
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "eslint.alwaysShowStatus": true,
