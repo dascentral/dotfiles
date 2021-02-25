@@ -27,6 +27,7 @@ declare -a links=(
     "snippets"
 )
 for item in ${links[@]}; do
+    info "Creating symbolic link - ${item}"
     rm -rf "${localPath}/${item}"
     ln -s "${dotfilesPath}/${item}" "${localPath}/${item}"
 done
