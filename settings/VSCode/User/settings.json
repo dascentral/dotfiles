@@ -27,7 +27,7 @@
    */
   "editor.tabSize": 2,
   /**
-   * Add Emmet support for Vue.js and Blade templates.
+   * Add Emmet support for Blade and Vue.js templates.
    */
   "emmet.includeLanguages": {
     "blade.php": "html",
