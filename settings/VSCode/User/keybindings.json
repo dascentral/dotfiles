@@ -7,7 +7,9 @@
     "key": "shift+cmd+t",
     "command": "better-phpunit.run-file"
   },
-  // Removed from better-phpunit to enable code folding
+  /**
+   * Removed from better-phpunit to enable code folding. See "editor.toggleFold" below.
+   */
   {
     "key": "cmd+k cmd+f",
     "command": "-better-phpunit.run-file"
