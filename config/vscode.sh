@@ -4,7 +4,6 @@ source /Users/${USER}/dotfiles/bin/.functions
 
 # configure folders
 userPath="/Users/${USER}/Library/Application Support/Code/User"
-userPathEscaped="/Users/${USER}/Library/Application\ Support/Code/User"
 
 # confirm VS Code has been installed
 if [ ! -e "/Applications/Visual Studio Code.app" ]; then
