@@ -2,45 +2,30 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-# TODOs:
-# - Make a directory with a space in the path
-# - cd into a directory with a space in the path
-# - Remove a file with a space in the path
-# - Determine if a folder is symlinked
-# - Confirm VS Code has been installed
-# - Automate install of the command line utility
+# configure folders
+userPath="/Users/${USER}/Library/Application Support/Code/User"
+userPathEscaped="/Users/${USER}/Library/Application\ Support/Code/User"
 
+# install command line utility
 if [ ! -e "/usr/local/bin/code" ]; then
     # TODO: Automate install of the command line utility
     abort "VS Code command line utility is not available."
 fi
 
-# configure location of User folder
-#basepath="/Users/${USER}/Library/Application\ Support/Code/User2"
-
 # create the User folder
-mkdir -pv "/Users/${USER}/Library/Application Support/Code/User"
+mkdir -pv "${userPath}"
 
-# replace local settings with those in this repository
-if [ ! -L "/Users/${USER}/Library/Application Support/Code/User/settings.json" ]; then
-    rm -rf /Users/${USER}/Library/Application\ Support/Code/User/settings.json
-    ln -s /Users/${USER}/dotfiles/settings/VSCode/User/settings.json /Users/${USER}/Library/Application\ Support/Code/User/settings.json
-    info "VS Code settings linked to repository"
-fi
+# link settings to those in this repository
+rm -rf "${userPath}/settings.json"
+ln -s "${DOTFILES}/settings/VSCode/User/settings.json" "${userPath}/settings.json"
 
-# replace local key bindings with those in this repository
-if [ ! -L "/Users/${USER}/Library/Application Support/Code/User/keybindings.json" ]; then
-    rm -rf /Users/${USER}/Library/Application\ Support/Code/User/keybindings.json
-    ln -s /Users/${USER}/dotfiles/settings/VSCode/User/keybindings.json /Users/${USER}/Library/Application\ Support/Code/User/keybindings.json
-    info "VS Code key bindings linked to repository"
-fi
+# link key bindings to those in this repository
+rm -rf "${userPath}/keybindings.json"
+ln -s "${DOTFILES}/settings/VSCode/User/keybindings.json" "${userPath}/keybindings.json"
 
-# replace local snippets with those in this repository
-# if [ -L "/Users/${USER}/Library/Application\ Support/Code/User/snippets" ]; then
-#     info "snippets folder exists"
-# fi
-# rm -rf /Users/${USER}/Library/Application\ Support/Code/User/snippets
-# ln -s /Users/${USER}/dotfiles/settings/VSCode/User/snippets snippets
+# link snippets to those in this repository
+rm -rf "${userPath}/snippets"
+ln -s "${DOTFILES}/settings/VSCode/User/snippets" "${userPath}/snippets"
 
 # install VS Code extensions
 declare -a extensions=(
