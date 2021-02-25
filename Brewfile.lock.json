@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e2193fda1e8d80e9a45b9ced101ca5626974885a"
+        "revision": "32dc28ac6c7dc47b7aa926238235613737a944d6"
       },
       "homebrew/cask-fonts": {
-        "revision": "568b3a271cb2a34388c2919a65b69a0cbd28efa2"
+        "revision": "8b870420e3fd0eda49556528196fb4f842780ecc"
       },
       "homebrew/cask-versions": {
-        "revision": "fa65770326215367730be90a5f7130d24aa54995"
+        "revision": "e3c984e947ff4ec30ee4855d2c12c85272f6d819"
       },
       "homebrew/bundle": {
-        "revision": "05ad77b2c2633684508624fe773586778ab01ffc"
+        "revision": "b8b5bdb46cc45b7be5f305654a145473469d19d0"
       }
     },
     "cask": {
@@ -250,7 +250,7 @@
         }
       },
       "telegram-desktop": {
-        "version": "2.5.9",
+        "version": "2.6.1",
         "options": {
           "full_name": "telegram-desktop"
         }
@@ -709,7 +709,7 @@
         }
       },
       "composer": {
-        "version": "2.0.9",
+        "version": "2.0.11",
         "bottle": false
       },
       "php": {
@@ -911,7 +911,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.0.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ff20a31ae0cd644fdccb51cdc32aaa9936c9d2ac",
+        "Homebrew/homebrew-core": "94e2ea9ce8fc394918f3e00851faddf61e694dec",
         "CLT": "12.0.32.29",
         "Xcode": "12.0",
         "macOS": "10.15.7"
