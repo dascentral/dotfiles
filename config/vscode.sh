@@ -2,7 +2,13 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
-# TODO: Confirm VS Code has been installed
+# TODOs:
+# - Make a directory with a space in the path
+# - cd into a directory with a space in the path
+# - Remove a file with a space in the path
+# - Determine if a folder is symlinked
+# - Confirm VS Code has been installed
+# - Automate install of the command line utility
 
 if [ ! -e "/usr/local/bin/code" ]; then
     # TODO: Automate install of the command line utility
