@@ -3,7 +3,7 @@
 source /Users/${USER}/dotfiles/bin/.functions
 
 # configure folders
-userPath="/Users/${USER}/Library/Application Support/Code/User"
+localPath="/Users/${USER}/Library/Application Support/Code/User"
 dotfilesPath="${DOTFILES}/settings/VSCode/User"
 
 # confirm VS Code has been installed
@@ -18,18 +18,18 @@ if [ ! -e "/usr/local/bin/code" ]; then
 fi
 
 # create the User folder
-mkdir -pv "${userPath}"
+mkdir -pv "${localPath}"
 
 # link settings to those in this repository
-rm -rf "${userPath}/settings.json"
+rm -rf "${localPath}/settings.json"
 ln -s "${dotfilesPath}/settings.json" "${localPath}/settings.json"
 
 # link key bindings to those in this repository
-rm -rf "${userPath}/keybindings.json"
+rm -rf "${localPath}/keybindings.json"
 ln -s "${dotfilesPath}/keybindings.json" "${localPath}/keybindings.json"
 
 # link snippets to those in this repository
-rm -rf "${userPath}/snippets"
+rm -rf "${localPath}/snippets"
 ln -s "${dotfilesPath}/snippets" "${localPath}/snippets"
 
 # install VS Code extensions
