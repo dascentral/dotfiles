@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/bin/.functions
+source /Users/${USER}/dotfiles/shell/.functions
 
 if [ ! -e "/usr/local/bin/composer" ]; then
     abort "Composer has not been installed. Aborting installation."

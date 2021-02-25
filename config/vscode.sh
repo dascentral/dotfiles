@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/bin/.functions
+source /Users/${USER}/dotfiles/shell/.functions
 
 # configure folders
 localPath="/Users/${USER}/Library/Application Support/Code/User"

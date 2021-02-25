@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/bin/.functions
+source /Users/${USER}/dotfiles/shell/.functions
 
 if ! git_is_initialized; then
     abort "You are not currently within a Git repository."

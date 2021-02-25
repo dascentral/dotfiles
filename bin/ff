@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/bin/.functions
+source /Users/${USER}/dotfiles/shell/.functions
 
 parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
 

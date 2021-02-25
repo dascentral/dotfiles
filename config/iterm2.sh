@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source /Users/${USER}/dotfiles/shell/.functions
+
 # Specify the preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Documents/Software/iTerm2"
 

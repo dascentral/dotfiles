@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/bin/.functions
+source /Users/${USER}/dotfiles/shell/.functions
 
 if [ $# != 1 ]; then
     usage "Usage: phpv [php|php@7.4|php@7.3]"

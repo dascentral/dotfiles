@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source /Users/${USER}/dotfiles/shell/.functions
+
 # cd into the packages folder
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 
