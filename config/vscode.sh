@@ -6,7 +6,12 @@ source /Users/${USER}/dotfiles/bin/.functions
 userPath="/Users/${USER}/Library/Application Support/Code/User"
 userPathEscaped="/Users/${USER}/Library/Application\ Support/Code/User"
 
-# install command line utility
+# confirm VS Code has been installed
+if [ ! -e "/Applications/Visual Studio Code.app" ]; then
+    abort "Visual Studio Code has not been installed."
+fi
+
+# confirm command line utility is available
 if [ ! -e "/usr/local/bin/code" ]; then
     # TODO: Automate install of the command line utility
     abort "VS Code command line utility is not available."
