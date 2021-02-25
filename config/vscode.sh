@@ -2,6 +2,11 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
+if [ ! -e "/usr/local/bin/code" ]; then
+    # TODO: Automate install of the command line utility
+    abort "VS Code command line utility is not available."
+fi
+
 # configure location of User folder
 #basepath="/Users/${USER}/Library/Application\ Support/Code/User2"
 
@@ -30,10 +35,6 @@ fi
 # ln -s /Users/${USER}/dotfiles/settings/VSCode/User/snippets snippets
 
 # install VS Code extensions
-if [ ! -e "/usr/local/bin/code" ]; then
-    abort "VS Code command line utility is not available."
-fi
-
 declare -a extensions=(
     "arcticicestudio.nord-visual-studio-code"
     "bmewburn.vscode-intelephense-client"
