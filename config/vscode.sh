@@ -2,6 +2,8 @@
 
 source /Users/${USER}/dotfiles/bin/.functions
 
+# TODO: Confirm VS Code has been installed
+
 if [ ! -e "/usr/local/bin/code" ]; then
     # TODO: Automate install of the command line utility
     abort "VS Code command line utility is not available."
