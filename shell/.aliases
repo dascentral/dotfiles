@@ -27,7 +27,7 @@ alias dv='docker volume ls'
 # Git
 #------------------------------------------------------------------------------------------
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias gs="git status"
+alias gs='git status'
 alias nah='git reset HEAD --hard'
 alias repush='git pull --rebase && git push'
 alias undo='git undo'
@@ -36,8 +36,8 @@ alias undo='git undo'
 #------------------------------------------------------------------------------------------
 # HubFlow
 #------------------------------------------------------------------------------------------
-alias ghu="git hf update"
 alias hff='git hf release finish'
+alias ghu='git hf update'
 alias fs='git hf feature start'
 
 
@@ -91,8 +91,8 @@ alias f644='find . -type f -exec chmod 644 {} \;'
 #------------------------------------------------------------------------------------------
 # PHP
 #------------------------------------------------------------------------------------------
-#alias php73="phpv php@7.3"
-#alias php74="phpv php@7.4"
+alias php73='phpv php@7.3'
+alias php74='phpv php@7.4'
 
 
 #------------------------------------------------------------------------------------------
