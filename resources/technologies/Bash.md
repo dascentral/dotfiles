@@ -24,3 +24,10 @@ I've been writing bash scripts for years (decades?) but my scripts are usually c
 * magenta = 35
 * cyan = 36
 * white = 37
+
+# Features
+
+### Arrays
+
+* **Article:** May 2018 — [You don't know Bash: An introduction to Bash arrays](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
+
