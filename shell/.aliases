@@ -36,7 +36,6 @@ alias undo='git undo'
 #------------------------------------------------------------------------------------------
 # HubFlow
 #------------------------------------------------------------------------------------------
-alias hff='git hf release finish'
 alias ghu='git hf update'
 alias fs='git hf feature start'
 
