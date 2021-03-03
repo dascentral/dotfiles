@@ -25,6 +25,7 @@ declare -a links=(
 )
 cd $HOME/.oh-my-zsh/custom/plugins
 for item in ${links[@]}; do
+    # parse URL and only execute if folder does not exist
     info "Installing Zsh plugin - ${item}"
     git clone ${item}
 done
