@@ -2,8 +2,7 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-abort "Script has not been tested. Run commands manually to confirm it works as expected."
-
+abort "WIP"
 exit 0;
 
 # TODO - need to add installation of https://github.com/zsh-users/zsh-syntax-highlighting
