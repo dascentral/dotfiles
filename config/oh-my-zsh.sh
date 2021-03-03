@@ -2,9 +2,6 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-abort "WIP"
-exit 0;
-
 # install Oh My Zsh
 if [ ! -e ~/.oh-my-zsh ]; then
     info "Installing Oh My Zsh"
