@@ -14,3 +14,4 @@ fi
 
 info "Executing Brewfile"
 brew bundle
+printf "\n"

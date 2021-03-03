@@ -14,6 +14,8 @@ warn "iTerm configuration script is currently disabled"
 #     abort "iTerm2 settings folder does not exist."
 # fi
 
+# info "Configuring iTerm2"
+
 # # Specify the preferences directory
 # defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/GDrive/Documents/Software/iTerm2"
 
@@ -25,3 +27,5 @@ warn "iTerm configuration script is currently disabled"
 
 # # Install and configure Oh My Zsh
 # ${DOTFILES}/config/oh-my-zsh.sh
+
+# printf "\n"
