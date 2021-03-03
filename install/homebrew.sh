@@ -4,7 +4,7 @@ source /Users/${USER}/dotfiles/shell/.functions
 
 if [ ! -e /usr/local/bin/brew ]; then
     info "Installing Homebrew."
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     printf "\n\n"
 fi
 
