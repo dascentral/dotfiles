@@ -11,16 +11,16 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###########################################################################################
 # BEGIN installation
 
-/Users/${USER}/dotfiles/install/homebrew.sh
-/Users/${USER}/dotfiles/install/composer.sh
+${DOTFILES}/install/homebrew.sh
+${DOTFILES}/install/composer.sh
 
 # END installations
 ###########################################################################################
 # BEGIN configurations
 
-/Users/${USER}/dotfiles/config/iterm2.sh
-/Users/${USER}/dotfiles/config/php.sh
-/Users/${USER}/dotfiles/config/vscode.sh
+${DOTFILES}/config/iterm2.sh
+${DOTFILES}/config/php.sh
+${DOTFILES}/config/vscode.sh
 
 # END configurations
 ###########################################################################################
