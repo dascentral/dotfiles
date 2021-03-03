@@ -2,6 +2,15 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
+# confirm app has been installed
+if [ ! -e "/Applications/iTerm.app" ]; then
+    abort "iTerm2 has not been installed."
+fi
+
+# confirm the expected settings location exists
+if [ ! -e "/Users/${USER}/GDrive/Documents/Software/iTerm2" ]; then
+    abort "iTerm2 settings folder does not exist."
+fi
 # Specify the preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Documents/Software/iTerm2"
 
