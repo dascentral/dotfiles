@@ -6,7 +6,7 @@ source /Users/${USER}/dotfiles/shell/.functions
 localPath="/Users/${USER}/Library/Application Support/Code/User"
 dotfilesPath="${DOTFILES}/settings/VSCode/User"
 
-# confirm VS Code has been installed
+# confirm app has been installed
 if [ ! -e "/Applications/Visual Studio Code.app" ]; then
     abort "Visual Studio Code has not been installed."
 fi
