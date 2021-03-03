@@ -12,15 +12,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # BEGIN installation
 
 /Users/${USER}/dotfiles/install/homebrew.sh
-info "Setting PHP version to 7.4"
-/Users/${USER}/dotfiles/bin/phpv php@7.4
-printf "\n"
 /Users/${USER}/dotfiles/install/composer.sh
 
 # END installations
 ###########################################################################################
 # BEGIN configurations
 
+/Users/${USER}/dotfiles/config/php.sh
 /Users/${USER}/dotfiles/config/vscode.sh
 /Users/${USER}/dotfiles/config/iterm2.sh
 
