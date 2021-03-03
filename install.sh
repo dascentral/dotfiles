@@ -20,6 +20,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # BEGIN configurations
 
 /Users/${USER}/dotfiles/config/vscode.sh
+/Users/${USER}/dotfiles/config/iterm2.sh
 
 # END configurations
 ###########################################################################################
