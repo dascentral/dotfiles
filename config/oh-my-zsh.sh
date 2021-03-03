@@ -11,7 +11,7 @@ if [ ! -e ~/.oh-my-zsh ]; then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-# add symbolic link to .zshrc
+# create symbolic link to .zshrc
 if [ ! -L ~/.zshrc ]; then
     info "Linking .zshrc to dotfiles"
     rm -rf /Users/${USER}/.zshrc
