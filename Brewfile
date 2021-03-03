@@ -97,5 +97,6 @@ cask 'font-source-sans-pro'
 # mas 'MindNode', id: 1289197285
 mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
+mas 'Forecast Bar - Weather + Radar', id: 982710545
 mas 'Spark', id: 1176895641
 mas 'Tweetbot', id: 1384080005
