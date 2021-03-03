@@ -24,8 +24,8 @@ declare -a links=(
     "https://github.com/zsh-users/zsh-syntax-highlighting"
 )
 cd $HOME/.oh-my-zsh/custom/plugins
-for item in ${links[@]}; do
+for url in ${links[@]}; do
     # parse URL and only execute if folder does not exist
-    info "Installing Zsh plugin - ${item}"
-    git clone ${item}
+    info "Installing Zsh plugin - ${url}"
+    git clone ${url}
 done
