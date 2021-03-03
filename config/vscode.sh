@@ -20,7 +20,7 @@ fi
 # create the local User folder
 mkdir -pv "${localPath}"
 
-# create symbolic links for settings stored within this repository
+# create symbolic links for application settings
 declare -a links=(
     "settings.json"
     "keybindings.json"
