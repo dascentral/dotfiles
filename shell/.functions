@@ -19,7 +19,7 @@ info() {
 }
 
 warn() {
-    echo "$@" >&2;
+    echo -e "${YELLOW}$@${NC}"
 }
 
 die() {
