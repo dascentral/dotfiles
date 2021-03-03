@@ -6,7 +6,6 @@ if [ ! -e "/usr/local/bin/composer" ]; then
     abort "Composer has not been installed. Aborting installation."
 fi
 
-# Define packages to install
 declare -a extensions=(
     "dascentral/hubflow-release"
     "consolidation/cgr"
@@ -16,7 +15,6 @@ declare -a extensions=(
     "tightenco/takeout"
 )
 
-# Install desired packages
 for extension in ${extensions[@]}; do
     parts=(`echo $extension | tr '/' ' '`)
     if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
