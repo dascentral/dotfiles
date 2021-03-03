@@ -19,5 +19,13 @@ if [ ! -L ~/.zshrc ]; then
     ln -s "${DOTFILES}/shell/.zshrc" "/Users/${USER}/.zshrc"
 fi
 
-# source
-source ~/.zshrc
+# install plugins
+declare -a links=(
+    "https://github.com/zsh-users/zsh-autosuggestions"
+    "https://github.com/zsh-users/zsh-syntax-highlighting"
+)
+cd $HOME/.oh-my-zsh/custom/plugins
+for item in ${links[@]}; do
+    info "Installing Zsh plugin - ${item}"
+    git clone ${item}
+done
