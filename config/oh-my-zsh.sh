@@ -5,16 +5,11 @@ source /Users/${USER}/dotfiles/shell/.functions
 abort "WIP"
 exit 0;
 
-# TODO - need to add installation of https://github.com/zsh-users/zsh-syntax-highlighting
-
-# Ensure Oh My Zsh has been installed
+# install Oh My Zsh
 if [ ! -e ~/.oh-my-zsh ]; then
     exit 0;
-    printf "\033[1;37mInstalling Oh My Zsh\033[0m\n"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-else
-    printf "\n\033[1;37mOh My Zsh has already been installed and likely configured.\033[0m\n\n"
-    exit 0;
+    info "Installing Oh My Zsh"
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # We can replace these prinf & sed commands by adding a symbolic link to the .zshrc file in this repo
