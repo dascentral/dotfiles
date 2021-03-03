@@ -2,7 +2,7 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-warn "iTerm configuration script is currently disabled"
+warn "iTerm configuration script is currently disabled\n"
 
 # # confirm app has been installed
 # if [ ! -e "/Applications/iTerm.app" ]; then
