@@ -11,6 +11,7 @@ fi
 if [ ! -e "/Users/${USER}/GDrive/Documents/Software/iTerm2" ]; then
     abort "iTerm2 settings folder does not exist."
 fi
+
 # Specify the preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/GDrive/Documents/Software/iTerm2"
 
