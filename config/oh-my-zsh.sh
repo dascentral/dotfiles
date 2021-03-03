@@ -19,13 +19,17 @@ if [ ! -L ~/.zshrc ]; then
 fi
 
 # install plugins
+cd $HOME/.oh-my-zsh/custom/plugins
 declare -a links=(
     "https://github.com/zsh-users/zsh-autosuggestions"
     "https://github.com/zsh-users/zsh-syntax-highlighting"
 )
-cd $HOME/.oh-my-zsh/custom/plugins
 for url in ${links[@]}; do
-    # parse URL and only execute if folder does not exist
-    info "Installing Zsh plugin - ${url}"
-    git clone ${url}
+    parts=(`echo ${url} | tr '/' ' '`)
+    plugin=${parts[${#parts[@]}-1]}
+    if [ ! -e ${plugin} ]; then
+        info "Installing Zsh plugin - ${plugin}"
+        git clone ${url}
+        printf "\n"
+    fi
 done
