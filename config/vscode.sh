@@ -31,6 +31,7 @@ for item in ${links[@]}; do
     rm -rf "${localPath}/${item}"
     ln -s "${dotfilesPath}/${item}" "${localPath}/${item}"
 done
+printf "\n"
 
 # install VS Code extensions
 declare -a extensions=(
