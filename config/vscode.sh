@@ -37,12 +37,15 @@ done
 
 # install VS Code extensions
 declare -a extensions=(
+    "adrianwilczynski.alpine-js-intellisense"
+    "amiralizadeh9480.laravel-extra-intellisense"
     "arcticicestudio.nord-visual-studio-code"
     "bmewburn.vscode-intelephense-client"
     "bradlc.vscode-tailwindcss"
     "calebporzio.better-phpunit"
     "christian-kohler.npm-intellisense"
     "christian-kohler.path-intellisense"
+    "cierra.livewire-vscode"
     "davidanson.vscode-markdownlint"
     "dbaeumer.vscode-eslint"
     "dbankier.vscode-quick-select"
