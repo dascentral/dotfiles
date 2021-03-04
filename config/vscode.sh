@@ -17,8 +17,6 @@ if [ ! -e "/usr/local/bin/code" ]; then
     abort "VS Code command line utility is not available."
 fi
 
-info "Configuring Visual Studio Code"
-
 # create the local User folder
 mkdir -pv "${LOCALPATH}"
 
@@ -29,10 +27,13 @@ declare -a links=(
     "snippets"
 )
 for item in ${links[@]}; do
-    rm -rf "${LOCALPATH}/${item}"
-    ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
+    if [ ! -L "${LOCALPATH}/${item}" ]; then
+        info "Visual Studio Code - Linking ${item}"
+        rm -rf "${LOCALPATH}/${item}"
+        ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
+        printf "\n"
+    fi
 done
-printf "\n"
 
 # install VS Code extensions
 declare -a extensions=(
