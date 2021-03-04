@@ -904,7 +904,11 @@
         "id": "1470584107",
         "version": "2.3.0"
       },
-      "Forecast Bar - Weather + Radar": null
+      "Forecast Bar - Weather + Radar": null,
+      "Forecast Bar": {
+        "id": "982710545",
+        "version": "5.7.6"
+      }
     }
   },
   "system": {
