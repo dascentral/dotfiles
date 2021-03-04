@@ -3,7 +3,7 @@
 source /Users/${USER}/dotfiles/shell/.functions
 
 # configure folders
-localPath="/Users/${USER}/Library/Application Support/Code/User"
+localPath="${HOME}/Library/Application Support/Code/User"
 dotfilesPath="${DOTFILES}/settings/VSCode/User"
 
 # confirm app has been installed
