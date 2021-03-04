@@ -4,7 +4,7 @@ source /Users/${USER}/dotfiles/shell/.functions
 
 # configure folders
 localPath="${HOME}/Library/Application Support/Code/User"
-dotfilesPath="${DOTFILES}/settings/VSCode/User"
+cloudPath="${DOTFILES}/settings/VSCode/User"
 
 # confirm app has been installed
 if [ ! -e "/Applications/Visual Studio Code.app" ]; then
@@ -30,7 +30,7 @@ declare -a links=(
 )
 for item in ${links[@]}; do
     rm -rf "${localPath}/${item}"
-    ln -s "${dotfilesPath}/${item}" "${localPath}/${item}"
+    ln -s "${cloudPath}/${item}" "${localPath}/${item}"
 done
 printf "\n"
 
