@@ -20,6 +20,7 @@ ${DOTFILES}/install/composer.sh
 
 ${DOTFILES}/config/iterm2.sh
 ${DOTFILES}/config/php.sh
+${DOTFILES}/config/sublime.sh
 ${DOTFILES}/config/vscode.sh
 
 # END configurations
