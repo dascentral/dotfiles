@@ -3,8 +3,8 @@
 source /Users/${USER}/dotfiles/shell/.functions
 
 # configure folders
-localPath="${HOME}/Library/Application Support/Code/User"
-cloudPath="${DOTFILES}/settings/VSCode/User"
+LOCALPATH="${HOME}/Library/Application Support/Code/User"
+CLOUDPATH="${DOTFILES}/settings/VSCode/User"
 
 # confirm app has been installed
 if [ ! -e "/Applications/Visual Studio Code.app" ]; then
@@ -20,7 +20,7 @@ fi
 info "Configuring Visual Studio Code"
 
 # create the local User folder
-mkdir -pv "${localPath}"
+mkdir -pv "${LOCALPATH}"
 
 # create symbolic links for application settings
 declare -a links=(
@@ -29,8 +29,8 @@ declare -a links=(
     "snippets"
 )
 for item in ${links[@]}; do
-    rm -rf "${localPath}/${item}"
-    ln -s "${cloudPath}/${item}" "${localPath}/${item}"
+    rm -rf "${LOCALPATH}/${item}"
+    ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
 done
 printf "\n"
 
