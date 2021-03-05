@@ -19,7 +19,7 @@ ${DOTFILES}/install/composer.sh
 # BEGIN configurations
 
 if [ ! -e "${HOME}/GDrive/Documents/Software2" ]; then
-    abort "Warning: Some configuration steps will fail as the cloud settings folder does not exist.\n"
+    warn "Warning: Some configuration steps will fail as the cloud settings folder does not exist.\n"
 fi
 
 ${DOTFILES}/config/iterm2.sh
