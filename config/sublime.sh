@@ -8,7 +8,7 @@ CLOUDPATH="${HOME}/GDrive/Documents/Software/Sublime/User"
 
 # confirm the expected settings location exists
 if [ ! -e "${CLOUDPATH}" ]; then
-    abort "Sublime settings folder does not exist."
+    abort "Sublime settings folder does not exist.\n"
 fi
 
 # link to cloud storage
