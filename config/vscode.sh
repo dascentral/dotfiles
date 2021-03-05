@@ -40,6 +40,7 @@ declare -a extensions=(
     "adrianwilczynski.alpine-js-intellisense"
     "amiralizadeh9480.laravel-extra-intellisense"
     "arcticicestudio.nord-visual-studio-code"
+    "austenc.laravel-blade-spacer"
     "bmewburn.vscode-intelephense-client"
     "bradlc.vscode-tailwindcss"
     "calebporzio.better-phpunit"
