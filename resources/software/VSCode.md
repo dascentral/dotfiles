@@ -12,10 +12,11 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 
 You have an infinite number of ways to customize VS Code. My setup was heavily influenced (or perhaps directly mirrors) the advice from these resources.
 
-* [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
-* [My VS Code Setup](https://calebporzio.com/my-vs-code-setup-2) - by Caleb Porzio - Dec 2017
-* [The best setting.json for PHP development with Visual Studio Code](https://dev.to/ryanmccullagh/the-best-setting-json-for-php-development-with-visual-studio-code-4agc) - Dec 2019
-* [20 VS Code Shortcuts for Faster Coding](https://medium.com/better-programming/20-vs-code-shortcuts-for-fast-coding-cheatsheet-10b0e72fd5d) - Nov 2019
+* **Webcast:** [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
+* **Article:** Mar 2021 — [My Top VS Code Extensions for Laravel](https://dev.to/zaxwebs/my-top-vs-code-extensions-for-laravel-5of)
+* **Article:** Dec 2017 — [My VS Code Setup](https://calebporzio.com/my-vs-code-setup-2) - by Caleb Porzio
+* **Article:** Dec 2019 — [The best setting.json for PHP development with Visual Studio Code](https://dev.to/ryanmccullagh/the-best-setting-json-for-php-development-with-visual-studio-code-4agc) - 
+* **Article:** Nov 2019 — [20 VS Code Shortcuts for Faster Coding](https://medium.com/better-programming/20-vs-code-shortcuts-for-fast-coding-cheatsheet-10b0e72fd5d)
 
 ## Extensions
 
