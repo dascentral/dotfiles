@@ -87,17 +87,17 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  
+
   // React formatting is handled by ESLint (via the Prettier plugin).
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
-  
+
   // JSON files have tab size of 4 primarily because it matches the Laravel standard.
   "[json]": {
     "editor.tabSize": 4
   },
-  
+
   // PHP files have tab size of 4. PHP CS Fixer handles file formatting.
   "[php]": {
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
@@ -129,6 +129,10 @@
     "last",
     "root"
   ],
+
+  // Whether to enable/disable formatting via Laravel Blade Snippets extension.
+  "blade.format.enable": false,
+
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   // Disable automatic detection of indentation.
