@@ -10,7 +10,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 
 ## Setup, Tips & Tricks
 
-You have an infinite number of ways to customize VS Code. My setup was heavily influenced (or perhaps directly mirrors) the advice from these resources.
+You have an infinite number of ways to customize VS Code. My setup was heavily influenced (or perhaps directly mirrors) the advice found within these resources.
 
 * **Webcast:** [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
 * **Article:** Mar 2021 — [My Top VS Code Extensions for Laravel](https://dev.to/zaxwebs/my-top-vs-code-extensions-for-laravel-5of)
