@@ -358,6 +358,13 @@
         ],
         "description": "Creates a stub for an invoke method"
     },
+    "Ray Show App and Send": {
+        "prefix": "rr",
+        "body": [
+            "ray()->showApp()->send($1);"
+        ],
+        "description": "Show the Ray app before sending variable for output."
+    },
     "Setup method": {
         "prefix": "setup",
         "body": [
