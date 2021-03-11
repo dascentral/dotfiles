@@ -136,6 +136,7 @@ Form requests are custom request classes that contain validation logic.
 
 ### Horizon
 
+* **Article:** Mar 2021 — [Rationing Your Laravel Queue Workers Memory And CPU Consumption])(https://divinglaravel.com/rationing-your-laravel-queue-workers-memory-and-cpu-consumption)
 * **Article:** Sept 2019 — [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
 * **Article:** April 2019 — [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
 
