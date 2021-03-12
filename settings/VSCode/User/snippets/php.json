@@ -60,11 +60,8 @@
         "body": [
             "/**",
             " * Filter only the items that $1",
-            " *",
-            " * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
-            " * @return \\Illuminate\\Database\\Eloquent\\Builder",
             " */",
-            "public function scope$2(\\$query)",
+            "public function scope$2(Builder \\$query): Builder",
             "{",
             "    return \\$query->where($3);",
             "}",
