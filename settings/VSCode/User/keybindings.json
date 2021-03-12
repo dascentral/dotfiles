@@ -43,10 +43,6 @@
     "command": "intelephense.index.workspace"
   },
   {
-    "key": "cmd+k i",
-    "command": "intelephense.index.workspace"
-  },
-  {
     "key": "alt+cmd+e",
     "command": "namespaceResolver.expand",
     "when": "editorTextFocus"
