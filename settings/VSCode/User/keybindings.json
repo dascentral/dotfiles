@@ -42,11 +42,17 @@
     "key": "cmd+k i",
     "command": "intelephense.index.workspace"
   },
+  /**
+   * PHP Namespace Resolver - Expand Class
+   */
   {
     "key": "alt+cmd+e",
     "command": "namespaceResolver.expand",
     "when": "editorTextFocus"
   },
+  /**
+   * PHP Namespace Resolver - Import Class
+   */
   {
     "key": "alt+cmd+i",
     "command": "namespaceResolver.import",
