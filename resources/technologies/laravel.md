@@ -134,11 +134,12 @@ Form requests are custom request classes that contain validation logic.
 * **Video:** July 2020 — [Customising and extending Laravel Form Requests](https://freek.dev/1721-customising-and-extending-laravel-form-requests)
 * **Article:** Nov 2019 — [Laravel Form Requests - more than validation](https://pociot.dev/22-laravel-form-requests-more-than-validation)
 
-### Horizon
+### Queues
 
 * **Article:** Mar 2021 — [Rationing Your Laravel Queue Workers Memory And CPU Consumption])(https://divinglaravel.com/rationing-your-laravel-queue-workers-memory-and-cpu-consumption)
 * **Article:** Sept 2019 — [Config Laravel Horizon, queue, balance, processes and priority in redis](https://medium.com/@panjeh/laravel-config-horizon-queue-balance-processes-priority-in-redis-c36dd4c16859)
 * **Article:** April 2019 — [Running queues for multiple applications on the same server with Laravel Horizon](https://medium.com/plint-sites/running-queues-for-multiple-applications-on-the-same-server-with-laravel-horizon-d743f455b23d?ref=laravelnews)
+* **Article:** Oct 2018 — [How to size & scale your Laravel Queues](https://ohdear.app/blog/how-to-size-scale-your-laravel-queues)
 
 ### Markdown Mailables
 
