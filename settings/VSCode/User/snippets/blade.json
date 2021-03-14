@@ -5,5 +5,16 @@
             "{{ \\$attributes->merge(['class' => '$1']) }}"
         ],
         "description": "Merge attributes within a Laravel 7 blade component"
+    },
+    "Tailwind UI Inspiration": {
+        "prefix": "twui",
+        "body": [
+            "{{--",
+            "    Tailwind UI Inspiration was \"Empty\"",
+            "    $1",
+            "--}}",
+            ""
+        ],
+        "description": "Enters a comment that allows me to quickly add the Tailwind UI inspiration reference"
     }
 }
