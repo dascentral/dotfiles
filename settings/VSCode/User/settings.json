@@ -200,6 +200,11 @@
 
   "terminal.integrated.rendererType": "dom",
 
+  /**
+   * Do not show new version messages for the vscode-icons extension.
+   */
+  "vsicons.dontShowNewVersionMessage": true,
+
   "window.openFilesInNewWindow": "on",
 
   "window.restoreWindows": "all",
