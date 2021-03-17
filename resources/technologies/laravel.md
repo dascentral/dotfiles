@@ -114,6 +114,10 @@ A view model class is designed to house the complex logic of your views and redu
 * **Article:** Oct 2018 — [20 Laravel Eloquent Tips and Tricks](https://laravel-news.com/eloquent-tips-tricks)
 * **Article:** May 2018 — [Leverage Eloquent To Prepare Your URLs](https://laravel-news.com/leverage-eloquent-to-prepare-your-urls)
 
+### Exceptions
+
+* **Article:** Oct 2015 — [Formatting Exception Messages](https://www.rosstuck.com/formatting-exception-messages) — This article is more about PHP than Laravel but it's still very relevant despite its age.
+
 ### Facades
 
 * **Laravel Docs:** [https://laravel.com/docs/master/facades](https://laravel.com/docs/master/facades)

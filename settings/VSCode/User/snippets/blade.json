@@ -10,8 +10,8 @@
         "prefix": "twui",
         "body": [
             "{{--",
-            "    Tailwind UI Inspiration was \"Empty\"",
-            "    $1",
+            "    Tailwind UI Inspiration was \"$1\"",
+            "    $2",
             "--}}",
             ""
         ],
