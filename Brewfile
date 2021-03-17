@@ -23,6 +23,7 @@ brew 'svn'
 brew 'the_silver_searcher'
 brew 'trash'
 brew 'tree'
+brew 'wrk'
 brew 'zlib'
 
 # Spatie Medialibrary
