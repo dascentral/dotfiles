@@ -69,6 +69,20 @@
         ],
         "description": "Laravel scope query"
     },
+    "Livewire Computed Property": {
+        "prefix": "computed",
+        "body": [
+            "/**",
+            " * Create the \"$1\" property.",
+            " */",
+            "public function get$2Property(): $3",
+            "{",
+            "    return $4",
+            "}",
+            ""
+        ],
+        "description": "Livewire computed property"
+    },
     "PHP Protected Method": {
         "prefix": "pmet",
         "body": [
