@@ -6,9 +6,16 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
+# Determine if Laravel Sail is in use
+if [ -e "docker-compose.yml" ]; then
+    COMMAND="vendor/bin/sail artisan"
+else
+    COMMAND="php artisan"
+fi
+
 # Output Laravel routes in an abbreviated format
 if [ $# != 1 ]; then
-    php artisan route:list --columns=method,uri,name
+    ${COMMAND} route:list --columns=method,uri,name
 else
-    php artisan route:list --columns=method,uri,name --name=$1
+    ${COMMAND} route:list --columns=method,uri,name --name=$1
 fi
