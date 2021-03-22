@@ -120,6 +120,17 @@
         ],
         "description": "PHP private member variable"
     },
+    "PHP Protected Typed Member Variable": {
+        "prefix": "pvt",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "protected $2;",
+            ""
+        ],
+        "description": "PHP private member variable"
+    },
     "Laravel BelongsTo Relationship": {
         "prefix": "belongsto",
         "body": [
