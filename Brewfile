@@ -36,6 +36,7 @@ brew 'zlib'
 # Development
 brew 'redis'
 brew 'composer'
+brew 'mysql'
 brew 'nginx'
 # brew 'php'
 brew 'php@7.4'
