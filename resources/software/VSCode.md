@@ -13,6 +13,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 You have an infinite number of ways to customize VS Code. My setup was heavily influenced (or perhaps directly mirrors) the advice found within these resources.
 
 * **Webcast:** [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers) - by Laracasts
+* **Article:** Mar 2021 — [Here is my VS Code for Laravel](https://dogcomp.medium.com/here-is-my-vs-code-for-laravel-2021-6e816d997607)
 * **Article:** Mar 2021 — [My Top VS Code Extensions for Laravel](https://dev.to/zaxwebs/my-top-vs-code-extensions-for-laravel-5of)
 * **Article:** Dec 2017 — [My VS Code Setup](https://calebporzio.com/my-vs-code-setup-2) - by Caleb Porzio
 * **Article:** Dec 2019 — [The best setting.json for PHP development with Visual Studio Code](https://dev.to/ryanmccullagh/the-best-setting-json-for-php-development-with-visual-studio-code-4agc) - 
