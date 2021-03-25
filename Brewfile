@@ -34,11 +34,11 @@ brew 'zlib'
 # brew 'gifsicle'
 
 # Development
-# brew 'redis'
+brew 'redis'
 brew 'composer'
-brew 'php'
+brew 'nginx'
+# brew 'php'
 brew 'php@7.4'
-brew 'php@7.3'
 brew 'imagemagick'
 
 # Apps
