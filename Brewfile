@@ -40,7 +40,7 @@ brew 'redis'
 brew 'composer'
 brew 'mysql'
 brew 'nginx'
-# brew 'php'
+brew 'php'
 brew 'php@7.4'
 brew 'imagemagick'
 
