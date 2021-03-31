@@ -67,7 +67,7 @@ cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'phpmon'
+cask 'phpmon' # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
 cask 'rocket'
 cask 'spectacle'
