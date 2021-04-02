@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/shell/.functions
+
+if ! composer_json; then
+    abort "No composer.json found."
+fi
+
+if laravel_sail_is_running; then
+    sail composer install
+else
+    composer install
+fi
