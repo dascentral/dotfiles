@@ -7,7 +7,7 @@ if ! laravel_application_root; then
 fi
 
 if laravel_sail_is_running; then
-    ./vendor/bin/sail artisan
+    ./vendor/bin/sail artisan $@
 else
-    php artisan
+    php artisan $@
 fi
