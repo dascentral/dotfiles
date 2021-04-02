@@ -51,7 +51,6 @@ alias bsr='brew services restart'
 # Laravel Sail
 #------------------------------------------------------------------------------------------
 alias sail='bash vendor/bin/sail'
-alias a='sail artisan'
 alias dusk='sail dusk'
 alias mfs='sail artisan migrate:fresh --seed'
 alias up='sail up'

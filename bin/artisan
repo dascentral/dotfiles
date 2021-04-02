@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/shell/.functions
+
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+if laravel_sail_is_running; then
+    sail artisan
+else
+    php artisan
+fi
