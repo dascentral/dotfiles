@@ -7,7 +7,7 @@ if ! composer_json; then
 fi
 
 if laravel_sail_is_running; then
-    sail composer update
+    ./vendor/bin/sail composer update
 else
     composer update
 fi
