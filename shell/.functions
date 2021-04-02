@@ -39,6 +39,10 @@ has() {
 ################################################################
 
 
+composer_json() {
+    [ -e "composer.json" ]
+}
+
 dotfiles_live_where_expected() {
     if [ ! -e "${DOTFILES}" ]; then
         abort "The dotfiles repo does not exist in the expected location."
@@ -103,4 +107,9 @@ hubflow_is_initialized() {
 
 laravel_application_root() {
     [ -e "artisan" ]
+}
+
+laravel_sail_is_running() {
+    # TODO: Make this check much smarter.
+    [ -e "docker-compose.yml" ]
 }
