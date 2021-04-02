@@ -7,7 +7,7 @@ if ! composer_json; then
 fi
 
 if laravel_sail_is_running; then
-    ./vendor/bin/sail composer install
+    ./vendor/bin/sail composer install $@
 else
-    composer install
+    composer install $@
 fi
