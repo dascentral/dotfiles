@@ -287,6 +287,12 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 * **Article:** [Creating Your Own PHP Helpers in a Laravel Project](https://laravel-news.com/creating-helpers)
 
+### Roles & Permissions
+
+* **Package:** [JosephSilber/bouncer](https://github.com/JosephSilber/bouncer)
+* **Package:** [ManukMinasyan/Laravel-Permission-Manager](https://github.com/ManukMinasyan/Laravel-Permission-Manager) — Built on top of Bouncer
+* **Package:** [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
+
 ### Security
 
 * **Package:** [Enlightn](https://www.laravel-enlightn.com/)
