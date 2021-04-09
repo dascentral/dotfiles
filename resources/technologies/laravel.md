@@ -265,6 +265,11 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article:** Mar 2018 — [Stop deploying Laravel manually, steal this Docker configuration instead](https://hackernoon.com/stop-deploying-laravel-manually-steal-this-docker-configuration-instead-da9ecf24cd2e)
 * **Course:** [Docker for PHP Developers](https://bitpress.io/docker-for-php-developers/)
 
+### Documentation
+
+* **Package:** [andyabih/laravel-to-uml](https://github.com/andyabih/laravel-to-uml) — Automagically generate UML diagrams of your Laravel code.
+* **Package:** [beyondcode/laravel-er-diagram-generator](https://github.com/beyondcode/laravel-er-diagram-generator) — Generate entity relation diagrams by inspecting the relationships defined in your model files.
+
 ### Encryption
 
 * **Article:** Nov 2020 — [Encrypt and Decrypt Data Using Keys](https://laravel-news.com/encrypt-and-decrypt-data-using-keys)
