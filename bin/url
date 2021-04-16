@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/shell/.functions
+
+if [ $# != 2 ]; then
+    usage "Usage: url [filename] [url]"
+fi
+
+file="$1.url"
+
+echo '[InternetShortcut]' > "${file}"
+echo -n 'URL=' >> "${file}"
+echo $2 >> "${file}"
+
+info "Created a new file with the specified URL: ${file}"
