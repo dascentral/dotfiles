@@ -36,3 +36,4 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 #### Notifications
 
 * **Article:** April 2020 — [Toast Notification in Laravel Livewire Tutorial](https://techvblogs.com/blog/toast-notification-livewire-laravel)
+
