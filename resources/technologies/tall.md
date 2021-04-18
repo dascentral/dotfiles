@@ -33,3 +33,6 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 * [jantinnerezo/livewire-alert](https://github.com/jantinnerezo/livewire-alert) — A very simple alerts utility based upon SweetAlert2
 * [Livewire Kit](https://livewirekit.com/) — 22 ready-made Laravel Livewire components
 
+#### Notifications
+
+* **Article:** April 2020 — [Toast Notification in Laravel Livewire Tutorial](https://techvblogs.com/blog/toast-notification-livewire-laravel)
