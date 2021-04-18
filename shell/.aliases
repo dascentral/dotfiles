@@ -51,10 +51,8 @@ alias bsr='brew services restart'
 # Laravel Sail
 #------------------------------------------------------------------------------------------
 alias sail='bash vendor/bin/sail'
-alias dusk='sail dusk'
-alias up='sail up'
-alias t='sail test --parallel'
-alias td='sail test --parallel && sail dusk'
+alias dusk='artisan dusk'
+alias t='artisan test --parallel'
 
 
 #------------------------------------------------------------------------------------------
