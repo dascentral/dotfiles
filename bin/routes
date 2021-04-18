@@ -7,8 +7,4 @@ if ! laravel_application_root; then
 fi
 
 # Output Laravel routes in an abbreviated format
-if [ $# != 1 ]; then
-    artisan route:list --columns=method,uri,name
-else
-    artisan route:list --columns=method,uri,name --name=$1
-fi
+artisan route:list --compact --except-path=telescope,nova,horizon,debugbar,dusk $@
