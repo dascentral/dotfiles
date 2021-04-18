@@ -6,8 +6,4 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-if laravel_sail_is_running; then
-    ./vendor/bin/sail artisan migrate:fresh --seed
-else
-    php artisan migrate:fresh --seed
-fi
+artisan migrate:fresh --seed

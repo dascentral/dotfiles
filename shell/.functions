@@ -110,6 +110,13 @@ laravel_application_root() {
 }
 
 laravel_sail_is_running() {
-    # TODO: Make this check much smarter.
-    [ -e "docker-compose.yml" ]
+    PSRESULT="$(docker-compose ps -q)"
+
+    if docker-compose ps | grep 'Exit' &> /dev/null; then
+        docker-compose down > /dev/null 2>&1
+
+        return 1;
+    fi
+
+    [ -z "$PSRESULT" ] && return 1 || return 0
 }
