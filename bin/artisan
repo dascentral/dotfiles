@@ -6,8 +6,11 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-if laravel_sail_is_running; then
-    ./vendor/bin/sail artisan $@
-else
-    php artisan $@
-fi
+# since I am all Laravel Valet right now, no need to check if Sail is running
+php artisan $@
+
+# if laravel_sail_is_running; then
+#     ./vendor/bin/sail artisan $@
+# else
+#     php artisan $@
+# fi
