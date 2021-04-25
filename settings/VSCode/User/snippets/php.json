@@ -401,5 +401,16 @@
             "}",
             ""
         ]
+    },
+    "Livewire Mount Method": {
+        "prefix": "The public method for Livewire's mount() method",
+        "body": [
+            "public function mount()",
+            "{",
+            "    $1",
+            "}",
+            ""
+        ],
+        "description": "mount"
     }
 }
