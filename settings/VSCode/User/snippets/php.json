@@ -405,6 +405,9 @@
     "Livewire Mount Method": {
         "prefix": "The public method for Livewire's mount() method",
         "body": [
+            "/**",
+            " * Mount the component.",
+            " */",
             "public function mount()",
             "{",
             "    $1",
@@ -412,5 +415,20 @@
             ""
         ],
         "description": "mount"
+    },
+    "Laravel Livewire Computed Property": {
+        "prefix": "Create a computed property for Laravel Livewire",
+        "body": [
+            "    /**",
+            "     * Create the \"$1\" computed property.",
+            "     */",
+            "    public function get$2Property()",
+            "    {",
+            "        return $3",
+            "    }",
+            "",
+            ""
+        ],
+        "description": "computed"
     }
 }
