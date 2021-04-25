@@ -37,6 +37,10 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 
 * **Article:** Oct 2020 — [Building an Autocomplete/Typeahead Component with AlpineJS and Livewire](https://chrisdicarlo.ca/blog/-alpinejs-and-livewire-autocomplete/)
 
+#### Data Tables
+
+* **Package:** [rappasoft/laravel-livewire-tables](https://github.com/rappasoft/laravel-livewire-tables)
+
 #### Notifications
 
 * **Article:** April 2020 — [Toast Notification in Laravel Livewire Tutorial](https://techvblogs.com/blog/toast-notification-livewire-laravel)
