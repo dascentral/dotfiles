@@ -33,6 +33,10 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 * [jantinnerezo/livewire-alert](https://github.com/jantinnerezo/livewire-alert) — A very simple alerts utility based upon SweetAlert2
 * [Livewire Kit](https://livewirekit.com/) — 22 ready-made Laravel Livewire components
 
+#### Autocomplete
+
+* **Article:** Oct 2020 — [Building an Autocomplete/Typeahead Component with AlpineJS and Livewire](https://chrisdicarlo.ca/blog/-alpinejs-and-livewire-autocomplete/)
+
 #### Notifications
 
 * **Article:** April 2020 — [Toast Notification in Laravel Livewire Tutorial](https://techvblogs.com/blog/toast-notification-livewire-laravel)
