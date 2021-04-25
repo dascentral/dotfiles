@@ -13,7 +13,7 @@ I have separate files for Tailwind CSS and Laravel. This document will cover Alp
 
 In addition to everything listed below, I recommend that you check out [Awesome TALL Stack](https://github.com/blade-ui-kit/awesome-tall-stack).
 
-## Resources
+## Livewire
 
 ### Learning Livewire
 
@@ -44,4 +44,8 @@ In addition to everything listed below, I recommend that you check out [Awesome 
 #### Notifications
 
 * **Article:** April 2020 — [Toast Notification in Laravel Livewire Tutorial](https://techvblogs.com/blog/toast-notification-livewire-laravel)
+
+#### Sortable
+
+* **Package:** [asantibanez/laravel-blade-sortable](https://github.com/asantibanez/laravel-blade-sortable)
 
