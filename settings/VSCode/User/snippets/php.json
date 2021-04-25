@@ -39,100 +39,6 @@
         ],
         "description": "Laravel Gate"
     },
-    "Laravel Mutator": {
-        "prefix": "mutator",
-        "body": [
-            "/**",
-            " * Set the \"$1\" attribute.",
-            " *",
-            " * @return void",
-            " */",
-            "public function set$2Attribute(\\$value)",
-            "{",
-            "    \\$this->attributes['$1'] = $3",
-            "}",
-            ""
-        ],
-        "description": "Laravel mutator"
-    },
-    "Laravel Scope Query": {
-        "prefix": "scope",
-        "body": [
-            "/**",
-            " * Filter only the items that $1",
-            " */",
-            "public function scope$2(Builder \\$query): Builder",
-            "{",
-            "    return \\$query->where($3);",
-            "}",
-            ""
-        ],
-        "description": "Laravel scope query"
-    },
-    "Livewire Computed Property": {
-        "prefix": "computed",
-        "body": [
-            "/**",
-            " * Create the \"$1\" property.",
-            " */",
-            "public function get$2Property(): $3",
-            "{",
-            "    return $4",
-            "}",
-            ""
-        ],
-        "description": "Livewire computed property"
-    },
-    "PHP Protected Method": {
-        "prefix": "pmet",
-        "body": [
-            "/**",
-            " * $2",
-            " */",
-            "protected function $1($3): $4",
-            "{",
-            "    $5",
-            "}",
-            ""
-        ],
-        "description": "PHP protected method"
-    },
-    "PHP Public Method": {
-        "prefix": "met",
-        "body": [
-            "/**",
-            " * $2",
-            " */",
-            "public function $1($3): $4",
-            "{",
-            "    $5",
-            "}",
-            ""
-        ],
-        "description": "PHP public method"
-    },
-    "PHP Protected Member Variable": {
-        "prefix": "pvar",
-        "body": [
-            "/**",
-            " * $1",
-            " */",
-            "protected $2;",
-            ""
-        ],
-        "description": "PHP private member variable"
-    },
-    "PHP Protected Typed Member Variable": {
-        "prefix": "pvt",
-        "body": [
-            "/**",
-            " * $1",
-            " */",
-            "protected $2;",
-            ""
-        ],
-        "description": "PHP private member variable"
-    },
     "Laravel BelongsTo Relationship": {
         "prefix": "belongsto",
         "body": [
@@ -189,72 +95,35 @@
         ],
         "description": "Laravel \"hasOne\" Relationship"
     },
-    "PHPUnit Test": {
-        "prefix": "test",
+    "Laravel Mutator": {
+        "prefix": "mutator",
         "body": [
-            "/** @test */",
-            "public function it_$1()",
+            "/**",
+            " * Set the \"$1\" attribute.",
+            " *",
+            " * @return void",
+            " */",
+            "public function set$2Attribute(\\$value)",
             "{",
-            "    $2",
+            "    \\$this->attributes['$1'] = $3",
             "}",
             ""
         ],
-        "description": "PHPUnit Test"
+        "description": "Laravel mutator"
     },
-    "docblock": {
-        "prefix": "docblock",
+    "Laravel Scope Query": {
+        "prefix": "scope",
         "body": [
             "/**",
-            " * $1",
-            " *",
-            " * @param  $3",
-            " * @return $2",
-            " */"
-        ],
-        "description": "DocBlock"
-    },
-    "Laravel Model": {
-        "prefix": "model",
-        "body": [
-            "    /**",
-            "     * The custom name for the \"created_at\" column.",
-            "     *",
-            "     * @var string",
-            "     */",
-            "    const CREATED_AT = 'date_created';",
-            "",
-            "    /**",
-            "     * The custom name for the \"updated_at\" column.",
-            "     *",
-            "     * @var string",
-            "     */",
-            "    const UPDATED_AT = 'last_updated';",
-            "",
-            "    /**",
-            "     * The attributes that are not mass assignable.",
-            "     *",
-            "     * @var array",
-            "     */",
-            "    protected \\$guarded = ['id', 'date_created', 'last_updated'];",
-            "",
-            "    /**",
-            "     * The attributes that should be mutated to dates.",
-            "     *",
-            "     * @var array",
-            "     */",
-            "    protected \\$dates = ['date_created', 'last_updated'];",
-            "",
-            "    /**",
-            "     * The attributes that should be cast to native types.",
-            "     *",
-            "     * @var array",
-            "     */",
-            "    protected \\$casts = [",
-            "        'id' => 'integer',",
-            "    ];",
+            " * Filter only the items that $1",
+            " */",
+            "public function scope$2(Builder \\$query): Builder",
+            "{",
+            "    return \\$query->where($3);",
+            "}",
             ""
         ],
-        "description": "Typical configuration for a Laravel model"
+        "description": "Laravel scope query"
     },
     "Laravel Foreign Key": {
         "prefix": "fk",
@@ -343,15 +212,11 @@
         ],
         "description": "Creates an array to hold the attributes that should be mutated to dates."
     },
-    "Scope query for provided User": {
+    "Laravel Scope Query ofUser": {
         "prefix": "scopeOfUser",
         "body": [
             "/**",
             " * Filter only the items that belong to the provided User.",
-            " *",
-            " * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
-            " * @param  int|\\App\\Models\\User \\$user",
-            " * @return \\Illuminate\\Database\\Eloquent\\Builder \\$query",
             " */",
             "public function scopeOfUser(Builder \\$query, \\$user): Builder",
             "{",
@@ -369,7 +234,109 @@
         ],
         "description": "Create a Laravel scope query for items that belong to the provided User"
     },
-    "Invoke method": {
+    "Livewire Computed Property": {
+        "prefix": "computed",
+        "body": [
+            "/**",
+            " * Create the \"$1\" computed property.",
+            " */",
+            "public function get$22Property(): $3",
+            "{",
+            "    return $4",
+            "}",
+            ""
+        ],
+        "description": "Livewire computed property"
+    },
+    "Livewire Mount Method": {
+        "prefix": "The public method for Livewire's mount() method",
+        "body": [
+            "/**",
+            " * Mount the component.",
+            " */",
+            "public function mount()",
+            "{",
+            "    $1",
+            "}",
+            ""
+        ],
+        "description": "mount"
+    },
+    "PHP Protected Method": {
+        "prefix": "pmet",
+        "body": [
+            "/**",
+            " * $2",
+            " */",
+            "protected function $1($3): $4",
+            "{",
+            "    $5",
+            "}",
+            ""
+        ],
+        "description": "PHP protected method"
+    },
+    "PHP Public Method": {
+        "prefix": "met",
+        "body": [
+            "/**",
+            " * $2",
+            " */",
+            "public function $1($3): $4",
+            "{",
+            "    $5",
+            "}",
+            ""
+        ],
+        "description": "PHP public method"
+    },
+    "PHP Protected Member Variable": {
+        "prefix": "pvar",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "protected $2;",
+            ""
+        ],
+        "description": "PHP private member variable"
+    },
+    "PHP Protected Typed Member Variable": {
+        "prefix": "pvt",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "protected $2;",
+            ""
+        ],
+        "description": "PHP private member variable"
+    },
+    "PHPUnit Test": {
+        "prefix": "test",
+        "body": [
+            "/** @test */",
+            "public function it_$1()",
+            "{",
+            "    $2",
+            "}",
+            ""
+        ],
+        "description": "PHPUnit Test"
+    },
+    "docblock": {
+        "prefix": "docblock",
+        "body": [
+            "/**",
+            " * $1",
+            " *",
+            " * @param  $3",
+            " * @return $2",
+            " */"
+        ],
+        "description": "DocBlock"
+    },
+    "PHP Invoke Method": {
         "prefix": "invoke",
         "body": [
             "/**",
@@ -401,34 +368,5 @@
             "}",
             ""
         ]
-    },
-    "Livewire Mount Method": {
-        "prefix": "The public method for Livewire's mount() method",
-        "body": [
-            "/**",
-            " * Mount the component.",
-            " */",
-            "public function mount()",
-            "{",
-            "    $1",
-            "}",
-            ""
-        ],
-        "description": "mount"
-    },
-    "Laravel Livewire Computed Property": {
-        "prefix": "Create a computed property for Laravel Livewire",
-        "body": [
-            "    /**",
-            "     * Create the \"$1\" computed property.",
-            "     */",
-            "    public function get$2Property()",
-            "    {",
-            "        return $3",
-            "    }",
-            "",
-            ""
-        ],
-        "description": "computed"
     }
 }
