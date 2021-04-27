@@ -240,7 +240,7 @@
             "/**",
             " * Create the \"$1\" computed property.",
             " */",
-            "public function get$22Property(): $3",
+            "public function get$2Property(): $3",
             "{",
             "    return $4",
             "}",
@@ -259,6 +259,15 @@
             "    $1",
             "}",
             ""
+        ],
+        "description": "mount"
+    },
+    "Livewire Render DocBlock": {
+        "prefix": "A simple DocBlock for Livewire's render() method",
+        "body": [
+            "/**",
+            " * Render the component.",
+            " */"
         ],
         "description": "mount"
     },
