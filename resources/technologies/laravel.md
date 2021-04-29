@@ -292,6 +292,10 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 * **Article:** [Creating Your Own PHP Helpers in a Laravel Project](https://laravel-news.com/creating-helpers)
 
+#### Real-Time Notifications
+
+* **Article:** Nov 2020 — [Laravel Real-Time Notifications](https://christoph-rumpel.com/2020/11/laravel-real-time-notifications)
+
 ### Roles & Permissions
 
 * **Package:** [JosephSilber/bouncer](https://github.com/JosephSilber/bouncer)
