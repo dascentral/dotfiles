@@ -16,5 +16,14 @@
             ""
         ],
         "description": "Enters a comment that allows me to quickly add the Tailwind UI inspiration reference"
+    },
+    "Horizontal Form Field": {
+        "prefix": "ffh",
+        "body": [
+            "<x-form-field-horizontal name=\"$1\" :label=\"__('$2')\">",
+            "    <x-input-h autocomplete=\"$3\" name=\"$1\" />",
+            "</x-form-field-horizontal>"
+        ],
+        "description": "Laravel Blade component that creates a horizontal form field."
     }
 }

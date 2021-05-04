@@ -358,26 +358,33 @@
         ],
         "description": "Creates a stub for an invoke method"
     },
-    "Ray Show App": {
+    "Ray Send": {
         "prefix": "rr",
         "body": [
             "ray()->send($1);"
         ],
         "description": "Send the variable to Ray for output."
     },
-    "Ray Clear Screen, Show App, and Send": {
+    "Ray Clear Screen and Send": {
         "prefix": "rrc",
+        "body": [
+            "ray()->clearScreen()->send($1);"
+        ],
+        "description": "Clear the Ray screen and send the variable to Ray for output."
+    },
+    "Ray Clear Screen, Show App, and Send": {
+        "prefix": "rrcs",
         "body": [
             "ray()->clearScreen()->showApp()->send($1);"
         ],
-        "description": "Clear the Ray screen, show the app, and send the variable for output."
+        "description": "Clear the Ray screen, show the app, and send the variable to Ray for output."
     },
     "Ray Show App and Send": {
         "prefix": "rrs",
         "body": [
             "ray()->showApp()->send($1);"
         ],
-        "description": "Show the Ray app and send the variable for output."
+        "description": "Show the Ray app and send the variable to Ray for output."
     },
     "Setup method": {
         "prefix": "setup",
