@@ -102,6 +102,10 @@ A view model class is designed to house the complex logic of your views and redu
 
 * **Article:** April 2019 — [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
+### Database
+
+* **Article:** Jan 2019 — [Diving deeper with Laravel JSON column types](https://nullthoughts.com/development/2019/01/29/laravel-json-column-types/)
+
 ### Dusk
 
 * **Article:** Dec 2018 — [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
