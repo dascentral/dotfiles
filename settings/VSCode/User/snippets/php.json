@@ -234,6 +234,19 @@
         ],
         "description": "Create a Laravel scope query for items that belong to the provided User"
     },
+    "Laravel View Model": {
+        "prefix": "vm",
+        "body": [
+            "\\$viewModel = new $1();",
+            "",
+            "if (request()->has('vm')) {",
+            "    return \\$viewModel;",
+            "}",
+            "",
+            "return view('$2', \\$viewModel);"
+        ],
+        "description": "Instantiate a ViewModel and return it within a view."
+    },
     "Livewire Computed Property": {
         "prefix": "computed",
         "body": [
