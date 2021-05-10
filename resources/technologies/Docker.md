@@ -179,10 +179,10 @@ docker volume prune
 
 ### Dockerfile
 
-* **Article:** July 2019 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+* **Article:** July 2019 — [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
 
 ### Building Node.js Apps
 
-* **Tutorial:** [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) - Nodejs.org
-* **Tutorial:** [How To Build a Node.js Application with Docker](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) - Digital Ocean, Nov 2018
-* **Tutorial:** [Using Docker for Node.js in Development and Production](https://dev.to/alex_barashkov/using-docker-for-nodejs-in-development-and-production-3cgp) - Jan 2019
+* **Tutorial:** [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) — Nodejs.org
+* **Tutorial:** [How To Build a Node.js Application with Docker](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) — Digital Ocean, Nov 2018
+* **Tutorial:** [Using Docker for Node.js in Development and Production](https://dev.to/alex_barashkov/using-docker-for-nodejs-in-development-and-production-3cgp) — Jan 2019
