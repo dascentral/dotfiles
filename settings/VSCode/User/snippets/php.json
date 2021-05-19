@@ -4,9 +4,6 @@
         "body": [
             "/**",
             " * Create a new instance of this class.",
-            " *",
-            " * @param  $1",
-            " * @return void",
             " */",
             "public function __construct($1)",
             "{",
@@ -415,7 +412,8 @@
     "Route Member Variable": {
         "prefix": "route",
         "body": [
-            "protected string \\$route = '$1';"
+            "protected string \\$route = '$1';",
+            ""
         ],
         "description": "Creates a protected member variable for a route string."
     }
