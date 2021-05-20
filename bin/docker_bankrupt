@@ -9,4 +9,4 @@ docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 
 # Remove unused volumes
-docker volume prune
+docker volume prune --force
