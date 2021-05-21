@@ -8,7 +8,7 @@ if [ ! -e "/Applications/iTerm.app" ]; then
 fi
 
 # confirm the expected settings location exists
-if [ ! -e "${HOME}/.private/settings/iTerm2/" ]; then
+if [ ! -e "${PRIVATE}/settings/iTerm2/" ]; then
     abort "iTerm2 settings folder does not exist.\n"
 fi
 
