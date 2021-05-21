@@ -18,10 +18,6 @@ ${DOTFILES}/install/composer.sh
 ###########################################################################################
 # BEGIN configurations
 
-if [ ! -e "${HOME}/GDrive/Documents/Software2" ]; then
-    warn "Warning: Some configuration steps will fail as the cloud settings folder does not exist.\n"
-fi
-
 ${DOTFILES}/config/iterm2.sh
 ${DOTFILES}/config/php.sh
 ${DOTFILES}/config/sublime.sh
