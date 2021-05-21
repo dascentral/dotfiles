@@ -8,14 +8,14 @@ if [ ! -e "/Applications/iTerm.app" ]; then
 fi
 
 # confirm the expected settings location exists
-if [ ! -e "${HOME}/GDrive/Documents/Software/iTerm2" ]; then
+if [ ! -e "${HOME}/.private/settings/iTerm2/" ]; then
     abort "iTerm2 settings folder does not exist.\n"
 fi
 
 info "Configuring iTerm2"
 
 # Specify the preferences directory
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/GDrive/Documents/Software/iTerm2"
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.private/settings/iTerm2"
 
 # Tell iTerm2 to use the custom preferences in the directory
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
