@@ -8,7 +8,6 @@ fi
 
 declare -a extensions=(
     "dascentral/hubflow-release"
-    "consolidation/cgr"
     "friendsofphp/php-cs-fixer"
     "laravel/installer"
     "laravel/valet"
