@@ -416,5 +416,23 @@
             ""
         ],
         "description": "Creates a protected member variable for a route string."
+    },
+    "Laravel Factory State": {
+        "prefix": "state",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "public function $2(): Factory",
+            "{",
+            "    return \\$this->state(function (array \\$attributes) {",
+            "        return [",
+            "            '$3' => '$4',",
+            "        ];",
+            "    });",
+            "}",
+            ""
+        ],
+        "description": "Laravel factory state"
     }
 }
