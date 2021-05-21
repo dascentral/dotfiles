@@ -4,7 +4,7 @@ source /Users/${USER}/dotfiles/shell/.functions
 
 # configure User folder
 LOCALPATH="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
-CLOUDPATH="${HOME}/.private/settings/Sublime/User"
+CLOUDPATH="${PRIVATE}/settings/Sublime/User"
 
 # confirm the expected settings location exists
 if [ ! -e "${CLOUDPATH}" ]; then
