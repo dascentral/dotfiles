@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+# We no longer configure for PHP 7.4 by default. We are only using PHP 8.0.
 
-info "Setting PHP version to 7.4"
-${DOTFILES}/bin/phpv php@7.4
-printf "\n"
+# source /Users/${USER}/dotfiles/shell/.functions
+
+# info "Setting PHP version to 7.4"
+# ${DOTFILES}/bin/phpv php@
+# printf "\n"
