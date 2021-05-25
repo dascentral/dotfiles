@@ -7,4 +7,4 @@ if ! laravel_application_root; then
 fi
 
 # Output Laravel routes in an abbreviated format
-artisan route:list --columns=method,uri,action,name --except-path=telescope,nova,horizon,debugbar,dusk $@
+php artisan route:pretty --except-path=horizon,nova,telescope
