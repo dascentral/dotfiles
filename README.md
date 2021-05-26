@@ -81,15 +81,21 @@ A computer restart will likely be necessary after executing that command.
 
 ## Optional Configurations
 
-### Disable Gatekeeper
+### Gatekeeper
 
-Some of the software installed via the `Brewfile` is published by what Apple considers "unidentified developers." The following command will disable the gatekeeper functionality:
+[Gatekeeper](https://en.wikipedia.org/wiki/Gatekeeper_(macOS)) is a security feature of macOS. Some of the software installed via the `Brewfile` is published by what Apple considers "unidentified developers."
+
+You can circumvent the scurity feature by disabling Gatekeeper.
 
 ```bash
 sudo spctl --master-disable
 ```
 
-If you run this command, be sure to only open software from sources that you trust.
+If you run this command, be sure to only open software from sources that you trust. You can always turn it back on after installing a restricted software application.
+
+```bash
+sudo spctl --master-enable
+```
 
 ### Printers
 
