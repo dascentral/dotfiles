@@ -2,14 +2,18 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-if [ $# != 2 ]; then
-    usage "Usage: url [filename] [url]"
+if [ $# -lt 1 ] || [ $# -gt 2 ]; then
+    usage "Usage: url [url] [?filename]"
 fi
 
-file="$1.url"
+if [ $# = 1 ]; then
+    file="link.url"
+else
+    file="$2.url"
+fi
 
 echo '[InternetShortcut]' > "${file}"
 echo -n 'URL=' >> "${file}"
-echo $2 >> "${file}"
+echo $1 >> "${file}"
 
 info "Created a new file with the specified URL: ${file}"
