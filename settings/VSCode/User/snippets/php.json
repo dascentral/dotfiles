@@ -1,426 +1,433 @@
 {
-    "Constructor": {
-        "prefix": "const",
-        "body": [
-            "/**",
-            " * Create a new instance of this class.",
-            " */",
-            "public function __construct($1)",
-            "{",
-            "    $2",
-            "}",
-            ""
-        ],
-        "description": "Constructor"
-    },
-    "Laravel Accessor": {
-        "prefix": "accessor",
-        "body": [
-            "/**",
-            " * Create the \"$1\" attribute.",
-            " */",
-            "public function get$2Attribute(): $3",
-            "{",
-            "    return $4",
-            "}",
-            ""
-        ],
-        "description": "Laravel accessor"
-    },
-    "Laravel Gate": {
-        "prefix": "gate",
-        "body": [
-            "Gate::define('$1', function (\\$user) {",
-            "    return in_array(\\$user->username, [$2]);",
-            "});"
-        ],
-        "description": "Laravel Gate"
-    },
-    "Laravel BelongsTo Relationship": {
-        "prefix": "belongsto",
-        "body": [
-            "/**",
-            " * A $1 belongs to a $2.",
-            " */",
-            "public function $3()",
-            "{",
-            "    return \\$this->belongsTo($4::class);",
-            "}",
-            ""
-        ],
-        "description": "Laravel \"hasOne\" Relationship"
-    },
-    "Laravel BelongsToMany Relationship": {
-        "prefix": "belongstomany",
-        "body": [
-            "/**",
-            " * The $1 that belong to the $2.",
-            " */",
-            "public function $3()",
-            "{",
-            "    return \\$this->belongsToMany($4::class);",
-            "}",
-            ""
-        ],
-        "description": "Laravel \"hasOne\" Relationship"
-    },
-    "Laravel HasMany Relationship": {
-        "prefix": "hasmany",
-        "body": [
-            "/**",
-            " * A $1 has many $2.",
-            " */",
-            "public function $3()",
-            "{",
-            "    return \\$this->hasMany($4::class);",
-            "}",
-            ""
-        ],
-        "description": "Laravel \"hasMany\" Relationship"
-    },
-    "Laravel HasOne Relationship": {
-        "prefix": "hasone",
-        "body": [
-            "/**",
-            " * A $1 has one $2.",
-            " */",
-            "public function $3()",
-            "{",
-            "    return \\$this->hasOne($4::class);",
-            "}",
-            ""
-        ],
-        "description": "Laravel \"hasOne\" Relationship"
-    },
-    "Laravel Mutator": {
-        "prefix": "mutator",
-        "body": [
-            "/**",
-            " * Set the \"$1\" attribute.",
-            " *",
-            " * @return void",
-            " */",
-            "public function set$2Attribute(\\$value)",
-            "{",
-            "    \\$this->attributes['$1'] = $3",
-            "}",
-            ""
-        ],
-        "description": "Laravel mutator"
-    },
-    "Laravel Scope Query": {
-        "prefix": "scope",
-        "body": [
-            "/**",
-            " * Filter only the items that $1",
-            " */",
-            "public function scope$2(Builder \\$query): Builder",
-            "{",
-            "    return \\$query->where($3);",
-            "}",
-            ""
-        ],
-        "description": "Laravel scope query"
-    },
-    "Laravel Foreign Key": {
-        "prefix": "fk",
-        "body": [
-            "\\$table->foreignId('$1')->constrained()->cascadeOnDelete();"
-        ],
-        "description": "Foreign key constraint"
-    },
-    "Laravel Model Casts": {
-        "prefix": "casts",
-        "body": [
-            "/**",
-            " * The attributes that should be cast to native types.",
-            " *",
-            " * @var array",
-            " */",
-            "protected \\$casts = [",
-            "    $1",
-            "];",
-            ""
-        ],
-        "description": "Laravel model $casts array"
-    },
-    "Laravel Model Cache Key": {
-        "prefix": "cachekey",
-        "body": [
-            "/**",
-            " * Gerneate a custom cache key for this model.",
-            " *",
-            " * @return string",
-            " */",
-            "public function cacheKey()",
-            "{",
-            "    return sprintf('%s:%s:%s', \\$this->getTable(), \\$this->getKey(), \\$this->updated_at->timestamp);",
-            "}"
-        ],
-        "description": "Laravel Model Cache Key"
-    },
-    "Laravel Index Method": {
-        "prefix": "index",
-        "body": [
-            "/**",
-            " * Display a listing of the resource.",
-            " *",
-            " * @return \\Illuminate\\Http\\Response",
-            " */",
-            "public function index()",
-            "{",
-            "    $1",
-            "}",
-            ""
-        ],
-        "description": "index() method for a Laravel controller"
-    },
-    "Laravel Eloquent guarded attribute": {
-        "prefix": "guarded",
-        "body": [
-            "/**",
-            " * The attributes that are NOT mass assignable.",
-            " *",
-            " * @var array",
-            " */",
-            "protected \\$guarded = ['id', 'date_created', 'last_updated'];",
-            ""
-        ],
-        "description": "Eloquent guarded attribute"
-    },
-    "Laravel Timestamp Replacements": {
-        "prefix": "timestamps",
-        "body": [
-            "\\$table->timestamp('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));",
-            "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
-        ],
-        "description": "Replaces Laravel default timestamp fields with my preferred columns."
-    },
-    "Laravel Model dates attributes": {
-        "prefix": "dates",
-        "body": [
-            "/**",
-            " * The attributes that should be mutated to dates.",
-            " *",
-            " * @var array",
-            " */",
-            "protected \\$dates = ['date_created', 'last_updated'];",
-            ""
-        ],
-        "description": "Creates an array to hold the attributes that should be mutated to dates."
-    },
-    "Laravel Scope Query ofUser": {
-        "prefix": "scopeOfUser",
-        "body": [
-            "/**",
-            " * Filter only the items that belong to the provided User.",
-            " */",
-            "public function scopeOfUser(Builder \\$query, \\$user): Builder",
-            "{",
-            "    if (\\$user instanceof User) {",
-            "        return \\$query->where('user_id', \\$user->id);",
-            "    }",
-            "",
-            "    if (is_int(\\$user)) {",
-            "        return \\$query->where('user_id', \\$user);",
-            "    }",
-            "",
-            "    return \\$query;",
-            "}",
-            ""
-        ],
-        "description": "Create a Laravel scope query for items that belong to the provided User"
-    },
-    "Laravel View Model": {
-        "prefix": "vm",
-        "body": [
-            "\\$viewModel = new $1();",
-            "",
-            "if (request()->has('vm')) {",
-            "    return \\$viewModel;",
-            "}",
-            "",
-            "return view('$2', \\$viewModel);"
-        ],
-        "description": "Instantiate a ViewModel and return it within a view."
-    },
-    "Livewire Computed Property": {
-        "prefix": "computed",
-        "body": [
-            "/**",
-            " * Create the \"$1\" computed property.",
-            " */",
-            "public function get$2Property(): $3",
-            "{",
-            "    return $4",
-            "}",
-            ""
-        ],
-        "description": "Livewire computed property"
-    },
-    "Livewire Mount Method": {
-        "prefix": "The public method for Livewire's mount() method",
-        "body": [
-            "/**",
-            " * Mount the component.",
-            " */",
-            "public function mount()",
-            "{",
-            "    $1",
-            "}",
-            ""
-        ],
-        "description": "mount"
-    },
-    "Livewire Render DocBlock": {
-        "prefix": "A simple DocBlock for Livewire's render() method",
-        "body": [
-            "/**",
-            " * Render the component.",
-            " */"
-        ],
-        "description": "mount"
-    },
-    "PHP Protected Method": {
-        "prefix": "pmet",
-        "body": [
-            "protected function $1($2): $3",
-            "{",
-            "    $4",
-            "}",
-            ""
-        ],
-        "description": "PHP protected method"
-    },
-    "PHP Public Method": {
-        "prefix": "met",
-        "body": [
-            "public function $1($2): $3",
-            "{",
-            "    $4",
-            "}",
-            ""
-        ],
-        "description": "PHP public method"
-    },
-    "PHP Protected Member Variable": {
-        "prefix": "pvar",
-        "body": [
-            "protected $1;",
-            ""
-        ],
-        "description": "PHP private member variable"
-    },
-    "PHP Protected Typed Member Variable": {
-        "prefix": "pvt",
-        "body": [
-            "protected $1;",
-            ""
-        ],
-        "description": "PHP private member variable"
-    },
-    "PHPUnit Test": {
-        "prefix": "test",
-        "body": [
-            "/** @test */",
-            "public function it_$1()",
-            "{",
-            "    $2",
-            "}",
-            ""
-        ],
-        "description": "PHPUnit Test"
-    },
-    "docblock": {
-        "prefix": "docblock",
-        "body": [
-            "/**",
-            " * $1",
-            " *",
-            " * @param  $3",
-            " * @return $2",
-            " */"
-        ],
-        "description": "DocBlock"
-    },
-    "PHP Invoke Method": {
-        "prefix": "invoke",
-        "body": [
-            "/**",
-            " * Handle the incoming request.",
-            " */",
-            "public function __invoke(Request \\$request)",
-            "{",
-            "    $1",
-            "}"
-        ],
-        "description": "Creates a stub for an invoke method"
-    },
-    "Ray Send": {
-        "prefix": "rr",
-        "body": [
-            "ray()->send($1);"
-        ],
-        "description": "Send the variable to Ray for output."
-    },
-    "Ray Clear Screen and Send": {
-        "prefix": "rrc",
-        "body": [
-            "ray()->clearScreen()->send($1);"
-        ],
-        "description": "Clear the Ray screen and send the variable to Ray for output."
-    },
-    "Ray Clear Screen, Show App, and Send": {
-        "prefix": "rrcs",
-        "body": [
-            "ray()->clearScreen()->showApp()->send($1);"
-        ],
-        "description": "Clear the Ray screen, show the app, and send the variable to Ray for output."
-    },
-    "Ray Show App and Send": {
-        "prefix": "rrs",
-        "body": [
-            "ray()->showApp()->send($1);"
-        ],
-        "description": "Show the Ray app and send the variable to Ray for output."
-    },
-    "Setup method": {
-        "prefix": "setup",
-        "body": [
-            "/**",
-            " * Setup the tests for this class.",
-            " */",
-            "public function setUp(): void",
-            "{",
-            "    parent::setUp();",
-            "}",
-            ""
-        ]
-    },
-    "Route Member Variable": {
-        "prefix": "route",
-        "body": [
-            "protected string \\$route = '$1';",
-            ""
-        ],
-        "description": "Creates a protected member variable for a route string."
-    },
-    "Laravel Factory State": {
-        "prefix": "state",
-        "body": [
-            "/**",
-            " * $1",
-            " */",
-            "public function $2(): Factory",
-            "{",
-            "    return \\$this->state(function (array \\$attributes) {",
-            "        return [",
-            "            '$3' => '$4',",
-            "        ];",
-            "    });",
-            "}",
-            ""
-        ],
-        "description": "Laravel factory state"
-    }
+	"Constructor": {
+		"prefix": "const",
+		"body": [
+			"/**",
+			" * Create a new instance of this class.",
+			" */",
+			"public function __construct($1)",
+			"{",
+			"    $2",
+			"}",
+			""
+		],
+		"description": "Constructor"
+	},
+	"Laravel Accessor": {
+		"prefix": "accessor",
+		"body": [
+			"/**",
+			" * Create the \"$1\" attribute.",
+			" */",
+			"public function get$2Attribute(): $3",
+			"{",
+			"    return $4",
+			"}",
+			""
+		],
+		"description": "Laravel accessor"
+	},
+	"Laravel Gate": {
+		"prefix": "gate",
+		"body": [
+			"Gate::define('$1', function (\\$user) {",
+			"    return in_array(\\$user->username, [$2]);",
+			"});"
+		],
+		"description": "Laravel Gate"
+	},
+	"Laravel BelongsTo Relationship": {
+		"prefix": "belongsto",
+		"body": [
+			"/**",
+			" * A $1 belongs to a $2.",
+			" */",
+			"public function $3()",
+			"{",
+			"    return \\$this->belongsTo($4::class);",
+			"}",
+			""
+		],
+		"description": "Laravel \"hasOne\" Relationship"
+	},
+	"Laravel BelongsToMany Relationship": {
+		"prefix": "belongstomany",
+		"body": [
+			"/**",
+			" * The $1 that belong to the $2.",
+			" */",
+			"public function $3()",
+			"{",
+			"    return \\$this->belongsToMany($4::class);",
+			"}",
+			""
+		],
+		"description": "Laravel \"hasOne\" Relationship"
+	},
+	"Laravel HasMany Relationship": {
+		"prefix": "hasmany",
+		"body": [
+			"/**",
+			" * A $1 has many $2.",
+			" */",
+			"public function $3()",
+			"{",
+			"    return \\$this->hasMany($4::class);",
+			"}",
+			""
+		],
+		"description": "Laravel \"hasMany\" Relationship"
+	},
+	"Laravel HasOne Relationship": {
+		"prefix": "hasone",
+		"body": [
+			"/**",
+			" * A $1 has one $2.",
+			" */",
+			"public function $3()",
+			"{",
+			"    return \\$this->hasOne($4::class);",
+			"}",
+			""
+		],
+		"description": "Laravel \"hasOne\" Relationship"
+	},
+	"Laravel Mutator": {
+		"prefix": "mutator",
+		"body": [
+			"/**",
+			" * Set the \"$1\" attribute.",
+			" *",
+			" * @return void",
+			" */",
+			"public function set$2Attribute(\\$value)",
+			"{",
+			"    \\$this->attributes['$1'] = $3",
+			"}",
+			""
+		],
+		"description": "Laravel mutator"
+	},
+	"Laravel Scope Query": {
+		"prefix": "scope",
+		"body": [
+			"/**",
+			" * Filter only the items that $1",
+			" */",
+			"public function scope$2(Builder \\$query): Builder",
+			"{",
+			"    return \\$query->where($3);",
+			"}",
+			""
+		],
+		"description": "Laravel scope query"
+	},
+	"Laravel Foreign Key": {
+		"prefix": "fk",
+		"body": [
+			"\\$table->foreignId('$1')->constrained()->cascadeOnDelete();"
+		],
+		"description": "Foreign key constraint"
+	},
+	"Laravel Model Casts": {
+		"prefix": "casts",
+		"body": [
+			"/**",
+			" * The attributes that should be cast to native types.",
+			" *",
+			" * @var array",
+			" */",
+			"protected \\$casts = [",
+			"    $1",
+			"];",
+			""
+		],
+		"description": "Laravel model $casts array"
+	},
+	"Laravel Model Cache Key": {
+		"prefix": "cachekey",
+		"body": [
+			"/**",
+			" * Gerneate a custom cache key for this model.",
+			" *",
+			" * @return string",
+			" */",
+			"public function cacheKey()",
+			"{",
+			"    return sprintf('%s:%s:%s', \\$this->getTable(), \\$this->getKey(), \\$this->updated_at->timestamp);",
+			"}"
+		],
+		"description": "Laravel Model Cache Key"
+	},
+	"Laravel Index Method": {
+		"prefix": "index",
+		"body": [
+			"/**",
+			" * Display a listing of the resource.",
+			" *",
+			" * @return \\Illuminate\\Http\\Response",
+			" */",
+			"public function index()",
+			"{",
+			"    $1",
+			"}",
+			""
+		],
+		"description": "index() method for a Laravel controller"
+	},
+	"Laravel Eloquent guarded attribute": {
+		"prefix": "guarded",
+		"body": [
+			"/**",
+			" * The attributes that are NOT mass assignable.",
+			" *",
+			" * @var array",
+			" */",
+			"protected \\$guarded = ['id', 'date_created', 'last_updated'];",
+			""
+		],
+		"description": "Eloquent guarded attribute"
+	},
+	"Laravel Timestamp Replacements": {
+		"prefix": "timestamps",
+		"body": [
+			"\\$table->timestamp('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));",
+			"\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
+		],
+		"description": "Replaces Laravel default timestamp fields with my preferred columns."
+	},
+	"Laravel Model dates attributes": {
+		"prefix": "dates",
+		"body": [
+			"/**",
+			" * The attributes that should be mutated to dates.",
+			" *",
+			" * @var array",
+			" */",
+			"protected \\$dates = ['date_created', 'last_updated'];",
+			""
+		],
+		"description": "Creates an array to hold the attributes that should be mutated to dates."
+	},
+	"Laravel Scope Query ofUser": {
+		"prefix": "scopeOfUser",
+		"body": [
+			"/**",
+			" * Filter only the items that belong to the provided User.",
+			" */",
+			"public function scopeOfUser(Builder \\$query, \\$user): Builder",
+			"{",
+			"    if (\\$user instanceof User) {",
+			"        return \\$query->where('user_id', \\$user->id);",
+			"    }",
+			"",
+			"    if (is_int(\\$user)) {",
+			"        return \\$query->where('user_id', \\$user);",
+			"    }",
+			"",
+			"    return \\$query;",
+			"}",
+			""
+		],
+		"description": "Create a Laravel scope query for items that belong to the provided User"
+	},
+	"Laravel View Model": {
+		"prefix": "vm",
+		"body": [
+			"\\$viewModel = new $1();",
+			"",
+			"if (request()->has('vm')) {",
+			"    return \\$viewModel;",
+			"}",
+			"",
+			"return view('$2', \\$viewModel);"
+		],
+		"description": "Instantiate a ViewModel and return it within a view."
+	},
+	"Livewire Computed Property": {
+		"prefix": "computed",
+		"body": [
+			"/**",
+			" * Create the \"$1\" computed property.",
+			" */",
+			"public function get$2Property(): $3",
+			"{",
+			"    return $4",
+			"}",
+			""
+		],
+		"description": "Livewire computed property"
+	},
+	"Livewire Mount Method": {
+		"prefix": "The public method for Livewire's mount() method",
+		"body": [
+			"/**",
+			" * Mount the component.",
+			" */",
+			"public function mount()",
+			"{",
+			"    $1",
+			"}",
+			""
+		],
+		"description": "mount"
+	},
+	"Livewire Render DocBlock": {
+		"prefix": "A simple DocBlock for Livewire's render() method",
+		"body": [
+			"/**",
+			" * Render the component.",
+			" */"
+		],
+		"description": "mount"
+	},
+	"PHP Protected Method": {
+		"prefix": "pmet",
+		"body": [
+			"protected function $1($2): $3",
+			"{",
+			"    $4",
+			"}",
+			""
+		],
+		"description": "PHP protected method"
+	},
+	"PHP Public Method": {
+		"prefix": "met",
+		"body": [
+			"public function $1($2): $3",
+			"{",
+			"    $4",
+			"}",
+			""
+		],
+		"description": "PHP public method"
+	},
+	"PHP Protected Member Variable": {
+		"prefix": "pvar",
+		"body": [
+			"protected $1;",
+			""
+		],
+		"description": "PHP private member variable"
+	},
+	"PHP Protected Typed Member Variable": {
+		"prefix": "pvt",
+		"body": [
+			"protected $1;",
+			""
+		],
+		"description": "PHP private member variable"
+	},
+	"PHPUnit Test": {
+		"prefix": "test",
+		"body": [
+			"/** @test */",
+			"public function it_$1()",
+			"{",
+			"    $2",
+			"}",
+			""
+		],
+		"description": "PHPUnit Test"
+	},
+	"docblock": {
+		"prefix": "docblock",
+		"body": [
+			"/**",
+			" * $1",
+			" *",
+			" * @param  $3",
+			" * @return $2",
+			" */"
+		],
+		"description": "DocBlock"
+	},
+	"PHP Invoke Method": {
+		"prefix": "invoke",
+		"body": [
+			"/**",
+			" * Handle the incoming request.",
+			" */",
+			"public function __invoke(Request \\$request)",
+			"{",
+			"    $1",
+			"}"
+		],
+		"description": "Creates a stub for an invoke method"
+	},
+	"Ray Send": {
+		"prefix": "rr",
+		"body": [
+			"ray()->send($1);"
+		],
+		"description": "Send the variable to Ray for output."
+	},
+	"Ray Clear Screen and Send": {
+		"prefix": "rrc",
+		"body": [
+			"ray()->clearScreen()->send($1);"
+		],
+		"description": "Clear the Ray screen and send the variable to Ray for output."
+	},
+	"Ray Clear Screen, Show App, and Send": {
+		"prefix": "rrcs",
+		"body": [
+			"ray()->clearScreen()->showApp()->send($1);"
+		],
+		"description": "Clear the Ray screen, show the app, and send the variable to Ray for output."
+	},
+	"Ray Show App and Send": {
+		"prefix": "rrs",
+		"body": [
+			"ray()->showApp()->send($1);"
+		],
+		"description": "Show the Ray app and send the variable to Ray for output."
+	},
+	"Setup method": {
+		"prefix": "setup",
+		"body": [
+			"/**",
+			" * Setup the tests for this class.",
+			" */",
+			"public function setUp(): void",
+			"{",
+			"    parent::setUp();",
+			"}",
+			""
+		]
+	},
+	"Route Member Variable": {
+		"prefix": "route",
+		"body": [
+			"protected string \\$route = '$1';",
+			""
+		],
+		"description": "Creates a protected member variable for a route string."
+	},
+	"Laravel Factory State": {
+		"prefix": "state",
+		"body": [
+			"/**",
+			" * $1",
+			" */",
+			"public function $2(): Factory",
+			"{",
+			"    return \\$this->state(function (array \\$attributes) {",
+			"        return [",
+			"            '$3' => '$4',",
+			"        ];",
+			"    });",
+			"}",
+			""
+		],
+		"description": "Laravel factory state"
+	},
+	"Laravel Log Queries": {
+		"prefix": "lq",
+		"body": [
+			"ld()->logQueries();"
+		],
+		"description": "Log all Laravel queries"
+	}
 }
