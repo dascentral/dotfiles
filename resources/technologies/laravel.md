@@ -100,6 +100,7 @@ A view model class is designed to house the complex logic of your views and redu
 
 ### Controllers
 
+* **Article:** April 2020 — [The Beauty of Single Action Controllers](https://driesvints.com/blog/the-beauty-of-single-action-controllers/)
 * **Article:** April 2019 — [Simplifying controllers](https://freek.dev/1324-simplifying-controllers)
 
 ### Database
