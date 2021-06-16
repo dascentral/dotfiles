@@ -319,6 +319,10 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 * **Article:** Dec 2018 - [Global Application Settings](https://laravel-news.com/global-application-settings)
 * **Laracasts:** May 2015 - [Managing Mass User Settings](https://laracasts.com/lessons/managing-mass-user-settings) + [Part 2](https://laracasts.com/lessons/managing-mass-user-settings-part-2) - I found these videos in April 2019 and found the approach to still be quite elegant. The code for the lessons can be found on [GitHub](https://github.com/laracasts/Mass-User-Settings/blob/master/app/Settings.php).
 
+### Syntax Highlighting
+
+* **Package:** [torchlight-api/torchlight-laravel](https://github.com/torchlight-api/torchlight-laravel)
+
 ## Performance
 
 Performance is an incredibly important aspect of well-written application. It's not a first-party feature nor are you "extending" the framework. It'll sit here for now.
