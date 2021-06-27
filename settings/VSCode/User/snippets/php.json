@@ -208,9 +208,9 @@
         "body": [
             "public function configure()",
             "{",
-            "    return $this->afterMaking(function (User $user) {",
+            "    return $this->afterMaking(function ($1) {",
             "        //",
-            "    })->afterCreating(function (User $user) {",
+            "    })->afterCreating(function ($1) {",
             "        //",
             "    });",
             "}",
