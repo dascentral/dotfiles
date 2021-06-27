@@ -203,6 +203,21 @@
         ],
         "description": "Creates an array to hold the attributes that should be mutated to dates."
     },
+    "Laravel Model Factory configure() method": {
+        "prefix": "configure",
+        "body": [
+            "public function configure()",
+            "{",
+            "    return $this->afterMaking(function (User $user) {",
+            "        //",
+            "    })->afterCreating(function (User $user) {",
+            "        //",
+            "    });",
+            "}",
+            ""
+        ],
+        "description": "Laravel Model Factory configure() method"
+    },
     "Laravel Scope Query ofUser": {
         "prefix": "scopeOfUser",
         "body": [
