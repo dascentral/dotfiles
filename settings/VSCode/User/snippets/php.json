@@ -2,9 +2,6 @@
     "Constructor": {
         "prefix": "const",
         "body": [
-            "/**",
-            " * Create a new instance of this class.",
-            " */",
             "public function __construct($1)",
             "{",
             "    $2",
@@ -16,9 +13,6 @@
     "Laravel Accessor": {
         "prefix": "accessor",
         "body": [
-            "/**",
-            " * Create the \"$1\" attribute.",
-            " */",
             "public function get$2Attribute(): $3",
             "{",
             "    return $4",
@@ -244,12 +238,34 @@
         ],
         "description": "Instantiate a ViewModel and return it within a view."
     },
+    "Laravel Factory State": {
+        "prefix": "state",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "public function $2(): Factory",
+            "{",
+            "    return \\$this->state(function (array \\$attributes) {",
+            "        return [",
+            "            '$3' => '$4',",
+            "        ];",
+            "    });",
+            "}",
+            ""
+        ],
+        "description": "Laravel factory state"
+    },
+    "Laravel Log Queries": {
+        "prefix": "lq",
+        "body": [
+            "ld()->logQueries();"
+        ],
+        "description": "Log all Laravel queries"
+    },
     "Livewire Computed Property": {
         "prefix": "computed",
         "body": [
-            "/**",
-            " * Create the \"$1\" computed property.",
-            " */",
             "public function get$2Property(): $3",
             "{",
             "    return $4",
@@ -259,7 +275,7 @@
         "description": "Livewire computed property"
     },
     "Livewire Mount Method": {
-        "prefix": "The public method for Livewire's mount() method",
+        "prefix": "mount",
         "body": [
             "public function mount()",
             "{",
@@ -267,16 +283,7 @@
             "}",
             ""
         ],
-        "description": "mount"
-    },
-    "Livewire Render DocBlock": {
-        "prefix": "A simple DocBlock for Livewire's render() method",
-        "body": [
-            "/**",
-            " * Render the component.",
-            " */"
-        ],
-        "description": "mount"
+        "description": "The public method for Livewire's mount() method"
     },
     "PHP Protected Method": {
         "prefix": "pmet",
@@ -328,14 +335,11 @@
         ],
         "description": "PHPUnit Test"
     },
-    "docblock": {
+    "PHP docblock": {
         "prefix": "docblock",
         "body": [
             "/**",
             " * $1",
-            " *",
-            " * @param  $3",
-            " * @return $2",
             " */"
         ],
         "description": "DocBlock"
@@ -343,9 +347,6 @@
     "PHP Invoke Method": {
         "prefix": "invoke",
         "body": [
-            "/**",
-            " * Handle the incoming request.",
-            " */",
             "public function __invoke(Request \\$request)",
             "{",
             "    $1",
@@ -381,6 +382,20 @@
         ],
         "description": "Show the Ray app and send the variable to Ray for output."
     },
+    "Ray Show Queries": {
+        "prefix": "rq",
+        "body": [
+            "ray()->showQueries();"
+        ],
+        "description": "Show all queries executed."
+    },
+    "Route Member Variable": {
+        "prefix": "route",
+        "body": [
+            "protected string \\$route = '$1';"
+        ],
+        "description": "Creates a protected member variable for a route string."
+    },
     "Setup method": {
         "prefix": "setup",
         "body": [
@@ -393,38 +408,5 @@
             "}",
             ""
         ]
-    },
-    "Route Member Variable": {
-        "prefix": "route",
-        "body": [
-            "protected string \\$route = '$1';",
-            ""
-        ],
-        "description": "Creates a protected member variable for a route string."
-    },
-    "Laravel Factory State": {
-        "prefix": "state",
-        "body": [
-            "/**",
-            " * $1",
-            " */",
-            "public function $2(): Factory",
-            "{",
-            "    return \\$this->state(function (array \\$attributes) {",
-            "        return [",
-            "            '$3' => '$4',",
-            "        ];",
-            "    });",
-            "}",
-            ""
-        ],
-        "description": "Laravel factory state"
-    },
-    "Laravel Log Queries": {
-        "prefix": "lq",
-        "body": [
-            "ld()->logQueries();"
-        ],
-        "description": "Log all Laravel queries"
     }
 }
