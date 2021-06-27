@@ -385,7 +385,8 @@
     "Ray Show Queries": {
         "prefix": "rq",
         "body": [
-            "ray()->showQueries();"
+            "ray()->showQueries();",
+            ""
         ],
         "description": "Show all queries executed."
     },
