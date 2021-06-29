@@ -39,9 +39,9 @@ alias undo='git undo'
 #------------------------------------------------------------------------------------------
 alias fs='git hf feature start'
 alias ghu='git hf update'
-alias major='hf release major'
-alias minor='hf release minor'
-alias patch='hf release patch'
+alias rmaj='hf release major'
+alias rmin='hf release minor'
+alias rpat='hf release patch'
 
 
 #------------------------------------------------------------------------------------------
