@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'fwartner/tap'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
@@ -11,6 +12,7 @@ tap 'nicoverbruggen/homebrew-cask'
 brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
+brew 'fwartner/tap/mac-cleanup'
 brew 'gh'
 brew 'git'
 brew 'gnupg2'
