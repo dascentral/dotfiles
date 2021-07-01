@@ -85,7 +85,7 @@ A computer restart will likely be necessary after executing that command.
 
 [Gatekeeper](https://en.wikipedia.org/wiki/Gatekeeper_(macOS)) is a security feature of macOS. Some of the software installed via the `Brewfile` is published by what Apple considers "unidentified developers."
 
-You can circumvent the scurity feature by disabling Gatekeeper.
+You can circumvent the security feature by disabling Gatekeeper.
 
 ```bash
 sudo spctl --master-disable
