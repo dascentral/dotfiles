@@ -297,7 +297,11 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 * **Article:** [Creating Your Own PHP Helpers in a Laravel Project](https://laravel-news.com/creating-helpers)
 
-#### Real-Time Notifications
+### Maps
+
+* **Package:** [LarsWiegers/laravel-maps](https://github.com/LarsWiegers/laravel-maps) — Easily create maps using Leaflet.js or Google Maps and Blade components. Read more at [Laravel News](https://laravel-news.com/use-leaflet-and-google-maps-blade-components-in-laravel).
+
+### Real-Time Notifications
 
 * **Article:** Nov 2020 — [Laravel Real-Time Notifications](https://christoph-rumpel.com/2020/11/laravel-real-time-notifications)
 
