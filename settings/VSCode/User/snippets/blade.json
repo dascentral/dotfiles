@@ -25,5 +25,25 @@
             "</x-form-field-horizontal>"
         ],
         "description": "Laravel Blade component that creates a horizontal form field."
+    },
+    "Rounded Table": {
+        "prefix": "table",
+        "body": [
+            "<x-table-rounded>",
+            "    <thead>",
+            "        <tr>",
+            "            <th>$1</th>",
+            "        </tr>",
+            "    </thead>",
+            "    <tbody>",
+            "        @foreach ($2 as \\$item)",
+            "            <tr>",
+            "                <td>$3</td>",
+            "            </tr>",
+            "        @endforeach",
+            "    </tbody>",
+            "</x-table-rounded>"
+        ],
+        "description": "Rounded Table"
     }
 }
