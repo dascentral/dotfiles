@@ -33,12 +33,9 @@
     "Laravel BelongsTo Relationship": {
         "prefix": "belongsto",
         "body": [
-            "/**",
-            " * A $1 belongs to a $2.",
-            " */",
-            "public function $3()",
+            "public function $1()",
             "{",
-            "    return \\$this->belongsTo($4::class);",
+            "    return \\$this->belongsTo($2::class);",
             "}",
             ""
         ],
@@ -47,12 +44,9 @@
     "Laravel BelongsToMany Relationship": {
         "prefix": "belongstomany",
         "body": [
-            "/**",
-            " * The $1 that belong to the $2.",
-            " */",
-            "public function $3()",
+            "public function $1()",
             "{",
-            "    return \\$this->belongsToMany($4::class);",
+            "    return \\$this->belongsToMany($2::class);",
             "}",
             ""
         ],
@@ -61,12 +55,9 @@
     "Laravel HasMany Relationship": {
         "prefix": "hasmany",
         "body": [
-            "/**",
-            " * A $1 has many $2.",
-            " */",
-            "public function $3()",
+            "public function $1()",
             "{",
-            "    return \\$this->hasMany($4::class);",
+            "    return \\$this->hasMany($2::class);",
             "}",
             ""
         ],
@@ -75,12 +66,9 @@
     "Laravel HasOne Relationship": {
         "prefix": "hasone",
         "body": [
-            "/**",
-            " * A $1 has one $2.",
-            " */",
-            "public function $3()",
+            "public function $1()",
             "{",
-            "    return \\$this->hasOne($4::class);",
+            "    return \\$this->hasOne($2::class);",
             "}",
             ""
         ],
@@ -89,11 +77,6 @@
     "Laravel Mutator": {
         "prefix": "mutator",
         "body": [
-            "/**",
-            " * Set the \"$1\" attribute.",
-            " *",
-            " * @return void",
-            " */",
             "public function set$2Attribute(\\$value)",
             "{",
             "    \\$this->attributes['$1'] = $3",
@@ -105,9 +88,6 @@
     "Laravel Scope Query": {
         "prefix": "scope",
         "body": [
-            "/**",
-            " * Filter only the items that $1",
-            " */",
             "public function scope$2(Builder \\$query): Builder",
             "{",
             "    return \\$query->where($3);",
@@ -126,11 +106,6 @@
     "Laravel Model Casts": {
         "prefix": "casts",
         "body": [
-            "/**",
-            " * The attributes that should be cast to native types.",
-            " *",
-            " * @var array",
-            " */",
             "protected \\$casts = [",
             "    $1",
             "];",
@@ -141,11 +116,6 @@
     "Laravel Model Cache Key": {
         "prefix": "cachekey",
         "body": [
-            "/**",
-            " * Gerneate a custom cache key for this model.",
-            " *",
-            " * @return string",
-            " */",
             "public function cacheKey()",
             "{",
             "    return sprintf('%s:%s:%s', \\$this->getTable(), \\$this->getKey(), \\$this->updated_at->timestamp);",
@@ -156,11 +126,6 @@
     "Laravel Index Method": {
         "prefix": "index",
         "body": [
-            "/**",
-            " * Display a listing of the resource.",
-            " *",
-            " * @return \\Illuminate\\Http\\Response",
-            " */",
             "public function index()",
             "{",
             "    $1",
@@ -172,11 +137,6 @@
     "Laravel Eloquent guarded attribute": {
         "prefix": "guarded",
         "body": [
-            "/**",
-            " * The attributes that are NOT mass assignable.",
-            " *",
-            " * @var array",
-            " */",
             "protected \\$guarded = ['id', 'date_created', 'last_updated'];",
             ""
         ],
@@ -189,19 +149,6 @@
             "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
         ],
         "description": "Replaces Laravel default timestamp fields with my preferred columns."
-    },
-    "Laravel Model dates attributes": {
-        "prefix": "dates",
-        "body": [
-            "/**",
-            " * The attributes that should be mutated to dates.",
-            " *",
-            " * @var array",
-            " */",
-            "protected \\$dates = ['date_created', 'last_updated'];",
-            ""
-        ],
-        "description": "Creates an array to hold the attributes that should be mutated to dates."
     },
     "Laravel Model Factory configure() method": {
         "prefix": "configure",
@@ -221,9 +168,6 @@
     "Laravel Scope Query ofUser": {
         "prefix": "scopeOfUser",
         "body": [
-            "/**",
-            " * Filter only the items that belong to the provided User.",
-            " */",
             "public function scopeOfUser(Builder \\$query, \\$user): Builder",
             "{",
             "    if (\\$user instanceof User) {",
@@ -256,9 +200,6 @@
     "Laravel Factory State": {
         "prefix": "state",
         "body": [
-            "/**",
-            " * $1",
-            " */",
             "public function $2(): Factory",
             "{",
             "    return \\$this->state(function (array \\$attributes) {",
@@ -415,9 +356,6 @@
     "Setup method": {
         "prefix": "setup",
         "body": [
-            "/**",
-            " * Setup the tests for this class.",
-            " */",
             "public function setUp(): void",
             "{",
             "    parent::setUp();",
