@@ -44,6 +44,7 @@ I have not yet audited these courses and they are published by people that I am 
 
 * [Eloquent by Example](https://eloquentbyexample.com)
 * [Single-Page Laravel](https://singlepagelaravel.com)
+* [Laravel Learning Path](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path)
 
 ## Design Patterns
 
