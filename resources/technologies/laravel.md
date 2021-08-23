@@ -6,8 +6,6 @@ First there was sliced bread. Then there was Laravel - The PHP framework For Web
 
 [Laravel](http://laravel.com/) is a free, open-source PHP web framework, created by [Taylor Otwell](https://twitter.com/taylorotwell) and intended for the development of web applications following the model–view–controller (MVC) architectural pattern. I first discovered the framework in 2014 and immediately fell in love with its power and simplicity. It quickly became a key component within my preferred tech stack for any web development project.
 
-Below I have attempted to inventory the various resources that I find relevent to my professional or personal work with the framework.
-
 ## Training Resources
 
 ### Highly Recommended
