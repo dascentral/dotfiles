@@ -312,6 +312,10 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 * **Package:** [ManukMinasyan/Laravel-Permission-Manager](https://github.com/ManukMinasyan/Laravel-Permission-Manager) — Built on top of Bouncer
 * **Package:** [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
+### Search
+
+* **Article:** Aug 2021 — [Setting up Meilisearch on Production Ubuntu for Laravel project](https://postsrc.com/posts/setting-up-meilisearch-on-production-ubuntu-for-laravel-project?ref=laravelnews)
+
 ### Security
 
 * **Package:** [Enlightn](https://www.laravel-enlightn.com/)
