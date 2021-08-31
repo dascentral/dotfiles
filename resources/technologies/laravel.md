@@ -21,6 +21,7 @@ I am completely backlogged on content. Once I get caught up, I am anxious to try
 
 * [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) — by [Jonathan Reinink](https://twitter.com/reinink)
 * [Laravel Package Training](https://laravelpackage.training/) — by [Spatie](https://spatie.be/)
+* [Testing Laravel](https://testing-laravel.com/) — by [Spatie](https://spatie.be/)
 
 ### Also Recommended
 
