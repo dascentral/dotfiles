@@ -310,6 +310,13 @@
         ],
         "description": "Creates a stub for an invoke method"
     },
+    "Ray Clear": {
+        "prefix": "rc",
+        "body": [
+            "ray()->clearScreen();"
+        ],
+        "description": "Clear the screen."
+    },
     "Ray Send": {
         "prefix": "rr",
         "body": [
