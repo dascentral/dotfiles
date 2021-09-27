@@ -109,6 +109,7 @@ A view model class is designed to house the complex logic of your views and redu
 
 ### Dusk
 
+* **Article:** Sept 2021 — [Using Laravel Dusk outside of Tests to upload Files](https://stefanzweifel.io/posts/2021/09/26/using-laravel-dusk-outside-of-tests-to-upload-files)
 * **Article:** Dec 2018 — [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
 * **Article:** Feb 2017 — [Automatically Making Monthly Payments with Dusk](https://laravel-news.com/automatically-making-monthly-payments-with-dusk)
 
