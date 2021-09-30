@@ -365,6 +365,7 @@ Laravel provides a number of first party packages that are of significant qualit
 
 * [graham-campbell/markdown](https://github.com/GrahamCampbell/Laravel-Markdown) - A CommonMark wrapper for Laravel 5
 * [predis/predis](https://github.com/nrk/predis) - A Redis client for PHP
+* [kabbouchi/nova-impersonate](https://github.com/KABBOUCHI/nova-impersonate) — Nova Impersonate Field for use with Laravel Nova
 
 #### require-dev
 
