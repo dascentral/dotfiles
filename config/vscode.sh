@@ -73,7 +73,6 @@ declare -a extensions=(
     "sleistner.vscode-fileutils"
     "smlombardi.slime"
     "stylelint.vscode-stylelint"
-    "shufo.vscode-blade-formatter"
     "sysoev.language-stylus"
     "vscode-icons-team.vscode-icons"
     "william-voyek.vscode-nginx"
