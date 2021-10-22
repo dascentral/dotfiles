@@ -16,25 +16,37 @@
 
 * **Article:** Dec 2018 - [Lint Your Vue Code with the Vue ESLint Plugin](https://laravel-news.com/eslint-plugin-vue)
 
-## Components
+## Design Patterns
+
+### How to Structure a Large Scale Vue.js Application
+
+https://vueschool.io/articles/series/how-to-structure-a-large-scale-vue-js-application/
+
+**Series:** July 2021
+
+This series is less of a specific "design pattern" and more about designing (or structuring) Vue.js applications.
+
+## Extending Vue.js
+
+### Components
 
 Third-party components.
 
 * [vue-select](https://vue-select.org/) - Everything you wish the HTML `<select>` element could do, wrapped up into a lightweight, extensible Vue component.
 
-## Form Validation
+### Form Validation
 
-### Vuelidate
+#### Vuelidate
 
 [Vuelidate](https://github.com/vuelidate/vuelidate) is a simple, lightweight model-based validation for Vue.js. [https://vuelidate.netlify.com](https://vuelidate.netlify.com)
 
 * **Article:** Jan 2018 - [Vue.js Form Validation with Vuelidate](https://markus.oberlehner.net/blog/vue-form-validation-with-vuelidate/)
 
-## Modals
+### Modals
 
 * **Tutorial:** [Building a Modal with Vue and Tailwind](https://laravel-news.com/building-a-modal-with-vue-and-tailwind)
 
-## Loaders
+### Loaders
 
 I have yet to identify a strategy for implementing loaders that I find scalable and maintainable. Here are a few links worth reviewing:
 
@@ -45,6 +57,8 @@ I have yet to identify a strategy for implementing loaders that I find scalable 
 * **Package:** [ankurk91/vue-loading-overlay](https://github.com/ankurk91/vue-loading-overlay)
 * **Package:** [shwilliam/vue-loading-button](https://github.com/shwilliam/vue-loading-button)
 
-## Vuex
+### Vuex
+
+Vuex likely requires its own entry.
 
 * **Article:** April 2021 — [Vuex Complete Guide with Axios Api Call in Vue Js](https://www.codecheef.org/article/vuex-complete-guide-with-axios-api-call-in-vue-js)
