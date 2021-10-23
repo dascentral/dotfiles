@@ -67,6 +67,7 @@ alias td='php artisan test --parallel && php artisan dusk'
 alias mix='npx mix'
 alias nrd='npm run dev'
 alias nrp='npm run prod'
+alias nmw='npx mix watch'
 alias watch='npx mix watch'
 
 
