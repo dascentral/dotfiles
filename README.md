@@ -21,6 +21,7 @@ The following articles and repositories may provide inspiration as you setup you
 
 * [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
 * [Dries Vints](https://github.com/driesvints/dotfiles)
+* [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) — Linux-focused for those managing servers
 * [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 * [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
