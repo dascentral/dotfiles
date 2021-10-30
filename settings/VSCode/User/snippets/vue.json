@@ -1,0 +1,9 @@
+{
+    "Import Component": {
+        "prefix": "vi",
+        "body": [
+            "import $1 from '@/Shared/$1';"
+        ],
+        "description": "Import a shared Vue.js component"
+    }
+}
