@@ -1,6 +1,6 @@
 {
     "Import Component": {
-        "prefix": "vi",
+        "prefix": "vueimport",
         "body": [
             "import $1 from '@/Shared/$1';"
         ],
