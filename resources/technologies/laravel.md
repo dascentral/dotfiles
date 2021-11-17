@@ -2,7 +2,7 @@
 
 ## Introduction
 
-First there was sliced bread. Then there was Laravel - The PHP framework For Web Artisans.
+First there was sliced bread. Then there was Laravel — The PHP framework For Web Artisans.
 
 [Laravel](http://laravel.com/) is a free, open-source PHP web framework, created by [Taylor Otwell](https://twitter.com/taylorotwell) and intended for the development of web applications following the model–view–controller (MVC) architectural pattern. I first discovered the framework in 2014 and immediately fell in love with its power and simplicity. It quickly became a key component within my preferred tech stack for any web development project.
 
@@ -301,6 +301,10 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 ### Maps
 
 * **Package:** [LarsWiegers/laravel-maps](https://github.com/LarsWiegers/laravel-maps) — Easily create maps using Leaflet.js or Google Maps and Blade components. Read more at [Laravel News](https://laravel-news.com/use-leaflet-and-google-maps-blade-components-in-laravel).
+
+### Next.js
+
+* **Repository:** [taylorotwell/next-example-frontend](https://github.com/taylorotwell/next-example-frontend) — Example Next.js front-end that integrates with a Laravel Sanctum authenticated API back-end.
 
 ### Real-Time Notifications
 
