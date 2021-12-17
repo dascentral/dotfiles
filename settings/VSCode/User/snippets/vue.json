@@ -1,9 +1,19 @@
 {
-    "Import Component": {
-        "prefix": "vueimport",
-        "body": [
-            "import $1 from '@/Shared/$1';"
-        ],
-        "description": "Import a shared Vue.js component"
-    }
+  "Computed Property": {
+    "prefix": "computed",
+    "body": [
+      "const $1 = computed(() => {",
+      "  $2",
+      "});",
+      ""
+    ],
+    "description": "Create a computed property via the Composition API"
+  },
+  "Import Component": {
+    "prefix": "import",
+    "body": [
+      "import $1 from '@/Shared/$1';"
+    ],
+    "description": "Import a shared Vue.js component"
+  }
 }
