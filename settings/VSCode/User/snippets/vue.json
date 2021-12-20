@@ -1,6 +1,6 @@
 {
   "Computed Property": {
-    "prefix": "computed",
+    "prefix": "comp",
     "body": [
       "const $1 = computed(() => {",
       "  $2",
