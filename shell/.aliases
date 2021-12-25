@@ -57,8 +57,7 @@ alias bsr='brew services restart'
 alias cda='composer dumpautoload'
 alias dusk='php artisan dusk'
 alias sail='bash vendor/bin/sail'
-alias t='php artisan test --parallel'
-alias td='php artisan test --parallel && php artisan dusk'
+alias p='php artisan test --parallel'
 
 
 #------------------------------------------------------------------------------------------
@@ -91,8 +90,8 @@ alias f644='find . -type f -exec chmod 644 {} \;'
 #------------------------------------------------------------------------------------------
 # PHP
 #------------------------------------------------------------------------------------------
-alias php73='phpv php@7.3'
-alias php74='phpv php@7.4'
+#alias php73='phpv php@7.3'
+#alias php74='phpv php@7.4'
 
 
 #------------------------------------------------------------------------------------------
