@@ -274,16 +274,7 @@
   "PHP Protected Member Variable": {
     "prefix": "pvar",
     "body": [
-      "protected $1;",
-      ""
-    ],
-    "description": "PHP private member variable"
-  },
-  "PHP Protected Typed Member Variable": {
-    "prefix": "pvt",
-    "body": [
-      "protected $1;",
-      ""
+      "protected $1;"
     ],
     "description": "PHP private member variable"
   },
