@@ -57,9 +57,8 @@ alias bsr='brew services restart'
 alias cda='composer dumpautoload'
 alias dusk='php artisan dusk'
 alias sail='bash vendor/bin/sail'
-alias tb='php artisan dusk'
-alias tp='php artisan test --parallel'
-alias tpf='php artisan test --parallel --stop-on-failure'
+alias t='php artisan test --parallel'
+alias tf='php artisan test --parallel --stop-on-failure'
 
 
 #------------------------------------------------------------------------------------------
