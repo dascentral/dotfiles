@@ -6,7 +6,7 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-if [ $# -lt 1 ]; then
+if [ $# -ne 1 ]; then
     usage "Usage: lag [search]"
 fi
 
