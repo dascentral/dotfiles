@@ -58,6 +58,12 @@ composer_json() {
     [ -e "composer.json" ]
 }
 
+confirm_ag_is_installed() {
+    if [ ! -e "/usr/local/bin/ag" ]; then
+        abort "The Silver Searcher is not installed where expected - /usr/local/bin/ag\nhttps://github.com/ggreer/the_silver_searcher"
+    fi
+}
+
 dotfiles_live_where_expected() {
     if [ ! -e "${DOTFILES}" ]; then
         abort "The dotfiles repo does not exist in the expected location."

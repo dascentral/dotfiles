@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/shell/.functions
+
+if [ $# -lt 1 ]; then
+    usage "Usage: lag [search]"
+fi
+
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+confirm_ag_is_installed
+
+ag $1 --ignore-dir=storage --ignore-dir=public
