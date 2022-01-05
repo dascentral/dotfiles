@@ -355,7 +355,7 @@
   "Route Member Variable": {
     "prefix": "route",
     "body": [
-      "protected string \\$route;"
+      "protected string \\$route = '$1';"
     ],
     "description": "Creates a protected member variable for a route string."
   },
