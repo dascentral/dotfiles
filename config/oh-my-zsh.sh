@@ -26,9 +26,13 @@ for url in ${links[@]}; do
 done
 
 # custom install due to custom naming convention
-info "Installing Zsh plugin - zsh-artisan"
-git clone https://github.com/jessarcher/zsh-artisan.git ~/.oh-my-zsh/custom/plugins/artisan
-printf "\n"
+source="https://github.com/jessarcher/zsh-artisan.git"
+plugin="artisan"
+if [ ! -e ${plugin} ]; then
+    info "Installing Zsh plugin - jessarcher/zsh-artisan"
+    git clone ${source} ${plugin}
+    printf "\n"
+fi
 
 # create symbolic link to .zshrc
 if [ ! -L ~/.zshrc ]; then
