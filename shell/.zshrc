@@ -70,6 +70,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 plugins+=(macos)
+plugins+=(artisan)
 plugins+=(zsh-autosuggestions)
 plugins+=(zsh-syntax-highlighting)
 

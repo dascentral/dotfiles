@@ -9,14 +9,6 @@ if [ ! -e ~/.oh-my-zsh ]; then
     printf "\n"
 fi
 
-# create symbolic link to .zshrc
-if [ ! -L ~/.zshrc ]; then
-    info "Linking .zshrc to dotfiles"
-    rm -rf /Users/${USER}/.zshrc
-    ln -s "${DOTFILES}/shell/.zshrc" "/Users/${USER}/.zshrc"
-    printf "\n"
-fi
-
 # install plugins
 cd $HOME/.oh-my-zsh/custom/plugins
 declare -a links=(
@@ -32,3 +24,16 @@ for url in ${links[@]}; do
         printf "\n"
     fi
 done
+
+# custom install due to custom naming convention
+info "Installing Zsh plugin - zsh-artisan"
+git clone https://github.com/jessarcher/zsh-artisan.git ~/.oh-my-zsh/custom/plugins/artisan
+printf "\n"
+
+# create symbolic link to .zshrc
+if [ ! -L ~/.zshrc ]; then
+    info "Linking .zshrc to dotfiles"
+    rm -rf /Users/${USER}/.zshrc
+    ln -s "${DOTFILES}/shell/.zshrc" "/Users/${USER}/.zshrc"
+    printf "\n"
+fi
