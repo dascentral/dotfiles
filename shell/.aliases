@@ -107,6 +107,7 @@ alias hg='history | grep'
 alias hosts='sudo vim /etc/hosts'
 alias l='ls -al'
 alias mc='mc -a -c'
+alias myip='curl http://ipecho.net/plain; echo'
 alias size='du -hs ./'
 alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
 
