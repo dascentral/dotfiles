@@ -261,6 +261,11 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Article**: Sept 2018 — [Kubernetes: deploy Laravel the easy way](https://learnk8s.io/blog/kubernetes-deploy-laravel-the-easy-way/?ref=laravelnews)
 * **Article:** June 2018 — [Laravel deployment using GitLab's pipelines](https://lorisleiva.com/laravel-deployment-using-gitlab-pipelines/)
 
+### Data Transfer Objects
+
+* **Article:** April 2021 — [Data Transfer Object V3 Modernizes DTOs With PHP 8 Features](https://laravel-news.com/data-transfer-object-v3-php-8)
+* **Article:** Oct 2020 — [Casting JSON Columns to Value Objects with Laravel](https://jessarcher.com/blog/casting-json-columns-to-value-objects/)
+
 ### Docker
 
 * **Tutorial:** March 2020 — [How To Set Up Laravel, Nginx, and MySQL with Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
