@@ -58,6 +58,7 @@ alias cda='composer dumpautoload'
 alias dusk='php artisan dusk'
 alias sail='bash vendor/bin/sail'
 alias t='php artisan test --parallel'
+alias td='php artisan test && php artisan dusk'
 alias tf='php artisan test --parallel --stop-on-failure'
 
 
