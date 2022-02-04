@@ -71,6 +71,7 @@ cask 'imageoptim'
 cask 'insomnia'
 cask 'phpmon' # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
+cask 'rocket'
 cask 'signal'
 cask 'spectacle'
 cask 'spotify'
