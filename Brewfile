@@ -6,10 +6,11 @@ tap 'homebrew/bundle'
 #tap 'fwartner/tap'
 tap 'nicoverbruggen/homebrew-cask'
 
-# Binaries
+# Brew
 # brew 'ack'
 # brew 'bash'
 brew 'awscli'
+brew 'composer'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
@@ -18,10 +19,16 @@ brew 'gnupg2'
 brew 'httpie'
 brew 'htop'
 brew 'hub'
+brew 'imagemagick'
 #brew 'fwartner/tap/mac-cleanup'
 brew 'mackup'
 brew 'mas'
+brew 'MinGW-w64'
+brew 'mysql'
+brew 'nginx'
+brew 'php'
 brew 'pkg-config'
+brew 'redis'
 brew 'ssh-copy-id'
 brew 'svn'
 brew 'the_silver_searcher'
@@ -38,16 +45,7 @@ brew 'zlib'
 # brew 'svgo'
 # brew 'gifsicle'
 
-# Development
-brew 'redis'
-brew 'composer'
-brew 'mysql'
-brew 'nginx'
-brew 'php'
-# brew 'php@7.4'
-brew 'imagemagick'
-
-# Apps
+# Casks
 # cask '1password'
 # cask 'firefox'
 # cask 'google-chrome'
