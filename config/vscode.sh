@@ -54,6 +54,7 @@ declare -a extensions=(
     "editorconfig.editorconfig"
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
+    "formulahendry.code-runner"
     "HashiCorp.terraform"
     "heybourn.headwind"
     "irongeek.vscode-env"
