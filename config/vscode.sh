@@ -55,7 +55,7 @@ declare -a extensions=(
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
     "formulahendry.code-runner"
-    "HashiCorp.terraform"
+    "hashicorp.terraform"
     "heybourn.headwind"
     "irongeek.vscode-env"
     "johnsoncodehk.volar"
