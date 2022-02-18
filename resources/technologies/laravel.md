@@ -345,6 +345,10 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 * **Package:** [torchlight-api/torchlight-laravel](https://github.com/torchlight-api/torchlight-laravel)
 
+### Web Sockets
+
+* **Article:** Feb 2022 — [How to setup and scale the perfect websocket server for your Laravel project](https://aboutyou.tech/blog/setup-and-scale-a-websocket-server-with-laravel/)
+
 ## Performance
 
 Performance is an incredibly important aspect of well-written application. It's not a first-party feature nor are you "extending" the framework. It'll sit here for now.
