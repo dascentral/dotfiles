@@ -20,8 +20,6 @@ I have completed these courses and feel you should definitely check them out.
 I am completely backlogged on content. Once I get caught up, I am anxious to try out the following:
 
 * [Eloquent Performance Patterns](https://reinink.ca/eloquent-course/) — by [Jonathan Reinink](https://twitter.com/reinink)
-* [Laravel Package Training](https://laravelpackage.training/) — by [Spatie](https://spatie.be/)
-* [Testing Laravel](https://testing-laravel.com/) — by [Spatie](https://spatie.be/)
 
 ### Also Recommended
 
@@ -31,11 +29,19 @@ While I have not personally explored these courses, they are produced by highly 
 * [Base Laravel](https://baselaravel.com) — A field guide for streamlining Laravel applications by [Jason McCreary](https://twitter.com/gonedark)
 * [Diving Laravel](https://divinglaravel.com) — A dive into Laravel Core, Packages, and Technologies by [Mohammed Said](https://twitter.com/themsaid)
 * [Laravel Core Adventures](https://laravelcoreadventures.com) — by [Christoph Rumpel](https://twitter.com/christophrumpel)
-* [Laravel Beyond CRUD](https://laravel-beyond-crud.com/) — by [Spatie](https://spatie.be/)
 * [Laravel Daily](https://laraveldaily.teachable.com/courses) — by [Povilas Korop](https://twitter.com/PovilasKorop)
 * [Laravel Queues in Action](https://learn-laravel-queues.com/) — by [Mohammed Said](https://twitter.com/themsaid)
 * [Laravel Secrets](https://laravelsecrets.com/) — by [Stefan Bauer](https://twitter.com/stefanbauerme) & [Bobby Bouwmann](https://twitter.com/bobbybouwmann)
-* [Mailcoach](https://mailcoach.app/video-course) — by [Spatie](https://spatie.be/)
+
+### Spatie
+
+[Spatie](https://spatie.be/) is a Belgium-based agency that crafts "web applications, courses & open source packages in the Laravel ecosystem." They are a huge member of the community and produce high quality content. They have produced the following courses.
+
+* [Laravel Beyond CRUD](https://laravel-beyond-crud.com/)
+* [Laravel Package Training](https://laravelpackage.training/)
+* [Mailcoach](https://mailcoach.app/video-course) — video course
+* [Writing Readable PHP](https://writing-readable-php.com/)
+* [Testing Laravel](https://testing-laravel.com/)
 
 ### Others
 
