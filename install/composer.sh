@@ -11,6 +11,7 @@ declare -a extensions=(
     "friendsofphp/php-cs-fixer"
     "laravel/installer"
     "laravel/valet"
+    "spatie/global-ray"
     "tightenco/takeout"
 )
 
