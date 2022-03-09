@@ -56,7 +56,6 @@ declare -a extensions=(
     "equinusocio.vsc-material-theme-icons"
     "formulahendry.code-runner"
     "hashicorp.terraform"
-    "heybourn.headwind"
     "irongeek.vscode-env"
     "johnsoncodehk.volar"
     "junstyle.php-cs-fixer"
