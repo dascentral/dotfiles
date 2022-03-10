@@ -1,15 +1,6 @@
+# Consider creation of a script within the "/bin" folder for great flexibility
+
 # Create a new directory and enter it
 function mkd() {
     mkdir -p "$@" && cd "$@"
-}
-
-# Smooth PHP version switching
-phpv() {
-    valet stop
-    brew unlink php@7.4 php@8.0 php@8.1
-    brew link --force --overwrite $1
-    brew services start $1
-    composer global update
-    rm -rf ~/.config/valet/valet.sock
-    valet install
 }
