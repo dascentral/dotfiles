@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/dotfiles/shell/.functions
+
+if ! package_json_exists; then
+    abort "No 'package.json' found. You are likely not in the root of the repository."
+fi
+
+# TODO: Look for ESLint in "package.json"
+
+# tail the most recent log file
+npm run eslint
