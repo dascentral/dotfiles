@@ -63,13 +63,15 @@ alias tf='php artisan test --parallel --stop-on-failure'
 
 
 #------------------------------------------------------------------------------------------
-# Node.js
+# Node.js & JavaScript
 #------------------------------------------------------------------------------------------
 alias mix='npx mix'
 alias nrd='npm run dev'
 alias nrp='npm run prod'
 alias nrs='npm run start'
 alias nmw='npx mix watch'
+alias sb='npm run storybook'
+alias sbb='npm run build-storybook'
 alias watch='npx mix watch'
 
 
