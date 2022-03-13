@@ -113,12 +113,6 @@ A view model class is designed to house the complex logic of your views and redu
 
 * **Article:** Jan 2019 — [Diving deeper with Laravel JSON column types](https://nullthoughts.com/development/2019/01/29/laravel-json-column-types/)
 
-### Dusk
-
-* **Article:** Sept 2021 — [Using Laravel Dusk outside of Tests to upload Files](https://stefanzweifel.io/posts/2021/09/26/using-laravel-dusk-outside-of-tests-to-upload-files)
-* **Article:** Dec 2018 — [Laravel Dusk Dashboard Package](https://laravel-news.com/laravel-dusk-dashboard-package)
-* **Article:** Feb 2017 — [Automatically Making Monthly Payments with Dusk](https://laravel-news.com/automatically-making-monthly-payments-with-dusk)
-
 ### Eloquent
 
 * **Article:** Dec 2019 — [Fetching data in the perimeter of your Laravel applications](https://reinink.ca/articles/fetching-data-in-the-perimeter-of-your-laravel-applications)
@@ -198,7 +192,6 @@ This section includes content related to [Laravel Horizon](https://laravel.com/d
 * **Article:** Jan 2019 — [Tips to Speed up Your Phpunit Tests](https://laravel-news.com/tips-to-speed-up-phpunit-tests)
 * **Article:** June 2018 — [Going Deeper with Factories Through Factory States](https://laravel-news.com/going-deeper-with-factories-through-factory-states)
 * **Article:** May 2018 — [Testing Laravel Authentication](https://medium.com/@DCzajkowski/testing-laravel-authentication-flow-573ea0a96318%0A) — Great walk through of auth testing basics
-* **Article:** March 2018 — [Testing Vue components with Laravel Dusk](https://laravel-news.com/testing-vue-components-with-laravel-dusk)
 * **Article:** Oct 2017 — [Continuous Testing Dashboard for Laravel](https://laravel-news.com/testing-dashboard)
 * **Article:** Sept 2017 — [A Roundup of Laravel Testing Resources and Packages](https://laravel-news.com/laravel-testing-resources)
 * **Tweet:** Mar 2020 — [Test Performance](https://twitter.com/michaeldyrynda/status/1235896458156503040) — Discusses how to improve test performance related to database operations
@@ -374,7 +367,6 @@ Performance is an incredibly important aspect of well-written application. It's 
 
 Laravel provides a number of first party packages that are of significant quality. I apply these to nearly every Laravel project that I create.
 
-* [Laravel Dusk](https://laravel.com/docs/master/dusk) - Browser automation testing made easy
 * [Laravel Horizon](https://laravel.com/docs/master/horizon) - Dashboard and code-driven configuration for your Laravel-powered Redis queues
 * [Laravel Nova](https://nova.laravel.com) - Laravel administration panel
 * [Laravel Passport](https://laravel.com/docs/master/passport) - Protect your APIs with this full OAuth2 server implementation
