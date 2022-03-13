@@ -6,5 +6,4 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-# Output Laravel routes in an abbreviated format
 php artisan route:list
