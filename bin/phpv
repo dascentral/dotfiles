@@ -6,10 +6,14 @@ if [ $# != 1 ]; then
     usage "Usage: phpv [php|php8.0|php@7.4]"
 fi
 
-valet stop
-brew unlink php php@8.0 php@7.4
-brew link --force --overwrite $1
-brew services start $1
+valet use $1
 composer global update
-rm -rf ~/.config/valet/valet.sock
-valet install
+
+# Old commands
+#valet stop
+#brew unlink php php@8.0 php@7.4
+#brew link --force --overwrite $1
+#brew services start $1
+#composer global update
+#rm -rf ~/.config/valet/valet.sock
+#valet install
