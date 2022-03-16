@@ -191,6 +191,8 @@
 
   "php.suggest.basic": false,
 
+  "redhat.telemetry.enabled": false,
+
   "search.exclude": {
     "**/node_modules": false
   },
