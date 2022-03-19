@@ -66,6 +66,9 @@
   // Enable execution of PHP CS Fixer during save.
   "php-cs-fixer.onsave": true,
 
+  // PHP CS Fixer level setting (@PSR1, @PSR2, @Symfony). Support json formatted value. @see: https://github.com/FriendsOfPHP/PHP-CS-Fixer
+  "php-cs-fixer.rules": "@PSR12",
+
   // Disable VS Code's default validation which is now handled by Stylelint.
   "scss.validate": false,
 
