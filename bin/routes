@@ -2,4 +2,8 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-artisan route:list --except-vendor
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+php artisan route:list --except-vendor
