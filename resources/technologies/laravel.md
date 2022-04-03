@@ -344,7 +344,7 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 * **Package:** [torchlight-api/torchlight-laravel](https://github.com/torchlight-api/torchlight-laravel)
 
-### Web Sockets
+### Websockets
 
 * **Article:** Feb 2022 — [How to setup and scale the perfect websocket server for your Laravel project](https://aboutyou.tech/blog/setup-and-scale-a-websocket-server-with-laravel/)
 
