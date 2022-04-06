@@ -68,13 +68,13 @@ homebrew_installed() {
 
 confirm_composer_installed() {
     if ! composer_installed; then
-        abort "Composer has not been installed. Aborting installation."
+        abort "Composer has not been installed. Aborting execution."
     fi
 }
 
 confirm_homebrew_installed() {
     if ! homebrew_installed; then
-        abort "Homebrew has not been installed. Aborting installation."
+        abort "Homebrew has not been installed. Aborting execution."
     fi
 }
 
