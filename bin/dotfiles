@@ -11,49 +11,11 @@ dotfiles_confirm_stable
 # Clear the screen
 clear
 
-# Pull the latest from Git - dotfiles-private
-if [ -e "${PRIVATE}" ]; then
-    info "Pulling latest from Git: ${PRIVATE}"
-    cd ${PRIVATE}
-    git reset HEAD --hard
-    git pull
-    printf "\n"
-fi
-
-# Pull the latest from Git - dotfiles
-info "Pulling latest from Git: ${DOTFILES}"
-cd ${DOTFILES}
-git reset HEAD --hard
-git pull
-printf "\n"
-
-# Homebrew Upgrade
-info "Brew upgrade."
-brew upgrade
-printf "\n"
-
-# Homebrew Update
-info "Brew update."
-brew update
-printf "\n"
-
-# Homebrew cleanup
-info "Brew cleanup."
-brew cleanup
-printf "\n"
-
-# Homebrew doctor
-info "Brew doctor."
-brew doctor
-printf "\n"
-
-# Composer self-update
-info "Composer self-update"
-/usr/local/bin/composer self-update
-printf "\n"
-
-# macOS settings
-# source .macos?
+# run maintenance scripts
+./maintain/prepare.sh
+./maintain/homebrew.sh
+./maintain/composer.sh
+./maintain/macos.sh
 
 # Local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
