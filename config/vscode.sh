@@ -56,7 +56,7 @@ declare -a extensions=(
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
     "formulahendry.code-runner"
-    "GitLab.gitlab-workflow"
+    "gitlab.gitlab-workflow"
     "hashicorp.terraform"
     "irongeek.vscode-env"
     "johnsoncodehk.volar"
