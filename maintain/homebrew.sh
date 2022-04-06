@@ -2,9 +2,7 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-if [ ! -e /usr/local/bin/brew ]; then
-    abort "Homebrew is not available. Aborting execution."
-fi
+confirm_homebrew_installed
 
 # Homebrew Upgrade
 info "Brew upgrade."

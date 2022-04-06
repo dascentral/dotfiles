@@ -2,9 +2,8 @@
 
 source /Users/${USER}/dotfiles/shell/.functions
 
-if [ ! -e "/usr/local/bin/composer" ]; then
-    abort "Composer has not been installed. Aborting installation."
-fi
+# TODO: Install composer if not installed
+confirm_composer_installed
 
 declare -a extensions=(
     "dascentral/hubflow-release"

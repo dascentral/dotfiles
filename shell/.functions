@@ -58,6 +58,18 @@ composer_json() {
     [ -e "composer.json" ]
 }
 
+confirm_composer_installed() {
+    if [ ! -e /usr/local/bin/composer ]; then
+        abort "Composer has not been installed. Aborting installation."
+    fi
+}
+
+confirm_homebrew_installed() {
+    if [ ! -e /usr/local/bin/brew ]; then
+        abort "Homebrew has not been installed. Aborting installation."
+    fi
+}
+
 confirm_ag_is_installed() {
     if [ ! -e "/usr/local/bin/ag" ]; then
         abort "The Silver Searcher is not installed where expected - /usr/local/bin/ag\nhttps://github.com/ggreer/the_silver_searcher"
