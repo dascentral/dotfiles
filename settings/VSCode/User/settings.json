@@ -57,6 +57,9 @@
   // Sort all namespaces alphabetically. Note that this largely duplicative to my PHP CS Fixer settings.
   "namespaceResolver.sortAlphabetically": true,
 
+	// Points to the php-cs-fixer exectuable, eg: win: php-cs-fixer.bat, other: php-cs-fixer; or points to php-cs-fixer.phar path, eg: /full/path/of/php-cs-fixer.phar
+	"php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+
   // Enable formatting of HTML which is relevant within Blade templates.
   "php-cs-fixer.formatHtml": true,
 
