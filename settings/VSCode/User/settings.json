@@ -58,13 +58,13 @@
   "namespaceResolver.sortAlphabetically": true,
 
 	// Points to the php-cs-fixer exectuable, eg: win: php-cs-fixer.bat, other: php-cs-fixer; or points to php-cs-fixer.phar path, eg: /full/path/of/php-cs-fixer.phar
-	"php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
 
   // Enable formatting of HTML which is relevant within Blade templates.
   "php-cs-fixer.formatHtml": true,
 
   // This value is updated each time the "php cs fixer" extension is updated.
-  "php-cs-fixer.lastDownload": 1584549411260,
+  "php-cs-fixer.lastDownload": 1650289541412,
 
   // Enable execution of PHP CS Fixer during save.
   "php-cs-fixer.onsave": true,
