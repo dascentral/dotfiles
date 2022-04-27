@@ -9,26 +9,21 @@
   */
   // Disable VS Code's default validation which is now handled by Stylelint.
   "css.validate": false,
-
   // Enable ESLint and Stylelint extensions to fix issues during save.
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-
   // All files will end with a blank new line.
   "editor.renderFinalNewline": true,
-
   // Set the default tab size to 2.
   "editor.tabSize": 2,
-
   // Add Emmet support for Blade and Vue.js templates.
   "emmet.includeLanguages": {
     "blade.php": "html",
     "vue-html": "html",
     "vue": "html"
   },
-
   // The array of language IDs which will be validated by ESLint.
   "eslint.validate": [
     "javascript",
@@ -36,7 +31,6 @@
     "vue",
     "vue-html"
   ],
-
   // Add PHP support for PHP CS Fixer configuration files.
   "files.associations": {
     ".blade.php": "html",
@@ -44,83 +38,62 @@
     ".php_cs.dist": "php"
     // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
   },
-
   // Insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
-
   // Trim trailing whitespace from all files.
   "files.trimTrailingWhitespace": true,
-
   // Disable VS Code's default validation which is now handled by Stylelint.
   "less.validate": false,
-
   // Sort all namespaces alphabetically. Note that this largely duplicative to my PHP CS Fixer settings.
   "namespaceResolver.sortAlphabetically": true,
-
-	// Points to the php-cs-fixer exectuable, eg: win: php-cs-fixer.bat, other: php-cs-fixer; or points to php-cs-fixer.phar path, eg: /full/path/of/php-cs-fixer.phar
-	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-
+  // Points to the php-cs-fixer exectuable, eg: win: php-cs-fixer.bat, other: php-cs-fixer; or points to php-cs-fixer.phar path, eg: /full/path/of/php-cs-fixer.phar
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   // Enable formatting of HTML which is relevant within Blade templates.
   "php-cs-fixer.formatHtml": true,
-
   // This value is updated each time the "php cs fixer" extension is updated.
   "php-cs-fixer.lastDownload": 1650289541412,
-
   // Enable execution of PHP CS Fixer during save.
   "php-cs-fixer.onsave": true,
-
   // PHP CS Fixer level setting (@PSR1, @PSR2, @Symfony). Support json formatted value. @see: https://github.com/FriendsOfPHP/PHP-CS-Fixer
   "php-cs-fixer.rules": "@PSR12",
-
   // Disable VS Code's default validation which is now handled by Stylelint.
   "scss.validate": false,
-
   // Use the "prettier" formatter within Vue templates.
   // "vetur.format.defaultFormatter.html": "prettier",
-
   // Validate vue-html in <template> using eslint-plugin-vue.
   // "vetur.validation.template": false,
-
   // Use single quotes within YAML documents.
   "yaml.format.singleQuote": true,
-
   // Blade files have a tab size of 4.
   "[blade]": {
     "editor.tabSize": 4
   },
-
   // JavaScript formatting is handled by ESLint (via the Prettier plugin).
   "[javascript]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
-
   // React formatting is handled by ESLint (via the Prettier plugin).
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
-
   // JSON files have tab size of 4 primarily because it matches the Laravel standard.
   "[json]": {
     "editor.tabSize": 4
   },
-
   // PHP files have tab size of 4. PHP CS Fixer handles file formatting.
   "[php]": {
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.tabSize": 4
   },
-
   // Shell scripts have tab size of 4.
   "[shellscript]": {
     "editor.tabSize": 4
   },
-
   // Vue.js formatting is handled by ESLint (via the Prettier plugin).
   "[vue]": {
     "editor.formatOnSave": false
   },
-
   /*
   |--------------------------------------------------------------------------
   | Editor Configuration
@@ -136,21 +109,16 @@
     "last",
     "root"
   ],
-
   // Whether to enable/disable formatting via Laravel Blade Snippets extension.
   "blade.format.enable": false,
-
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   // Disable automatic detection of indentation.
   "editor.detectIndentation": false,
-
   // Enable use of a custom font.
   "editor.fontFamily": "Fira Code",
-
   // Enable use of a custom font size.
   "editor.fontSize": 18,
-
   // Format files during save.
   "editor.formatOnSave": true,
   "editor.lineHeight": 32,
@@ -161,14 +129,12 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-
   /**
    * Save files when focus moves out of the editor of the dirty file.
    *
    * https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
    */
   "files.autoSave": "onFocusChange",
-
   /**
    * Trigger "hot exit" when the application is closed and for any window with a folder
    * opened regardless of whether it is the last window.
@@ -176,69 +142,39 @@
    * https://code.visualstudio.com/docs/editor/codebasics#_hot-exit
    */
   "files.hotExit": "onExitAndWindowClose",
-
   "git.autofetch": true,
-
   "gitlens.codeLens.enabled": false,
-
   "go.formatTool": "goimports",
-
   "go.toolsManagement.autoUpdate": true,
-
   "go.useLanguageServer": true,
-
   "importCost.typescriptExtensions": [
     "\\.vue$"
   ],
-
   "markdown.extension.orderedList.autoRenumber": false,
-
   "markdown.extension.toc.unorderedList.marker": "*",
-
   "php.suggest.basic": false,
-
   "redhat.telemetry.enabled": false,
-
   "search.exclude": {
     "**/node_modules": false
   },
-
   "search.useIgnoreFiles": false,
-
   "tailwindCSS.colorDecorators": false,
-
   "tailwindCSS.emmetCompletions": true,
-
   "terminal.integrated.rendererType": "dom",
-
   /**
    * Do not show new version messages for the vscode-icons extension.
    */
   "vsicons.dontShowNewVersionMessage": true,
-
   "window.openFilesInNewWindow": "on",
-
   "window.restoreWindows": "all",
-
-  "window.zoomLevel": 0,
-
   "workbench.activityBar.visible": false,
-
   "workbench.colorTheme": "Nord",
-
   "workbench.editor.enablePreviewFromQuickOpen": false,
-
   "workbench.editor.showTabs": false,
-
   "workbench.fontAliasing": "antialiased",
-
   "workbench.iconTheme": "eq-material-theme-icons",
-
   "workbench.sideBar.location": "right",
-
   "workbench.startupEditor": "none",
-
   "workbench.statusBar.visible": true,
-
   "zenMode.fullScreen": false
 }

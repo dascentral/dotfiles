@@ -74,6 +74,7 @@ declare -a extensions=(
     "patbenatar.advanced-new-file"
     "redhat.vscode-yaml"
     "ryannaddy.laravel-artisan"
+    "silvenon.mdx"
     "sleistner.vscode-fileutils"
     "smlombardi.slime"
     "stylelint.vscode-stylelint"
