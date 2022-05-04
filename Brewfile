@@ -63,6 +63,7 @@ cask 'bartender' # Bartender Alternative - https://matthewpalmer.net/vanilla/
 cask 'bettertouchtool'
 cask 'docker'
 cask 'figma'
+cask 'github'
 cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
