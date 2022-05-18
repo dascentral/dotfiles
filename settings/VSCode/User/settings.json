@@ -51,7 +51,7 @@
   // Enable formatting of HTML which is relevant within Blade templates.
   "php-cs-fixer.formatHtml": true,
   // This value is updated each time the "php cs fixer" extension is updated.
-  "php-cs-fixer.lastDownload": 1650289541412,
+  "php-cs-fixer.lastDownload": 1652786393518,
   // Enable execution of PHP CS Fixer during save.
   "php-cs-fixer.onsave": true,
   // PHP CS Fixer level setting (@PSR1, @PSR2, @Symfony). Support json formatted value. @see: https://github.com/FriendsOfPHP/PHP-CS-Fixer
