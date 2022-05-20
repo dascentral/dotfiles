@@ -280,6 +280,10 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 * **Package:** [andyabih/laravel-to-uml](https://github.com/andyabih/laravel-to-uml) — Automagically generate UML diagrams of your Laravel code.
 * **Package:** [beyondcode/laravel-er-diagram-generator](https://github.com/beyondcode/laravel-er-diagram-generator) — Generate entity relation diagrams by inspecting the relationships defined in your model files.
 
+### Email
+
+* **Tutorial:** May 2022 — [How to send e-mails in Laravel with Tailwind CSS](https://ralphjsmit.com/laravel-emails-tailwind-css) 
+
 ### Encryption
 
 * **Article:** Nov 2020 — [Encrypt and Decrypt Data Using Keys](https://laravel-news.com/encrypt-and-decrypt-data-using-keys)
