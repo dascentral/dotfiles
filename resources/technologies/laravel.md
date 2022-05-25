@@ -318,6 +318,10 @@ Hypermedia as the Engine of Application State (HATEOAS) allows you to expose the
 
 * **Article:** Nov 2020 — [Laravel Real-Time Notifications](https://christoph-rumpel.com/2020/11/laravel-real-time-notifications)
 
+### Request Factories
+
+* **Package:** [worksome/request-factories](https://github.com/worksome/request-factories) — Much like Model Factories, Request Factories allow you to more easily generate requests within your tests. Full introduction available on [Laravel News](https://laravel-news.com/request-factories).
+
 ### Roles & Permissions
 
 * **Package:** [JosephSilber/bouncer](https://github.com/JosephSilber/bouncer)
