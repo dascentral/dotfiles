@@ -150,6 +150,7 @@
   "importCost.typescriptExtensions": [
     "\\.vue$"
   ],
+  "javascript.updateImportsOnFileMove.enabled": "never",
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.toc.unorderedList.marker": "*",
   "php.suggest.basic": false,
