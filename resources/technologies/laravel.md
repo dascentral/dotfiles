@@ -360,6 +360,7 @@ At the moment, "Settings" is my general term for the notion of persisting perfer
 
 Performance is an incredibly important aspect of well-written application. It's not a first-party feature nor are you "extending" the framework. It'll sit here for now.
 
+* **Package:** June 2022 — [JackWH/laravel-new-relic](https://github.com/JackWH/laravel-new-relic)
 * **Article:** Mar 2021 — [Maximizing response caching in Laravel](https://samuelstancl.me/maximizing-response-caching-in-laravel)
 * **Article:** June 2020 — [6 Tips for Laravel Performance Optimization](https://dev.to/ellis22/6-tips-for-laravel-performance-optimization-2h88?ref=laravelnews)
 * **Tutorial:** Feb 2020 — [The Ultimate Performance Checklist For Laravel Apps](https://laravel-news.com/performance-checklist)
