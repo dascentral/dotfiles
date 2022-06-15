@@ -19,7 +19,7 @@ WHITE='\033[1;37m'
 NC='\033[0m'
 
 PRIVATE="${HOME}/.private"
-DOTFILES="${HOME}/dotfiles"
+DOTFILES="${HOME}/.dotfiles"
 
 abort() {
     echo -e "${YELLOW}$@${NC}"; exit 1;
