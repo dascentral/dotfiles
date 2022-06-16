@@ -1,29 +1,20 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-source /Users/${USER}/dotfiles/shell/.functions
+echo "Generating a new SSH key for GitHub..."
 
-# Ash for password before we begin
-sudo -v
+# Generating a new SSH key
+# https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
+ssh-keygen -t ed25519 -C $1 -f ~/.ssh/id_ed25519
 
-# Keep-alive: update existing `sudo` time stamp until script has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# Adding your SSH key to the ssh-agent
+# https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
+eval "$(ssh-agent -s)"
 
-###########################################################################################
-# BEGIN installation
+touch ~/.ssh/config
+echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_ed25519" | tee ~/.ssh/config
 
-${DOTFILES}/install/oh-my-zsh.sh
-${DOTFILES}/install/homebrew.sh
-${DOTFILES}/install/composer.sh
+ssh-add -K ~/.ssh/id_ed25519
 
-# END installations
-###########################################################################################
-# BEGIN configurations
-
-${DOTFILES}/config/iterm2.sh
-${DOTFILES}/config/oh-my-zsh.sh
-${DOTFILES}/config/php.sh
-${DOTFILES}/config/sublime.sh
-${DOTFILES}/config/vscode.sh
-
-# END configurations
-###########################################################################################
+# Adding your SSH key to your GitHub account
+# https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
