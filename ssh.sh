@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Credit for this file goes to Dries Vints - https://github.com/driesvints/dotfiles/blob/main/ssh.sh
+
 echo "Generating a new SSH key for GitHub..."
 
 # Generating a new SSH key
