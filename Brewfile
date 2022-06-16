@@ -103,6 +103,7 @@ cask 'suspicious-package'
 cask 'webpquicklook'
 
 # Fonts
+cask 'font-fira-code'
 cask 'font-lato'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
