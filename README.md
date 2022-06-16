@@ -2,62 +2,67 @@
 
 ## Introduction
 
-dotfiles is a series of customizations that help me personalize and maintain my system.
+This repository contains a series of automated customizations that help me personalize and maintain my Mac.
 
-I was introduced to the concept by [Zack Holman](https://github.com/holman/dotfiles). Initially, I forked his repo for my own use but quickly realized I did not understand much of what was going on. So, instead of simply copying his work, I decided to start from scratch and slowly add functionality so that I could better understand what Zack or others have done.
+Special thanks to [Zack Holman](https://zachholman.com/) and [Dries Vints](https://driesvints.com/) for the inspiration that led to what you see within this repository. In many instances, what I have here is a direct copy of their work.
 
-If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+## New machine setup
 
-## Inspiration & Resources
+### Preparation
 
-The following articles and repositories may provide inspiration as you setup your own dotfiles repository.
+Odds are you are migrating from an existing machine to another or you are setting up an additional computer that will match the setup of another. Before getting started, ensure you have a fresh backup of all of your data and settings.
 
-### Articles
+- Commit and push any pending changes within local git repositories
+- Move any important documents into cloud-based storage
+- Save all of your work within apps that do not sync to the cloud
+- Export any important data from you local (MySQL) database
+- Update your [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`
 
-* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) — Zack Holman, Aug 2010
-* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) — Dries Vints, April 2016
+#### Update macOS
 
-### Repositories
+If you are setting up a new machine, odds are macOS is already up-to-date. However, check System Preferences on the new machine and install any pending updates.
 
-* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
-* [Dries Vints](https://github.com/driesvints/dotfiles)
-* [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) — Linux-focused for those managing servers
-* [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
-* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
-* [Matt Stauffer](github.com/mattstauffer/dotfiles/)
-* [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
-* [Zach Holman](https://github.com/holman/dotfiles)
+### Generate an SSH key
 
-## New Machine Setup
+We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command:
 
-I switched to use of a `Brewfile` in February 2021 and completely overhauled how I would setup a new computer, inclusive of most software installations and configurations.
-
-All information below will be prone to error until I have an opportunity to try it out on a new machine.
-
-### Clone the Repository
-
-First and foremost, we'll need to clone this repository. All scripts assume it is cloned to `~/dotfiles`.
-
-```bash
-git clone git@github.com:dascentral/dotfiles.git ~/dotfiles
+```shell
+curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
 ```
 
-### Software Installation
+### Clone this repository
 
-#### Scripted
+Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles`.
 
-The following script installs most of the software that I use on a new machine.
+Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html).
 
 ```bash
-./install.sh
+git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
+```
+
+### Installation
+
+The following script installs and configures most of the software that I use on a new machine.
+
+```bash
+~/.dotfiles/install.sh
 ```
 
 If you dig into that installation file, you'll note that it does a few things:
 
-1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
-2. Executes `brew bundle` which installs the bulk of the software
-3. Installs all global [Composer](https://getcomposer.org/) packages
-4. Configures a few of the software applications
+1. Installs and configures [Oh My Zsh](https://ohmyz.sh/)
+2. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
+3. Executes `brew bundle` which installs the bulk of the software
+4. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
+5. Configures several applications
+
+## Maintenance
+
+I have a `dotfiles` script that I run regularly to keep the machine up-to-date. More details to come.
+
+## Legacy Information
+
+I need to give this information a scrub. More to come.
 
 #### Manual
 
@@ -80,6 +85,34 @@ source .macos
 ```
 
 A computer restart will likely be necessary after executing that command.
+
+
+
+## Inspiration & Resources
+
+I was introduced to the "dotfiles" concept by [Zack Holman](https://github.com/holman/dotfiles). Initially, I forked his repo for my own use but quickly realized I did not understand much of what was going on. So, instead of simply copying his work, I decided to start from scratch and slowly add functionality so that I could better understand what Zack or others have done.
+
+If you're interested in the philosophy behind why projects like these are awesome, you might want to [read Zack's post on the subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+
+The following articles and repositories may provide additional inspiration as you setup your own dotfiles repository.
+
+### Articles
+
+* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) — Zack Holman, Aug 2010
+* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) — Dries Vints, April 2016
+
+### Repositories
+
+* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
+* [Dries Vints](https://github.com/driesvints/dotfiles)
+* [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) — Linux-focused for those managing servers
+* [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
+* [Matt Stauffer](github.com/mattstauffer/dotfiles/)
+* [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
+* [Zach Holman](https://github.com/holman/dotfiles)
+
+
 
 ## Optional Configurations
 
