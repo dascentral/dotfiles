@@ -14,8 +14,8 @@ clear
 # run maintenance scripts
 ./maintain/prepare.sh
 ./maintain/homebrew.sh
-./maintain/composer.sh
 ./maintain/macos.sh
+./install/composer.sh
 
 # Local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
