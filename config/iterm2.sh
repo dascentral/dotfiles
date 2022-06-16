@@ -23,6 +23,4 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 # Don’t display the prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
-warn "Oh My Zsh configuration script is currently disabled"
-
 printf "\n"
