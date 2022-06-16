@@ -10,7 +10,7 @@ alias va='vim ~/dotfiles/shell/.aliases'
 #------------------------------------------------------------------------------------------
 alias dev='cd ~/Workspace'
 alias docs='cd ~/Documents'
-alias dot='cd ~/dotfiles'
+alias dot='cd ~/.dotfiles'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 
