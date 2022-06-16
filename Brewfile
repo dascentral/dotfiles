@@ -58,6 +58,7 @@ brew 'zlib'
 # cask 'ray'
 # cask 'transmission'
 # cask 'transmit'
+
 cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
