@@ -78,6 +78,7 @@ cask 'iterm2'
 cask 'phpmon'     # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
 cask 'rocket'
+cask 'setapp'     # https://formulae.brew.sh/cask/setapp
 cask 'signal'
 cask 'spectacle'
 cask 'spotify'
