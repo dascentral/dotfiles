@@ -63,7 +63,7 @@ composer_installed() {
 }
 
 homebrew_installed() {
-    [ -e /usr/local/bin/brew ]
+    [ -e /opt/homebrew/bin/brew ]
 }
 
 confirm_composer_installed() {
