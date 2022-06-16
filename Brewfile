@@ -71,7 +71,7 @@ cask 'firefox'
 cask 'github'
 cask 'grammarly'
 cask 'gpg-suite'
-cash 'hey'        # https://formulae.brew.sh/cask/hey
+cask 'hey'        # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
@@ -110,7 +110,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 
 # Mac App Store
-# mas 'MindNode', id: 1289197285
+# mas 'MindNode', id: 1289197285 # Check Setapp
 mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
 mas 'Forecast Bar', id: 982710545
