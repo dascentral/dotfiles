@@ -20,6 +20,7 @@ ${DOTFILES}/install/composer.sh
 # BEGIN configurations
 
 ${DOTFILES}/config/iterm2.sh
+${DOTFILES}/config/oh-my-zsh.sh
 ${DOTFILES}/config/php.sh
 ${DOTFILES}/config/sublime.sh
 ${DOTFILES}/config/vscode.sh
