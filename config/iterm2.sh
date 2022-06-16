@@ -25,7 +25,4 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 warn "Oh My Zsh configuration script is currently disabled"
 
-# # Install and configure Oh My Zsh
-# ${DOTFILES}/config/oh-my-zsh.sh
-
 printf "\n"

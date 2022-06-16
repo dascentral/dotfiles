@@ -11,6 +11,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###########################################################################################
 # BEGIN installation
 
+${DOTFILES}/install/oh-my-zsh.sh
 ${DOTFILES}/install/homebrew.sh
 ${DOTFILES}/install/composer.sh
 
