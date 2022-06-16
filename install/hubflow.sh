@@ -3,7 +3,7 @@
 source /Users/${USER}/.dotfiles/shell/.functions
 
 if [ ! -e "${WORKSPACE}" ]; then
-    info "Creating 'workspace' directory"
+    info "Creating '~/Workspace' directory"
     mkdir -p ${HOME}/Workspace
 fi
 
