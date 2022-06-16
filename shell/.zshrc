@@ -108,12 +108,12 @@ source $ZSH/oh-my-zsh.sh
 ############
 
 # Source Aliases
-source ~/dotfiles/shell/.aliases
+source ~/.dotfiles/shell/.aliases
 [ -s "$HOME/.aliases-local" ] && source ~/.aliases-local
 [ -s "$HOME/.private/shell/.aliases" ] && source ~/.private/shell/.aliases
 
 # Source Helpers
-source ~/dotfiles/shell/.helpers
+source ~/.dotfiles/shell/.helpers
 
 # Path additions
 export PATH=$PATH:/usr/local/sbin
