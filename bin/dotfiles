@@ -2,13 +2,13 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# Confirm repos are in the correct spot
+# confirm repos are in the correct spot
 dotfiles_live_where_expected
 
-# Confirm they're clean because we're about to reset hard
+# confirm they're clean because we're about to reset hard
 dotfiles_confirm_stable
 
-# Clear the screen
+# clear the screen
 clear
 
 # run maintenance scripts
@@ -17,7 +17,7 @@ clear
 ./maintain/macos.sh
 ./install/composer.sh
 
-# Local hack for PHP
+# local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
     echo '' > /usr/local/var/log/php-fpm.log
 fi
