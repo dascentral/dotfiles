@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "fd79500895ad54bd4f510a9c18a270d840e06b66"
+        "revision": "f6b32e1e4ee8c73f65f47f4444fa7ede8e79fb89"
       },
       "homebrew/cask-fonts": {
         "revision": "cb6495716b70b0f89b730121c98491f02352266e"
       },
       "homebrew/cask-versions": {
-        "revision": "5919a7b77aa04730ed3cc10235ee8c093a97db9a"
+        "revision": "9a642acfa92fddc1496c43181636b779e429ede2"
       },
       "homebrew/bundle": {
         "revision": "c79b3ae417c18423be825cdfd5e97614dedfb62a"
@@ -313,6 +313,12 @@
         "version": "3.5.0,1655046682",
         "options": {
           "full_name": "setapp"
+        }
+      },
+      "google-drive": {
+        "version": "59.0.3",
+        "options": {
+          "full_name": "google-drive"
         }
       }
     },
@@ -1493,7 +1499,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.2",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "c8a28a4b565c9a70efb31146e89e9c9be501c5df",
+        "Homebrew/homebrew-core": "d53393592d3dfa20bc8f29cb50619216ae5771a8",
         "CLT": "13.0.0.0.1.1627064638",
         "Xcode": "13.2.1",
         "macOS": "12.2.1"
