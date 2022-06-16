@@ -25,7 +25,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 #===================================================================================
 
 # Turn on Keychain for SSH
-cp /Users/${USER}/dotfiles/settings/macOS/config /Users/${USER}/.ssh
+cp ${HOME}/.dotfiles/settings/macOS/config /Users/${USER}/.ssh
 
 #===================================================================================
 # General UI/UX
