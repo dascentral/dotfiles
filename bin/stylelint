@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/shell/.functions
 
 if ! package_json_exists; then
     abort "No 'package.json' found. You are likely not in the root of the repository."
