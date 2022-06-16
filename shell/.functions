@@ -159,6 +159,10 @@ laravel_sail_is_running() {
     [ -z "$PSRESULT" ] && return 1 || return 0
 }
 
+oh_my_zsh_installed() {
+    [ -e /Users/${USER}/.oh-my-zsh ]
+}
+
 package_json_exists() {
     [ -e "package.json" ]
 }
