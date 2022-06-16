@@ -8,12 +8,10 @@ if ! homebrew_installed; then
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
     printf "\n\n"
-fi
-
-if [ ! -e "Brewfile" ]; then
-    abort "There is no Brewfile within this folder."
+else
+    warn "Installing Homebrew... already installed"
 fi
 
 info "Executing Brewfile"
-brew bundle
+brew bundle --file $DOTFILES/Brewfile
 printf "\n"
