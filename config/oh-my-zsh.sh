@@ -2,11 +2,8 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# install Oh My Zsh
 if [ ! -e ~/.oh-my-zsh ]; then
-    info "Installing Oh My Zsh"
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    printf "\n"
+    abort "Oh My Zsh has not been installed.\n"
 fi
 
 # install plugins
