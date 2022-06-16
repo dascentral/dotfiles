@@ -69,16 +69,17 @@ cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
+cask 'google-drive' # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly'
 cask 'gpg-suite'
-cask 'hey'        # https://formulae.brew.sh/cask/hey
+cask 'hey'          # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
-cask 'phpmon'     # https://github.com/nicoverbruggen/phpmon
+cask 'phpmon'       # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
 cask 'rocket'
-cask 'setapp'     # https://formulae.brew.sh/cask/setapp
+cask 'setapp'       # https://formulae.brew.sh/cask/setapp
 cask 'signal'
 cask 'spectacle'
 cask 'spotify'
