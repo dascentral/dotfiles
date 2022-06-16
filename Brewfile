@@ -46,10 +46,16 @@ brew 'zlib'
 # brew 'gifsicle'
 
 # Casks
+
+# Typically installed manually for convenience during new computer setup
 # cask '1password'
+
+# Typically installed by AKQA IT
 # cask 'google-chrome'
-# cask 'ray'
 # cask 'slack'
+
+# Unsure why these are disabled
+# cask 'ray'
 # cask 'transmission'
 # cask 'transmit'
 cask '1password-cli'
