@@ -71,10 +71,11 @@ cask 'firefox'
 cask 'github'
 cask 'grammarly'
 cask 'gpg-suite'
+cash 'hey'        # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
-cask 'phpmon' # https://github.com/nicoverbruggen/phpmon
+cask 'phpmon'     # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
 cask 'rocket'
 cask 'signal'
