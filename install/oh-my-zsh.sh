@@ -48,3 +48,5 @@ if [ ! -L ~/.zshrc ]; then
 else
     warn "Linking .zshrc to dotfiles... already linked"
 fi
+
+printf "\n"
