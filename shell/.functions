@@ -59,7 +59,7 @@ composer_json() {
 }
 
 composer_installed() {
-    [ -e /usr/local/bin/composer ]
+    [ -e /opt/homebrew/bin/composer ]
 }
 
 homebrew_installed() {
