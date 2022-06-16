@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/shell/.functions
 
 # configure User folder
 LOCALPATH="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"

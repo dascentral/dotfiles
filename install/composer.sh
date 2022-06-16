@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/shell/.functions
 
 # TODO: Install composer if not installed
 confirm_composer_installed

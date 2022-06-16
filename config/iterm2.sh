@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/shell/.functions
 
 # confirm app has been installed
 if [ ! -e "/Applications/iTerm.app" ]; then

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/shell/.functions
 
 # Pull the latest from Git - dotfiles-private
 if [ -e "${PRIVATE}" ]; then
