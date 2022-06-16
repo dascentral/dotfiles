@@ -2,12 +2,16 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# TODO: Install composer if not installed
 confirm_composer_installed
 
+# update composer
+info "Composer self-update"
+/opt/homebrew/bin/composer self-update
+printf "\n"
+
+# install global packages
 declare -a extensions=(
     "dascentral/hubflow-release"
-    "friendsofphp/php-cs-fixer"
     "laravel/installer"
     "laravel/valet"
     "spatie/global-ray"
@@ -24,8 +28,8 @@ for extension in ${extensions[@]}; do
 done
 
 # one-off package installation
-if [ ! -e "/Users/${USER}/.composer/vendor/squizlabs/php_codesniffer" ]; then
-    info "Installing squizlabs/php_codesniffer"
-    composer global require "squizlabs/php_codesniffer=*"
-    printf "\n"
-fi
+# if [ ! -e "/Users/${USER}/.composer/vendor/squizlabs/php_codesniffer" ]; then
+#     info "Installing squizlabs/php_codesniffer"
+#     composer global require "squizlabs/php_codesniffer=*"
+#     printf "\n"
+# fi
