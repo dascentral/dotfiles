@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e3847c9863b5b78cfab043df1cb1ec0df2cdd6a1"
+        "revision": "fd79500895ad54bd4f510a9c18a270d840e06b66"
       },
       "homebrew/cask-fonts": {
         "revision": "cb6495716b70b0f89b730121c98491f02352266e"
@@ -301,6 +301,18 @@
         "version": "6.2",
         "options": {
           "full_name": "font-fira-code"
+        }
+      },
+      "hey": {
+        "version": "1.2.5",
+        "options": {
+          "full_name": "hey"
+        }
+      },
+      "setapp": {
+        "version": "3.5.0,1655046682",
+        "options": {
+          "full_name": "setapp"
         }
       }
     },
