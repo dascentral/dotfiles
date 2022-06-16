@@ -35,6 +35,6 @@ fi
 if [ ! -L ~/.zshrc ]; then
     info "Linking .zshrc to dotfiles"
     rm -rf /Users/${USER}/.zshrc
-    ln -s "${DOTFILES}/shell/.zshrc" "/Users/${USER}/.zshrc"
+    ln -s "${HOME}/.dotfiles/shell/.zshrc" "/Users/${USER}/.zshrc"
     printf "\n"
 fi
