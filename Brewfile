@@ -117,4 +117,5 @@ mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
 mas 'Forecast Bar', id: 982710545
 mas 'Spark', id: 1176895641
+mas 'Tomato 2: Pomodoro Timer', id:1494210770
 mas 'Tweetbot', id: 1384080005

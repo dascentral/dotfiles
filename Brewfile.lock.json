@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "c34e580cae7b6514219c99807fe5efee220bc801"
+        "revision": "1982664d70dab0c428d082de8a0ad3a9c74f9fc7"
       },
       "homebrew/cask-fonts": {
         "revision": "cb6495716b70b0f89b730121c98491f02352266e"
       },
       "homebrew/cask-versions": {
-        "revision": "9a642acfa92fddc1496c43181636b779e429ede2"
+        "revision": "df1da918fbdbcb860bf9c018e3712614a3688dfc"
       },
       "homebrew/bundle": {
-        "revision": "c79b3ae417c18423be825cdfd5e97614dedfb62a"
+        "revision": "5e7826f5b7f075478796081cd33a247f44882c5c"
       },
       "nicoverbruggen/cask": {
         "revision": "90bfc2e0ff72a81e483425eb2bdf9bc3f55e29e6"
@@ -46,7 +46,7 @@
         }
       },
       "docker": {
-        "version": "4.9.0,80466",
+        "version": "4.9.1,81317",
         "options": {
           "full_name": "docker"
         }
@@ -274,7 +274,7 @@
         }
       },
       "signal": {
-        "version": "5.45.1",
+        "version": "5.46.0",
         "options": {
           "full_name": "signal"
         }
@@ -1489,7 +1489,8 @@
       "Forecast Bar": {
         "id": "982710545",
         "version": "5.8.7"
-      }
+      },
+      "Tomato 2: Pomodoro Timer": null
     }
   },
   "system": {
@@ -1513,9 +1514,9 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.2",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "b235782f3bf770131ad08a43dfe2706da3a06c45",
-        "CLT": "13.0.0.0.1.1627064638",
-        "Xcode": "13.2.1",
+        "Homebrew/homebrew-core": "14e7e6fd5dd37edf26dded83279309fbbc375ac3",
+        "CLT": "13.4.0.0.1.1651278267",
+        "Xcode": "13.4",
         "macOS": "12.4"
       }
     }
