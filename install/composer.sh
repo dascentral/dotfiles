@@ -13,6 +13,7 @@ printf "\n"
 declare -a extensions=(
     "dascentral/hubflow-release"
     "laravel/installer"
+    "laravel/pint"
     "laravel/valet"
     "spatie/global-ray"
     "tightenco/takeout"
