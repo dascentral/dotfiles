@@ -76,6 +76,7 @@ cask 'hey'          # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
+cask 'miro'         # https://formulae.brew.sh/cask/miro
 cask 'phpmon'       # https://github.com/nicoverbruggen/phpmon
 cask 'postman'
 cask 'rocket'
