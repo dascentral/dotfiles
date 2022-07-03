@@ -34,7 +34,7 @@ curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "
 
 Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles`.
 
-Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html).
+Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html). Go grab a coffee/snack/meal while that download and install takes place.
 
 ```bash
 git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
