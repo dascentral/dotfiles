@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# TODO: I believe the settings for iTerm2 are covered by mackup.
+# I need to confirm this file, and the reference to my private
+# repository, can be deleted.
+
 source /Users/${USER}/.dotfiles/shell/.functions
 
 # confirm app has been installed
