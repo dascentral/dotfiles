@@ -2,6 +2,7 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
+# composer should have been installed via "brew bundle"
 confirm_composer_installed
 
 # update composer
