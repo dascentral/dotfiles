@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# We no longer configure for PHP 7.4 by default. We are only using PHP 8.0.
+# Thanks to PHP Monitor, I no longer worry about PHP configuration.
+# https://github.com/nicoverbruggen/phpmon
 
 # source /Users/${USER}/.dotfiles/shell/.functions
 
