@@ -4,7 +4,7 @@
         "body": [
             "{{ \\$attributes->merge(['class' => '$1']) }}"
         ],
-        "description": "Merge attributes within a Laravel 7 blade component"
+        "description": "Merge attributes within a Laravel blade component"
     },
     "Tailwind UI Inspiration": {
         "prefix": "twui",
