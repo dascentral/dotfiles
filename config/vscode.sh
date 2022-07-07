@@ -67,6 +67,7 @@ declare -a extensions=(
     "mohamedbenhida.laravel-intellisense"
     "ms-azuretools.vscode-docker"
     "ms-vscode.cpptools-extension-pack"
+    "ms-vscode-remote.remote-containers"
     "neilbrayfield.php-docblocker"
     "nikitakunevich.snippet-creator"
     "onecentlin.laravel-blade"
