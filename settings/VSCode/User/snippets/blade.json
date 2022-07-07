@@ -1,49 +1,49 @@
 {
-    "Merge Attributes": {
-        "prefix": "merge",
-        "body": [
-            "{{ \\$attributes->merge(['class' => '$1']) }}"
-        ],
-        "description": "Merge attributes within a Laravel blade component"
-    },
-    "Tailwind UI Inspiration": {
-        "prefix": "twui",
-        "body": [
-            "{{--",
-            "    Tailwind UI Inspiration was \"$1\"",
-            "    $2",
-            "--}}",
-            ""
-        ],
-        "description": "Enters a comment that allows me to quickly add the Tailwind UI inspiration reference"
-    },
-    "Horizontal Form Field": {
-        "prefix": "ffh",
-        "body": [
-            "<x-form-field-horizontal name=\"$1\" :label=\"__('$2')\">",
-            "    <x-input-h autocomplete=\"$3\" name=\"$1\" />",
-            "</x-form-field-horizontal>"
-        ],
-        "description": "Laravel Blade component that creates a horizontal form field."
-    },
-    "Rounded Table": {
-        "prefix": "table",
-        "body": [
-            "<x-table-rounded>",
-            "    <thead>",
-            "        <tr>",
-            "            <th>$1</th>",
-            "        </tr>",
-            "    </thead>",
-            "    <tbody>",
-            "        @foreach ($2 as \\$item)",
-            "            <tr>",
-            "                <td>$3</td>",
-            "            </tr>",
-            "        @endforeach",
-            "    </tbody>",
-            "</x-table-rounded>"
-        ],
-        "description": "Rounded Table"
-    }
+  "Merge Attributes": {
+    "prefix": "merge",
+    "body": [
+      "{{ \\$attributes->merge(['class' => '$1']) }}"
+    ],
+    "description": "Merge attributes within a Laravel blade component"
+  },
+  "Tailwind UI Inspiration": {
+    "prefix": "twui",
+    "body": [
+      "{{--",
+      "    Tailwind UI Inspiration was \"$1\"",
+      "    $2",
+      "--}}",
+      ""
+    ],
+    "description": "Enters a comment that allows me to quickly add the Tailwind UI inspiration reference"
+  },
+  "Horizontal Form Field": {
+    "prefix": "ffh",
+    "body": [
+      "<x-form-field-horizontal name=\"$1\" :label=\"__('$2')\">",
+      "    <x-input-h autocomplete=\"$3\" name=\"$1\" />",
+      "</x-form-field-horizontal>"
+    ],
+    "description": "Laravel Blade component that creates a horizontal form field."
+  },
+  "Rounded Table": {
+    "prefix": "table",
+    "body": [
+      "<x-table-rounded>",
+      "    <thead>",
+      "        <tr>",
+      "            <th>$1</th>",
+      "        </tr>",
+      "    </thead>",
+      "    <tbody>",
+      "        @foreach ($2 as \\$item)",
+      "            <tr>",
+      "                <td>$3</td>",
+      "            </tr>",
+      "        @endforeach",
+      "    </tbody>",
+      "</x-table-rounded>"
+    ],
+    "description": "Rounded Table"
+  }
 }
