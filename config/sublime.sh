@@ -2,6 +2,8 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
+# TODO: Remove dependency on my private dotfiles repository.
+
 # configure User folder
 LOCALPATH="${HOME}/Library/Application Support/Sublime Text/Packages/User"
 CLOUDPATH="${PRIVATE}/settings/Sublime/User"
