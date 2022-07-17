@@ -100,6 +100,17 @@ A view model class is designed to house the complex logic of your views and redu
 * **Article:** April 2020 — [Some cool Laravel 7 Blade components ](https://freek.dev/1612-some-cool-laravel-7-blade-components)
 * **Article:** June 2019 — [Laravel Blade Helper](https://laravel-news.com/laravel-blade-helper)
 
+### Bundling Assets
+
+#### Laravel Vite
+
+* **Docs:** [Bundling Assets](https://laravel.com/docs/9.x/vite#main-content)
+* **Docs:** [Migrating from Laravel Mix to Vite](https://github.com/laravel/vite-plugin/blob/main/UPGRADE.md#migrating-from-laravel-mix-to-vite)
+* **Article:** June 2022 — [Moving A Laravel Webpack Project To Vite](https://christoph-rumpel.com/2022/6/moving-a-laravel-webpack-project-to-vite)
+* **Article:** June 2022 — [Using Laravel Vite to automatically refresh your browser when changing a Blade file](https://freek.dev/2277-using-laravel-vite-to-automatically-refresh-your-browser-when-changing-a-blade-file)
+* **Article:** June 2022 — [Making Vite and Valet play nice together](https://freek.dev/2276-making-vite-and-valet-play-nice-together)
+* **Tweet:** June 2022 — https://twitter.com/reinink/status/1542328002037645312 — Inertia.js
+
 ### Collections
 
 * **Article:** Oct 2020 — [Lazy Collections in Laravel](https://josephsilber.com/posts/2020/07/29/lazy-collections-in-laravel)
