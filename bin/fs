@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if ! [ -d .git ]; then
+    abort "Please execute from the root of a git repository."
+fi
+
+if [ $# != 1 ]; then
+    usage "Usage: fs [feature]"
+fi
+
+git checkout -b "feature/${@}"
