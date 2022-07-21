@@ -70,17 +70,12 @@ alias tf='php artisan test --parallel --stop-on-failure'
 #------------------------------------------------------------------------------------------
 # Node.js & JavaScript
 #------------------------------------------------------------------------------------------
-alias lint='npm run lint'
-alias mix='npx mix'
-alias nrb='npm run build'
-alias nrd='npm run dev'
-alias nrl='npm run lint'
-alias nrp='npm run prod'
-alias nrs='npm run start'
-alias nmw='npx mix watch'
-alias sb='npm run storybook'
-alias sbb='npm run build-storybook'
-alias watch='npx mix watch'
+alias yb='yarn build'
+alias yd='yarn dev'
+alias yl='yarn lint'
+alias ys='yarn start'
+alias sb='yarn storybook'
+alias sbb='yarn build-storybook'
 
 
 #------------------------------------------------------------------------------------------
