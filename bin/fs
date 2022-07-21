@@ -2,6 +2,7 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
+# git -C . rev-parse 2>/dev/null; echo $?
 if ! [ -d .git ]; then
     abort "Please execute from the root of a git repository."
 fi
