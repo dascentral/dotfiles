@@ -70,6 +70,10 @@ alias tf='php artisan test --parallel --stop-on-failure'
 #------------------------------------------------------------------------------------------
 # Node.js & JavaScript
 #------------------------------------------------------------------------------------------
+alias nrb='npm run build'
+alias nrd='npm run dev'
+alias nrl='npm run lint'
+alias nrl='npm run start'
 alias yb='yarn build'
 alias yd='yarn dev'
 alias yl='yarn lint'
