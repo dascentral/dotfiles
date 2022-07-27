@@ -19,6 +19,7 @@ fi
 info "Configuring iTerm2"
 
 # Specify the preferences directory
+# TODO: Rely upon Mackup
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.private/settings/iTerm2"
 
 # Tell iTerm2 to use the custom preferences in the directory
