@@ -33,7 +33,7 @@ Odds are you are migrating from an existing machine to another or you are settin
 - Save all of your work within apps that do not sync to the cloud
 - Update your [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`
 
-#### Update macOS
+### Update macOS
 
 If you are setting up a new machine, odds are macOS is already up-to-date. However, check System Preferences on the new machine and install any pending updates.
 
