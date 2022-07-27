@@ -80,7 +80,7 @@ declare -a extensions=(
     "stylelint.vscode-stylelint"
     "sysoev.language-stylus"
     "vscode-icons-team.vscode-icons"
-    "Vue.volar"
+    "vue.volar"
     "william-voyek.vscode-nginx"
     "wix.vscode-import-cost"
     "yzhang.markdown-all-in-one"
