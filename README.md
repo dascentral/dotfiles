@@ -75,7 +75,7 @@ If you dig into that installation file, you'll note that it does a few things:
 
 The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible.
 
-I haven't updated this script in a long time, and it currently throws a warning on a couple of settings. However, it's still referenced in several of the repositories that I track which leads me to believe it remains a viable tool for automatically applying settings.
+I haven't updated this script in a long time, and it currently throws a warning in a couple of spots. However, the file is still referenced in several of the repositories that I track which leads me to believe it remains a viable tool for automatically applying settings.
 
 Apply settings via use of the `source` command. A computer restart may then be necessary.
 
