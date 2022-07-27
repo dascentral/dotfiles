@@ -71,6 +71,16 @@ If you dig into that installation file, you'll note that it does a few things:
 4. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
 5. Configures several applications
 
+### macOS Settings
+
+The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible. I haven't updated this script in a long time, but it's still referenced in several of the repositories that I track. Executing this script takes on a good chunk of the work.
+
+```bash
+source .macos
+```
+
+A computer restart will likely be necessary after executing that command.
+
 ## Maintenance
 
 The `bin/` folder of this repository contains a `dotfiles` script that executes a number of maintenance activities that helps keep the machine up-to-date. I try to run this script on a regular basis. (i.e. weekly)
@@ -79,4 +89,63 @@ The `.zshrc` includes `~/.dotfiles/bin` in the system path, so you can run this 
 
 ```shell
 dotfiles
+```
+
+## Optional Configurations
+
+### Gatekeeper
+
+[Gatekeeper](https://en.wikipedia.org/wiki/Gatekeeper_(macOS)) is a security feature of macOS. Some of the software installed via the `Brewfile` is published by what Apple considers "unidentified developers."
+
+You can circumvent the security feature by disabling Gatekeeper.
+
+```bash
+sudo spctl --master-disable
+```
+
+If you run this command, be sure to only open software from sources that you trust. You can always turn it back on after installing a restricted software application.
+
+```bash
+sudo spctl --master-enable
+```
+
+### Printers
+
+Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
+
+[https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
+
+## Command-Line Configurations
+
+While I have automated many of my macOS system configurations via the `.macos` file, I still have a number of manual modifications that I make following setup of a new machine. My goal is always to limit the amount of manual work. This article helped me understand how to automate application settings:
+
+[https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
+
+### Key Commands
+
+**Print all domains**
+
+```bash
+defaults domains | tr ',' '\n'
+```
+
+**Print settings for a specific app**
+
+```bash
+defaults read [domain]
+defaults read com.googlecode.iterm2
+```
+
+**Print specific key**
+
+```bash
+defaults read [domain] [key]
+defaults read com.googlecode.iterm2 PrefsCustomFolder
+```
+
+**Write new settingss**
+
+```bash
+defaults read [domain] [key] [type] [value]
+defaults write com.apple.Notes NotesContinuousSpellCheckingEnabled -bool true
 ```
