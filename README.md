@@ -15,7 +15,6 @@ Odds are you are migrating from an existing machine to another or you are settin
 - Commit and push any pending changes within local git repositories
 - Move any important documents into cloud-based storage
 - Save all of your work within apps that do not sync to the cloud
-- Export any important data from you local (MySQL) database
 - Update your [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`
 
 #### Update macOS
