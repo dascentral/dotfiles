@@ -1477,7 +1477,7 @@
     "mas": {
       "Evernote": {
         "id": "406056744",
-        "version": "10.40.9"
+        "version": "10.41.5"
       },
       "Tweetbot": {
         "id": "1384080005",
@@ -1524,7 +1524,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "7f4e69befa71dda74560328201a17f7aa8ba7b70",
+        "Homebrew/homebrew-core": "933f2d4a2c4825b05c5fbfc07b0ab1424c7bb986",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.4"
