@@ -73,13 +73,15 @@ If you dig into that installation file, you'll note that it does a few things:
 
 ### macOS Settings
 
-The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible. I haven't updated this script in a long time, but it's still referenced in several of the repositories that I track. Executing this script takes on a good chunk of the work.
+The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible.
+
+I haven't updated this script in a long time, and it currently throws a warning on a couple of settings. However, it's still referenced in several of the repositories that I track which leads me to believe it remains a viable tool for automatically applying settings.
+
+Apply settings via use of the `source` command. A computer restart may then be necessary.
 
 ```bash
 source .macos
 ```
-
-A computer restart will likely be necessary after executing that command.
 
 ## Maintenance
 
