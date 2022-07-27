@@ -2,9 +2,25 @@
 
 ## Introduction
 
-This repository contains a series of automated customizations that help me personalize and maintain my Mac.
+This repository contains a series of automated customizations that help me personalize and maintain my Mac. Special thanks to [Zack Holman](https://zachholman.com/) and [Dries Vints](https://driesvints.com/) for the inspiration that led to what you see within this repository. In many instances, what I have here is a direct copy of their work.
 
-Special thanks to [Zack Holman](https://zachholman.com/) and [Dries Vints](https://driesvints.com/) for the inspiration that led to what you see within this repository. In many instances, what I have here is a direct copy of their work.
+If you're interested in the philosophy behind why projects like these are awesome, you might want to read the following articles on the subject:
+
+* [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) — Zack Holman, Aug 2010
+* [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/) — Dries Vints, April 2016
+
+### Repositories
+
+The following repositories may provide additional examples from which to draw inspiration.
+
+* [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
+* [Dries Vints](https://github.com/driesvints/dotfiles)
+* [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) — Linux-focused for those managing servers
+* [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
+* [Matt Stauffer](github.com/mattstauffer/dotfiles/)
+* [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
+* [Zach Holman](https://github.com/holman/dotfiles)
 
 ## New machine setup
 
