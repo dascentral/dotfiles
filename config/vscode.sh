@@ -59,7 +59,7 @@ declare -a extensions=(
     "gitlab.gitlab-workflow"
     "hashicorp.terraform"
     "irongeek.vscode-env"
-    "junstyle.php-cs-fixer"
+    # "junstyle.php-cs-fixer"
     "lucax88x.codeacejumper"
     "m1guelpf.better-pest"
     "mehedidracula.php-namespace-resolver"
