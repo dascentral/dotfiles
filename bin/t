@@ -7,7 +7,7 @@ if ! laravel_application_root; then
 fi
 
 if [ -f vendor/bin/pint ]; then
-    info "Executing './vendor/bin/pest'"
+    info "Executing './vendor/bin/pint'"
     vendor/bin/pint
     printf "\n"
 fi
