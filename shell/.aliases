@@ -74,12 +74,7 @@ alias nrb='npm run build'
 alias nrd='npm run dev'
 alias nrl='npm run lint'
 alias nrs='npm run start'
-alias yb='yarn build'
-alias yd='yarn dev'
-alias yl='yarn lint'
-alias ys='yarn start'
 alias sb='yarn storybook'
-alias sbb='yarn build-storybook'
 
 
 #------------------------------------------------------------------------------------------
