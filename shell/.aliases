@@ -75,7 +75,7 @@ alias nrd='npm run dev'
 alias nrl='npm run lint'
 alias nrs='npm run start'
 alias sb='yarn storybook'
-alias yd='yd'
+alias y='yarn dev'
 
 
 #------------------------------------------------------------------------------------------
