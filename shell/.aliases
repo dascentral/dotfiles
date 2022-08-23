@@ -8,7 +8,7 @@ alias va='vim ~/dotfiles/shell/.aliases'
 #------------------------------------------------------------------------------------------
 # Directory Switching
 #------------------------------------------------------------------------------------------
-alias code='cd ~/Workspace'
+alias dev='cd ~/Workspace'
 alias docs='cd ~/Documents'
 alias dot='cd ~/.dotfiles'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
@@ -70,12 +70,12 @@ alias tf='php artisan test --parallel --stop-on-failure'
 #------------------------------------------------------------------------------------------
 # Node.js & JavaScript
 #------------------------------------------------------------------------------------------
-alias nrd='dev'
 alias nrb='npm run build'
 alias nrd='npm run dev'
 alias nrl='npm run lint'
 alias nrs='npm run start'
 alias sb='yarn storybook'
+alias yd='yd'
 
 
 #------------------------------------------------------------------------------------------
