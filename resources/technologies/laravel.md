@@ -102,8 +102,6 @@ A view model class is designed to house the complex logic of your views and redu
 
 ### Bundling Assets
 
-#### Laravel Vite
-
 * **Docs:** [Bundling Assets](https://laravel.com/docs/9.x/vite#main-content)
 * **Docs:** [Migrating from Laravel Mix to Vite](https://github.com/laravel/vite-plugin/blob/main/UPGRADE.md#migrating-from-laravel-mix-to-vite)
 * **Article:** June 2022 — [Moving A Laravel Webpack Project To Vite](https://christoph-rumpel.com/2022/6/moving-a-laravel-webpack-project-to-vite)
