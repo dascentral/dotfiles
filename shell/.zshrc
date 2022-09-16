@@ -73,8 +73,9 @@ DISABLE_UPDATE_PROMPT="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins+=(macos)
 plugins+=(artisan)
+plugins+=(git-trim)
+plugins+=(macos)
 plugins+=(zsh-autosuggestions)
 plugins+=(zsh-syntax-highlighting)
 

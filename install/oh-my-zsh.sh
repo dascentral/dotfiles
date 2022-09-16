@@ -15,10 +15,12 @@ cd $HOME/.oh-my-zsh/custom/plugins
 declare -a links=(
     "https://github.com/zsh-users/zsh-autosuggestions"
     "https://github.com/zsh-users/zsh-syntax-highlighting"
+    "https://github.com/jasonmccreary/git-trim"
 )
 for url in ${links[@]}; do
     parts=(`echo ${url} | tr '/' ' '`)
     plugin=${parts[${#parts[@]}-1]}
+
     if [ ! -e ${plugin} ]; then
         info "Installing Zsh plugin - ${plugin}"
         git clone ${url}
