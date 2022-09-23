@@ -259,6 +259,7 @@ Laravel provides several helpers to assist you in generating URLs for  your appl
 
 [Laravel Forge](https://forge.laravel.com/) is a first-party service that developers can use to "provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more." Given the relevance of CI/CD to my day job, my goal has been to understand how to set this up on my own.
 
+* **Video:** Sept 2022 — [Advanced Laravel Testing: CI/CD with GitHub Actions](https://www.youtube.com/watch?v=xg30pxmGDMw)
 * **Article:** March 2020 — [In depth Gitlab CI/CD with Laravel Apps](https://www.talvbansal.me/blog/in-depth-gitlab-ci-cd-with-laravel-apps/)
 * **Article:** May 2019 — [Deploy a Laravel Application to Kubernetes using Gitlab CI](https://itnext.io/deploy-a-laravel-application-to-kubernetes-using-gitlab-ci-2538a6bbd373)
 * **Article:** March 2019 — [Deploying a Laravel App in Kubernetes on Google Cloud](https://pusher.com/tutorials/laravel-kubernetes-google-cloud?ref=laravelnews)
