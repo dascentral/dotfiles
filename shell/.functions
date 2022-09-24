@@ -76,8 +76,8 @@ confirm_homebrew_installed() {
 }
 
 confirm_ag_is_installed() {
-    if [ ! -e "/usr/local/bin/ag" ]; then
-        abort "The Silver Searcher is not installed where expected - /usr/local/bin/ag\nhttps://github.com/ggreer/the_silver_searcher"
+    if [ ! -e "/opt/homebrew/bin/ag" ]; then
+        abort "The Silver Searcher is not installed where expected - /opt/homebrew/bin/ag\nhttps://github.com/ggreer/the_silver_searcher"
     fi
 }
 
