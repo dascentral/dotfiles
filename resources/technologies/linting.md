@@ -51,3 +51,7 @@ module.exports = {
 
 * **Article:** June 2019 - [Visual Studio Code CSS linting with Tailwind](https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/)
 * **Article:** April 2017 - [Lint your CSS with stylelint](https://css-tricks.com/stylelint/)
+
+## Resources
+
+* **Article:** Sept 2022 — [Laravel Breeze with Inertia, React, Eslint, Prettier, Pint and Husky](https://www.luckymedia.dev/blog/laravel-breeze-with-inertia-react-eslint-prettier-pint-and-husky)
