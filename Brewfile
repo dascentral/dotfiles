@@ -1,4 +1,5 @@
 # Taps
+tap 'hashicorp/tap'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
@@ -16,6 +17,7 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'gnupg2'
+brew 'hashicorp/tap/packer'
 brew 'httpie'
 brew 'htop'
 brew 'hub'
