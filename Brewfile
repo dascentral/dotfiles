@@ -74,7 +74,7 @@ cask 'github'
 cask 'google-drive' # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly'
 cask 'gpg-suite'
-cask 'hey'          # https://formulae.brew.sh/cask/hey
+# cask 'hey'          # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
@@ -120,7 +120,7 @@ cask 'font-source-sans-pro'
 mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
 mas 'Forecast Bar', id: 982710545
-mas 'Spark', id: 1176895641
+# mas 'Spark', id: 1176895641
 mas 'Tomato 2: Pomodoro Timer', id:1494210770
 mas 'Tweetbot', id: 1384080005
 mas 'Brother iPrint&Scan', id: 1193539993
