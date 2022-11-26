@@ -61,6 +61,7 @@ alias bsr='brew services restart'
 #------------------------------------------------------------------------------------------
 # Laravel
 #------------------------------------------------------------------------------------------
+alias a='artisan'
 alias dusk='php artisan dusk'
 alias sail='bash vendor/bin/sail'
 alias td='php artisan test --parallel && php artisan dusk'
