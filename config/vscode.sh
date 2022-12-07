@@ -53,7 +53,7 @@ declare -a extensions=(
     "dbankier.vscode-quick-select"
     "eamodio.gitlens"
     "editorconfig.editorconfig"
-    "emeraldwalk.runonsave"
+    # "emeraldwalk.runonsave"
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
     "formulahendry.code-runner"
