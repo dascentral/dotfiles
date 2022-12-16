@@ -67,6 +67,7 @@ cask 'alfred'
 cask 'appcleaner'
 cask 'bartender' # Bartender Alternative - https://matthewpalmer.net/vanilla/
 cask 'bettertouchtool'
+cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
@@ -74,7 +75,6 @@ cask 'github'
 cask 'google-drive' # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly'
 cask 'gpg-suite'
-# cask 'hey'          # https://formulae.brew.sh/cask/hey
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
