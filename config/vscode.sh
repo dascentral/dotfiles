@@ -11,8 +11,11 @@ if [ ! -e "/Applications/Visual Studio Code.app" ]; then
     abort "Visual Studio Code has not been installed.\n"
 fi
 
+# Old location
+# if [ ! -e "/usr/local/bin/code" ]; then
+
 # confirm command line utility is available
-if [ ! -e "/usr/local/bin/code" ]; then
+if [ ! -e "/opt/homebrew/bin/code" ]; then
     # TODO: Automate install of the command line utility
     abort "VS Code command line utility is not available.\n"
 fi
