@@ -45,6 +45,8 @@ We will need an SSH key to communicate with GitHub. [Generate a new public and p
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
 ```
 
+After generating this key, add it to your [GitHub profile](https://github.com/settings/keys) so that you can easily clone this repository.
+
 ### Clone this repository
 
 Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles`. All scripts and configurations assume that's the case.
