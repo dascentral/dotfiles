@@ -19,10 +19,10 @@ ${DOTFILES}/install/composer.sh
 ###############################################################################
 # BEGIN configurations
 
-${DOTFILES}/config/iterm2.sh
-${DOTFILES}/config/php.sh
-${DOTFILES}/config/sublime.sh
-${DOTFILES}/config/vscode.sh
+#${DOTFILES}/config/iterm2.sh
+#${DOTFILES}/config/php.sh
+#${DOTFILES}/config/sublime.sh
+#${DOTFILES}/config/vscode.sh
 
 # END configurations
 ###############################################################################
