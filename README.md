@@ -37,15 +37,17 @@ When migrating from an existing machine to another or setting up an additional c
 
 If you are setting up a new machine, odds are macOS is already up-to-date. However, check System Preferences on the new machine and install any pending updates.
 
+### App Store
+
+We install several of the software applications via the [Mac App Store CLI](https://github.com/mas-cli/mas), so ensure you are logged in to the App Store.
+
 ### Generate an SSH key
 
-We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command:
+We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command and then add it to your [GitHub profile](https://github.com/settings/keys).
 
 ```shell
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
 ```
-
-After generating this key, add it to your [GitHub profile](https://github.com/settings/keys) so that you can easily clone this repository.
 
 ### Clone this repository
 
@@ -59,7 +61,7 @@ git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 
 ### Installation
 
-The following script installs and configures most of the software that I use on a new machine. Since the `Brewfile` leans into the Mac App Store CLI, you will want to ensure you are logged in to the App Store before executing this command.
+The following script installs and configures most of the software that I use on a new machine.
 
 ```bash
 ~/.dotfiles/install.sh
