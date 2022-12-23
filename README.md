@@ -31,7 +31,7 @@ When migrating from an existing machine to another or setting up an additional c
 - Commit and push any pending changes within local git repositories
 - Move any important documents into cloud-based storage
 - Save all of your work within apps that do not sync to the cloud
-- Update your [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`
+- Update your [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup -f`
 
 ### Update macOS
 
