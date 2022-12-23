@@ -86,7 +86,7 @@ cask 'signal'
 cask 'spectacle'
 cask 'spotify'
 cask 'sublime-text'
-cask 'tableplus'
+#cask 'tableplus'   # Installed via Setapp
 cask 'telegram-desktop'
 cask 'teamviewer'
 cask 'the-unarchiver'
