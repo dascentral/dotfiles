@@ -19,6 +19,7 @@ ${DOTFILES}/install/composer.sh
 ###############################################################################
 # BEGIN configurations
 
+${DOTFILES}/config/mackup.sh
 #${DOTFILES}/config/iterm2.sh
 #${DOTFILES}/config/php.sh
 #${DOTFILES}/config/sublime.sh
