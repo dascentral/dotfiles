@@ -59,7 +59,7 @@ git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 
 ### Installation
 
-The following script installs and configures most of the software that I use on a new machine. Since the `Brewfile` leans into the Mac App Store CLI, you will want to log in to the App Store before executing this command.
+The following script installs and configures most of the software that I use on a new machine. Since the `Brewfile` leans into the Mac App Store CLI, you will want to ensure you are logged in to the App Store before executing this command.
 
 ```bash
 ~/.dotfiles/install.sh
