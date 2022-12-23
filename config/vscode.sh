@@ -16,7 +16,6 @@ fi
 
 # confirm command line utility is available
 if [ ! -e "/opt/homebrew/bin/code" ]; then
-    # TODO: Automate install of the command line utility
     abort "VS Code command line utility is not available.\n"
 fi
 
