@@ -49,9 +49,6 @@ brew 'zlib'
 
 # Casks
 
-# Typically installed manually for convenience during new computer setup
-# cask '1password'
-
 # Typically installed by AKQA IT
 # cask 'google-chrome'
 # cask 'slack'
@@ -61,6 +58,7 @@ brew 'zlib'
 # cask 'transmission'
 # cask 'transmit'
 
+cask '1password'
 cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
