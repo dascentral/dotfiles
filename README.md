@@ -26,7 +26,7 @@ The following repositories may provide additional examples from which to draw in
 
 ### Preparation
 
-Odds are you are migrating from an existing machine to another or you are setting up an additional computer that will match the setup of another. Before getting started, ensure you have a fresh backup of all of your data and settings.
+When migrating from an existing machine to another or setting up an additional computer that will match the setup of another, you will want to ensure you have a fresh backup of all of your data and settings.
 
 - Commit and push any pending changes within local git repositories
 - Move any important documents into cloud-based storage
