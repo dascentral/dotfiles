@@ -5,17 +5,15 @@ source /Users/${USER}/.dotfiles/shell/.functions
 # configure folders
 LOCALPATH="${HOME}/Library/Application Support/Code/User"
 CLOUDPATH="${DOTFILES}/settings/VSCode/User"
+CLI="/opt/homebrew/bin/code" # Previous check was for "/usr/local/bin/code"
 
 # confirm app has been installed
 if [ ! -e "/Applications/Visual Studio Code.app" ]; then
     abort "Visual Studio Code has not been installed.\n"
 fi
 
-# Old location
-# if [ ! -e "/usr/local/bin/code" ]; then
-
 # confirm command line utility is available
-if [ ! -e "/opt/homebrew/bin/code" ]; then
+if [ ! -e "${CLI}" ]; then
     abort "VS Code command line utility is not available.\n"
 fi
 
