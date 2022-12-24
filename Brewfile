@@ -54,7 +54,6 @@ brew 'zlib'
 # cask 'slack'
 
 # Unsure why these are disabled
-# cask 'ray'
 # cask 'transmission'
 # cask 'transmit'
 
@@ -80,6 +79,7 @@ cask 'miro'         # https://formulae.brew.sh/cask/miro
 cask 'phpmon'       # https://github.com/nicoverbruggen/phpmon
 cask 'pop'          # https://formulae.brew.sh/cask/pop
 cask 'postman'
+cask 'ray'          # https://formulae.brew.sh/cask/ray
 cask 'rocket'
 cask 'setapp'       # https://formulae.brew.sh/cask/setapp
 cask 'signal'
