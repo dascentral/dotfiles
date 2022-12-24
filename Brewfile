@@ -62,7 +62,7 @@ cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
-cask 'bartender' # Bartender Alternative - https://matthewpalmer.net/vanilla/
+cask 'bartender'    # Bartender Alternative - https://matthewpalmer.net/vanilla/
 cask 'bettertouchtool'
 cask 'discord'
 cask 'docker'
