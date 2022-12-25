@@ -62,7 +62,7 @@ cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
-cask 'bartender'     # Bartender Alternative - https://matthewpalmer.net/vanilla/
+#cask 'bartender'    # Installed via Setapp. Bartender Alternative - https://matthewpalmer.net/vanilla/
 cask 'bettertouchtool'
 cask 'discord'
 cask 'docker'
@@ -116,10 +116,10 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 
 # Mac App Store
-# mas 'MindNode', id: 1289197285 # Check Setapp
+# mas 'MindNode', id: 1289197285     # Installed via Setapp
 mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
-mas 'Forecast Bar', id: 982710545
+# mas 'Forecast Bar', id: 982710545  # Installed via Setapp
 # mas 'Spark', id: 1176895641
 mas 'Tomato 2: Pomodoro Timer', id:1494210770
 mas 'Tweetbot', id: 1384080005
