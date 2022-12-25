@@ -20,10 +20,10 @@ ${DOTFILES}/install/composer.sh
 # BEGIN configurations
 
 ${DOTFILES}/config/mackup.sh
+# TODO: Determine when/how to run "mackup restore -v -f"
+${DOTFILES}/config/iterm2.sh
 ${DOTFILES}/config/vscode.sh
 
-#${DOTFILES}/config/iterm2.sh
-#${DOTFILES}/config/php.sh
 #${DOTFILES}/config/sublime.sh
 
 # END configurations
