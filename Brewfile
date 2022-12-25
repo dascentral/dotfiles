@@ -76,6 +76,7 @@ cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
 cask 'miro'         # https://formulae.brew.sh/cask/miro
+cask 'notion'       # https://formulae.brew.sh/cask/notion
 cask 'phpmon'       # https://github.com/nicoverbruggen/phpmon
 cask 'pop'          # https://formulae.brew.sh/cask/pop
 cask 'postman'
