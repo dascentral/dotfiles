@@ -62,32 +62,33 @@ cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
-cask 'bartender'    # Bartender Alternative - https://matthewpalmer.net/vanilla/
+cask 'bartender'     # Bartender Alternative - https://matthewpalmer.net/vanilla/
 cask 'bettertouchtool'
 cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
-cask 'google-drive' # https://formulae.brew.sh/cask/google-drive
+cask 'google-drive'  # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
-cask 'miro'         # https://formulae.brew.sh/cask/miro
-cask 'notion'       # https://formulae.brew.sh/cask/notion
-cask 'phpmon'       # https://github.com/nicoverbruggen/phpmon
-cask 'pop'          # https://formulae.brew.sh/cask/pop
+cask 'miro'          # https://formulae.brew.sh/cask/miro
+cask 'notion'        # https://formulae.brew.sh/cask/notion
+cask 'phpmon'        # https://github.com/nicoverbruggen/phpmon
+cask 'pop'           # https://formulae.brew.sh/cask/pop
 cask 'postman'
-cask 'ray'          # https://formulae.brew.sh/cask/ray
+cask 'ray'           # https://formulae.brew.sh/cask/ray
+cask 'readdle-spark' # https://formulae.brew.sh/cask/readdle-spark
 cask 'rocket'
-cask 'setapp'       # https://formulae.brew.sh/cask/setapp
+cask 'setapp'        # https://formulae.brew.sh/cask/setapp
 cask 'signal'
 cask 'spectacle'
 cask 'spotify'
 cask 'sublime-text'
-#cask 'tableplus'   # Installed via Setapp
+#cask 'tableplus'    # Installed via Setapp
 cask 'telegram-desktop'
 cask 'teamviewer'
 cask 'the-unarchiver'
