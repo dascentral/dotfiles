@@ -7,4 +7,5 @@
 ### Files
 .DS_Store
 .env
-Brewfile.lock.json
+./Brewfile
+./Brewfile.lock.json
