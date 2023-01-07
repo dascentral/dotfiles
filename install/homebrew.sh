@@ -13,5 +13,5 @@ else
 fi
 
 info "Executing Brewfile"
-brew bundle --file $DOTFILES/Brewfile
+brew bundle --file ${DOTFILES}/Brewfile
 printf "\n"
