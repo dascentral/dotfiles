@@ -85,6 +85,7 @@ cask 'postman'
 cask 'ray'           # https://formulae.brew.sh/cask/ray
 cask 'readdle-spark' # https://formulae.brew.sh/cask/readdle-spark
 cask 'rocket'
+cask 'sequel-ace'
 #cask 'setapp'        # https://formulae.brew.sh/cask/setapp
 cask 'signal'
 cask 'spectacle'
