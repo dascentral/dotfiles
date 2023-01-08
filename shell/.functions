@@ -56,11 +56,11 @@ composer_json() {
 }
 
 composer_installed() {
-    [ -e /opt/homebrew/bin/composer ]
+    [ -e /opt/homebrew/bin/composer ] || [ -e /usr/local/bin/composer ]
 }
 
 homebrew_installed() {
-    [ -e /opt/homebrew/bin/brew ]
+    [ -e /opt/homebrew/bin/brew ] || [ -e /usr/local/bin/brew ]
 }
 
 confirm_composer_installed() {
