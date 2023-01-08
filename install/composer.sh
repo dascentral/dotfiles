@@ -7,7 +7,7 @@ confirm_composer_installed
 
 # update composer
 info "Composer self-update"
-/opt/homebrew/bin/composer self-update
+composer self-update
 printf "\n"
 
 # install global packages
