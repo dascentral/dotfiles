@@ -12,20 +12,20 @@ tap 'nicoverbruggen/homebrew-cask'
 # Brew
 # brew 'ack'
 # brew 'bash'
-#brew 'awscli'
+brew 'awscli'
 brew 'composer'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'gnupg2'
-#brew 'hashicorp/tap/packer'
+brew 'hashicorp/tap/packer'
 brew 'httpie'
 brew 'htop'
 brew 'hub'
 brew 'imagemagick'
 #brew 'fwartner/tap/mac-cleanup'
-#brew 'mackup'
+brew 'mackup'
 brew 'mas'
 brew 'mingw-w64'
 brew 'mysql'
@@ -60,45 +60,44 @@ brew 'zlib'
 # cask 'transmission'
 # cask 'transmit'
 
-#cask '1password'
+cask '1password'
 cask '1password-cli'
-#cask 'aerial'
+cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
 cask 'bettertouchtool'
-#cask 'discord'
-#cask 'docker'
-#cask 'figma'
-#cask 'firefox'
-#cask 'github'
-#cask 'google-drive'  # https://formulae.brew.sh/cask/google-drive
-#cask 'grammarly'
+cask 'discord'
+cask 'docker'
+cask 'figma'
+cask 'firefox'
+cask 'github'
+cask 'google-drive'  # https://formulae.brew.sh/cask/google-drive
+cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
-#cask 'insomnia'
+cask 'insomnia'
 cask 'iterm2'
-#cask 'miro'          # https://formulae.brew.sh/cask/miro
+cask 'miro'          # https://formulae.brew.sh/cask/miro
 cask 'notion'        # https://formulae.brew.sh/cask/notion
-#cask 'phpmon'        # https://github.com/nicoverbruggen/phpmon
-#cask 'pop'           # https://formulae.brew.sh/cask/pop
+cask 'phpmon'        # https://github.com/nicoverbruggen/phpmon
+cask 'pop'           # https://formulae.brew.sh/cask/pop
 cask 'postman'
 cask 'ray'           # https://formulae.brew.sh/cask/ray
 cask 'readdle-spark' # https://formulae.brew.sh/cask/readdle-spark
 cask 'rocket'
-cask 'sequel-ace'
-#cask 'setapp'        # https://formulae.brew.sh/cask/setapp
+cask 'setapp'        # https://formulae.brew.sh/cask/setapp
 cask 'signal'
 cask 'spectacle'
 cask 'spotify'
 cask 'sublime-text'
-#cask 'telegram-desktop'
-#cask 'teamviewer'
+cask 'telegram-desktop'
+cask 'teamviewer'
 cask 'the-unarchiver'
 cask 'tower'
 cask 'typora'
 cask 'visual-studio-code'
 cask 'vlc'
-#cask 'whatsapp'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -118,12 +117,12 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 
 # Mac App Store
-#mas 'Brother iPrint&Scan', id: 1193539993
+mas 'Brother iPrint&Scan', id: 1193539993
 mas 'Dato', id: 1470584107
 mas 'Evernote', id: 406056744
-#mas 'HP Easy Scan', id:967004861
+mas 'HP Easy Scan', id:967004861
 # mas 'Spark', id: 1176895641
-#mas 'Microsoft Remote Desktop', id: 1295203466
+mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Tomato 2: Pomodoro Timer', id: 1494210770
 mas 'Tweetbot', id: 1384080005
 
