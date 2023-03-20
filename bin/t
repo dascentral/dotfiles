@@ -6,11 +6,5 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-#if [ -f vendor/bin/pint ]; then
-#    info "Executing './vendor/bin/pint'"
-#    vendor/bin/pint
-#    printf "\n"
-#fi
-
-info "Executing 'php artisan test --parallel'"
-php artisan test --parallel "$@"
+info "Executing 'php artisan test'"
+php artisan test "$@"
