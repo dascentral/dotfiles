@@ -69,7 +69,7 @@ declare -a extensions=(
     "mikestead.dotenv"
     "mohamedbenhida.laravel-intellisense"
     "ms-azuretools.vscode-docker"
-    "ms-vscode.cpptools-extension-pack"
+    # "ms-vscode.cpptools-extension-pack"
     "ms-vscode-remote.remote-containers"
     "neilbrayfield.php-docblocker"
     "nikitakunevich.snippet-creator"
