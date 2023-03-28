@@ -7,9 +7,13 @@
   | The following settings govern how files will be formatted and linted.
   |
   */
-  // Disable VS Code's default validation which is now handled by Stylelint.
+  /**
+   * Disable VS Code's default validation which is now handled by Stylelint.
+   */
   "css.validate": false,
-  // Enable ESLint and Stylelint extensions to fix issues during save.
+  /**
+   * Enable ESLint and Stylelint extensions to fix issues during save.
+   */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
@@ -177,5 +181,11 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
+  /**
+   * Add custom tags for use within YAML.
+   */
+  "yaml.customTags": [
+    "!Ref"
+  ],
   "zenMode.fullScreen": false
 }
