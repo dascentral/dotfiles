@@ -46,6 +46,8 @@
   "files.insertFinalNewline": true,
   // Trim trailing whitespace from all files.
   "files.trimTrailingWhitespace": true,
+  // Disable JSON formatting. Handled via ESLint.
+  "json.format.enable": false,
   // Disable VS Code's default validation which is now handled by Stylelint.
   "less.validate": false,
   // Sort all namespaces alphabetically. Note that this largely duplicative to my PHP CS Fixer settings.
