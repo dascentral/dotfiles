@@ -68,6 +68,10 @@
   // "vetur.format.defaultFormatter.html": "prettier",
   // Validate vue-html in <template> using eslint-plugin-vue.
   // "vetur.validation.template": false,
+  // Add custom tags for use within YAML.
+  "yaml.customTags": [
+    "!Ref"
+  ],
   // Do NOT use single quotes within YAML documents.
   "yaml.format.singleQuote": false,
   // Blade files have a tab size of 4.
@@ -183,11 +187,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  /**
-   * Add custom tags for use within YAML.
-   */
-  "yaml.customTags": [
-    "!Ref"
-  ],
   "zenMode.fullScreen": false
 }
