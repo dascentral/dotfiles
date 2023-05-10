@@ -25,8 +25,7 @@
   // Add Emmet support for Blade and Vue.js templates.
   "emmet.includeLanguages": {
     "blade.php": "html",
-    "vue-html": "html",
-    "vue": "html"
+    "vue-html": "html"
   },
   // The array of language IDs which will be validated by ESLint.
   "eslint.validate": [
