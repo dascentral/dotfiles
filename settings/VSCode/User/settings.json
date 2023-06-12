@@ -160,6 +160,7 @@
     "\\.vue$"
   ],
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "laravel-pint.enable": true,
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.toc.unorderedList.marker": "*",
   "php.suggest.basic": false,
