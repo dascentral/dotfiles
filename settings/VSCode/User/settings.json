@@ -90,9 +90,9 @@
   "[json]": {
     "editor.tabSize": 4
   },
-  // PHP files have tab size of 4. PHP CS Fixer handles file formatting.
+  // Laravel Pint handles file formatting. Files have tab size of 4.
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
     "editor.tabSize": 4
   },
   // Shell scripts have tab size of 4.
