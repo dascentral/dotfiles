@@ -80,7 +80,7 @@
   // JavaScript formatting is handled by ESLint (via the Prettier plugin).
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   // React formatting is handled by ESLint (via the Prettier plugin).
   "[javascriptreact]": {
