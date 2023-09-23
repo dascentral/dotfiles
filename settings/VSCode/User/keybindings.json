@@ -1,11 +1,11 @@
 [
   {
     "key": "cmd+t",
-    "command": "better-phpunit.run"
+    "command": "better-pest.run"
   },
   {
     "key": "shift+cmd+t",
-    "command": "better-phpunit.run-file"
+    "command": "better-pest.run-file"
   },
   /**
    * Removed from better-phpunit to enable code folding. See "editor.toggleFold" below.
