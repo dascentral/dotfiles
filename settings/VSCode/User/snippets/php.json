@@ -10,17 +10,6 @@
     ],
     "description": "Constructor"
   },
-  "Laravel Accessor": {
-    "prefix": "accessor",
-    "body": [
-      "public function get$2Attribute(): $3",
-      "{",
-      "    return $4",
-      "}",
-      ""
-    ],
-    "description": "Laravel accessor"
-  },
   "Laravel Date Casting": {
     "prefix": "dates",
     "body": [
@@ -82,17 +71,6 @@
     ],
     "description": "Laravel \"hasOne\" Relationship"
   },
-  "Laravel Mutator": {
-    "prefix": "mutator",
-    "body": [
-      "public function set$2Attribute(\\$value)",
-      "{",
-      "    \\$this->attributes['$1'] = $3",
-      "}",
-      ""
-    ],
-    "description": "Laravel mutator"
-  },
   "Laravel Scope Query": {
     "prefix": "scope",
     "body": [
@@ -107,7 +85,11 @@
   "Laravel Foreign Key": {
     "prefix": "fk",
     "body": [
-      "\\$table->foreignId('$1')->constrained()->cascadeOnDelete();"
+      "\\$tbl->foreignId('$1')",
+      "    ->constrained()",
+      "    ->cascadeOnUpdate()",
+      "    ->nullOnDelete();",
+      "    ->cascadeOnDelete();"
     ],
     "description": "Foreign key constraint"
   },
@@ -153,8 +135,11 @@
   "Laravel Timestamp Replacements": {
     "prefix": "timestamps",
     "body": [
-      "\\$table->timestamp('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));",
-      "\\$table->timestamp('last_updated')->default(DB::raw('CURRENT_TIMESTAMP'));"
+      "\\$tbl->timestamp('date_created')",
+      "    ->default(DB::raw('CURRENT_TIMESTAMP'));",
+      "",
+      "\\$tbl->timestamp('last_updated')",
+      "    ->default(DB::raw('CURRENT_TIMESTAMP'));"
     ],
     "description": "Replaces Laravel default timestamp fields with my preferred columns."
   },
@@ -227,28 +212,6 @@
     ],
     "description": "Log all Laravel queries"
   },
-  "Livewire Computed Property": {
-    "prefix": "computed",
-    "body": [
-      "public function get$2Property(): $3",
-      "{",
-      "    return $4",
-      "}",
-      ""
-    ],
-    "description": "Livewire computed property"
-  },
-  "Livewire Mount Method": {
-    "prefix": "mount",
-    "body": [
-      "public function mount()",
-      "{",
-      "    $1",
-      "}",
-      ""
-    ],
-    "description": "The public method for Livewire's mount() method"
-  },
   "PHP Protected Method": {
     "prefix": "pmet",
     "body": [
@@ -278,27 +241,6 @@
     ],
     "description": "PHP private member variable"
   },
-  "PHPUnit Test": {
-    "prefix": "test",
-    "body": [
-      "/** @test */",
-      "public function it_$1()",
-      "{",
-      "    $2",
-      "}",
-      ""
-    ],
-    "description": "PHPUnit Test"
-  },
-  "PHP docblock": {
-    "prefix": "docblock",
-    "body": [
-      "/**",
-      " * $1",
-      " */"
-    ],
-    "description": "DocBlock"
-  },
   "PHP Invoke Method": {
     "prefix": "invoke",
     "body": [
@@ -309,41 +251,6 @@
     ],
     "description": "Creates a stub for an invoke method"
   },
-  "Ray Clear": {
-    "prefix": "rc",
-    "body": [
-      "ray()->clearScreen();"
-    ],
-    "description": "Clear the screen."
-  },
-  "Ray Send": {
-    "prefix": "rr",
-    "body": [
-      "ray()->send($1);"
-    ],
-    "description": "Send the variable to Ray for output."
-  },
-  "Ray Clear Screen and Send": {
-    "prefix": "rrc",
-    "body": [
-      "ray()->clearScreen()->send($1);"
-    ],
-    "description": "Clear the Ray screen and send the variable to Ray for output."
-  },
-  "Ray Clear Screen, Show App, and Send": {
-    "prefix": "rrcs",
-    "body": [
-      "ray()->clearScreen()->showApp()->send($1);"
-    ],
-    "description": "Clear the Ray screen, show the app, and send the variable to Ray for output."
-  },
-  "Ray Show App and Send": {
-    "prefix": "rrs",
-    "body": [
-      "ray()->showApp()->send($1);"
-    ],
-    "description": "Show the Ray app and send the variable to Ray for output."
-  },
   "Ray Show Queries": {
     "prefix": "rq",
     "body": [
@@ -351,23 +258,5 @@
       ""
     ],
     "description": "Show all queries executed."
-  },
-  "Route Member Variable": {
-    "prefix": "route",
-    "body": [
-      "protected string \\$route = '$1';",
-      ""
-    ],
-    "description": "Creates a protected member variable for a route string."
-  },
-  "Setup method": {
-    "prefix": "setup",
-    "body": [
-      "public function setUp(): void",
-      "{",
-      "    parent::setUp();",
-      "}",
-      ""
-    ]
   }
 }
