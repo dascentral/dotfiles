@@ -5,11 +5,11 @@ source /Users/${USER}/.dotfiles/shell/.functions
 parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
 
 if [ ${#parts[@]} -lt 4 ]; then
-    abort "You do not appear to be within a release branch."
+    abort "You do not appear to be within a feature branch."
 fi
 
-if [ ${parts[2]} != 'release' ]; then
-    abort "You do not appear to be within a release branch."
+if [ ${parts[2]} != 'feature' ]; then
+    abort "You do not appear to be within a feature branch."
 fi
 
-git hf release finish ${parts[3]}
+git hf feature finish ${parts[3]}
