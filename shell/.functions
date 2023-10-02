@@ -81,6 +81,10 @@ confirm_ag_is_installed() {
     fi
 }
 
+docker_compose() {
+    [ -e "docker-compose.yml" ]
+}
+
 dotfiles_live_where_expected() {
     if [ ! -e "${DOTFILES}" ]; then
         abort "The dotfiles repo does not exist in the expected location."
