@@ -2,6 +2,8 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
+abort 'Command disabled.';
+
 if [ $# != 1 ]; then
     usage "Usage: phpv [php|php@8.0|php@7.4]"
 fi
