@@ -8,7 +8,7 @@ fi
 
 if docker_compose; then
     info "Executing 'sail artisan test'"
-    sail artisan test "$@"
+    ./vendor/bin/sail artisan test "$@"
 else
     info "Executing 'php artisan test'"
     php artisan test "$@"

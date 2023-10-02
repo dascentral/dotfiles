@@ -13,7 +13,7 @@ fi;
 
 if docker_compose; then
     info "Executing 'sail ${message}'"
-    sail artisan "$@"
+    ./vendor/bin/sail artisan "$@"
 else
     info "Executing 'php ${message}'"
     php artisan "$@"

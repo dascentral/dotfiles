@@ -7,7 +7,7 @@ if ! laravel_application_root; then
 fi
 
 if docker_compose; then
-    sail artisan migrate:fresh --seed
+    ./vendor/bin/sail artisan migrate:fresh --seed
 else
     php artisan migrate:fresh --seed
 fi
