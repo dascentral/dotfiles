@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+message="artisan"
+if [ $# -gt 0 ]; then
+    message+=" ${@}"
+fi;
+
+if docker_compose; then
+    info "Executing 'sail ${message}'"
+    sail artisan "$@"
+else
+    info "Executing 'php ${message}'"
+    php artisan "$@"
+fi
