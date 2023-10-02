@@ -2,11 +2,13 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
+abort 'Command disabled.';
+
 # Remove all containers
-docker rm $(docker ps -a -q)
+#docker rm $(docker ps -a -q)
 
 # Remove all images
-docker rmi $(docker images -q)
+#docker rmi $(docker images -q)
 
 # Remove unused volumes
-docker volume prune --force
+#docker volume prune --force
