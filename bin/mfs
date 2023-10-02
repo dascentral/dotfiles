@@ -6,4 +6,8 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-php artisan migrate:fresh --seed
+if docker_compose; then
+    sail artisan migrate:fresh --seed
+else
+    php artisan migrate:fresh --seed
+fi
