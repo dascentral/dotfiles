@@ -43,7 +43,7 @@ We install several of the software applications via the [Mac App Store CLI](http
 
 ### Generate an SSH key
 
-We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command and then add it to your [GitHub profile](https://github.com/settings/keys).
+We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command and then adding the key to your [GitHub profile](https://github.com/settings/keys).
 
 ```shell
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
@@ -51,7 +51,7 @@ curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "
 
 ### Clone this repository
 
-Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles`. All scripts and configurations assume that's the case.
+Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles` folder. All scripts and configurations assume that's the case.
 
 Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html). Go grab a coffee/snack/meal while that download and install takes place.
 
@@ -63,7 +63,7 @@ git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 
 I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, you will need to add a `Brewfile` to the root of the repository.
 
-I have placed two samples within `config/Brewfile` that you may customize for your own use. If you were adopting my personal configuration, you could execute the following command:
+I have placed two samples within `config/Brewfile` that you may use as a template. You can execute the following command to adopt my personal configuration:
 
 ```bash
 cp config/Brewfile/Brewfile.personal ./Brewfile
