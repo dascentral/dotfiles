@@ -47,10 +47,10 @@ cask 'firefox'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'iterm2'
-cask 'notion'        # https://formulae.brew.sh/cask/notion
+cask 'notion'              # https://formulae.brew.sh/cask/notion
 cask 'postman'
-cask 'ray'           # https://formulae.brew.sh/cask/ray
-cask 'readdle-spark' # https://formulae.brew.sh/cask/readdle-spark
+cask 'ray'                 # https://formulae.brew.sh/cask/ray
+cask 'readdle-spark'       # https://formulae.brew.sh/cask/readdle-spark
 cask 'rocket'
 cask 'sequel-ace'
 cask 'signal'
@@ -76,7 +76,7 @@ cask 'webpquicklook'
 # Fonts
 cask 'font-fira-code'
 cask 'font-lato'
-cask 'font-source-code-pro'
+#cask 'font-source-code-pro'  # not found as of Oct 2023
 cask 'font-source-sans-pro'
 
 # Mac App Store
