@@ -59,6 +59,16 @@ Note that issuing your first `git` command will prompt installation of the [Xcod
 git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 ```
 
+### Create a Brewfile
+
+I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, you will need to add a `Brewfile` to the root of the repository.
+
+I have placed two samples within `config/Brewfile` that you may customize for your own use. If you were adopting my personal configuration, you could execute the following command:
+
+```bash
+cp config/Brewfile/Brewfile.personal ./Brewfile
+```
+
 ### Installation
 
 The following script installs and configures most of the software that I use on a new machine.
