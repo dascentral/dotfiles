@@ -69,7 +69,7 @@ cask 'appcleaner'
 cask 'bettertouchtool'
 cask 'discord'
 cask 'docker'
-cask 'figma'
+#cask 'figma'            # Switching to a manual install
 cask 'firefox'
 cask 'github'
 cask 'google-drive'      # https://formulae.brew.sh/cask/google-drive
