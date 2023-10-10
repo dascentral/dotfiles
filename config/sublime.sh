@@ -24,6 +24,6 @@ source /Users/${USER}/.dotfiles/shell/.functions
 # fi
 
 # create a symbolic link to the Sublime executable that can be executed globally
-if [ ! -e /usr/local/bin/subl ]; then
-    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-fi
+#if [ ! -e /usr/local/bin/subl ]; then
+#    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+#fi
