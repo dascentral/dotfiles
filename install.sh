@@ -11,18 +11,17 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 # BEGIN installation
 
-${DOTFILES}/install/oh-my-zsh.sh
-${DOTFILES}/install/homebrew.sh
-${DOTFILES}/install/composer.sh
+$DOTFILES/install/oh-my-zsh.sh
+$DOTFILES/install/homebrew.sh
+$DOTFILES/install/composer.sh
 
 # END installations
 ###############################################################################
 # BEGIN configurations
 
-${DOTFILES}/config/mackup.sh
+$DOTFILES/config/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
-${DOTFILES}/config/iterm2.sh
-${DOTFILES}/config/vscode.sh
+$DOTFILES/config/vscode.sh
 
 #${DOTFILES}/config/sublime.sh
 
