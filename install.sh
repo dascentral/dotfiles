@@ -23,6 +23,7 @@ $DOTFILES/config/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
 $DOTFILES/config/vscode.sh
 
+# Managed via Mackup. Remove all references.
 #${DOTFILES}/config/sublime.sh
 
 # END configurations
