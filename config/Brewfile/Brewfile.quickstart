@@ -1,0 +1,22 @@
+# Installation items for a personal machine
+
+# Taps
+tap 'hashicorp/tap'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
+# Brew
+brew 'composer'
+brew 'mackup'
+brew 'the_silver_searcher'
+
+# Casks
+cask '1password'
+cask '1password-cli'
+cask 'alfred'
+cask 'iterm2'
+cask 'notion'             # https://formulae.brew.sh/cask/notion
+cask 'sublime-text'
