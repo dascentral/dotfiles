@@ -1,5 +1,3 @@
-# Installation items for a personal machine
-
 # Taps
 tap 'hashicorp/tap'
 tap 'homebrew/cask'
