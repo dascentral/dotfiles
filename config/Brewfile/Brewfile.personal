@@ -53,9 +53,10 @@ brew 'zlib'
 
 # Casks
 
-# Typically installed by AKQA IT
+# Typically installed by corporate IT
 # cask 'google-chrome'
 # cask 'slack'
+# cask 'figma'             # Switching to a manual install
 
 # Unsure why these are disabled
 # cask 'transmission'
@@ -69,10 +70,9 @@ cask 'appcleaner'
 cask 'bettertouchtool'
 cask 'discord'
 cask 'docker'
-#cask 'figma'            # Switching to a manual install
 cask 'firefox'
 cask 'github'
-cask 'google-drive'      # https://formulae.brew.sh/cask/google-drive
+cask 'google-drive'       # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
