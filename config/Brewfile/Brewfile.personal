@@ -1,17 +1,12 @@
-# Installation items for a personal machine
-
 # Taps
 tap 'hashicorp/tap'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-#tap 'fwartner/tap'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Brew
-# brew 'ack'
-# brew 'bash'
 brew 'awscli'
 brew 'composer'
 brew 'coreutils' # Those that come with macOS are outdated
@@ -25,7 +20,6 @@ brew 'httpie'
 brew 'htop'
 brew 'hub'
 brew 'imagemagick'
-#brew 'fwartner/tap/mac-cleanup'
 brew 'mackup'
 brew 'mas'
 brew 'mingw-w64'
@@ -36,7 +30,6 @@ brew 'php@8.1'
 brew 'pkg-config'
 brew 'redis'
 brew 'ssh-copy-id'
-brew 'svn'
 brew 'the_silver_searcher'
 brew 'trash'
 brew 'tree'
