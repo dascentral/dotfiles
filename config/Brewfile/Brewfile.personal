@@ -103,8 +103,8 @@ cask 'webpquicklook'
 # Fonts
 cask 'font-fira-code'
 cask 'font-lato'
-#cask 'font-source-code-pro'  # not found as of Oct 2023
-cask 'font-source-sans-pro'
+cask 'font-source-code-pro'
+#cask 'font-source-sans-pro' # not found as of Oct 2023
 
 # Mac App Store
 mas 'Brother iPrint&Scan', id: 1193539993
