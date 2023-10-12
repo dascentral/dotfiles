@@ -49,15 +49,10 @@ brew 'zlib'
 # Typically installed by corporate IT
 # cask 'google-chrome'
 # cask 'slack'
-# cask 'figma'             # Switching to a manual install
-
-# Unsure why these are disabled
-# cask 'transmission'
-# cask 'transmit'
+# cask 'figma'
 
 cask '1password'
 cask '1password-cli'
-cask 'aerial'
 cask 'alfred'
 cask 'appcleaner'
 cask 'bettertouchtool'
@@ -88,6 +83,7 @@ cask 'teamviewer'
 cask 'the-unarchiver'
 cask 'tinkerwell'         # https://formulae.brew.sh/cask/tinkerwell
 cask 'tower'
+cask 'transmit'
 cask 'typora'
 cask 'visual-studio-code'
 cask 'vlc'
