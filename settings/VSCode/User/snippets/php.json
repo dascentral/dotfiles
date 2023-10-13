@@ -97,7 +97,10 @@
     "prefix": "casts",
     "body": [
       "protected \\$casts = [",
+      "    'id' => 'integer',"
       "    $1",
+      "    'date_created' => 'datetime',"
+      "    'last_updated' => 'datetime',"
       "];",
       ""
     ],
