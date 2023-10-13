@@ -145,15 +145,4 @@
     "command": "editor.emmet.action.removeTag",
     "when": "editorTextFocus"
   },
-  /**
-   * Split Editor - Updated to match the Arc browser
-   */
-  {
-    "key": "ctrl+shift+=",
-    "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+\\",
-    "command": "-workbench.action.splitEditor"
-  },
 ]
