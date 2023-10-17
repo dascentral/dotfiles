@@ -65,7 +65,7 @@ declare -a extensions=(
     "irongeek.vscode-env"
     # "junstyle.php-cs-fixer"
     "lucax88x.codeacejumper"
-    "m1guelpf.better-pest"
+    # "m1guelpf.better-pest" - better-phpunit now supports Pest
     "mehedidracula.php-namespace-resolver"
     "mikestead.dotenv"
     "mohamedbenhida.laravel-intellisense"
