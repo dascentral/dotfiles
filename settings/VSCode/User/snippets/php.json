@@ -30,7 +30,7 @@
   "Laravel BelongsTo Relationship": {
     "prefix": "belongsto",
     "body": [
-      "public function $1()",
+      "public function $1(): BelongsTo",
       "{",
       "    return \\$this->belongsTo($2::class);",
       "}",
