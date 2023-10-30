@@ -71,8 +71,10 @@
   "yaml.customTags": [
     "!Ref"
   ],
-  // Do NOT use single quotes within YAML documents.
-  "yaml.format.singleQuote": false,
+  /**
+   * Use single quotes within YAML documents.
+   */
+  "yaml.format.singleQuote": true,
   // Blade files have a tab size of 4.
   "[blade]": {
     "editor.tabSize": 4
