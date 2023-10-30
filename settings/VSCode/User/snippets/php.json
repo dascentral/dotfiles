@@ -41,7 +41,7 @@
   "Laravel BelongsToMany Relationship": {
     "prefix": "belongstomany",
     "body": [
-      "public function $1()",
+      "public function $1(): BelongsToMany",
       "{",
       "    return \\$this->belongsToMany($2::class);",
       "}",
