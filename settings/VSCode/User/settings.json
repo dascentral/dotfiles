@@ -180,14 +180,14 @@
   "vsicons.dontShowNewVersionMessage": true,
   "window.openFilesInNewWindow": "on",
   "window.restoreWindows": "all",
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "zenMode.fullScreen": false
+  "zenMode.fullScreen": false,
+  "workbench.activityBar.location": "hidden"
 }
