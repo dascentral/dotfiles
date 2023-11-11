@@ -10,6 +10,19 @@
     ],
     "description": "Constructor"
   },
+  "Laravel Accessor": {
+    "prefix": "accessor",
+    "body": [
+      "public function $1(): Attribute",
+      "{",
+      "    return Attribute::make(",
+      "        get: fn (string \\$value) => ucfirst(\\$value),",
+      "    );",
+      "}",
+      ""
+    ],
+    "description": "Constructor"
+  },
   "Laravel Date Casting": {
     "prefix": "dates",
     "body": [
