@@ -15,8 +15,8 @@
    * Enable ESLint and Stylelint extensions to fix issues during save.
    */
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
   // All files will end with a blank new line.
   "editor.renderFinalNewline": "dimmed",
@@ -124,6 +124,7 @@
   "blade.format.enable": false,
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
+  "editor.accessibilitySupport": "off",
   // Disable automatic detection of indentation.
   "editor.detectIndentation": false,
   // Enable use of a custom font.
@@ -180,6 +181,7 @@
   "vsicons.dontShowNewVersionMessage": true,
   "window.openFilesInNewWindow": "on",
   "window.restoreWindows": "all",
+  "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "Nord",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": "single",
@@ -188,6 +190,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "zenMode.fullScreen": false,
-  "workbench.activityBar.location": "hidden"
+  "zenMode.fullScreen": false
 }
