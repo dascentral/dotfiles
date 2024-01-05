@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+function turn_wifi_off() {
+    sudo networksetup -setairportpower en0 off
+}
+
+function turn_wifi_on() {
+    sudo networksetup -setairportpower en0 on
+}
+
+turn_wifi_off
+
+sleep 10
+
+turn_wifi_on
