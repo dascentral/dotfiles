@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if [ $# != 1 ]; then
+    usage "Usage: unhide [/path/to/your/file]"
+fi
+
+chflags nohidden $1
