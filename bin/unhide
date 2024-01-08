@@ -6,4 +6,4 @@ if [ $# != 1 ]; then
     usage "Usage: unhide [/path/to/your/file]"
 fi
 
-chflags nohidden $1
+chflags nohidden "${1}"
