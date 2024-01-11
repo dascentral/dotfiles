@@ -2,8 +2,17 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-if [ $# != 1 ]; then
-    usage "Usage: unhide [/path/to/your/file]"
+if [ $# -eq 0 ]; then
+    usage "Usage: $0 [file1] [file2] [...]"
 fi
 
-chflags nohidden "${1}"
+for file in "$@"; do
+    if [ -e "$file" ]; then
+        chflags nohidden "$file"
+        echo "File '$file' is no longer hidden."
+    else
+        echo "File '$file' does not exist."
+    fi
+done
+
+exit 0
