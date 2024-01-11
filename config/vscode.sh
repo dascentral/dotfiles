@@ -59,6 +59,7 @@ declare -a extensions=(
     "equinusocio.vsc-material-theme-icons"
     "formulahendry.code-runner"
     "geeksharp.openssl-configuration-file"
+    "github.copilot"
     "github.vscode-github-actions"
     "gitlab.gitlab-workflow"
     "hashicorp.terraform"
