@@ -24,8 +24,5 @@ $DOTFILES/config/mackup.sh
 $DOTFILES/config/sublime.sh
 $DOTFILES/config/vscode.sh
 
-# Managed via Mackup. Remove all references.
-#${DOTFILES}/config/sublime.sh
-
 # END configurations
 ###############################################################################
