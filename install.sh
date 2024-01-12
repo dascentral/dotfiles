@@ -21,6 +21,7 @@ $DOTFILES/install/composer.sh
 
 $DOTFILES/config/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
+$DOTFILES/config/sublime.sh
 $DOTFILES/config/vscode.sh
 
 # Managed via Mackup. Remove all references.
