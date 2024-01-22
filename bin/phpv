@@ -3,11 +3,24 @@
 source /Users/${USER}/.dotfiles/shell/.functions
 
 if [ $# != 1 ]; then
-    usage "Usage: phpv [php|php@8.2|php@8.1]"
+    usage "Usage: phpv [8.1|8.2|8.3]"
 fi
 
-valet use $1
-composer global update
+case $1 in
+    "8.3"|"8.2"|"8.1")
+        if [ $1 == "php" ]; then
+            info "Setting PHP version to 8.3"
+            valet use php
+        else
+            info "Setting PHP version to $1"
+            valet use php@$1
+        fi
+        composer global update
+        ;;
+    *)
+        usage "Usage: phpv [8.1|8.2|8.3]"
+        ;;
+esac
 
 # Old commands
 #valet stop
