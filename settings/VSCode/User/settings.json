@@ -135,6 +135,8 @@
   "editor.formatOnSave": true,
   "editor.lineHeight": 32,
   "editor.snippetSuggestions": "top",
+  // Enable sticky scroll.
+  "editor.stickyScroll.enabled": true,
   "editor.tabCompletion": "on",
   "eslint.alwaysShowStatus": true,
   "explorer.autoReveal": false,
