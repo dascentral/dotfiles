@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+# confirm we are operating within a Git repository
+if ! git_is_initialized; then
+    abort "You are not currently within a Git repository."
+fi
+
+# prepare commit message
+commitMessage="WIP"
+
+# add and commit all items
+git add .
+eval "git commit -a -m '${commitMessage}'"
+
+# push accordingly
+if hubflow_is_initialized; then
+    git hf push
+else
+    git push
+fi
