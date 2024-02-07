@@ -73,6 +73,7 @@ cask 'pop'                # https://formulae.brew.sh/cask/pop
 cask 'postman'
 cask 'ray'                # https://formulae.brew.sh/cask/ray
 cask 'readdle-spark'      # https://formulae.brew.sh/cask/readdle-spark
+cask 'rectangle-pro'      # https://formulae.brew.sh/cask/rectangle-pro
 cask 'rocket'
 cask 'setapp'             # https://formulae.brew.sh/cask/setapp
 cask 'signal'
