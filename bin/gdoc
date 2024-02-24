@@ -9,5 +9,5 @@ if [ -n "$files" ]; then
     echo "The following Google Documents were found:"
     echo "$files"
 else
-    echo "No relevant documents found."
+    info "No relevant documents found."
 fi
