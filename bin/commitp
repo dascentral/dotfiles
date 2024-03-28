@@ -8,7 +8,7 @@ if ! git_is_initialized; then
 fi
 
 if [ $# != 1 ]; then
-    usage "Usage: commit [message]"
+    usage "Usage: commitp [message]"
 fi
 
 # prepare commit message
