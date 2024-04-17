@@ -1,35 +1,24 @@
 # Aliases - Managing this file
 alias va='subl ~/dotfiles/shell/.aliases'
 
-#------------------------------------------------------------------------------------------
 # Directory Switching
-#------------------------------------------------------------------------------------------
 alias dev='cd ~/Workspace'
 alias docs='cd ~/Documents'
 alias dot='cd ~/.dotfiles'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
-
-#------------------------------------------------------------------------------------------
 # Composer
-#------------------------------------------------------------------------------------------
 alias cda='composer dumpautoload'
 alias cf='composer format'
 
-
-#------------------------------------------------------------------------------------------
 # Docker
-#------------------------------------------------------------------------------------------
 alias d='docker'
 alias dc='docker-compose'
 alias di='docker images'
 alias dm='docker-machine'
 alias dv='docker volume ls'
 
-
-#------------------------------------------------------------------------------------------
 # Git
-#------------------------------------------------------------------------------------------
 alias fomo="git symbolic-ref --quiet HEAD | grep --quiet "refs/heads/main" || git checkout main && git fetch origin main && git rebase origin/main && git fetch --prune"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gs='git status'
@@ -37,75 +26,42 @@ alias nah='git reset HEAD --hard'
 alias repush='git pull --rebase && git push'
 alias undo='git undo'
 
-
-#------------------------------------------------------------------------------------------
 # HubFlow
-#------------------------------------------------------------------------------------------
 alias hfs='git hf feature start'
 alias ghu='git hf update'
 alias rmaj='hf release major'
 alias rmin='hf release minor'
 alias rpat='hf release patch'
 
-
-#------------------------------------------------------------------------------------------
 # Homebrew
-#------------------------------------------------------------------------------------------
 alias bsl='brew services list'
 alias bsr='brew services restart'
 
-
-#------------------------------------------------------------------------------------------
 # Laravel
-#------------------------------------------------------------------------------------------
 alias dusk='php artisan dusk'
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias td='php artisan test --parallel && php artisan dusk'
 alias tf='php artisan test --parallel --stop-on-failure'
-#alias a='php artisan'
-#alias sa='sail artisan'
 
-
-#------------------------------------------------------------------------------------------
-# Node.js & JavaScript
-#------------------------------------------------------------------------------------------
-alias lg='yarn dev'
-alias nrb='npm run build'
-alias nrd='npm run dev'
-alias nrl='npm run lint'
-alias nrs='npm run start'
 alias sb='yarn storybook'
-alias y='yarn dev'
 
-
-#------------------------------------------------------------------------------------------
 # Opening files and folders
-#------------------------------------------------------------------------------------------
-alias dt='open ~/Desktop'
 alias o='open .'
 alias oc='code .'
 alias or='open README.md'
 alias s='subl .'
 
-
-#------------------------------------------------------------------------------------------
 # Permissions
-#------------------------------------------------------------------------------------------
 alias d755='find . -type d -exec chmod 755 {} \;'
 alias f644='find . -type f -exec chmod 644 {} \;'
 
-
-#------------------------------------------------------------------------------------------
 # PHP
-#------------------------------------------------------------------------------------------
 alias php81='phpv php'
 alias php80='phpv php@8.0'
 alias php74='phpv php@7.4'
 
 
-#------------------------------------------------------------------------------------------
 # Utilities
-#------------------------------------------------------------------------------------------
 alias c='clear'
 alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
 alias flush_dns='sudo killall -HUP mDNSResponder'
@@ -119,53 +75,7 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias size='du -hs ./'
 alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
 
-
-#------------------------------------------------------------------------------------------
 # Zsh Config
-#------------------------------------------------------------------------------------------
 alias cz='cat ~/.zshrc'
 alias vz='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
-
-
-
-
-###########################################################################################
-# DISABLED
-###########################################################################################
-# All aliases listed below are disabled due to use of Docker and Laravel Sail.
-#
-#
-#------------------------------------------------------------------------------------------
-# Laravel
-#------------------------------------------------------------------------------------------
-#alias a='php artisan'
-#alias dusk='php artisan dusk'
-#alias mfs='php artisan migrate:fresh --seed'
-#alias t='php artisan test'
-#
-#
-#------------------------------------------------------------------------------------------
-# MySQL
-#------------------------------------------------------------------------------------------
-#alias mysql_start='sudo /usr/local/mysql/support-files/mysql.server start'
-#alias mysql_stop='sudo /usr/local/mysql/support-files/mysql.server stop'
-#alias mysql_restart='sudo /usr/local/mysql/support-files/mysql.server restart'
-#
-#
-#------------------------------------------------------------------------------------------
-# Nginx
-#------------------------------------------------------------------------------------------
-#alias cnge='cat /usr/local/var/log/nginx/error.log'
-#alias ng='cd /usr/local/etc/nginx'
-#alias ngbrew='cd /usr/local/Cellar/nginx/1.13.10'
-#alias nglogs='cd /var/log/nginx'
-#alias ngrestart='brew services restart nginx'
-#alias ngstart='brew services start nginx'
-#alias ngstop='brew services stop nginx'
-#alias sites='cd /usr/local/etc/nginx/sites-available'
-#alias tnge='tail -f /usr/local/var/log/nginx/error.log'
-#
-# cat /usr/local/var/log/nginx/error.log
-# cd /var/log/nginx
-# cd /usr/local/Cellar/nginx/1.13.10
