@@ -56,11 +56,6 @@ alias s='subl .'
 alias d755='find . -type d -exec chmod 755 {} \;'
 alias f644='find . -type f -exec chmod 644 {} \;'
 
-# PHP
-alias php83='phpv php'
-alias php82='phpv php@8.2'
-alias php81='phpv php@8.1'
-
 # Utilities
 alias c='clear'
 alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
