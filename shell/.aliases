@@ -1,5 +1,5 @@
 # Aliases - Managing this file
-alias va='subl ~/dotfiles/shell/.aliases'
+alias va='subl ~/.dotfiles/shell/.aliases'
 
 # Directory Switching
 alias dev='cd ~/Workspace'
