@@ -68,6 +68,7 @@ declare -a extensions=(
     # "junstyle.php-cs-fixer"
     "lucax88x.codeacejumper"
     # "m1guelpf.better-pest" - better-phpunit now supports Pest
+    "mattpocock.ts-error-translator"
     "mehedidracula.php-namespace-resolver"
     "mikestead.dotenv"
     "mohamedbenhida.laravel-intellisense"
