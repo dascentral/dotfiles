@@ -57,6 +57,7 @@ declare -a extensions=(
     # "emeraldwalk.runonsave"
     "equinusocio.vsc-material-theme"
     "equinusocio.vsc-material-theme-icons"
+    "esbenp.prettier-vscode"
     "formulahendry.code-runner"
     "geeksharp.openssl-configuration-file"
     "github.copilot"
