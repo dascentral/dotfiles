@@ -1,0 +1,8 @@
+[user]
+    email = smithda@gmail.com
+    name = Douglas Smith
+[push]
+    autoSetupRemote = true
+[alias]
+    gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
+    fomo = ! "git symbolic-ref --quiet HEAD | grep --quiet \"refs/heads/main\" || git checkout main && git fetch origin main && git rebase origin/main"
