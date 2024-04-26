@@ -18,11 +18,17 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
-  // All files will end with a blank new line.
+  /**
+   * All files will end with a blank new line.
+   */
   "editor.renderFinalNewline": "dimmed",
-  // Set the default tab size to 2.
+  /**
+   * Set the default tab size to 2.
+   */
   "editor.tabSize": 2,
-  // Add Emmet support for Blade and Vue.js templates.
+  /**
+   * Add Emmet support for Blade and Vue.js templates.
+   */
   "emmet.includeLanguages": {
     "blade.php": "html",
     "vue-html": "html"
