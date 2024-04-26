@@ -28,12 +28,7 @@
     "vue-html": "html"
   },
   // The array of language IDs which will be validated by ESLint.
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue",
-    "vue-html"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "vue-html"],
   // Add PHP support for PHP CS Fixer configuration files.
   "files.associations": {
     ".blade.php": "html",
@@ -68,9 +63,7 @@
   // Validate vue-html in <template> using eslint-plugin-vue.
   // "vetur.validation.template": false,
   // Add custom tags for use within YAML.
-  "yaml.customTags": [
-    "!Ref"
-  ],
+  "yaml.customTags": ["!Ref"],
   /**
    * Use single quotes within YAML documents.
    */
@@ -115,11 +108,7 @@
   | teams, the settings below are entirely personal preference.
   |
   */
-  "advancedNewFile.convenienceOptions": [
-    "current",
-    "last",
-    "root"
-  ],
+  "advancedNewFile.convenienceOptions": ["current", "last", "root"],
   // Whether to enable/disable formatting via Laravel Blade Snippets extension.
   "blade.format.enable": false,
   "breadcrumbs.enabled": false,
@@ -161,9 +150,7 @@
   "go.formatTool": "goimports",
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
-  "importCost.typescriptExtensions": [
-    "\\.vue$"
-  ],
+  "importCost.typescriptExtensions": ["\\.vue$"],
   "javascript.updateImportsOnFileMove.enabled": "never",
   "laravel-pint.enable": true,
   "markdown.extension.orderedList.autoRenumber": false,
@@ -177,6 +164,8 @@
   "tailwindCSS.colorDecorators": false,
   "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.rendererType": "dom",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
   /**
    * Do not show new version messages for the vscode-icons extension.
    */
