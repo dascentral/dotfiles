@@ -50,7 +50,7 @@ alias nrl='npm run lint'
 alias nrf='npm run format'
 
 # Storybook
-alias sb='npm run storybook'
+alias storybook='npm run storybook'
 
 # Opening files and folders
 alias o='open .'
