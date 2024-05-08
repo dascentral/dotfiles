@@ -45,11 +45,12 @@ alias tf='php artisan test --parallel --stop-on-failure'
 
 # NPM
 alias nr='npm run'
+alias nrd='npm run dev'
 alias nrl='npm run lint'
 alias nrf='npm run format'
 
 # Storybook
-alias sb='yarn storybook'
+alias sb='npm run storybook'
 
 # Opening files and folders
 alias o='open .'
