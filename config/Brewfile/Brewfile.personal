@@ -60,7 +60,6 @@ cask 'docker'
 cask 'firefox'
 cask 'github'
 cask 'google-drive'       # https://formulae.brew.sh/cask/google-drive
-cask 'grammarly'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
