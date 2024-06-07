@@ -152,6 +152,7 @@
    */
   "files.hotExit": "onExitAndWindowClose",
   "git.autofetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
   "gitlens.codeLens.enabled": false,
   "go.formatTool": "goimports",
   "go.toolsManagement.autoUpdate": true,
