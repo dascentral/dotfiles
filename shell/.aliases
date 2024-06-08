@@ -48,6 +48,7 @@ alias nr='npm run'
 alias nrd='npm run dev'
 alias nrl='npm run lint'
 alias nrf='npm run format'
+alias nrs='npm run storybook'
 
 # Storybook
 alias storybook='npm run storybook'
