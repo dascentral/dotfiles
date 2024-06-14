@@ -6,7 +6,7 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
-if docker_compose; then
+if using_laravel_sail; then
     info "Executing 'sail artisan test'"
     ./vendor/bin/sail artisan test "$@"
 else
