@@ -170,3 +170,8 @@ oh_my_zsh_installed() {
 package_json_exists() {
     [ -e "package.json" ]
 }
+
+# In theory, I should check for a .env first
+using_laravel_sail() {
+    grep -q "APP_PORT=8080" ".env"
+}
