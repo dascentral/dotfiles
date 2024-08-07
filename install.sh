@@ -8,21 +8,11 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-###############################################################################
-# BEGIN installation
-
-$DOTFILES/scripts/oh-my-zsh.sh
-$DOTFILES/scripts/homebrew.sh
-$DOTFILES/scripts/composer.sh
-
-# END installations
-###############################################################################
-# BEGIN configurations
-
-$DOTFILES/config/mackup.sh
+# run scripts
+${DOTFILES}/scripts/oh-my-zsh.sh
+${DOTFILES}/scripts/homebrew.sh
+${DOTFILES}/scripts/composer.sh
+# ${DOTFILES}/config/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
-$DOTFILES/config/sublime.sh
-$DOTFILES/config/vscode.sh
-
-# END configurations
-###############################################################################
+# ${DOTFILES}/config/sublime.sh
+${DOTFILES}/scripts/vscode.sh
