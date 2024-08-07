@@ -11,11 +11,11 @@ dotfiles_confirm_stable
 # clear the screen
 clear
 
-# run maintenance scripts
-./maintain/prepare.sh
-./maintain/homebrew.sh
-./maintain/macos.sh
-./install/composer.sh
+# run scripts
+./scripts/git-pull.sh
+./scripts/homebrew.sh
+./scripts/macos.sh
+./scripts/composer.sh
 
 # local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
