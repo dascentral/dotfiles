@@ -16,3 +16,5 @@ ${DOTFILES}/scripts/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
 ${DOTFILES}/scripts/sublime.sh
 ${DOTFILES}/scripts/vscode.sh
+${DOTFILES}/scripts/git.sh
+${DOTFILES}/scripts/ssh.sh

@@ -16,6 +16,8 @@ clear
 ./scripts/homebrew.sh
 ./scripts/macos.sh
 ./scripts/composer.sh
+./scripts/git.sh
+./scripts/ssh.sh
 
 # local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
