@@ -6,7 +6,7 @@ source /Users/${USER}/.dotfiles/shell/.functions
 confirm_composer_installed
 
 # update composer
-info "Composer self-update"
+info "Composer self-update."
 composer self-update
 printf "\n"
 
