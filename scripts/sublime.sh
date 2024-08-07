@@ -14,27 +14,24 @@ fi
 
 current_date=$(date +"%Y%m%d")
 
+
 # link to cloud storage
+info "Linking Sublime Text settings to cloud storage"
 declare -a links=(
     "Preferences.sublime-settings"
 )
 for item in ${links[@]}; do
     if [ ! -L "${LOCALPATH}/${item}" ]; then
-        info "Sublime Text - Linking ${item}"
-
-        # create backup filename
         backup="${item%.*}.$current_date.${item##*.}"
-
-        # backup file
         mv "${LOCALPATH}/${item}" "${LOCALPATH}/${backup}"
-
-        # add symbolic link
         ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
 
-        # let it breathe
-        printf "\n"
+        success "${item} - linked"
+    else
+        line "${item} - already linked"
     fi
 done
+printf "\n"
 
 
 # link User folder to cloud storage - I do it by individiual files now
