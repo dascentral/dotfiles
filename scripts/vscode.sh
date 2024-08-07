@@ -22,6 +22,7 @@ fi
 mkdir -pv "${LOCALPATH}"
 
 # create symbolic links for application settings
+info "Creating symbolic links for VS Code settings."
 declare -a links=(
     "settings.json"
     "keybindings.json"
@@ -29,12 +30,15 @@ declare -a links=(
 )
 for item in ${links[@]}; do
     if [ ! -L "${LOCALPATH}/${item}" ]; then
-        info "Visual Studio Code - Linking ${item}"
         rm -rf "${LOCALPATH}/${item}"
         ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
-        printf "\n"
+        success "${item} - linked"
+    else
+        line "${item} - already linked"
     fi
 done
+printf "\n"
+
 
 # install VS Code extensions
 declare -a extensions=(
@@ -94,10 +98,12 @@ declare -a extensions=(
     "yzhang.markdown-all-in-one"
 )
 
-for extension in ${extensions[@]}; do
-    if ! ls ~/.vscode/extensions/${extension}* 1> /dev/null 2>&1; then
-        info "Installing VS Code Extension - $extension"
-        code --install-extension $extension
-        printf "\n"
+info "Installing VS Code Extensions."
+for item in ${extensions[@]}; do
+    if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
+        code --install-extension ${item}
+        success "${item} - installed"
+    else
+        line "${item} - already installed"
     fi
 done
