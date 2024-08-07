@@ -7,9 +7,9 @@ if [ -e "${PRIVATE}" ]; then
     if [ ! -L ${HOME}/.ssh/config ]; then
         rm -rf ${HOME}/.ssh/config
         ln -s "${HOME}/.private/config/ssh/config" "${HOME}/.ssh/config"
-        success ".gitconfig - linked"
+        success "~/.ssh/config - linked"
     else
-        line ".gitconfig - already linked"
+        line "~/.ssh/config - already linked"
     fi
 
     printf "\n"
