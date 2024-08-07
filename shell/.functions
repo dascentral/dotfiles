@@ -30,6 +30,14 @@ info() {
     echo -e "${WHITE}$@${NC}"
 }
 
+line() {
+    echo -e "${GRAY}$@${NC}"
+}
+
+success() {
+    echo -e "${GREEN}$@${NC}"
+}
+
 warn() {
     echo -e "${YELLOW}$@${NC}"
 }
