@@ -20,12 +20,14 @@ declare -a extensions=(
     "tightenco/takeout"
 )
 
-for extension in ${extensions[@]}; do
-    parts=(`echo $extension | tr '/' ' '`)
+info "Installing global Composer packages."
+for item in ${extensions[@]}; do
+    parts=(`echo $item | tr '/' ' '`)
     if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
-        info "Installing $extension"
-        composer global require $extension
-        printf "\n"
+        composer global require ${item}
+        success "${item} - installed"
+    else
+        line "${item} - already installed"
     fi
 done
 
