@@ -2,14 +2,13 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# create symbolic link
+info "Linking Mackup configuration to dotfiles."
 if [ ! -L ~/.mackup.cfg ]; then
-    info "Linking .mackup.cfg to dotfiles"
     rm -rf /Users/${USER}/.mackup.cfg
     ln -s "${HOME}/.dotfiles/shell/.mackup.cfg" "/Users/${USER}/.mackup.cfg"
-    printf "\n"
+    success ".mackup.cfg - linked"
 else
-    warn "Linking .mackup.cfg to dotfiles... already linked"
+    line ".mackup.cfg - already linked"
 fi
 
 printf "\n"
