@@ -37,3 +37,5 @@ done
 #     composer global require "squizlabs/php_codesniffer=*"
 #     printf "\n"
 # fi
+
+printf "\n"
