@@ -16,7 +16,7 @@ current_date=$(date +"%Y%m%d")
 
 
 # link to cloud storage
-info "Linking Sublime Text settings to cloud storage"
+info "Linking Sublime Text settings to cloud storage."
 declare -a links=(
     "Preferences.sublime-settings"
 )
