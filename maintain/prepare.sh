@@ -2,7 +2,8 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# Pull the latest from Git - dotfiles-private
+# While I am happy to share my dotfiles with the world, I maintain
+# a few sensitive items within a separate private repository.
 if [ -e "${PRIVATE}" ]; then
     info "Pulling latest from Git: ${PRIVATE}"
     cd ${PRIVATE}
@@ -11,7 +12,6 @@ if [ -e "${PRIVATE}" ]; then
     printf "\n"
 fi
 
-# Pull the latest from Git - dotfiles
 info "Pulling latest from Git: ${DOTFILES}"
 cd ${DOTFILES}
 git reset HEAD --hard
