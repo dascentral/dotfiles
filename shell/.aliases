@@ -80,5 +80,5 @@ alias sshkey='pbcopy < ~/.ssh/id_rsa.pub'
 
 # Zsh Config
 alias cz='cat ~/.zshrc'
-alias vz='vim ~/.zshrc'
+alias vz='subl ~/.zshrc'
 alias sz='source ~/.zshrc'
