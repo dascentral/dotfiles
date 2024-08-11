@@ -127,3 +127,18 @@ export PATH=$PATH:~/.private/bin
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for egcli command.
+if [ -f '/Users/douglas.smith/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc' ]; then . '/Users/douglas.smith/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc'; fi
+
+# Herd injections
+if [ -d '/Users/douglas.smith' ]; then
+  # Herd injected PHP binary.
+  export PATH="/Users/douglas.smith/Library/Application Support/Herd/bin/":$PATH
+
+  # Herd injected PHP 8.3 configuration.
+  export HERD_PHP_83_INI_SCAN_DIR="/Users/douglas.smith/Library/Application Support/Herd/config/php/83/"
+
+  # Herd injected PHP 8.2 configuration.
+  export HERD_PHP_82_INI_SCAN_DIR="/Users/douglas.smith/Library/Application Support/Herd/config/php/82/"
+fi
