@@ -107,3 +107,4 @@ for item in ${extensions[@]}; do
         line "${item} - already installed"
     fi
 done
+printf "\n"
