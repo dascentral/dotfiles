@@ -1,5 +1,5 @@
-export DOTFILES=$HOME/.dotfiles
-export PRIVATE=$HOME/.private
+export DOTFILES=${HOME}/.dotfiles
+export PRIVATE=${HOME}/.private
 export WORKSPACE=${HOME}/Workspace
 
 # If you come from bash you might have to change your $PATH.
