@@ -2,16 +2,12 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# confirm repos are in the correct spot
 dotfiles_live_where_expected
 
-# confirm they're clean because we're about to reset hard
 dotfiles_confirm_stable
 
-# clear the screen
 clear
 
-# run scripts
 ./scripts/git-pull.sh
 ./scripts/homebrew.sh
 ./scripts/macos.sh
