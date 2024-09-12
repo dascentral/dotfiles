@@ -9,12 +9,12 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # run scripts
-${DOTFILES}/scripts/oh-my-zsh.sh
-${DOTFILES}/scripts/homebrew.sh
-${DOTFILES}/scripts/composer.sh
-${DOTFILES}/scripts/mackup.sh
+./scripts/oh-my-zsh.sh
+./scripts/homebrew.sh
+./scripts/composer.sh
+./scripts/mackup.sh
 # TODO: Determine when/how to run "mackup restore -v -f"
-${DOTFILES}/scripts/sublime.sh
-${DOTFILES}/scripts/vscode.sh
-${DOTFILES}/scripts/git.sh
-${DOTFILES}/scripts/ssh.sh
+./scripts/sublime.sh
+./scripts/vscode.sh
+./scripts/git.sh
+./scripts/ssh.sh
