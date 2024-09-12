@@ -8,12 +8,14 @@ dotfiles_confirm_stable
 
 clear
 
-./scripts/git-pull.sh
-./scripts/homebrew.sh
-./scripts/macos.sh
-./scripts/composer.sh
-./scripts/git.sh
-./scripts/ssh.sh
+${DOTFILES}/scripts/git-pull.sh
+${DOTFILES}/scripts/homebrew.sh
+${DOTFILES}/scripts/composer.sh
+${DOTFILES}/scripts/macos.sh
+${DOTFILES}/scripts/sublime.sh
+${DOTFILES}/scripts/vscode.sh
+${DOTFILES}/scripts/git.sh
+${DOTFILES}/scripts/ssh.sh
 
 # local hack for PHP
 if [ -e /usr/local/var/log/php-fpm.log ]; then
