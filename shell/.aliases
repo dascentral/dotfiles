@@ -19,12 +19,10 @@ alias dm='docker-machine'
 alias dv='docker volume ls'
 
 # Git
-alias ff="git fomo && git gone"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gs='git status'
 alias nah='git reset HEAD --hard'
 alias repush='git pull --rebase && git push'
-alias undo='git undo'
 
 # HubFlow
 alias hfs='git hf feature start'
