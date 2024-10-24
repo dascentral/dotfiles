@@ -12,4 +12,8 @@ if [ ${parts[2]} != 'feature' ]; then
     abort "You do not appear to be within a feature branch."
 fi
 
-git fomo && git gone
+if git_branch_exists "develop"; then
+    git domo && git gone
+else
+    git fomo && git gone
+fi
