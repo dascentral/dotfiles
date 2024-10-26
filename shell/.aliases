@@ -11,12 +11,12 @@ alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 alias cda='composer dumpautoload'
 alias cf='composer format'
 
-# Docker
-alias d='docker'
-alias dc='docker-compose'
-alias di='docker images'
-alias dm='docker-machine'
-alias dv='docker volume ls'
+# Docker - yes, Docker is the best, but it's slow, and I rarely use it in my work
+#alias d='docker'
+#alias dc='docker-compose'
+#alias di='docker images'
+#alias dm='docker-machine'
+#alias dv='docker volume ls'
 
 # Git
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
