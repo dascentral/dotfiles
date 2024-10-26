@@ -19,7 +19,7 @@ git fetch
 git branch --unset-upstream
 
 # Create a new tracking connection with the new "origin/main" branch
-git branch -u origin/main
+git push -u origin/main
 
 # Pull latest from "main"
 git pull
