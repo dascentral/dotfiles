@@ -6,6 +6,10 @@ if ! laravel_application_root; then
     abort "You are not in the root of a Laravel application."
 fi
 
+if [ ! -e ".env.dusk" ]; then
+    abort "You have not configured your Dusk environment file."
+fi
+
 if using_laravel_sail; then
     info "Executing 'sail artisan dusk'"
     ./vendor/bin/sail artisan dusk "$@"
