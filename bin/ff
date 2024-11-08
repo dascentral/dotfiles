@@ -2,15 +2,18 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
+# The "git domo/fomo" commands will put you on the correct branch regardless of
+# your current branch, so there is no need to check for a feature branch.
 
-if [ ${#parts[@]} -lt 4 ]; then
-    abort "You do not appear to be within a feature branch."
-fi
+# parts=(`echo $(git symbolic-ref -q HEAD) | tr '/' ' '`)
 
-if [ ${parts[2]} != 'feature' ]; then
-    abort "You do not appear to be within a feature branch."
-fi
+# if [ ${#parts[@]} -lt 4 ]; then
+#     abort "You do not appear to be within a feature branch."
+# fi
+
+# if [ ${parts[2]} != 'feature' ]; then
+#     abort "You do not appear to be within a feature branch."
+# fi
 
 if git_branch_exists "develop"; then
     git domo && git gone
