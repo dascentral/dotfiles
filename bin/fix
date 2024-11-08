@@ -11,4 +11,4 @@ if [ $# != 1 ]; then
     usage "Usage: fix [feature]"
 fi
 
-git checkout -b "bugfix/${@}"
+git checkout -b "fix/${@}"
