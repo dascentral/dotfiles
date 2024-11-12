@@ -8,7 +8,7 @@ if ! [ -d .git ]; then
 fi
 
 if [ $# != 1 ]; then
-    usage "Usage: fix [feature]"
+    usage "Usage: chore [feature]"
 fi
 
 if git_branch_exists "develop"; then
@@ -21,4 +21,4 @@ else
     abort "No 'main' or 'develop' branches found";
 fi
 
-git checkout -b "fix/${@}"
+git checkout -b "chore/${@}"

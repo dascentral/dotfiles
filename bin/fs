@@ -11,4 +11,14 @@ if [ $# != 1 ]; then
     usage "Usage: fs [feature]"
 fi
 
+if git_branch_exists "develop"; then
+    git checkout develop
+    git domo
+elif git_branch_exists "main"; then
+    git checkout main
+    git fomo
+else
+    abort "No 'main' or 'develop' branches found";
+fi
+
 git checkout -b "feature/${@}"
