@@ -21,7 +21,7 @@ else
     abort "\nNo 'main' or 'develop' branches found.";
 fi
 
-info "\nSwitching back to ${current_branch}"
+info "\nSwitching back to ${current_branch}."
 git checkout "${current_branch}"
 
 if git_branch_exists "develop"; then
