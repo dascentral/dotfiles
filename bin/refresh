@@ -21,6 +21,9 @@ else
     abort "\nNo 'main' or 'develop' branches found.";
 fi
 
+info "\nTrimming branches deleted from the remote."
+git gone
+
 info "\nSwitching back to ${current_branch}."
 git checkout "${current_branch}"
 
