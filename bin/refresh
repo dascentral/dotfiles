@@ -14,7 +14,7 @@ if git_branch_exists "develop"; then
     git checkout develop
     git domo
 elif git_branch_exists "main"; then
-    info "\nGetting latest from main."
+    info "\nGetting latest from main. (DISABLED. OUTPUT ONLY)"
     # git checkout main
     # git fomo
 else
@@ -28,6 +28,6 @@ if git_branch_exists "develop"; then
     info "\nRunning 'git merge develop'."
     git merge develop
 else
-    info "\nRunning 'git merge main'."
+    info "\nRunning 'git merge main'. (DISABLED. OUTPUT ONLY)"
     # git merge main
 fi
