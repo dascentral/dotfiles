@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if ! git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
+    abort "You are not currently within a Git repository."
+fi
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+info "Current branch: ${current_branch}"
+
+if git_branch_exists "develop"; then
+    info "\nGetting latest from develop."
+    git checkout develop
+    git domo
+elif git_branch_exists "main"; then
+    info "\nGetting latest from main."
+    # git checkout main
+    # git fomo
+else
+    abort "\nNo 'main' or 'develop' branches found.";
+fi
+
+info "\nSwitching back to ${current_branch}"
+git checkout "${current_branch}"
+
+if git_branch_exists "develop"; then
+    info "\nRunning 'git merge develop'."
+    git merge develop
+else
+    info "\nRunning 'git merge main'."
+    # git merge main
+fi
