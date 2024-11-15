@@ -2,11 +2,11 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-if ! git_repository then
+if ! git_repository; then
     abort "You are not currently within a Git repository."
 fi
 
-if git_is_dirty then
+if git_is_dirty; then
     abort "Your working directly is not clean."
 fi
 
