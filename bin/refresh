@@ -6,6 +6,10 @@ if ! git_repository then
     abort "You are not currently within a Git repository."
 fi
 
+if git_is_dirty then
+    abort "Your working directly is not clean."
+fi
+
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 info "Current branch: ${current_branch}"
 
