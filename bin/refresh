@@ -2,7 +2,7 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-if ! git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
+if ! git_repository then
     abort "You are not currently within a Git repository."
 fi
 
