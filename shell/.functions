@@ -137,6 +137,9 @@ git_local_branch_exists() {
     has $1 $(git_local_branches)
 }
 
+git_repository() {
+    git rev-parse --is-inside-work-tree > /dev/null 2>&1;
+}
 
 hubflow_has_master_configured() {
     local master=$(git config --get hubflow.branch.master)
