@@ -117,6 +117,10 @@ git_branch_exists() {
     git show-ref --verify --quiet refs/heads/$1
 }
 
+git_current_branch() {
+    git branch --no-color | grep '^\* ' | grep -v 'no branch' | sed 's/^* //g'
+}
+
 git_is_dirty() {
     [[ -n $(git status --porcelain) ]]
 }
@@ -133,9 +137,6 @@ git_local_branch_exists() {
     has $1 $(git_local_branches)
 }
 
-git_current_branch() {
-    git branch --no-color | grep '^\* ' | grep -v 'no branch' | sed 's/^* //g'
-}
 
 hubflow_has_master_configured() {
     local master=$(git config --get hubflow.branch.master)
