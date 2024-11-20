@@ -7,18 +7,25 @@ if ! [ -d .git ]; then
     abort "Please execute from the root of a git repository."
 fi
 
+if git_is_dirty; then
+    abort "Your working directly is not clean."
+fi
+
 if [ $# != 1 ]; then
     usage "Usage: fix [feature]"
 fi
 
 if git_branch_exists "develop"; then
+    info "\nGetting latest from develop."
     git checkout develop
     git domo
 elif git_branch_exists "main"; then
+    info "\nGetting latest from main."
     git checkout main
     git fomo
 else
     abort "No 'main' or 'develop' branches found";
 fi
 
+info "\nCreating feature branch."
 git checkout -b "fix/${@}"
