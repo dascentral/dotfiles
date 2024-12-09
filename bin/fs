@@ -16,11 +16,11 @@ if [ $# != 1 ]; then
 fi
 
 if git_branch_exists "develop"; then
-    info "\nGetting latest from develop."
+    info "Getting latest from develop."
     git checkout develop
     git domo
 elif git_branch_exists "main"; then
-    info "\nGetting latest from main."
+    info "Getting latest from main."
     git checkout main
     git fomo
 else
