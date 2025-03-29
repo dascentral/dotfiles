@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a series of automated customizations that help me personalize and maintain my Mac. Special thanks to [Zack Holman](https://zachholman.com/) and [Dries Vints](https://driesvints.com/) for the inspiration that led to what you see within this repository. In many instances, what I have here is a direct copy of their work.
+This repository contains a series of automated customizations that help me personalize and maintain my Mac. Special thanks to [Zack Holman](https://zachholman.com/) and [Dries Vints](https://driesvints.com/) for inspiring what you see within this repository. In many instances, what I have here is a direct copy of their work.
 
 If you're interested in the philosophy behind why projects like these are awesome, you might want to read the following articles on the subject:
 
@@ -35,15 +35,15 @@ When migrating from an existing machine to another or setting up an additional c
 
 ### Update macOS
 
-If you are setting up a new machine, odds are macOS is already up-to-date. However, check System Preferences on the new machine and install any pending updates.
+If you are setting up a new machine, odds are macOS is already up-to-date. However, check System Settings on the new machine and install any pending updates.
 
 ### App Store
 
-We install several of the software applications via the [Mac App Store CLI](https://github.com/mas-cli/mas), so ensure you are logged in to the App Store.
+We install several software applications via the [Mac App Store CLI](https://github.com/mas-cli/mas), so ensure you are logged in to the App Store.
 
 ### Generate an SSH key
 
-We will need an SSH key to communicate with GitHub. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running the following command and then adding the key to your [GitHub profile](https://github.com/settings/keys).
+We will need an SSH key to communicate with GitHub. Run the following command to [generate a new public and private SSH key,](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and then add the key to your [GitHub profile](https://github.com/settings/keys).
 
 ```shell
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
@@ -81,7 +81,7 @@ If you dig into that installation file, you'll note that it does a few things:
 
 1. Installs and configures [Oh My Zsh](https://ohmyz.sh/)
 2. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
-3. Executes `brew bundle` which installs the bulk of the software
+3. Executes `brew bundle`, which installs the bulk of the software
 4. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
 5. Configures several applications
 
