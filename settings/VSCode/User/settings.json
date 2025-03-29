@@ -39,8 +39,8 @@
   "files.associations": {
     ".blade.php": "html",
     ".php_cs": "php",
-    ".php_cs.dist": "php"
-    // "*.php": "php" - This interacts with Blade templates in a way that I find problematic
+    ".php_cs.dist": "php",
+    "CODEOWNERS": "plaintext"
   },
   // Insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
@@ -91,16 +91,17 @@
   "[json]": {
     "editor.tabSize": 4
   },
-  // Laravel Pint handles file formatting. Files have tab size of 4.
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[php]": {
     "editor.defaultFormatter": "open-southeners.laravel-pint",
     "editor.tabSize": 4
   },
-  // Shell scripts have tab size of 4.
   "[shellscript]": {
     "editor.tabSize": 4
   },
-  // Vue.js formatting is handled by ESLint (via the Prettier plugin).
+  // Vue.js formatting is handled by ESLint (via the Prettier plugin)
   "[vue]": {
     "editor.formatOnSave": false
   },
