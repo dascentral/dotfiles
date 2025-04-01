@@ -54,7 +54,7 @@ alias nrs='npm run storybook'
 alias storybook='npm run storybook'
 
 # Opening files and folders
-alias co='cursor .'
+alias cur='cursor .'
 alias o='open .'
 alias oc='code .'
 alias or='open README.md'
