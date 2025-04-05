@@ -54,11 +54,11 @@ alias nrs='npm run storybook'
 alias storybook='npm run storybook'
 
 # Opening files and folders
-alias cur='cursor .'
 alias o='open .'
-alias oc='code .'
+alias oc='cursor .'
 alias or='open README.md'
 alias s='subl .'
+alias vsc='code .'
 
 # Permissions
 alias d755='find . -type d -exec chmod 755 {} \;'
