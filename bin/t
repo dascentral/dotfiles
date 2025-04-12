@@ -8,8 +8,8 @@ fi
 
 if using_laravel_sail; then
     if [ "$#" -eq 0 ]; then
-        info "Executing 'sail artisan test'"
-        ./vendor/bin/sail artisan test
+        info "Executing 'sail artisan test --parallel'"
+        ./vendor/bin/sail artisan test --parallel
     else
         info "Executing 'sail artisan test'"
         ./vendor/bin/sail artisan test "$@"
@@ -17,8 +17,8 @@ if using_laravel_sail; then
 
 else
     if [ "$#" -eq 0 ]; then
-        info "Executing 'php artisan test'"
-        php artisan test
+        info "Executing 'php artisan test --parallel'"
+        php artisan test --parallel
     else
         info "Executing 'php artisan test'"
         php artisan test "$@"
