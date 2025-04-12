@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+if using_laravel_sail; then
+    info "Executing 'sail artisan test --parallel'"
+    ./vendor/bin/sail artisan test --parallel
+else
+    info "Executing 'php artisan test --parallel'"
+    php artisan test --parallel
+fi
