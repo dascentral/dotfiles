@@ -64,7 +64,9 @@ composer_json() {
 }
 
 composer_installed() {
-    [ -e /opt/homebrew/bin/composer ] || [ -e /usr/local/bin/composer ]
+    [ -e /opt/homebrew/bin/composer ] ||
+    [ -e /usr/local/bin/composer ] ||
+    [ -e /Users/${USER}/Library/Application\ Support/Herd/bin/composer ]
 }
 
 homebrew_installed() {
