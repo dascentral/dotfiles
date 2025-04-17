@@ -43,7 +43,20 @@ We install several software applications via the [Mac App Store CLI](https://git
 
 ### Generate an SSH key
 
-In recent years, I've been using the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) to sync my SSH keys locally. By using 1Password, I do not need to generate a new SSH key. However, if you are not a 1Password user, you can run the following command to [generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Once complete, add the key to your [GitHub profile](https://github.com/settings/keys).
+#### Via 1Password
+
+In recent years, I've been using the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) to sync my SSH keys locally.
+
+1. Open 1Password
+2. Open "Settings"
+3. Select "Developer"
+4. Enable "Use the SSH Agent"
+5. Click "Change SSH Config..."
+6. Select "Edit Automatically"
+
+#### Manually
+
+If you are not a 1Password user, you can run the following command to [generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Once complete, add the key to your [GitHub profile](https://github.com/settings/keys).
 
 ```shell
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
