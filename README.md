@@ -22,7 +22,7 @@ The following repositories may provide additional examples from which to draw in
 * [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
 * [Zach Holman](https://github.com/holman/dotfiles)
 
-## New machine setup
+## New Machine Setup
 
 ### Preparation
 
