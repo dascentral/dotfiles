@@ -47,12 +47,13 @@ We install several software applications via the [Mac App Store CLI](https://git
 
 In recent years, I've been using the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) to sync my SSH keys locally.
 
-1. Open 1Password
-2. Open "Settings"
-3. Select "Developer"
-4. Enable "Use the SSH Agent"
-5. Click "Change SSH Config..."
-6. Select "Edit Automatically"
+1. Download [1Password](https://1password.com/downloads/mac)
+2. Open 1Password
+3. Open "Settings"
+4. Select "Developer"
+5. Enable "Use the SSH Agent"
+6. Click "Change SSH Config..."
+7. Select "Edit Automatically"
 
 #### Manually
 
