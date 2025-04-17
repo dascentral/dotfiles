@@ -125,12 +125,6 @@ If you run this command, be sure to only open software from sources that you tru
 sudo spctl --master-enable
 ```
 
-### Printers
-
-Do you own an HP LaserJet 1020 like me? If so, you'll need to get the drivers from Apple.
-
-[https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US](https://support.apple.com/kb/DL1888?viewlocale=en_US&locale=en_US)
-
 ## Command-Line Configurations
 
 While I have automated many of my macOS system configurations via the `.macos` file, I still have a number of manual modifications that I make following setup of a new machine. My goal is always to limit the amount of manual work. This article helped me understand how to automate application settings:
