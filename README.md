@@ -43,7 +43,7 @@ We install several software applications via the [Mac App Store CLI](https://git
 
 ### Generate an SSH key
 
-We will need an SSH key to communicate with GitHub. Run the following command to [generate a new public and private SSH key,](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and then add the key to your [GitHub profile](https://github.com/settings/keys).
+In recent years, I've been using the 1Password SSH agent to sync my SSH keys locally. By using 1Password, I do not need to generate a new SSH key. However, if you are not a 1Password user, you can run the following command to [generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Once complete, add the key to your [GitHub profile](https://github.com/settings/keys).
 
 ```shell
 curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "<your-key-name>"
