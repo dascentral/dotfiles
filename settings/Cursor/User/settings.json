@@ -87,6 +87,10 @@
    */
   "workbench.activityBar.location": "hidden",
   /**
+   * Set application color theme.
+   */
+  "workbench.colorTheme": "Nord",
+  /**
    * Only show a single editor tab.
    */
   "workbench.editor.showTabs": "single",
