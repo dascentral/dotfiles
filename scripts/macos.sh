@@ -11,11 +11,11 @@ defaults write -g AppleInterfaceStyleSwitchesAutomatically -bool true
 
 # --- Accessibility ---
 # Zoom with scroll gesture (Control key)
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+#defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+#defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 
 # Reduce motion
-defaults write com.apple.universalaccess reduceMotion -bool true
+#defaults write com.apple.universalaccess reduceMotion -bool true
 
 # --- Desktop & Dock ---
 # Dock size to ~25% (approx 40px)
