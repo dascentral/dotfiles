@@ -33,17 +33,7 @@ for item in ${links[@]}; do
 done
 printf "\n"
 
-
-# link User folder to cloud storage - I do it by individiual files now
-# if [ ! -L "${LOCALPATH}" ]; then
-#     info "Configuring Sublime Text"
-#     rm -rf "${LOCALPATH}"
-#     ln -s "${CLOUDPATH}" "${LOCALPATH}"
-#     printf "\n"
-# fi
-
-# It appears as though Homebrew takes care of this
 # create a symbolic link to the Sublime executable that can be executed globally
-#if [ ! -e /usr/local/bin/subl ]; then
-#    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-#fi
+if [ ! -e /usr/local/bin/subl ]; then
+   ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+fi
