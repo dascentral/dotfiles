@@ -1,0 +1,105 @@
+{
+  /*
+  |--------------------------------------------------------------------------
+  | Code Formatting & Linting
+  |--------------------------------------------------------------------------
+  |
+  | The following settings govern how files will be formatted and linted.
+  |
+  */
+  /**
+   * All files will end with a blank new line.
+   */
+  "editor.renderFinalNewline": "dimmed",
+  /**
+   * Set the default tab size to 2.
+   */
+  "editor.tabSize": 2,
+  /**
+   * Insert a final new line at the end of the file when saving it.
+   */
+  "files.insertFinalNewline": true,
+  /**
+   * Trim trailing whitespace from all files.
+   */
+  "files.trimTrailingWhitespace": true,
+  /*
+  |--------------------------------------------------------------------------
+  | Editor Configuration
+  |--------------------------------------------------------------------------
+  |
+  | The following settings govern how VS Code operates. While the code
+  | formatting and linting settings above may be shared with project
+  | teams, the settings below are entirely personal preference.
+  |
+  */
+  /**
+   * Disable automatic detection of indentation.
+   */
+  "editor.detectIndentation": false,
+  /**
+   * Enable use of a custom font.
+   */
+  "editor.fontFamily": "Fira Code",
+  /**
+   * Enable use of a custom font size.
+   */
+  "editor.fontSize": 18,
+  /**
+   * Format files during save.
+   */
+  "editor.formatOnSave": true,
+  /**
+   * Enable use of a custom line height.
+   */
+  "editor.lineHeight": 32,
+  /**
+   * Controls whether the minimap is hidden automatically.
+   */
+  "editor.minimap.enabled": true,
+  /**
+   * Place snippet suggestions on top.
+   */
+  "editor.snippetSuggestions": "top",
+  /**
+   * Enable sticky scroll.
+   */
+  "editor.stickyScroll.enabled": true,
+  /**
+   * Enable tab completion.
+   */
+  "editor.tabCompletion": "on",
+  /**
+   * Save files when focus moves out of the editor of the dirty file.
+   *
+   * https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
+   */
+  "files.autoSave": "onFocusChange",
+  /**
+   * Trigger "hot exit" when the application is closed and for any window with a folder
+   * opened regardless of whether it is the last window.
+   *
+   * https://code.visualstudio.com/docs/editor/codebasics#_hot-exit
+   */
+  "files.hotExit": "onExitAndWindowClose",
+  /**
+   * Hide the workbench activity bar.
+   */
+  "workbench.activityBar.location": "hidden",
+  /**
+   * Only show a single editor tab.
+   */
+  "workbench.editor.showTabs": "single",
+  /**
+   * Enable font antialiasing.
+   */
+  "workbench.fontAliasing": "antialiased",
+  /**
+   * Place the sidebar on the right.
+   */
+  "workbench.sideBar.location": "right",
+  /**
+   * Ensure the status bar is visible.
+   */
+  "workbench.statusBar.visible": true,
+}
