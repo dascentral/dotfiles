@@ -41,7 +41,7 @@ printf "\n"
 
 
 # install VS Code extensions
-declare -a extensions=(
+# declare -a extensions=(
     # "adrianwilczynski.alpine-js-intellisense"
     # "amiralizadeh9480.laravel-extra-intellisense"
     # "arcticicestudio.nord-visual-studio-code"
@@ -96,15 +96,15 @@ declare -a extensions=(
     # "william-voyek.vscode-nginx"
     # "wix.vscode-import-cost"
     # "yzhang.markdown-all-in-one"
-)
+# )
 
-info "Installing VS Code Extensions."
-for item in ${extensions[@]}; do
-    if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
-        code --install-extension ${item}
-        success "${item} - installed"
-    else
-        line "${item} - already installed"
-    fi
-done
-printf "\n"
+# info "Installing VS Code Extensions."
+# for item in ${extensions[@]}; do
+#     if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
+#         code --install-extension ${item}
+#         success "${item} - installed"
+#     else
+#         line "${item} - already installed"
+#     fi
+# done
+# printf "\n"
