@@ -53,6 +53,7 @@ cask 'herd'               # https://formulae.brew.sh/cask/herd
 cask 'iterm2'             # https://formulae.brew.sh/cask/iterm2
 cask 'miro'               # https://formulae.brew.sh/cask/miro
 cask 'notion'             # https://formulae.brew.sh/cask/notion
+cask 'notion-calendar'    # https://formulae.brew.sh/cask/notion-calendar
 cask 'pop'                # https://formulae.brew.sh/cask/pop
 cask 'postman'            # https://formulae.brew.sh/cask/postman
 cask 'ray'                # https://formulae.brew.sh/cask/ray
