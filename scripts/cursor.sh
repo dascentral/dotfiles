@@ -38,41 +38,42 @@ for item in ${links[@]}; do
 done
 printf "\n"
 
-
-# install VS Code extensions
-# declare -a extensions=(
+# install Cursor extensions
+declare -a extensions=(
+    "arcticicestudio.nord-visual-studio-code"
+    "bmewburn.vscode-intelephense-client"
+    "bradlc.vscode-tailwindcss"
+    "calebporzio.better-phpunit"
+    "dbaeumer.vscode-eslint"
+    "editorconfig.editorconfig"
+    "esbenp.prettier-vscode"
+    "github.copilot"
+    "irongeek.vscode-env"
+    "laravel.vscode-laravel"
+    "mehedidracula.php-namespace-resolver"
+    "open-southeners.laravel-pint"
+    "patbenatar.advanced-new-file"
     # "adrianwilczynski.alpine-js-intellisense"
     # "amiralizadeh9480.laravel-extra-intellisense"
-    # "arcticicestudio.nord-visual-studio-code"
     # "austenc.laravel-blade-spacer"
-    # "bmewburn.vscode-intelephense-client"
-    # "bradlc.vscode-tailwindcss"
-    # "calebporzio.better-phpunit"
     # "christian-kohler.npm-intellisense"
     # "christian-kohler.path-intellisense"
     # "cierra.livewire-vscode"
     # "dansysanalyst.pest-snippets"
     # "davidanson.vscode-markdownlint"
-    # "dbaeumer.vscode-eslint"
     # "dbankier.vscode-quick-select"
     # "eamodio.gitlens"
-    # "editorconfig.editorconfig"
     # "emeraldwalk.runonsave"
     # "equinusocio.vsc-material-theme"
     # "equinusocio.vsc-material-theme-icons"
-    # "esbenp.prettier-vscode"
     # "formulahendry.code-runner"
     # "geeksharp.openssl-configuration-file"
-    # "github.copilot"
     # "github.vscode-github-actions"
     # "gitlab.gitlab-workflow"
     # "hashicorp.terraform"
-    # "irongeek.vscode-env"
     # "junstyle.php-cs-fixer"
     # "lucax88x.codeacejumper"
-    # "m1guelpf.better-pest" - better-phpunit now supports Pest
     # "mattpocock.ts-error-translator"
-    # "mehedidracula.php-namespace-resolver"
     # "mikestead.dotenv"
     # "mohamedbenhida.laravel-intellisense"
     # "ms-azuretools.vscode-docker"
@@ -81,8 +82,6 @@ printf "\n"
     # "neilbrayfield.php-docblocker"
     # "nikitakunevich.snippet-creator"
     # "onecentlin.laravel-blade"
-    # "open-southeners.laravel-pint"
-    # "patbenatar.advanced-new-file"
     # "redhat.vscode-yaml"
     # "ryannaddy.laravel-artisan"
     # "silvenon.mdx"
@@ -95,16 +94,16 @@ printf "\n"
     # "william-voyek.vscode-nginx"
     # "wix.vscode-import-cost"
     # "yzhang.markdown-all-in-one"
-# )
+)
 
 # info "Installing Cursor Extensions."
-# for item in ${extensions[@]}; do
-#     if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
-#         code --install-extension ${item}
-#         success "${item} - installed"
-#     else
-#         line "${item} - already installed"
-#     fi
-# done
+for item in ${extensions[@]}; do
+    if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
+        cursor --install-extension ${item}
+        success "${item} - installed"
+    else
+        line "${item} - already installed"
+    fi
+done
 
 printf "\n"
