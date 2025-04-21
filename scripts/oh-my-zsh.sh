@@ -36,6 +36,7 @@ for url in ${links[@]}; do
     fi
 done
 
+
 # custom install due to custom naming convention
 source="https://github.com/jessarcher/zsh-artisan.git"
 plugin="artisan"
