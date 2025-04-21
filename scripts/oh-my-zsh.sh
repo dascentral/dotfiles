@@ -7,8 +7,10 @@ info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then
     /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
     success "Installation complete."
+    installed=1
 else
     line "Already installed."
+    installed=0
 fi
 printf "\n"
 
@@ -57,5 +59,11 @@ if [ ! -L ~/.zshrc ]; then
 else
     line "Already linked."
 fi
-
 printf "\n"
+
+
+# Display restart message if Oh My Zsh was just installed
+if [ $installed -eq 1 ]; then
+    info "Oh-My-Zsh was just installed. You will want to exit this shell and restart terminal."
+    printf "\n"
+fi
