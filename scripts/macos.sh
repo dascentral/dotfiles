@@ -5,6 +5,8 @@ source /Users/${USER}/.dotfiles/shell/.functions
 # macOS Settings Automation Script
 # Apply custom user preferences for macOS (based on markdown script)
 
+info "Customizing macOS."
+
 # --- Appearance ---
 # Auto Light/Dark Mode
 defaults write -g AppleInterfaceStyleSwitchesAutomatically -bool true
@@ -71,5 +73,5 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 killall Dock
 killall SystemUIServer
 
-success "macOS custom settings applied. Some settings may require a logout/restart."
+success "Custom settings applied. Restart may be required."
 printf "\n"
