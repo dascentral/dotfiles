@@ -64,6 +64,6 @@ printf "\n"
 
 # Display restart message if Oh My Zsh was just installed
 if [ $installed -eq 1 ]; then
-    info "Oh-My-Zsh was just installed. You will want to exit this shell and restart terminal."
+    info "Oh My Zsh was just installed. You will want to exit this shell and restart terminal."
     printf "\n"
 fi
