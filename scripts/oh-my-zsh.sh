@@ -42,7 +42,6 @@ plugin="artisan"
 if [ ! -e ${plugin} ]; then
     git clone ${source} ${plugin}
     success "jessarcher/zsh-artisan - installed"
-    # printf "\n"
 else
     line "jessarcher/zsh-artisan - already installed"
 fi
