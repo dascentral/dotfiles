@@ -55,7 +55,6 @@ if [ ! -L ~/.zshrc ]; then
     rm -rf /Users/${USER}/.zshrc
     ln -s "${HOME}/.dotfiles/shell/.zshrc" "/Users/${USER}/.zshrc"
     success "Symbolic link created"
-    # printf "\n"
 else
     line "Already linked."
 fi
