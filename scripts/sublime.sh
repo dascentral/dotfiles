@@ -2,35 +2,35 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# configure User folder
+# configure script
 LOCALPATH="${HOME}/Library/Application Support/Sublime Text/Packages/User"
 CLOUDPATH="${DOTFILES}/settings/Sublime/User"
+SETTINGS="Preferences.sublime-settings"
 
 if [ ! -e "${CLOUDPATH}" ]; then
     abort "Sublime settings folder does not exist.\n"
 fi
 
-# TODO: Check for existence of Preferences file
+if [ ! -e "${LOCALPATH}" ]; then
+    mkdir -p "${LOCALPATH}"
+fi
 
-current_date=$(date +"%Y%m%d")
-
+# backup existing settings
+if [ -e "${LOCALPATH}/${SETTINGS}" ] && [ ! -L "${LOCALPATH}/${SETTINGS}" ]; then
+    info "Backing up default Sublime Settings."
+    current_date=$(date +"%Y%m%d")
+    backup="${SETTINGS%.*}.$current_date.${SETTINGS##*.}"
+    mv "${LOCALPATH}/${SETTINGS}" "${LOCALPATH}/${backup}"
+fi
 
 # link to cloud storage
 info "Linking Sublime Text settings to cloud storage."
-declare -a links=(
-    "Preferences.sublime-settings"
-)
-for item in ${links[@]}; do
-    if [ ! -L "${LOCALPATH}/${item}" ]; then
-        backup="${item%.*}.$current_date.${item##*.}"
-        mv "${LOCALPATH}/${item}" "${LOCALPATH}/${backup}"
-        ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
-
-        success "${item} - linked"
-    else
-        line "${item} - already linked"
-    fi
-done
+if [ ! -L "${LOCALPATH}/${SETTINGS}" ]; then
+    ln -s "${CLOUDPATH}/${SETTINGS}" "${LOCALPATH}/${SETTINGS}"
+    success "${SETTINGS} - linked"
+else
+    line "${SETTINGS} - already linked"
+fi
 printf "\n"
 
 # create a symbolic link to the Sublime executable that can be executed globally
