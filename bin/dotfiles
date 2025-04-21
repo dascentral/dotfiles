@@ -11,10 +11,11 @@ clear
 ${DOTFILES}/scripts/git-pull.sh
 ${DOTFILES}/scripts/homebrew.sh
 ${DOTFILES}/scripts/composer.sh
-${DOTFILES}/scripts/sublime.sh
-${DOTFILES}/scripts/vscode.sh
 ${DOTFILES}/scripts/git.sh
 ${DOTFILES}/scripts/ssh.sh
+${DOTFILES}/scripts/sublime.sh
+${DOTFILES}/scripts/vscode.sh
+${DOTFILES}/scripts/cursor.sh
 ${DOTFILES}/scripts/macos.sh
 
 # local hack for PHP
