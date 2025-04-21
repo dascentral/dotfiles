@@ -16,9 +16,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ./scripts/cursor.sh
 # Note that while I have configured Mackup, I am not currently using it.
 ./scripts/mackup.sh
-
-# Install after the initial installation completes
-#./scripts/oh-my-zsh.sh
+./scripts/oh-my-zsh.sh
 
 # Install after opening Sublime Text, installing Package Control, and installing "Monokai Pro"
 #./scripts/sublime.sh
