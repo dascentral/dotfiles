@@ -72,6 +72,7 @@ cask 'typora'             # https://formulae.brew.sh/cask/typora
 cask 'visual-studio-code' # https://formulae.brew.sh/cask/visual-studio-code
 cask 'vlc'                # https://formulae.brew.sh/cask/vlc
 cask 'whatsapp'           # https://formulae.brew.sh/cask/whatsapp
+cask 'zoom'               # https://formulae.brew.sh/cask/zoom
 
 # Typically installed manually before I've cloned this repository
 #cask '1password'
