@@ -6,7 +6,7 @@ source /Users/${USER}/.dotfiles/shell/.functions
 info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then
     /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
-    success "Installation complete"
+    success "Installation complete."
 else
     line "Already installed."
 fi
