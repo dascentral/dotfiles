@@ -9,7 +9,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # confirm ability to run this script
-./scripts/confirm.sh
+./scripts/confirm.sh || exit 1
 
 # first run scripts
 ./scripts/oh-my-zsh.sh
