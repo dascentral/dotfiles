@@ -26,4 +26,4 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ./scripts/composer.sh
 ./scripts/sublime.sh
 
-# TODO: The Mackup script only configures Mackup.Determine when/how to run "mackup restore -v -f"
+# TODO: The Mackup script only configures Mackup. Determine when/how to run "mackup restore -v -f"
