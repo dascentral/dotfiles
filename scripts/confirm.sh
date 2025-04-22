@@ -4,6 +4,9 @@ source /Users/${USER}/.dotfiles/shell/.functions
 
 clean=true
 
+info "Checking system readiness."
+printf "\n"
+
 if ! fc-list | grep -q "Fira Code"; then
     warn "⚠️ Fira Code font is not installed."
     clean=false
