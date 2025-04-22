@@ -11,6 +11,9 @@ if [ ! -e "${CLOUDPATH}" ]; then
     abort "Sublime settings folder does not exist.\n"
 fi
 
+# IF local path does not exist, output warning and skip execution
+# Install after opening Sublime Text, installing Package Control, and installing "Monokai Pro"
+
 if [ ! -e "${LOCALPATH}" ]; then
     mkdir -p "${LOCALPATH}"
 fi
