@@ -7,6 +7,7 @@ clean=true
 info "Checking system readiness."
 printf "\n"
 
+# should we install Oh My Zsh separately and confirm its installed here?
 
 if [ ! -f "${DOTFILES}/Brewfile" ]; then
     warn "⚠️ Brewfile not found in the dotfiles root."
