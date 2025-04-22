@@ -29,3 +29,5 @@ if [ "$clean" = false ]; then
     info "Please resolve warnings to continue."
     exit 1
 fi
+
+printf "\n"
