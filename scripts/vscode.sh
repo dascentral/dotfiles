@@ -98,7 +98,7 @@ declare -a extensions=(
     # "yzhang.markdown-all-in-one"
 )
 
-# info "Installing VS Code Extensions."
+info "Installing VS Code Extensions."
 for item in ${extensions[@]}; do
     if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
         code --install-extension ${item}

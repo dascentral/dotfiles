@@ -96,7 +96,7 @@ declare -a extensions=(
     # "yzhang.markdown-all-in-one"
 )
 
-# info "Installing Cursor Extensions."
+info "Installing Cursor Extensions."
 for item in ${extensions[@]}; do
     if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
         cursor --install-extension ${item}
