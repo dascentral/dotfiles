@@ -65,4 +65,5 @@ printf "\n"
 if [ $installed -eq 1 ]; then
     info "Oh My Zsh was just installed. You will want to exit this shell and restart your terminal app."
     printf "\n"
+    exit 0
 fi
