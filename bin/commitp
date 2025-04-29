@@ -22,8 +22,4 @@ git add .
 eval "git commit -a -m '${1}'"
 
 # push accordingly
-if hubflow_is_initialized; then
-    git hf push
-else
-    git push
-fi
+git push
