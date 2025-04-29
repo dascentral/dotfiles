@@ -2,7 +2,6 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# install Oh My Zsh
 info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then
     /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
@@ -15,7 +14,6 @@ fi
 printf "\n"
 
 
-# install plugins
 info "Installing Zsh plugins."
 cd $HOME/.oh-my-zsh/custom/plugins
 declare -a links=(
@@ -49,7 +47,6 @@ fi
 printf "\n"
 
 
-# create symbolic link to .zshrc
 info "Creating symbolic link for Zsh config."
 if [ ! -L ~/.zshrc ]; then
     rm -rf /Users/${USER}/.zshrc
@@ -61,9 +58,7 @@ fi
 printf "\n"
 
 
-# Display restart message if Oh My Zsh was just installed
 if [ $installed -eq 1 ]; then
     info "Oh My Zsh was just installed. You will want to exit this shell and restart your terminal app."
     printf "\n"
-    exit 0
 fi
