@@ -2,7 +2,7 @@
 alias va='subl ~/.dotfiles/shell/.aliases'
 
 # Directory Switching
-alias dev='cd ~/Workspace'
+alias dev='cd ~/Code'
 alias docs='cd ~/Documents'
 alias dot='cd ~/.dotfiles'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
