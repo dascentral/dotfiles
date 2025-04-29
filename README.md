@@ -80,7 +80,7 @@ I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install 
 I have placed two samples within `config/Brewfile` that you may use as a template. You can execute the following command to adopt my personal configuration:
 
 ```bash
-cp config/Brewfile/Brewfile.personal ./Brewfile
+cp config/Brewfile/Brewfile.example ./Brewfile
 ```
 
 ### Install Fira Code
