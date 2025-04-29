@@ -18,8 +18,7 @@ fi
 # create the local User folder
 mkdir -pv "${LOCALPATH}"
 
-# create symbolic links for application settings
-info "Creating symbolic links for VS Code settings."
+info "Creating symbolic links for Cursor settings."
 declare -a links=(
     "settings.json"
     "keybindings.json"
