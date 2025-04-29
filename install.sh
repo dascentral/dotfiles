@@ -11,9 +11,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # confirm ability to run this script
 ./scripts/check.sh || exit 1
 
-# first run scripts
-./scripts/oh-my-zsh.sh
-
 # sudo chown ${USER} /usr/local/bin
 
 # second run scripts

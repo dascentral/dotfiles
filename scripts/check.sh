@@ -7,16 +7,21 @@ clean=true
 info "Checking system readiness."
 printf "\n"
 
-# should we install Oh My Zsh separately and confirm its installed here?
+if ! install_check_oh_my_zsh; then
+    warn "⚠️ Oh My Zsh is not installed."
+    clean=false
+else
+    success "✅ Oh My Zsh is installed."
+fi
 
-if [ ! -f "${DOTFILES}/Brewfile" ]; then
+if ! install_check_brewfile; then
     warn "⚠️ Brewfile not found in the dotfiles root."
     clean=false
 else
     success "✅ Brewfile exists in root directory."
 fi
 
-if ! fc-list | grep -q "Fira Code"; then
+if ! install_check_fira_code; then
     warn "⚠️ Fira Code font is not installed."
     clean=false
 else
