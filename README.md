@@ -105,20 +105,7 @@ If you dig into that installation file, you'll note that it does a few things:
 6. Configures [Cursor](https://www.cursor.com)
 7. Configures [VS Code](https://code.visualstudio.com/)
 8. Configures [Sublime Text](https://www.sublimetext.com)
-
-### macOS Settings
-
-The 
-
-The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible.
-
-I haven't updated this script in a long time, and it currently throws a warning in a couple of spots. However, the file is still referenced in several of the repositories that I track which leads me to believe it remains a viable tool for automatically applying settings.
-
-Apply settings via use of the `source` command. A computer restart may then be necessary.
-
-```bash
-source .macos
-```
+9. Customizes macOS settings
 
 ## Maintenance
 
