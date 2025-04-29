@@ -18,7 +18,6 @@ if [ ! -e "${LOCALPATH}" ]; then
     mkdir -p "${LOCALPATH}"
 fi
 
-# backup existing settings
 if [ -e "${LOCALPATH}/${SETTINGS}" ] && [ ! -L "${LOCALPATH}/${SETTINGS}" ]; then
     info "Backing up default Sublime Settings."
     current_date=$(date +"%Y%m%d")
@@ -26,7 +25,6 @@ if [ -e "${LOCALPATH}/${SETTINGS}" ] && [ ! -L "${LOCALPATH}/${SETTINGS}" ]; the
     mv "${LOCALPATH}/${SETTINGS}" "${LOCALPATH}/${backup}"
 fi
 
-# link to cloud storage
 info "Linking Sublime Text settings to cloud storage."
 if [ ! -L "${LOCALPATH}/${SETTINGS}" ]; then
     ln -s "${CLOUDPATH}/${SETTINGS}" "${LOCALPATH}/${SETTINGS}"
