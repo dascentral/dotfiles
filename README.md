@@ -24,7 +24,7 @@ The following repositories may provide additional examples from which to draw in
 
 ## New Machine Setup
 
-### Preparation
+### Initial Preparation
 
 When migrating from an existing machine to another or setting up an additional computer that will match the setup of another, you will want to ensure you have a fresh backup of all of your data and settings.
 
