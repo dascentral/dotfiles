@@ -45,7 +45,7 @@ We install several software applications via the [Mac App Store CLI](https://git
 
 #### Via 1Password
 
-In recent years, I've been using the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) to sync my SSH keys locally.
+In recent years, I've been using the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) to securely store my SSH keys.
 
 1. Download [1Password](https://1password.com/downloads/mac)
 2. Open 1Password
@@ -65,7 +65,7 @@ curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "
 
 ### Clone this repository
 
-Let's go ahead and clone this repository. I prefer to store its contents within the `~/.dotfiles` folder. All scripts and configurations assume that's the case.
+Let's go ahead and clone this repository. All scripts within this repository assume `~/.dotfiles` as the clone location. You may adjust this as you see fit. However, you will need to update all scripts accordingly.
 
 Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html). Go grab a coffee/snack/meal while that download and install takes place.
 
@@ -83,6 +83,10 @@ I have placed two samples within `config/Brewfile` that you may use as a templat
 cp config/Brewfile/Brewfile.personal ./Brewfile
 ```
 
+### Install Fira Code
+
+I use the [Fira Code](https://github.com/tonsky/FiraCode) font within Cursor and VS Code and have configured the install script to automatically update the application settings accordingly. As a result, I made installation of Fira Code a prerequisite for the full software installation that happens next.
+
 ### Installation
 
 The following script installs and configures most of the software that I use on a new machine.
@@ -93,11 +97,14 @@ The following script installs and configures most of the software that I use on 
 
 If you dig into that installation file, you'll note that it does a few things:
 
-1. Installs and configures [Oh My Zsh](https://ohmyz.sh/)
-2. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
-3. Executes `brew bundle`, which installs the bulk of the software
-4. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
-5. Configures several applications
+1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
+2. Executes `brew bundle`, which installs the bulk of the software
+3. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
+4. Configures Git
+5. Configures [Mackup](https://github.com/lra/mackup)
+6. Configures [Cursor](https://www.cursor.com)
+7. Configures [VS Code](https://code.visualstudio.com/)
+8. Configures [Sublime Text](https://www.sublimetext.com)
 
 ### macOS Settings
 
