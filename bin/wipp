@@ -10,8 +10,4 @@ git add .
 
 eval "git commit -a -m 'WIP'"
 
-if hubflow_is_initialized; then
-    git hf push
-else
-    git push
-fi
+git push
