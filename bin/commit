@@ -10,12 +10,6 @@ if [ $# != 1 ]; then
     usage "Usage: commit [message]"
 fi
 
-# prepare commit message
-# commitMessage="$1"
-# if [ "$commitMessage" = "" ]; then
-#     commitMessage="WIP"
-# fi
-
 # add and commit all items
 git add .
 eval "git commit -a -m '${1}'"
