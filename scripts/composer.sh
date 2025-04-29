@@ -33,11 +33,4 @@ for item in ${extensions[@]}; do
     fi
 done
 
-# one-off package installation
-# if [ ! -e "/Users/${USER}/.composer/vendor/squizlabs/php_codesniffer" ]; then
-#     info "Installing squizlabs/php_codesniffer"
-#     composer global require "squizlabs/php_codesniffer=*"
-#     printf "\n"
-# fi
-
 printf "\n"
