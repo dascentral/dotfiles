@@ -95,7 +95,7 @@ The following script installs and configures most of the software that I use on 
 ~/.dotfiles/install.sh
 ```
 
-If you dig into that installation file, you'll note that it does a few things:
+If you dig into that installation script, you'll note that it does a few things:
 
 1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
 2. Executes `brew bundle`, which installs the bulk of the software
