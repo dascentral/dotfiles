@@ -107,6 +107,8 @@ If you dig into that installation file, you'll note that it does a few things:
 8. Configures [Sublime Text](https://www.sublimetext.com)
 9. Customizes macOS settings
 
+The script is idempotent, so it can be run multiple times without concern.
+
 ## Maintenance
 
 The `bin/` folder of this repository contains a `dotfiles` script that executes a number of maintenance activities that helps keep the machine up-to-date. I try to run this script on a regular basis. (i.e. weekly)
