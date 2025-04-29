@@ -23,6 +23,24 @@
    * Trim trailing whitespace from all files.
    */
   "files.trimTrailingWhitespace": true,
+  /**
+   * Custom settings for JSON.
+   */
+  "[json]": {
+    "editor.tabSize": 4
+  },
+  /**
+   * Custom settings for PHP.
+   */
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  /**
+   * Custom settings for shell scripts.
+   */
+  "[shellscript]": {
+    "editor.tabSize": 4
+  },
   /*
   |--------------------------------------------------------------------------
   | Editor Configuration
