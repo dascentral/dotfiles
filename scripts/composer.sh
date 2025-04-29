@@ -3,7 +3,6 @@
 source /Users/${USER}/.dotfiles/shell/.functions
 
 # TODO: IF composer does not exist, output warning and skip execution
-
 # composer should have been installed via "brew bundle"
 confirm_composer_installed
 
