@@ -108,6 +108,8 @@ If you dig into that installation file, you'll note that it does a few things:
 
 ### macOS Settings
 
+The 
+
 The `.macos` file within the root of the repository attempts to automatically configure as many system settings as possible.
 
 I haven't updated this script in a long time, and it currently throws a warning in a couple of spots. However, the file is still referenced in several of the repositories that I track which leads me to believe it remains a viable tool for automatically applying settings.

@@ -21,7 +21,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ./scripts/cursor.sh
 ./scripts/vscode.sh
 ./scripts/sublime.sh
-
-# TODO: Automatically run ./scripts/macos.sh?
+./scripts/macos.sh
 
 # TODO: The Mackup script only configures Mackup. Determine when/how to run "mackup restore -v -f"
