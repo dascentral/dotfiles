@@ -7,12 +7,10 @@ LOCALPATH="${HOME}/Library/Application Support/Cursor/User"
 CLOUDPATH="${DOTFILES}/settings/Cursor/User"
 CLI="/usr/local/bin/cursor"
 
-# confirm app has been installed
 if [ ! -e "/Applications/Cursor.app" ]; then
     abort "Cursor has not been installed.\n"
 fi
 
-# confirm command line utility is available
 if [ ! -e "${CLI}" ]; then
     abort "Cursor command line utility is not available.\n"
 fi
