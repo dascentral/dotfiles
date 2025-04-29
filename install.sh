@@ -13,7 +13,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # TODO: sudo chown ${USER} /usr/local/bin
 
-# second run scripts
 ./scripts/homebrew.sh
 ./scripts/git.sh
 ./scripts/ssh.sh
