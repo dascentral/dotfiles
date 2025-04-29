@@ -11,8 +11,8 @@ info "Composer self-update."
 composer self-update
 printf "\n"
 
-# install global packages
-declare -a extensions=(
+info "Installing global Composer packages."
+declare -a packages=(
     "dascentral/hubflow-release"
     "laravel/installer"
     "laravel/pint"
@@ -20,9 +20,7 @@ declare -a extensions=(
     "spatie/global-ray"
     "tightenco/takeout"
 )
-
-info "Installing global Composer packages."
-for item in ${extensions[@]}; do
+for item in ${packages[@]}; do
     parts=(`echo $item | tr '/' ' '`)
     if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
         composer global require ${item}
