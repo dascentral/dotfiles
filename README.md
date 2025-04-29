@@ -73,7 +73,11 @@ Note that issuing your first `git` command will prompt installation of the [Xcod
 git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 ```
 
-### Create a Brewfile
+### Software Installation Prerequisites
+
+Before running the main installation script, we need to knock out a few prerequisites.
+
+#### Create a Brewfile
 
 I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, create a `Brewfile` to the root of the repository.
 
@@ -83,7 +87,7 @@ I have placed two samples within `config/Brewfile` that you may use as a templat
 cp config/Brewfile/Brewfile.example ./Brewfile
 ```
 
-### Install Fira Code
+#### Install Fira Code
 
 I use the [Fira Code](https://github.com/tonsky/FiraCode) font within Cursor and VS Code and have configured the install script to automatically update the application settings accordingly. As a result, I made installation of Fira Code a prerequisite for the full software installation that happens next.
 
