@@ -2,13 +2,13 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-if [ ! -e "${WORKSPACE}" ]; then
+if [ ! -e "${CODE}" ]; then
     info "Creating '~/Workspace' directory"
     mkdir -p ${HOME}/Workspace
 fi
 
-if [ ! -e "${WORKSPACE}/gitflow" ]; then
-    git clone https://github.com/datasift/gitflow ${WORKSPACE}/gitflow
-    cd ${WORKSPACE}/gitflow
-    sudo ${WORKSPACE}/gitflow/install.sh
+if [ ! -e "${CODE}/gitflow" ]; then
+    git clone https://github.com/datasift/gitflow ${CODE}/gitflow
+    cd ${CODE}/gitflow
+    sudo ${CODE}/gitflow/install.sh
 fi
