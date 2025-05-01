@@ -48,9 +48,12 @@ declare -a extensions=(
     "christian-kohler.path-intellisense"
     "bradlc.vscode-tailwindcss"
     "dbaeumer.vscode-eslint"
+    # Markdown / MDX
+    "davidanson.vscode-markdownlint"
+    "unifiedjs.vscode-mdx"
+    "yzhang.markdown-all-in-one"
     # Additional Language Support
     "redhat.vscode-yaml"
-    "unifiedjs.vscode-mdx"
     # Utility
     "mikestead.dotenv"
     "editorconfig.editorconfig"
@@ -64,7 +67,6 @@ declare -a extensions=(
     # "christian-kohler.npm-intellisense"
     # "cierra.livewire-vscode"
     # "dansysanalyst.pest-snippets"
-    # "davidanson.vscode-markdownlint"
     # "dbankier.vscode-quick-select"
     # "eamodio.gitlens"
     # "emeraldwalk.runonsave"
@@ -96,7 +98,6 @@ declare -a extensions=(
     # "vue.volar"
     # "william-voyek.vscode-nginx"
     # "wix.vscode-import-cost"
-    # "yzhang.markdown-all-in-one"
 )
 
 info "Installing Cursor Extensions."
