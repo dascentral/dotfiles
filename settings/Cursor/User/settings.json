@@ -101,6 +101,10 @@
    */
   "files.hotExit": "onExitAndWindowClose",
   /**
+   * Enabling Laravel Pint.
+   */
+  "laravel-pint.enable": true,
+  /**
    * Hide the workbench activity bar.
    */
   "workbench.activityBar.location": "hidden",
