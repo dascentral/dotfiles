@@ -35,7 +35,7 @@ for item in ${links[@]}; do
 done
 printf "\n"
 
-# install Cursor extensions
+info "Installing Cursor Extensions."
 declare -a extensions=(
     # PHP Development
     "calebporzio.better-phpunit"
@@ -45,60 +45,26 @@ declare -a extensions=(
     "laravel.vscode-laravel"
     "open-southeners.laravel-pint"
     # Web Development
-    "davidanson.vscode-markdownlint"
-    "yzhang.markdown-all-in-one"
-    "unifiedjs.vscode-mdx"
-    "redhat.vscode-yaml"
     "bradlc.vscode-tailwindcss"
-    "dbaeumer.vscode-eslint"
     "christian-kohler.path-intellisense"
+    "dbaeumer.vscode-eslint"
+    "geeksharp.openssl-configuration-file"
+    "github.vscode-github-actions"
+    "redhat.vscode-yaml"
+    "william-voyek.vscode-nginx"
+    # Markdown / MDX
+    "yzhang.markdown-all-in-one"
+    "davidanson.vscode-markdownlint"
+    "unifiedjs.vscode-mdx"
     # Utility
-    "patbenatar.advanced-new-file"
-    "mikestead.dotenv"
     "editorconfig.editorconfig"
     "esbenp.prettier-vscode"
+    "lucax88x.codeacejumper"
+    "mikestead.dotenv"
+    "patbenatar.advanced-new-file"
     # Themes
     "arcticicestudio.nord-visual-studio-code"
-    # "adrianwilczynski.alpine-js-intellisense"
-    # "amiralizadeh9480.laravel-extra-intellisense"
-    # "austenc.laravel-blade-spacer"
-    # "christian-kohler.npm-intellisense"
-    # "cierra.livewire-vscode"
-    # "dansysanalyst.pest-snippets"
-    # "dbankier.vscode-quick-select"
-    # "eamodio.gitlens"
-    # "emeraldwalk.runonsave"
-    # "equinusocio.vsc-material-theme"
-    # "equinusocio.vsc-material-theme-icons"
-    # "formulahendry.code-runner"
-    # "geeksharp.openssl-configuration-file"
-    # "github.vscode-github-actions"
-    # "gitlab.gitlab-workflow"
-    # "irongeek.vscode-env"
-    # "hashicorp.terraform"
-    # "junstyle.php-cs-fixer"
-    # "lucax88x.codeacejumper"
-    # "mattpocock.ts-error-translator"
-    # "mohamedbenhida.laravel-intellisense"
-    # "ms-azuretools.vscode-docker"
-    # "ms-vscode.cpptools-extension-pack"
-    # "ms-vscode-remote.remote-containers"
-    # "neilbrayfield.php-docblocker"
-    # "nikitakunevich.snippet-creator"
-    # "onecentlin.laravel-blade"
-    # "ryannaddy.laravel-artisan"
-    # "silvenon.mdx"
-    # "sleistner.vscode-fileutils"
-    # "smlombardi.slime"
-    # "stylelint.vscode-stylelint"
-    # "sysoev.language-stylus"
-    # "vscode-icons-team.vscode-icons"
-    # "vue.volar"
-    # "william-voyek.vscode-nginx"
-    # "wix.vscode-import-cost"
 )
-
-info "Installing Cursor Extensions."
 for item in ${extensions[@]}; do
     if ! ls ~/.cursor/extensions/${item}* 1> /dev/null 2>&1; then
         cursor --install-extension ${item}
