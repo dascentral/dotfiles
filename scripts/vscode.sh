@@ -55,6 +55,7 @@ declare -a extensions=(
     "mehedidracula.php-namespace-resolver"
     "open-southeners.laravel-pint"
     "patbenatar.advanced-new-file"
+    "unifiedjs.vscode-mdx"
     # "adrianwilczynski.alpine-js-intellisense"
     # "amiralizadeh9480.laravel-extra-intellisense"
     # "austenc.laravel-blade-spacer"
