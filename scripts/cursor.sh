@@ -40,27 +40,25 @@ declare -a extensions=(
     # PHP Development
     "calebporzio.better-phpunit"
     "bmewburn.vscode-intelephense-client"
-    # Laravel Development
     "mehedidracula.php-namespace-resolver"
+    # Laravel Development
     "laravel.vscode-laravel"
     "open-southeners.laravel-pint"
-    # Web Development (HTML, CSS, JavaScript)
-    "christian-kohler.path-intellisense"
+    # Web Development
+    "davidanson.vscode-markdownlint"
+    "yzhang.markdown-all-in-one"
+    "unifiedjs.vscode-mdx"
+    "redhat.vscode-yaml"
     "bradlc.vscode-tailwindcss"
     "dbaeumer.vscode-eslint"
-    # Markdown / MDX
-    "davidanson.vscode-markdownlint"
-    "unifiedjs.vscode-mdx"
-    "yzhang.markdown-all-in-one"
-    # Additional Language Support
-    "redhat.vscode-yaml"
+    "christian-kohler.path-intellisense"
     # Utility
+    "patbenatar.advanced-new-file"
     "mikestead.dotenv"
     "editorconfig.editorconfig"
-    "patbenatar.advanced-new-file"
+    "esbenp.prettier-vscode"
     # Themes
     "arcticicestudio.nord-visual-studio-code"
-    "esbenp.prettier-vscode"
     # "adrianwilczynski.alpine-js-intellisense"
     # "amiralizadeh9480.laravel-extra-intellisense"
     # "austenc.laravel-blade-spacer"
