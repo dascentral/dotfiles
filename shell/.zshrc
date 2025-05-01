@@ -1,6 +1,6 @@
 export DOTFILES=${HOME}/.dotfiles
 export PRIVATE=${HOME}/.private
-export WORKSPACE=${HOME}/Code
+export CODE=${HOME}/Code
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
