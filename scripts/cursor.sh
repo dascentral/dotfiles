@@ -59,6 +59,7 @@ declare -a extensions=(
     # Utility
     "editorconfig.editorconfig"
     "esbenp.prettier-vscode"
+    "irongeek.vscode-env"
     "lucax88x.codeacejumper"
     "mikestead.dotenv"
     "patbenatar.advanced-new-file"

@@ -65,10 +65,10 @@ declare -a extensions=(
     "editorconfig.editorconfig"
     "esbenp.prettier-vscode"
     "github.copilot"
+    "irongeek.vscode-env"
     "lucax88x.codeacejumper"
     "mikestead.dotenv"
     "patbenatar.advanced-new-file"
-    # "irongeek.vscode-env"
     # Themes
     "arcticicestudio.nord-visual-studio-code"
     # Legacy
