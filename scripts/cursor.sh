@@ -96,7 +96,7 @@ declare -a extensions=(
 
 info "Installing Cursor Extensions."
 for item in ${extensions[@]}; do
-    if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
+    if ! ls ~/.cursor/extensions/${item}* 1> /dev/null 2>&1; then
         cursor --install-extension ${item}
         success "${item} - installed"
     else
