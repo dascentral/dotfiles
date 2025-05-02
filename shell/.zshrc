@@ -119,6 +119,7 @@ source ~/.dotfiles/shell/.helpers
 
 # Path additions
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/Users/Shared/DBngin/mysql/8.0.33/bin
 export PATH=$PATH:~/.composer/vendor/bin
 export PATH=$PATH:~/.dotfiles/bin
 export PATH=$PATH:~/.private/bin
