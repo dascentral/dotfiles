@@ -17,3 +17,8 @@ ${DOTFILES}/scripts/sublime.sh
 ${DOTFILES}/scripts/vscode.sh
 ${DOTFILES}/scripts/cursor.sh
 ${DOTFILES}/scripts/macos.sh
+
+# I use a private script to clone and update repositories
+if [ -e "${PRIVATE}" ]; then
+    ${PRIVATE}/scripts/repos.sh
+fi
