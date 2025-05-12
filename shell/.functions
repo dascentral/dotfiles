@@ -59,6 +59,68 @@ has() {
 ################################################################
 
 
+clone_or_update_repo() {
+    local label="$1"
+    local repo="$2"
+    local path="$3"
+
+    if [ ! -d "$path" ]; then
+        info "Cloning ${label}."
+        git clone "$repo" "$path"
+        return
+    fi
+
+    info "Updating ${label}."
+
+    pushd "$path" > /dev/null || { abort "Failed to enter $path"; }
+
+    if ! git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
+        popd > /dev/null
+        abort "Not a git repository: $path"
+    fi
+
+    local current_branch trunk_branch stash_needed=false
+
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+    # Detect trunk branch
+    if git show-ref --verify --quiet refs/heads/develop; then
+        trunk_branch="develop"
+    elif git show-ref --verify --quiet refs/heads/main; then
+        trunk_branch="main"
+    else
+        popd > /dev/null
+        abort "No 'main' or 'develop' branch found in ${label}. Skipping update."
+    fi
+
+    # Check for uncommitted changes
+    if ! git diff --quiet || ! git diff --cached --quiet; then
+        line "Stashing uncommitted changes..."
+        git stash push -u -m "Auto-stash before updating $trunk_branch"
+        stash_needed=true
+    fi
+
+    # Checkout and pull latest trunk
+    if [ "$current_branch" != "$trunk_branch" ]; then
+        git checkout "$trunk_branch" || { abort "Failed to checkout $trunk_branch"; }
+    fi
+
+    git pull origin "$trunk_branch"
+
+    # Restore original branch
+    if [ "$current_branch" != "$trunk_branch" ]; then
+        git checkout "$current_branch"
+    fi
+
+    # Reapply stashed changes if needed
+    if [ "$stash_needed" = true ]; then
+        line "Reapplying stashed changes..."
+        git stash pop
+    fi
+
+    popd > /dev/null
+}
+
 composer_json() {
     [ -e "composer.json" ]
 }
