@@ -69,10 +69,6 @@ composer_installed() {
     [ -e /Users/${USER}/Library/Application\ Support/Herd/bin/composer ]
 }
 
-homebrew_installed() {
-    [ -e /opt/homebrew/bin/brew ] || [ -e /usr/local/bin/brew ]
-}
-
 confirm_composer_installed() {
     if ! composer_installed; then
         abort "Composer has not been installed. Aborting execution."
@@ -141,6 +137,10 @@ git_local_branch_exists() {
 
 git_repository() {
     git rev-parse --is-inside-work-tree > /dev/null 2>&1;
+}
+
+homebrew_installed() {
+    [ -e /opt/homebrew/bin/brew ] || [ -e /usr/local/bin/brew ]
 }
 
 install_check_oh_my_zsh() {
