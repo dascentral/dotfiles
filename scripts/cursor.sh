@@ -63,6 +63,7 @@ declare -a extensions=(
     "lucax88x.codeacejumper"
     "mikestead.dotenv"
     "patbenatar.advanced-new-file"
+    "sleistner.vscode-fileutils"
     # Themes
     "arcticicestudio.nord-visual-studio-code"
 )
