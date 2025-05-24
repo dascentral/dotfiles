@@ -87,8 +87,10 @@
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
-  // JSON files have tab size of 4 primarily because it matches the Laravel standard.
-  "[json]": {
+  /**
+   * Custom settings for JSON. (Note that tabSize seems to be ignored.)
+   */
+   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4
   },

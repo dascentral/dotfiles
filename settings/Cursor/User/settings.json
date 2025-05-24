@@ -24,7 +24,7 @@
    */
   "files.trimTrailingWhitespace": true,
   /**
-   * Custom settings for JSON.
+   * Custom settings for JSON. (Note that tabSize seems to be ignored.)
    */
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
