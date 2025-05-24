@@ -89,6 +89,7 @@
   },
   // JSON files have tab size of 4 primarily because it matches the Laravel standard.
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4
   },
   "[markdown]": {
