@@ -50,6 +50,7 @@ cask 'expressvpn'         # https://formulae.brew.sh/cask/expressvpn
 cask 'figma'              # https://formulae.brew.sh/cask/figma
 cask 'google-chrome'      # https://formulae.brew.sh/cask/google-chrome
 cask 'google-drive'       # https://formulae.brew.sh/cask/google-drive
+cask 'grammarly-desktop'  # https://formulae.brew.sh/cask/grammarly-desktop
 cask 'herd'               # https://formulae.brew.sh/cask/herd
 cask 'iterm2'             # https://formulae.brew.sh/cask/iterm2
 cask 'miro'               # https://formulae.brew.sh/cask/miro
