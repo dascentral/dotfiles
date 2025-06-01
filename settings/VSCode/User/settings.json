@@ -123,6 +123,9 @@
   "blade.format.enable": false,
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
+  /**
+   * https://code.visualstudio.com/docs/configure/accessibility/accessibility#_screen-reader-mode
+   */
   "editor.accessibilitySupport": "off",
   // Disable automatic detection of indentation.
   "editor.detectIndentation": false,
