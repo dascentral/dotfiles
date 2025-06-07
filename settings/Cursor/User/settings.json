@@ -26,7 +26,7 @@
   /**
    * Sort imports in alphabetical order instead of line length.
    */
-  "namespaceResolver.sortAlphabetically": false,
+  "namespaceResolver.sortAlphabetically": true,
   /**
    * Custom settings for JSON. (Note that tabSize seems to be ignored.)
    */
