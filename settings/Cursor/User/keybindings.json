@@ -1,5 +1,16 @@
-// Place your key bindings in this file to override the defaults
 [
+  // Cursor
+  {
+    "key": "cmd+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  // Better PHPUnit
   {
     "key": "cmd+t",
     "command": "better-phpunit.run"
@@ -8,6 +19,7 @@
     "key": "shift+cmd+t",
     "command": "better-phpunit.run-file"
   },
+  // PHP Namespace Resolver
   {
     "key": "alt+cmd+i",
     "command": "namespaceResolver.import",
