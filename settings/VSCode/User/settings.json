@@ -50,7 +50,9 @@
   "json.format.enable": false,
   // Disable VS Code's default validation which is now handled by Stylelint.
   "less.validate": false,
-  // Sort all namespaces alphabetically. Note that this largely duplicative to my PHP CS Fixer settings.
+  /**
+   * Sort all namespaces alphabetically. Note that this largely duplicative to my PHP CS Fixer settings.
+   */
   "namespaceResolver.sortAlphabetically": true,
   // Points to the php-cs-fixer exectuable, eg: win: php-cs-fixer.bat, other: php-cs-fixer; or points to php-cs-fixer.phar path, eg: /full/path/of/php-cs-fixer.phar
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
