@@ -24,6 +24,10 @@
    */
   "files.trimTrailingWhitespace": true,
   /**
+   * Sort imports in alphabetical order instead of line length.
+   */
+  "namespaceResolver.sortAlphabetically": false,
+  /**
    * Custom settings for JSON. (Note that tabSize seems to be ignored.)
    */
   "[json]": {
