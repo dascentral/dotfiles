@@ -61,6 +61,10 @@
    */
   "editor.accessibilitySupport": "off",
   /**
+   * Do not reveal files in the explorer when opened.
+   */
+  "explorer.autoReveal": false,
+  /**
    * Disable automatic detection of indentation.
    */
   "editor.detectIndentation": false,

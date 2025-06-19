@@ -143,6 +143,9 @@
   "editor.stickyScroll.enabled": true,
   "editor.tabCompletion": "on",
   "eslint.alwaysShowStatus": true,
+  /**
+   * Do not reveal files in the explorer when opened.
+   */
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
