@@ -114,6 +114,11 @@
    */
   "files.hotExit": "onExitAndWindowClose",
   /**
+   * Enable git autofetch.
+   * https://code.visualstudio.com/docs/sourcecontrol/overview#_remotes
+   */
+  "git.autofetch": true,
+  /**
    * Enabling Laravel Pint.
    */
   "laravel-pint.enable": true,
