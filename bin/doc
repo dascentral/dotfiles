@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+files=$(find . -type f ! \( -name "*.gdoc" -o -name "*.gsheet" -o -name "*.gslides" -o -name "*.gdraw" -o -name "*.gform" \))
+
+if [ -n "$files" ]; then
+    echo "The following non-Google Document files were found:"
+    echo "$files"
+else
+    info "No relevant documents found."
+fi
