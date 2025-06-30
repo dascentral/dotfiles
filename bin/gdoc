@@ -2,7 +2,6 @@
 
 source /Users/${USER}/.dotfiles/shell/.functions
 
-# Search for files with extensions used by Google Docs, Sheets, Slides, and Forms
 files=$(find . -type f \( -name "*.gdoc" -o -name "*.gsheet" -o -name "*.gslides" -o -name "*.gdraw" -o -name "*.gform" \))
 
 if [ -n "$files" ]; then
