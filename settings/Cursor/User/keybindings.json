@@ -1,4 +1,9 @@
 [
+  // Code Ace Jumper
+  {
+    "key": "shift+cmd+;",
+    "command": "extension.aceJump"
+  },
   // Cursor
   {
     "key": "cmd+l",
