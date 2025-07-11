@@ -41,40 +41,41 @@ brew 'the_silver_searcher'
 # brew 'gifsicle'
 
 # Casks
-cask 'alfred'             # https://formulae.brew.sh/cask/alfred
-cask 'appcleaner'         # https://formulae.brew.sh/cask/appcleaner
-cask 'arc'                # https://formulae.brew.sh/cask/arc
-cask 'cursor'             # https://formulae.brew.sh/cask/cursor
-cask 'dbngin'             # https://formulae.brew.sh/cask/dbngin
-cask 'expressvpn'         # https://formulae.brew.sh/cask/expressvpn
-cask 'figma'              # https://formulae.brew.sh/cask/figma
-cask 'google-chrome'      # https://formulae.brew.sh/cask/google-chrome
-cask 'google-drive'       # https://formulae.brew.sh/cask/google-drive
-cask 'grammarly-desktop'  # https://formulae.brew.sh/cask/grammarly-desktop
-cask 'herd'               # https://formulae.brew.sh/cask/herd
-cask 'iterm2'             # https://formulae.brew.sh/cask/iterm2
-cask 'miro'               # https://formulae.brew.sh/cask/miro
-cask 'monotype'           # https://formulae.brew.sh/cask/monotype
-cask 'notion'             # https://formulae.brew.sh/cask/notion
-cask 'notion-calendar'    # https://formulae.brew.sh/cask/notion-calendar
-cask 'pop'                # https://formulae.brew.sh/cask/pop
-cask 'postman'            # https://formulae.brew.sh/cask/postman
-cask 'ray'                # https://formulae.brew.sh/cask/ray
-cask 'readdle-spark'      # https://formulae.brew.sh/cask/readdle-spark
-cask 'rectangle-pro'      # https://formulae.brew.sh/cask/rectangle-pro
-cask 'rocket'             # https://formulae.brew.sh/cask/rocket
-cask 'setapp'             # https://formulae.brew.sh/cask/setapp
-cask 'signal'             # https://formulae.brew.sh/cask/signal
-cask 'slack'              # https://formulae.brew.sh/cask/slack
-cask 'spotify'            # https://formulae.brew.sh/cask/spotify
-cask 'teamviewer'         # https://formulae.brew.sh/cask/teamviewer
-cask 'tinkerwell'         # https://formulae.brew.sh/cask/tinkerwell
-cask 'tower'              # https://formulae.brew.sh/cask/tower
-cask 'typora'             # https://formulae.brew.sh/cask/typora
-cask 'visual-studio-code' # https://formulae.brew.sh/cask/visual-studio-code
-cask 'vlc'                # https://formulae.brew.sh/cask/vlc
-cask 'whatsapp'           # https://formulae.brew.sh/cask/whatsapp
-cask 'zoom'               # https://formulae.brew.sh/cask/zoom
+cask 'alfred'                  # https://formulae.brew.sh/cask/alfred
+cask 'appcleaner'              # https://formulae.brew.sh/cask/appcleaner
+cask 'arc'                     # https://formulae.brew.sh/cask/arc
+cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
+cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
+cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
+cask 'figma'                   # https://formulae.brew.sh/cask/figma
+cask 'google-chrome'           # https://formulae.brew.sh/cask/google-chrome
+cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
+cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
+cask 'herd'                    # https://formulae.brew.sh/cask/herd
+cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
+cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
+cask 'miro'                    # https://formulae.brew.sh/cask/miro
+cask 'monotype'                # https://formulae.brew.sh/cask/monotype
+cask 'notion'                  # https://formulae.brew.sh/cask/notion
+cask 'notion-calendar'         # https://formulae.brew.sh/cask/notion-calendar
+cask 'pop'                     # https://formulae.brew.sh/cask/pop
+cask 'postman'                 # https://formulae.brew.sh/cask/postman
+cask 'ray'                     # https://formulae.brew.sh/cask/ray
+cask 'readdle-spark'           # https://formulae.brew.sh/cask/readdle-spark
+cask 'rectangle-pro'           # https://formulae.brew.sh/cask/rectangle-pro
+cask 'rocket'                  # https://formulae.brew.sh/cask/rocket
+cask 'setapp'                  # https://formulae.brew.sh/cask/setapp
+cask 'signal'                  # https://formulae.brew.sh/cask/signal
+cask 'slack'                   # https://formulae.brew.sh/cask/slack
+cask 'spotify'                 # https://formulae.brew.sh/cask/spotify
+cask 'teamviewer'              # https://formulae.brew.sh/cask/teamviewer
+cask 'tinkerwell'              # https://formulae.brew.sh/cask/tinkerwell
+cask 'tower'                   # https://formulae.brew.sh/cask/tower
+cask 'typora'                  # https://formulae.brew.sh/cask/typora
+cask 'visual-studio-code'      # https://formulae.brew.sh/cask/visual-studio-code
+cask 'vlc'                     # https://formulae.brew.sh/cask/vlc
+cask 'whatsapp'                # https://formulae.brew.sh/cask/whatsapp
+cask 'zoom'                    # https://formulae.brew.sh/cask/zoom
 
 # Typically installed manually before I've cloned this repository
 #cask '1password'
