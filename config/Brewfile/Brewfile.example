@@ -53,7 +53,6 @@ cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
 cask 'herd'                    # https://formulae.brew.sh/cask/herd
 cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
-cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
 cask 'miro'                    # https://formulae.brew.sh/cask/miro
 cask 'monotype'                # https://formulae.brew.sh/cask/monotype
 cask 'notion'                  # https://formulae.brew.sh/cask/notion
@@ -91,6 +90,7 @@ cask 'zoom'                    # https://formulae.brew.sh/cask/zoom
 #cask 'gpg-suite'
 #cask 'imageoptim'
 #cask 'insomnia'
+#cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
 #cask 'telegram-desktop'
 #cask 'the-unarchiver'
 #cask 'transmit'
