@@ -48,6 +48,7 @@ cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
 cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
 cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
 cask 'figma'                   # https://formulae.brew.sh/cask/figma
+cask 'github'                  # https://formulae.brew.sh/cask/github
 cask 'google-chrome'           # https://formulae.brew.sh/cask/google-chrome
 cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
 cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
