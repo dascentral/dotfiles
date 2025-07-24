@@ -8,6 +8,7 @@
 brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
+brew 'gh'                   # https://formulae.brew.sh/formula/gh
 brew 'handbrake'
 brew 'mackup'
 brew 'mas'
