@@ -1,38 +1,38 @@
 # Taps
-#tap 'hashicorp/tap'       # needed?
-#tap 'homebrew/cask-fonts' # deprecated
-#tap 'homebrew/bundle'     # deprecated
-#tap 'nicoverbruggen/homebrew-cask'
+# tap 'hashicorp/tap'       # needed?
+# tap 'homebrew/cask-fonts' # deprecated
+# tap 'homebrew/bundle'     # deprecated
+# tap 'nicoverbruggen/homebrew-cask'
 
-# Brew
-brew 'awscli'
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
-brew 'gh'                   # https://formulae.brew.sh/formula/gh
-brew 'handbrake'
-brew 'mackup'
-brew 'mas'
-brew 'the_silver_searcher'
+# Typical Installations
+# brew 'awscli'
+# brew 'coreutils'            # Those that come with macOS are outdated
+# brew 'ffmpeg'
+# brew 'gh'                   # https://formulae.brew.sh/formula/gh
+# brew 'handbrake'
+# brew 'mackup'
+# brew 'mas'
+# brew 'the_silver_searcher'
 
-# Optional installations
-#brew 'act'
-#brew 'composer'
-#brew 'gh'
-#brew 'git'
-#brew 'gnupg'
-#brew 'hashicorp/tap/packer'
-#brew 'httpie'
-#brew 'htop'
-#brew 'hub'
-#brew 'imagemagick'
-#brew 'mingw-w64'
-#brew 'pkg-config'
-#brew 'redis'
-#brew 'ssh-copy-id'
-#brew 'trash'
-#brew 'tree'
-#brew 'wrk'
-#brew 'zlib'
+# Optional Installations
+# brew 'act'
+# brew 'composer'
+# brew 'gh'
+# brew 'git'
+# brew 'gnupg'
+# brew 'hashicorp/tap/packer'
+# brew 'httpie'
+# brew 'htop'
+# brew 'hub'
+# brew 'imagemagick'
+# brew 'mingw-w64'
+# brew 'pkg-config'
+# brew 'redis'
+# brew 'ssh-copy-id'
+# brew 'trash'
+# brew 'tree'
+# brew 'wrk'
+# brew 'zlib'
 
 # Spatie Medialibrary
 # brew 'jpegoptim'
@@ -41,91 +41,91 @@ brew 'the_silver_searcher'
 # brew 'svgo'
 # brew 'gifsicle'
 
-# Casks
-cask 'alfred'                  # https://formulae.brew.sh/cask/alfred
-cask 'appcleaner'              # https://formulae.brew.sh/cask/appcleaner
-cask 'arc'                     # https://formulae.brew.sh/cask/arc
-cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
-cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
-cask 'elgato-stream-deck'      # https://formulae.brew.sh/cask/elgato-stream-deck
-cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
-cask 'figma'                   # https://formulae.brew.sh/cask/figma
-cask 'github'                  # https://formulae.brew.sh/cask/github
-cask 'google-chrome'           # https://formulae.brew.sh/cask/google-chrome
-cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
-cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
-cask 'herd'                    # https://formulae.brew.sh/cask/herd
-cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
-cask 'miro'                    # https://formulae.brew.sh/cask/miro
-cask 'monotype'                # https://formulae.brew.sh/cask/monotype
-cask 'notion'                  # https://formulae.brew.sh/cask/notion
-cask 'notion-calendar'         # https://formulae.brew.sh/cask/notion-calendar
-cask 'pop'                     # https://formulae.brew.sh/cask/pop
-cask 'postman'                 # https://formulae.brew.sh/cask/postman
-cask 'ray'                     # https://formulae.brew.sh/cask/ray
-cask 'readdle-spark'           # https://formulae.brew.sh/cask/readdle-spark
-cask 'rectangle-pro'           # https://formulae.brew.sh/cask/rectangle-pro
-cask 'rocket'                  # https://formulae.brew.sh/cask/rocket
-cask 'setapp'                  # https://formulae.brew.sh/cask/setapp
-cask 'signal'                  # https://formulae.brew.sh/cask/signal
-cask 'slack'                   # https://formulae.brew.sh/cask/slack
-cask 'spotify'                 # https://formulae.brew.sh/cask/spotify
-cask 'teamviewer'              # https://formulae.brew.sh/cask/teamviewer
-cask 'tinkerwell'              # https://formulae.brew.sh/cask/tinkerwell
-cask 'tower'                   # https://formulae.brew.sh/cask/tower
-cask 'typora'                  # https://formulae.brew.sh/cask/typora
-cask 'visual-studio-code'      # https://formulae.brew.sh/cask/visual-studio-code
-cask 'vlc'                     # https://formulae.brew.sh/cask/vlc
-cask 'whatsapp'                # https://formulae.brew.sh/cask/whatsapp
-cask 'zoom'                    # https://formulae.brew.sh/cask/zoom
+# Casks that I typically installed manually before I've cloned this repository
+# cask '1password'
+# cask '1password-cli'
+# cask 'sublime-text'
 
-# Typically installed manually before I've cloned this repository
-#cask '1password'
-#cask '1password-cli'
-#cask 'sublime-text'
+# Typical Cask Installations
+# cask 'alfred'                  # https://formulae.brew.sh/cask/alfred
+# cask 'appcleaner'              # https://formulae.brew.sh/cask/appcleaner
+# cask 'arc'                     # https://formulae.brew.sh/cask/arc
+# cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
+# cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
+# cask 'elgato-stream-deck'      # https://formulae.brew.sh/cask/elgato-stream-deck
+# cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
+# cask 'figma'                   # https://formulae.brew.sh/cask/figma
+# cask 'github'                  # https://formulae.brew.sh/cask/github
+# cask 'google-chrome'           # https://formulae.brew.sh/cask/google-chrome
+# cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
+# cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
+# cask 'herd'                    # https://formulae.brew.sh/cask/herd
+# cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
+# cask 'miro'                    # https://formulae.brew.sh/cask/miro
+# cask 'monotype'                # https://formulae.brew.sh/cask/monotype
+# cask 'notion'                  # https://formulae.brew.sh/cask/notion
+# cask 'notion-calendar'         # https://formulae.brew.sh/cask/notion-calendar
+# cask 'pop'                     # https://formulae.brew.sh/cask/pop
+# cask 'postman'                 # https://formulae.brew.sh/cask/postman
+# cask 'ray'                     # https://formulae.brew.sh/cask/ray
+# cask 'readdle-spark'           # https://formulae.brew.sh/cask/readdle-spark
+# cask 'rectangle-pro'           # https://formulae.brew.sh/cask/rectangle-pro
+# cask 'rocket'                  # https://formulae.brew.sh/cask/rocket
+# cask 'setapp'                  # https://formulae.brew.sh/cask/setapp
+# cask 'signal'                  # https://formulae.brew.sh/cask/signal
+# cask 'slack'                   # https://formulae.brew.sh/cask/slack
+# cask 'spotify'                 # https://formulae.brew.sh/cask/spotify
+# cask 'teamviewer'              # https://formulae.brew.sh/cask/teamviewer
+# cask 'tinkerwell'              # https://formulae.brew.sh/cask/tinkerwell
+# cask 'tower'                   # https://formulae.brew.sh/cask/tower
+# cask 'typora'                  # https://formulae.brew.sh/cask/typora
+# cask 'visual-studio-code'      # https://formulae.brew.sh/cask/visual-studio-code
+# cask 'vlc'                     # https://formulae.brew.sh/cask/vlc
+# cask 'whatsapp'                # https://formulae.brew.sh/cask/whatsapp
+# cask 'zoom'                    # https://formulae.brew.sh/cask/zoom
 
-# Optional installations
-#cask 'bettertouchtool'
-#cask 'discord'
-#cask 'docker'
-#cask 'firefox'
-#cask 'github'
-#cask 'gpg-suite'
-#cask 'imageoptim'
-#cask 'insomnia'
-#cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
-#cask 'telegram-desktop'
-#cask 'the-unarchiver'
-#cask 'transmit'
+# Optional Cask Installations
+# cask 'bettertouchtool'
+# cask 'discord'
+# cask 'docker'
+# cask 'firefox'
+# cask 'github'
+# cask 'gpg-suite'
+# cask 'imageoptim'
+# cask 'insomnia'
+# cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
+# cask 'telegram-desktop'
+# cask 'the-unarchiver'
+# cask 'transmit'
 
 # Quicklook
-#cask 'qlcolorcode'
-#cask 'qlmarkdown'
-#cask 'qlstephen'
-#cask 'qlvideo'
-#cask 'quicklook-json'
-#cask 'quicklook-csv'
-#cask 'quicklookase'
-#cask 'suspicious-package'
-#cask 'webpquicklook'
+# cask 'qlcolorcode'
+# cask 'qlmarkdown'
+# cask 'qlstephen'
+# cask 'qlvideo'
+# cask 'quicklook-json'
+# cask 'quicklook-csv'
+# cask 'quicklookase'
+# cask 'suspicious-package'
+# cask 'webpquicklook'
 
 # Fonts
-#cask 'font-fira-code'
-#cask 'font-lato'
-#cask 'font-source-code-pro'
-#cask 'font-source-sans-pro' # not found as of Oct 2023
+# cask 'font-fira-code'
+# cask 'font-lato'
+# cask 'font-source-code-pro'
+# cask 'font-source-sans-pro' # not found as of Oct 2023
 
 # Mac App Store
-mas 'Brother iPrint&Scan', id: 1193539993
-mas 'Dato', id: 1470584107
-mas 'HP Easy Scan', id:967004861
-mas 'Microsoft Remote Desktop', id: 1295203466
-mas 'Perplexity: Ask Anything', id: 6714467650
-mas 'Tomato 2: Pomodoro Timer', id: 1494210770
-#mas 'Twitter', id:1482454543
+# mas 'Brother iPrint&Scan', id: 1193539993
+# mas 'Dato', id: 1470584107
+# mas 'HP Easy Scan', id:967004861
+# mas 'Microsoft Remote Desktop', id: 1295203466
+# mas 'Perplexity: Ask Anything', id: 6714467650
+# mas 'Tomato 2: Pomodoro Timer', id: 1494210770
+# mas 'Twitter', id:1482454543
 
 # Now installed via Setapp
-#cask 'bartender'    # Bartender Alternative - https://matthewpalmer.net/vanilla/
-#cask 'tableplus'
-#mas 'Forecast Bar', id: 982710545
-#mas 'MindNode', id: 1289197285
+# cask 'bartender'    # Bartender Alternative - https://matthewpalmer.net/vanilla/
+# cask 'tableplus'
+# mas 'Forecast Bar', id: 982710545
+# mas 'MindNode', id: 1289197285
