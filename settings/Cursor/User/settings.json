@@ -146,4 +146,19 @@
    * Ensure the status bar is visible.
    */
   "workbench.statusBar.visible": true,
+  /**
+   * Custom settings for dockercompose.
+   */
+   "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  /**
+   * Custom settings for github-actions-workflow.
+   */
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
 }
