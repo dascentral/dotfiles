@@ -123,6 +123,7 @@ export PATH=$PATH:/Users/Shared/DBngin/mysql/8.0.33/bin
 export PATH=$PATH:~/.composer/vendor/bin
 export PATH=$PATH:~/.dotfiles/bin
 export PATH=$PATH:~/.private/bin
+export PATH=$PATH:~/.local/bin
 
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
