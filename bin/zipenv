@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if [ ! -e ".env" ]; then
+    abort "There is no .env file in this directory."
+fi
+
+zip envfile.zip .env
+
+mv envfile.zip ~/Desktop
