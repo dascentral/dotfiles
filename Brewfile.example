@@ -27,6 +27,7 @@
 # brew 'imagemagick'
 # brew 'mingw-w64'
 # brew 'pkg-config'
+# brew 'qpdf'                  # https://formulae.brew.sh/formula/qpdf
 # brew 'redis'
 # brew 'ssh-copy-id'
 # brew 'trash'
