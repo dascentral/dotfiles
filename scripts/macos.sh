@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/lib/functions.sh
 
 # macOS Settings Automation Script
 # Apply custom user preferences for macOS (based on markdown script)

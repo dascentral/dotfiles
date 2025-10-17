@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/lib/functions.sh
 
 function turn_wifi_off() {
     sudo networksetup -setairportpower en0 off

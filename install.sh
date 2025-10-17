@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/lib/functions.sh
 
 # Ash for password before we begin
 sudo -v

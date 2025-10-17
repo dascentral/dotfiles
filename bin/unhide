@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/lib/functions.sh
 
 if [ $# -eq 0 ]; then
     usage "Usage: $0 [file1] [file2] [...]"

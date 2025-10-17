@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/shell/.functions
+source /Users/${USER}/.dotfiles/lib/functions.sh
 
 if [ -e "${PRIVATE}" ]; then
     info "Linking SSH configuration to the private dotfiles."
