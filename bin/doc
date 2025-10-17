@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 files=$(find . -type f ! \( -name "*.gdoc" -o -name "*.gsheet" -o -name "*.gslides" -o -name "*.gdraw" -o -name "*.gform" \))
 

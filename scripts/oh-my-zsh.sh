@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then

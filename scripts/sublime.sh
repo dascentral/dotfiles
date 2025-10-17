@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 # configure script
 LOCALPATH="${HOME}/Library/Application Support/Sublime Text/Packages/User"

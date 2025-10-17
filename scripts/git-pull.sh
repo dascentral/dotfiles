@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 # While I am happy to share my dotfiles with the world, I keep
 # a few sensitive items within another private repository.

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 # TODO: IF composer does not exist, output warning and skip execution
 # composer should have been installed via "brew bundle"

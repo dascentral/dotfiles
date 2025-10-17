@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/functions.sh
+source /Users/${USER}/.dotfiles/lib/config.sh
 
 info "Linking Git configuration to dotfiles."
 if [ ! -L ${HOME}/.gitconfig ]; then
