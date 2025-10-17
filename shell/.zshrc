@@ -115,7 +115,7 @@ source ~/.dotfiles/shell/.aliases
 [ -s "${HOME}/.private/shell/.aliases" ] && source ~/.private/shell/.aliases
 
 # Source Helpers
-source ~/.dotfiles/shell/.helpers
+source ~/.dotfiles/shell/.functions
 
 # Path additions
 export PATH=$PATH:/usr/local/sbin
