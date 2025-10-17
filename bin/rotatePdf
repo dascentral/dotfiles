@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/shell/.functions
+
+if [ $# -lt 1 ] || [ $# -gt 2 ]; then
+    usage "Usage: rotatePdf [file] [angle=180]"
+fi
+
+# set output variable to the original file + "-rotated"
+output="${1%.pdf}-rotated.pdf"
+angle="${2:-180}"
+
+qpdf --rotate="${angle}" "$1" "$output"
+
+success "Rotated PDF saved as \"${output}\""
