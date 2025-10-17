@@ -149,7 +149,7 @@
   /**
    * Custom settings for dockercompose.
    */
-   "[dockercompose]": {
+  "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
