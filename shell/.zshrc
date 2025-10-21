@@ -117,6 +117,9 @@ source ~/.dotfiles/shell/.aliases
 # Source Functions
 source ~/.dotfiles/lib/config.sh
 
+# Homebrew binaries (prioritize over system)
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 # Path additions
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/Users/Shared/DBngin/mysql/8.0.33/bin
