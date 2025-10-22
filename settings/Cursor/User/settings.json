@@ -38,7 +38,8 @@
    * Custom settings for PHP.
    */
   "[php]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
   /**
    * Custom settings for shell scripts.
