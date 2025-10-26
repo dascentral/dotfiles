@@ -148,6 +148,12 @@
    */
   "workbench.statusBar.visible": true,
   /**
+   * Custom settings for CSS.
+   */
+   "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /**
    * Custom settings for dockercompose.
    */
   "[dockercompose]": {
@@ -161,6 +167,12 @@
    */
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  /**
+   * Custom settings for Markdown.
+   */
+   "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   /**
    * Custom settings for YAML.
