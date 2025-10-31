@@ -5,11 +5,11 @@
     "command": "extension.aceJump"
   },
   // Cursor
-  {
-    "key": "cmd+l",
-    "command": "expandLineSelection",
-    "when": "textInputFocus"
-  },
+  // {
+  //   "key": "cmd+l",
+  //   "command": "expandLineSelection",
+  //   "when": "textInputFocus"
+  // },
   {
     "key": "cmd+p",
     "command": "-expandLineSelection",
