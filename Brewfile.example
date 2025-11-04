@@ -52,6 +52,7 @@
 # cask 'appcleaner'              # https://formulae.brew.sh/cask/appcleaner
 # cask 'arc'                     # https://formulae.brew.sh/cask/arc
 # cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
+# cask 'cursor-cli'              # https://formulae.brew.sh/cask/cursor-cli
 # cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
 # cask 'elgato-stream-deck'      # https://formulae.brew.sh/cask/elgato-stream-deck
 # cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
