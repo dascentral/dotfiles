@@ -1,0 +1,78 @@
+#!/bin/bash
+
+exit 0;
+
+# Exit on error
+set -e
+
+# Colors for output
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+echo -e "${YELLOW}Checking for staged changes...${NC}"
+
+# Check if there are staged changes
+if ! git diff --cached --quiet; then
+    echo -e "${GREEN}Found staged changes.${NC}"
+    echo ""
+
+    # Get the diff of staged changes
+    STAGED_DIFF=$(git diff --cached)
+
+    # Get list of staged files
+    echo -e "${YELLOW}Staged files:${NC}"
+    git diff --cached --name-status
+    echo ""
+
+    # Use cursor-agent to generate commit message
+    echo -e "${YELLOW}Generating commit message with cursor-agent...${NC}"
+    COMMIT_MSG=$(cursor-agent --model sonnet-4.5 "Generate a commit message for these staged changes that follows the commitlint rules:
+
+REQUIRED FORMAT: type(scope): subject
+
+RULES:
+- type: MUST be one of: feat, fix, docs, chore, refactor, test, style, perf, build
+- scope: REQUIRED (not optional). Must be one of:
+  * lambda
+  * pipeline
+  * release
+  * For multiple packages, use +
+  * For breaking changes, add !
+- subject: Must be concise, lowercase, NO trailing period, max 100 chars for entire header
+
+CRITICAL: Output ONLY the raw commit message text. NO explanations, NO markdown code blocks, NO extra text.
+
+STAGED CHANGES:
+$STAGED_DIFF
+
+Generate the commit message:")
+
+    # Remove markdown code blocks if present
+    COMMIT_MSG=$(echo "$COMMIT_MSG" | sed 's/```[^`]*```//g' | sed 's/```//g' | head -n 1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+
+    echo ""
+    echo -e "${GREEN}Generated commit message:${NC}"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo "$COMMIT_MSG"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo ""
+
+    # Ask for confirmation
+    read -p "$(echo -e ${YELLOW}Do you want to commit with this message? [y/N]: ${NC})" -n 1 -r
+    echo ""
+
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        # Commit the changes
+        git commit -m "$COMMIT_MSG"
+        echo -e "${GREEN}✓ Changes committed successfully!${NC}"
+    else
+        echo -e "${RED}Commit cancelled.${NC}"
+        exit 1
+    fi
+else
+    echo -e "${RED}No staged changes to commit.${NC}"
+    echo "Use 'git add <file>' to stage changes first."
+    exit 1
+fi
