@@ -67,7 +67,7 @@
 # cask 'monotype'                # https://formulae.brew.sh/cask/monotype
 # cask 'notion'                  # https://formulae.brew.sh/cask/notion
 # cask 'notion-calendar'         # https://formulae.brew.sh/cask/notion-calendar
-# cask 'pop'                     # https://formulae.brew.sh/cask/pop
+# cask 'pop-app'                 # https://formulae.brew.sh/cask/pop-app
 # cask 'postman'                 # https://formulae.brew.sh/cask/postman
 # cask 'ray'                     # https://formulae.brew.sh/cask/ray
 # cask 'readdle-spark'           # https://formulae.brew.sh/cask/readdle-spark
