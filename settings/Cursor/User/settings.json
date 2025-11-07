@@ -138,6 +138,17 @@
    */
   "git.autofetch": true,
   /**
+   * SonarQube for VS Code
+   * https://docs.sonarsource.com/sonarqube-for-vs-code/connect-your-ide/setup
+   */
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "mcwhinney",
+      "connectionId": "mcwhinney",
+      "region": "EU"
+    }
+  ],
+  /**
    * Enabling Laravel Pint.
    */
   "laravel-pint.enable": true,
