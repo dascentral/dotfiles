@@ -50,7 +50,7 @@
   /**
    * Custom settings for github-actions-workflow.
    */
-   "[github-actions-workflow]": {
+  "[github-actions-workflow]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   /**
