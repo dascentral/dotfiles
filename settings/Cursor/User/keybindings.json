@@ -11,6 +11,10 @@
   //   "when": "textInputFocus"
   // },
   {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
     "key": "cmd+p",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
