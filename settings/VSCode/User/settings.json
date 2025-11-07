@@ -92,7 +92,7 @@
   /**
    * Custom settings for JSON. (Note that tabSize seems to be ignored.)
    */
-   "[json]": {
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4
   },
