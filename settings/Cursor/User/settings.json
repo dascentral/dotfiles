@@ -168,7 +168,7 @@
   /**
    * Custom settings for CSS.
    */
-   "[css]": {
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   /**
