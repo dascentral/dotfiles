@@ -51,6 +51,7 @@
 # cask 'alfred'                  # https://formulae.brew.sh/cask/alfred
 # cask 'appcleaner'              # https://formulae.brew.sh/cask/appcleaner
 # cask 'arc'                     # https://formulae.brew.sh/cask/arc
+# cask 'claude'                  # https://formulae.brew.sh/cask/claude
 # cask 'cursor'                  # https://formulae.brew.sh/cask/cursor
 # cask 'cursor-cli'              # https://formulae.brew.sh/cask/cursor-cli
 # cask 'dbngin'                  # https://formulae.brew.sh/cask/dbngin
