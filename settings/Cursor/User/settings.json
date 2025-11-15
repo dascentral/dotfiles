@@ -79,6 +79,7 @@
   | teams, the settings below are entirely personal preference.
   |
   */
+  "cursor.composer.textSizeScale": 1.3,
   /**
    * https://code.visualstudio.com/docs/configure/accessibility/accessibility#_screen-reader-mode
    */
