@@ -16,6 +16,7 @@
 
 # Optional Installations
 # brew 'act'
+# brew 'cloc'
 # brew 'composer'
 # brew 'gh'
 # brew 'git'
