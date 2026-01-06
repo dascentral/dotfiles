@@ -65,6 +65,7 @@ alias d755='find . -type d -exec chmod 755 {} \;'
 alias f644='find . -type f -exec chmod 644 {} \;'
 
 # Utilities
+alias ag='ag --hidden'
 alias c='clear'
 alias clear_ds_store='rm -rf `find . -name '.DS_Store'`'
 alias flush_dns='sudo killall -HUP mDNSResponder'
