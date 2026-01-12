@@ -182,18 +182,24 @@
    */
   "workbench.statusBar.visible": true,
   /**
-   * Custom settings for CSS.
+   * CSS settings
    */
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   /**
-   * Custom settings for dockercompose.
+   * Docker Compose settings
    */
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  /**
+   * JSX settings
+   */
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
