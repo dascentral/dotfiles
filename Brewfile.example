@@ -12,6 +12,8 @@
 # brew 'handbrake'
 # brew 'mackup'
 # brew 'mas'
+# brew 'python'               # https://docs.brew.sh/Homebrew-and-Python#python-3
+# brew 'qpdf'                 # https://formulae.brew.sh/formula/qpdf
 # brew 'the_silver_searcher'
 
 # Optional Installations
