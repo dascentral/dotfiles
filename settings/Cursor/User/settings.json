@@ -83,7 +83,7 @@
   /**
    * https://code.visualstudio.com/docs/configure/accessibility/accessibility#_screen-reader-mode
    */
-  "editor.accessibilitySupport": "off",
+  "editor.accessibilitySupport": "on",
   /**
    * Do not reveal files in the explorer when opened.
    */
