@@ -32,42 +32,42 @@
    */
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   /**
    * Custom settings for PHP.
    */
   "[php]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "open-southeners.laravel-pint"
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
   },
   /**
    * Custom settings for shell scripts.
    */
   "[shellscript]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   /**
    * Custom settings for github-actions-workflow.
    */
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   /**
    * Custom settings for Markdown.
    */
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   /**
    * Custom settings for YAML.
    */
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   /*
   |--------------------------------------------------------------------------
@@ -150,8 +150,8 @@
     {
       "organizationKey": "mcwhinney",
       "connectionId": "mcwhinney",
-      "region": "EU"
-    }
+      "region": "EU",
+    },
   ],
   /**
    * Enabling Laravel Pint.
@@ -185,7 +185,7 @@
    * CSS settings
    */
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   /**
    * Docker Compose settings
@@ -194,12 +194,12 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   /**
    * JSX settings
    */
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
