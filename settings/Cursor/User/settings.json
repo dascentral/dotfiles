@@ -110,6 +110,10 @@
    */
   "editor.accessibilitySupport": "on",
   /**
+   * Disable file deletion confirmation.
+   */
+  "explorer.confirmDelete": false,
+  /**
    * Do not reveal files in the explorer when opened.
    */
   "explorer.autoReveal": false,
