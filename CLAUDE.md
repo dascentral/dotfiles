@@ -46,6 +46,7 @@ Both source `lib/config.sh` which loads `lib/colors.sh` (terminal color vars) an
   - `settings/VSCode/User/` → `~/Library/Application Support/Code/User/`
   - `settings/macOS/config` — macOS `defaults` commands (referenced by `scripts/macos.sh`)
 - **`config/`** — Source configs that get symlinked to `~`:
+  - `config/Claude/commands/` — Claude Code user-level slash commands (linked to `~/.claude/commands`)
   - `config/Git/` — Git configuration (linked to `~/.gitconfig`)
   - `config/Alfred/` — Alfred workflows
 - **`lib/`** — Shared bash utilities (`colors.sh`, `functions.sh`, `config.sh`)
