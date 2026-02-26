@@ -37,6 +37,8 @@ printf "\n"
 
 info "Installing Cursor Extensions."
 declare -a extensions=(
+    # AI
+    "Anthropic.claude-code"
     # PHP Development
     "calebporzio.better-phpunit"
     "bmewburn.vscode-intelephense-client"
