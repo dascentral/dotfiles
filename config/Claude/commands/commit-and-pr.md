@@ -2,6 +2,16 @@
 description: Commit changes, push to the remote, and open a pull request
 ---
 
+# Commit and Pull Request
+
+## Usage
+
+```text
+/commit-and-pr
+```
+
+## Instructions
+
 Review the currently staged and unstaged changes in the working directory, then:
 
 1. Stage all changes (`git add -A`) unless specific files have already been staged, in which case respect the existing staging.

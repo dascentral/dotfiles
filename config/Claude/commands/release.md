@@ -1,3 +1,7 @@
+---
+description: Create a new GitHub release with auto-generated release notes.
+---
+
 # Create Release
 
 Create a new GitHub release with auto-generated release notes based on git commit history since the last release.

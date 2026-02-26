@@ -1,6 +1,18 @@
 ---
-description: Commit changes and push to the remote
+description: Commit changes and `git push`
 ---
+
+# Commit and Push
+
+Commit the pending changes issue a `git push`.
+
+## Usage
+
+```text
+/commit-and-push
+```
+
+## Instructions
 
 Review the currently staged and unstaged changes in the working directory, then:
 
