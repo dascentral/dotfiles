@@ -4,7 +4,7 @@ Preview the release notes and projected version for the next release, without cr
 
 ## Usage
 
-```
+```text
 /release-notes [major|minor|patch]
 ```
 
@@ -19,7 +19,7 @@ Read the step definitions from `~/.claude/commands/release.md` and execute **Ste
 
 After completing Step 4, display the results in the following format and stop. Do not proceed to Step 5 or Step 6.
 
-```
+```text
 Projected version: vX.Y.Z → vA.B.C
 
 Release Notes:

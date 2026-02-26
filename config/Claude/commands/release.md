@@ -4,7 +4,7 @@ Create a new GitHub release with auto-generated release notes based on git commi
 
 ## Usage
 
-```
+```text
 /release [major|minor|patch]
 ```
 
@@ -109,7 +109,7 @@ Guidelines for writing the notes:
 
 Before creating anything, display the full plan:
 
-```
+```text
 Version: v1.2.3 → v1.3.0
 Tag: v1.3.0
 
