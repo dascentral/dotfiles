@@ -12,6 +12,18 @@ If no argument is provided, analyze the commits and prompt the user to confirm t
 
 ## Instructions
 
+### Step 0: Verify current branch
+
+Run the following to confirm the current branch:
+
+```bash
+git branch --show-current
+```
+
+If the result is anything other than `main`, abort immediately with the following message and take no further action:
+
+> Releases can only be created from the `main` branch. You are currently on `<branch-name>`. Please switch to `main` and try again.
+
 ### Step 1: Gather context
 
 Run the following to establish the current state:
@@ -64,18 +76,23 @@ Write release notes in the following format:
 ## What's Changed
 
 ### New Features
+
 - Description of feature (commit sha short)
 
 ### Bug Fixes
+
 - Description of fix (commit sha short)
 
 ### Improvements & Refactoring
+
 - Description of improvement (commit sha short)
 
 ### Maintenance
+
 - Description of maintenance work (commit sha short)
 
 ### Other Changes
+
 - Any commits that don't fit the above categories
 ```
 
