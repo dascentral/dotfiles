@@ -1,13 +1,15 @@
 ---
-description: Commit all changes, push to the remote, and open a pull request
+description: Commit all changes
 ---
 
-# Commit and Pull Request
+# Commit and Push
+
+Commit the pending changes issue a `git push`.
 
 ## Usage
 
 ```text
-/commit-and-pr
+/commit
 ```
 
 ## Instructions
@@ -31,11 +33,3 @@ git add -A
 Write a conventional commit message based on the actual diff. Use the appropriate type (feat, fix, refactor, chore, etc.) and a concise but descriptive subject line. If the changes warrant it, include a short body explaining the "why".
 
 Commit the changes.
-
-### Step 4: Push
-
-Push the branch to the remote (use `--set-upstream origin` if the branch has no upstream yet).
-
-### Step 5: Open a PR
-
-Open a pull request using the `gh` CLI. Derive the PR title from the commit message subject. Leave the body empty unless there are multiple commits or the changes are complex enough to warrant explanation, in which case write a brief summary.

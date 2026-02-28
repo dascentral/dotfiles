@@ -1,5 +1,5 @@
 ---
-description: Commit changes and `git push`
+description: Commit all changes and `git push`
 ---
 
 # Commit and Push
