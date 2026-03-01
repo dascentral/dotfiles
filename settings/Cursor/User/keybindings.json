@@ -31,7 +31,7 @@
   // PHP Namespace Resolver
   {
     "key": "alt+cmd+i",
-    "command": "namespaceResolver.import",
+    "command": "phpNamespaceResolver.import",
     "when": "editorTextFocus"
-  },
+  }
 ]
