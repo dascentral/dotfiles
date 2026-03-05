@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+source /Users/${USER}/.dotfiles/lib/config.sh
+
+if ! laravel_application_root; then
+    abort "You are not in the root of a Laravel application."
+fi
+
+info "Executing 'composer app:verify'"
+composer app:verify
