@@ -226,6 +226,12 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   /**
+   * JavaScript settings
+   */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /**
    * JSX settings
    */
   "[javascriptreact]": {
