@@ -22,5 +22,3 @@ for item in "${links[@]}"; do
     fi
 done
 printf "\n"
-
-printf "\n"
