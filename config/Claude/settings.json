@@ -1,7 +1,43 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(./vendor/bin/pest:*)",
+      "Bash(composer:*)",
+      "Bash(cp:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(gh:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(npm install:*)",
+      "Bash(php artisan:*)",
+      "Bash(pwd:*)",
+      "Bash(tail:*)",
+      "Bash(which:*)",
+      "WebSearch",
+      "mcp__context7__*",
+      "mcp__laravel-boost__*",
+      "mcp__chrome-devtools__*"
+    ],
+    "defaultMode": "acceptEdits"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
   "enabledPlugins": {
     "laravel-simplifier@laravel": true,
     "code-simplifier@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true
-  }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high"
 }
