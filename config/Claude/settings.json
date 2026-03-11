@@ -1,7 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./vendor/bin/pest:*)",
       "Bash(composer:*)",
       "Bash(cp:*)",
       "Bash(find:*)",
@@ -22,6 +21,7 @@
       "Bash(pwd:*)",
       "Bash(tail:*)",
       "Bash(which:*)",
+      "Bash(./vendor/bin/pest:*)",
       "WebSearch",
       "mcp__context7__*",
       "mcp__laravel-boost__*",
