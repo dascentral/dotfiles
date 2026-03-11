@@ -12,7 +12,6 @@ printf "\n"
 
 info "Installing global Composer packages."
 declare -a packages=(
-    "dascentral/hubflow-release"
     "laravel/installer"
     "laravel/pint"
     "laravel/valet"
