@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(composer analyze:*)",
       "Bash(cp:*)",
       "Bash(find:*)",
       "Bash(grep:*)",
