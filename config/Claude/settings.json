@@ -20,7 +20,7 @@
       "Bash(pwd:*)",
       "Bash(tail:*)",
       "Bash(which:*)",
-      "Bash(./vendor/bin/pest:*)",
+      "Bash(vendor/bin/pest:*)",
       "WebSearch",
       "mcp__context7__*",
       "mcp__laravel-boost__*"
@@ -29,7 +29,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "~/.claude/statusline.sh"
+    "command": "bash ~/.claude/statusline.sh"
   },
   "enabledPlugins": {
     "laravel-simplifier@laravel": true,
