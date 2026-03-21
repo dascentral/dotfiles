@@ -18,7 +18,7 @@ if using_laravel_sail; then
 else
     if [ "$#" -eq 0 ]; then
         info "Executing 'php artisan test'"
-        php artisan test
+        php artisan test --compact
     else
         info "Executing 'php artisan test'"
         php artisan test "$@"
