@@ -21,6 +21,7 @@
       "Bash(tail:*)",
       "Bash(which:*)",
       "Bash(vendor/bin/pest:*)",
+      "Bash(vendor/bin/pint:*)",
       "WebSearch",
       "mcp__context7__*",
       "mcp__laravel-boost__*"
