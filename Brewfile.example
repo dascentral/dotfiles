@@ -67,6 +67,7 @@
 # cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
 # cask 'herd'                    # https://formulae.brew.sh/cask/herd
 # cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
+# cask 'libreoffice'             # https://formulae.brew.sh/cask/libreoffice
 # cask 'miro'                    # https://formulae.brew.sh/cask/miro
 # cask 'monotype'                # https://formulae.brew.sh/cask/monotype
 # cask 'notion'                  # https://formulae.brew.sh/cask/notion
