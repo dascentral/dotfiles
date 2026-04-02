@@ -21,6 +21,7 @@
 # brew 'cloc'
 # brew 'composer'
 # brew 'gh'
+# brew 'ghostscript'           # https://formulae.brew.sh/formula/ghostscript
 # brew 'git'
 # brew 'gnupg'
 # brew 'hashicorp/tap/packer'
