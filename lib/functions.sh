@@ -218,7 +218,7 @@ laravel_sail_is_running() {
     [ -z "$PSRESULT" ] && return 1 || return 0
 }
 
-function mkd() {
+mkd() {
     mkdir -p "$@" && cd "$@"
 }
 
