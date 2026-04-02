@@ -101,7 +101,12 @@ clone_or_update_repo() {
     popd > /dev/null
 }
 
+# deprecated
 composer_json() {
+    [ -e "composer.json" ]
+}
+
+composer_json_exists() {
     [ -e "composer.json" ]
 }
 
