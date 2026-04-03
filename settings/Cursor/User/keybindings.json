@@ -19,6 +19,11 @@
     "command": "-expandLineSelection",
     "when": "textInputFocus"
   },
+  {
+    "key": "alt+cmd+s",
+    "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
   // Better PHPUnit
   {
     "key": "cmd+t",
@@ -33,10 +38,5 @@
     "key": "alt+cmd+i",
     "command": "phpNamespaceResolver.import",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+cmd+s",
-    "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
-    "when": "cursor.agentIdeUnification.enabled == true && !isAuxiliaryWindowFocusedContext"
   }
 ]
