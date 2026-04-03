@@ -2,10 +2,10 @@
 
 source /Users/${USER}/.dotfiles/lib/config.sh
 
-if composer_json_exists; then
-    composer format
-fi
-
 if package_json_exists; then
     npm run format
+fi
+
+if composer_json_exists; then
+    pint --parallel
 fi
