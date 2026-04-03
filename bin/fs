@@ -8,7 +8,7 @@ if ! [ -d .git ]; then
 fi
 
 if git_is_dirty; then
-    abort "Your working directly is not clean."
+    abort "Your working directory is not clean."
 fi
 
 if [ $# != 1 ]; then

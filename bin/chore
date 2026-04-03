@@ -6,6 +6,10 @@ if ! [ -d .git ]; then
     abort "Please execute from the root of a git repository."
 fi
 
+if git_is_dirty; then
+    abort "Your working directory is not clean."
+fi
+
 if [ $# != 1 ]; then
     usage "Usage: chore [feature]"
 fi
