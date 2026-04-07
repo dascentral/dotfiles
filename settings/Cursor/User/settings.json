@@ -187,6 +187,12 @@
    */
   "laravel-pint.enable": true,
   /**
+   * Ask for confirmation before opening local paths delivered through the app’s custom URL scheme?
+   * VS Code: vscode://file/...;
+   * Cursor: cursor://file/...;
+   */
+  "security.promptForLocalFileProtocolHandling": false,
+  /**
    * Hide the workbench activity bar.
    */
   "workbench.activityBar.location": "hidden",
