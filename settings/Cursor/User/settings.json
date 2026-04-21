@@ -114,6 +114,10 @@
    */
   "editor.accessibilitySupport": "on",
   /**
+   * Show collapsed inline suggestions.
+   */
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  /**
    * Disable file deletion confirmation.
    */
   "explorer.confirmDelete": false,
