@@ -1,9 +1,9 @@
 ---
-name: peer-evaluation
-description: Use this skill whenever the user wants help writing a peer evaluation or peer feedback for a colleague. Triggers include any mention of 'peer eval', 'peer review', 'peer feedback', '360 review', or requests to respond to HR prompts asking about a colleague's strengths, growth areas, values demonstration, or additional feedback for their manager. Also use when the user wants to brainstorm, draft, or refine specific examples of a peer's strengths or development areas. Use this skill even if the user just says something like 'I need to fill out a review for a coworker' or 'help me give feedback on a peer.'
+name: peer-review
+description: Use this skill whenever the user wants help writing a peer evaluation or peer feedback for a colleague. Triggers include any mention of 'peer review', 'peer eval', 'peer evaluation', 'peer feedback', '360 review', or requests to respond to HR prompts asking about a colleague's strengths, growth areas, values demonstration, or additional feedback for their manager. Also use when the user wants to brainstorm, draft, or refine specific examples of a peer's strengths or development areas. Use this skill even if the user just says something like 'I need to fill out a review for a coworker' or 'help me give feedback on a peer.'
 ---
 
-# Peer Evaluation Skill
+# Peer Review Skill
 
 Help the user produce specific, useful, and professionally framed feedback about a peer for a performance review cycle. The output should read as the observations of a thoughtful senior colleague who has worked with the peer in some meaningful way and can articulate what they bring and where they have room to grow. It should not read as either a reference letter or a competitive undermining of a colleague.
 
@@ -52,7 +52,7 @@ Avoid generic praise. Every strength named needs a concrete example or an observ
 
 **Lead with behavior and impact, not adjectives.** "When we were debugging the redirect issues during the website cutover, she surfaced the SonarQube findings early enough that we could fix them before launch" beats "she's a strong engineer."
 
-**Scope your feedback to what you've seen.** Peer evaluations have more credibility when they acknowledge visibility limits than when they try to sound comprehensive. Pick the two or three things you can speak to with specificity and go deep on those rather than surveying the whole role.
+**Scope your feedback to what you've seen.** Peer reviews have more credibility when they acknowledge visibility limits than when they try to sound comprehensive. Pick the two or three things you can speak to with specificity and go deep on those rather than surveying the whole role.
 
 **Frame the growth area constructively and within your own visibility.** The analog to the self-eval principle of "natural next frontier" applies here. Pair the improvement area with what good would look like. If you only have one data point, say so. One genuine observation beats a pattern claim the user can't really support.
 
