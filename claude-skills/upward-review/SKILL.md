@@ -39,7 +39,7 @@ Write in first-person, narrative prose. No bullet points unless the user explici
 
 The target voice is constructive candor without either sycophancy or grievance. This is the voice of a senior contributor who wants their manager to succeed and can articulate specifically what would help them do so.
 
-Focus on observable behaviors and their impact. Avoid personality traits, inferred motives, or characterizations. "When Ben pushed back on scope creep during the Realberry launch, the team had clear air cover to hold the line" is useful. "Ben is decisive" is not.
+Focus on observable behaviors and their impact. Avoid personality traits, inferred motives, or characterizations. "When George pushed back on scope creep during the site launch, the team had clear air cover to hold the line" is useful. "George is decisive" is not.
 
 Avoid em dashes.
 
