@@ -1,6 +1,6 @@
 # Release Workflow (Analysis Steps)
 
-Shared steps used by the `release` and `release-notes` skills. Covers gathering commit context, picking a version bump, calculating the next tag, and generating the markdown release notes. Skills that use this file are responsible for any pre-checks (branch verification) and post-actions (dry-run confirmation, tagging, GitHub release creation).
+Shared steps used by the `release` and `release-notes` skills. Covers gathering commit context, picking a version bump, calculating the next tag, and generating the markdown release notes. Skills that use this file are responsible for any pre-checks (branch verification) and post-actions (plan display, tagging, GitHub release creation).
 
 ## Step 1: Gather context
 

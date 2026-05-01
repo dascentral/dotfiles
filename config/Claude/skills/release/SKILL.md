@@ -39,9 +39,9 @@ Execute **Steps 1 through 4** from `../_shared/release-workflow.md`, with this a
 
   Wait for confirmation before continuing.
 
-### Step 5: Dry-run review
+### Step 5: Display plan, tag, and release
 
-Before creating anything, display the full plan and wait for explicit confirmation:
+**1. Display the full plan:**
 
 ```text
 Version: v1.2.3 → v1.3.0
@@ -55,20 +55,18 @@ Release Notes:
 This will:
   1. Create and push git tag v1.3.0
   2. Create GitHub release "v1.3.0" with the above notes
-
-Proceed? (yes/no)
 ```
 
-### Step 6: Create the tag and release
+Do not ask for an additional yes/no confirmation before tagging and releasing.
 
-Once confirmed:
+**2. Create and push the tag:**
 
 ```bash
 git tag v1.3.0
 git push origin v1.3.0
 ```
 
-Then create the GitHub release:
+**3. Create the GitHub release:**
 
 ```bash
 gh release create v1.3.0 \
@@ -76,4 +74,4 @@ gh release create v1.3.0 \
   --notes "<generated release notes>"
 ```
 
-Confirm success by showing the release URL returned by `gh`.
+**4. Confirm success** by showing the release URL returned by `gh`.
