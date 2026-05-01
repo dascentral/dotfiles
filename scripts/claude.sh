@@ -8,7 +8,6 @@ CLOUDPATH="${DOTFILES}/config/Claude"
 info "Creating symbolic links for Claude Code configuration."
 mkdir -p "${LOCALPATH}"
 declare -a links=(
-    "commands"
     "settings.json"
     "statusline.sh"
 )
@@ -20,5 +19,15 @@ for item in "${links[@]}"; do
     else
         line "${item} - already linked"
     fi
+done
+printf "\n"
+
+info "Copying Claude Code skills."
+mkdir -p "${LOCALPATH}/skills"
+for skill_path in "${CLOUDPATH}/skills"/*/; do
+    name=$(basename "${skill_path}")
+    rm -rf "${LOCALPATH}/skills/${name}"
+    cp -R "${skill_path}" "${LOCALPATH}/skills/${name}"
+    success "skill: ${name}"
 done
 printf "\n"

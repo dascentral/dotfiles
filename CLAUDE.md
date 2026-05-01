@@ -45,8 +45,8 @@ Both source `lib/config.sh` which loads `lib/colors.sh` (terminal color vars) an
   - `settings/Cursor/User/` → `~/Library/Application Support/Cursor/User/`
   - `settings/VSCode/User/` → `~/Library/Application Support/Code/User/`
   - `settings/macOS/config` — macOS `defaults` commands (referenced by `scripts/macos.sh`)
-- **`config/`** — Source configs that get symlinked to `~`:
-  - `config/Claude/commands/` — Claude Code user-level slash commands (linked to `~/.claude/commands`)
+- **`config/`** — Source configs that get linked or copied to `~`:
+  - `config/Claude/skills/` — Claude Code user-level skills, one directory per skill, each containing a `SKILL.md`. Copied (not symlinked) per-directory into `~/.claude/skills/` by `scripts/claude.sh`, so plugin-installed and hand-authored skills can coexist alongside dotfiles-managed ones. The `_shared/` directory holds reference files used by multiple skills, not skills themselves.
   - `config/Git/` — Git configuration (linked to `~/.gitconfig`)
   - `config/Alfred/` — Alfred workflows
 - **`lib/`** — Shared bash utilities (`colors.sh`, `functions.sh`, `config.sh`)
