@@ -32,7 +32,7 @@ Categorize each commit using the following rules, in priority order:
 - **Minor** — conventional commits with type `feat`, or freeform commits that clearly introduce new functionality
 - **Patch** — conventional commits with types `fix`, `perf`, `refactor`, or freeform commits that are bug fixes, dependency updates, or maintenance
 
-The invoking skill decides whether to ask the user to confirm the bump type or auto-select it.
+The invoking skill may accept an explicit bump from the user or auto-select from commit analysis.
 
 ## Step 3: Calculate the next version
 

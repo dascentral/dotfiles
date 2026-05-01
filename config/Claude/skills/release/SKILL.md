@@ -13,7 +13,7 @@ Create a new GitHub release with auto-generated release notes based on git commi
 /release [major|minor|patch]
 ```
 
-If no bump type argument is provided, analyze the commits and prompt the user to confirm the suggested bump type before proceeding.
+If no bump type argument is provided, determine major, minor, or patch from commit analysis per Step 2 of `../_shared/release-workflow.md`. Do not pause to ask the user which bump to use.
 
 ## Workflow
 
@@ -33,11 +33,7 @@ If the result is anything other than `main`, abort with this message and take no
 
 Execute **Steps 1 through 4** from `../_shared/release-workflow.md`, with this adjustment:
 
-- **Step 2.** If a bump type argument was provided, use it. Otherwise, suggest a bump type based on commit analysis and ask the user to confirm:
-
-  > Based on the commits since `vX.Y.Z`, I suggest a **minor** release. The changes include new features but no breaking changes. Shall I proceed with `vA.B.C`, or would you like to choose a different bump type?
-
-  Wait for confirmation before continuing.
+- **Step 2.** If a bump type argument was provided, use it. Otherwise, determine the bump type from commit analysis per `release-workflow.md` and proceed without asking the user.
 
 ### Step 5: Display plan, tag, and release
 
@@ -57,7 +53,7 @@ This will:
   2. Create GitHub release "v1.3.0" with the above notes
 ```
 
-Do not ask for an additional yes/no confirmation before tagging and releasing.
+Do not ask for yes/no confirmation before tagging and releasing.
 
 **2. Create and push the tag:**
 
