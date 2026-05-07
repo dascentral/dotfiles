@@ -201,6 +201,10 @@
    */
   "security.promptForLocalFileProtocolHandling": false,
   /**
+   * Disable automatic color scheme detection.
+   */
+  "window.autoDetectColorScheme": false,
+  /**
    * Hide the workbench activity bar.
    */
   "workbench.activityBar.location": "hidden",
