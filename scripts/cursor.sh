@@ -35,6 +35,21 @@ for item in ${links[@]}; do
 done
 printf "\n"
 
+info "Creating symbolic links for Cursor data folder."
+declare -a data_links=(
+    "permissions.json"
+)
+for item in ${data_links[@]}; do
+    if [ ! -L "${HOME}/.cursor/${item}" ]; then
+        rm -rf "${HOME}/.cursor/${item}"
+        ln -s "${DOTFILES}/settings/Cursor/${item}" "${HOME}/.cursor/${item}"
+        success "${item} - linked"
+    else
+        line "${item} - already linked"
+    fi
+done
+printf "\n"
+
 info "Installing Cursor Extensions."
 declare -a extensions=(
     # AI

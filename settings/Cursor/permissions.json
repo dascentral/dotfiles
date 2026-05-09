@@ -1,0 +1,33 @@
+{
+  // Terminal commands that can auto-run without approval.
+  // Mirrors the Bash() entries from config/Claude/settings.json.
+  "terminalAllowlist": [
+    "composer analyze",
+    "cp",
+    "find",
+    "grep",
+    "gh",
+    "git add",
+    "git branch",
+    "git commit",
+    "git checkout",
+    "git diff",
+    "git log",
+    "git status",
+    "git tag",
+    "ls",
+    "mkdir",
+    "mv",
+    "pwd",
+    "tail",
+    "which",
+    "vendor/bin/pest",
+    "vendor/bin/pint"
+  ],
+  // MCP tools that can auto-run without approval.
+  // Mirrors the mcp__*__ entries from config/Claude/settings.json.
+  "mcpAllowlist": [
+    "context7:*",
+    "laravel-boost:*"
+  ]
+}
