@@ -14,6 +14,7 @@
     "git diff",
     "git log",
     "git status",
+    "git push",
     "git tag",
     "ls",
     "mkdir",
@@ -26,8 +27,5 @@
   ],
   // MCP tools that can auto-run without approval.
   // Mirrors the mcp__*__ entries from config/Claude/settings.json.
-  "mcpAllowlist": [
-    "context7:*",
-    "laravel-boost:*"
-  ]
+  "mcpAllowlist": ["context7:*", "laravel-boost:*"]
 }
