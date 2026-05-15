@@ -23,6 +23,7 @@
       "Bash(vendor/bin/pest:*)",
       "Bash(vendor/bin/pint:*)",
       "Read(~/.claude/skills/**)",
+      "Read(/var/folders/**)",
       "WebSearch",
       "mcp__context7__*",
       "mcp__laravel-boost__*"
