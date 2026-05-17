@@ -71,6 +71,7 @@
 # cask 'herd'                    # https://formulae.brew.sh/cask/herd
 # cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
 # cask 'libreoffice'             # https://formulae.brew.sh/cask/libreoffice
+# cask 'logi-options+'           # https://formulae.brew.sh/cask/logi-options+
 # cask 'miro'                    # https://formulae.brew.sh/cask/miro
 # cask 'monotype'                # https://formulae.brew.sh/cask/monotype
 # cask 'notion'                  # https://formulae.brew.sh/cask/notion
