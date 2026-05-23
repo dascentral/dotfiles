@@ -31,3 +31,13 @@ For each unresolved comment, post a reply via `gh` describing:
 - **For comments you intentionally did not address**: a brief rationale.
 
 Resolve each conversation once the reply is posted.
+
+### Step 5: Request a fresh Copilot review
+
+Use `gh` to request a new Copilot review on the pull request:
+
+```bash
+gh pr review request <PR_NUMBER> --reviewer "copilot-pull-request-reviewer[bot]"
+```
+
+Report to the user that a fresh review has been requested.
