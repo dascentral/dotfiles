@@ -34,10 +34,10 @@ Resolve each conversation once the reply is posted.
 
 ### Step 5: Request a fresh Copilot review
 
-Use `gh` to request a new Copilot review on the pull request:
+Attempt to request a new Copilot review via `gh`:
 
 ```bash
 gh pr review request <PR_NUMBER> --reviewer "copilot-pull-request-reviewer[bot]"
 ```
 
-Report to the user that a fresh review has been requested.
+This works when Copilot has not yet reviewed the PR. If the command fails with a message like "Copilot is a GitHub App, not a regular collaborator", it means Copilot has already submitted a review and the re-request must be triggered manually. In that case, tell the user to click the refresh icon next to Copilot's review on the PR page in the GitHub UI.
