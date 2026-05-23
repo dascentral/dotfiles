@@ -180,6 +180,10 @@
    */
   "git.autofetch": true,
   /**
+   * Path to Node.js.
+   */
+  "sonarlint.pathToNodeExecutable": "/Users/douglas.smith/.nvm/versions/node/v24.16.0/bin/node",
+  /**
    * SonarQube for VS Code
    * https://docs.sonarsource.com/sonarqube-for-vs-code/connect-your-ide/setup
    */
@@ -194,6 +198,10 @@
    * Enabling Laravel Pint.
    */
   "laravel-pint.enable": true,
+  /**
+   * PHP executable path.
+   */
+  "php.validate.executablePath": "/Users/douglas.smith/Library/Application Support/Herd/bin/php",
   /**
    * Ask for confirmation before opening local paths delivered through the app’s custom URL scheme?
    * VS Code: vscode://file/...;
