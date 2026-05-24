@@ -24,6 +24,7 @@
       "Bash(vendor/bin/pint:*)",
       "Read(~/.claude/**)",
       "Write(~/.claude/handoff.md)",
+      "Write(~/.claude/settings.json)",
       "WebSearch",
       "mcp__context7__*",
       "mcp__laravel-boost__*"
