@@ -79,17 +79,18 @@ Before running the main installation script, we need to knock out a few prerequi
 
 #### Create a Brewfile
 
-I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, create a `Brewfile` to the root of the repository.
+I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, create a `Brewfile` at the root of the repository.
 
-I have placed two samples within `config/Brewfile` that you may use as a template. You can execute the following command to embrace the sample configuration:
+Two sample files are included at the repo root:
+
+1. `Brewfile.example` — This one contains the superset of software I would install on a machine
+2. `Brewfile.quickstart` — This one is for getting up and running quickly
+
+You can copy either one to get started:
 
 ```bash
-cp config/Brewfile/Brewfile.example ./Brewfile
+cp Brewfile.example Brewfile
 ```
-
-#### Install Fira Code
-
-I use the [Fira Code](https://github.com/tonsky/FiraCode) font within Cursor and VS Code and have configured the install script to automatically update the application settings accordingly. As a result, I made installation of Fira Code a prerequisite for the full software installation that happens next.
 
 ### Installation
 
