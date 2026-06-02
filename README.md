@@ -170,7 +170,7 @@ defaults read [domain] [key]
 defaults read com.googlecode.iterm2 PrefsCustomFolder
 ```
 
-**Write new settingss**
+**Write new settings**
 
 ```bash
 defaults read [domain] [key] [type] [value]
