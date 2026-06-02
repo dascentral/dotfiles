@@ -26,7 +26,7 @@ The following repositories may provide additional examples from which to draw in
 
 ### Initial Preparation
 
-When migrating from an existing machine to another or setting up an additional computer that will match the setup of another, you will want to ensure you have a fresh backup of all of your data and settings.
+Whether migrating from an existing machine to another or setting up an additional computer that adopts your preferred setup, you will want to ensure you have a fresh backup of all your data and settings.
 
 - Commit and push any pending changes within local git repositories
 - Move any important documents into cloud-based storage
@@ -39,7 +39,7 @@ If you are setting up a new machine, odds are macOS is already up-to-date. Howev
 
 ### App Store
 
-We install several software applications via the [Mac App Store CLI](https://github.com/mas-cli/mas), so ensure you are logged in to the App Store.
+We use the [Mac App Store CLI](https://github.com/mas-cli/mas) to install several applications, so ensure you are logged in to the App Store.
 
 ### Generate an SSH key
 
@@ -65,7 +65,7 @@ curl https://raw.githubusercontent.com/dascentral/dotfiles/HEAD/ssh.sh | sh -s "
 
 ### Clone this repository
 
-Let's go ahead and clone this repository. All scripts within this repository assume `~/.dotfiles` as the clone location. You may adjust this as you see fit. However, you will need to update all scripts accordingly.
+All scripts within this repository assume `~/.dotfiles` as the clone location. You may adjust this as you see fit. However, you will need to update all scripts accordingly.
 
 Note that issuing your first `git` command will prompt installation of the [Xcode Command Line Tools](https://mac.install.guide/commandlinetools/index.html). Go grab a coffee/snack/meal while that download and install takes place.
 
@@ -81,10 +81,10 @@ Before running the main installation script, we need to knock out a few prerequi
 
 I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, create a `Brewfile` at the root of the repository.
 
-Two sample files are included at the repo root:
+This repository contains two sample files:
 
-1. `Brewfile.example` — This one contains the superset of software I would install on a machine
-2. `Brewfile.quickstart` — This one is for getting up and running quickly
+1. `Brewfile.example` — The superset of software I would install on a machine
+2. `Brewfile.quickstart` — For getting up and running quickly
 
 You can copy either one to get started:
 
@@ -102,21 +102,22 @@ The following script installs and configures most of the software that I use on 
 
 If you dig into that installation script, you'll note that it does a few things:
 
-1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux)
-2. Executes `brew bundle`, which installs the bulk of the software
+1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux), and executes `brew bundle`, which installs the bulk of the software
 3. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
 4. Configures Git
-5. Configures [Mackup](https://github.com/lra/mackup)
-6. Configures [Cursor](https://www.cursor.com)
-7. Configures [VS Code](https://code.visualstudio.com/)
-8. Configures [Sublime Text](https://www.sublimetext.com)
-9. Customizes macOS settings
+5. Configures SSH
+6. Configures [Mackup](https://github.com/lra/mackup)
+7. Configures [Cursor](https://www.cursor.com)
+8. Configures [VS Code](https://code.visualstudio.com/)
+9. Configures [Sublime Text](https://www.sublimetext.com)
+10. Customizes macOS settings
+11. Configures [Claude](https://claude.ai)
 
 The script is idempotent, so it can be run multiple times without concern.
 
 ## Maintenance
 
-The `bin/` folder of this repository contains a `dotfiles` script that executes a number of maintenance activities that helps keep the machine up-to-date. I try to run this script on a regular basis. (i.e. weekly)
+The `bin/` folder of this repository contains a `dotfiles` script that executes a number of maintenance activities that keep the machine up-to-date. I try to run this script regularly. (i.e., weekly)
 
 The `.zshrc` includes `~/.dotfiles/bin` in the system path, so you can run this command from anywhere.
 
@@ -144,7 +145,7 @@ sudo spctl --master-enable
 
 ## Command-Line Configurations
 
-While I have automated many of my macOS system configurations via the `.macos` file, I still have a number of manual modifications that I make following setup of a new machine. My goal is always to limit the amount of manual work. This article helped me understand how to automate application settings:
+While I have automated many of my macOS system configurations via the `.macos` file, I still have a number of manual modifications that I make following the setup of a new machine. My goal is always to minimize manual work. This article helped me understand how to automate application settings:
 
 [https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
 
