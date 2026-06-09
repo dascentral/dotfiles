@@ -24,7 +24,7 @@ If you have your Sublime preferences already stored in the cloud, **link your pr
 In order to ensure a consistent experience across computers, I store my settings with a cloud provider. If you are pursuing a similar approach, you'll want to customize the location in the command below.
 
 ```bash
-cd /Users/${USER}/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+cd ${HOME}/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 rm -rf User
 ln -s ~/.private/settings/Sublime/User
 ```
@@ -48,9 +48,9 @@ I would exit Sublime and then re-open it. All should be golden at this point. (F
 I keep a copy of my preferred SublimePhpCsFixer settings within this repo. I copy it to a central location on any new machine.
 
 ```bash
-mkdir /Users/${USER}/.sublime
-cp /Users/${USER}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings /Users/${USER}/.sublime
-sed -i '.original' "s/USERNAME/${USER}/g" /Users/${USER}/.sublime/SublimePhpCsFixer.sublime-settings
+mkdir ${HOME}/.sublime
+cp ${HOME}/dotfiles/sublime/SublimePhpCsFixer.sublime-settings ${HOME}/.sublime
+sed -i '.original' "s/USERNAME/${USER}/g" ${HOME}/.sublime/SublimePhpCsFixer.sublime-settings
 ```
 
 ## Resources

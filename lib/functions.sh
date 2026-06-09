@@ -113,7 +113,7 @@ composer_json_exists() {
 composer_installed() {
     [ -e /opt/homebrew/bin/composer ] ||
     [ -e /usr/local/bin/composer ] ||
-    [ -e /Users/${USER}/Library/Application\ Support/Herd/bin/composer ]
+    [ -e ${HOME}/Library/Application\ Support/Herd/bin/composer ]
 }
 
 confirm_composer_installed() {
@@ -223,7 +223,7 @@ mkd() {
 }
 
 oh_my_zsh_installed() {
-    [ -e /Users/${USER}/.oh-my-zsh ]
+    [ -e ${HOME}/.oh-my-zsh ]
 }
 
 package_json_exists() {

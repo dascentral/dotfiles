@@ -47,7 +47,7 @@ Oh My Zsh has a great number of [themes](https://github.com/robbyrussell/oh-my-z
 Enable af-magic via the following command:
 
 ```bash
-sed -i '.original' "s/robbyrussell/af-magic/g" /Users/${USER}/.zshrc
+sed -i '.original' "s/robbyrussell/af-magic/g" ${HOME}/.zshrc
 ```
 
 ## Plugins

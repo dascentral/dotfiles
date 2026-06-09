@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 dotfiles_live_where_expected
 
@@ -13,6 +13,9 @@ sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# Oh My Zsh is a prerequisite checked by check.sh, so install it first
+${DOTFILES}/scripts/oh-my-zsh.sh
 
 # confirm ability to run this script
 ${DOTFILES}/scripts/check.sh || exit 1

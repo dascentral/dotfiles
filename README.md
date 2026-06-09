@@ -102,7 +102,8 @@ The following script installs and configures most of the software that I use on 
 
 If you dig into that installation script, you'll note that it does a few things:
 
-1. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux), and executes `brew bundle`, which installs the bulk of the software
+1. Installs [Oh My Zsh](https://ohmyz.sh/) (unattended) along with a few Zsh plugins
+2. Installs [Homebrew](https://brew.sh/), the Missing Package Manager for macOS (or Linux), and executes `brew bundle`, which installs the bulk of the software
 3. Ensures [Composer](https://getcomposer.org/) is up-to-date and installs all global packages
 4. Configures Git
 5. Configures SSH

@@ -22,5 +22,5 @@ gpg --keyserver hkp://pgp.mit.edu --recv-keys 409B6B1796C275462A1703113804BB82D3
 
 ```bash
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
-source /Users/$USER/.rvm/scripts/rvm
+source ${HOME}/.rvm/scripts/rvm
 ```

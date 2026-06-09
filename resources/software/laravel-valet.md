@@ -131,8 +131,8 @@ valet uninstall
 ### Remove from filesystem
 
 ```bash
-cd /Users/${USER} && rm -rf .valet
-cd /Users/${USER}/.config && rm -rf valet
+cd ${HOME} && rm -rf .valet
+cd ${HOME}/.config && rm -rf valet
 ```
 
 ### Log Craziness

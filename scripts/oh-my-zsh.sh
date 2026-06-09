@@ -4,7 +4,10 @@ source "${HOME}/.dotfiles/lib/config.sh"
 
 info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then
-    /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+    # --unattended keeps the installer from running `exec zsh` (which would
+    # halt this script); --keep-zshrc avoids writing a template .zshrc that we
+    # immediately replace with our own symlink below.
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" --unattended --keep-zshrc
     success "Installation complete."
     installed=1
 else
@@ -49,8 +52,8 @@ printf "\n"
 
 info "Creating symbolic link for Zsh config."
 if [ ! -L ~/.zshrc ]; then
-    rm -rf /Users/${USER}/.zshrc
-    ln -s "${HOME}/.dotfiles/shell/.zshrc" "/Users/${USER}/.zshrc"
+    rm -rf ${HOME}/.zshrc
+    ln -s "${HOME}/.dotfiles/shell/.zshrc" "${HOME}/.zshrc"
     success "Symbolic link created"
 else
     line "Already linked."
