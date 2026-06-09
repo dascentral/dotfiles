@@ -190,16 +190,8 @@ homebrew_installed() {
     [ -e /opt/homebrew/bin/brew ] || [ -e /usr/local/bin/brew ]
 }
 
-install_check_oh_my_zsh() {
-    [ -e "${HOME}/.oh-my-zsh" ]
-}
-
 install_check_brewfile() {
     [ -f "${HOME}/.dotfiles/Brewfile" ]
-}
-
-install_check_fira_code() {
-    fc-list | grep -q "Fira Code"
 }
 
 laravel_application_root() {

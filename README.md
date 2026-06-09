@@ -73,13 +73,13 @@ Note that issuing your first `git` command will prompt installation of the [Xcod
 git clone git@github.com:dascentral/dotfiles.git ~/.dotfiles
 ```
 
-### Software Installation Prerequisites
+### Installation Prerequisite
 
-Before running the main installation script, we need to knock out a few prerequisites.
-
-#### Create a Brewfile
+Before running the main installation script, we have one prerequisite to address.
 
 I use [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) to install the bulk of the software on a new machine. Before executing the main installation script, create a `Brewfile` at the root of the repository.
+
+Creating this `Brewfile` is the one intentional manual decision required before installing. It defines exactly what software lands on the machine. `install.sh` runs a readiness check (`scripts/check.sh`) that halts the install until a `Brewfile` exists at the repository root.
 
 This repository contains two sample files:
 
