@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 info "Installing Oh My Zsh."
 if [ ! -e ~/.oh-my-zsh ]; then
@@ -15,13 +15,13 @@ printf "\n"
 
 
 info "Installing Zsh plugins."
-cd $HOME/.oh-my-zsh/custom/plugins
+cd "$HOME/.oh-my-zsh/custom/plugins" || abort "Oh My Zsh custom plugins directory not found."
 declare -a links=(
     "https://github.com/zsh-users/zsh-autosuggestions"
     "https://github.com/zsh-users/zsh-syntax-highlighting"
     "https://github.com/jasonmccreary/git-trim"
 )
-for url in ${links[@]}; do
+for url in "${links[@]}"; do
     parts=(`echo ${url} | tr '/' ' '`)
     plugin=${parts[${#parts[@]}-1]}
 

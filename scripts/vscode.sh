@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 # configure paths
 LOCALPATH="${HOME}/Library/Application Support/Code/User"
@@ -28,7 +28,7 @@ declare -a links=(
     "keybindings.json"
     "snippets"
 )
-for item in ${links[@]}; do
+for item in "${links[@]}"; do
     if [ ! -L "${LOCALPATH}/${item}" ]; then
         rm -rf "${LOCALPATH}/${item}"
         ln -s "${CLOUDPATH}/${item}" "${LOCALPATH}/${item}"
@@ -103,9 +103,10 @@ declare -a extensions=(
     # "vscode-icons-team.vscode-icons"
     # "wix.vscode-import-cost"
 )
-for item in ${extensions[@]}; do
-    if ! ls ~/.vscode/extensions/${item}* 1> /dev/null 2>&1; then
-        code --install-extension ${item}
+for item in "${extensions[@]}"; do
+    slug=$(echo "${item}" | tr '[:upper:]' '[:lower:]')
+    if ! ls ~/.vscode/extensions/${slug}* 1> /dev/null 2>&1; then
+        code --install-extension "${item}"
         success "${item} - installed"
     else
         line "${item} - already installed"

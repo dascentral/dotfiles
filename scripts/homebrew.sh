@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 if ! homebrew_installed; then
     # Homebrew Installation
@@ -15,12 +15,12 @@ if ! homebrew_installed; then
     printf "\n\n"
 else
     # Homebrew Maintenance
-    info "Brew upgrade."
-    brew upgrade
-    printf "\n"
-
     info "Brew update."
     brew update
+    printf "\n"
+
+    info "Brew upgrade."
+    brew upgrade
     printf "\n"
 
     info "Brew cleanup."

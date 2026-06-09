@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 LOCALPATH="${HOME}/.claude"
 CLOUDPATH="${DOTFILES}/config/Claude"

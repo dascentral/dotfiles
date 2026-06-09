@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /Users/${USER}/.dotfiles/lib/config.sh
+source "${HOME}/.dotfiles/lib/config.sh"
 
 # TODO: IF composer does not exist, output warning and skip execution
 # composer should have been installed via "brew bundle"
@@ -18,10 +18,10 @@ declare -a packages=(
     "spatie/global-ray"
     "tightenco/takeout"
 )
-for item in ${packages[@]}; do
-    parts=(`echo $item | tr '/' ' '`)
-    if [ ! -e "/Users/${USER}/.composer/vendor/${parts[0]}/${parts[1]}" ]; then
-        composer global require ${item}
+composer_home="${COMPOSER_HOME:-${HOME}/.composer}"
+for item in "${packages[@]}"; do
+    if [ ! -e "${composer_home}/vendor/${item}" ]; then
+        composer global require "${item}"
         success "${item} - installed"
     else
         line "${item} - already installed"
