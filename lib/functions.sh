@@ -145,7 +145,7 @@ dotfiles_live_where_expected() {
 }
 
 dotfiles_confirm_stable() {
-    if [ ! -e "${PRIVATE}" ]; then
+    if [ -e "${PRIVATE}" ]; then
       cd ${PRIVATE}
       if ! git diff-index --quiet HEAD --; then
           abort "The private dotfiles repo has pending changes."
