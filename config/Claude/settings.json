@@ -31,6 +31,7 @@
     ],
     "defaultMode": "acceptEdits"
   },
+  "model": "sonnet",
   "statusLine": {
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
@@ -60,6 +61,5 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "agentPushNotifEnabled": true,
-  "model": "opus"
+  "agentPushNotifEnabled": true
 }
