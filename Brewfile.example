@@ -64,13 +64,14 @@
 # cask 'elgato-stream-deck'      # https://formulae.brew.sh/cask/elgato-stream-deck
 # cask 'expressvpn'              # https://formulae.brew.sh/cask/expressvpn
 # cask 'figma'                   # https://formulae.brew.sh/cask/figma
+# cask 'ghostty'                 # https://formulae.brew.sh/cask/ghostty
 # cask 'github'                  # https://formulae.brew.sh/cask/github
 # cask 'google-chrome'           # https://formulae.brew.sh/cask/google-chrome
 # cask 'google-drive'            # https://formulae.brew.sh/cask/google-drive
 # cask 'grammarly-desktop'       # https://formulae.brew.sh/cask/grammarly-desktop
 # cask 'herd'                    # https://formulae.brew.sh/cask/herd
 # cask 'iterm2'                  # https://formulae.brew.sh/cask/iterm2
-# cask 'libreoffice'             # https://formulae.brew.sh/cask/libreoffice
+# cask 'keeper-password-manager' # https://formulae.brew.sh/cask/keeper-password-manager
 # cask 'logi-options+'           # https://formulae.brew.sh/cask/logi-options+
 # cask 'miro'                    # https://formulae.brew.sh/cask/miro
 # cask 'monotype'                # https://formulae.brew.sh/cask/monotype
@@ -86,6 +87,7 @@
 # cask 'signal'                  # https://formulae.brew.sh/cask/signal
 # cask 'slack'                   # https://formulae.brew.sh/cask/slack
 # cask 'spotify'                 # https://formulae.brew.sh/cask/spotify
+# cask 'sublime-text'            # https://formulae.brew.sh/cask/sublime-text
 # cask 'teamviewer'              # https://formulae.brew.sh/cask/teamviewer
 # cask 'tinkerwell'              # https://formulae.brew.sh/cask/tinkerwell
 # cask 'tower'                   # https://formulae.brew.sh/cask/tower
