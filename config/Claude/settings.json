@@ -31,7 +31,6 @@
     ],
     "defaultMode": "acceptEdits"
   },
-  "model": "claude-opus-4-6",
   "statusLine": {
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
@@ -61,5 +60,7 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "agentPushNotifEnabled": true
+  "tui": "fullscreen",
+  "agentPushNotifEnabled": true,
+  "model": "claude-opus-4-6"
 }
