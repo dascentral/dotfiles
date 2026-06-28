@@ -6,7 +6,7 @@ argument-hint: Any additional context or change in direction for this session
 
 # Resume
 
-Read `handoff.md` in the repository root and orient yourself to the previous session's context. If it's missing (or the working directory is not a repository), fall back to `~/.claude/handoff.md`.
+Read `handoff.md` in the repository root and orient yourself to the previous session's context. If it's missing, tell the user there is no handoff document to resume from and stop.
 
 Once you have read the handoff document, delete it from disk.
 
