@@ -92,6 +92,7 @@
 # cask 'tinkerwell'              # https://formulae.brew.sh/cask/tinkerwell
 # cask 'tower'                   # https://formulae.brew.sh/cask/tower
 # cask 'typora'                  # https://formulae.brew.sh/cask/typora
+# cask 'veracrypt'               # https://formulae.brew.sh/cask/veracrypt
 # cask 'visual-studio-code'      # https://formulae.brew.sh/cask/visual-studio-code
 # cask 'vlc'                     # https://formulae.brew.sh/cask/vlc
 # cask 'whatsapp'                # https://formulae.brew.sh/cask/whatsapp
