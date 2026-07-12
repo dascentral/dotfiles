@@ -95,6 +95,7 @@
 # cask 'visual-studio-code'      # https://formulae.brew.sh/cask/visual-studio-code
 # cask 'vlc'                     # https://formulae.brew.sh/cask/vlc
 # cask 'whatsapp'                # https://formulae.brew.sh/cask/whatsapp
+# cask 'xld'                     # https://formulae.brew.sh/cask/xld
 # cask 'zoom'                    # https://formulae.brew.sh/cask/zoom
 
 # Optional Cask Installations
