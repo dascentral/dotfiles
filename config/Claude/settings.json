@@ -31,7 +31,7 @@
     ],
     "defaultMode": "acceptEdits"
   },
-  "model": "claude-opus-4-6",
+  "model": "claude-sonnet-4-6",
   "statusLine": {
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
