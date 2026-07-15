@@ -40,7 +40,6 @@
     "laravel-simplifier@laravel": true,
     "code-simplifier@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
-    "agent-skills@addy-agent-skills": true,
     "claude-code-setup@claude-plugins-official": true,
     "notion-workspace-plugin@notion-plugin-marketplace": true,
     "security-guidance@claude-plugins-official": true
