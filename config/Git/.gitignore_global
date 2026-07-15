@@ -1,0 +1,85 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+
+# Editor & IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.nova/
+
+# Cursor / AI editors
+.cursor/
+.aider*
+
+# PHP / Laravel
+.env
+.env.backup
+.phpunit.result.cache
+/vendor/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build artifacts
+dist/
+build/
+*.min.js
+*.min.css
+
+# Logs
+*.log
+logs/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Keys & secrets
+*.pem
+*.key
+*.p12
+*.cert
+id_rsa
+id_rsa.pub
+
+# Terraform / Terragrunt
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terragrunt-cache/
+
+# Misc
+*.bak
+*.orig
+.scratch/
+
+**/.claude/settings.local.json
