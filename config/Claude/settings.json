@@ -23,7 +23,6 @@
       "Bash(vendor/bin/pest:*)",
       "Bash(vendor/bin/pint:*)",
       "Read(~/.claude/**)",
-      "Write(~/.claude/handoff.md)",
       "Write(~/.claude/settings.json)",
       "WebSearch",
       "mcp__context7__*",
