@@ -13,10 +13,10 @@ If you're interested in the philosophy behind why projects like these are awesom
 
 The following repositories may provide additional examples from which to draw inspiration.
 
-- [dotfiles.github.io](https://dotfiles.github.io/) — Your unofficial guide to dotfiles on GitHub
+- [dotfiles.github.io](https://dotfiles.github.io/) &mdash; Your unofficial guide to dotfiles on GitHub
 - [Dries Vints](https://github.com/driesvints/dotfiles)
-- [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) — Linux-focused for those managing servers
-- [Freek Van der Herten's](https://github.com/freekmurze/dotfiles)
+- [Fabio Ivona](https://github.com/fabio-ivona/.dotfiles) &mdash; Linux-focused for those managing servers
+- [Freek Van der Herten's](https://github.com/freekmurze/dotfiles) &mdash; Read [A tour of my dotfiles](https://freek.dev/3054-a-tour-of-my-dotfiles), July 2026
 - [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 - [Matt Stauffer](github.com/mattstauffer/dotfiles/)
 - [Michael Dyrynda](https://github.com/michaeldyrynda/dotfiles)
