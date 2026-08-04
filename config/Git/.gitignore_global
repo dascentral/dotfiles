@@ -26,7 +26,6 @@ $RECYCLE.BIN/
 .nova/
 
 # Cursor / AI editors
-.cursor/
 .aider*
 
 # PHP / Laravel
