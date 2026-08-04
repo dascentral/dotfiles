@@ -9,17 +9,21 @@ This is a personal macOS dotfiles repository for automating machine setup and ma
 ## Key Commands
 
 **Initial machine setup** (run once on a new machine):
+
 ```bash
 ~/.dotfiles/install.sh
 ```
 
 **Ongoing maintenance** (run regularly to keep the machine up-to-date):
+
 ```bash
 dotfiles
 ```
+
 The `dotfiles` binary lives in `bin/` which is added to `$PATH` via `.zshrc`. It pulls the latest repo, runs Homebrew maintenance, updates Composer packages, refreshes Git/SSH/editor configs, and applies macOS settings.
 
 **Run an individual setup script:**
+
 ```bash
 ./scripts/homebrew.sh
 ./scripts/cursor.sh
@@ -31,9 +35,9 @@ The `dotfiles` binary lives in `bin/` which is added to `$PATH` via `.zshrc`. It
 
 ### Entry Points
 
-| File | Purpose |
-|------|---------|
-| `install.sh` | First-run setup for a new machine |
+| File           | Purpose                                     |
+| -------------- | ------------------------------------------- |
+| `install.sh`   | First-run setup for a new machine           |
 | `bin/dotfiles` | Idempotent maintenance script run regularly |
 
 Both source `lib/config.sh` which loads `lib/colors.sh` (terminal color vars) and `lib/functions.sh` (shared utility functions).
