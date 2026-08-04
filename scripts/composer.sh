@@ -13,10 +13,10 @@ printf "\n"
 info "Installing global Composer packages."
 declare -a packages=(
     "laravel/installer"
+    "laravel/lsp"
     "laravel/pint"
     "laravel/valet"
     "spatie/global-ray"
-    "tightenco/takeout"
 )
 composer_home="${COMPOSER_HOME:-${HOME}/.composer}"
 for item in "${packages[@]}"; do
