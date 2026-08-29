@@ -28,7 +28,7 @@
       "mcp__context7__*",
       "mcp__laravel-boost__*"
     ],
-    "defaultMode": "acceptEdits"
+    "defaultMode": "auto"
   },
   "model": "claude-opus-4-6",
   "statusLine": {
@@ -61,5 +61,38 @@
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "tui": "fullscreen",
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "autoMode": {
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured (personal/hobby repo — no employer org evidence in this repo)",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: Private — dascentral/dascentral.com (confirmed via gh)",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured — CI references secret names COMPOSER_AUTH, SSH_PRIVATE_KEY (names only, not values); .env / .env.production / .env.backup / storage credential files are gitignored locally",
+      "**Default / protected branches**: main (default). Protected branches: none listed via gh; rulesets not queryable here, so protection status is unconfirmed either way — treat main as sensitive to force-push/history-rewrite regardless",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Source control**: The trusted repo (dascentral/dascentral.com on github.com) and its remote only — no additional orgs configured",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: .env, .env.production, .env.backup, /storage/*.key, /storage/credentials (gitignored — contain app keys, DB, mail, Slack, AWS, Google Drive, Nightwatch, Resend, Oh Dear credentials per .env.example); share only with the repo owner",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic (this repo's APP_ENV=production and .env.production are the concrete instance of that pattern here)",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: software development (personal Laravel multi-app project — dascentral.com and hosted side sites: HR Derby, O'Hara Tradition, Summer Mission Project, Lewinsville, Wedding)",
+      "**Trusted repo**: /Users/douglas.smith/Code/dascentral.com (github.com:dascentral/dascentral.com) — private, personal repo; confidential material (non-secret) may live here, but secrets/credentials are never cleared into it by visibility alone",
+      "**Org-specific CLIs**: None configured (php, composer, npx, herd, mysql seen — all standard Laravel/PHP tooling, not org-specific)",
+      "routine under dascentral/ prefix: git and gh operations against the dascentral GitHub org's dascentral.com repo (this repo's own remote) are routine"
+    ],
+    "soft_deny": [
+      "$defaults",
+      "Bash(php artisan migrate:fresh:*) in dascentral.com — destructive DB reset, not covered by default Git Destructive/Irreversible Local Destruction labels",
+      "Bash(php artisan db:wipe:*) in dascentral.com — drops all tables"
+    ]
+  }
 }
