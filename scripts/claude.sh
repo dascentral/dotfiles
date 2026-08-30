@@ -21,13 +21,3 @@ for item in "${links[@]}"; do
     fi
 done
 printf "\n"
-
-info "Copying Claude Code skills."
-mkdir -p "${LOCALPATH}/skills"
-for skill_path in "${CLOUDPATH}/skills"/*/; do
-    name=$(basename "${skill_path}")
-    rm -rf "${LOCALPATH}/skills/${name}"
-    cp -R "${skill_path}" "${LOCALPATH}/skills/${name}"
-    success "skill: ${name}"
-done
-printf "\n"
