@@ -63,6 +63,11 @@
   "tui": "fullscreen",
   "agentPushNotifEnabled": true,
   "autoMode": {
+    "soft_deny": [
+      "$defaults",
+      "Bash(php artisan migrate:fresh:*) in dascentral.com — destructive DB reset, not covered by default Git Destructive/Irreversible Local Destruction labels",
+      "Bash(php artisan db:wipe:*) in dascentral.com — drops all tables"
+    ],
     "environment": [
       "### Org-wide",
       "**Organization**: None configured (personal/hobby repo — no employer org evidence in this repo)",
@@ -88,11 +93,6 @@
       "**Trusted repo**: /Users/douglas.smith/Code/dascentral.com (github.com:dascentral/dascentral.com) — private, personal repo; confidential material (non-secret) may live here, but secrets/credentials are never cleared into it by visibility alone",
       "**Org-specific CLIs**: None configured (php, composer, npx, herd, mysql seen — all standard Laravel/PHP tooling, not org-specific)",
       "routine under dascentral/ prefix: git and gh operations against the dascentral GitHub org's dascentral.com repo (this repo's own remote) are routine"
-    ],
-    "soft_deny": [
-      "$defaults",
-      "Bash(php artisan migrate:fresh:*) in dascentral.com — destructive DB reset, not covered by default Git Destructive/Irreversible Local Destruction labels",
-      "Bash(php artisan db:wipe:*) in dascentral.com — drops all tables"
     ]
   }
 }
