@@ -59,18 +59,32 @@ clone_or_update_repo() {
         abort "Not a git repository: $path"
     fi
 
+    git fetch origin --quiet
+
     local current_branch trunk_branch stash_needed=false
 
     current_branch=$(git rev-parse --abbrev-ref HEAD)
 
-    # Detect trunk branch
-    if git show-ref --verify --quiet refs/heads/develop; then
-        trunk_branch="develop"
-    elif git show-ref --verify --quiet refs/heads/main; then
-        trunk_branch="main"
-    else
-        popd > /dev/null
-        abort "No 'main' or 'develop' branch found in ${label}. Skipping update."
+    # Detect trunk: check the remote default branch first, then fall back to local branches
+    trunk_branch=$(git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | sed 's|refs/remotes/origin/||')
+
+    if [ -z "$trunk_branch" ]; then
+        if git show-ref --verify --quiet refs/heads/main; then
+            trunk_branch="main"
+        elif git show-ref --verify --quiet refs/heads/master; then
+            trunk_branch="master"
+        elif git show-ref --verify --quiet refs/heads/develop; then
+            trunk_branch="develop"
+        else
+            popd > /dev/null
+            abort "No trunk branch found in ${label}. Skipping update."
+        fi
+    fi
+
+    # Create trunk branch locally if it only exists on the remote
+    if ! git show-ref --verify --quiet refs/heads/"$trunk_branch"; then
+        git checkout -b "$trunk_branch" "origin/$trunk_branch" --quiet
+        git checkout "$current_branch" --quiet 2>/dev/null || true
     fi
 
     # Check for uncommitted changes
