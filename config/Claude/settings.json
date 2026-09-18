@@ -35,6 +35,8 @@
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
   },
+  "timeZone": "America/New_York",
+  "timeFormat": "12-hour",
   "enabledPlugins": {
     "laravel-simplifier@laravel": true,
     "code-simplifier@claude-plugins-official": true,
@@ -94,5 +96,6 @@
       "**Org-specific CLIs**: None configured (php, composer, npx, herd, mysql seen — all standard Laravel/PHP tooling, not org-specific)",
       "routine under dascentral/ prefix: git and gh operations against the dascentral GitHub org's dascentral.com repo (this repo's own remote) are routine"
     ]
-  }
+  },
+  "autoCompactEnabled": false
 }
