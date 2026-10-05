@@ -48,7 +48,7 @@
 
 # Casks that I typically installed manually before I've cloned this repository
 # cask '1password'
-# cask '1password-cli'
+# cask '1password-cli'           # https://formulae.brew.sh/cask/1password-cli
 # cask 'sublime-text'
 
 # Typical Cask Installations
