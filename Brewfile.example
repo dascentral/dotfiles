@@ -23,6 +23,7 @@
 # brew 'gh'
 # brew 'ghostscript'           # https://formulae.brew.sh/formula/ghostscript
 # brew 'git'
+# brew 'gitleaks'              # https://formulae.brew.sh/formula/gitleaks
 # brew 'gnupg'
 # brew 'hashicorp/tap/packer'
 # brew 'httpie'
