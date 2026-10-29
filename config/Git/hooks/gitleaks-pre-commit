@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Scan staged changes for secrets before committing. This repo is public.
+# Global pre-commit hook (wired up in config/Git/.gitconfig) that scans
+# staged changes for secrets. It runs alongside each repo's own hooks.
 
 if ! command -v gitleaks >/dev/null 2>&1; then
     echo "pre-commit: gitleaks is not installed (brew install gitleaks). Commit blocked." >&2

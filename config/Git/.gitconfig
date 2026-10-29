@@ -14,3 +14,6 @@
 	required = true
 [core]
 	excludesfile = ~/.gitignore_global
+[hook "gitleaks"]
+	event = pre-commit
+	command = ~/.dotfiles/config/Git/hooks/gitleaks-pre-commit

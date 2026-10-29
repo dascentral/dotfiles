@@ -19,7 +19,7 @@ Keep these out of commits:
 
 Settings files are symlinked live (`config/Claude/settings.json` → `~/.claude/settings.json`, plus the editor settings), so apps write to them directly. Claude Code's auto-mode setup, for example, once wrote a private project's security profile into `config/Claude/settings.json`. Review changes in these files with extra care, because the app made them and nobody chose them.
 
-When the diff contains anything in the categories above, stop and tell the user before committing. The `.githooks/pre-commit` hook (enabled by `scripts/git.sh`) runs `gitleaks` on staged changes, but it catches secret patterns only, not reconnaissance. A manual review is still required.
+When the diff contains anything in the categories above, stop and tell the user before committing. The global gitleaks pre-commit hook (see `config/Git/`) scans staged changes, but it catches secret patterns only, not reconnaissance. A manual review is still required.
 
 ## Key Commands
 
@@ -66,7 +66,7 @@ Both source `lib/config.sh` which loads `lib/colors.sh` (terminal color vars) an
   - `settings/macOS/config` — macOS `defaults` commands (referenced by `scripts/macos.sh`)
 - **`config/`** — Source configs that get linked or copied to `~`:
   - `config/Claude/skills/` — Claude Code user-level skills, one directory per skill, each containing a `SKILL.md`. Copied (not symlinked) per-directory into `~/.claude/skills/` by `scripts/claude.sh`, so plugin-installed and hand-authored skills can coexist alongside dotfiles-managed ones. The `_shared/` directory holds reference files used by multiple skills, not skills themselves.
-  - `config/Git/` — Git configuration (linked to `~/.gitconfig`)
+  - `config/Git/` — Git configuration (linked to `~/.gitconfig`). `hooks/gitleaks-pre-commit` is registered as a config-based `hook.gitleaks` (Git 2.54+), so it runs in every repo alongside repo-local hooks such as Husky.
   - `config/Alfred/` — Alfred workflows
 - **`lib/`** — Shared bash utilities (`colors.sh`, `functions.sh`, `config.sh`)
 - **`bin/`** — Scripts added to `$PATH` (via `.zshrc`), including personal workflow helpers
