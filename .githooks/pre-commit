@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Scan staged changes for secrets before committing. This repo is public.
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+    echo "pre-commit: gitleaks is not installed (brew install gitleaks). Commit blocked." >&2
+    exit 1
+fi
+
+exec gitleaks git --pre-commit --staged --redact --no-banner

@@ -19,4 +19,11 @@ else
     line ".gitignore_global - already linked"
 fi
 
+if [ "$(git -C "${DOTFILES}" config core.hooksPath)" != ".githooks" ]; then
+    git -C "${DOTFILES}" config core.hooksPath .githooks
+    success "dotfiles git hooks - enabled"
+else
+    line "dotfiles git hooks - already enabled"
+fi
+
 printf "\n"

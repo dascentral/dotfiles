@@ -6,6 +6,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a personal macOS dotfiles repository for automating machine setup and maintenance. All scripts assume the repo is cloned to `~/.dotfiles`.
 
+## Public Repository
+
+This repo is **public on GitHub**. Before every commit, read the staged diff (`git diff --cached`) line by line and confirm it holds only portable, publishable config. Commit history is permanent, so treat each commit as published.
+
+Keep these out of commits:
+
+- Secrets: tokens, API keys, passwords, private keys, auth headers.
+- Reconnaissance: names of private repos or orgs, internal hostnames, where credential files live, names of CI secrets, branch-protection status, which third-party services a project holds credentials for.
+- Personal details beyond the owner's name and email.
+- Project-specific config. It belongs in that project's git-ignored `.claude/settings.local.json` or in another machine-local file (the `Brewfile` pattern).
+
+Settings files are symlinked live (`config/Claude/settings.json` → `~/.claude/settings.json`, plus the editor settings), so apps write to them directly. Claude Code's auto-mode setup, for example, once wrote a private project's security profile into `config/Claude/settings.json`. Review changes in these files with extra care, because the app made them and nobody chose them.
+
+When the diff contains anything in the categories above, stop and tell the user before committing. The `.githooks/pre-commit` hook (enabled by `scripts/git.sh`) runs `gitleaks` on staged changes, but it catches secret patterns only, not reconnaissance. A manual review is still required.
+
 ## Key Commands
 
 **Initial machine setup** (run once on a new machine):
